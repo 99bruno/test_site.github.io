@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant List</title>
+    <style>
+        /* Додайте необхідні стилі тут */
+        .restaurant {
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Restaurant List</h1>
+    <input type="text" id="searchInput" placeholder="Search for restaurants...">
+    <div id="restaurantList">
+        <!-- Ресторани будуть вставлені тут за допомогою JavaScript -->
+    </div>
+    <script>
+        const restaurants = [
+            { name: "Pizza Place", category: "Italian", location: "Downtown" },
+            { name: "Sushi World", category: "Japanese", location: "Uptown" },
+            { name: "Burger Hub", category: "Fast Food", location: "Suburb" },
+            // Додайте більше ресторанів
+        ];
+
+        function displayRestaurants(restaurants) {
+            const restaurantList = document.getElementById("restaurantList");
+            restaurantList.innerHTML = "";
+
+            restaurants.forEach(restaurant => {
+                const restaurantDiv = document.createElement("div");
+                restaurantDiv.className = "restaurant";
+                restaurantDiv.innerHTML = `<h2>${restaurant.name}</h2>
+                                           <p>Category: ${restaurant.category}</p>
+                                           <p>Location: ${restaurant.location}</p>`;
+                restaurantList.appendChild(restaurantDiv);
+            });
+        }
+
+        document.getElementById("searchInput").addEventListener("input", function () {
+            const searchTerm = this.value.toLowerCase();
+            const filteredRestaurants = restaurants.filter(restaurant =>
+                restaurant.name.toLowerCase().includes(searchTerm) ||
+                restaurant.category.toLowerCase().includes(searchTerm) ||
+                restaurant.location.toLowerCase().includes(searchTerm)
+            );
+            displayRestaurants(filteredRestaurants);
+        });
+
+        // Відображаємо всі ресторани при завантаженні сторінки
+        displayRestaurants(restaurants);
+    </script>
+</body>
+</html>
