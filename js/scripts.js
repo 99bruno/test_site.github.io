@@ -1,9 +1,14 @@
-const restaurants = [
-    { name: "Pizza Place", category: "Italian", location: "Downtown", url: "Restaurant_1.html" },
-    { name: "Sushi World", category: "Japanese", location: "Uptown", url: "restaurant2.html" },
-    { name: "Burger Hub", category: "Fast Food", location: "Suburb", url: "restaurant3.html" },
-    // Додайте більше ресторанів
-];
+document.addEventListener("DOMContentLoaded", function () {
+    Papa.parse("data/Restaurants.csv", {
+        download: true,
+        header: true,
+        complete: function (results) {
+            const restaurants = results.data;
+            displayRestaurants(restaurants);
+            setupSearch(restaurants);
+        }
+    });
+});
 
 function displayRestaurants(restaurants) {
     const restaurantList = document.getElementById("restaurantList");
@@ -12,22 +17,23 @@ function displayRestaurants(restaurants) {
     restaurants.forEach(restaurant => {
         const restaurantDiv = document.createElement("div");
         restaurantDiv.className = "restaurant";
-        restaurantDiv.innerHTML = `<h2><a href="${restaurant.url}">${restaurant.name}</a></h2>
-                                   <p>Category: ${restaurant.category}</p>
-                                   <p>Location: ${restaurant.location}</p>`;
+        restaurantDiv.innerHTML = `
+            <h2><a href="restaurants/restaurant_${restaurant.Google_ID}.html">${restaurant.Name}</a></h2>
+            <p>Address: ${restaurant.Address}</p>
+            <p>Open time: ${restaurant['Monday Open time']}</p>
+            <p>Overall price level: ${restaurant['Overall price level']}</p>`;
         restaurantList.appendChild(restaurantDiv);
     });
 }
 
-document.getElementById("searchInput").addEventListener("input", function () {
-    const searchTerm = this.value.toLowerCase();
-    const filteredRestaurants = restaurants.filter(restaurant =>
-        restaurant.name.toLowerCase().includes(searchTerm) ||
-        restaurant.category.toLowerCase().includes(searchTerm) ||
-        restaurant.location.toLowerCase().includes(searchTerm)
-    );
-    displayRestaurants(filteredRestaurants);
-});
-
-// Відображаємо всі ресторани при завантаженні сторінки
-displayRestaurants(restaurants);
+function setupSearch(restaurants) {
+    document.getElementById("searchInput").addEventListener("input", function () {
+        const searchTerm = this.value.toLowerCase();
+        const filteredRestaurants = restaurants.filter(restaurant =>
+            restaurant.Name.toLowerCase().includes(searchTerm) ||
+            restaurant.Address.toLowerCase().includes(searchTerm) ||
+            restaurant.Type.toLowerCase().includes(searchTerm)
+        );
+        displayRestaurants(filteredRestaurants);
+    });
+}

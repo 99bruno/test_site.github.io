@@ -4,14 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant List</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const csvFilePath = 'data/Restaurants.csv';
+            Papa.parse(csvFilePath, {
+                download: true,
+                header: true,
+                complete: function (results) {
+                    const restaurants = results.data;
+                    displayRestaurants(restaurants);
+                    addSearchFunctionality(restaurants);
+                }
+            });
+
+            function displayRestaurants(restaurants) {
+                const restaurantList = document.getElementById('restaurant-list');
+                restaurantList.innerHTML = ''; // Clear existing list
+                restaurants.forEach(restaurant => {
+                    const restaurantItem = document.createElement('div');
+                    restaurantItem.className = 'restaurant-item';
+                    restaurantItem.innerHTML = `
+                        <h2><a href="restaurants/restaurant_${restaurant.Google_ID}.html">${restaurant.Name}</a></h2>
+                        <p>Address: ${restaurant.Address}</p>
+                        <p>Open time: ${restaurant['Monday Open time']}</p>
+                        <p>Overall price level: ${restaurant['Overall price level']}</p>
+                    `;
+                    restaurantList.appendChild(restaurantItem);
+                });
+            }
+
+            function addSearchFunctionality(restaurants) {
+                const searchInput = document.getElementById('search');
+                searchInput.addEventListener('input', function () {
+                    const query = searchInput.value.toLowerCase();
+                    const filteredRestaurants = restaurants.filter(restaurant =>
+                        restaurant.Name.toLowerCase().includes(query) ||
+                        restaurant.Address.toLowerCase().includes(query)
+                    );
+                    displayRestaurants(filteredRestaurants);
+                });
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .search-container input {
+            padding: 10px;
+            font-size: 1.2em;
+            width: 80%;
+            max-width: 600px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .restaurant-item {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .restaurant-item h2 {
+            margin: 0 0 10px;
+        }
+        .restaurant-item p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Restaurant List</h1>
-    <input type="text" id="searchInput" placeholder="Search for restaurants...">
-    <div id="restaurantList">
-        <!-- Ресторани будуть вставлені тут за допомогою JavaScript -->
+    <div class="header">
+        <h1>Restaurant List</h1>
     </div>
-    <script src="js/scripts.js"></script>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search for restaurants...">
+    </div>
+    <div id="restaurant-list"></div>
 </body>
 </html>

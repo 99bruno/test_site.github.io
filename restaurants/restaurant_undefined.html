@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{Name}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0 0 20px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .back-link {
+            display: block;
+            margin: 20px 0;
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to list</a>
+        <h1>{{Name}}</h1>
+        <p><strong>Address:</strong> {{Address}}</p>
+        <p><strong>Coordinates:</strong> {{Coordinates}}</p>
+        <p><strong>Website:</strong> <a href="{{Website}}" target="_blank">{{Website}}</a></p>
+        <p><strong>Phone:</strong> {{Phone}}</p>
+        <p><strong>Type:</strong> {{Type}}</p>
+        <h2>Opening Hours</h2>
+        <p><strong>Monday:</strong> {{Monday Open time}} - {{Monday Close time}}</p>
+        <p><strong>Tuesday:</strong> {{Tuesday Open time}} - {{Tuesday Close time}}</p>
+        <p><strong>Wednesday:</strong> {{Wednesday Open time}} - {{Wednesday Close time}}</p>
+        <p><strong>Thursday:</strong> {{Thursday Open time}} - {{Thursday Close time}}</p>
+        <p><strong>Friday:</strong> {{Friday Open time}} - {{Friday Close time}}</p>
+        <p><strong>Saturday:</strong> {{Saturday Open time}} - {{Saturday Close time}}</p>
+        <p><strong>Sunday:</strong> {{Sunday Open time}} - {{Sunday Close time}}</p>
+        <p><strong>Average price:</strong> {{Average price}}</p>
+        <p><strong>Overall price level:</strong> {{Overall price level}}</p>
+    </div>
+</body>
+</html>
