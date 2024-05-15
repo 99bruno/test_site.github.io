@@ -1,5 +1,5 @@
 const restaurants = [
-    { name: "Pizza Place", category: "Italian", location: "Downtown", url: "../subdomens/Restaurant_1.html" },
+    { name: "Pizza Place", category: "Italian", location: "Downtown", url: "Restaurant_1.html" },
     { name: "Sushi World", category: "Japanese", location: "Uptown", url: "restaurant2.html" },
     { name: "Burger Hub", category: "Fast Food", location: "Suburb", url: "restaurant3.html" },
     // Додайте більше ресторанів
