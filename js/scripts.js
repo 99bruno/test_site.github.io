@@ -1,3 +1,7 @@
+/* global Papa */
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
     Papa.parse("data/Restaurants.csv", {
         download: true,

@@ -4,59 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant List</title>
-    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const csvFilePath = 'data/Restaurants.csv';
-            Papa.parse(csvFilePath, {
-                download: true,
-                header: true,
-                complete: function (results) {
-                    const restaurants = results.data;
-                    displayRestaurants(restaurants);
-                    addSearchFunctionality(restaurants);
-                }
-            });
-
-            function displayRestaurants(restaurants) {
-                const restaurantList = document.getElementById('restaurant-list');
-                restaurantList.innerHTML = ''; // Clear existing list
-                restaurants.forEach(restaurant => {
-                    const restaurantItem = document.createElement('div');
-                    restaurantItem.className = 'restaurant-item';
-                    restaurantItem.innerHTML = `
-                        <h2><a href="restaurants/restaurant_${restaurant.Google_ID}.html">${restaurant.Name}</a></h2>
-                        <p>Address: ${restaurant.Address}</p>
-                        <p>Open time: ${restaurant['Monday Open time']}</p>
-                        <p>Overall price level: ${restaurant['Overall price level']}</p>
-                    `;
-                    restaurantList.appendChild(restaurantItem);
-                });
-            }
-
-            function addSearchFunctionality(restaurants) {
-                const searchInput = document.getElementById('search');
-                searchInput.addEventListener('input', function () {
-                    const query = searchInput.value.toLowerCase();
-                    const filteredRestaurants = restaurants.filter(restaurant =>
-                        restaurant.Name.toLowerCase().includes(query) ||
-                        restaurant.Address.toLowerCase().includes(query)
-                    );
-                    displayRestaurants(filteredRestaurants);
-                });
-            }
-        });
-    </script>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
+            margin: 10%;
+            padding: 10px;
             background-color: #f8f8f8;
         }
         .header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
         }
         .header h1 {
             margin: 0;
@@ -98,4 +55,51 @@
     </div>
     <div id="restaurant-list"></div>
 </body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+<script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const csvFilePath = 'data/Restaurants.csv';
+            Papa.parse(csvFilePath, {
+                download: true,
+                header: true,
+                complete: function (results) {
+                    const restaurants = results.data;
+                    displayRestaurants(restaurants);
+                    addSearchFunctionality(restaurants);
+
+                }
+            });
+
+            function displayRestaurants(restaurants) {
+                const restaurantList = document.getElementById('restaurant-list');
+                restaurantList.innerHTML = ''; // Clear existing list
+                restaurants.forEach(restaurant => {
+                    const restaurantItem = document.createElement('div');
+                    restaurantItem.className = 'restaurant-item';
+                    restaurantItem.innerHTML = `
+                        <h2><a href="restaurants/restaurant_${restaurant.Google_ID}.html">${restaurant.Name}</a></h2>
+                        <p>Address: ${restaurant.Address}</p>
+                        <p>Open time: ${restaurant['Monday Open time']}</p>
+                        <p>Overall price level: ${restaurant['Overall price level']}</p>
+                    `;
+                    restaurantList.appendChild(restaurantItem);
+                });
+            }
+
+            function addSearchFunctionality(restaurants) {
+                const searchInput = document.getElementById('search');
+                searchInput.addEventListener('input', function () {
+                    const query = searchInput.value.toLowerCase();
+                    const filteredRestaurants = restaurants.filter(restaurant =>
+                        restaurant.Name.toLowerCase().includes(query) ||
+                        restaurant.Address.toLowerCase().includes(query)
+                    );
+                    displayRestaurants(filteredRestaurants);
+                });
+            }
+
+        });
+    </script>
 </html>
