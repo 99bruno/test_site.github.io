@@ -1,7 +1,7 @@
 const restaurants = [
-    { name: "Pizza Place", category: "Italian", location: "Downtown" },
-    { name: "Sushi World", category: "Japanese", location: "Uptown" },
-    { name: "Burger Hub", category: "Fast Food", location: "Suburb" },
+    { name: "Pizza Place", category: "Italian", location: "Downtown", url: "../subdomens/Restaurant_1.html" },
+    { name: "Sushi World", category: "Japanese", location: "Uptown", url: "restaurant2.html" },
+    { name: "Burger Hub", category: "Fast Food", location: "Suburb", url: "restaurant3.html" },
     // Додайте більше ресторанів
 ];
 
@@ -12,15 +12,12 @@ function displayRestaurants(restaurants) {
     restaurants.forEach(restaurant => {
         const restaurantDiv = document.createElement("div");
         restaurantDiv.className = "restaurant";
-        restaurantDiv.innerHTML = `<h2>${restaurant.name}</h2>
+        restaurantDiv.innerHTML = `<h2><a href="${restaurant.url}">${restaurant.name}</a></h2>
                                    <p>Category: ${restaurant.category}</p>
                                    <p>Location: ${restaurant.location}</p>`;
         restaurantList.appendChild(restaurantDiv);
     });
 }
-
-// Відображаємо всі ресторани при завантаженні сторінки
-displayRestaurants(restaurants);
 
 document.getElementById("searchInput").addEventListener("input", function () {
     const searchTerm = this.value.toLowerCase();
@@ -31,3 +28,6 @@ document.getElementById("searchInput").addEventListener("input", function () {
     );
     displayRestaurants(filteredRestaurants);
 });
+
+// Відображаємо всі ресторани при завантаженні сторінки
+displayRestaurants(restaurants);
