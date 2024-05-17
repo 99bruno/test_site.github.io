@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,219 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/367.png" alt="Restaurant Image">
         <h1>Restoran Lviv / Ресторан Львів</h1>
-        <p><strong>Address:</strong> вулиця Шевська, 16, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8421177, 'lng': 24.0294262}</p>
-        <p><strong>Website:</strong> <a href="http://leopolishotel.com/" target="_blank">http://leopolishotel.com/</a></p>
-        <p><strong>Phone:</strong> +380 322 959 515</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Tuesday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Wednesday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Thursday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Friday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Saturday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Sunday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Average price:</strong> 288.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Шевська, 16, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8421177, 'lng': 24.0294262}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://leopolishotel.com/" target="_blank">http://leopolishotel.com/</a></p>
+        <p><strong>Телефон:</strong> +380 322 959 515</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 288.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Вівторок:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Середа:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Четверг:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Пʼятниця:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Субота:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Тартар з лосося та авокадо (180г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хумус з авокадо та в'яленими томатами (220г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> теплий салат з телятиною (260г)</p>
+                <p><strong>Опис:</strong> Яловича вирізка, мікс салату, томати чері, перець богларський, кукурудза міні, пармезан, заправлений горіховим соусом</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою та беконом  (310г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Нісуаз з тунцем (280г)</p>
+                <p><strong>Опис:</strong> Філе тунця, перепилині яйця, тамати чері, оливки, картопля нуазет, мікс салату, синя цибуля, заправлений гірчично-медовим соусом</p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з лососем ніжного посолу (230г)</p>
+                <p><strong>Опис:</strong> Лосось, мікс салату, салат Айсберг огірок свіжий, томати Чері, апельсин, заправлений медово-гірчичним соусом</p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з прошуто та сиром (245г)</p>
+                <p><strong>Опис:</strong> Прошуто, сир Горгонзола, мікс салату, томати Чері, огірок, заправлений медовим соусом</p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з страчателлою та креветками (230г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дошка фрі (550г)</p>
+                <p><strong>Опис:</strong> Нагетси курячі, нагетси сирні, цибулеві кільця, картопля фрі. Подаються з соусом "Айолі гірчичним" та кетчупом</p>
+                <p><strong>Ціна:</strong> 395.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тальята з яловичини (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі крильця Бафало (300/50г)</p>
+                <p><strong>Опис:</strong> Подаються в соусі на вибір</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею та сиром (350/100г)</p>
+                <p><strong>Опис:</strong> Виріб з тіста</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп Том Ям (380г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ Український з телятиною (300/50/30г)</p>
+                <p><strong>Опис:</strong> З гарячими булочками та меленим салом</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крем-суп з горошку та беконом (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бульйон з домашньої курки з локшиною (300г)</p>
+                <p><strong>Опис:</strong> Смачний бульйон з домашньої курки, локшиною та перепелиним яйцем</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тальятеле  з лососем (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> ПАСТА ТА WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Карбонара (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> ПАСТА ТА WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Удон з креветками (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> ПАСТА ТА WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Удон з куркою (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> ПАСТА ТА WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер мексиканський з халапеньйо та картоплею фрі (350/100/50г)</p>
+                <p><strong>Опис:</strong> Котлета з яловичини Рібай, сир Чедер, сир Королівський, перець халапеньйо, салат фреш, тамат, соус гострий BBQ</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧ ТА БУРГЕР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер Нью-Йорк з картоплею фрі  (400/100/50г)</p>
+                <p><strong>Опис:</strong> Котлета з яловичини Рібай, бекон, цибулеві кільця, сир Чедер, сир Королівський, салат фреш, томат, огірки квашені, соус до бургера</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧ ТА БУРГЕР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер з куркою та картопляними діпами (350/100/50г)</p>
+                <p><strong>Опис:</strong> Куряче філе гриль, сир Чедер, сир Королівський, салат фреш, томати, огірки квашені, морква по-корейськи, соус Теріяки</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧ ТА БУРГЕР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета по-київськи з картопляно-шпинатним пюре (340г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З М'ЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Свинні реберця в соусі BBQ (450г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З М'ЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Свинні медальйони в беконі з картоплею по-домашньому (170/200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З М'ЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шпинат тушкований з вершками та пармезаном (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль (250г)</p>
+                <p><strong>Опис:</strong> Кабачок, кукурудза, печериці, томати чері, перець болгарський, цибуля червона, соус часниковий</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі  / картопляні діпи (130/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля печена з маслом та зеленню (180г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники по–домашньому зі сметаною та джемом (200/90г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вишневий штрудель (150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пепсі-кола (0.5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Трускавецька (0.5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пепсі-кола (0,25 л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Трускавецька (0.3л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

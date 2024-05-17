@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,224 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/286.png" alt="Restaurant Image">
         <h1>Alternatyvna kava / Альтернативна Кава</h1>
-        <p><strong>Address:</strong> вулиця Степана Бандери, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.83454210000001, 'lng': 24.0115613}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> </p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Tuesday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Wednesday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Thursday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Friday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 20:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 20:00:00</p>
-        <p><strong>Average price:</strong> </p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Степана Бандери, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.83454210000001, 'lng': 24.0115613}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> </p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> </p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Вівторок:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Середа:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Четверг:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Пʼятниця:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 20:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 20:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Баффало Чікен (470г)</p>
+                <p><strong>Опис:</strong> Курка баффало, моцарела, тісто, соус вершковий, олія трюфельна, каперси, пармезан, салат рукола, борошно рисове, олія соняшникова</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> Страви підтримки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лосось Авокадо (385г)</p>
+                <p><strong>Опис:</strong> Лосось, авокадо мус, крем-сир, пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Прошуто Брі (445г)</p>
+                <p><strong>Опис:</strong> Прошуто, брі, моцарела, малиновий соус, базилік</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Прошуто Трюфель (465г)</p>
+                <p><strong>Опис:</strong> Прошуто, печериці, трюфельний соус, моцарела, рукола</p>
+                <p><strong>Ціна:</strong> 219.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мортадела Страчателла (460г)</p>
+                <p><strong>Опис:</strong> Мортаделла, страчателла, томати, томатний соус, мак, рукола</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> М'ясна BBQ (490г)</p>
+                <p><strong>Опис:</strong> Прошуто котто, ковбаски bbq, томати, сирно-грибний соус, пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Прошуто Груша (435г)</p>
+                <p><strong>Опис:</strong> Прошуто, карамелізована груша, соус Горгонзола, бебі шпинат, крем бальзамічний</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Діабола (480г)</p>
+                <p><strong>Опис:</strong> Прошуто котто, салямі піканте, моцарела, соус томатний, пармезан, рукола, перець чилі</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чеддер Бекон (480г)</p>
+                <p><strong>Опис:</strong> Бекон, чедер, броколі, томати, вершковий соус, орегано</p>
+                <p><strong>Ціна:</strong> 189.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кватро Формаджіо (380г)</p>
+                <p><strong>Опис:</strong> Горгонзола, чедер, пармезан, моцарела, орегано, паприка</p>
+                <p><strong>Ціна:</strong> 189.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Потата Бекон (420г)</p>
+                <p><strong>Опис:</strong> Картопляні слайси, бекон, корнішони, сирно-грибний соус, зелена цибуля, рожевий перець</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рататуй (445г)</p>
+                <p><strong>Опис:</strong> Овочевий рататуй, родзинки, мигдалеві пластівці, морквяно-імбирний соус, рукола</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Горгонзола Виноград (490г)</p>
+                <p><strong>Опис:</strong> Горгонзола, виноград, моцарела, мед, м’ята</p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Маргарита Базиліко (380г)</p>
+                <p><strong>Опис:</strong> Моцарела, томатний соус, базилік</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> Пінса</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лосось-Авокадо (185г)</p>
+                <p><strong>Опис:</strong> Лосось, авокадо мус, крем-сир, пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Діабола (185г)</p>
+                <p><strong>Опис:</strong> Прошуто котто, салямі піканте, моцарела, соус томатний, пармезан, рукола, перець чилі</p>
+                <p><strong>Ціна:</strong> 139.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Прошуто Трюфель (170г)</p>
+                <p><strong>Опис:</strong> Прошуто, печериці, трюфельний соус, моцарела, рукола</p>
+                <p><strong>Ціна:</strong> 139.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Прошуто Брі (170г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Прошуто Груша (165г)</p>
+                <p><strong>Опис:</strong> Прошуто, карамелізована груша, соус Горгонзола, бебі шпинат, крем бальзамічний</p>
+                <p><strong>Ціна:</strong> 124.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> М'ясна BBQ (185г)</p>
+                <p><strong>Опис:</strong> Прошуто котто, ковбаски bbq, томати, сирно-грибний соус, пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 119.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Горгонзола Виноград (155г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 109.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мортадела Страчателла (175г)</p>
+                <p><strong>Опис:</strong> Мортадела, страчателла, томати, томатний соус, мак, рукола</p>
+                <p><strong>Ціна:</strong> 109.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чеддер Бекон (190г)</p>
+                <p><strong>Опис:</strong> Бекон, чедер, броколі, томати, вершковий соус, орегано</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Формаджіо (150г)</p>
+                <p><strong>Опис:</strong> Горгонзола, чедер, пармезан, моцарела, орегано, паприка</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рататуй (185г)</p>
+                <p><strong>Опис:</strong> Овочевий рататуй, родзинки, мигдалеві пластівці, морквяно-імбирний соус, рукола</p>
+                <p><strong>Ціна:</strong> 94.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Маргарита Базиліко (145г)</p>
+                <p><strong>Опис:</strong> Моцарела, томатний соус, базилік</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Потата Бекон (175г)</p>
+                <p><strong>Опис:</strong> Картопляні слайси, бекон, корнішони, сирно-грибний соус, зелена цибуля, рожевий перець</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> Пінсети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш грейпфрут (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш апельсин (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Апельсиновий сік Sandora (950мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мультивітамінний сік Sandora (950мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Томатний сік Sandora (950мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яблучний сік Sandora (950мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш морква (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш яблуко (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi (330мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi Black (330 мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr></div>
 </body>
 </html>

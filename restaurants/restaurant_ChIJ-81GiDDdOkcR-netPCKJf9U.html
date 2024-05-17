@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,220 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/291.png" alt="Restaurant Image">
         <h1>Giardino</h1>
-        <p><strong>Address:</strong> вулиця Староєврейська, 8, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.84040340000001, 'lng': 24.0318042}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> </p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 293.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Староєврейська, 8, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.84040340000001, 'lng': 24.0318042}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> </p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 293.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Бейгл з лососем та сальсою/Bagel with salmon and salsa (300 g)</p>
+                <p><strong>Опис:</strong> слабосолений лосось, манго, авокадо, кримська цибуля, крем сир, дор блю, каперси, рукола
+lightly salted salmon, mango, avocado, Crimean onion, cream cheese, dor bleu, capers, arugula</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Англійський сніданок/English (370 g)</p>
+                <p><strong>Опис:</strong> 2 яйця, ковбаски, печериці, чері, квасоля, бекон, масло, хліб
+
+ковбаски, 2 яйця, печериці, чері, квасоля, хліб, бекон, масло
+
+2 eggs, sausages, mushrooms, tomatoes cherry, bean, bread, butter, bacon</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ізраїльський сніданок/Israeli (400 g)</p>
+                <p><strong>Опис:</strong> Шакшука, піта, бабагануш, огірковий салат
+
+
+shakshuka, pita, babaganush, cucumber salad</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Панкейки з беконом та спаржею/Pancakes with bacon and asparagus (375 g)</p>
+                <p><strong>Опис:</strong> бекон, спаржа, яйце, чері, сирний соус
+
+asparagus, egg, cherry tomatoes, cheese sauce</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бейгл з беконом та скремблом/Bagel  with bacon and scramble (460 g)</p>
+                <p><strong>Опис:</strong> бекон, скрембл, чері, крем-сир песто, рукола, моцарелла, чеддер 
+bacon, scramble, cherries, pesto cream cheese, arugula, mozzarella, cheddar</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бейгл з індичкою та яйцем пашот/Bagel  with turkey and poached egg (345 g)</p>
+                <p><strong>Опис:</strong> індичка, пашот, огірки, шпинат, в‘ялені томати, крем-сир з в’яленими томатами
+turkey, poached egg, cucumbers, spinach, sun-dried tomatoes, cream cheese with sun-dried tomatoes</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комплексний/Complex (400 g)</p>
+                <p><strong>Опис:</strong> Картопля, яйця пашот, бебі морква, чері, шпинат, мікс-салат, фета, заправка мед-орегано, масло, хліб
+
+картопля, яйця пашот, бебі морква, чері, шпинат, мікс-салат, фета, заправка мед-орегано, масло, хліб</p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з крем-сиром та в'яленими томатами  (100 g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з солоною карамеллю/Croissant with salted caramel (115 g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з ягідним варенням/Croissant with berry jam (115 g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з маслом/Croissant with butter.  (80 g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бабагануш (220 g)</p>
+                <p><strong>Опис:</strong> Баклажан, гранат, кунжут, багет</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ПЕРЕКУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар з креветками (250 g)</p>
+                <p><strong>Опис:</strong> креветки, чері, ромен, перепелині яйця, пармезан, соус Цезар, крутони</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з вугрем та манго/ Salad with eel and mango (320 g)</p>
+                <p><strong>Опис:</strong> вугор, манго, Ромен, чері, огірок, авокадо, крем-сир з в‘яленими томатами, соус горіховий
+eel, mango, romaine, cherries, cucumber, avocado, cream cheese with sun-dried tomatoes, nut sauce</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою (265 g)</p>
+                <p><strong>Опис:</strong> курка, Ромен, чері, пармезан, соус Цезар, перепелині яйця, крутони</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп з печених томатів і страчателою  (330 g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп кукурудзяний з хрумким беконом/ Corn soup with crispy  bacon (250 g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Путанеска з креветками (400 г)</p>
+                <p><strong>Опис:</strong> Фетучіні, креветки, чері, пармезан, соус (анчоуси, оливки, каперси, часник, томати)</p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирна паста з раками (280 g)</p>
+                <p><strong>Опис:</strong> дорблю, пармезан, страчателла, камембер, хвостики раків, вершки, шпинат</p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб з індички з картопляно-трюфельним пюре</p>
+                <p><strong>Опис:</strong> індичка, картопляно-трюфельне пюре, сирний соус, огірки мариновані
+turkey, potato-truffle puree, cheese sauce, pickled cucumbers</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Куряче філе зі страчателлою та вишневим  компоте (350 g)</p>
+                <p><strong>Опис:</strong> куряче філе, страчателла, вишневе компоте, чері, шпинат</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чизкейк (230 g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад манго-маракуйя (0,5 мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад персиковий (0,5 мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад ревінь-кавун (0,5 мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сидр Ісла Трояндовий 0,33</p>
+                <p><strong>Опис:</strong> Напівсолодкий</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> Сидр YSLA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сидр Ісла Лотос-Лемонграс 0,33</p>
+                <p><strong>Опис:</strong> Напівсухий</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> Сидр YSLA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сидр Ісла Грушевий 0,33</p>
+                <p><strong>Опис:</strong> напівсолодкий</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> Сидр YSLA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино від Папі червоне сухе 500 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> Вино від Папі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино від Папі смородинове 500 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> Вино від Папі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино від Папі персикове 500 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> Вино від Папі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино від Папі вишневе 500 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> Вино від Папі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино від Папі шовковиця 500 мл</p>
+                <p><strong>Опис:</strong> Напівсолодке</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> Вино від Папі</p>
+                <hr></div>
 </body>
 </html>

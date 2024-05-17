@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,229 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/218.png" alt="Restaurant Image">
         <h1>Trava</h1>
-        <p><strong>Address:</strong> 104, вулиця Любінська, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8212893, 'lng': 23.9696353}</p>
-        <p><strong>Website:</strong> <a href="http://www.travacafe.com.ua/" target="_blank">http://www.travacafe.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 95 795 3959</p>
-        <p><strong>Type:</strong> bar</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 13:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 109.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> 104, вулиця Любінська, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8212893, 'lng': 23.9696353}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://www.travacafe.com.ua/" target="_blank">http://www.travacafe.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 95 795 3959</p>
+        <p><strong>Тип:</strong> bar</p>
+        <p><strong>Середня ціна:</strong> 109.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 13:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> З куркою (250г)</p>
+                <p><strong>Опис:</strong> Соус Цезаре, куряче філе, бекон, листя салату, рукола, сир Пармезан, помідори чері</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛЕНІ M</p>
+                <hr>
+                <p><strong>Позиція:</strong> З лососем (200г)</p>
+                <p><strong>Опис:</strong> Філадельфія, лосось, авокадо, мікрогрін редису, лимон</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛЕНІ M</p>
+                <hr>
+                <p><strong>Позиція:</strong> З прошуто (200г)</p>
+                <p><strong>Опис:</strong> Бальзамічний соус, прошуто, сир Моцарела, рукола, помідори Чері</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛЕНІ M</p>
+                <hr>
+                <p><strong>Позиція:</strong> З тунцем (200г)</p>
+                <p><strong>Опис:</strong> Песто, тунець, сир Моцарела, базилік, помідори Чері</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛЕНІ M</p>
+                <hr>
+                <p><strong>Позиція:</strong> З ягодами (200г)</p>
+                <p><strong>Опис:</strong> Згущене молоко, морозиво, полуниця, лохина, мікс горіхів</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛОДКІ M</p>
+                <hr>
+                <p><strong>Позиція:</strong> З нутелою (200г)</p>
+                <p><strong>Опис:</strong> Нутела, банан, мандарин, мигдалеві пластівці</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛОДКІ M</p>
+                <hr>
+                <p><strong>Позиція:</strong> З фундучною пастою (200г)</p>
+                <p><strong>Опис:</strong> Фундучна паста з молочним шоколадом, морозиво, банан</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛОДКІ M</p>
+                <hr>
+                <p><strong>Позиція:</strong> З поливкою (200г)</p>
+                <p><strong>Опис:</strong> Морозиво, топлений шоколад чи домашнє смородинове варення на вибір</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛОДКІ M</p>
+                <hr>
+                <p><strong>Позиція:</strong> З куркою (500г)</p>
+                <p><strong>Опис:</strong> Соус Цезаре, куряче філе, бекон, листя салату, рукола, пармезан, помідори чері</p>
+                <p><strong>Ціна:</strong> 440.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛЕНІ XL</p>
+                <hr>
+                <p><strong>Позиція:</strong> З лососем (400г)</p>
+                <p><strong>Опис:</strong> Філадельфія, лосось, авокадо, мікрогрін редису, лимон</p>
+                <p><strong>Ціна:</strong> 440.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛЕНІ XL</p>
+                <hr>
+                <p><strong>Позиція:</strong> З прошуто (400г)</p>
+                <p><strong>Опис:</strong> Бальзамічний соус, прошуто, сир Моцарела, рукола, помідори Чері</p>
+                <p><strong>Ціна:</strong> 400.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛЕНІ XL</p>
+                <hr>
+                <p><strong>Позиція:</strong> З тунцем (400г)</p>
+                <p><strong>Опис:</strong> Песто, тунець, сир Моцарела, базилік, помідори чері</p>
+                <p><strong>Ціна:</strong> 400.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛЕНІ XL</p>
+                <hr>
+                <p><strong>Позиція:</strong> З ягодами (400г)</p>
+                <p><strong>Опис:</strong> Згущене молоко, морозиво, полуниця, лохина, мікс горіхів</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛОДКІ XL</p>
+                <hr>
+                <p><strong>Позиція:</strong> З нутелою (400г)</p>
+                <p><strong>Опис:</strong> Нутела, банан, мандарин, мигдалеві пластівці</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛОДКІ XL</p>
+                <hr>
+                <p><strong>Позиція:</strong> З фундучною пастою (400г)</p>
+                <p><strong>Опис:</strong> Фундучна паста з молочним шоколадом, морозиво, банан</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛОДКІ XL</p>
+                <hr>
+                <p><strong>Позиція:</strong> З поливкою (400г)</p>
+                <p><strong>Опис:</strong> Морозиво, топлений шоколад/домашнє смородинове варення на вибір</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> ГОФРИ СОЛОДКІ XL</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фруктовий салат (200г)</p>
+                <p><strong>Опис:</strong> Йогурт білий, морозиво на вибір, апельсин, мандарин, банан, лохина, ківі, полуниця, мигдалеві пластівці, мікс горіхів</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> СОЛОДКІ СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Амальфі (200г)</p>
+                <p><strong>Опис:</strong> Солодко-пікантний соус, сир Фета, сир Пармезан, бекон, коктейльні помідори, листя салату</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капрезе (200г)</p>
+                <p><strong>Опис:</strong> Соус Песто, сир Моцарела, коктейльні, жовті помідори, болгарський перець, листя салату, рукола, мікс горіхів</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Меренговий рулет (150г)</p>
+                <p><strong>Опис:</strong> Яйця, цукор, вершковий сир, ванільний цукор</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Наполеон (150г)</p>
+                <p><strong>Опис:</strong> Коржі, вершкове масло, цукор, яйця, кванільний цукор, молоко та ванільний екстракт для крему.</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Снікерс (150г)</p>
+                <p><strong>Опис:</strong> Арахіс, карамель, нуга, молокошоколадна глазур, карамель і сіль.</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Флет Вайт</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ТРАДИЦІЙНА КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Подвійне капучино</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ТРАДИЦІЙНА КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лате</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ТРАДИЦІЙНА КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучино</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ТРАДИЦІЙНА КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> ТРАДИЦІЙНА КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ТРАДИЦІЙНА КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо тонік</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> КАВА З ЛЬОДОМ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Колд оранж</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> КАВА З ЛЬОДОМ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Айс лате</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> КАВА З ЛЬОДОМ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Айс какао</p>
+                <p><strong>Опис:</strong> Кавовий напій</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> КАВА З ЛЬОДОМ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш апельсиновий</p>
+                <p><strong>Опис:</strong> Солодкий негазований напій</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА (НАПОЇ)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш грейпфрутовий</p>
+                <p><strong>Опис:</strong> Солодкий негазований напій</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА (НАПОЇ)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мілкшейк банановий</p>
+                <p><strong>Опис:</strong> Солодкий негазований напій</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА (НАПОЇ)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мілкшейк шоколадний</p>
+                <p><strong>Опис:</strong> Солодкий негазований напій</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА (НАПОЇ)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш яблучно-морквяний</p>
+                <p><strong>Опис:</strong> Солодкий негазований напій</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА (НАПОЇ)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао</p>
+                <p><strong>Опис:</strong> Какао-порошок, молоко</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА (НАПОЇ)</p>
+                <hr></div>
 </body>
 </html>

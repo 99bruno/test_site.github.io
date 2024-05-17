@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,144 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/365.png" alt="Restaurant Image">
         <h1>P. Sykhiv / П. Сихів</h1>
-        <p><strong>Address:</strong> вулиця Сихівська, 22, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.7946755, 'lng': 24.0632877}</p>
-        <p><strong>Website:</strong> <a href="https://www.facebook.com/P.Sykhiv/" target="_blank">https://www.facebook.com/P.Sykhiv/</a></p>
-        <p><strong>Phone:</strong> +380 96 119 4620</p>
-        <p><strong>Type:</strong> bar</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 193.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Сихівська, 22, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.7946755, 'lng': 24.0632877}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://www.facebook.com/P.Sykhiv/" target="_blank">https://www.facebook.com/P.Sykhiv/</a></p>
+        <p><strong>Телефон:</strong> +380 96 119 4620</p>
+        <p><strong>Тип:</strong> bar</p>
+        <p><strong>Середня ціна:</strong> 193.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Піца Пріма Вера (650г)</p>
+                <p><strong>Опис:</strong> Соус фірмовий, сир Моцарела, фарш курячий, томат в'ялений, мікс салату, сир Пармезан</p>
+                <p><strong>Ціна:</strong> 305.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Кальцоне (600г)</p>
+                <p><strong>Опис:</strong> сир Моцарела, соус BBQ, шинка, томат свіжий, рукола, сир Камамбер, томат в’ялений</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Б'янко (600г)</p>
+                <p><strong>Опис:</strong> Соус вершковий, шинка, сир  Дор Блю, груша, томат Чері, базилік, мікс салату, сир Пармезан, соус фірмовий медово-гірчичний</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Тонно (550г)</p>
+                <p><strong>Опис:</strong> Соус вершковий, гірчиця американська, сир Моцарела, тунець, соус Тар-Тар, рукола, томат Чері, базилік</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Перра Б'янко (650г)</p>
+                <p><strong>Опис:</strong> сир Моцарела, соус кисло-солодкий, шинка, груша, томат Чері, рукола, крем-сир</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Кватро Маяле (550г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, печериці свіжі, салямі мілано, шинка, бекон, салямі Піканте, базилік свіжий, сир Пармезан, томат Чері</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Цезаре (630г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, філе куряче копчене, яйце куряче, мікс салату, томат Чері, соус цезар, сир Пармезан</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Сheesy cheese (500г)</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела,  сир  Дор Блю, сир  Брі, сир  Пармезан, базилік, груша, кунжут білий</p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Прошуто (500г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, базилік, прошуто Крудо, рукола, томат Чері, сир Пармезан</p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Салямі кон Помодоро (500г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі мілано, томат Чері, рукола, сир Пармезан, соус фірмовий медово-гірчичний</p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Б'янко Верде (530г)</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела, філе куряче, томат Чері, сир Пармезан, рукола, соус кисло-солодкий</p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Eat me edition (550г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі мілано, шинка, перець Болгарський, соус BBQ, сир чеддер, базилік свіжий</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Карбонара (460г)</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела, бекон, яйце перепелине, базилік, соус Sweet Chili, сир Пармезан</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Поло (550г)</p>
+                <p><strong>Опис:</strong> сир Моцарела, філе куряч, томат, перець Болгарський, гірчиця американська, сир Пармезан, соус Sweet Chili</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Папероні (500г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі Піканте, базилік, цибуля зелена, соус Sweet Chili, сир Пармезан</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Капрічоза (520г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, печериці свіжі, оливки зелені, шинка, томат Чері, рукола, сир Пармезан</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Гавайська (470г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, куряче філе копчене, ананас, соус Sweet Chili, сир Пармезан, базилік</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита (385г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, базилік</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Монопіца Поло (350г)</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела,  філе куряче, сир Пармезан, рукола, томат Чері, соус кисло-солодкий</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> МОНОПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Монопіца Салямі (350г)</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела, салямі Мілано, рукола, соус сирний, томат в'ялений, сир Пармезан</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> МОНОПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Монопіца Пепероні (350г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі Піканте, рукола, перець гострий Халапеньйо, томат Чері, сир Пармезан, соус Sweet Chili</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> МОНОПІЦА</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,119 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/401.png" alt="Restaurant Image">
         <h1>La Grotta / Ла Гротта</h1>
-        <p><strong>Address:</strong> вулиця Краківська, 9, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.84272759999999, 'lng': 24.02997389999999}</p>
-        <p><strong>Website:</strong> <a href="https://lagrottapizza.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://lagrottapizza.business.site/?utm_source=gmb&utm_medium=referral</a></p>
-        <p><strong>Phone:</strong> +380 98 040 4500</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 246.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Краківська, 9, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.84272759999999, 'lng': 24.02997389999999}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://lagrottapizza.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://lagrottapizza.business.site/?utm_source=gmb&utm_medium=referral</a></p>
+        <p><strong>Телефон:</strong> +380 98 040 4500</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 246.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Моцареца Фрі з журавлиновим соусом (300г)</p>
+                <p><strong>Опис:</strong> Великі шматки свіжої моцарела в листовому тісті. Подається з журавлиним соусом</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ПЕРЕКУСИТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирні Кульки (200г)</p>
+                <p><strong>Опис:</strong> Сирні кульки зустрілись з журавлиною (соус), щоб потішити тебе сьогодні. Бери не вагаючись, бо це топ!</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ПЕРЕКУСИТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі нагетси з соусом тартар (200г)</p>
+                <p><strong>Опис:</strong> Мматочки соковитого курячого філе в паніровці, обсмажені у фритюрі до хрусткої золотистої скоринки</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ПЕРЕКУСИТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Корн-доги (250г)</p>
+                <p><strong>Опис:</strong> Сосиски з кукурудзяному клярі. Гарно смакує з гранатовим вином та крутий вибір, щоб перекусити</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> ПЕРЕКУСИТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цибулеві кільця (200г)</p>
+                <p><strong>Опис:</strong> Цибулеві кільця в клярі. Смачний перекус, що завжди актуальний. Круто смакує з вишневим та суничним вином!</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> ПЕРЕКУСИТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля Фрі з сирним соусом (300г)</p>
+                <p><strong>Опис:</strong> Смачна картопелька фрі, великого розміру з хрусткою скоринкою. Подається з сирним соусом</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ПЕРЕКУСИТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чікен сендвіч (315г)</p>
+                <p><strong>Опис:</strong> Крутий варіант для ситного перекусу! Духмяна рвана курочка, салат айсберг, помідорки та запашний хліб</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ЩОСЬ СИТНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американський сендвіч + Фрі (550г)</p>
+                <p><strong>Опис:</strong> Дууууже ситний сендвіч з сиром, беконом, помідором, зеленню, яйцем та баварським соусом. Голодний? це вибір саме для тебе!</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ЩОСЬ СИТНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тофу-сендвіч (430г)</p>
+                <p><strong>Опис:</strong> Ситний сендвіч для хорошої людини. Моцно нагодує тебе у ці прохолодні дні, бо містить в собі тофу, томати, салатик, хумуууус, а ще карамелізовану цибульку і смачнющий соус. Цей сендвіч не містить продуктів тваринного походження</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> ЩОСЬ СИТНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста у шпинатному соусі (250г)</p>
+                <p><strong>Опис:</strong> Паста огорнута шпинатним соусом та помідорками чері. Посипаємо горішками  та пармезаном</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ЩОСЬ СИТНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фалафель з Лабне (300г)</p>
+                <p><strong>Опис:</strong> Свіжий фалафель з грецьким білим соусом Лабне</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ЩОСЬ СИТНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Палички Чурос</p>
+                <p><strong>Опис:</strong> Палички з листкового тіста з шоколадним або карамельним соусом на вибір</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбуча (300мл)</p>
+                <p><strong>Опис:</strong> Освіжаючий напій з чайного гриба з легкими нотками троянди</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиво Mova темне безакогольне (330мл)</p>
+                <p><strong>Опис:</strong> Темне безалкогольне пиво. Пишна кремова структура підкріплює ніжну м'якість під час пиття. У смаку можна зустріти солодкі ноти кави, шоколаду та меду.</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиво Mova світле безалкогольне (330мл)</p>
+                <p><strong>Опис:</strong> Пиво світло-солом'яного кольору в акомпанементі з солодко-солодовим присмаком і яскраво хмелевим ароматом</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пепсі (330 мл)</p>
+                <p><strong>Опис:</strong> Безалкогольний газований напій</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

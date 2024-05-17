@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,419 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/363.png" alt="Restaurant Image">
         <h1>Tasty Greens</h1>
-        <p><strong>Address:</strong> вулиця Братів Рогатинців, 11, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8402245, 'lng': 24.03210869999999}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 97 773 7700</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> </p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Братів Рогатинців, 11, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8402245, 'lng': 24.03210869999999}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 97 773 7700</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> </p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Сет Йокогама</p>
+                <p><strong>Опис:</strong> Філадельфія Тунець, Каліфорнія Запечений Лосось, Філадельфія Класік, Сирний Рол, Філадельфія Креветка, Каліфорнія Лосось, Філадельфія Запечений Лосось, Каліфорнія Креветка (2100г)</p>
+                <p><strong>Ціна:</strong> 1790.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Акіта</p>
+                <p><strong>Опис:</strong> Філадельфія Делюкс, Темпура Фіш, Кріспі Фіш, Золотий Дракон</p>
+                <p><strong>Ціна:</strong> 1399.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Саппоро</p>
+                <p><strong>Опис:</strong> Філадельфія Унагі Делюкс, Філадельфія Делюкс, Філадельфія Тунець, Філадельфія Креветка (1165г)</p>
+                <p><strong>Ціна:</strong> 1199.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Токіо</p>
+                <p><strong>Опис:</strong> Макс Чіз, Каліфорнія Тунець, Філадельфія Класік, Сирний Рол, Каліфорнія запечений лосось, Боніто Тамаго (1500г)</p>
+                <p><strong>Ціна:</strong> 1159.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Кіото</p>
+                <p><strong>Опис:</strong> Каліфорнія Тунець / Філадельфія Класік / Каліфорнія Унагі / Філадельфія Креветка / Сирний Рол (1300г)</p>
+                <p><strong>Ціна:</strong> 1099.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Філадельфія</p>
+                <p><strong>Опис:</strong> Філадельфія Запечена, Філадельфія Класік, Філадельфія Унагі (885г)</p>
+                <p><strong>Ціна:</strong> 949.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Сакай</p>
+                <p><strong>Опис:</strong> Філадельфія Класік / Філадельфія Лайт / Філадельфія Делюкс (880г)</p>
+                <p><strong>Ціна:</strong> 899.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Осака</p>
+                <p><strong>Опис:</strong> Нігірі Лосось, Нігірі Туна, Нігірі Креветка, Філадельфія Лосось, Філадельфія Тунець, Філадельфія Креветка (950г)</p>
+                <p><strong>Ціна:</strong> 899.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Темпура</p>
+                <p><strong>Опис:</strong> Темпура Лосось, Темпура Чіз, Темпура Смажений Лосось</p>
+                <p><strong>Ціна:</strong> 669.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Нагоя</p>
+                <p><strong>Опис:</strong> Половинка Філадельфії класік, половинка Філадельфії унагі, Каліфорнія запечений лосось(530г)</p>
+                <p><strong>Ціна:</strong> 529.0</p>
+                <p><strong>Тип:</strong> Сети</p>
+                <hr>
+                <p><strong>Позиція:</strong> Золотий Дракон</p>
+                <p><strong>Опис:</strong> Вугор, тунець, соус унагі, ікра, авокадо, огірок, кунжут, норі, рис (295г)</p>
+                <p><strong>Ціна:</strong> 479.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Унагі</p>
+                <p><strong>Опис:</strong> Вугор, сир вершковий, унагі, огірок, кунжут, норі, рис (295г)</p>
+                <p><strong>Ціна:</strong> 399.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Унагі Делюкс</p>
+                <p><strong>Опис:</strong> Вугор, унагі, сир вершковий, авокадо, тофу, кунжут, норі, рис (295г)</p>
+                <p><strong>Ціна:</strong> 399.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зелений Дракон</p>
+                <p><strong>Опис:</strong> Креветка, вугор, соус Унагі, авокадо, огірок, кунжут, норі, рис (290г)</p>
+                <p><strong>Ціна:</strong> 399.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чорний Дракон</p>
+                <p><strong>Опис:</strong> Лосось, тунець, креветка, ікра, японський майонез, норі, рис (260г)</p>
+                <p><strong>Ціна:</strong> 399.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рожевий Дракон</p>
+                <p><strong>Опис:</strong> Лосось запечений, вугор, унагі, огірок, авокадо, японський майонез, норі, рис (305г)</p>
+                <p><strong>Ціна:</strong> 399.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Темпура Фіш</p>
+                <p><strong>Опис:</strong> лосось, тунець, авокадо, сніжний краб, норі, темпура</p>
+                <p><strong>Ціна:</strong> 389.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кріспі Фіш</p>
+                <p><strong>Опис:</strong> лосось, креветка, тунець, моцарелла, тамаго, ікра, норі, рис, гострий японський майонез, темпура</p>
+                <p><strong>Ціна:</strong> 369.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Делюкс</p>
+                <p><strong>Опис:</strong> Лосось, авокадо, сир вершковий, ікра, норі, рис (300г)</p>
+                <p><strong>Ціна:</strong> 359.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Червоний Дракон</p>
+                <p><strong>Опис:</strong> Лосось, тунець, сніжний краб, авокадо, японський майонез, норі, рис (295г)</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тигровий Дракон</p>
+                <p><strong>Опис:</strong> Креветка, масляна риба, сніжний краб, огірок, тофу, японський майонез, норі, рис (295г)</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Масаго Запечений Лосось</p>
+                <p><strong>Опис:</strong> Запечений лосось, сир вершковий, авокадо, ікра, норі, рис (245г)</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Масаго Креветка</p>
+                <p><strong>Опис:</strong> Креветка, ікра, тофу, авокадо, японський майонез, норі, рис (250г)</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Масаго Лосось</p>
+                <p><strong>Опис:</strong> Лосось, авокадо, ікра, огірок, норі, рис, японський майонез (250г)</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Масаго Тунець</p>
+                <p><strong>Опис:</strong> Тунець, сніжний краб, авокадо, ікра, норі, рис, японський майонез (260г)</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Масаго Масляна</p>
+                <p><strong>Опис:</strong> Масляна риба, тунець, огірок, ікра, норі, рис, японський майонез (260г)</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Темпура Унагі</p>
+                <p><strong>Опис:</strong> вугор, авокадо, вершковий сир, норі, рис, соус унагі, кунжут, темпура</p>
+                <p><strong>Ціна:</strong> 329.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія Унагі</p>
+                <p><strong>Опис:</strong> Вугор, соус унагі, сир вершковий, огірок, кунжут, норі, рис (250г)</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кріспі Туна</p>
+                <p><strong>Опис:</strong> тунець, авокадо, сніжний краб, вершковий сир, хрумка цибулька, ікра, рис, гострий японський майонез, темпура</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Запечений Лосось</p>
+                <p><strong>Опис:</strong> Лосось запечений, унагі, тамаго, сир вершковий, норі, рис (300г)</p>
+                <p><strong>Ціна:</strong> 289.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Креветка</p>
+                <p><strong>Опис:</strong> Креветка, сир вершковий, огірок, норі, рис (280г)</p>
+                <p><strong>Ціна:</strong> 289.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Камікадзе</p>
+                <p><strong>Опис:</strong> Лосось, тамаго, огірок, ікра, стружка тунця, норі, рис (257г)</p>
+                <p><strong>Ціна:</strong> 289.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія класік</p>
+                <p><strong>Опис:</strong> Лосось, сир вершковий, авокадо, огірок, норі, рис (290г)</p>
+                <p><strong>Ціна:</strong> 279.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Лайт</p>
+                <p><strong>Опис:</strong> Лосось, сир вершковий, тофу, норі, рис (290г)</p>
+                <p><strong>Ціна:</strong> 279.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Тунець</p>
+                <p><strong>Опис:</strong> Тунець, сир вершковий, огірок, норі, рис (290г)</p>
+                <p><strong>Ціна:</strong> 279.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Масляна</p>
+                <p><strong>Опис:</strong> Масляна риба, сир вершковий, тамаго, норі, рис (290г)</p>
+                <p><strong>Ціна:</strong> 279.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Темпура Смажений Лосось</p>
+                <p><strong>Опис:</strong> смажений лосось, огірок, вершковий сир, норі, рис, соус унагі, темпура</p>
+                <p><strong>Ціна:</strong> 279.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біг Ебі Макі</p>
+                <p><strong>Опис:</strong> Креветка, норі, рис (160г)</p>
+                <p><strong>Ціна:</strong> 259.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія Креветка</p>
+                <p><strong>Опис:</strong> Креветка, сир вершковий, огірок, кунжут, норі, рис (240г)</p>
+                <p><strong>Ціна:</strong> 239.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Темпура Лосось</p>
+                <p><strong>Опис:</strong> лосось, огірок, вершковий сир, норі, рис, темпура</p>
+                <p><strong>Ціна:</strong> 239.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія Запечений Лосось</p>
+                <p><strong>Опис:</strong> Запечений лосось, сир вершковий, огірок, кунжут, норі, рис, унагі (240г)</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біг Сяке Макі</p>
+                <p><strong>Опис:</strong> Лосось, норі, рис (160г)</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія Лосось</p>
+                <p><strong>Опис:</strong> Лосось, сир вершковий, огірок, кунжут, норі, рис (240г)</p>
+                <p><strong>Ціна:</strong> 219.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія Тунець</p>
+                <p><strong>Опис:</strong> Тунець, сир вершковий, огірок, кунжут, норі, рис (240г)</p>
+                <p><strong>Ціна:</strong> 219.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія Масляна</p>
+                <p><strong>Опис:</strong> Масляна риба, сир вершковий, огірок, кунжут, норі, рис (240г)</p>
+                <p><strong>Ціна:</strong> 219.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макс Чіз</p>
+                <p><strong>Опис:</strong> Сир вершковий, сир Дор Блю, сир Чедер, тофу, соус Унагі, норі, рис (270г)</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Темпура Чіз</p>
+                <p><strong>Опис:</strong> вершковий сир, моцарелла, хрумка цибулька, норі, рис, вершковий соус, темпура</p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грін Рол</p>
+                <p><strong>Опис:</strong> Авокадо, огірок, помідор, норі, рис (260г)</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боніто Тамаго</p>
+                <p><strong>Опис:</strong> Тамаго, сир вершковий, стружка тунця, огірок, норі, рис (257г)</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біг Авокадо Макі</p>
+                <p><strong>Опис:</strong> Авокадо, соус унагі, кунжут, норі, рис (169г)</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний Рол</p>
+                <p><strong>Опис:</strong> Сир вершковий, Тофу, кунжут, норі, рис (240г)</p>
+                <p><strong>Ціна:</strong> 139.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біг Огірок Макі</p>
+                <p><strong>Опис:</strong> Огірок, кунжут, норі, рис (170г)</p>
+                <p><strong>Ціна:</strong> 119.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі Лосось</p>
+                <p><strong>Опис:</strong> Рис, лосось (45г)</p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі Креветка</p>
+                <p><strong>Опис:</strong> Рис, креветка (40г)</p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі Тунець</p>
+                <p><strong>Опис:</strong> Рис, тунець (45г)</p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Батат фрі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> Картопля</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляні діпи</p>
+                <p><strong>Опис:</strong> з копченою паприкою (140г)</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Картопля</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по-селянський</p>
+                <p><strong>Опис:</strong> з копченою паприкою (150г)</p>
+                <p><strong>Ціна:</strong> 63.0</p>
+                <p><strong>Тип:</strong> Картопля</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі</p>
+                <p><strong>Опис:</strong> з копченою паприкою (120г)</p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> Картопля</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Шрірачі</p>
+                <p><strong>Опис:</strong> 50г</p>
+                <p><strong>Ціна:</strong> 54.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Спайсі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Унагі</p>
+                <p><strong>Опис:</strong> 50г</p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус BBQ</p>
+                <p><strong>Опис:</strong> 50г</p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Чеддер</p>
+                <p><strong>Опис:</strong> 50г</p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Світ Чилі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Тартар</p>
+                <p><strong>Опис:</strong> 50г</p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Авторський кетчуп</p>
+                <p><strong>Опис:</strong> 50г</p>
+                <p><strong>Ціна:</strong> 29.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Медово-гірчичний соус</p>
+                <p><strong>Опис:</strong> 50г</p>
+                <p><strong>Ціна:</strong> 29.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Не Цезар з креветками</p>
+                <p><strong>Опис:</strong> Свіжий мікс салату з помідорами чері, креветками та пармезаном. Заправляється авторським соусом в азійському стилі.(300г)</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з халумі-гриль</p>
+                <p><strong>Опис:</strong> Свіжий мікс салату з помідорами чері та мʼякоттю апельсина, сир халумі приготовлений на грилі, авокадо та грінки, заправляється соусом Ренч.(275г)</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Азійський не Цезар</p>
+                <p><strong>Опис:</strong> Наш твіст на класичний салат. Свіжий мікс салату з помідорами чері, смажене філе стегна з беконом та пармезаном. Заправляється авторським соусом в азійському стилі.(325г)</p>
+                <p><strong>Ціна:</strong> 219.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат BLT з куркою</p>
+                <p><strong>Опис:</strong> Класичний американський салат з беконом, латуком та томатами з додаванням філе стегна та соусом Чилі-манго.(250г)</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізкейк з вишневим соусом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite 0.33 / Спрайт 0.33</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta 0,33</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-cola 0.33 жб / Кока-кола 0.33 жб</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr></div>
 </body>
 </html>

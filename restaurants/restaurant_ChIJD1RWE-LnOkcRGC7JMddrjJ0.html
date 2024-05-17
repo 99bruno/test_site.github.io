@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,474 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/178.png" alt="Restaurant Image">
         <h1>Fast Fish / Швидка Рибка</h1>
-        <p><strong>Address:</strong> вулиця Академіка Лазаренка, 1а, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.81413870000001, 'lng': 24.0190355}</p>
-        <p><strong>Website:</strong> <a href="https://fastfishua.ps.me/" target="_blank">https://fastfishua.ps.me/</a></p>
-        <p><strong>Phone:</strong> +380 67 358 5781</p>
-        <p><strong>Type:</strong> meal_takeaway</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Average price:</strong> 152.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Академіка Лазаренка, 1а, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.81413870000001, 'lng': 24.0190355}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://fastfishua.ps.me/" target="_blank">https://fastfishua.ps.me/</a></p>
+        <p><strong>Телефон:</strong> +380 67 358 5781</p>
+        <p><strong>Тип:</strong> meal_takeaway</p>
+        <p><strong>Середня ціна:</strong> 152.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Преміум бургер</p>
+                <p><strong>Опис:</strong> Солодова булочка Бріош, дві великі, соковиті котлета з 100% яловичини, свіжі овочі, вершковий сир,  фірмовим соусом</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тейсті Чізбургер</p>
+                <p><strong>Опис:</strong> Солодово булочка Бріош , яловича котлета , сирна котлета з моцарели , свіжі овочі та фірмовий соус</p>
+                <p><strong>Ціна:</strong> 186.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біг роялбургер</p>
+                <p><strong>Опис:</strong> Пшенична булочка, три соковиті котлети, подвійний вершковий сир, спілі помідори, хрумкі мариновані огірки, свіже листя салату та фірмовий соус</p>
+                <p><strong>Ціна:</strong> 156.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Роял тейсті</p>
+                <p><strong>Опис:</strong> Солодова булочка Бріош, соковита котлета з 100% яловичина, вершковий сир, листя салату,  свіжі овочі та фірмовий соус</p>
+                <p><strong>Ціна:</strong> 147.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> BBQ бургер</p>
+                <p><strong>Опис:</strong> Солодова булочка Бріош, котлета з 100% яловичини, бекон, тостовий вершковий сир, свіжий помідор, фіолетова цибуля,  фірмовий соус</p>
+                <p><strong>Ціна:</strong> 147.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Роял бургер</p>
+                <p><strong>Опис:</strong> Пшенична булочка з кунжутом, дві добре просмажені котлети, свіже листя салату, вершковий сир, стигла помідора, фірмовий соусом</p>
+                <p><strong>Ціна:</strong> 141.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар бургер</p>
+                <p><strong>Опис:</strong> Свіженька булочка з кунжутом, соковите куряче філе у паніровці, стиглий помідор, листя салату, сир Пармезан, фірмовий соус</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фіш бургер</p>
+                <p><strong>Опис:</strong> Здобна пшенична булочка, апетитний шматок рибного філе в хрусткій паніровці, , свіже листя салату, шматочки маринованого огірка та неповторний соус Тартар</p>
+                <p><strong>Ціна:</strong> 126.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Теріякі бургер</p>
+                <p><strong>Опис:</strong> Пшенична булочка , куряче філе , свіжі овочі , фірмовий соус</p>
+                <p><strong>Ціна:</strong> 123.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чілі бургер</p>
+                <p><strong>Опис:</strong> Свіжа булочка з кунжутом, смажене у фритюрі гостре куряче філе, свіже листя салату, гострий соус чилі</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філебургер</p>
+                <p><strong>Опис:</strong> Свіжа булочка з кунжутом, просмажене на грилі соковите куряче філе, свіже листя салату, стиглі томати та пікантний соус</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дабл чізбургер</p>
+                <p><strong>Опис:</strong> Пшенична булочка, дві соковиті котлети, подвійний тостовий сир, кільця хрумкого маринованого огірка, маринована цибуля, заправлені томатний соусом та гірчицею</p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гриль бургер</p>
+                <p><strong>Опис:</strong> Здобна пшенична булочка, шматочки стиглого помідора та свіжого огірка, сир тостовий, смажена яловича котлета,  шматочки салямі та  фірмовий соус</p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізбургер делюкс</p>
+                <p><strong>Опис:</strong> Пшенична булочка, смажена котлет, свіже листям салату, шматочки стиглого помідора та свіжого огірка, вершковий сир, , заправлена фірмовим соусом</p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бекон бургер</p>
+                <p><strong>Опис:</strong> Пшенична булочка, соковита котлета, обсмажений на грилі бекон, маринований огірок в  прекрасному поєднанні з пікантним соусом</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізбургер</p>
+                <p><strong>Опис:</strong> Пшенична булочка, соковита котлета, вершковий сир, хрусткі мариновані огірки, солодка маринована цибуля, соус томатний та гірчиця</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гамбургер</p>
+                <p><strong>Опис:</strong> Свіжа пшенична булочка з апетитною котлетою в поєднанні з пікантними соусами, маринованим огірком та солодкою маринованою цибулею</p>
+                <p><strong>Ціна:</strong> 54.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ранч (30см)</p>
+                <p><strong>Опис:</strong> Соус вершковий, шинка, куряче філе, помідори, соус Часниковий, сир моцарела</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца солодкий чилі (30см)</p>
+                <p><strong>Опис:</strong> Соус томатний, шинка, кукурудза, гриби, помідори, соус Чилі, сир моцарела</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Цезар (520г)</p>
+                <p><strong>Опис:</strong> Соус вершковий, куряче філе, бекон, помідор, яйце куряче, соус Цезар, сир моцарела</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Роял (450г)</p>
+                <p><strong>Опис:</strong> Соус томатний, бекон, шинка, салямі, маслини, сир моцарела</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Песто (30см)</p>
+                <p><strong>Опис:</strong> Соус вершковий, куряче філе, помідори, соус Песто, сир моцарела</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Везувій (440г)</p>
+                <p><strong>Опис:</strong> Соус томатний, шинка, кукурудза, орегано, сир моцарела</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Гавайська (480г)</p>
+                <p><strong>Опис:</strong> Соус вершковий, ананас, кукурудза, куряче філе, сир моцарела</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Капоне (470г)</p>
+                <p><strong>Опис:</strong> Соус томатний, шинка, сосиски баварські, шампіньйони, сир моцарела</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Пепероні фреш (30см)</p>
+                <p><strong>Опис:</strong> Соус томатний, салямі, гриби, цибуля, сир моцарела</p>
+                <p><strong>Ціна:</strong> 192.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Капрічіоза (450г)</p>
+                <p><strong>Опис:</strong> Соус томатний, шинка, шампіньйони, маслини, сир моцарела</p>
+                <p><strong>Ціна:</strong> 192.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Папероні (450г)</p>
+                <p><strong>Опис:</strong> Соус томатний, салямі, сир моцарела</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Баварська (460г)</p>
+                <p><strong>Опис:</strong> Соус томатний, сосиски баварські, огірок маринований, цибуля, сир моцарела</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Класична (410г)</p>
+                <p><strong>Опис:</strong> Соус томатний, куряче філе, шампіньйони, помідор, сир моцарела</p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита (500г)</p>
+                <p><strong>Опис:</strong> Соус томатний, помідори, сир моцарела</p>
+                <p><strong>Ціна:</strong> 162.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чікен рол</p>
+                <p><strong>Опис:</strong> Відбірне куряче філе обсмажене на грилі, свіжі овочі, фірмовий соус, загорнуті у пшеничний хрусткий лаваш</p>
+                <p><strong>Ціна:</strong> 123.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фіш рол</p>
+                <p><strong>Опис:</strong> Апетитне рибне філе в хрусткій паніровці, скибки маринованого огірка, фірмовим соусом Тартар, загорнуто в пшеничний хрумкий лаваш</p>
+                <p><strong>Ціна:</strong> 123.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар рол</p>
+                <p><strong>Опис:</strong> Відбірне куряче філе обсмажене на грилі, свіжі овочі, фірмовий соус, загорнуті у пшеничний хрусткий лаваш</p>
+                <p><strong>Ціна:</strong> 123.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Преміум рол</p>
+                <p><strong>Опис:</strong> Курячого філе в паніровці, свіжих овочів, фірмового соусу, що апетитно загорнуте у пшеничний хрумкий лаваш</p>
+                <p><strong>Ціна:</strong> 123.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца рол</p>
+                <p><strong>Опис:</strong> Смачний пшеничний лаваш з томатним соусом, сиром моцарела та копченим баликом, приготований в стилі піца</p>
+                <p><strong>Ціна:</strong> 123.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біфрол</p>
+                <p><strong>Опис:</strong> Смажений яловичий фарш, свіжі овочі, фірмовий соус, загурнутий в хрумкий пшеничний лаваш</p>
+                <p><strong>Ціна:</strong> 123.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бекон рол</p>
+                <p><strong>Опис:</strong> Обсмажений бекон та куряче філе, свіжих овочів, фірмового соусу, що апетитно загорнуте у пшеничний хрусткий лаваш</p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мікс рол</p>
+                <p><strong>Опис:</strong> Смажені на грилі баварські сосиски, свіжі овочі та пікантний соус, загорнуті у хрумкий лаваш</p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік (0,5л) в асортименті</p>
+                <p><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-кола (0,5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 54.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фанта (0,5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 54.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрайт (0,5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 54.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фюз</p>
+                <p><strong>Опис:</strong> Холодний чай</p>
+                <p><strong>Ціна:</strong> 54.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бонаква</p>
+                <p><strong>Опис:</strong> Мінеральна вода</p>
+                <p><strong>Ціна:</strong> 54.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-кола жб</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 42.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фанта жб</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 42.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрайт жб</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 42.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік (0,2л)</p>
+                <p><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
+                <p><strong>Ціна:</strong> 36.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький (215г)</p>
+                <p><strong>Опис:</strong> Це вітамінний овочевий салат із соковитого болгарського перцю,свіжих помідор, листя салата, хрусткого огірочка, королівських маслин та пікантного сиру Фета, заправлений оливковою олією та базиліком.</p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар (250г)</p>
+                <p><strong>Опис:</strong> салат із шматочків ніжного курячого філе ,стиглих помідорів, хрустких сухарів, листя салату,вареного яйця,кунжута ,заправлений пряним фірмовим соусом «Цезар».</p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бокс №1 (1020г)</p>
+                <p><strong>Опис:</strong> Піца 30см Пепероні, картопля фрі стандартна 2шт, нагетси 6шт, соус на вибір</p>
+                <p><strong>Ціна:</strong> 420.0</p>
+                <p><strong>Тип:</strong> КОМБО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бокс №2 (1050г)</p>
+                <p><strong>Опис:</strong> Піца 30см Гавайська, картопля по-селянськи 2шт, сирні палочки , соус на вибір</p>
+                <p><strong>Ціна:</strong> 420.0</p>
+                <p><strong>Тип:</strong> КОМБО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер дует</p>
+                <p><strong>Опис:</strong> 2 роял бургера , велика картопля фрі , 2 кока-коли по 0,5л</p>
+                <p><strong>Ціна:</strong> 384.0</p>
+                <p><strong>Тип:</strong> КОМБО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Роял бокс</p>
+                <p><strong>Опис:</strong> 3 крила смажені , 3 стріпса , картопля фрі та чікен чілі</p>
+                <p><strong>Ціна:</strong> 378.0</p>
+                <p><strong>Тип:</strong> КОМБО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кідс меню</p>
+                <p><strong>Опис:</strong> Гамбургер,сок , картопля фрі та іграшка</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> КОМБО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креветки (5шт)</p>
+                <p><strong>Опис:</strong> креветки в хрусткій паніровці</p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рибні нагетси</p>
+                <p><strong>Опис:</strong> Рибне філе в хрусткій паніровці</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смажені крила</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чікен чилі</p>
+                <p><strong>Опис:</strong> Шматочки гострого курячого філе в фірмовій паніровці</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси (9шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крила теріякі (250г)</p>
+                <p><strong>Опис:</strong> Курячі крильця обсмажені в фритюрі з солодким соусом Тереякі , посипані кунжутом</p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крила bbq</p>
+                <p><strong>Опис:</strong> Курячі крильця обсмажені в фритюрі , политі соусом барбекю</p>
+                <p><strong>Ціна:</strong> 108.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крила чилі</p>
+                <p><strong>Опис:</strong> Курячі крильця Чілі – це ніжні курячі крильця, обсмажені в фритюрі до хрусту, під гострим фірмовим соусом Чілі</p>
+                <p><strong>Ціна:</strong> 108.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крабові палочки</p>
+                <p><strong>Опис:</strong> Крабові палочки в хрумкій паніровці, краще смакує з соусом Тартар</p>
+                <p><strong>Ціна:</strong> 108.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирні палочки</p>
+                <p><strong>Опис:</strong> Сир моцарела в хрумкій паніровці</p>
+                <p><strong>Ціна:</strong> 96.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стріпси</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 96.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси (6шт)</p>
+                <p><strong>Опис:</strong> Смажене філе у паніровці.</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Велика фрі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фрі з беконом</p>
+                <p><strong>Опис:</strong> Хрумка картопля з смаженим беконом та соусом барбекю</p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фрі з цибулею</p>
+                <p><strong>Опис:</strong> Картопля фрі з хрумкою смаженою цибулею Кранч та сирним соусом</p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Селянка</p>
+                <p><strong>Опис:</strong> Картопля по-селянськи ,найкраще смакує із пікантними соусами</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стандарт фрі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мала фрі</p>
+                <p><strong>Опис:</strong> Смажена картопля у фритюрі</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Барбекю dip</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гірчичний dip</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Карі dip</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кетчуп dip</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кисло-солодкий dip</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Майонез dip</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Манго-Чилі dip</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний dip</p>
+                <p><strong>Опис:</strong> Додаток</p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар dip</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Часниковий dip</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш лонгер</p>
+                <p><strong>Опис:</strong> Здобна пшенична булочка, вершкова сосиска, свіжі овочі, вершковий сир в поєднанні з соус</p>
+                <p><strong>Ціна:</strong> 87.0</p>
+                <p><strong>Тип:</strong> ЛОНГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бекон лонгер</p>
+                <p><strong>Опис:</strong> Здобна пшенична булочка, вершкова сосиска, смажений бекон, вершковий сир в поєднанні з соусами</p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> ЛОНГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лонгер класичний</p>
+                <p><strong>Опис:</strong> Здобна пшенична булочка, вершкова сосиска,тостовий сир в поєднанні з соусами томатним та майонезним</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> ЛОНГЕРИ</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,399 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/211.png" alt="Restaurant Image">
         <h1>Impero Resto</h1>
-        <p><strong>Address:</strong> вулиця Стрийська, 200а, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.7999766, 'lng': 24.0169351}</p>
-        <p><strong>Website:</strong> <a href="https://instagram.com/impero.resto?igshid=MzRlODBiNWFlZA==" target="_blank">https://instagram.com/impero.resto?igshid=MzRlODBiNWFlZA==</a></p>
-        <p><strong>Phone:</strong> +380 67 730 4299</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:30:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 08:30:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 08:30:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 08:30:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 08:30:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 08:30:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 08:30:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 243.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Стрийська, 200а, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.7999766, 'lng': 24.0169351}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://instagram.com/impero.resto?igshid=MzRlODBiNWFlZA==" target="_blank">https://instagram.com/impero.resto?igshid=MzRlODBiNWFlZA==</a></p>
+        <p><strong>Телефон:</strong> +380 67 730 4299</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 243.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:30:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 08:30:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 08:30:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 08:30:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 08:30:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 08:30:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 08:30:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Великий сніданок з бріошем, гуакамоле</p>
+                <p><strong>Опис:</strong> двома яйцями пашот із соусом голандез, грибами, беконом, картоплею фрі та міксом салату з черрі</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Великий сніданок зі скремблом та ковбасками</p>
+                <p><strong>Опис:</strong> з соусом голандез, червоною квасолею, дерунами, сметаною та міксом салату із черрі</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дерун з авокадо та лососем  (280 г)</p>
+                <p><strong>Опис:</strong> з, яєшнею та сметаною</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скрембл на тості з креветками, гуакамоле і пудрою із маслин (260 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скрембл на тості з лососем, гуакамоле і пудрою із маслин (270 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нешакшука з гливами, бобами едамаме та соусом песто</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бріош з куркою (310 г)</p>
+                <p><strong>Опис:</strong> гуакамоле, міксом салату та яйцем пашот із соусом Голандез</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яйце Бенедикт з лососем (220 г)</p>
+                <p><strong>Опис:</strong> соусом Голандез, хлібом, крем-сиром, авокадо та міксом салату з черрі та соусом Вінегрет</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яйце Бенедикт з беконом (210 г)</p>
+                <p><strong>Опис:</strong> з соусом Голандез, хлібом з крем-сиром, авокадо, міксом салату із черрі та соусом Вінегрет</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скрембл на тості з беконом, гуакамоле і пудрою із маслин (250 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники з цедрою лайму</p>
+                <p><strong>Опис:</strong> з ванільним морозивом, малиновим кюлі, манго, солоною карамеллю, лохиною та м'ятою</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скрембл на тості з гуакамоле і пудрою із маслин (220 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ (пт-нд до 12:00)</p>
+                <hr>
+                <p><strong>Позиція:</strong> "Gamberetto Pomodorini"</p>
+                <p><strong>Опис:</strong> Креветки, чері, оливкова олія, бальзамік, мед, м'ята, базилік, кедровий горіх, цедра лимона та лайму.</p>
+                <p><strong>Ціна:</strong> 475.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боул з креветками та дерунами</p>
+                <p><strong>Опис:</strong> з курячим яйцем, сметаною, бобами едамаме, черрі, авокадо та міксом салату.</p>
+                <p><strong>Ціна:</strong> 345.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар із вяленої качки (170г)</p>
+                <p><strong>Опис:</strong> З каперсами, домашнім майонезом, сальсою із синьої цибулі, огірка та вялених томатів з пудрою зі шпинату</p>
+                <p><strong>Ціна:</strong> 335.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар з тунця (230г)</p>
+                <p><strong>Опис:</strong> на паф пейстрі з авокадо, артишоками, сальсою з манго, пармезаном</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Брускета з ростбіфом (170 г)</p>
+                <p><strong>Опис:</strong> з гуакамоле, крем-сиром та черрі</p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Брускета з креветками</p>
+                <p><strong>Опис:</strong> з гуакамоле, крем-сиром, черрі та соусом Шрірача</p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Брускета з гуакамоле і черрі (170 г)</p>
+                <p><strong>Опис:</strong> з крем-сиром та песто</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль (150 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хумус з трюфельною пастою, фокаччею і копченою паприкою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гуакамоле з лаймом, фокаччею і копченою паприкою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з лососем та авокадо (240г)</p>
+                <p><strong>Опис:</strong> міксом салату з черрі та соусом Вінегрет, пармезаном і цедрою апельсину</p>
+                <p><strong>Ціна:</strong> 345.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Нісуаз (270 г)</p>
+                <p><strong>Опис:</strong> з тунцем, анчоусами, картоплею, міксом салату з черрі та оливковою олією, каперсами та перепелиним яйцем</p>
+                <p><strong>Ціна:</strong> 345.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з тунцем (250г)</p>
+                <p><strong>Опис:</strong> з авокадо, міксом салату з черрі, кедровим горіхом з цитрусовим дресінгом</p>
+                <p><strong>Ціна:</strong> 335.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з телятиною</p>
+                <p><strong>Опис:</strong> з соусом Тоннато, в'яленими томатами, каперсами, чері та пармезаном</p>
+                <p><strong>Ціна:</strong> 325.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з куркою та крамблом із бекону (290г)</p>
+                <p><strong>Опис:</strong> з міксом салату з черрі та соусом Вінегрет, чіабатою, перепелиним яйцем та пармезаном</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з артишоками, ерінгами та страчателлою</p>
+                <p><strong>Опис:</strong> з черрі та пармезаном</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> СТАРТЕРИ ТА САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Буйабес (400 г)</p>
+                <p><strong>Опис:</strong> з томатами конкасе, креветками, мідіями та лососем</p>
+                <p><strong>Ціна:</strong> 325.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп яловичиною</p>
+                <p><strong>Опис:</strong> з баветте, часником, зеленою цибулею,черрі, лаймом та імбирем</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп "Клем Чаудер"</p>
+                <p><strong>Опис:</strong> з мідіями та куркою, болгарським перцем, бобами едамаме та вершками</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Томатний суп з моцарелою та базиліком (300 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гарбузовий крем суп з крамблом із бекону</p>
+                <p><strong>Опис:</strong> з гарбузовим насінням, грінкою та крем сиром</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з восьминогом та креветками</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 545.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з лососем, крем-сиром та соусом песто (650 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 425.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з в'яленою качкою та карамелізованою грушею</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 425.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з куркою та артишоками (680 г)</p>
+                <p><strong>Опис:</strong> з трюфельною пастою, моцарелою і черрі</p>
+                <p><strong>Ціна:</strong> 395.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Вітелло Тоннато</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 395.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з ерінгами, шампіньйонами з трюфельною олією</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 365.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца 4 сири (550 г)</p>
+                <p><strong>Опис:</strong> з страчателлою, гаудою, моцарелою, пармезаном і гострим медом</p>
+                <p><strong>Ціна:</strong> 355.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Пепероні (550 г)</p>
+                <p><strong>Опис:</strong> Салямі, сир Моцарела, соус вершковий, розсільний сир Моцарела</p>
+                <p><strong>Ціна:</strong> 345.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита (500 г)</p>
+                <p><strong>Опис:</strong> з черрі, моцарелою та рукколою</p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з креветками та мідіями</p>
+                <p><strong>Опис:</strong> з вершковим соусом та пармезаном
+350г</p>
+                <p><strong>Ціна:</strong> 405.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста альфредо</p>
+                <p><strong>Опис:</strong> з куркою, ерінгами, печерицями, вершками та пармезаном із трюфельною пастою та трюфельною олією
+400г</p>
+                <p><strong>Ціна:</strong> 405.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Різотто з грибами</p>
+                <p><strong>Опис:</strong> з печерицями, ерінгами, трюфельною пастою та трюфельною олією
+380г</p>
+                <p><strong>Ціна:</strong> 405.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Різотто з креветками (300 г)</p>
+                <p><strong>Опис:</strong> з мідіями та шпинатом</p>
+                <p><strong>Ціна:</strong> 395.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з лососевим тартаром і біском (450 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 395.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста карбонара</p>
+                <p><strong>Опис:</strong> класичний рецепт соусу на основі пармезану і жовтків із в'яленою панчеттою і свіжомеленим чорним перцем
+400г</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста аматрічана</p>
+                <p><strong>Опис:</strong> з томатним соусом, чілі та томатами конкасе, пармезаном, в'яленою панчеттою і свіжомеленим чорним перцем
+400г</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рібай з ерінгами</p>
+                <p><strong>Опис:</strong> з молодою картоплею, брюссельською капустою та соусом "Black pepper"</p>
+                <p><strong>Ціна:</strong> 729.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тендерлойн з кремом з адамаме і м'яти</p>
+                <p><strong>Опис:</strong> з печеричним жу та ерінгами</p>
+                <p><strong>Ціна:</strong> 565.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Polpo e guazetto</p>
+                <p><strong>Опис:</strong> Восьминіг, томатний соус, томати конкасе, болгарський перець, червона квасоля, селера, часник, цибуля, в'ялені томати, маслини, чілі, грецький горіх, печериці з чіабатою та печеним часником</p>
+                <p><strong>Ціна:</strong> 515.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Polpo e patato</p>
+                <p><strong>Опис:</strong> Восьминіг з кремом із батату, ерінгами, перцем та черрі</p>
+                <p><strong>Ціна:</strong> 515.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стейк зі свинини на кості</p>
+                <p><strong>Опис:</strong> з баклажаном і болгарським перцем, цибулею, бобами едамаме, міксом салату з черрі та соусом Вінегрет</p>
+                <p><strong>Ціна:</strong> 497.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дорадо "Papillote"</p>
+                <p><strong>Опис:</strong> З болгарським перцем, брюсельською капустою, черрі, в'яленими томатами, оливками та маслинами, часником, петрушкою та чебрецем</p>
+                <p><strong>Ціна:</strong> 445.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Качине філе із вершково-трюфельним соусом</p>
+                <p><strong>Опис:</strong> картопляними крокетами з грибами, перцем та шпинатом</p>
+                <p><strong>Ціна:</strong> 445.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лосось велінгтон із соусом теріякі</p>
+                <p><strong>Опис:</strong> з грибами, болгарським перцем та шпинатом, картопляним пюре із пармезаном, міксом салату з черрі</p>
+                <p><strong>Ціна:</strong> 435.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курка «Кордон Блю»</p>
+                <p><strong>Опис:</strong> з сиром, шинкою та шпинатом у Панко із картопляним пюре з трюфельною пастою</p>
+                <p><strong>Ціна:</strong> 335.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Наполеон</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізкейк</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 189.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Медовик</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з сібасом</p>
+                <p><strong>Опис:</strong> з гуадзетто та соусом Тартар</p>
+                <p><strong>Ціна:</strong> 419.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з ростбіфом</p>
+                <p><strong>Опис:</strong> з баклажаном, соусом Арабіата, Тоннато та каперсами</p>
+                <p><strong>Ціна:</strong> 385.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з куркою</p>
+                <p><strong>Опис:</strong> з гуакамоле, томатами, моцареллою та соусом Песто</p>
+                <p><strong>Ціна:</strong> 345.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі (150/40г)</p>
+                <p><strong>Опис:</strong> картопля смажена у фритюрі</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Sandora (1000мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Карпатська джерельна газнована (500мл)</p>
+                <p><strong>Опис:</strong> вода мінеральна</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Карпатська джерельна негазована (500мл)</p>
+                <p><strong>Опис:</strong> війна мінеральна</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi (250мл)</p>
+                <p><strong>Опис:</strong> напій солодкий,газований</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi (500 мл)</p>
+                <p><strong>Опис:</strong> напій солодкий,газований</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тонік Evervess (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

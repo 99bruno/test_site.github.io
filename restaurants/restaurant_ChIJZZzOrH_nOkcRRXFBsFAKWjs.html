@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,161 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/396.png" alt="Restaurant Image">
         <h1>Bistro Vyshyvanka / Бістро "Вишиванка"</h1>
-        <p><strong>Address:</strong> вулиця Героїв УПА, 73ж, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8282517, 'lng': 23.9928683}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 322 393 345</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 17:00:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 17:00:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 17:00:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 17:00:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 17:00:00</p>
-        <p><strong>Saturday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Sunday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Average price:</strong> 93.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Героїв УПА, 73ж, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8282517, 'lng': 23.9928683}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 322 393 345</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 93.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 17:00:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 17:00:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 17:00:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 17:00:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 17:00:00</p>
+        <p><strong>Субота:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Салат Ensalada de Pollo (275г)</p>
+                <p><strong>Опис:</strong> М'ясо курча, кіноа, маш салат, карамелізована цибуля, грейпфрут, рукола, чері, манговий соус</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Ensalada Vegano (240г)</p>
+                <p><strong>Опис:</strong> Авокадо, огірок, чері, кіноа, маш салат, синя капуста, кукурудза, медово-гірчичний соус</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Cheesy Corn Soup (340г)</p>
+                <p><strong>Опис:</strong> Чеддер, кукурудза, вершки, бекон, цибуля, мексиканська сальса</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Chilli Con Carne Soup (420г)</p>
+                <p><strong>Опис:</strong> Яловичий фарш, болгарський перець, моцарела, морква, цибуля, фасоля, кукурудза, помідор, кінза, лайм</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Cuban Sandwich (330г)</p>
+                <p><strong>Опис:</strong> Карамелізована свинина, шинка, сирний соус, солений огірок, маринована капуста, багет, гірчиця, хрумка цибуля</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> ТАПАС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Nachos Guacamole (220г)</p>
+                <p><strong>Опис:</strong> Начос, гуакамоле, сирний соус, мексиканська сальса, м'ята</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> ТАПАС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Nachos Chilli Con Carne (220г)</p>
+                <p><strong>Опис:</strong> Начос, чилі кон карне, сирний соус, мексиканська сальса, м'ята</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ТАПАС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Nachos Cheesy Cheese (220г)</p>
+                <p><strong>Опис:</strong> Начос, сирний соус, хрумка цибуля, мексиканська сальса, м'ята</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ТАПАС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Mexican Burger (420г)</p>
+                <p><strong>Опис:</strong> Булочка, яловичина, чилі кон карне, сир чеддер, солений огірок, маринована капуста, сирний соус, мексиканська сальса
++ подається з начосами</p>
+                <p><strong>Ціна:</strong> 375.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Piña Pollo Burger (410г)</p>
+                <p><strong>Опис:</strong> Куряче стегно, гуакамоле, чеддер, ананас, маш салат, булочка, сирний соус, мексиканська сальса
++ подається з начосами</p>
+                <p><strong>Ціна:</strong> 375.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Тако de Gambas (3шт/360г)</p>
+                <p><strong>Опис:</strong> Креветки, гуакамоле, вершковий соус, маш салат, мексиканська сальса, кінза, тортилья</p>
+                <p><strong>Ціна:</strong> 495.0</p>
+                <p><strong>Тип:</strong> ТАКО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Тако Ropa Vieja (3шт/420г)</p>
+                <p><strong>Опис:</strong> Карамелізована свинина, ананас, моцарела, ананасовий BBQ соус, маринована цибуля,  рукола, тортилья</p>
+                <p><strong>Ціна:</strong> 435.0</p>
+                <p><strong>Тип:</strong> ТАКО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Тако de Pollo (3шт/360г)</p>
+                <p><strong>Опис:</strong> М'ясо курча, манговий соус, карамелізована цибуля, кукурудза, маш салат, тортилья</p>
+                <p><strong>Ціна:</strong> 405.0</p>
+                <p><strong>Тип:</strong> ТАКО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Тако Vegano (3шт/360г)</p>
+                <p><strong>Опис:</strong> Гливи, шампіньйони, фасоля, карамелізована цибуля, кукурудза, маш салат, тортилья</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> ТАКО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Al Pastor Burrito (340г)</p>
+                <p><strong>Опис:</strong> Карамелізована свинина, ананасовий BBQ соус, ананас, фасоля, моцарела, маринована капуста, рукола, мексиканська сальса, тортилья</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> БУРІТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Chicken Chicas Burrito (380г)</p>
+                <p><strong>Опис:</strong> М'ясо курча, гірчично-медовий соус, карамелізована цибуля, моцарела, кукурудза, маринована капуста, рукола, сальса , тортилья</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> БУРІТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Chilli Con Carne Burrito (360г)</p>
+                <p><strong>Опис:</strong> Чилі кон карне, соус шрірача, моцарела, кукурудза, маринована капуста, тортилья,  рукола, мексиканська сальса</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> БУРІТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій газований Ginger Beer Fentimans (275 мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій газований Curiosity Cola, Fentimans (275мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Tepache (330мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-cola Скляна пляшка (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад апельсиново-кокосовий (250мл)</p>
+                <p><strong>Опис:</strong> Апельсин, кокос</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад імбирно-малиновий (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад огірковий (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

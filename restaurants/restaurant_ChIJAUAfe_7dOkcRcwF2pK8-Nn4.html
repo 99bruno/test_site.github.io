@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,456 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/198.png" alt="Restaurant Image">
         <h1>BIBLIOTEKA resto-bar / Бібліотека ресто-бар</h1>
-        <p><strong>Address:</strong> вулиця Краківська, 7, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.84272499999999, 'lng': 24.0300564}</p>
-        <p><strong>Website:</strong> <a href="https://www.instagram.com/biblioteka.resto.bar_lviv/" target="_blank">https://www.instagram.com/biblioteka.resto.bar_lviv/</a></p>
-        <p><strong>Phone:</strong> +380 96 340 6073</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 314.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Краківська, 7, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.84272499999999, 'lng': 24.0300564}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://www.instagram.com/biblioteka.resto.bar_lviv/" target="_blank">https://www.instagram.com/biblioteka.resto.bar_lviv/</a></p>
+        <p><strong>Телефон:</strong> +380 96 340 6073</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 314.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Мухаммара (100г)</p>
+                <p><strong>Опис:</strong> Пікантна намазка з запечених червоних перців.</p>
+                <p><strong>Ціна:</strong> 207.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рієт з тунця, крем-сиру та каперсів (110г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 207.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рієт з курки, в'ялених томатів та кукурудзяного сиру (110г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 184.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бабагануш з нашим зеленим заатаром (100г)</p>
+                <p><strong>Опис:</strong> Паста з запечених баклажанів та цибулі.</p>
+                <p><strong>Ціна:</strong> 173.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кульки лабне, мариновані в травах (100г)</p>
+                <p><strong>Опис:</strong> Зціджений мацоні, сформований в кульки. Подаються з вершковим маслом.</p>
+                <p><strong>Ціна:</strong> 173.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Страчателла-лабне з базиліком (140г)</p>
+                <p><strong>Опис:</strong> Намазка з двох видів сиру: зцідженого мацоні з базиліком та рваної на волокна страчателли.</p>
+                <p><strong>Ціна:</strong> 161.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Збитий смалець з білими грибами та пудрою з шиїтаке (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 138.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паштет з курячої печінки (140г)</p>
+                <p><strong>Опис:</strong> З абрикосовим желе.</p>
+                <p><strong>Ціна:</strong> 138.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Форшмак львівський (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 138.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хлібний кошик (250г)</p>
+                <p><strong>Опис:</strong> Міні-чіабатта біла, міні-чіабатта солодова, рогалик пшеничний.
+Крафтовий хліб, який випікаємо щодня у нашій пекарні.</p>
+                <p><strong>Ціна:</strong> 92.0</p>
+                <p><strong>Тип:</strong> ДО ХЛІБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дошка сирів (150г)</p>
+                <p><strong>Опис:</strong> Рокфор, пекоріно, шевре.</p>
+                <p><strong>Ціна:</strong> 483.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочева бахча (350г)</p>
+                <p><strong>Опис:</strong> Свіжі огірки, помідори, гострий перець, редис та зелень</p>
+                <p><strong>Ціна:</strong> 437.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фарширована риба по-львівськи (240г)</p>
+                <p><strong>Опис:</strong> З двох видів риби (короп і судак). Подаємо з хроном.</p>
+                <p><strong>Ціна:</strong> 437.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тарілка наших солінь та маринадів (400г)</p>
+                <p><strong>Опис:</strong> Огірки, помідори, перець та часник.</p>
+                <p><strong>Ціна:</strong> 414.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Баклажанова ікра з фініками, кінзою та м'ятою (220г)</p>
+                <p><strong>Опис:</strong> З печених на вогні овочів.</p>
+                <p><strong>Ціна:</strong> 368.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Язик телячий під соусом з тунця (180г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 357.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гострі бланшовані перці (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 345.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скибки баклажанів з горіховою начинкою (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 334.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> В'ялені та грильовані оливки зі страчателла-лабне (180г)</p>
+                <p><strong>Опис:</strong> Чорні в'ялені та зелені грильовані оливки без кісточок, з вершковим сиром страчателла.</p>
+                <p><strong>Ціна:</strong> 322.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дошка наших делікатесів (150г)</p>
+                <p><strong>Опис:</strong> Бастурма, шинка, сало копчене.</p>
+                <p><strong>Ціна:</strong> 288.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Холодець із фермерського півня з вершковим хроном (330г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 276.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пісна долма з сочевицею, нутом, квасолею, горохом та полбою (260г)</p>
+                <p><strong>Опис:</strong> Пісні голубці</p>
+                <p><strong>Ціна:</strong> 184.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар з кебабами із морепродуктів (260г)</p>
+                <p><strong>Опис:</strong> З обпаленим роменом та двома часниковими грінками з картопляного хліба.</p>
+                <p><strong>Ціна:</strong> 529.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з чорної та жовтої сливи, томатів, мацарели та базиліку (260г)</p>
+                <p><strong>Опис:</strong> З кедровими горішками. Заправлений оливковою олією.</p>
+                <p><strong>Ціна:</strong> 334.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат сабіх (340г)</p>
+                <p><strong>Опис:</strong> Зі смаженим баклажаном, яйцем пашот, тхіною, амбою та шматочками піти в лабне.</p>
+                <p><strong>Ціна:</strong> 334.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат зі свіжих овочів, заправлений олією з бастурми (340г)</p>
+                <p><strong>Опис:</strong> Овочевий салат з огірками, болгарським перцем, томатами та цибулею з великою кількістю зелені</p>
+                <p><strong>Ціна:</strong> 322.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з фермерським червоним та жовтим буряком (360г)</p>
+                <p><strong>Опис:</strong> З козячим сиром бюш, буряковим хумусом та смаженим фундуком.</p>
+                <p><strong>Ціна:</strong> 322.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зелений салат з дзадзикі, стручковою квасолею, селерою та лабне (250г)</p>
+                <p><strong>Опис:</strong> З йогуртовою заправкою та чіпсами з мацоні.</p>
+                <p><strong>Ціна:</strong> 276.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з помело, редиски, томатів та сушеної креветки (250г)</p>
+                <p><strong>Опис:</strong> Заправлений рибним ферментованим соусом.</p>
+                <p><strong>Ціна:</strong> 276.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з фермерських томатів та вишні (340г)</p>
+                <p><strong>Опис:</strong> З м'ятою та грінками з картопляного хлібу.</p>
+                <p><strong>Ціна:</strong> 276.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з камбалою, голандським соусом та ікрою форелі (320г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 552.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Долма з ягнятиною (330г)</p>
+                <p><strong>Опис:</strong> Голубці у виноградних листях з часниковим соусом. У порції 6 шт.</p>
+                <p><strong>Ціна:</strong> 437.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечений баклажан,фарширований телячими ковбасками та моцарелою (300г)</p>
+                <p><strong>Опис:</strong> З перцями падрон та трюфельним пюре з цвітної капусти.</p>
+                <p><strong>Ціна:</strong> 357.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сувлакі з перців падрон (210г)</p>
+                <p><strong>Опис:</strong> Смажені з пармезаном.</p>
+                <p><strong>Ціна:</strong> 339.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Перець фарширований солодкою морквою, з кремом із аджики (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 334.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Качина шийка з заатаром (220г)</p>
+                <p><strong>Опис:</strong> З яблучним чатні та гірчицею.</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Банош не карпатський (320г)</p>
+                <p><strong>Опис:</strong> З запеченою морквою, кейлом та смаженим насінням.</p>
+                <p><strong>Ціна:</strong> 253.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з томленими яловичими щоками (300г)</p>
+                <p><strong>Опис:</strong> Вареники в шафрановому тісті з томленою протягом 36-ти годин рваною яловичою щокою.</p>
+                <p><strong>Ціна:</strong> 253.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Квасоля яська із мʼятою та підкопченою кровʼянкою (330г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 173.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Половина качки в імбирно-бальзамічній глазурі (500г)</p>
+                <p><strong>Опис:</strong> З трюфельним пшеничним коркотом.</p>
+                <p><strong>Ціна:</strong> 621.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Татарбораки з в'яленими томатами, ніжкою кролика та часниковим соусом(520г)</p>
+                <p><strong>Опис:</strong> *Татарбораки - тонкі «хусточки» з тіста.</p>
+                <p><strong>Ціна:</strong> 564.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Плов узбецький з телятиною (800г)</p>
+                <p><strong>Опис:</strong> З нутом та морквою. Подається з салатом з помідорів та цибулі.</p>
+                <p><strong>Ціна:</strong> 552.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грильований язик (320г)</p>
+                <p><strong>Опис:</strong> З кремом із батата, лисичками та в'яленою шовковицею.</p>
+                <p><strong>Ціна:</strong> 483.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ечміадзинська кюфта з вершковим маслом (320г)</p>
+                <p><strong>Опис:</strong> Вірменська кюфта з телячого фаршу, відварена, смажена або запечена у лаваші, на Ваш вибір. 
+(на фото - запечена у лаваші)</p>
+                <p><strong>Ціна:</strong> 483.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курча тапака з часниковою скоринкою (320г)</p>
+                <p><strong>Опис:</strong> З соусом сацебелі і грильованим виноградом.</p>
+                <p><strong>Ціна:</strong> 483.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета по-київськи, але з кролика (330г)</p>
+                <p><strong>Опис:</strong> З соусом із білих грибів, бататом та зеленим горошком.</p>
+                <p><strong>Ціна:</strong> 449.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Голубці з кроликом, куркою та карпатськими грибами (320г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 403.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хохоп з кролика по-селянськи (320г)</p>
+                <p><strong>Опис:</strong> З грильованими оливками.</p>
+                <p><strong>Ціна:</strong> 380.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Манти близькосхідні з телятиною (420г)</p>
+                <p><strong>Опис:</strong> З томатним соусом та соусом танапур.</p>
+                <p><strong>Ціна:</strong> 334.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Месхурі з бараниною (350г)</p>
+                <p><strong>Опис:</strong> З копченим сулугуні та сумахом.</p>
+                <p><strong>Ціна:</strong> 334.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сінія з запеченого лосося у виноградних листях (230г)</p>
+                <p><strong>Опис:</strong> З шафраново-горіховим соусом.</p>
+                <p><strong>Ціна:</strong> 702.0</p>
+                <p><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе карпатської форелі з лисичками та рибним соусом (260г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 564.0</p>
+                <p><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грильвані ребра коропа (320г)</p>
+                <p><strong>Опис:</strong> З тхіною, томатами та міксом зелені.</p>
+                <p><strong>Ціна:</strong> 552.0</p>
+                <p><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Долма з креветками в квітах цукіні (240г)</p>
+                <p><strong>Опис:</strong> З кремом із аджики та маслом з бастурми.</p>
+                <p><strong>Ціна:</strong> 552.0</p>
+                <p><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соковита річкова форель з вогню (250г)</p>
+                <p><strong>Опис:</strong> Начинена в'яленими томатами та томатами конкасе. Подаємо з запеченим червоним перцем.</p>
+                <p><strong>Ціна:</strong> 529.0</p>
+                <p><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з телячої корейки (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 890.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з ягнятини (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 690.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чалагач зі свинини (350г)</p>
+                <p><strong>Опис:</strong> Полядвиця. Подаємо з перцем та цвітною капустою.</p>
+                <p><strong>Ціна:</strong> 680.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик зі свинини (300г)</p>
+                <p><strong>Опис:</strong> Ошийок</p>
+                <p><strong>Ціна:</strong> 620.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з телячої печінки (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 590.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб з ягнятини (350г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 483.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб з телятини (350г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 460.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб з кролика (250г)</p>
+                <p><strong>Опис:</strong> З трюфельним картопляним пюре.</p>
+                <p><strong>Ціна:</strong> 460.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сувлакі з курки (340г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 334.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі на рожні (180г)</p>
+                <p><strong>Опис:</strong> Сир сулугуні в листовому тісті</p>
+                <p><strong>Ціна:</strong> 311.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля смажена з пармезаном (220г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 219.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля запечена з часниковою олією (230г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 92.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ ТА BBQ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Трюфельний майо (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Аджика червона  (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 92.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сацебелі (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ткемалі зі слив з нашого саду  (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мацоні з кінзою та часником (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш гранатовий (0,250)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 540.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fentimans Tonic Water  (0,2)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад малиновий (0,5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад тархуновий (0,5)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Натуральний сік Galicia (0,3)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Узвар бабусин з чорнобривцями (0,5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Поляна Квасова (0,5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-Кола (0,33)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-Кола Zero (0,33)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Трускавецька негазована (0,3)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Трускавецька газована (0,3)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

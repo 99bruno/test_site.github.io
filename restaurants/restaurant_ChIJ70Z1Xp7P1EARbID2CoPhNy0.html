@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,119 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/481.png" alt="Restaurant Image">
         <h1>BPSH / БПШ</h1>
-        <p><strong>Address:</strong> вулиця Антоновича, 48А, Київ</p>
-        <p><strong>Coordinates:</strong> {'lat': 50.4327042, 'lng': 30.513165}</p>
-        <p><strong>Website:</strong> <a href="https://new.borysov.com.ua/bpsh/" target="_blank">https://new.borysov.com.ua/bpsh/</a></p>
-        <p><strong>Phone:</strong> +380 98 333 3337</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:30:00 - 22:30:00</p>
-        <p><strong>Tuesday:</strong> 09:30:00 - 22:30:00</p>
-        <p><strong>Wednesday:</strong> 09:30:00 - 22:30:00</p>
-        <p><strong>Thursday:</strong> 09:30:00 - 22:30:00</p>
-        <p><strong>Friday:</strong> 09:30:00 - 22:30:00</p>
-        <p><strong>Saturday:</strong> 09:30:00 - 22:30:00</p>
-        <p><strong>Sunday:</strong> 09:30:00 - 22:30:00</p>
-        <p><strong>Average price:</strong> 120.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Антоновича, 48А, Київ</p>
+        <p><strong>Координати:</strong> {'lat': 50.4327042, 'lng': 30.513165}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://new.borysov.com.ua/bpsh/" target="_blank">https://new.borysov.com.ua/bpsh/</a></p>
+        <p><strong>Телефон:</strong> +380 98 333 3337</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 120.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:30:00 - 22:30:00</p>
+        <p><strong>Вівторок:</strong> 09:30:00 - 22:30:00</p>
+        <p><strong>Середа:</strong> 09:30:00 - 22:30:00</p>
+        <p><strong>Четверг:</strong> 09:30:00 - 22:30:00</p>
+        <p><strong>Пʼятниця:</strong> 09:30:00 - 22:30:00</p>
+        <p><strong>Субота:</strong> 09:30:00 - 22:30:00</p>
+        <p><strong>Неділя:</strong> 09:30:00 - 22:30:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> З вишнею (100г)</p>
+                <p><strong>Опис:</strong> Справжній французький круасан з вишневим джемом</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ФРАНЦУЗЬКІ КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> З шоколодним кремом (100г)</p>
+                <p><strong>Опис:</strong> Справжній французький круасан з шоколадом</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ФРАНЦУЗЬКІ КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> З заварним кремом (100г)</p>
+                <p><strong>Опис:</strong> Справжній французький круасан з заварним кремом</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ФРАНЦУЗЬКІ КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Наполеон в стаканчику з вишнею (180г)</p>
+                <p><strong>Опис:</strong> Листове тісто, заварний крем, карамелізована вишня</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тірамісу класичне (180г)</p>
+                <p><strong>Опис:</strong> Крем на основі маскарпоне, печиво савоярді, кава з амаретто</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тірамісу з полуницею (180г)</p>
+                <p><strong>Опис:</strong> крем на основі маскарпоне, печиво савоярді, полуничне кюлі</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тірамісу з маракуєю (180г)</p>
+                <p><strong>Опис:</strong> Крем на основі маскарпоне, печиво савоярді, маракуєве кюлі</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Львівський сирник (150г)</p>
+                <p><strong>Опис:</strong> Сирник з творогу з шоколадною поливкою</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Брауні (80г)</p>
+                <p><strong>Опис:</strong> Шоколадне тістечко з фундуком</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> БРАУНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізкейк Фісташка Малина (140г)</p>
+                <p><strong>Опис:</strong> Пісочна основа, сирна основа з вершкового сиру з фісташкою та малиновою прослойкою</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ЧІЗКЕЙК</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізкейк НьюЙорк (120г)</p>
+                <p><strong>Опис:</strong> Пісочна основа, сирна основа з вершкового сиру</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЧІЗКЕЙК</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макаронс Кава (60г)</p>
+                <p><strong>Опис:</strong> мигдальне печиво з кавовим кремом</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> МАКАРОНС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макаронс Фісташка малина (60г)</p>
+                <p><strong>Опис:</strong> Мигдальне печиво з  фісташковим кремом та малиною</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> МАКАРОНС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макаронс Манго Маракуя (60г)</p>
+                <p><strong>Опис:</strong> Мигдальне печиво з манговим кремом та кюлі маракуя</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> МАКАРОНС</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава (170мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучіно (170мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

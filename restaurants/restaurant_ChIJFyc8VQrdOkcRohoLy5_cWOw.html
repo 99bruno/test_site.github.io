@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,249 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/406.png" alt="Restaurant Image">
         <h1>Grill&Fire</h1>
-        <p><strong>Address:</strong> вулиця Під Дубом, 7Б, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8499048, 'lng': 24.0225117}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 63 785 3460</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 210.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Під Дубом, 7Б, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8499048, 'lng': 24.0225117}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 63 785 3460</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 210.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Комбо Meat Friends (1050г)</p>
+                <p><strong>Опис:</strong> Бургер Meat friends (булочка бріош, салат айсберг, помідор, огірок малосольний, цибуля кримська, біфштекс яловичий, карамелізована цибуля, бекон, сир чеддер, два фірмових соуси з ноткою часнику), фрі, соус рожевий, кока-кола 0,5л</p>
+                <p><strong>Ціна:</strong> 405.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо BBQ (930г)</p>
+                <p><strong>Опис:</strong> Бургер BBQ (булочка бріош, салат айсберг, помідор, огірок малосольний, цибуля кримська, біфштекс яловичий, сир чеддер, соус bbq), фрі, соус рожевий, кока-кола 0,5л</p>
+                <p><strong>Ціна:</strong> 375.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо Jack Daniel's (930г)</p>
+                <p><strong>Опис:</strong> Бургер Jack Daniel's (булочка бріош, салат айсберг, помідор, огірок малосольний, цибуля кримська, біфштекс яловичий, сир чеддер, соус jakc), фрі, соус рожевий, кока-кола 0,5л</p>
+                <p><strong>Ціна:</strong> 375.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо Tar-Tar (930г)</p>
+                <p><strong>Опис:</strong> Бургер Tar-Tar(булочка бріош, салат айсберг, помідор, огірок малосольний, цибуля кримська, біфштекс яловичий, сир чеддер, соус tar-tar), фрі, соус рожевий, кока-кола 0,5</p>
+                <p><strong>Ціна:</strong> 375.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо хрустка креветка (930г)</p>
+                <p><strong>Опис:</strong> Бургер з креветкою (булочка бріош, салат айсберг, помідор, огірок свіжий, креветка в сухарях, сир чеддер, соус горіховий), фрі, соус рожевий, кока-кола 0,5л</p>
+                <p><strong>Ціна:</strong> 375.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик шия свинна (300г)</p>
+                <p><strong>Опис:</strong> Шашлик з свинної шиї</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> МАНГАЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик вирізка свинна (300г)</p>
+                <p><strong>Опис:</strong> Вирізка свинна в соусі песто</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> МАНГАЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ребро закусочне (300г)</p>
+                <p><strong>Опис:</strong> Свинні ребра в фірмовому соусі з кунжутом</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> МАНГАЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик курячий (300г)</p>
+                <p><strong>Опис:</strong> Шашлик з курячого бедра</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> МАНГАЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль (120г)</p>
+                <p><strong>Опис:</strong> Кабачок, перець болгарський, шампіньйони</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> МАНГАЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Люля-кебаб з свинини (100г)</p>
+                <p><strong>Опис:</strong> Свинина та спеції до люля</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> МАНГАЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лаваш на мангалі</p>
+                <p><strong>Опис:</strong> Грузинський лаваш</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> МАНГАЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по селянськи (120г)</p>
+                <p><strong>Опис:</strong> Скибки картоплі, кріп, сіль, часник</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі (120г)</p>
+                <p><strong>Опис:</strong> Картопля фрі, сіль</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляні діпи (120г)</p>
+                <p><strong>Опис:</strong> Картопляні діпи, сіль</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креветка темпура (150г)</p>
+                <p><strong>Опис:</strong> Креветки в сухарях та соус горіховий</p>
+                <p><strong>Ціна:</strong> 314.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крильця Баффало (300г)</p>
+                <p><strong>Опис:</strong> Курячі крильця в медово-часниковому соусі з кунжутом</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі нагетси (140г)</p>
+                <p><strong>Опис:</strong> Філе куряче в сухарях та соус теріякі</p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сулугуні в тісті 1 шт (230г)</p>
+                <p><strong>Опис:</strong> Сир сулугуні в листковому тісті та соус журавлиний</p>
+                <p><strong>Ціна:</strong> 139.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Теплий тайський салат</p>
+                <p><strong>Опис:</strong> Яловичина, салат айсберг, морква, перець болгарський, кабачок, шампіньйони, кримська цибуля, пікантний соус, кунжут</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар з куркою</p>
+                <p><strong>Опис:</strong> Салат айсберг, куряче філе, помідор, бекон, сухарі, сир пармезан та соус цезар</p>
+                <p><strong>Ціна:</strong> 259.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з морепродуктами</p>
+                <p><strong>Опис:</strong> Паста з креветками, мідіями, філем кальмара в ніжному вершковому соусі та посипана пармезаном</p>
+                <p><strong>Ціна:</strong> 352.0</p>
+                <p><strong>Тип:</strong> WOK / ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Wok з морепродуктами</p>
+                <p><strong>Опис:</strong> Мікс овочів (кабачок, салат айсберг, морква, болгарський перець, стручкова фасоля, кримська цибуля) а також гриби шиітаке та шампіньйони в поєднанні з локшиною, креветками, мідіями та філем кальмара в фірмовому соусі, та кунжут</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> WOK / ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Wok з яловичиною</p>
+                <p><strong>Опис:</strong> Мікс овочів (кабачок, салат айсберг, морква, болгарський перець, стручкова фасоля, кримська цибуля) а також гриби шиітаке та шампіньйони в поєднанні з локшиною, яловичиною та соусом світ чилі, та кунжут</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> WOK / ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Wok з куркою</p>
+                <p><strong>Опис:</strong> Мікс овочів (кабачок, салат айсберг, морква, болгарський перець, стручкова фасоля, кримська цибуля) а також гриби шиітаке та шампіньйони в поєднанні з локшиною, курячим філе та соусом чікен, та кунжут</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> WOK / ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Карбонара</p>
+                <p><strong>Опис:</strong> Паста з беконом приготовані в найніжнішому вершковому соусі з додаванням сиру пармезан (у склад входить кримська цибуля та часник!)</p>
+                <p><strong>Ціна:</strong> 237.0</p>
+                <p><strong>Тип:</strong> WOK / ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Jack Daniel's (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 38.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Горіховий (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 38.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Часниковий (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 32.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Рожевий (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 32.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Teriyaki (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 32.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Світ Чилі (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 32.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Cezar (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 32.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Tar-Tar (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 32.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус BBQ (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 32.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад лимонний 0.5л</p>
+                <p><strong>Опис:</strong> 0,5л</p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola 0.5л</p>
+                <p><strong>Опис:</strong> 0,5л</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta 0,5л</p>
+                <p><strong>Опис:</strong> 0,5л</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite 0,5л</p>
+                <p><strong>Опис:</strong> 0,5л</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біфштекс яловичий</p>
+                <p><strong>Опис:</strong> 1шт біфштексу</p>
+                <p><strong>Ціна:</strong> 51.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ ДО БУРГЕРА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бекон полоска</p>
+                <p><strong>Опис:</strong> 1шт бекону</p>
+                <p><strong>Ціна:</strong> 31.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ ДО БУРГЕРА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сир чеддер</p>
+                <p><strong>Опис:</strong> 1шт сиру</p>
+                <p><strong>Ціна:</strong> 19.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ ДО БУРГЕРА</p>
+                <hr></div>
 </body>
 </html>

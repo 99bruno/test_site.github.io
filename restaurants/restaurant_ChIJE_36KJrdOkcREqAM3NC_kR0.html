@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,239 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/342.png" alt="Restaurant Image">
         <h1>Syodo Sushi</h1>
-        <p><strong>Address:</strong> вулиця Трускавецька, 2a, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.7979169, 'lng': 24.0116237}</p>
-        <p><strong>Website:</strong> <a href="https://syodo.com.ua/" target="_blank">https://syodo.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 67 722 9345</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 284.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Трускавецька, 2a, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.7979169, 'lng': 24.0116237}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://syodo.com.ua/" target="_blank">https://syodo.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 67 722 9345</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 284.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Джамму рол з бараниною / Jammu lamb roll(HALAL)(400)</p>
+                <p><strong>Опис:</strong> Шматочки курятини з індійськими спеціями та ароматною гарам масалою, чатні, огірки, помідори, свіжа кінза, загорнуті у роті/Slices of chicken flavoured with Indian spices and aromatic garam masala, chatni, ,fresh cilantro wrapped in roti.</p>
+                <p><strong>Ціна:</strong> 355.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Джамму чикен рол / Jammu chicken roll(HALAL)(400)</p>
+                <p><strong>Опис:</strong> Шматочки курятини з індійськими спеціями та ароматною гарам масалою,чатні,огірки, помідори,свіжа кінза, загорнуті у роті/Slices of chicken flavoured with Indian spices and aromatic garam masala, chatni, fresh cilantro wrapped in roti</p>
+                <p><strong>Ціна:</strong> 325.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Самоса з бараниною / Lamb samosa(HALAL)(180)</p>
+                <p><strong>Опис:</strong> Cмажені у фритюрі трикутники з тіста,фаршировані овочами, бараниною таприправлені індійськими спеціями таароматною гарам масалою/Deep fried pastry snack stuffed with vegetables and lamb, flavoured with Indian spices and aromatic garam masala</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пакора баклажанна / Eggplant pakora(180)</p>
+                <p><strong>Опис:</strong> Свіжі баклажани, смажені у фритюрі з нутовим борошном, приправлені індійськими спеціями та ароматною гарам масалою/Fresh eggplants,deep fried with chickpea flour, flavoured with Indian spices and aromatic garam masala</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Самоса з куркою / Chicken samosa(HALAL)(180)</p>
+                <p><strong>Опис:</strong> Cмажені у фритюрі трикутники з тіста, фаршировані овочами, курятиною і приправлені індійськими спеціями та ароматною гарам масалою.
+Deep fried pastry snack stuffed with vegetables and chicken, flavoured with Indian spices and aromatic garam masala</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Cамоса овочева / Vegetable samosa(180)</p>
+                <p><strong>Опис:</strong> Cмажені у фритюрі трикутники з тіста, фаршировані овочами і приправлені індійськими спеціями та ароматною гарам масалою/Deep fried pastry snack stuffed with vegetables and flavoured with Indian spices and aromatic garam masala</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус зелений чатні / Green chutney sauce(50)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> СОУСИ / SAUCES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус йогуртовий / Yogurt sauce(50)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> СОУСИ / SAUCES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус тікка / Tikka sauce(50)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> СОУСИ / SAUCES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус кашмірі чилі / Kashmiri chili sauce(50)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> СОУСИ / SAUCES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дал з куркою / Chicken dal(HALAL)(300)</p>
+                <p><strong>Опис:</strong> Cочевиця з курятиною та свіжою кінзою, приправлена індійськими спеціями та ароматною гарам масалою/A dish of simmered lentils and chicken, fresh cilantro flavoured with Indian spices and aromatic garam masala</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> СУПИ / SOUPS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дал зі шпинатом / Spinach dal(300)</p>
+                <p><strong>Опис:</strong> Cочевиця зі шпинатом та свіжою кінзою, приправлена індійськими спеціями таароматною гарам масалою.
+A dish of simmered lentils with spinach, fresh cilantro flavoured Indian spices and aromatic garam masala</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> СУПИ / SOUPS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Панір тікка салат / Paneer tikka salad(200)</p>
+                <p><strong>Опис:</strong> Панір тікка, болгарський перець, помідори, соус заправка для салата, цибуля пора, кінза з ароматною індійською гарам масалою.
+ Paneer tikka,  paprica , tomatoes, souce for salad, leeks, cilantro, flavoured with indian garam masala.</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат хатта / Khatta salad (200)</p>
+                <p><strong>Опис:</strong> Свіже манго, помідори, цибуля пора, кінза з ароматною індійською гарам масалою/Fresh mango, tomatoes, leeks, cilantro flavoured with Indian garam masala</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат малван / Malvan salad (250)</p>
+                <p><strong>Опис:</strong> Нут, свіжі огірки, помідори, морква, цибуля пора, кінза з ароматною індійською гарам масалою/
+Chickpea, fresh cucumber, tomatoes, carrots, leeks, cilantro flavoured with Indian garam masala</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гарлік наан / Garlik naan(100)</p>
+                <p><strong>Опис:</strong> Індійський плоский хліб, запечений у духовці з маслом, часником і свіжою кінзою/Indian flat bread baked in oven with butter, garlic and fresh cilantro</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Батар наан / Butter naan(100)</p>
+                <p><strong>Опис:</strong> Індійський плоский хліб, запечений у духовці з маслом і свіжою кінзою/Indian flat bread baked in oven with butter and fresh cilantro</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Наан / Naan(90)</p>
+                <p><strong>Опис:</strong> Індійський плоский хліб, запечений у духовці/Indian flat bread baked in oven</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Роті / Roti(90)</p>
+                <p><strong>Опис:</strong> Iндійський хліб у формі палянички/Indian flat bread</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пурі / Puri(60)</p>
+                <p><strong>Опис:</strong> Смажений у фритюрі індійський хліб/Deep fried Indian bread</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <hr>
+                <p><strong>Позиція:</strong> Баранина кема з зеленим горошком / Lamb matar keema(HALAL)(300)</p>
+                <p><strong>Опис:</strong> Фарш баранини у соусі карі з індійськими спеціями, ароматною гарам масалою та зеленим горошком/Keema of lamb in curry sauce flavoured with Indian spices and aromati cgaram masala</p>
+                <p><strong>Ціна:</strong> 370.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Баранина вуна / Lamb bhuna(HALAL)(300)</p>
+                <p><strong>Опис:</strong> Шматочки баранини в соусі карі з індійськими спеціями, ароматною гарам масалою.
+Slices of lamb in curry sauce flavoured with Indian spices and aromatic garam masala</p>
+                <p><strong>Ціна:</strong> 360.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Палак панір масала / Palak paneer masala (300)</p>
+                <p><strong>Опис:</strong> Домашній панір у соусі карі з індійськими спеціями, ароматною гарам масалою, шпинатом, вершками та свіжою кінзою/Homemade paneer in curry sauce flavoured with Indian spices and aromatic garam masala, spinach, cream, fresh cilantro</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шахі  панір масала / Shahi paneer masala (300)</p>
+                <p><strong>Опис:</strong> Домашній панір у соусі карі з індійськими спеціями, ароматною гарам масалою, вершками та свіжою кінзою/Homemade paneer in curry sauce flavoured with Indian spices and aromatic garam masala, cream, fresh cilantro</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чикен тікка масала / Chicken тikka masala(HALAL) (300)</p>
+                <p><strong>Опис:</strong> Шматочки курятини у соусі каррі з індійськими спеціями, ароматною гараммасалою, вершками такокосовим молоком/Slices of chicken tikka in curry sauce flavoured with Indian spices and aromatic garam masala, cream, coconut milk</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Манго чикен / Mango chicken(HALAL) (300)</p>
+                <p><strong>Опис:</strong> Шматочки курятини в соусі карі з індійськими спеціями, ароматною гарам масалою та свіжим манго/Slices of chicken in curry sauce flavoured with Indian spices and aromatic garam masala, fresh mango</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чикен кофта масала / Chicken kofta masala(HALAL)(300)</p>
+                <p><strong>Опис:</strong> Фрикадельки з курятини в соусі карі з індійськими спеціями, ароматною гарам масалою, вершками такокосовим молоком/Chicken meatballs in curry sauce flavoured with Indian spices and aromatic garam masala,cream,coconut milk.</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чикен карі / Chicken curry (HALAL)(300)</p>
+                <p><strong>Опис:</strong> Шматочки курятини в соусі карі з індійськими спеціями і ароматною гарам масалою/
+Slices of chicken in curry sauce flavoured with Indian spices and aromatic garam masala</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі карі / Vegetable curry (300)</p>
+                <p><strong>Опис:</strong> Суміш літніх овочів у соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/Mixed summer vegetables in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Раджма масала / Rajma masala(300)</p>
+                <p><strong>Опис:</strong> Відварена домашня квасоля у соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/Boiled beans in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чана масала / Chana masala (300)</p>
+                <p><strong>Опис:</strong> Відварений нут у соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/
+Boiled chickpea in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яйця карі / Eggs curry(220)</p>
+                <p><strong>Опис:</strong> Яйця в соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/Eggs in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Басматі рис із зірою / Basmati rice with jeera(300)</p>
+                <p><strong>Опис:</strong> Відварений басматі рис із зірою/Boiled basmati rice with jeera.</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ / SIDE DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля бомбей / Bombay potatoes(250)</p>
+                <p><strong>Опис:</strong> Картопля смажена з індійськими спеціями, свіжою кінзою та ароматною індійською гарам масалою/Fried potatoes flavoured with Indian spices, freshc ilantro and aromatic garam masala</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ / SIDE DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Басматі рис / Basmati rice(300)</p>
+                <p><strong>Опис:</strong> Відварений басматі рис/Boiled basmati rice.</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ / SIDE DISHES</p>
+                <hr>
+                <p><strong>Позиція:</strong> Талі м'ясний / Meat thaliі (HALAL)(700)</p>
+                <p><strong>Опис:</strong> Чикен карі, баранина вуна, тушкований шпинат, пурі, басматі рис/Сhicken curry, lamb bhuna, stewed spinach, puri, basmati rice</p>
+                <p><strong>Ціна:</strong> 450.0</p>
+                <p><strong>Тип:</strong> ТАЛІ / THALI</p>
+                <hr>
+                <p><strong>Позиція:</strong> Талі вегетаріанський / Vegetarian thali (750)</p>
+                <p><strong>Опис:</strong> Овочі каррі, дал із шпинатом, салат малван, пурі, рис басматі з зірою</p>
+                <p><strong>Ціна:</strong> 410.0</p>
+                <p><strong>Тип:</strong> ТАЛІ / THALI</p>
+                <hr>
+                <p><strong>Позиція:</strong> Талі пивний / Beer thali (450)</p>
+                <p><strong>Опис:</strong> 1хCамоса овочева, 1хсамоса з куркою, 1хсамоса з бараниною, пакора баклажанна,
+німкі, соус зелений чатні.
+1хVegetable samosa, 1хchicken samosa, 1хlamb samosa, eggplant pakora, nimki,
+green chutney sauce.</p>
+                <p><strong>Ціна:</strong> 395.0</p>
+                <p><strong>Тип:</strong> ТАЛІ / THALI</p>
+                <hr></div>
 </body>
 </html>

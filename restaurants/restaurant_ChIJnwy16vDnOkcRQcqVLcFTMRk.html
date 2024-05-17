@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,219 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/440.png" alt="Restaurant Image">
         <h1>BRONX</h1>
-        <p><strong>Address:</strong> вулиця Кульпарківська, 135, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.80680049999999, 'lng': 23.9830987}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 96 237 7911</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 125.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Кульпарківська, 135, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.80680049999999, 'lng': 23.9830987}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 96 237 7911</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 125.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Піца Прошуто Фунчі (270г)</p>
+                <p><strong>Опис:</strong> Прошуто, салямі, Моцарела, Пармезан</p>
+                <p><strong>Ціна:</strong> 154.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Туно (370г)</p>
+                <p><strong>Опис:</strong> Тунець, каперси, Моцарела, Пармезан, рукола, чері, кримська цибуля</p>
+                <p><strong>Ціна:</strong> 154.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Мілано (270г)</p>
+                <p><strong>Опис:</strong> Салямі, Моцарела, Пармезан, Горгондзола</p>
+                <p><strong>Ціна:</strong> 154.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Франческа (370г)</p>
+                <p><strong>Опис:</strong> На класичній томатній основі. Шинка, томати, кукурудза, моцарела</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Карне (380г)</p>
+                <p><strong>Опис:</strong> На класичній томатній основі, гостра. Шинка, салямі, мисливські ковбаски, печериці, моцарела, табаско</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Діябло (280г)</p>
+                <p><strong>Опис:</strong> На класичній томатній основі, гостра. Склад: салямі, Моцарела, цибуля маринована, табаско</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита (270г)</p>
+                <p><strong>Опис:</strong> На класичній томатній основі. Склад: томати, Моцарела</p>
+                <p><strong>Ціна:</strong> 109.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Карбонара (200г)</p>
+                <p><strong>Опис:</strong> Класична паста з беконом у вершковому соусі, подається з яєчним жовтком</p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Аматрічіана (210г)</p>
+                <p><strong>Опис:</strong> Італійська паста з беконом та часником у томатному соусі</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з куркою та грибами (230г)</p>
+                <p><strong>Опис:</strong> Італійська паста з курячим філе та печерицями у вершковому соусі</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою (240г)</p>
+                <p><strong>Опис:</strong> Листя салату, курка, бекон, чері, перепилині яйця, крутони</p>
+                <p><strong>Ціна:</strong> 144.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький (300г)</p>
+                <p><strong>Опис:</strong> Помідор, огірок, болгарський перець, цибуля, маслини, фета, листя салату, олія, спеції, сік лимону</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний крем-суп (240г)</p>
+                <p><strong>Опис:</strong> Ніжний сирний крем-суп на основі білого вина з додаванням дорблю</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> М'ясна дошка 2 (820г)</p>
+                <p><strong>Опис:</strong> Курячі нагетси, цибулеві кільця, курячі крильця, сухарики до пива, соуси - подвійний сирний, bbq, часниковий</p>
+                <p><strong>Ціна:</strong> 259.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирна дошка (190г)</p>
+                <p><strong>Опис:</strong> Пармезан, Дор блю, Чедер, ягідний соус</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дошка сиров'яленого м'яса (180г)</p>
+                <p><strong>Опис:</strong> Хамон, бастурма, суджук, хлібні палички, арахіс</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цибулеві кільця (140г)</p>
+                <p><strong>Опис:</strong> Кільця з цибулі у хрусткій паніровці з сирним соусом</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сухарики до пива (180г)</p>
+                <p><strong>Опис:</strong> Домашні сухарики з чорного хліба з часниковим соусом</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хлібні палички (70г)</p>
+                <p><strong>Опис:</strong> Солені зі спеціями та кунжутом</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хамон (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бастурма (50г)</p>
+                <p><strong>Опис:</strong> Закуска до пива.</p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сунджук (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізбургер пікантний з Дор блю (500г)</p>
+                <p><strong>Опис:</strong> Булка Бріош, яловича котлета, Моцарела, бекон, Дор блю, листя салату, помідор, цибуля, соус чилі</p>
+                <p><strong>Ціна:</strong> 194.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізбургер яловичий та фрі (450г)</p>
+                <p><strong>Опис:</strong> Бріош булочка, яловича котлета, моцарела, бекон, листя салату, помідор, цибуля, соус BBQ</p>
+                <p><strong>Ціна:</strong> 164.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер Чікен стріпс та фрі (380г)</p>
+                <p><strong>Опис:</strong> Булка Бріош, курячі нагетси, сирний соус, листя салату, помідор</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер Жульєн та фрі (320г)</p>
+                <p><strong>Опис:</strong> Булка Бріош, куряче філе, цибуля, печериці, вершки, Моцарела, спеції. Подається з сирним соусом</p>
+                <p><strong>Ціна:</strong> 109.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі (230г)</p>
+                <p><strong>Опис:</strong> Смажена картопля у фритюрі.</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляні дольки з часниковим соусом (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з шинкою та фрі (300г)</p>
+                <p><strong>Опис:</strong> Тост з шинкою, листя салату, ововчі, Моцарела. Подається з соусом bbq</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сир фрі (170г)</p>
+                <p><strong>Опис:</strong> Сир Моцарела в хрусткій скоринці з ягідним соусом</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі нагетси (180г)</p>
+                <p><strong>Опис:</strong> Подаються з сирним соусом</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі крильця (250г)</p>
+                <p><strong>Опис:</strong> Карамелізовані крильця подаються з соусом bbq</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус BBQ (40г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Часниковий (40г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Сирний (40г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Ягідний (40г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr></div>
 </body>
 </html>

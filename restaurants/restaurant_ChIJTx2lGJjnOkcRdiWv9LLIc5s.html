@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,329 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/287.png" alt="Restaurant Image">
         <h1>Магазин шашлику / Mahazyn shaslyku</h1>
-        <p><strong>Address:</strong> Новий ЦУМ, вулиця Княгині Ольги, 106, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8097388, 'lng': 23.9987167}</p>
-        <p><strong>Website:</strong> <a href="https://magazin-shashliku.choiceqr.com/" target="_blank">https://magazin-shashliku.choiceqr.com/</a></p>
-        <p><strong>Phone:</strong> +380 97 098 0105</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 130.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> Новий ЦУМ, вулиця Княгині Ольги, 106, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8097388, 'lng': 23.9987167}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://magazin-shashliku.choiceqr.com/" target="_blank">https://magazin-shashliku.choiceqr.com/</a></p>
+        <p><strong>Телефон:</strong> +380 97 098 0105</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 130.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Хачапурі по-мегрельськи (1000 г)</p>
+                <p><strong>Опис:</strong> Хачапурі з подвійним сулугуні та імеретинським сиром</p>
+                <p><strong>Ціна:</strong> 405.0</p>
+                <p><strong>Тип:</strong> Хачапурі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі по-імеретинськи (900 г)</p>
+                <p><strong>Опис:</strong> Хачапурі з імеретинським сиром та сулугуні</p>
+                <p><strong>Ціна:</strong> 380.0</p>
+                <p><strong>Тип:</strong> Хачапурі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі з м'ясом, сиром та помідорами (500 г)</p>
+                <p><strong>Опис:</strong> Хачапурі з яловичиною, свининою, сиром сулугуні та свіжим помідором</p>
+                <p><strong>Ціна:</strong> 224.0</p>
+                <p><strong>Тип:</strong> Хачапурі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кубдарі з яловичиною та свининою (500 г)</p>
+                <p><strong>Опис:</strong> Пиріг з яловичиною, свининою та спеціями</p>
+                <p><strong>Ціна:</strong> 212.0</p>
+                <p><strong>Тип:</strong> Хачапурі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі по-мегрельськи (500 г)</p>
+                <p><strong>Опис:</strong> Хачапурі з подвійним сулугуні та імеретинським сиром</p>
+                <p><strong>Ціна:</strong> 196.0</p>
+                <p><strong>Тип:</strong> Хачапурі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кубдарі з бараниною (500 г)</p>
+                <p><strong>Опис:</strong> Пиріг з бараниною та спеціями</p>
+                <p><strong>Ціна:</strong> 185.6</p>
+                <p><strong>Тип:</strong> Хачапурі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі по-імеретинськи (450 г)</p>
+                <p><strong>Опис:</strong> Хачапурі з імеретинським сиром та сулугуні</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> Хачапурі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі по-аджарськи (450 г)</p>
+                <p><strong>Опис:</strong> Хачапурі у формі човника з сулугуні, імеретинським сиром та яйцем. УВАГА! На доставку яйце замішується з сиром</p>
+                <p><strong>Ціна:</strong> 176.0</p>
+                <p><strong>Тип:</strong> Хачапурі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хінкалі з індичкою та житнім борошном (4 шт.)</p>
+                <p><strong>Опис:</strong> Хінкалі з житнього тіста з індичкою та зеленню</p>
+                <p><strong>Ціна:</strong> 158.0</p>
+                <p><strong>Тип:</strong> Хінкалі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хінкалі з сиром (4 шт.)</p>
+                <p><strong>Опис:</strong> Хінкалі з вершковим сулугуні</p>
+                <p><strong>Ціна:</strong> 113.6</p>
+                <p><strong>Тип:</strong> Хінкалі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хінкалі з яловичиною та свининою (4 шт.)</p>
+                <p><strong>Опис:</strong> Хінкалі з яловичиною, свининою та кінзою</p>
+                <p><strong>Ціна:</strong> 113.6</p>
+                <p><strong>Тип:</strong> Хінкалі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хінкалі з бараниною (4 шт.)</p>
+                <p><strong>Опис:</strong> Хінкалі з бараниною та кінзою</p>
+                <p><strong>Ціна:</strong> 113.6</p>
+                <p><strong>Тип:</strong> Хінкалі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з м'ясом та помідором (1 шт.)</p>
+                <p><strong>Опис:</strong> Чебурек з міксом яловичини та свинини з сиром та помідором</p>
+                <p><strong>Ціна:</strong> 112.8</p>
+                <p><strong>Тип:</strong> Чебуреки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з бараниною та сиром (1 шт.)</p>
+                <p><strong>Опис:</strong> Чебурек з бараниною та сиром</p>
+                <p><strong>Ціна:</strong> 112.8</p>
+                <p><strong>Тип:</strong> Чебуреки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з сиром сулугуні (1 шт.)</p>
+                <p><strong>Опис:</strong> Чебурек з сиром сулугуні</p>
+                <p><strong>Ціна:</strong> 112.8</p>
+                <p><strong>Тип:</strong> Чебуреки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з курячою печінкою (300 г)</p>
+                <p><strong>Опис:</strong> Теплий салат з курячою печінкою в гостро-солодкому соусі, авокадо, руколою, шпинатом, кінзою та медовим дресінгом</p>
+                <p><strong>Ціна:</strong> 204.0</p>
+                <p><strong>Тип:</strong> Салати і закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Баклажани по-грузинськи (235 г)</p>
+                <p><strong>Опис:</strong> Баклажани по-грузинськи 235г</p>
+                <p><strong>Ціна:</strong> 166.4</p>
+                <p><strong>Тип:</strong> Салати і закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грузинський салат з горіховою пастою (350 г)</p>
+                <p><strong>Опис:</strong> Огірок, помідор, цибуля, петрушка, заправка з волоських горіхів та спецій</p>
+                <p><strong>Ціна:</strong> 153.6</p>
+                <p><strong>Тип:</strong> Салати і закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чкмерулі (450 г)</p>
+                <p><strong>Опис:</strong> Смажене курча у вершково-горіховому соусі з часником і спеціями</p>
+                <p><strong>Ціна:</strong> 296.0</p>
+                <p><strong>Тип:</strong> Гарячі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цицила-тапака (1 шт.)</p>
+                <p><strong>Опис:</strong> Смажене, як треба, ціле курча</p>
+                <p><strong>Ціна:</strong> 370.0</p>
+                <p><strong>Тип:</strong> Гарячі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Долма з мацоні (180/30 г)</p>
+                <p><strong>Опис:</strong> Виноградне листя, фаршироване яловичиною та свининою з рисом і спеціями; подається з мацоні</p>
+                <p><strong>Ціна:</strong> 185.6</p>
+                <p><strong>Тип:</strong> Гарячі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оджахурі з лисичками (200/25 г)</p>
+                <p><strong>Опис:</strong> Смажена картопля з лисичками, цибулею, часником, маринованим огірком та свіжою зеленню</p>
+                <p><strong>Ціна:</strong> 176.0</p>
+                <p><strong>Тип:</strong> Гарячі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чашушулі з телятиною (240 г)</p>
+                <p><strong>Опис:</strong> Тушкована телятина у томатному соусі зі спеціями, цибулею, часником та кінзою</p>
+                <p><strong>Ціна:</strong> 169.6</p>
+                <p><strong>Тип:</strong> Гарячі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оджахурі зі свининою (250 г)</p>
+                <p><strong>Опис:</strong> Смажена свинина з картоплею, цибулею, часником та свіжою зеленню</p>
+                <p><strong>Ціна:</strong> 168.0</p>
+                <p><strong>Тип:</strong> Гарячі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лобіо по-мегрельськи (200/50 г)</p>
+                <p><strong>Опис:</strong> Червона квасоля з волоськими горіхами, кінзою, цибулею та спеціями</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> Гарячі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Асорті шашликів (800/50/50/45/45/100 г)</p>
+                <p><strong>Опис:</strong> Свиний ошийок, шашлик із телятини, куряче стегно, люля-кебаб із баранини; подається з зеленню на лаваші з цибулею та соусами Сацебелі та Ткемалі</p>
+                <p><strong>Ціна:</strong> 1345.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каре баранини (200 г)</p>
+                <p><strong>Опис:</strong> М'ясо баранини на кістці</p>
+                <p><strong>Ціна:</strong> 555.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каре телятини (200 г)</p>
+                <p><strong>Опис:</strong> М'ясо телятини на кістці</p>
+                <p><strong>Ціна:</strong> 455.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик зі свинного ошийку (200 г)</p>
+                <p><strong>Опис:</strong> Шашлик зі свинного ошийку</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з телятини (200 г)</p>
+                <p><strong>Опис:</strong> Шашлик з телятини</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Люля-кебаб із індички з сиром (200 г)</p>
+                <p><strong>Опис:</strong> Люля-кебаб із індички з сиром</p>
+                <p><strong>Ціна:</strong> 305.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Люля-кебаб з телятини з печерицями (200 г)</p>
+                <p><strong>Опис:</strong> Люля-кебаб з телятини та кінзи. Подаємо з печерицями</p>
+                <p><strong>Ціна:</strong> 305.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Люля-кебаб з баранини (200 г)</p>
+                <p><strong>Опис:</strong> Люля-кебаб з баранини та кінзи</p>
+                <p><strong>Ціна:</strong> 305.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик із курячого стегна (200 г)</p>
+                <p><strong>Опис:</strong> Шашлик із курячого стегна</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Асорті запечених овочів (250 г)</p>
+                <p><strong>Опис:</strong> Асорті із запечених баклажанів, кабачків, томатів, болгарського перцю та печериць</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печена картопля (150 г)</p>
+                <p><strong>Опис:</strong> Запечена картопля з прованськими травами, сванською сіллю та сухою аджикою</p>
+                <p><strong>Ціна:</strong> 87.0</p>
+                <p><strong>Тип:</strong> Тоне меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ткемалі (30 г)</p>
+                <p><strong>Опис:</strong> Соус із кислої сливи та часника</p>
+                <p><strong>Ціна:</strong> 52.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сацебелі (30 г)</p>
+                <p><strong>Опис:</strong> Кисло-солодкий соус</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Наршараб (30 г)</p>
+                <p><strong>Опис:</strong> Соус із гранатового соку</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Аджика з цицаком (30 г)</p>
+                <p><strong>Опис:</strong> Соус із гострого червоного перця з цицаком</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Аджика з помідорами (30 г)</p>
+                <p><strong>Опис:</strong> Солодка аджика із томатів</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тоніс пурі (370 г)</p>
+                <p><strong>Опис:</strong> Пухкий грузинський хліб</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> Хліб</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пахлава з фісташками (1 шт.)</p>
+                <p><strong>Опис:</strong> Солодкий, соковитий десерт з десятків тоненьких прошарків хрумкого листкового тіста, витриманих у цукрово-медовому сиропі та фісташок</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пахлава з волоським горіхом (1 шт.)</p>
+                <p><strong>Опис:</strong> Cолодкий, соковитий десерт з десятків тоненьких прошарків хрумкого листкового тіста, витриманих у цукрово-медовому сиропі та волоських горіхів</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Багратіоні (160 г)</p>
+                <p><strong>Опис:</strong> Домашній наполеон з кремом із козиного молока. Подаємо з підсмаженим кунжутом</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Домашній Тархун (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Тархун 0,5л</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Домашній Тархун з медовим сиропом (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Тархун з медовим сиропом</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Домашній Обліпиха (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Обліпиха 0,5л</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Домашній Обліпиха з медовим сиропом (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Обліпиха з медовим сиропом</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Домашній Цитрус (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Цитрус 0,5л</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Домашній Цитрус з медовим сиропом (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Цитрус з медовим сиропом</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Батумі Барбарис (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Батумі Барбарис 0,5л</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Батумі Дюшес (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Батумі Дюшес 0,5л</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Батумі Лимон (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Батумі Лимон 0,5л</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Батумі Сапераві (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Батумі Сапераві 0,5л</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Батумі Тархун (0,5 л)</p>
+                <p><strong>Опис:</strong> Лимонад Батумі Тархун 0,5л</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Американо з молоком (250 мл)</p>
+                <p><strong>Опис:</strong> Кава Американо з молоком</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Американо (130 мл)</p>
+                <p><strong>Опис:</strong> Кава Американо</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr></div>
 </body>
 </html>

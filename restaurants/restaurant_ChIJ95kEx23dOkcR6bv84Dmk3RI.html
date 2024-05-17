@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,124 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/219.png" alt="Restaurant Image">
         <h1>MVF / МВФ</h1>
-        <p><strong>Address:</strong> площа Катедральна, 3, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8410959, 'lng': 24.0304368}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 68 595 4634</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 138.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> площа Катедральна, 3, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8410959, 'lng': 24.0304368}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 68 595 4634</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 138.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Кебаб XXL</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> КЕБАБ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб XL</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> КЕБАБ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб S</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> КЕБАБ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер з курячою котлетою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер з телячою котлетою</p>
+                <p><strong>Опис:</strong> Булочка, теляча котлета, листя салату, помідор, сир</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з куркою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот дог з Баварською ковбаскою</p>
+                <p><strong>Опис:</strong> Булочка, баварська ковбаска, соус Червоний</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ХОТ ДОГ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот дог з сирною ковбаскою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ХОТ ДОГ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені з телятиною та свинини (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ ТА ПЕЛЬМЕНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею та сметаною (300/50г)</p>
+                <p><strong>Опис:</strong> Тісто, картопля, сметана</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ ТА ПЕЛЬМЕНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Свіжий салат з капустою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з лососем</p>
+                <p><strong>Опис:</strong> Круасан, лосось, листя салату</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> КРУАСАН</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еклер ванільний</p>
+                <p><strong>Опис:</strong> Французький десерт з кремом</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мафін шоколадний з вишнею</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Донат</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пепсі (0.5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Ліптон (0.5л)</p>
+                <p><strong>Опис:</strong> Холодний чай</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

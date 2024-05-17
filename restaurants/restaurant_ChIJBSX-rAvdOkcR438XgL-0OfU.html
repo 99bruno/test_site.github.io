@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,119 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/127.png" alt="Restaurant Image">
         <h1>Khinkalnya (Forum)</h1>
-        <p><strong>Address:</strong> ТЦ Forum Lviv, 3 поверх, вулиця Під Дубом, 7 Б, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8496578, 'lng': 24.0231956}</p>
-        <p><strong>Website:</strong> <a href="http://hinkalnya.com.ua/" target="_blank">http://hinkalnya.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 97 715 7157</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 106.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> ТЦ Forum Lviv, 3 поверх, вулиця Під Дубом, 7 Б, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8496578, 'lng': 24.0231956}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://hinkalnya.com.ua/" target="_blank">http://hinkalnya.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 97 715 7157</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 106.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Паста Сальмоне рибна (400г)</p>
+                <p><strong>Опис:</strong> Спагеті, лосось голець, вершковий соус, ікра, лимон, пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Туна рибна (400г)</p>
+                <p><strong>Опис:</strong> Спагеті, тунець, кукурудза, яйця перепілки, пармезан, вершковий соус, рукола</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Чорізо (400г)</p>
+                <p><strong>Опис:</strong> Спагеті, курячі ковбаски, болгарський перець, маслини, вершковим соус, пармезан, рукола,гострий соус.</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Карбонара (400г)</p>
+                <p><strong>Опис:</strong> Спагеті, шинка, куряче яйце, сир пармезан, вершковий соус, рукола</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Формажі сирна (400г)</p>
+                <p><strong>Опис:</strong> Спагеті, сир гауда, сир моцарелла, сир пармезан, вершковий соус, виноград елітний</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Фунгі грибна (400г)</p>
+                <p><strong>Опис:</strong> Спагеті, лісові гриби, вершковий соус, пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Болонєзе (400г)</p>
+                <p><strong>Опис:</strong> Спагеті, теляче м'ясо, соус з помідорів, пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стейк свинний (200г)</p>
+                <p><strong>Опис:</strong> Свинна шия, помідори чері, рукола, перець чілі, бальзамічний крем соус</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> М'ЯСНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стейк курячий (180г)</p>
+                <p><strong>Опис:</strong> Куряче філе, помідори чері, рукола, соус вершково-гірчичний, бальзамічний крем соус</p>
+                <p><strong>Ціна:</strong> 107.0</p>
+                <p><strong>Тип:</strong> М'ЯСНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Різотто (290г)</p>
+                <p><strong>Опис:</strong> Рис, шпинат, куряче філе, вершковий соус пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі з соусом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по селянськи з соусом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Навара (270г)</p>
+                <p><strong>Опис:</strong> Салат айзберг, грушка, смажений грецькій горіх, сир горгонзола, клиново-гірчичний соус, рукола</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Туна (250г)</p>
+                <p><strong>Опис:</strong> Салат айзберг, яйця перепелині, тунець, соус медового апельсиновий, сир пармезан, гарбузове насіння, рукула</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Чезаре (270г)</p>
+                <p><strong>Опис:</strong> Салат айсберг, смажена шинка, помідори чері, сухарі, сир пармезан, соус, рукола</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Капрезе (250г)</p>
+                <p><strong>Опис:</strong> Салат айсберг, помідори чері, сир моцарелла, рукола, соус песто, бальзамічний крем соус</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr></div>
 </body>
 </html>

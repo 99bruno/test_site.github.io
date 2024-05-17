@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,99 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/378.png" alt="Restaurant Image">
         <h1>Zhulbany_Lviv / Жульбани_Львів</h1>
-        <p><strong>Address:</strong> проспект В'ячеслава Чорновола, 61, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8577968, 'lng': 24.020785}</p>
-        <p><strong>Website:</strong> <a href="https://instagram.com/dzulbani_lviv?igshid=NGVhN2U2NjQ0Yg==" target="_blank">https://instagram.com/dzulbani_lviv?igshid=NGVhN2U2NjQ0Yg==</a></p>
-        <p><strong>Phone:</strong> +380 98 441 5228</p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 102.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> проспект В'ячеслава Чорновола, 61, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8577968, 'lng': 24.020785}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://instagram.com/dzulbani_lviv?igshid=NGVhN2U2NjQ0Yg==" target="_blank">https://instagram.com/dzulbani_lviv?igshid=NGVhN2U2NjQ0Yg==</a></p>
+        <p><strong>Телефон:</strong> +380 98 441 5228</p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> 102.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Голонка (1200г)</p>
+                <p><strong>Опис:</strong> Голонка, картопля по-селянськи, овочі мариновані</p>
+                <p><strong>Ціна:</strong> 420.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик (220г)</p>
+                <p><strong>Опис:</strong> Ошийок свинний</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ребра BBQ (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> бургер сирний (270/100/30г)</p>
+                <p><strong>Опис:</strong> Булка з димком, соковита котлета з сиром, томат, огірок квашений, подвійний сир, сир Дор Блю, цибуля, картопля фрі</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер BBQ (280/100/30г)</p>
+                <p><strong>Опис:</strong> Булка з димком, соковита котлета, томат, бекон, огірок квашений, сир фета, цибуля, соус BBQ, картопля фрі</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер італійський (260/100/30г)</p>
+                <p><strong>Опис:</strong> Булка з димком, соковита котлета, томат, оливки, сир моцарелла, соус айолі, картопля фрі</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер пасіко-зубрецький (280/100/30г)</p>
+                <p><strong>Опис:</strong> Булки-деруни,соковита котлета, томат, огірок квашений, сир, цибуля, соус часниковий, картопля фрі</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фіш Бургер (270/100/30г)</p>
+                <p><strong>Опис:</strong> Булка з димком, філе скумбрії, огірок, соус тартар, картопля фрі</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер техаський (250/100/30г)</p>
+                <p><strong>Опис:</strong> Булка з димком, соковита котлета, томат, огірок квашений, сир, цибуля, картопля фрі</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі крильця в медово-гірчичній глазурі (220г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль (250г)</p>
+                <p><strong>Опис:</strong> Баклажан, перець, кукурудза, печериці, цибуля</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Пепсі (0.5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr></div>
 </body>
 </html>

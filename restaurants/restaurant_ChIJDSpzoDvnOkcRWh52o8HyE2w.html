@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,419 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/208.png" alt="Restaurant Image">
         <h1>Kampai sushi&pizza</h1>
-        <p><strong>Address:</strong> вулиця Тролейбусна, 7, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8054093, 'lng': 24.0076003}</p>
-        <p><strong>Website:</strong> <a href="http://www.kampai.lviv.ua/" target="_blank">http://www.kampai.lviv.ua/</a></p>
-        <p><strong>Phone:</strong> +380 73 227 9292</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 195.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Тролейбусна, 7, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8054093, 'lng': 24.0076003}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://www.kampai.lviv.ua/" target="_blank">http://www.kampai.lviv.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 73 227 9292</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 195.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Піца морська</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир моцарела, креветки, мідії, кальмари, помідори чері, рукола</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Салмон</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир Моцарелла, філе лосося, шпинат, лимон, прованські трави</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Квадро Формаджі</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир Моцарелла, сир Гауда, сир Пармезан, сир Дорблю</p>
+                <p><strong>Ціна:</strong> 300.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Цезаріо</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир Моцарелла, куряче філе, помідори чері, салат айзберг</p>
+                <p><strong>Ціна:</strong> 300.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з бараниною (гостра)</p>
+                <p><strong>Опис:</strong> соус томатний, сир моцарела, люля кебаб з баранини, сир бринза, рукола, перець чилі</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Віладжіо</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарелла, мисливські ковбаски, шинка, печериці, цибуля синя</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Поло Песто</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарелла, куряче філе, помідори, печериці, соус Песто</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Ріджіна</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарелла, прошуто, помідори чері, пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца BBQ</p>
+                <p><strong>Опис:</strong> соус томатний, сир моцарела, ковбаски мисливські, куряче філе, бекон, мариновна цибуля, соус BBQ</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Мексиканська</p>
+                <p><strong>Опис:</strong> Соус томатний, сир моцарела, свинина, кукурудза, броколі, перець болгарський, халапеньйо</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Пепероні (гостра)</p>
+                <p><strong>Опис:</strong> Соус томатний, сир моцарела, салямі пепероні, маринований пепероні</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Гавайська</p>
+                <p><strong>Опис:</strong> Соус томатний, сир моцарелла, куряче філе, ананас, кукурудза, вершки</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Салямі</p>
+                <p><strong>Опис:</strong> Соус Томатний, сир моцарела, салямі</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Карбонара</p>
+                <p><strong>Опис:</strong> Соус вершковий, сир Моцарелла, бекон, цибуля маринована, пармезан</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита</p>
+                <p><strong>Опис:</strong> Соус томатний, сир Моцарелла, помідори</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ПІЦА 32см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізбургер з сирними паличками</p>
+                <p><strong>Опис:</strong> крафтова булочка, котлета яловича, сирні палички фрі, сир чеддер, карамелізована цибуля, мікс салату, помідор, соус фірмовий, соус бургер</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біфбургер</p>
+                <p><strong>Опис:</strong> Булкочка бріош, котлета яловича, салямі, сир чедер, салат айcберг, помідор, соус бургерний, цибуля маринована</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Діабло Бургер</p>
+                <p><strong>Опис:</strong> крафтова булочка, котлета яловича, сир Чедер, мікс салату, халапеньйо, мариновані огірки, салямі, соус Бургер (гостра страва)</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер Цезар</p>
+                <p><strong>Опис:</strong> крафтова булочка, куряче філе, бекон, сир чеддер, макс салату, помідор, каперси, соус цезар, соус фірмовий</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Едінбургер</p>
+                <p><strong>Опис:</strong> крафтова булочка, котлета яловича, бекон, яйце, сир чеддер, мікс салату, помідор, соус бургер</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ український з грінками та салом (460г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чанахи (400г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибний крем-суп</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий бульйон з вермішеллю (350г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скововрідка з свининою, овочами та картоплею по-селянськи (350г)</p>
+                <p><strong>Опис:</strong> (свинина, картопля по-селянськи, стручкова квасоля, цибуля, печериці, перець болгарський, сир моцарелла, соус томатний)</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> СКОВОРІДКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сковорідка з язиком та грибами (260г)</p>
+                <p><strong>Опис:</strong> Язик телячий, печериці, картопля, сир Моцарела, соус вершково-грибний</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> СКОВОРІДКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сковорідка з куркою та овочами (350г)</p>
+                <p><strong>Опис:</strong> Куряче філе, броколі, міні морква, цибуля, картопля, сир моцарела, соус Вершковий</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> СКОВОРІДКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сковорідка з ковбасками гриль (350г)</p>
+                <p><strong>Опис:</strong> З картоплею по-селянськи та овочами</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> СКОВОРІДКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сковорідка з овочами гриль (250г)</p>
+                <p><strong>Опис:</strong> (помідор, перець болгарський, баклажан, печериці, синя цибуля, соус песто)</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> СКОВОРІДКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з креветками (220г)</p>
+                <p><strong>Опис:</strong> Креветки тигрові, авокадо, рукола, салатний мікс,помідори чері, сир пармезан, цибуля, арахіс, соус вінегрет</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з телятиною (250г)</p>
+                <p><strong>Опис:</strong> Вирізка теляча, печериці, помідори, цукіні, перець болгарський, цибуля, базилік, в’ялені томати, каперси, салатний мікс, соус вінегрет</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з лососем  (250г)</p>
+                <p><strong>Опис:</strong> Лосось слабосолений, авкадо, салатний мікс, сир пармезан, помідори чері, крутони, соус Цезар</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою (250г)</p>
+                <p><strong>Опис:</strong> Айсберг, куряче філе, сир пармезан, помідори чері, яйця перепелині, багет, соус цезар</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з язиком та опеньками (250г)</p>
+                <p><strong>Опис:</strong> Язик телячий, опеньки мариновані, листя ромену, салат фрізе, помідори чері, яйця перепелині, синя цибуля, соус тар-тар</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з куркою та авокадо (250г)</p>
+                <p><strong>Опис:</strong> Мікс салату, куряче філе, авокадо, помідори чері, перепелині яйця, сир дор блю, соус медово-гірчичний</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький (250г)</p>
+                <p><strong>Опис:</strong> Помідор, огірок, перець болгарський, мікс салату, сир Фета, оливки, цибуля, соус Песто</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе лосося з овочами та соусом Альфредо (240г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ребра запечені у соусі Барбекю з картоплею по-селянськи (470г)</p>
+                <p><strong>Опис:</strong> Ребра свинні, картопля по-селянськи, цибуля маринована</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ковбаски гриль з картоплею по-селянськи</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шніцель курячий з соусом Тартар та руколою (290г)</p>
+                <p><strong>Опис:</strong> Філе куряче, рукола, помідори чері, соус Тартар</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни з м'ясом та підливою з білих грибів</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Банош з бринзою та беконом (340г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Удон з креветкою (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПАСТИ та WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з морепродуктами (280г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> ПАСТИ та WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Удон з яловичиною (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> ПАСТИ та WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Удон з куркою (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ПАСТИ та WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Болоньєзе (280г)</p>
+                <p><strong>Опис:</strong> Спагетті, свинина, яловичина, томати, сир пармезан, соус болоньєзе</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ПАСТИ та WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Карбонара (280г)</p>
+                <p><strong>Опис:</strong> Спагетті, бекон, сир пармезан, жовток, соус карбонара</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ПАСТИ та WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з куркою та грибами (280г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ПАСТИ та WOK</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з лососем, шпинатом та сиром Моцарела (270г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з куркою, грибами та сиром моцарела (280г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з бананом та шоколадом (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креветки панко з соусом фірмовим</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирні палички фрі з соусом ягідним (190г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі крильця в соусі Барбекю (260г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі нагетси з соусом фірмовим (190г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цибулеві кільця з соусом Тартар (140г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стручкова квасоля з беконом та гострим перцем чілі (150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі з кетчупом (140г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пивна дошка (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сало з грінками та маринованими огірками (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Прошутто з халапеньйо та в'яленими томатами (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скрамбл з лососем слабосоленим (350г)</p>
+                <p><strong>Опис:</strong> Скрамбл з пармезаном та вершками, лосось слабосолений, броколі, крем сир, помідори чері, соус песто, боби едамаме, бріош</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скрамбл з креветкми гриль (350г)</p>
+                <p><strong>Опис:</strong> Скрамбл з пармезаном та вершками, креветки, броколі, крем сир, помідори чері, соус песто, боби едамаме, бріош</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Італійський сніданок (350г)</p>
+                <p><strong>Опис:</strong> Скрамбл з пармезаном та вершками, шинка, рукола, помідори чері, соус песто, оливки, бріош</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Англійський сніданок (350г)</p>
+                <p><strong>Опис:</strong> Яєчня оката, мисливські ковбаски, бекон, печериці гриль, квасоля в томаті, помідори чері, мікс салату, соус песто, бріош</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Омлет з беконом та сиром моцарелла (350г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з ягідним соусом та сметаною (200/30/30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Rich яблуко (1л)</p>
+                <p><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Rich апельсин (1л)</p>
+                <p><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Rich екзотик (1л)</p>
+                <p><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Borjomi (0.5л)</p>
+                <p><strong>Опис:</strong> Мінеральна вода</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola (0.5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite (0.5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta (0.5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мінеральна вода газована 0.5л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

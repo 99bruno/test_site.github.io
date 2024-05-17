@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,324 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/397.png" alt="Restaurant Image">
         <h1>Хліб з маслом coffee shop</h1>
-        <p><strong>Address:</strong> вулиця Кубійовича, 35А, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.82545200000001, 'lng': 24.0390631}</p>
-        <p><strong>Website:</strong> <a href="https://www.facebook.com/hlibzmaslom" target="_blank">https://www.facebook.com/hlibzmaslom</a></p>
-        <p><strong>Phone:</strong> +380 67 210 0200</p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Saturday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Average price:</strong> 93.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Кубійовича, 35А, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.82545200000001, 'lng': 24.0390631}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://www.facebook.com/hlibzmaslom" target="_blank">https://www.facebook.com/hlibzmaslom</a></p>
+        <p><strong>Телефон:</strong> +380 67 210 0200</p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> 93.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Субота:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 20:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Круасан капрезе (320г)</p>
+                <p><strong>Опис:</strong> Соус песто, моцарелла, помідор, салат айсберг. Подається з міксом салату та помідором Чері</p>
+                <p><strong>Ціна:</strong> 287.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан селянський (205г)</p>
+                <p><strong>Опис:</strong> Соус Голландез, сир Чеддер, салат айсберг, огірок маринований, шинка. Подається з міксом салату та помідором Чері</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з куркою (225г)</p>
+                <p><strong>Опис:</strong> Соус Голландез, сир Чеддер, салат айсберг, помідори, куряче філе. Подається з міксом салату та помідором Чері</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з шоколадом і бананом (175г)</p>
+                <p><strong>Опис:</strong> Шоколадна паста, банан. При подачі посипається цукровою пудрою та топінгом</p>
+                <p><strong>Ціна:</strong> 143.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з вишнею (75г)</p>
+                <p><strong>Опис:</strong> Маскарпоне, наповнювач вишня. При подачі посипається цукровою пудрою та топінгом</p>
+                <p><strong>Ціна:</strong> 137.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з полуницею (75г)</p>
+                <p><strong>Опис:</strong> Маскарпоне, наповнювач полуниця. При подачі посипається цукровою пудрою та топінгом</p>
+                <p><strong>Ціна:</strong> 137.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог Цезар (210г)</p>
+                <p><strong>Опис:</strong> Булка Бріош, курка запечена, соус цезар на основі анчоусів власного виробництва, помідором Чері, яйця перепелині, сир Пармезан, листя салату</p>
+                <p><strong>Ціна:</strong> 184.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог Грецький (185г)</p>
+                <p><strong>Опис:</strong> Булка Бріош, майонез, французька гірчиця, сосиска молочна, мікс салату, помідор Чері, сир Фета, оливки</p>
+                <p><strong>Ціна:</strong> 154.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог з квашеною капустою (210г)</p>
+                <p><strong>Опис:</strong> Булка Бріош, соус: майонез, французька гірчиця; сосиска баварська, капуста квашена, синя цибуля</p>
+                <p><strong>Ціна:</strong> 121.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог Датський (210г)</p>
+                <p><strong>Опис:</strong> Булка Датська, соуси: майонез, кетчуп, гірчиця. Огірок маринований, цибулеві чіпси. Сосиска молочна</p>
+                <p><strong>Ціна:</strong> 98.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог Баварський (210г)</p>
+                <p><strong>Опис:</strong> Булка Французька, соуси:  майонез, кетчуп,  гірчиця. Сосиска Баварська</p>
+                <p><strong>Ціна:</strong> 91.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог Французький (210г)</p>
+                <p><strong>Опис:</strong> Булка Французька, соуси: майонез, кетчуп, гірчиця. Сосиска молочна</p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чікенбургер (155г)</p>
+                <p><strong>Опис:</strong> Булка гамбургерна, соус бургерний, сир Чеддер, огірок маринований, помідор, листя салату, нагетси</p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фісташка (200г)</p>
+                <p><strong>Опис:</strong> Пісочне сабле, чізкейк з натуральної фісташкової пасти, крем чіз фісташковий</p>
+                <p><strong>Ціна:</strong> 194.0</p>
+                <p><strong>Тип:</strong> ЧІЗКЕЙКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нью-Йорк (200г)</p>
+                <p><strong>Опис:</strong> Пісочне сабле та ніжний вершковий чізкейк з лимонним фрешом</p>
+                <p><strong>Ціна:</strong> 178.0</p>
+                <p><strong>Тип:</strong> ЧІЗКЕЙКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Малина-фісташка (200г)</p>
+                <p><strong>Опис:</strong> Фісташковий бісквіт, малинове кремю, малинове желе та ніжний фісташковий мус</p>
+                <p><strong>Ціна:</strong> 182.0</p>
+                <p><strong>Тип:</strong> МУСОВІ ТОРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шампань (200г)</p>
+                <p><strong>Опис:</strong> Бісквіт шпинатний, полуничне кюлі з базиліком, ганаш з зеленим яблуком, ніжний базиліковий мус</p>
+                <p><strong>Ціна:</strong> 172.0</p>
+                <p><strong>Тип:</strong> МУСОВІ ТОРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спартак (200г)</p>
+                <p><strong>Опис:</strong> шоколадно-медові коржі, з ніжним масляно-заварним кремом</p>
+                <p><strong>Ціна:</strong> 168.0</p>
+                <p><strong>Тип:</strong> БІСКВІТНІ ТОРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тарта малина-фіташка (130г)</p>
+                <p><strong>Опис:</strong> Пісочна основа з додаванням фісташкового крему та малинового конфі</p>
+                <p><strong>Ціна:</strong> 124.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мусове тістечко Ескімо (115г)</p>
+                <p><strong>Опис:</strong> Мус на молочному шоколаді, кулі манго-маракуйя, глазур на основі чорного шоколаду з кульками повітряного рису</p>
+                <p><strong>Ціна:</strong> 106.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еклер фісташковий (125г)</p>
+                <p><strong>Опис:</strong> Заварне тістечко з ніжним фісташковим кремом, политий глазур'ю та припорошений фісташковити горішками та пудрою</p>
+                <p><strong>Ціна:</strong> 91.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун Полуниця (75г)</p>
+                <p><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним полуничним кремом</p>
+                <p><strong>Ціна:</strong> 88.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун М'ята (75г)</p>
+                <p><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним м'ятним кремом</p>
+                <p><strong>Ціна:</strong> 88.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун Ваніль (75г)</p>
+                <p><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним ванільним кремом</p>
+                <p><strong>Ціна:</strong> 88.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун Лимон (75г)</p>
+                <p><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним лимонним кремом</p>
+                <p><strong>Ціна:</strong> 88.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Малинова тарта (160г)</p>
+                <p><strong>Опис:</strong> Пісочна основа, заварний крем, малинове конфі та зверху покритий меренгою</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонна тарта (120г)</p>
+                <p><strong>Опис:</strong> Пісочна основа, з додаванням лимонного курту та зверху покрита меренгою</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еклер ванільний (115г)</p>
+                <p><strong>Опис:</strong> Заварне тістечко з вершково - ванільним кремом та политий міраллю</p>
+                <p><strong>Ціна:</strong> 77.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар ( 200 гр)</p>
+                <p><strong>Опис:</strong> Мікс салатів у поєднанні з печеною куркою, томатами чері, ломтиками італійського пармезану, грінками, перепелиними яйцями та заправлений оригінальною приправою цезар з анчоусами</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький (230 гр)</p>
+                <p><strong>Опис:</strong> Мікс салатів у поєднанні ними з зеленими оливками, маслинами, свіжих огірочків, томатів чері, сиру фети та зернят гірчиці .Ноту смаку довершує оригінальний соус з оливковою олією.</p>
+                <p><strong>Ціна:</strong> 107.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сінабони</p>
+                <p><strong>Опис:</strong> Запашні булочки з корицею прикрашені маскарпоне з вершками та фундуком</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> БУЛОЧКИ СОЛОДКІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-кола 330 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фанта 330 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрайт 330 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Раф кава XL</p>
+                <p><strong>Опис:</strong> 450 мл</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лате XL</p>
+                <p><strong>Опис:</strong> 450 мл</p>
+                <p><strong>Ціна:</strong> 88.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучино XL</p>
+                <p><strong>Опис:</strong> 450 мл</p>
+                <p><strong>Ціна:</strong> 88.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао з бананом</p>
+                <p><strong>Опис:</strong> 350 мл</p>
+                <p><strong>Ціна:</strong> 87.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Раф кава L</p>
+                <p><strong>Опис:</strong> 360 мл</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао натуральне</p>
+                <p><strong>Опис:</strong> 450 мл</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао натуральне</p>
+                <p><strong>Опис:</strong> 350 мл</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао дитяче</p>
+                <p><strong>Опис:</strong> 450 мл</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лате L</p>
+                <p><strong>Опис:</strong> 360 мл</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучино L</p>
+                <p><strong>Опис:</strong> 360 мл</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао дитяче</p>
+                <p><strong>Опис:</strong> 350 мл</p>
+                <p><strong>Ціна:</strong> 73.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лате М</p>
+                <p><strong>Опис:</strong> 260 мл</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучино М</p>
+                <p><strong>Опис:</strong> 260 мл</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Флет-вайт</p>
+                <p><strong>Опис:</strong> 250 мл</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао дитяче</p>
+                <p><strong>Опис:</strong> 250 мл</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо з молоком L</p>
+                <p><strong>Опис:</strong> 320 мл</p>
+                <p><strong>Ціна:</strong> 69.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао натуральне</p>
+                <p><strong>Опис:</strong> 250 мл</p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Допіо</p>
+                <p><strong>Опис:</strong> 90 мл</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо L</p>
+                <p><strong>Опис:</strong> 270 мл</p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо з молоком  М</p>
+                <p><strong>Опис:</strong> 210 мл</p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо макіято</p>
+                <p><strong>Опис:</strong> 50 мл</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо  М</p>
+                <p><strong>Опис:</strong> 160 мл</p>
+                <p><strong>Ціна:</strong> 52.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо</p>
+                <p><strong>Опис:</strong> 40 мл</p>
+                <p><strong>Ціна:</strong> 42.0</p>
+                <p><strong>Тип:</strong> Гарячі напої</p>
+                <hr></div>
 </body>
 </html>

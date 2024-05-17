@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,154 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/414.png" alt="Restaurant Image">
         <h1>Zhyvyi khlib / Живий хліб</h1>
-        <p><strong>Address:</strong> вулиця Героїв УПА, 78, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8298626, 'lng': 23.99349}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 67 373 7363</p>
-        <p><strong>Type:</strong> bakery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Tuesday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Wednesday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Thursday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Friday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Saturday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Average price:</strong> 64.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Героїв УПА, 78, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8298626, 'lng': 23.99349}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 67 373 7363</p>
+        <p><strong>Тип:</strong> bakery</p>
+        <p><strong>Середня ціна:</strong> 64.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Вівторок:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Середа:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Четверг:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Пʼятниця:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Субота:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 20:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Крем-суп з сочевиці (500мл)</p>
+                <p><strong>Опис:</strong> Овочевий бульон, сочевиця, цибуля, помідор, пряні спеції та сухарики</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Локшина з куркою (500г)</p>
+                <p><strong>Опис:</strong> Локшина пшенична або гречана , філе курки, цибуля, морква, перець Болгарський , броколі, фірмовий соус та кунжут</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ЛОКШИНА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Локшина зі свининою (500г)</p>
+                <p><strong>Опис:</strong> Локшина пшенична або гречана , свинина, цибуля, морква, перець Болгарський , броколі, фірмовий соус та кунжут</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ЛОКШИНА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Локшина з соєвими кульками (500г)</p>
+                <p><strong>Опис:</strong> Локшина пшенична або гречана , соєві кульки, цибуля, морква, перець Болгарський , броколі, фірмовий соус та кунжут</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ЛОКШИНА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з креветками (400г)</p>
+                <p><strong>Опис:</strong> Креветки, вершковий соус, локшина, часник, прованські трави та сир</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з куркою (400г)</p>
+                <p><strong>Опис:</strong> Філе куряче, локшина, вершковий соус, печериці, цибуля, спеції та сир</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з тунцем (350г)</p>
+                <p><strong>Опис:</strong> Мікс салату, тунець, перепелині яйця, огірок, помідор та фірмовий соус</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар (350г)</p>
+                <p><strong>Опис:</strong> Салат, філе куряче, помідори, перепелині яйця, сир, грінки та фірмовий соус</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з куркою та грибами з грибним соусом (3шт/300г)</p>
+                <p><strong>Опис:</strong> Курка, гриби, грибний соус</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ІНШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з шинкою та сиром (3шт/300г)</p>
+                <p><strong>Опис:</strong> Шинка, сир</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ІНШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ліниві голубці (350г)</p>
+                <p><strong>Опис:</strong> Капуста, фарш, морква, цибуля, рис, сметана, томатний соус та спеції</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ІНШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер в тортільї</p>
+                <p><strong>Опис:</strong> Тортілья, фарш, помідор, квашений огірок, сир, мікс салату, цибуля та фірмовий соус</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ІНШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млині з сиром та вишневим джемом (3шт/300г)</p>
+                <p><strong>Опис:</strong> Класичні млинці з домашнім сиром та вишневим джемом</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники (4шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бельгійські вафлі (2шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смузі бананово-полуничний (400мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смузі банан, ківі, полуниця та насіння чіа (400мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Айс Латте (400мл)</p>
+                <p><strong>Опис:</strong> кава, молоко, лід</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оранж-кава (400мл)</p>
+                <p><strong>Опис:</strong> кава, апельсиновий сік, лід</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад вишневий (400мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад полуничний (400мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені з лососем (350-400г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ПЕЛЬМЕНІ ВАРЕНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені з м'ясом (350-400г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ПЕЛЬМЕНІ ВАРЕНІ</p>
+                <hr></div>
 </body>
 </html>

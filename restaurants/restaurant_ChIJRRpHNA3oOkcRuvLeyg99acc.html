@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,210 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/336.png" alt="Restaurant Image">
         <h1>La Famiglia</h1>
-        <p><strong>Address:</strong> вулиця Олександра Довженка, 2, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.7971143, 'lng': 24.0537949}</p>
-        <p><strong>Website:</strong> <a href="https://lafamiglia.restaurant/" target="_blank">https://lafamiglia.restaurant/</a></p>
-        <p><strong>Phone:</strong> </p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 213.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Олександра Довженка, 2, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.7971143, 'lng': 24.0537949}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://lafamiglia.restaurant/" target="_blank">https://lafamiglia.restaurant/</a></p>
+        <p><strong>Телефон:</strong> </p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 213.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Сирники солені Не ґвером єдиним (250/50/50г)</p>
+                <p><strong>Опис:</strong> Сир Домашній, сіль, кінза, петрушка, яйце куряче, борошно, розпушувач, перець, смажені з хроном</p>
+                <p><strong>Ціна:</strong> 162.0</p>
+                <p><strong>Тип:</strong> БОМБИ В ТІСТІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Палюшки Драбина до неба (250/50/50г)</p>
+                <p><strong>Опис:</strong> Борошно, сир Домашній, картопля варена, яйце, сіль, гриби
+печериці, масло, сіль, перець чорний мелений, цибуля, сметана</p>
+                <p><strong>Ціна:</strong> 152.0</p>
+                <p><strong>Тип:</strong> БОМБИ В ТІСТІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею Волинські шпацери (250/100г)</p>
+                <p><strong>Опис:</strong> Борошно, вода, яйця, сіль, олія, картопля відварна, цибуля смажена, сіль, шкварки, сметана</p>
+                <p><strong>Ціна:</strong> 136.0</p>
+                <p><strong>Тип:</strong> БОМБИ В ТІСТІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни зі сметаною (200/100г)</p>
+                <p><strong>Опис:</strong> Цибуля ріпчаста, картопля, яйця, борошно, сіль, перець чорний мелений</p>
+                <p><strong>Ціна:</strong> 128.0</p>
+                <p><strong>Тип:</strong> БОМБИ В ТІСТІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Зверхник ОУН з куркою (250г)</p>
+                <p><strong>Опис:</strong> Куряче філе, салат ромен, помідор, яйця, бринза, соус Ворчестер, часникова паста, заправляється домашнім майонезом, соусом з анчоусів та гірчицею</p>
+                <p><strong>Ціна:</strong> 232.0</p>
+                <p><strong>Тип:</strong> САЛАТКИ І ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салатка Пісний сніданок патріота (250г)</p>
+                <p><strong>Опис:</strong> Сир Фета, огірок, помідор, перець, оливки, цибуля, оливкова олія</p>
+                <p><strong>Ціна:</strong> 202.0</p>
+                <p><strong>Тип:</strong> САЛАТКИ І ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Форшмак з оселедця Український, Кримський (150/70г)</p>
+                <p><strong>Опис:</strong> Оселедець дрібно нарізаний, стебло селери, огірок свіжий, яблуко, цибуля ріпчаста, білок, грінки</p>
+                <p><strong>Ціна:</strong> 174.0</p>
+                <p><strong>Тип:</strong> САЛАТКИ І ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паштет курячий Годиво (150/60г)</p>
+                <p><strong>Опис:</strong> Печінка куряча, морква, цибуля, вершки 30%, масло вершкове, соус Соєвий, вино біле сухе, коріандр, мускатний горіх, тим'ян, перець чорний мелений, бородинський хліб, смородиновий джем</p>
+                <p><strong>Ціна:</strong> 162.0</p>
+                <p><strong>Тип:</strong> САЛАТКИ І ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сало копчене мелене (90г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 93.0</p>
+                <p><strong>Тип:</strong> САЛАТКИ І ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смалець зі шкварками (90г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 77.0</p>
+                <p><strong>Тип:</strong> САЛАТКИ І ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смалець зі зеленню (90г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 69.0</p>
+                <p><strong>Тип:</strong> САЛАТКИ І ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бограч Це вам не фіглі (300/30г)</p>
+                <p><strong>Опис:</strong> Від цімбора з гострим смальцем, голяшка яловича, рулетка свинна, ковбаса, картопля, корінь селери, перець болгарський червоний, цибуля, морква, помідори, перець свіжий гострий, паприки солодка, перець чорний мелений, сіль</p>
+                <p><strong>Ціна:</strong> 158.0</p>
+                <p><strong>Тип:</strong> ЗУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибна юшка Карпатського єгерства (300г)</p>
+                <p><strong>Опис:</strong> Концентрований грибний бульйон: гриби Шийтаке, білих гриби, морква, селера, цибуля ріпчаста; та вушка з грибним дюкселем</p>
+                <p><strong>Ціна:</strong> 156.0</p>
+                <p><strong>Тип:</strong> ЗУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ червоний Перше причастя Героя (300/30г)</p>
+                <p><strong>Опис:</strong> Капуста білокачанна, картопля, морква, цибуля ріпчаста, буряк, квасоля, шинка свинна, голонка яловича, помідори консервовані, сіль, цукор, оцет рисовий, сметана</p>
+                <p><strong>Ціна:</strong> 146.0</p>
+                <p><strong>Тип:</strong> ЗУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пампушка з часником</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 28.0</p>
+                <p><strong>Тип:</strong> ЗУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пструг печений Від Сяну до Дону (270г)</p>
+                <p><strong>Опис:</strong> Форель річкова, соус Песто, лимон</p>
+                <p><strong>Ціна:</strong> 338.0</p>
+                <p><strong>Тип:</strong> СТРАВИ ДЛЯ БОЇВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шмат м'яса М'ясиво від Колі (150/70г)</p>
+                <p><strong>Опис:</strong> Маринована свинина, маринована цибуля, кінза, паста з перців</p>
+                <p><strong>Ціна:</strong> 296.0</p>
+                <p><strong>Тип:</strong> СТРАВИ ДЛЯ БОЇВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курча Скинь камінь з серця (400г)</p>
+                <p><strong>Опис:</strong> Курка, карі, мускатний горіх, паприка, перець, картопля запечена</p>
+                <p><strong>Ціна:</strong> 288.0</p>
+                <p><strong>Тип:</strong> СТРАВИ ДЛЯ БОЇВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біфштекс Запілля Волині (260/30г)</p>
+                <p><strong>Опис:</strong> Яловича котлета з рубленого мʼяса, салат Айсберг, помідор, морква, огірок, олія оливкова, гірчиця, рисовий оцет, лимонний фреш, сіль</p>
+                <p><strong>Ціна:</strong> 278.0</p>
+                <p><strong>Тип:</strong> СТРАВИ ДЛЯ БОЇВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Індик печений з баношем Панцерна сотня (325г)</p>
+                <p><strong>Опис:</strong> Філе індика, кукурудзяна каша, цибуля, сир Бринза овеча</p>
+                <p><strong>Ціна:</strong> 266.0</p>
+                <p><strong>Тип:</strong> СТРАВИ ДЛЯ БОЇВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кров'янка Кривава кишка (250/150г)</p>
+                <p><strong>Опис:</strong> Кров'янка, квасоля, сіль, олія рафінована, часник сушений, стручкова квасоля</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> СТРАВИ ДЛЯ БОЇВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шпарагівка Востра шо ну (250г)</p>
+                <p><strong>Опис:</strong> Шпарагівка грильована, крохмаль, часникова паста, перець Чилі, сіль</p>
+                <p><strong>Ціна:</strong> 136.0</p>
+                <p><strong>Тип:</strong> СТРАВИ ДЛЯ БОЇВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печена у золі картопля Свято в лісі (200/50г)</p>
+                <p><strong>Опис:</strong> Із часником і зеленню</p>
+                <p><strong>Ціна:</strong> 54.0</p>
+                <p><strong>Тип:</strong> СТРАВИ ДЛЯ БОЇВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники сотенні Грубі (200/50/50г)</p>
+                <p><strong>Опис:</strong> Сир домашній, сіль, цукор, ванільний цукор, яйце куряче, борошно, розпушувач, родзинки, смородинове варення</p>
+                <p><strong>Ціна:</strong> 142.0</p>
+                <p><strong>Тип:</strong> СОЛОДКІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з вишнею Турчиновські (200/50г)</p>
+                <p><strong>Опис:</strong> Заварне тісто, вишні, сметана</p>
+                <p><strong>Ціна:</strong> 136.0</p>
+                <p><strong>Тип:</strong> СОЛОДКІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-cola ж/б (330мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta ж/б (330мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> FantaSprite ж/б (330мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Cік Galicia Яблуко (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> СОКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Cік Galicia Яблуко-вишня (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> СОКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Cік Galicia Яблуко-груша (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> СОКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Jaffa Томат (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> СОКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Jaffa Апельсин (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> СОКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Jaffa Мультифрукт (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> СОКИ</p>
+                <hr></div>
 </body>
 </html>

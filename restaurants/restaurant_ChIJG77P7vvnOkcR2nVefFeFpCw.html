@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,190 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/439.png" alt="Restaurant Image">
         <h1>Monster Burger / Монстр Бургер</h1>
-        <p><strong>Address:</strong> вулиця Княгині Ольги, 71, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8063745, 'lng': 23.9993539}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> </p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 194.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Княгині Ольги, 71, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8063745, 'lng': 23.9993539}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> </p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 194.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Локшина з креветками (450г)</p>
+                <p><strong>Опис:</strong> Fettuccine у грибному бульйоні з креветками, крабовими паличками, грибами, болгарським перцем, та зеленню</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Локшина з свининою (450г)</p>
+                <p><strong>Опис:</strong> Fettuccine у м'ясному бульйоні зі свининою та зеленню</p>
+                <p><strong>Ціна:</strong> 88.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гречаний суп (400 г)</p>
+                <p><strong>Опис:</strong> Традиційний суп на бульйоні, з м'ясом.</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шурпа прозора (450г)</p>
+                <p><strong>Опис:</strong> Ароматна, навариста шурпа на яловичих "цукрових" кістках, зі свининою</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ український (400г)</p>
+                <p><strong>Опис:</strong> Традиційний Український борщ. домашнього приготування</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по селянськи (300 г)</p>
+                <p><strong>Опис:</strong> Класика національної кухні, найкраще смакує зі сметанковим соусом, з додаванням часнику.</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляне пюре (300г)</p>
+                <p><strong>Опис:</strong> Картопля, свіжі яйця, вершкове масло, сіль</p>
+                <p><strong>Ціна:</strong> 74.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з печерицями та сметаною (3 шт.)</p>
+                <p><strong>Опис:</strong> Запашні млинці зі сметаною.</p>
+                <p><strong>Ціна:</strong> 92.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з м'ясом курки (3 шт.)</p>
+                <p><strong>Опис:</strong> Млинці поливані доброю сметаною.</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з сододким сиром. (3 шт)</p>
+                <p><strong>Опис:</strong> Чудові, дуже-дуже смачні, домашні млинці.</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крильця курячі (1 шт)</p>
+                <p><strong>Опис:</strong> Витримані у фірмовому томатному маринаді, обсмажені під кришкою, крильця</p>
+                <p><strong>Ціна:</strong> 52.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлети зі свинини з яловичиной.</p>
+                <p><strong>Опис:</strong> Домашні котлети. ( фарш, ТМ "Глобине").</p>
+                <p><strong>Ціна:</strong> 52.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смажена почеревина (100г)</p>
+                <p><strong>Опис:</strong> Яскраві,смажені шматочки, помірно - жирної свинини</p>
+                <p><strong>Ціна:</strong> 52.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сало солоне (50г)</p>
+                <p><strong>Опис:</strong> Сало генеральське з Полтавщини, власного посолу</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гомілка куряча.</p>
+                <p><strong>Опис:</strong> Мариновані у томатному соусі, з прянощами, обсмажені гомілки.</p>
+                <p><strong>Ціна:</strong> 42.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Опеньки мариновані (100г)</p>
+                <p><strong>Опис:</strong> Промиті, мариновані гриби заводської консервації, з цибулею, олією і лимоном</p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з капустою та огірками (100г)</p>
+                <p><strong>Опис:</strong> Склад:
+Капуста, морква, болгарський червоний перець, огірки, зелень, лимон, олія.</p>
+                <p><strong>Ціна:</strong> 46.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Морква по-корейськи (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 42.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Горошок зелений, консервований. (100 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 32.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Огірки мариновані (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 29.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Консервована Кукурудза (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Помідори мариновані (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 18.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сметанковий з часником (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 37.0</p>
+                <p><strong>Тип:</strong> СОУСИ ДО ВАШОГО ЗАМОВЛЕННЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сацебелі (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 36.0</p>
+                <p><strong>Тип:</strong> СОУСИ ДО ВАШОГО ЗАМОВЛЕННЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Аджика (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 32.0</p>
+                <p><strong>Тип:</strong> СОУСИ ДО ВАШОГО ЗАМОВЛЕННЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хрін (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 29.0</p>
+                <p><strong>Тип:</strong> СОУСИ ДО ВАШОГО ЗАМОВЛЕННЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сметана (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 23.0</p>
+                <p><strong>Тип:</strong> СОУСИ ДО ВАШОГО ЗАМОВЛЕННЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Провансаль (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> СОУСИ ДО ВАШОГО ЗАМОВЛЕННЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гірчиця (20г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 12.0</p>
+                <p><strong>Тип:</strong> СОУСИ ДО ВАШОГО ЗАМОВЛЕННЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хліб (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 2.0</p>
+                <p><strong>Тип:</strong> ХЛІБ</p>
+                <hr></div>
 </body>
 </html>

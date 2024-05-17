@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,99 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/459.png" alt="Restaurant Image">
         <h1>MYSHLYA</h1>
-        <p><strong>Address:</strong> площа Ринок, 35, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.842475, 'lng': 24.0307391}</p>
-        <p><strong>Website:</strong> <a href="https://barmushly.com.ua/" target="_blank">https://barmushly.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 98 985 8898</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 184.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> площа Ринок, 35, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.842475, 'lng': 24.0307391}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://barmushly.com.ua/" target="_blank">https://barmushly.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 98 985 8898</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 184.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 08:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Сирнички з фісташкою (325г)</p>
+                <p><strong>Опис:</strong> Ніжні сирнички на рисовому борошні з фісташковою пастою в середині, сметана , сезонні ягоди або фрукти та крихта фісташки</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з бананом (325г)</p>
+                <p><strong>Опис:</strong> Солодкі сирнички з бананом та білим шоколадом, сметана, карамелізований банан та мигдалеві пластівці</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з карамеллю (325г)</p>
+                <p><strong>Опис:</strong> Сирнички та багато тягучої карамелі в середині, сметана, карамелізовані горіхи та сезонні ягоди або фрукти</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з кокосом (325г)</p>
+                <p><strong>Опис:</strong> Сирнички з кокосовим ганашем, сметана, мигдалеві пластівці та сезонні ягоди або фрукти</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з шоколадом (325г)</p>
+                <p><strong>Опис:</strong> Сирнички з шоколадною пастою, сметана, смажений арахіс, крихта шоколаду та сезонні ягоди та фрукти</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з чорницею (325г)</p>
+                <p><strong>Опис:</strong> Сирнички з натуральною чорницею, сметана, та багато сезонних ягід або фруктів</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з ожиною (325г)</p>
+                <p><strong>Опис:</strong> Багато натуральної ожини в кожному сирничку, сметана та свіжі сезонні ягоди, фрукти</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з полуницею (325г)</p>
+                <p><strong>Опис:</strong> Сирнички з натуральною полуницею з додаванням м’яти, що робить їх більш неповторними, сметана, мигдалеві пластівці та свіжі ягоди</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з маком (325г)</p>
+                <p><strong>Опис:</strong> Сирнички з маком, цедрою лимона та апельсина, сметана, карамелізовані горіхи, свіжі сезонні ягоди та фрукти</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з малиною (325г)</p>
+                <p><strong>Опис:</strong> Сирнички з натуральною малиною, сметаною, чіа, та сезонними ягодами або фруктами</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з вишнею (325г)</p>
+                <p><strong>Опис:</strong> Сирнички з вишневим конфі, сметаною, мигдалевий пластівцями, свіжими ягодами та фруктами</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички класичні (325г)</p>
+                <p><strong>Опис:</strong> Ну дуже ніжні сирники на рисовому борошні з ароматом ванілі з сметаною та свіжими ягодами,фруктами</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr></div>
 </body>
 </html>

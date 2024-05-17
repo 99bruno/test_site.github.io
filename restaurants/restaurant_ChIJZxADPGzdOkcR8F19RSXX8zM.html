@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,271 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/112.png" alt="Restaurant Image">
         <h1>Cukor RED/Цукор Red</h1>
-        <p><strong>Address:</strong> вулиця Братів Рогатинців, 21, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.840353, 'lng': 24.032718}</p>
-        <p><strong>Website:</strong> <a href="http://cukor.lviv.ua/" target="_blank">http://cukor.lviv.ua/</a></p>
-        <p><strong>Phone:</strong> +380 98 350 4251</p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:30:00 - 18:00:00</p>
-        <p><strong>Tuesday:</strong> 08:30:00 - 18:00:00</p>
-        <p><strong>Wednesday:</strong> 08:30:00 - 18:00:00</p>
-        <p><strong>Thursday:</strong> 08:30:00 - 18:00:00</p>
-        <p><strong>Friday:</strong> 08:30:00 - 18:00:00</p>
-        <p><strong>Saturday:</strong> 08:30:00 - 19:00:00</p>
-        <p><strong>Sunday:</strong> 08:30:00 - 19:00:00</p>
-        <p><strong>Average price:</strong> 305.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Братів Рогатинців, 21, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.840353, 'lng': 24.032718}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://cukor.lviv.ua/" target="_blank">http://cukor.lviv.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 98 350 4251</p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> 305.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:30:00 - 18:00:00</p>
+        <p><strong>Вівторок:</strong> 08:30:00 - 18:00:00</p>
+        <p><strong>Середа:</strong> 08:30:00 - 18:00:00</p>
+        <p><strong>Четверг:</strong> 08:30:00 - 18:00:00</p>
+        <p><strong>Пʼятниця:</strong> 08:30:00 - 18:00:00</p>
+        <p><strong>Субота:</strong> 08:30:00 - 19:00:00</p>
+        <p><strong>Неділя:</strong> 08:30:00 - 19:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Піца Bresaola</p>
+                <p><strong>Опис:</strong> Томатний соус, брезаола (фермерська в’ялена яловичина),
+домашня страчателла, моцарелла, в’ялені томати, песто</p>
+                <p><strong>Ціна:</strong> 440.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> SIRENA</p>
+                <p><strong>Опис:</strong> Соус вершковий, моцарелла, мідії, анчоуси, пекоріно, пармезан, кімчі, часник конфі, ферментований перець чилі, мигдаль, петрушка</p>
+                <p><strong>Ціна:</strong> 390.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Cezarita</p>
+                <p><strong>Опис:</strong> Тісто з італійського борошна на заквасці, пармезанова основа, моцарелла, філе курки, бекон, зелень, чері, пармезан та особливий соус Цезаріта</p>
+                <p><strong>Ціна:</strong> 360.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> MORTADELLA WITH PISTACCHIO</p>
+                <p><strong>Опис:</strong> Соус вершковий, крафтова моцарелла, пармезан, мортаделла, мед, олія оливкова, фісташки, песто</p>
+                <p><strong>Ціна:</strong> 360.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піцца MEAT & PLEASURE</p>
+                <p><strong>Опис:</strong> Томатний соус, фермерська моцарела, хендмей кімчі, салямі, ароматний фарш з спеціями, синя цибуля, базилік.</p>
+                <p><strong>Ціна:</strong> 360.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца SAY "CHEESE"</p>
+                <p><strong>Опис:</strong> Ще більше сируу!
+Вершковий соус, фермерська моцарелла, чорний чеддер, брі, горгонзола, пармезан, персиковий трюфельний джем, фісташки</p>
+                <p><strong>Ціна:</strong> 355.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Di Carne</p>
+                <p><strong>Опис:</strong> Томатний соус, фермерська моцарела, три види салямі, бекон, пармезан, петрушка</p>
+                <p><strong>Ціна:</strong> 340.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца SPECK-tacular</p>
+                <p><strong>Опис:</strong> Томатний соус, фермерська моцарела, прошуто, часник-конфі, каперси, хендмейд гірчичний соус, рукола, пармезан
+
+*шпек - сиров' ялена легко підкопчена свинина</p>
+                <p><strong>Ціна:</strong> 340.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Diablo</p>
+                <p><strong>Опис:</strong> Гострий томатний соус, фермерська моцарела, салямі піканте, ндуйя (пікантна м'яка салямі), цибуля, часникова олія, петрушка</p>
+                <p><strong>Ціна:</strong> 335.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Funghi</p>
+                <p><strong>Опис:</strong> Вершковий соус, фермерська Моцарела, зелена цибуля трюфельна олія , печериці, тапенад з оливок, маслин та в’ялених томатів,  Пармезан, пекоріно</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Siciliana</p>
+                <p><strong>Опис:</strong> Новинка, у якій поєднані анчоуси та страчателла, песто, ночеллара, каперси, базилік та орегано</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Vegana</p>
+                <p><strong>Опис:</strong> Томатний соус, цукіні, шпинат бейбі, помідори чері, в’ялені томати, та мариновані артишоки.</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Pera&Gorgonzola</p>
+                <p><strong>Опис:</strong> Пармезановий соус, груша, фермерська моцарелла, блакитний сир,
+карамелізований фундук, м'ята</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Margherita</p>
+                <p><strong>Опис:</strong> Томатний соус, фермерська моцарела, соус песто, базилік</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус цезар</p>
+                <p><strong>Опис:</strong> Ідеально підійде до бортиків</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гострий соус HELLFIRE 2/10</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гострий соус DARK REAPER 5/10</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гострий соус BURNING THROAT 11/10</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спагетті з креветками та мідіями</p>
+                <p><strong>Опис:</strong> креветки, мідії, чері, часник, цибуля, петрушка, пармезан, мигдаль</p>
+                <p><strong>Ціна:</strong> 390.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з куркою</p>
+                <p><strong>Опис:</strong> Зелена паста, вершково-шпинатний соус, філе курки су-від, зелений горошок, печериці, в'ялені чері, пармезан</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Карбонара</p>
+                <p><strong>Опис:</strong> Спагетті,  пармезан та пекоріно, бекон 
+Класичний варіант без вершків :)</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Равіолі зі шпинатом та Рікотою 2.0</p>
+                <p><strong>Опис:</strong> Равіолі, з шавлією, Пармезаном, шпинатом та Рікотою</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ньоки з лососем (270г)</p>
+                <p><strong>Опис:</strong> Обсмажене філе лосося су-від ньоки з рікотти, соус біск з часником, чері, кейлом та посипкою з норі</p>
+                <p><strong>Ціна:</strong> 450.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Томлені яловичі щічки деміглас (400г)</p>
+                <p><strong>Опис:</strong> Томлені яловичі щічки в соусі, на основі концентрованого яловичого бульйону подаються із картопляним пюре та маринованою капустою ромен.</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оливки Ночеллара, Каламата та артишоки власного маринаду (120г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> АНТІПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бразеола 50г.</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> АНТІПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фокачча з діпами</p>
+                <p><strong>Опис:</strong> Свіжоспечена фокачча з тапенадом (з оливок, маслин та в' ялених томатів) та крем-сиром із зеленню</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> АНТІПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар із креветками (320г)</p>
+                <p><strong>Опис:</strong> Листя Ромену, креветки, чері, перепелині яйця, Пармезан, чері, соус Цезар, рисові чипси</p>
+                <p><strong>Ціна:</strong> 360.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нісуаз з тунцем</p>
+                <p><strong>Опис:</strong> Філе тунця, салат ромен, соус нісуаз з ікрою тобіко, запечена картопля, чері, огірок, оливки каламата, цибуля</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар із куркою (320г)</p>
+                <p><strong>Опис:</strong> Листя Ромену, шматочки бріошу, обсмажена курка сувід, бекон, чері, перепелині яйця, Пармезан, соус Цезар</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зуппа ді помодоро</p>
+                <p><strong>Опис:</strong> Томатний крем –суп на основі італійських томатів пелаті, вершків, спецій, з моцареллою, пармезаном і песто.</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крок-мадам (310г)</p>
+                <p><strong>Опис:</strong> Ніжний бріош, шинка, сир чеддер, моцарелла, шпинат, оката яєчня, пармезанова піна</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> БРАНЧІ 12:00-17:00</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бріош зі скрамблом та грибами</p>
+                <p><strong>Опис:</strong> Ніжний скрембл с маскарпоне, сезонними грибами та фірмовим бріошем
+Подається з обпаленими чері, пармезаном та фісташками</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> БРАНЧІ 12:00-17:00</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники в білому шоколаді</p>
+                <p><strong>Опис:</strong> Подається з сезонними фруктами та фісташками</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> БРАНЧІ 12:00-17:00</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мангове тірамісу</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Класичне тірамісу</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sagiko Mango</p>
+                <p><strong>Опис:</strong> Cолодкий негазований напій зі смаком манго.</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиво MOVA безалкогольне</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш апельсиновий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш грейпфрутовий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад апельсин</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад чорна смородина-чорниця</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мінеральна вода негазована</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мінеральна вода газована</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

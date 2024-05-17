@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,129 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/362.png" alt="Restaurant Image">
         <h1>Grand Cafe Leopolis / Гранд кафе Леополіс</h1>
-        <p><strong>Address:</strong> площа Ринок, 1, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8418334, 'lng': 24.03112830000001}</p>
-        <p><strong>Website:</strong> <a href="https://www.fest.lviv.ua/uk/restaurants/grandcafeleopolis/" target="_blank">https://www.fest.lviv.ua/uk/restaurants/grandcafeleopolis/</a></p>
-        <p><strong>Phone:</strong> +380 97 997 5565</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:00:00 - 22:30:00</p>
-        <p><strong>Tuesday:</strong> 08:00:00 - 22:30:00</p>
-        <p><strong>Wednesday:</strong> 08:00:00 - 22:30:00</p>
-        <p><strong>Thursday:</strong> 08:00:00 - 22:30:00</p>
-        <p><strong>Friday:</strong> 08:00:00 - 22:30:00</p>
-        <p><strong>Saturday:</strong> 08:00:00 - 22:30:00</p>
-        <p><strong>Sunday:</strong> 08:00:00 - 22:30:00</p>
-        <p><strong>Average price:</strong> 580.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> площа Ринок, 1, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8418334, 'lng': 24.03112830000001}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://www.fest.lviv.ua/uk/restaurants/grandcafeleopolis/" target="_blank">https://www.fest.lviv.ua/uk/restaurants/grandcafeleopolis/</a></p>
+        <p><strong>Телефон:</strong> +380 97 997 5565</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 580.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:00:00 - 22:30:00</p>
+        <p><strong>Вівторок:</strong> 08:00:00 - 22:30:00</p>
+        <p><strong>Середа:</strong> 08:00:00 - 22:30:00</p>
+        <p><strong>Четверг:</strong> 08:00:00 - 22:30:00</p>
+        <p><strong>Пʼятниця:</strong> 08:00:00 - 22:30:00</p>
+        <p><strong>Субота:</strong> 08:00:00 - 22:30:00</p>
+        <p><strong>Неділя:</strong> 08:00:00 - 22:30:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Запечена куряча котлета + грибний соус (100/20)</p>
+                <p><strong>Опис:</strong> Домашній курячий фарш, цибулька, картопля,спеції, печериці, масло, молоко</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> М'ЯСНІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Свинна котлета по-грузинськи (100г)</p>
+                <p><strong>Опис:</strong> Свинина, молоко, чорнослив, цибуля, хліб, яйце, спеції, олія, паніровка сухарів, грецький горіх.</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> М'ЯСНІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бурячок з чорносливом та грецьким горіхом (100г)</p>
+                <p><strong>Опис:</strong> Буряк варений, чорнослив, грецький горіх, майонез, спеції</p>
+                <p><strong>Ціна:</strong> 51.0</p>
+                <p><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Бурячок (100г)</p>
+                <p><strong>Опис:</strong> Відварений бурячок, олія, цибулька, спеції</p>
+                <p><strong>Ціна:</strong> 51.0</p>
+                <p><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Осінній (100г)</p>
+                <p><strong>Опис:</strong> Капуста, Болгарський перець, морква, олія, сіля, перець</p>
+                <p><strong>Ціна:</strong> 51.0</p>
+                <p><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Синя капуста (100г)</p>
+                <p><strong>Опис:</strong> Синя капуста, цибулька, майонез</p>
+                <p><strong>Ціна:</strong> 51.0</p>
+                <p><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рис запечений з овочами (150г)</p>
+                <p><strong>Опис:</strong> Рис розсипчатий, кукурудза, морква, зелена стрючкова фасоля, вершкове масло, спеції, сіль, перець</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спагетті (150г)</p>
+                <p><strong>Опис:</strong> Спагетті, вершкове масло, сіль, перець</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибна юшка з вермішелькою (350г)</p>
+                <p><strong>Опис:</strong> Печериці, вермішелька, масло вершкове, цибуля, морква, питна вода, зелень, перець, сіль</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий бульйон (350г)</p>
+                <p><strong>Опис:</strong> Куряче філе, вермішелька, морква, корінь петрушки, сіль, перець, зелень, питна вода</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирник (200г)</p>
+                <p><strong>Опис:</strong> Сир домашній, шоколадний корж, родзинки, ванільний цукор</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ-ПРЕМІУМ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода моршинська (слабогазована)</p>
+                <p><strong>Опис:</strong> (500мл)</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода моршинська (негазована)</p>
+                <p><strong>Опис:</strong> (500мл)</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус кисло-солодкий (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус барбекю (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус сирний (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr></div>
 </body>
 </html>

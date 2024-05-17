@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,229 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/254.png" alt="Restaurant Image">
         <h1>Hokkaido Sushi/ Хоккайдо Суші</h1>
-        <p><strong>Address:</strong> вулиця Старицького, 2, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8339903, 'lng': 24.0104971}</p>
-        <p><strong>Website:</strong> <a href="http://hokkaido.com.ua/" target="_blank">http://hokkaido.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 63 614 0440</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 197.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Старицького, 2, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8339903, 'lng': 24.0104971}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://hokkaido.com.ua/" target="_blank">http://hokkaido.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 63 614 0440</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 197.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Крем-суп з броколі (230г)</p>
+                <p><strong>Опис:</strong> Вершки, картопля, броколі</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крем-суп зі шпінату (230г)</p>
+                <p><strong>Опис:</strong> Вершки, молоко, шпінат</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крем-суп грибний (230г)</p>
+                <p><strong>Опис:</strong> Вершки, молоко, печериці</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з креветками та авокадо (230г)</p>
+                <p><strong>Опис:</strong> Листя салата, авокадо, креветки, огірок, помідори чері, синя цибуля</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з тунцем (250г)</p>
+                <p><strong>Опис:</strong> Мікс салату, тунець, помідори чері, перепелині яйця, цибуля, гірчиця, оливкова олія</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар (250г)</p>
+                <p><strong>Опис:</strong> Мікс салату, помідори чері, огірок, куряче м’ясо, соус цезар, сир пармезан, перепелині яйця</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький (200г)</p>
+                <p><strong>Опис:</strong> Листя салату, огірок, помідор, сир фета, оливки, синя цибуля, олія, сік лимону</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Капрезе (230г)</p>
+                <p><strong>Опис:</strong> Помідор, сир моцарела, соус песто</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат овочевий (230г)</p>
+                <p><strong>Опис:</strong> Помідор, огірок, сир фета, цибуля синя, сік лимону, олія</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Фрутті ді маре (450г)</p>
+                <p><strong>Опис:</strong> Сир, соус, креветки, мідії, кальмари труби, кальмари зірки, восьминоги</p>
+                <p><strong>Ціна:</strong> 339.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Салерно (460г)</p>
+                <p><strong>Опис:</strong> Сир, вершки, сир філадельфія, лосось, авокадо, лимон</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Сальмоне (410г)</p>
+                <p><strong>Опис:</strong> Сир моцарела, вершки, лосось, помідори чері, сир пармезан</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з цукіні та креветками (450г)</p>
+                <p><strong>Опис:</strong> Вершки, креветки, сир моцарела, помідори чері, цукіні, сир пармезан</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Цезар (470г)</p>
+                <p><strong>Опис:</strong> Сир моцарела, вершки, соус пармезан, куряче м’ясо, помідори чері, салат айсберг, сир пармезан</p>
+                <p><strong>Ціна:</strong> 279.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Італі (430г)</p>
+                <p><strong>Опис:</strong> Сир моцарела, прошуто, помідори чері, рукола, сир пармезан</p>
+                <p><strong>Ціна:</strong> 259.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Кватро Формаджі (390г)</p>
+                <p><strong>Опис:</strong> Сир моцарела, сир ементаль, сир горгонзола, сир пармезан</p>
+                <p><strong>Ціна:</strong> 259.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Полло (410г)</p>
+                <p><strong>Опис:</strong> Вершки, сир пармезан, сир моцарела, помідори чері, куряче м’ясо</p>
+                <p><strong>Ціна:</strong> 237.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Тонно (410г)</p>
+                <p><strong>Опис:</strong> Соус, сир, тунець, цибуля синя, помідор, каперси</p>
+                <p><strong>Ціна:</strong> 227.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Карносо (490г)</p>
+                <p><strong>Опис:</strong> Сир, соус, полядвиця, бекон, курка копчена, яйце</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Катанія (450г)</p>
+                <p><strong>Опис:</strong> Сир моцарела, вершки, салямі, печериці свіжі, сир горгонзола</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Вегетаріанська (430г)</p>
+                <p><strong>Опис:</strong> Сир, вершки, авокадо, оливки, цибуля, соус песто</p>
+                <p><strong>Ціна:</strong> 219.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Барбекю (410г)</p>
+                <p><strong>Опис:</strong> Соус, сир, печериці свіжі, ковбаски мисливські, курка копчена</p>
+                <p><strong>Ціна:</strong> 217.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Діабло (390г)</p>
+                <p><strong>Опис:</strong> Гостра піца; сир, салямі, гострий перець папероні, чорні оливки</p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Капрічоза (430г)</p>
+                <p><strong>Опис:</strong> Сир, полядвиця, помідори, перець солодкий, печериці свіжі</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Леонардо фірмова (410г)</p>
+                <p><strong>Опис:</strong> Сир, соус, салямі, помідор, оливки</p>
+                <p><strong>Ціна:</strong> 207.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Фаворіта (420г)</p>
+                <p><strong>Опис:</strong> Піца на білому соусі. Сир, куряче м'ясо, артишоки, помідори</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Арагона (470г)</p>
+                <p><strong>Опис:</strong> Сир, ковбаски копчені, бекон, огірок солений, соус барбекю</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маретіна (410г)</p>
+                <p><strong>Опис:</strong> Сир, анчоуси, вершки, зелені оливки, в'ялені томати</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Біанка (410г)</p>
+                <p><strong>Опис:</strong> Піца на білому соусі, сир, полядвиця, помідори, синя цибуля</p>
+                <p><strong>Ціна:</strong> 197.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Гавайська (400г)</p>
+                <p><strong>Опис:</strong> Сир, соус, куряче м’ясо, ананас, орегано</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Містрета (440г)</p>
+                <p><strong>Опис:</strong> Сир, сир фета, синя цибуля, в’ялені томати, оливки</p>
+                <p><strong>Ціна:</strong> 189.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Кальцоне (370г)</p>
+                <p><strong>Опис:</strong> Соус, сир, полядвиця, свіжі гриби, часник, орегано</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита (350г)</p>
+                <p><strong>Опис:</strong> Соус, помідори, сир моцарела, соус песто</p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паніні з лососем (200г)</p>
+                <p><strong>Опис:</strong> Лосось, листя салату, помідор, огірок, цибуля синя, сир пармезан</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ПАНІНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паніні з тунцем (200г)</p>
+                <p><strong>Опис:</strong> Тунець, листя салату, помідор, огірок, цибуля синя, сир пармезан</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПАНІНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паніні з беконом (200г)</p>
+                <p><strong>Опис:</strong> Бекон, листя салату, помідор, огірок, цибуля синя, сир пармезан</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПАНІНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паніні з куркою (200г)</p>
+                <p><strong>Опис:</strong> Курка, листя салату, помідор, огірок, цибуля синя, сир пармезан</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПАНІНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola скло (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

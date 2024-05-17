@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,89 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/347.png" alt="Restaurant Image">
         <h1>Bibar</h1>
-        <p><strong>Address:</strong> вулиця Збоїща, 4, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8675027, 'lng': 24.0474978}</p>
-        <p><strong>Website:</strong> <a href="https://bibar.choiceqr.com/" target="_blank">https://bibar.choiceqr.com/</a></p>
-        <p><strong>Phone:</strong> +380 93 609 0707</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 209.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Збоїща, 4, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8675027, 'lng': 24.0474978}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://bibar.choiceqr.com/" target="_blank">https://bibar.choiceqr.com/</a></p>
+        <p><strong>Телефон:</strong> +380 93 609 0707</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 209.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Штрудель з лососем (300г)</p>
+                <p><strong>Опис:</strong> Лосось, шпинат, сир</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> ШТРУДЕЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель з вишнею (300г)</p>
+                <p><strong>Опис:</strong> Вишня, грецький горіх, кориця</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> ШТРУДЕЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель з маком (300г)</p>
+                <p><strong>Опис:</strong> Мак, вишня, цедра лимону</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ШТРУДЕЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель з яблуком (300г)</p>
+                <p><strong>Опис:</strong> Яблуко, родзинки, кориця</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ШТРУДЕЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель з куркою (300г)</p>
+                <p><strong>Опис:</strong> Курка, помідор, перець, цибуля, сир</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ШТРУДЕЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель з грибами (300г)</p>
+                <p><strong>Опис:</strong> Печериці, курка, цибуля, сир</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ШТРУДЕЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель з шпинатом (Vega) (300г)</p>
+                <p><strong>Опис:</strong> Шпинат, сир фета</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ШТРУДЕЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирник з полуницею (300г)</p>
+                <p><strong>Опис:</strong> Сирна маса, полуниця</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирник класичний (300г)</p>
+                <p><strong>Опис:</strong> Сирна маса, шоколад, родзинки</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирник з карамеллю (300г)</p>
+                <p><strong>Опис:</strong> Сирна маса, підсолена карамель, арахіс</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr></div>
 </body>
 </html>

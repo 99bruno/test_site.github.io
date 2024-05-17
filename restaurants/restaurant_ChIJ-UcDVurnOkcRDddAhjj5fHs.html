@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,304 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/241.png" alt="Restaurant Image">
         <h1>Leonardo</h1>
-        <p><strong>Address:</strong> вулиця Стрийська, 106a, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8069679, 'lng': 24.0180485}</p>
-        <p><strong>Website:</strong> <a href="http://pizza-leonardo.com.ua/" target="_blank">http://pizza-leonardo.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 63 070 3868</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 196.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Стрийська, 106a, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8069679, 'lng': 24.0180485}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://pizza-leonardo.com.ua/" target="_blank">http://pizza-leonardo.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 63 070 3868</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 196.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Рол Рол в лососі з тартаром гребінця (270г)</p>
+                <p><strong>Опис:</strong> Рис, норі, вершковий сир, авокадо, лосось, гребінець, трюфільний соус, мікрогрін, ікра Тобіко</p>
+                <p><strong>Ціна:</strong> 495.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Monkey Spisy Grill (290г)</p>
+                <p><strong>Опис:</strong> Пікантний!  Лосось, вугор, рис, норі, авокадо, соус Спайсі, ікра Тобіка оранжева, мікрогрін, спеції Тогараші</p>
+                <p><strong>Ціна:</strong> 475.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Червоний дракон (290г)</p>
+                <p><strong>Опис:</strong> Лосось, рис, норі, тунець, огірок, ікра Тобіка червона, майонез японський, Унагі, рисові кульки, цибуля шніт</p>
+                <p><strong>Ціна:</strong> 460.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Grill Манго & Креветка (310 г)</p>
+                <p><strong>Опис:</strong> рис, норі, вершковий сир, манго, креветка, лосось, манговий соус, ікра тобіко, мікрогрін</p>
+                <p><strong>Ціна:</strong> 450.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Золотий дракон (270г)</p>
+                <p><strong>Опис:</strong> Вугор, рис, норі, лосось, авокадо, ікра Тобіка червона, Унагі, кімчі, кунжут, цибуля шніт</p>
+                <p><strong>Ціна:</strong> 435.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Чука (290 г)</p>
+                <p><strong>Опис:</strong> рис, норі, сир, лосось, хіяші, ікра тобіко, унагі соус, кунжут</p>
+                <p><strong>Ціна:</strong> 435.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філадельфія креветка&манго (310г)</p>
+                <p><strong>Опис:</strong> Рис, норі, вершковий сир, манго, креветка, лосось, манговий соус, ікра червона Тобіко, мікрогрін</p>
+                <p><strong>Ціна:</strong> 420.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Тунець з креветкою темпура та манго (255г)</p>
+                <p><strong>Опис:</strong> Рис, норі, вершковий сир, креветка темпура, манго, тунець, соус Трюфільний Унагі, мікрогрін</p>
+                <p><strong>Ціна:</strong> 410.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філадельфія Grill (300г)</p>
+                <p><strong>Опис:</strong> Лосось, рис, норі, вершковий сир, авокадо, соус Унагі, мікрогрін</p>
+                <p><strong>Ціна:</strong> 395.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pink Roll (255 г)</p>
+                <p><strong>Опис:</strong> рис, маменорі, сир, огірок, креветка, вугор, унагі соус, спайсі соус, тобіко, мікрогрін</p>
+                <p><strong>Ціна:</strong> 390.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філадельфія з вугрем (270г)</p>
+                <p><strong>Опис:</strong> Вугор, рис, норі, вершковий сир, ікра Тобіка червона, огірок, авокадо, соус Унагі, кунжут чорно-білий</p>
+                <p><strong>Ціна:</strong> 380.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філадельфія (300г)</p>
+                <p><strong>Опис:</strong> Лосось, рис, норі, вершковий сир, авокадо, ікра Тобіка</p>
+                <p><strong>Ціна:</strong> 375.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Spicy Tuna Grill (255г)</p>
+                <p><strong>Опис:</strong> Пікантний!  Рис, норі, вершковий сир, авокадо, тунець, соус Спайсі, мікрогрін, спеції Тогараші</p>
+                <p><strong>Ціна:</strong> 365.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Зелений дракон (250г)</p>
+                <p><strong>Опис:</strong> Авокадо, рис, креветка, норі, вершковий сир, огірок, соус Унагі, кунжут</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Spisy Salmon tartar (230 г)</p>
+                <p><strong>Опис:</strong> рис, норі, сир, огірок, лосось, спайсі соус, кунжут</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний рол (три сира) (210 г)</p>
+                <p><strong>Опис:</strong> рис, норі, сир вершковий, сир фета, сир чедер, унагі соус</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний рол з огірком (190 г)</p>
+                <p><strong>Опис:</strong> рис, норі, кунжут, сир вершковий, огірок</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Філадельфія MAX (1780  г)</p>
+                <p><strong>Опис:</strong> - Філадельфія
+- Філадельфія (креветка & манго)
+- Філадельфія Grill (креветка & манго)
+- Філадельфія Чука
+- Філадельфія з вугром
+- Філадельфія Grill</p>
+                <p><strong>Ціна:</strong> 2040.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет MONKEY (1680г)</p>
+                <p><strong>Опис:</strong> - Філадельфія
+- Філадельфія (креветка & манго)
+- Золотий Дракон
+- Monkey Spicy Grill
+- Spicy Tuna Grill
+- Тунець з креветкою темпура та манго</p>
+                <p><strong>Ціна:</strong> 1948.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Філадельфія  (1180г)</p>
+                <p><strong>Опис:</strong> Філадельфія класична, Філадельфія гриль, Філадельфія з вугрем, Філадельфія Манго & Креветка</p>
+                <p><strong>Ціна:</strong> 1260.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Драконів (810г)</p>
+                <p><strong>Опис:</strong> Золотий дракон, Зелений дракон, Червоний дракон</p>
+                <p><strong>Ціна:</strong> 948.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет для двох № 2 (780г)</p>
+                <p><strong>Опис:</strong> - Monkey Spicy Grill
+- Spicy Tuna Grill
+- Макі з лососем 
+- Макі з вугорем</p>
+                <p><strong>Ціна:</strong> 1150.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Cет для двох № 1 (720г)</p>
+                <p><strong>Опис:</strong> - Золотий дракон
+- Філадельфія (креветка & манго)
+- Спрінг рол з тунцем</p>
+                <p><strong>Ціна:</strong> 884.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечений з креветкою спайсі (280 г)</p>
+                <p><strong>Опис:</strong> Пікантний!  рис, норі, тобіка червона, сир, авокадо, креветка, сирна шапочка спайсі</p>
+                <p><strong>Ціна:</strong> 370.0</p>
+                <p><strong>Тип:</strong> ЗАПЕЧЕНІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечений з вугрем (270 г)</p>
+                <p><strong>Опис:</strong> рис, норі, сир, вугор, огірок, сирна шапочка, унагі соус, кунжут білий</p>
+                <p><strong>Ціна:</strong> 355.0</p>
+                <p><strong>Тип:</strong> ЗАПЕЧЕНІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечений з тунцем спайсі (270 г)</p>
+                <p><strong>Опис:</strong> Пікантний! рис, норі, кунжут, сир, тунець, авокадо, сирна шапочка спайсі, шрірача, стружка тунця</p>
+                <p><strong>Ціна:</strong> 340.0</p>
+                <p><strong>Тип:</strong> ЗАПЕЧЕНІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечений з лососем (280 г)</p>
+                <p><strong>Опис:</strong> рис, кунжут, норі, лосось, сир, авокадо, сирна шапочка, унагі</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ЗАПЕЧЕНІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хенд рол з вугром (60 г)</p>
+                <p><strong>Опис:</strong> вугор, соєвий папір, ікра тобіко, японський майонез</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> ХЕНД РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хенд рол з тунцем</p>
+                <p><strong>Опис:</strong> тунець, соєвий папір, ікра тобіко, японський майонез</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> ХЕНД РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хенд рол з лососем (60 г)</p>
+                <p><strong>Опис:</strong> лосось, соєвий папір, ікра тобіко, японський майонез</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> ХЕНД РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хенд рол з креветкою (60 г)</p>
+                <p><strong>Опис:</strong> авокадо, креветка, соєвий папір, ікра тобіко, японський майонез</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> ХЕНД РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з вугрем (115г)</p>
+                <p><strong>Опис:</strong> Вугор, рис, норі, Унагі соус, кунжут</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> МАКІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з лососем Grill (120г)</p>
+                <p><strong>Опис:</strong> Лосось, рис, норі, Спайсі соус</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> МАКІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з лососем (120г)</p>
+                <p><strong>Опис:</strong> Лосось, рис, норі</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> МАКІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з тунцем (120г)</p>
+                <p><strong>Опис:</strong> Тунець, рис, норі</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> МАКІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з авокадо (110г)</p>
+                <p><strong>Опис:</strong> Авокадо, рис, норі</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> МАКІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з огірком (110г)</p>
+                <p><strong>Опис:</strong> Огірок, рис, норі</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> МАКІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Малина (350мл)</p>
+                <p><strong>Опис:</strong> Пюре малина,  лимоний мікс, вода газ</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Полуниця (350мл)</p>
+                <p><strong>Опис:</strong> Пюре полуниця,  лимоний мікс, вода газ</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> лимонад Маракуйя</p>
+                <p><strong>Опис:</strong> пюре Маракуйя, газована вода, лимоний мікс</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> coca-cola (330мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Spring roll з гребінцем (140 г)</p>
+                <p><strong>Опис:</strong> рисовий папір, шпинат, сир вершковий, ікра тобіко, гребінець, авокадо, соус трюфільний</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> СПРІНГ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Spring roll з вугром (140 г)</p>
+                <p><strong>Опис:</strong> рисовий папір, шпинат, сир вершковий, ікра тобіко, вугор, авокадо, унагі, соус, кунжут</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> СПРІНГ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Spring roll з тунцем (140 г)</p>
+                <p><strong>Опис:</strong> рисовий папір, шпинат, сир вершковий, ікра тобіко, тунець, огірок, спайсі соус</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> СПРІНГ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Spring roll з лососем (140 г)</p>
+                <p><strong>Опис:</strong> рисовий папір, шпинат, сир вершковий, ікра тобіко, лосось, авокадо, спайсі соус</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> СПРІНГ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Spring roll з креветкою та манго (130 г)</p>
+                <p><strong>Опис:</strong> рисовий папір, шпинат, сир вершковий, ікра тобіко, креветка, манго, соус манговий</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> СПРІНГ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі з вугром (70 г)</p>
+                <p><strong>Опис:</strong> рис, вугор, унагі, кунжут, норі</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> Нігірі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі лосось гриль (70 г)</p>
+                <p><strong>Опис:</strong> рис, лосось, соус спайсі, соус трюфельний, ікра тобіко</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> Нігірі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі з тунцем (70 г)</p>
+                <p><strong>Опис:</strong> рис, тунець</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> Нігірі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі з лососем (70 г)</p>
+                <p><strong>Опис:</strong> рис, лосось</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> Нігірі</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,164 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/304.png" alt="Restaurant Image">
         <h1>DelMarko</h1>
-        <p><strong>Address:</strong> вулиця Павла Ковжуна, 3, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8379998, 'lng': 24.0296921}</p>
-        <p><strong>Website:</strong> <a href="https://instagram.com/delmarko_lviv?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">https://instagram.com/delmarko_lviv?igshid=OGQ5ZDc2ODk2ZA==</a></p>
-        <p><strong>Phone:</strong> </p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 278.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Павла Ковжуна, 3, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8379998, 'lng': 24.0296921}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://instagram.com/delmarko_lviv?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">https://instagram.com/delmarko_lviv?igshid=OGQ5ZDc2ODk2ZA==</a></p>
+        <p><strong>Телефон:</strong> </p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 278.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Салат з креветками та мідіями (250г)</p>
+                <p><strong>Опис:</strong> Бебі мікс, дресінг цитрусовий, виноград, томати Чері, авокадо, креветки, мідії, кунжут чорний, солодкий Чилі, олія паприки</p>
+                <p><strong>Ціна:</strong> 340.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з тунцем (250г)</p>
+                <p><strong>Опис:</strong> Салат Ромен, дресінг цитрусовий, квасоля стручкова, томати Чері, картопляні крокети, тунець, кунжут чорний, яйце перепелине, лаймовий соус</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з грушею та прошутто (200г)</p>
+                <p><strong>Опис:</strong> Груша, мікс салат, дресінг цитрусовий, прошуто, сир Дор блю, смородоновий соус, мигдалеві пластівці</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з курячим шніцелем (250г)</p>
+                <p><strong>Опис:</strong> Салат Ромен, соус Цезар, мармелад бекону, шніцель курячий, яйце перепелине, томати Чері, сир Пармезан</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар з лосося з мусом авокадо (180г)</p>
+                <p><strong>Опис:</strong> Філе лосося зачистка, каперси, гірчиця зерниста, цибуля Кримська, зачистка, сублімована малина, сальса томатна, мус авокадо</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар з яловичини (190г)</p>
+                <p><strong>Опис:</strong> Стейк, цибуля Кримська, гірчиця гостра, каперси, яйце перепелине, мариновані опеньки, бебі шпинат, олія зелена, картопляні крокети, кінза, олія Трюфельна</p>
+                <p><strong>Ціна:</strong> 300.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мідії у вершково-сирному соусі (270г)</p>
+                <p><strong>Опис:</strong> Мідії, сир Моцарела, вершки, цибуля Кримська</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креветки в панко з кисло-солодким Чилі (140г)</p>
+                <p><strong>Опис:</strong> Креветка, мікрогрін, олія зелена, Солодкий Чилі</p>
+                <p><strong>Ціна:</strong> 230.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Попкорн з сиру Моцарела з соусом Песто (120г)</p>
+                <p><strong>Опис:</strong> Сир Моцарела бебі, соус Песто, мікрогрін, олія паприки</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пармезанова полента з грибами (200г)</p>
+                <p><strong>Опис:</strong> Полента, шпинатний соус Бешамель, гриби Гливи, Древесні гриби, Устричний соус</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Мікс сирів з грушевою мостардою (450г)</p>
+                <p><strong>Опис:</strong> Шпинатний соус Бешамель, сир Моцарела, сир Брі, сир Дор Блю, сир Пармезан, грушева Мастарда, олія ароматна</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Брезаола та Страчателла (500г)</p>
+                <p><strong>Опис:</strong> Сир Моцарела, Брезаола, сир Стратачелла, соус Песто, салат Рукола</p>
+                <p><strong>Ціна:</strong> 340.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Мікс м'яса (500г)</p>
+                <p><strong>Опис:</strong> Соус Томатний, сир Моцарела, ковбаса Чорізо, ковбаса Наполі піканте, ковбаса Салямі Мілано, ковбаски Мисливські, олія ароматна</p>
+                <p><strong>Ціна:</strong> 340.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з прошуто та Пармезаном (500г)</p>
+                <p><strong>Опис:</strong> Соус Томатний, сир Моцарелла, прошуто, салат Рукола, сир Пармезан, в'ялені томати, бальзамічний крем, олія ароматна</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Тартар з яловичини (500г)</p>
+                <p><strong>Опис:</strong> Соус Томатний, сир Моцарела, стейк, олія ароматна, сальса томатна</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Чізбургер (550г)</p>
+                <p><strong>Опис:</strong> Соус BBQ, сир Моцарела, мітболи, цибуля Кримська, сир Чедер, олія ароматна, цибуля смажена, огірок консервований</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Мікс грибів (450г)</p>
+                <p><strong>Опис:</strong> Шпинатний соус Бешамель, сир Моцарела, Древесні гриби, гриби Печериці, гриби Шиїтаке, гриби Опеньки, олія Трюфельна, олія ароматна, цибуля смажена</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Курка та ананаси (480г)</p>
+                <p><strong>Опис:</strong> Сир Моцарела, стегно куряче, ананас, кукурудза, сир Пармезан, олія ароматна</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Цезар (550г)</p>
+                <p><strong>Опис:</strong> Шпинатний соус Бешамель, сир Моцарела, стегно куряче, томат, мармелад бекону, сир Пармезан, салат Ромен, соус Цезар, олія ароматна, цибуля смажена, перепелині яйця</p>
+                <p><strong>Ціна:</strong> 300.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Наполе з Халапеньйо (500г)</p>
+                <p><strong>Опис:</strong> Соус Томатний, сир Моцарела, ковбаса Наполі пікантна, перець Халапеньйо, олія ароматна</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Пепероні (460г)</p>
+                <p><strong>Опис:</strong> Соус Томатний на піцу, сир Моцарела, ковбаса Пепероні, олія ароматна</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита (420г)</p>
+                <p><strong>Опис:</strong> Соус Томатний, сир Моцарела, олія ароматна, базилік</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola (500мл)</p>
+                <p><strong>Опис:</strong> Напій сильногазований солодкий</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta (500мл)</p>
+                <p><strong>Опис:</strong> Напій сильногазований солодкий</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite (500мл)</p>
+                <p><strong>Опис:</strong> Напій сильногазований солодкий</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

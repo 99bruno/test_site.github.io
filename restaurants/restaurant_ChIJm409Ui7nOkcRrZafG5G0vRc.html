@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,224 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/96.png" alt="Restaurant Image">
         <h1>VashLAVash / ВашЛАВаш</h1>
-        <p><strong>Address:</strong> вулиця Хуторівка, 4, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.7981349, 'lng': 24.03570879999999}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 63 412 9888</p>
-        <p><strong>Type:</strong> bakery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 70.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Хуторівка, 4, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.7981349, 'lng': 24.03570879999999}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 63 412 9888</p>
+        <p><strong>Тип:</strong> bakery</p>
+        <p><strong>Середня ціна:</strong> 70.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 08:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Сет Братан</p>
+                <p><strong>Опис:</strong> хот-доги: Фірмовий, Німецький, Картопля фрі - 2 шт., Coca-Cola 0,5л - 2 шт.</p>
+                <p><strong>Ціна:</strong> 570.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фірмове меню</p>
+                <p><strong>Опис:</strong> хот-дог Фірмовий, картопля фрі, Coca-Cola 0,5 л</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Італійське меню</p>
+                <p><strong>Опис:</strong> хот-дог Італійський, картопля фрі, Coca-Cola 0,5 л</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Німецьке меню</p>
+                <p><strong>Опис:</strong> хот-дог Німецький, картопля фрі, Coca-Cola 0,5 л</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американське меню</p>
+                <p><strong>Опис:</strong> хот-дог Американський, картопля фрі, Coca-Cola 0,5 л</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Класичне меню</p>
+                <p><strong>Опис:</strong> хот-дог Класичний, картопля фрі, Coca-Cola 0,5 л</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Файний (685г)</p>
+                <p><strong>Опис:</strong> хот-доги: Фірмовий, Німецький, Американський</p>
+                <p><strong>Ціна:</strong> 430.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фірмовий (225г)</p>
+                <p><strong>Опис:</strong> Булка, соус Кисло-солодкий, Сосиска "Пікнік", бекон смажений, огірок квашений, смажені гриби, цибуля синя</p>
+                <p><strong>Ціна:</strong> 163.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Італійський (220г)</p>
+                <p><strong>Опис:</strong> Булка, соус Бешамель, сосиска "Прем'єра", помідор, рукола, пармезан</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Німецький (220г)</p>
+                <p><strong>Опис:</strong> Булка, соус Барбекю, сосиска "Пікнік", бекон смажений, огірок квашений</p>
+                <p><strong>Ціна:</strong> 143.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американський (240г)</p>
+                <p><strong>Опис:</strong> Булка, соус Гірчичний, сосиска "З сиром", коул-слоу (містить цибулю), огірок квашений</p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Класичний (200г)</p>
+                <p><strong>Опис:</strong> Булка, сосиска, майонез, кетчуп, гірчиця</p>
+                <p><strong>Ціна:</strong> 109.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креветки темпура з соусом тартар (85/50г)</p>
+                <p><strong>Опис:</strong> креветки, темпура, сухарі Панко, соус тартар</p>
+                <p><strong>Ціна:</strong> 211.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирні кульки з малиновим соусом (200/50г)</p>
+                <p><strong>Опис:</strong> сир Моцарела, сир Пармезан, Крем-сир, сухарі Панко, соус малиновий</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі з допами (225г)</p>
+                <p><strong>Опис:</strong> картопля фрі, соус Чедер, цибулевий кранч, бекон смажений</p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Батат з соусом тартар (100/50г)</p>
+                <p><strong>Опис:</strong> батат фрі, соус тартар</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі Велика (220г)</p>
+                <p><strong>Опис:</strong> картопля фрі</p>
+                <p><strong>Ціна:</strong> 109.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляні крокети (200г)</p>
+                <p><strong>Опис:</strong> картопля, масло вершкове, молоко, борошно, сухарі панко</p>
+                <p><strong>Ціна:</strong> 93.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі (150г)</p>
+                <p><strong>Опис:</strong> картопля фрі</p>
+                <p><strong>Ціна:</strong> 83.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний чедер (50г)</p>
+                <p><strong>Опис:</strong> сир чедер, пармезан, дорблю, вершки, соєвий соус, спеції</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Малиновий соус (50г)</p>
+                <p><strong>Опис:</strong> малиновий джем, перець чилі, м'ята</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургерний соус (50г)</p>
+                <p><strong>Опис:</strong> майонез, кетчуп, гірчиця</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус тартар (50г)</p>
+                <p><strong>Опис:</strong> майонез, сметана, гірчиця, каперси, огірок маринований, кріп, петрушка</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кетчуп (50г)</p>
+                <p><strong>Опис:</strong> кетчуп</p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік яблучно-вишневий ТМ "Galicia", 1 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік з м'якоттю томатний з сіллю ТМ "Galicia", 1 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яблучний сік освітлений, 1 л, ТМ “RICH”</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Апельсиновий нектар з м'якоттю, 1 л, ТМ “RICH”</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гранатовий нектар освітлений, 1 л, ТМ “RICH”</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca Cola — 0,75 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода BonAqua — 1 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca Cola Zero — 0,5 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca Cola — 0,5 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta — 0,5 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite  — 0,5 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода BonAqua негазована — 0,5 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода BonAqua — 0,5 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,229 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/477.png" alt="Restaurant Image">
         <h1>Ronin</h1>
-        <p><strong>Address:</strong> 15, 95 Школа, Сихів, вулиця Івана Кавалерідзе, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.7919675, 'lng': 24.0678776}</p>
-        <p><strong>Website:</strong> <a href="https://karate.lviv.ua/" target="_blank">https://karate.lviv.ua/</a></p>
-        <p><strong>Phone:</strong> +380 63 723 0373</p>
-        <p><strong>Type:</strong> gym</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 195.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> 15, 95 Школа, Сихів, вулиця Івана Кавалерідзе, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.7919675, 'lng': 24.0678776}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://karate.lviv.ua/" target="_blank">https://karate.lviv.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 63 723 0373</p>
+        <p><strong>Тип:</strong> gym</p>
+        <p><strong>Середня ціна:</strong> 195.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Панська тареля (1400г)</p>
+                <p><strong>Опис:</strong> Свиняча вирізка, шия, курка, картопляні скибки, 3 види соусу</p>
+                <p><strong>Ціна:</strong> 640.0</p>
+                <p><strong>Тип:</strong> КОМПАНІЙСЬКІ НАБОРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соління під горілочку (1100г)</p>
+                <p><strong>Опис:</strong> Сало з часником, грінки, овочі мариновані, крижавки, морква корейська</p>
+                <p><strong>Ціна:</strong> 300.0</p>
+                <p><strong>Тип:</strong> КОМПАНІЙСЬКІ НАБОРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирне асорті (200/50/30г)</p>
+                <p><strong>Опис:</strong> Асорті з 4х видів сирів у супроводі меду та горіхів</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочеве асорті (400г)</p>
+                <p><strong>Опис:</strong> Щедра порція зі свіжих овочів та запашної зелені</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оселедець з цибулею (150г)</p>
+                <p><strong>Опис:</strong> Подається з маринованою цибулею та печеною картоплею</p>
+                <p><strong>Ціна:</strong> 63.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет Два кольори (100/100г)</p>
+                <p><strong>Опис:</strong> Сало біле і червоне з паприкою і грінками</p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Огірочки з бочки (100г)</p>
+                <p><strong>Опис:</strong> Хрімкі огірочки власного приготування</p>
+                <p><strong>Ціна:</strong> 47.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Сюрприз (250г)</p>
+                <p><strong>Опис:</strong> Прошуто, суміш салатів, помідори в’ялені, перець болгарський, яйце, соус</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Капрезе (250г)</p>
+                <p><strong>Опис:</strong> Моцарела, суміш салатів, помідори Чері, маслини, соус Песто</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тайський теплий салат (250г)</p>
+                <p><strong>Опис:</strong> Телятина, огірок свіжий, помідори в’ялені, тайський гострий соус, кунжут</p>
+                <p><strong>Ціна:</strong> 108.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар з куркою (250г)</p>
+                <p><strong>Опис:</strong> Курка, чипси, суміш салатів, помідори Чері, заправка</p>
+                <p><strong>Ціна:</strong> 107.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Нептун (250г)</p>
+                <p><strong>Опис:</strong> З консервованим тунцем, апетитними грінками, свіжими помідорами, цибулею, твердим сиром, заправлений олією</p>
+                <p><strong>Ціна:</strong> 98.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький (250г)</p>
+                <p><strong>Опис:</strong> Перець болгарський, мікс салатів, помідор, печериці свіжі, сир Фета, олія оливкова</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Козацький (250г)</p>
+                <p><strong>Опис:</strong> Оселедець, картопля, цибуля маринована, печериці мариновані, олія</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Мізерія (250г)</p>
+                <p><strong>Опис:</strong> Огірок, цибуля, сметана</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат зі свіжої капусти (250г)</p>
+                <p><strong>Опис:</strong> Мішанка зі свіжої капусти та болгарського перцю у заправці з оливкової олії</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Патики (200/50г)</p>
+                <p><strong>Опис:</strong> Куряче філе, обгорнуте беконом в сухарях, соус</p>
+                <p><strong>Ціна:</strong> 63.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Солянка (300г)</p>
+                <p><strong>Опис:</strong> Ситний суп з додаванням ковбас та маслин</p>
+                <p><strong>Ціна:</strong> 98.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ український (300г)</p>
+                <p><strong>Опис:</strong> Справжній український червоний борщ з м'ясом, подається з часниковими грінками та салом, заправляється сметаною</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шніцель по–віденськи (250/150/50г)</p>
+                <p><strong>Опис:</strong> Биток зі свинини з картоплею фрі та соусом Барбекю</p>
+                <p><strong>Ціна:</strong> 122.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> М’ясо смажене (120/150/50г)</p>
+                <p><strong>Опис:</strong> На вибір: свинина/курка/телятина. Подається з картоплею по-селянськи та соусом</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Панські деруни (120/ 120/40г)</p>
+                <p><strong>Опис:</strong> Подаються з м’ясом та грибною підливою</p>
+                <p><strong>Ціна:</strong> 118.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пательня Козацька (400г)</p>
+                <p><strong>Опис:</strong> Смажена свиняча шия і шпондер, картопля фрі, сир твердий</p>
+                <p><strong>Ціна:</strong> 109.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Банош (350г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею і сиром (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 73.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни зі сметаною або грибною підливою (250/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля смажена по-домашньому (200г)</p>
+                <p><strong>Опис:</strong> У мундирах з часником</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по-селянськи (200г)</p>
+                <p><strong>Опис:</strong> Картопля смажена з цибулею і часником, подається на чавунній пательні</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дрова (200г)</p>
+                <p><strong>Опис:</strong> Грінки з бородинського хліба, обсмажені з часником, затерті твердим сиром</p>
+                <p><strong>Ціна:</strong> 53.0</p>
+                <p><strong>Тип:</strong> СМАКУЄ ДО ПИВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Галі-Олі (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Песто (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Барбекю (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сметана (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кетчуп (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гірниця (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Тар-тар (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr></div>
 </body>
 </html>

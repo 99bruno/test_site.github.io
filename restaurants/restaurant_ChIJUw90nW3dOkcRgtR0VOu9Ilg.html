@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,240 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/196.png" alt="Restaurant Image">
         <h1>Druzi Cafe</h1>
-        <p><strong>Address:</strong> вулиця Краківська, 5, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8425788, 'lng': 24.0298786}</p>
-        <p><strong>Website:</strong> <a href="https://www.druzicafe.com.ua/druzilviv" target="_blank">https://www.druzicafe.com.ua/druzilviv</a></p>
-        <p><strong>Phone:</strong> +380 97 970 8776</p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 09:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 178.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Краківська, 5, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8425788, 'lng': 24.0298786}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://www.druzicafe.com.ua/druzilviv" target="_blank">https://www.druzicafe.com.ua/druzilviv</a></p>
+        <p><strong>Телефон:</strong> +380 97 970 8776</p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> 178.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 09:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Млинець Курка-сир-гриби (300г)</p>
+                <p><strong>Опис:</strong> Млинець з сиром, помідор, листя салату, соус, зварені печериці та куряча грудинка нарізана кубиками</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець шинка-сир (300г)</p>
+                <p><strong>Опис:</strong> Млинець з сиром, помідор, листя салату, соус та шинка нарізана плястерками</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець з сиром (250г)</p>
+                <p><strong>Опис:</strong> Млинець з сиром, помідор, листя салату, соус</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Без Начинки (80г)</p>
+                <p><strong>Опис:</strong> Тісто на молоці з додавання яйця, води цукру та солі</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець Nutella-банан (310г)</p>
+                <p><strong>Опис:</strong> Млинець з Nutella та бананом</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець Білий шоколад-банан (310г)</p>
+                <p><strong>Опис:</strong> Млинець з білим шоколадом та бананом</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Без начинки (80г)</p>
+                <p><strong>Опис:</strong> Тісто на молоці з додавання яйця, води цукру та солі</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Fuza (0.5л)</p>
+                <p><strong>Опис:</strong> Холодний чай</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola (0.5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta (0.5 л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Молочний коктейль XXL (500мл)</p>
+                <p><strong>Опис:</strong> Молоко, морозиво, джем</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Маслопиво коктейль XXL (500мл)</p>
+                <p><strong>Опис:</strong> Прохолодний напій на основі  квасу з додаванням морозива та льоду</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Молочний коктейль M (350мл)</p>
+                <p><strong>Опис:</strong> Молоко, морозиво, джем</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Маслопиво коктейль М (350мл)</p>
+                <p><strong>Опис:</strong> Прохолодний напій на основі  квасу з додаванням морозива та льоду.</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Освіжуючий коктейль XXL (500мл)</p>
+                <p><strong>Опис:</strong> Прохолодний напій на основі 7up з додаванням сиропу та льоду</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Еспресо Доппіо (70мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Еспресо з молоком (50мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Еспресо (35мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Американо з молоком M (350мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Американо M (350мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Американо з молоком S (250мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Американо S (250мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Капучіно XXL (500мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Капучіно M (350мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Капучіно S (250мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Банановий Лате XXL (500мл)</p>
+                <p><strong>Опис:</strong> 100% Арабіка</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гарбузове лате (350мл)</p>
+                <p><strong>Опис:</strong> Лате на основі гарбузового пюре та молока
+100% arabica</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Лате XXL (500мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Лате M (350мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Лате S (250мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Флет Вайт (250мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Авторська з імбиром та медом XXL (350мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Авторська з імбиром та медом S (250мл)</p>
+                <p><strong>Опис:</strong> 100% arabica</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао XXL (500мл)</p>
+                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао M (350мл)</p>
+                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао S (250мл)</p>
+                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гарячий шоколад XXL (500мл)</p>
+                <p><strong>Опис:</strong> Шоколадний напій</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гарячий шоколад S (350мл)</p>
+                <p><strong>Опис:</strong> Шоколадний напій</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай із обліпіхою та імбиром (350мл)</p>
+                <p><strong>Опис:</strong> Вітамінний чай, 100% натуральний</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай з малиною та апельсином (350мл)</p>
+                <p><strong>Опис:</strong> Вітамінний чай, 100% натуральний</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

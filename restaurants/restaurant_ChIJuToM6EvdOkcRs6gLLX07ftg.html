@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,255 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/416.png" alt="Restaurant Image">
         <h1>Mishel Marshe / Мішель Марше</h1>
-        <p><strong>Address:</strong> вулиця Михальчука, 5, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8427081, 'lng': 24.0248579}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> </p>
-        <p><strong>Type:</strong> point_of_interest</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 87.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Михальчука, 5, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8427081, 'lng': 24.0248579}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> </p>
+        <p><strong>Тип:</strong> point_of_interest</p>
+        <p><strong>Середня ціна:</strong> 87.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> комплекс №3 (1700г)</p>
+                <p><strong>Опис:</strong> Бограч (1л), хачапурі (250г), картопля по-селянськи (150г), салат Грецький (300г)</p>
+                <p><strong>Ціна:</strong> 699.0</p>
+                <p><strong>Тип:</strong> КОМПЛЕКСІ ОБІДИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> комплекс №2 (1900г)</p>
+                <p><strong>Опис:</strong> Борщ м'ясний (1л), відбивні курячі (500г), картопля по-селянськи (150г), салат Фермерський (250г)</p>
+                <p><strong>Ціна:</strong> 639.0</p>
+                <p><strong>Тип:</strong> КОМПЛЕКСІ ОБІДИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> комплекс №1 (1900г)</p>
+                <p><strong>Опис:</strong> Бульйон, відбивні курячі, картопля по-селянськи, салат Фермерський</p>
+                <p><strong>Ціна:</strong> 569.0</p>
+                <p><strong>Тип:</strong> КОМПЛЕКСІ ОБІДИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бограч (1л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 399.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ м'ясний (1л)</p>
+                <p><strong>Опис:</strong> Традиційна українська страва на основі буряка з м'ясом</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пісний борщ (1л)</p>
+                <p><strong>Опис:</strong> 1 літр борщу звареного на овочах</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бульйон курячий (1л)</p>
+                <p><strong>Опис:</strong> 1 Літр курячого бульону з домашньої локшиною.</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик свинний (1500г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 1999.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ребра на мангалі (1500г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 1559.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з філе курячого (1500г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 1399.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик свинний (1000г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 1379.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ребра на мангалі (1000г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 1099.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з філе курячого (1000г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 999.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з свинини (500г)</p>
+                <p><strong>Опис:</strong> 500 грам шашлика з свинини приготовленого на мангалі</p>
+                <p><strong>Ціна:</strong> 799.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з філе курячого (500г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 599.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ребра на мангалі (500г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 599.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники фрі (1кг)</p>
+                <p><strong>Опис:</strong> Вареники смажені у фритюрі</p>
+                <p><strong>Ціна:</strong> 479.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крила фрі (500г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 429.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Відбивні курячі (0,5 кг)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 419.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля на мангалі (1000г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 399.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені фрі (500г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> чізбургер</p>
+                <p><strong>Опис:</strong> Соковитий Чізбургер з двома яловичими котлетами та сиром Чедер + картопля фрі</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники фрі (500г)</p>
+                <p><strong>Опис:</strong> Вареники смажені у фритюрі</p>
+                <p><strong>Ціна:</strong> 289.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> печериці на мангалі (300г)</p>
+                <p><strong>Опис:</strong> Свіжі печериці запечені на мангалі</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля на мангалі (500г)</p>
+                <p><strong>Опис:</strong> Готова вага</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сулугуні на мангалі (250г)</p>
+                <p><strong>Опис:</strong> Хачапурі запечений на рожні</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по-селянськи (150г)</p>
+                <p><strong>Опис:</strong> Смажені шматочки картоплі</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар з курки (250г)</p>
+                <p><strong>Опис:</strong> Листя салату, айсберг, куряче філе, перепелині яйця та соус цезар</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> теплий салат з свининою (220г)</p>
+                <p><strong>Опис:</strong> 220 г
+
+Свинина, салат, сир сулугуні, перець болгарський, оливки, цибуля солодка, соус медовий.</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький  (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> салат з печеним буряком (220г)</p>
+                <p><strong>Опис:</strong> 220 г
+
+Печений буряк, сир фета, руколи, кунжут, соус бальзамік</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> овечевий салат з шпинатом  (220г)</p>
+                <p><strong>Опис:</strong> 220 г 
+
+Помідор, огірок, шпинат, моцарела, соус бальзамік</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Фермерський (250г)</p>
+                <p><strong>Опис:</strong> Традиційний фермерський салат</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> соус кетчуп (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> соус майонез (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> соус гірчиця (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> соус фірмовий (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> соус bbq (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> соус з журавлини (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Пепсі (500мл)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Мірінда (500мл)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> вода негазована (500мл)</p>
+                <p><strong>Опис:</strong> Мінеральна вода</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,359 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/426.png" alt="Restaurant Image">
         <h1>Miso / МісО</h1>
-        <p><strong>Address:</strong> вулиця Академіка Люльки, 4, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8486098, 'lng': 24.0251098}</p>
-        <p><strong>Website:</strong> <a href="https://miso.lviv.ua/" target="_blank">https://miso.lviv.ua/</a></p>
-        <p><strong>Phone:</strong> +380 68 420 2402</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 159.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Академіка Люльки, 4, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8486098, 'lng': 24.0251098}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://miso.lviv.ua/" target="_blank">https://miso.lviv.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 68 420 2402</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 159.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Тост з Тунцем, Авокадо та Страчателлою 330g</p>
+                <p><strong>Опис:</strong> Житній Хліб, Тунець, Страчателла, Джем Томатний, Авокадо, Мікс Салатів, Огірок</p>
+                <p><strong>Ціна:</strong> 396.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тост з Авокадо та Лососем 270g</p>
+                <p><strong>Опис:</strong> Житній Хліб, Солось Слабосолений, Рікота, Авокадо, Яйце Пашот</p>
+                <p><strong>Ціна:</strong> 385.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яйця «Бенедикт» з Лососем та Шпинатом на булочках Бріош 340g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 352.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комплексний з Лососем 330g</p>
+                <p><strong>Опис:</strong> Яйця в круту, Лосось Слабосолений, Рікота, Мікс Салатів, Огірок, Помідор, Бріош</p>
+                <p><strong>Ціна:</strong> 341.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комплексний з Мортаделлою 330g</p>
+                <p><strong>Опис:</strong> Скрамбл з Двох Яєць, Мортаделла, Рікота, Мікс Салатів, Огірок, Помідор, Бріош</p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з Мортаделлою 280g</p>
+                <p><strong>Опис:</strong> Круасан, мортаделла, скрамбл, сир страчателла, сир чеддер, конфітюр з цибулі</p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з Шинкою та Яйцем Пашот 250g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 303.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яйця «Бенедикт» з Авокадо та Креветками на булочках Бріош 350g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 297.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зелений сніданок з Халумі 325g</p>
+                <p><strong>Опис:</strong> Яйця в круту, Сир Халумі, Мікс Салатів, Броколі, Авокадо, Бріош</p>
+                <p><strong>Ціна:</strong> 297.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з Фундучною пастою, Крем-чізом та Хрусткими пластівцями 260g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кабачкові Оладки з Лососем 295g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 253.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з Сметаною та Ягідним кулі 200g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 242.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з Яблуком 250g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 242.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Панкейки з Ягідним кюлі та Крем-чізом 350g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 242.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Льняна Каша 250g</p>
+                <p><strong>Опис:</strong> з Сезонними Ягодами, Мигдалевими пластівцями та сухофруктами на кокосовому або коров'ячому молоці</p>
+                <p><strong>Ціна:</strong> 242.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вівсяна Каша 250g</p>
+                <p><strong>Опис:</strong> з Сезонними Ягодами, Медом та Мигдалевими пластівцями на кокосовому або коров'ячому молоці</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Попкорн з Креветок 220g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 374.0</p>
+                <p><strong>Тип:</strong> Закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирна Тарілка 150g</p>
+                <p><strong>Опис:</strong> Камамбер, Пармезан, Рокфор, Шевре, Соус Ягідний, Мед</p>
+                <p><strong>Ціна:</strong> 341.0</p>
+                <p><strong>Тип:</strong> Закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар з Лосося 190g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 341.0</p>
+                <p><strong>Тип:</strong> Закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паштет Курячий 180g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 286.0</p>
+                <p><strong>Тип:</strong> Закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з Шинкою 280g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 286.0</p>
+                <p><strong>Тип:</strong> Закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бріош з Мортаделлою та Страчателлою 240g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 264.0</p>
+                <p><strong>Тип:</strong> Закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Брускетта зі Страчателлою та Печеними Перцями 200g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 264.0</p>
+                <p><strong>Тип:</strong> Закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гуакамоле 210g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 231.0</p>
+                <p><strong>Тип:</strong> Закуски</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Тунцем 300g</p>
+                <p><strong>Опис:</strong> в оливковій олії</p>
+                <p><strong>Ціна:</strong> 385.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Броколі та Креветками 290g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 385.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Телятиною та Стручковою Квасолею 250g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 385.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Курячою Печінкою та Карамелізованими Яблуками 280g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 286.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грецький 230g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 231.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар 200g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний з Куркою 250g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гарбузовий 300g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 231.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибна Юшка 300g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий Бульйон 350g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 154.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе Лосося 160/50g</p>
+                <p><strong>Опис:</strong> Соус Сирний з Пармезаном</p>
+                <p><strong>Ціна:</strong> 418.0</p>
+                <p><strong>Тип:</strong> Основні Страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлетки з Індички та Картопляним Пюре 320g</p>
+                <p><strong>Опис:</strong> Індичі котлетки, картопляне пюре, мариновані огірки, синя цибуля</p>
+                <p><strong>Ціна:</strong> 396.0</p>
+                <p><strong>Тип:</strong> Основні Страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлетки з Судака з Птітімом та Шпинатом  230g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 396.0</p>
+                <p><strong>Тип:</strong> Основні Страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Креветками 300g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Болоньєзе 300g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 286.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Горіховим Праліне 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Нутеллою 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Заварним Кремом 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Полуницею 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Шоколадом 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Малиною 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Вишнею 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Сиром Маскарпоне та Малиною 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Сиром Маскарпоне та Полуницею 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> з Сиром Маскарпоне та Вишнею 150g</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Класичний 100g</p>
+                <p><strong>Опис:</strong> без начинки</p>
+                <p><strong>Ціна:</strong> 77.0</p>
+                <p><strong>Тип:</strong> Круасани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тістечко Хемінгуей (120g)</p>
+                <p><strong>Опис:</strong> фундучне муальо, хрусткий шоколадний прошарок, м’яка карамель, арахіс, мус на основі грецьких горіхів та білого шоколаду</p>
+                <p><strong>Ціна:</strong> 203.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тістечко Рафаело (120g)</p>
+                <p><strong>Опис:</strong> кокосовий ганаш, кокосове кремьо, карамелізований мигдаль, хрусткий прошарок на основі мигдалю</p>
+                <p><strong>Ціна:</strong> 192.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тістечко Бальзак (115g)</p>
+                <p><strong>Опис:</strong> екзотичний кюлі зі шматочками банану та м’яти, мус маракуя, мигдалевий дакуаз</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тістечко Вольтер (75g)</p>
+                <p><strong>Опис:</strong> бананове кремьо, шоколадне кремьо, кавовий мус на молочному шоколаді</p>
+                <p><strong>Ціна:</strong> 148.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тістечко Ніцше (90g)</p>
+                <p><strong>Опис:</strong> фундучне муальо, полуничне кулі, шоколадний мус, бісквіт джаконда з хрустким прошарком</p>
+                <p><strong>Ціна:</strong> 148.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тістечко Бредбері (110g)</p>
+                <p><strong>Опис:</strong> вишнево-коньячне конфі, шоколадне кремьо, мус на білому шоколаді з вишневим кюлі, шоколадний дакуаз та хрусткий шоколадний прошарок</p>
+                <p><strong>Ціна:</strong> 148.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боржомі 0,5</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грейпфрутовий Фреш</p>
+                <p><strong>Опис:</strong> 250мл</p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська 0,33 негазована</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 83.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська 0,33 слабогазована</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 83.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola 0,25</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola Zero 0,25</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> fanta orange 0,25</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> sprite 0,25</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr></div>
 </body>
 </html>

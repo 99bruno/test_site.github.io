@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,189 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/235.png" alt="Restaurant Image">
         <h1>MORERYBY / МОРЕРИБИ</h1>
-        <p><strong>Address:</strong> вулиця Братів Рогатинців, 43/12, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8407849, 'lng': 24.03392999999999}</p>
-        <p><strong>Website:</strong> <a href="https://cukor.lviv.ua/" target="_blank">https://cukor.lviv.ua/</a></p>
-        <p><strong>Phone:</strong> +380 63 738 4034</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 13:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 13:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> </p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Братів Рогатинців, 43/12, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8407849, 'lng': 24.03392999999999}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://cukor.lviv.ua/" target="_blank">https://cukor.lviv.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 63 738 4034</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> </p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 13:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 13:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Пиво Burgomistr Pilsner (1000мл)</p>
+                <p><strong>Опис:</strong> Світле пиво зварене за класичним німецьким рецептом, має насичений солодовий смак з ароматом жатецького хмелю. Склад: вода, пивоварний солод, хміль. Вміст спирту: не менше 4,5%. Густина: 12%</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиво Рівень Бергшлос світлий (1000мл)</p>
+                <p><strong>Опис:</strong> Солод, рис, цукор білий, мед натуральний, хміль, вода.</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиво Burgomistr IPA (1000мл)</p>
+                <p><strong>Опис:</strong> Пиво верхового бродіння та холодного охмелення, світло бурштинового кольору, британський вид світлого елю з сухим після смаком. Склад: вода, пивоварний солод, хміль. Вміст спирту: не менше 4,0%. Густина: 11%</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиво Опілля Корифей (1000мл)</p>
+                <p><strong>Опис:</strong> Класичне живе пиво старої Європи зварене за традиційною рецептурою. Склад: вода, пивоварний солод, хміль. Вміст спирту: не менше 3,7%. Густина: 11%</p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиво Земан Душа Пивна (1000мл)</p>
+                <p><strong>Опис:</strong> Насичений смак і чистий хмільний аромат. Виготовлено із світлого ячмінного солоду та рисової крупи. Має легкий солодовий смак і легку хмелеву гірчинку. Вміст спирту: не менше 4,7%. Густина: 13%</p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сидр Фраголіно біле(1000мл)</p>
+                <p><strong>Опис:</strong> Має приємний яблучно-суничний аромат, фруктово ягідний смак і післясмак з яблучно суничними тонами</p>
+                <p><strong>Ціна:</strong> 77.0</p>
+                <p><strong>Тип:</strong> СЛАБОАЛКОГОЛЬНІ НАПОЇ РОЗЛИВНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино Кохання (1000мл)</p>
+                <p><strong>Опис:</strong> Вино виноградне столове напівсолодке червоне, виготовлене з європейських червоних сортів винограду. Вино має приємний аромат. Рекомендується подавати до десертів, фруктів,</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино Шардоне (1000мл)</p>
+                <p><strong>Опис:</strong> Вино виноградне натуральнее ординарне сортове столове сухе біле, виготовляється з винограду сорту Шардоне. Вміст спирту 9,5-13,0% об</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино Ізабелла (1000мл)</p>
+                <p><strong>Опис:</strong> Вино виноградне ординарне столове напівсолодке рожеве виготовляється з винограду сортів Ізабелла та суміші винограду виду Vitis labrusca. Вміст спирту 9,0-13,0% об., вміст цукру 4,0-8,0% мас</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино Каберне (1000мл)</p>
+                <p><strong>Опис:</strong> Вино виноградне натуральне червоне сортове сухе, виготовляється за традиційною технологією з винограду сорту Каберне. Вино має шляхетний темно-рубіновий колір з яскравим сортовим ароматом і повним гармонійним смаком.</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вино Біла Орхідея (1000мл)</p>
+                <p><strong>Опис:</strong> Вино столове напівсолодке біле, виготовляється з суміші білих європейських сортів винограду Аліготе, Ркацителі. Має приємний, легкий, з квітковими тонами аромат. Колір від світло - золотистого до темно-золотистого.</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад яблучний (1000мл)</p>
+                <p><strong>Опис:</strong> Класичний натуральний яблучний лимонад</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кільця кальмарів (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Полосатик (50гр)</p>
+                <p><strong>Опис:</strong> Жовтосмугий селар, цукор, сіль</p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стружка краба (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтарна з перцем (50гр)</p>
+                <p><strong>Опис:</strong> Янтарна з перцем</p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Анчоус (50гр)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ікряники (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 61.0</p>
+                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фісташки (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 69.0</p>
+                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Арахіс з сиром (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 21.0</p>
+                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Арахіс смажений солоний (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 21.0</p>
+                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кукурудза зi смаком меду та гірчиці (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 21.0</p>
+                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кукурудза Барбекю (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 21.0</p>
+                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курча гриль (1шт/1000г)</p>
+                <p><strong>Опис:</strong> Маленьке курча табака вагою 1кг</p>
+                <p><strong>Ціна:</strong> 344.0</p>
+                <p><strong>Тип:</strong> М'ЯСНІ ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси курячі з соусом (200г)</p>
+                <p><strong>Опис:</strong> Нагетси курячі з соусом</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею (300г)</p>
+                <p><strong>Опис:</strong> Вареники з картоплею</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> БО Медовуха 0,5л</p>
+                <p><strong>Опис:</strong> Класична натуральна Медовуха 35оборотів</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> БО НАЛИВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> БО Зубрівка 0,5л</p>
+                <p><strong>Опис:</strong> Класична натуральна Зубрівка</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> БО НАЛИВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> БО Вишнівка 0,5л</p>
+                <p><strong>Опис:</strong> Класична, неймовірно смачна і натуральна Вишнівка</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> БО НАЛИВКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> БО Біла горілка 0,5л</p>
+                <p><strong>Опис:</strong> Просто біла горілка 0,5л</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> БО НАЛИВКИ</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,524 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/34.png" alt="Restaurant Image">
         <h1>McDonald's</h1>
-        <p><strong>Address:</strong> проспект Шевченка, 7, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8380984, 'lng': 24.0314784}</p>
-        <p><strong>Website:</strong> <a href="https://ukraine.mcdonalds.ua/ukr/mcmode" target="_blank">https://ukraine.mcdonalds.ua/ukr/mcmode</a></p>
-        <p><strong>Phone:</strong> +380 50 463 9118</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 85.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> проспект Шевченка, 7, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8380984, 'lng': 24.0314784}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://ukraine.mcdonalds.ua/ukr/mcmode" target="_blank">https://ukraine.mcdonalds.ua/ukr/mcmode</a></p>
+        <p><strong>Телефон:</strong> +380 50 463 9118</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 85.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> 100 ГРН  БЛАГОДІЙНІСТЬ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> Благодійність</p>
+                <hr>
+                <p><strong>Позиція:</strong> БЛОКНОТ ФРІ ОДНА</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> Благодійність</p>
+                <hr>
+                <p><strong>Позиція:</strong> 50 ГРН  БЛАГОДІЙНІСТЬ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Благодійність</p>
+                <hr>
+                <p><strong>Позиція:</strong> 25 ГРН  БЛАГОДІЙНІСТЬ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> Благодійність</p>
+                <hr>
+                <p><strong>Позиція:</strong> КУРЯЧІ СТРІПСИ 12ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> СТРІПСИ ЧІКЕН БОКС (6стріпсів, 9МакНагетс)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> МІКС ЧІКЕН БОКС (3стріпси, 4крильця, 6МакНагетс)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> КРИЛА ЧІКЕН БОКС (6крилець, 9МакНагетс)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІКЕН МАКНАГЕТС 20ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> КУРЯЧІ КРИЛЬЦЯ 10ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 226.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІКЕН МАКНАГЕТС 9ШТ МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКЧІКЕН МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 191.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІКЕН МАКНАГЕТС 6ШТ МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 172.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> КУРЯЧІ СТРІПСИ 6ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 116.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> КУРЯЧІ КРИЛЬЦЯ 6ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 116.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІКЕН МАКНАГЕТС 9ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 101.6</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІКЕН РОЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 123.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКЧІКЕН</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 107.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> КУРЯЧІ КРИЛЬЦЯ 4ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІКЕН МАКНАГЕТС 6ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> КУРЯЧІ СТРІПСИ 3ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІКЕН ДЖУНІОР</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІКЕН МАКНАГЕТС 4ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> Курка</p>
+                <hr>
+                <p><strong>Позиція:</strong> БІГ ЧІКЕН ЧІЗ МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> МакМеню</p>
+                <hr>
+                <p><strong>Позиція:</strong> БІГ БІФ ЧІЗ МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> МакМеню</p>
+                <hr>
+                <p><strong>Позиція:</strong> ДАБЛ РОЯЛ ЧІЗБУРГЕР МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 278.0</p>
+                <p><strong>Тип:</strong> МакМеню</p>
+                <hr>
+                <p><strong>Позиція:</strong> ДАБЛ БІГ МАК МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 277.0</p>
+                <p><strong>Тип:</strong> МакМеню</p>
+                <hr>
+                <p><strong>Позиція:</strong> БІГ ТЕЙСТІ МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 272.0</p>
+                <p><strong>Тип:</strong> МакМеню</p>
+                <hr>
+                <p><strong>Позиція:</strong> РОЯЛ ЧІЗБУРГЕР МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> МакМеню</p>
+                <hr>
+                <p><strong>Позиція:</strong> БІГ МАК МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 203.0</p>
+                <p><strong>Тип:</strong> МакМеню</p>
+                <hr>
+                <p><strong>Позиція:</strong> ФІЛЕ-О-ФІШ МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 187.0</p>
+                <p><strong>Тип:</strong> МакМеню</p>
+                <hr>
+                <p><strong>Позиція:</strong> ДАБЛ ЧІЗБУРГЕР МЕНЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 187.0</p>
+                <p><strong>Тип:</strong> МакМеню</p>
+                <hr>
+                <p><strong>Позиція:</strong> БІГ ЧІКЕН ЧІЗ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 213.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> БІГ БІФ ЧІЗ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 213.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> ДАБЛ РОЯЛ ЧІЗБУРГЕР</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 211.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> БІГ ТЕЙСТІ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> ДАБЛ БІГ МАК</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 196.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> РОЯЛ ЧІЗБУРГЕР</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 139.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> БІГ МАК</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 123.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> ФІЛЕ-О-ФІШ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 104.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> ДАБЛ ЧІЗБУРГЕР</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 104.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІЗБУРГЕР З БЕКОНОМ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧІЗБУРГЕР</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> ГАМБУРГЕР</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 58.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> ТОСТ ІЗ СИРОМ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> ФІШ РОЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 134.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> ХЕППІ МІЛ ЧІЗБУРГЕР</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 156.0</p>
+                <p><strong>Тип:</strong> Хеппі Міл</p>
+                <hr>
+                <p><strong>Позиція:</strong> ХЕППІ МІЛ ГАМБУРГЕР</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 156.0</p>
+                <p><strong>Тип:</strong> Хеппі Міл</p>
+                <hr>
+                <p><strong>Позиція:</strong> ХЕППІ МІЛ ЧІКЕН МАКНАГЕТС 4ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 156.0</p>
+                <p><strong>Тип:</strong> Хеппі Міл</p>
+                <hr>
+                <p><strong>Позиція:</strong> ІГРАШКА АБО КНИГА</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 71.0</p>
+                <p><strong>Тип:</strong> Хеппі Міл</p>
+                <hr>
+                <p><strong>Позиція:</strong> КАРТОПЛЯНІ ДІПИ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Картопля</p>
+                <hr>
+                <p><strong>Позиція:</strong> КАРТОПЛЯ ФРІ ВЕЛИКА</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 74.0</p>
+                <p><strong>Тип:</strong> Картопля</p>
+                <hr>
+                <p><strong>Позиція:</strong> КАРТОПЛЯ ФРІ СЕРЕДНЯ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> Картопля</p>
+                <hr>
+                <p><strong>Позиція:</strong> КАРТОПЛЯ ФРІ МАЛА</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 51.0</p>
+                <p><strong>Тип:</strong> Картопля</p>
+                <hr>
+                <p><strong>Позиція:</strong> СИР КАМАМБЕР 4ШТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 121.0</p>
+                <p><strong>Тип:</strong> Снеки</p>
+                <hr>
+                <p><strong>Позиція:</strong> ВІВСЯНА КАША</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> Снеки</p>
+                <hr>
+                <p><strong>Позиція:</strong> МІНІ ДОНАТИ З ШОКОЛАДОМ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКПИРІГ КРЕМ-ЧОРНИЦЯ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 53.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> КРУАСАН МИГДАЛЕВИЙ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 53.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКПИРІГ ВИШНЕВИЙ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЛАТЕ БРАУНІ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 73.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> МОККО 295МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> КАПУЧИНО КЛАСІК 245МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЛАТЕ КЛАСІК 295МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> АМЕРИКАНО З МОЛОКОМ КЛАСІК 275МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> КАКАО КЛАСІК 310МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> ФЛЕТ ВАЙТ 155МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 57.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> АМЕРИКАНО КЛАСІК 230МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧАЙ ЧОРНИЙ 300МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 38.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧАЙ ЗЕЛЕНИЙ З ЦИТРУСОВИМИ 300МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 38.0</p>
+                <p><strong>Тип:</strong> Гарячі Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> АПЕЛЬСИНОВИЙ СІК</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> Холодні Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> КОКА-КОЛА</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> Холодні Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> ФАНТА</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> Холодні Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> СПРАЙТ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> Холодні Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> СІК ЯБЛУЧНИЙ 200МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> Холодні Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> СІК ЯБЛУЧНО-ГРУШЕВИЙ 200мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> Холодні Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> ВОДА ГАЗОВАНА</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Холодні Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> ВОДА НЕГАЗОВАНА</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Холодні Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКФЛУРІ КІТ КАТ ШОКОЛАД</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Холодні Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКФЛУРІ КІТ КАТ КАРАМЕЛЬ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Холодні Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКФЛУРІ КІТ КАТ ПОЛУНИЦЯ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Холодні Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКШЕЙК ШОКОЛАД 450МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 71.0</p>
+                <p><strong>Тип:</strong> Холодні Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКШЕЙК ВАНІЛЬ 450МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 71.0</p>
+                <p><strong>Тип:</strong> Холодні Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКШЕЙК ПОЛУНИЦЯ 450МЛ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 71.0</p>
+                <p><strong>Тип:</strong> Холодні Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКСАНДІ ШОКОЛАД У  ПЛАСТИКОВОМУ СТАКАНЧИКУ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> Холодні Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКСАНДІ КАРАМЕЛЬ У  ПЛАСТИКОВОМУ СТАКАНЧИКУ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> Холодні Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> МАКСАНДІ ПОЛУНИЦЯ У  ПЛАСТИКОВОМУ СТАКАНЧИКУ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> Холодні Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС ХАБАНЕРО</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС ІЗ СИРОМ ДОРБЛЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС ЖУРАВЛИНОВИЙ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС КЕТЧУП</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС БАРБЕКЮ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС ГІРЧИЧНИЙ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС КАРІ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС КИСЛО-СОЛОДКИЙ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС МАЙОНЕЗ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p><strong>Позиція:</strong> СОУС СИРНИЙ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> Соуси</p>
+                <hr></div>
 </body>
 </html>

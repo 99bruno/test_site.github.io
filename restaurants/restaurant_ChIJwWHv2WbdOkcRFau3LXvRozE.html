@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,159 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/330.png" alt="Restaurant Image">
         <h1>Kikabidze / Кікабідзе</h1>
-        <p><strong>Address:</strong> Kociubinskogo, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.829872, 'lng': 24.029738}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 67 753 0860</p>
-        <p><strong>Type:</strong> point_of_interest</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 146.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> Kociubinskogo, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.829872, 'lng': 24.029738}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 67 753 0860</p>
+        <p><strong>Тип:</strong> point_of_interest</p>
+        <p><strong>Середня ціна:</strong> 146.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Багет з лососем (700г)</p>
+                <p><strong>Опис:</strong> Листя салату, огірок, лосось, сир Філадельфія</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Багет м'ясний (700г)</p>
+                <p><strong>Опис:</strong> Листя салату, огірок, помідор, курка, свинина, буженина, соус фірмовий</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Багет фірмовий (700г)</p>
+                <p><strong>Опис:</strong> Листя салату, квашений огірок, помідор, маринована цибуля, курка, гриби мариновані, сир твердий, соус фірмовий</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Багет з бужениною (700г)</p>
+                <p><strong>Опис:</strong> Листя салату, огірок, помідор, буженина, сир Моцарела, перець болгарський, соус часниковий</p>
+                <p><strong>Ціна:</strong> 230.0</p>
+                <p><strong>Тип:</strong> СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Багет Курячий (700г)</p>
+                <p><strong>Опис:</strong> Листя салату, огірок, помідор, куряче філе, кукурудза, часниковий соус</p>
+                <p><strong>Ціна:</strong> 230.0</p>
+                <p><strong>Тип:</strong> СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Багет Баварський (700г)</p>
+                <p><strong>Опис:</strong> Листя салату, огірок, помідор, баварські ковбаски, морква по-корейськи, соус папрік</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Багет сирний (700г)</p>
+                <p><strong>Опис:</strong> Листя салату, помідор, сир моцарелла, сир твердий, ананас, майонез</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Багет Грибний (700г)</p>
+                <p><strong>Опис:</strong> Листя салату, квашений огірок, помідор, гриби консервовані, сир Моцарела, соус папрік</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sandora (Апельсин, 500мл)</p>
+                <p><strong>Опис:</strong> Сік</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Садочок (Мультифрукт, 500мл)</p>
+                <p><strong>Опис:</strong> Сік</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Садочок (виноград, 500мл)</p>
+                <p><strong>Опис:</strong> Сік</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Садочок (Персик, 500мл)</p>
+                <p><strong>Опис:</strong> Сік</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Садочок (мульти-вітамін, 500мл)</p>
+                <p><strong>Опис:</strong> Сік</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sandora (Томатний-з мʼякоттю, 500мл)</p>
+                <p><strong>Опис:</strong> Сік</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Садочок (Апельсин, 500мл)</p>
+                <p><strong>Опис:</strong> Сік</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sandora (бананово-яблучно полуничний,500мл)</p>
+                <p><strong>Опис:</strong> Сік</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Садочок (Мульти-вітамінний нектар500мл.)</p>
+                <p><strong>Опис:</strong> Сік</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Lipton( Green, 500мл )</p>
+                <p><strong>Опис:</strong> Чай</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Lipton( Лимон, 500мл.)</p>
+                <p><strong>Опис:</strong> Чай</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Lipton (Персик, 500мл.)</p>
+                <p><strong>Опис:</strong> Чай</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> 7up(500мл)</p>
+                <p><strong>Опис:</strong> Сильно-газовані напої</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Mirinda(500мл)</p>
+                <p><strong>Опис:</strong> Сильно-газовані напої</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi (500мл)</p>
+                <p><strong>Опис:</strong> Сильногазований солодкий напій</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi(Zero, 500мл)</p>
+                <p><strong>Опис:</strong> Сильно-газовані напої</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

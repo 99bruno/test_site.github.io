@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,219 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/373.png" alt="Restaurant Image">
         <h1>Cheesy Pizza</h1>
-        <p><strong>Address:</strong> вулиця Генерала Юнаківа, 9, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8472424, 'lng': 24.00086139999999}</p>
-        <p><strong>Website:</strong> <a href="https://chicagopizzza.com/" target="_blank">https://chicagopizzza.com/</a></p>
-        <p><strong>Phone:</strong> +380 50 980 9090</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 138.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Генерала Юнаківа, 9, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8472424, 'lng': 24.00086139999999}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://chicagopizzza.com/" target="_blank">https://chicagopizzza.com/</a></p>
+        <p><strong>Телефон:</strong> +380 50 980 9090</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 138.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Піца Кватро Формаджі (30см/520г)</p>
+                <p><strong>Опис:</strong> Склад: соус вершковий, сир моцарела, сир дор блю, сир камамбер, сир пармезан, груша, грецький горіх.</p>
+                <p><strong>Ціна:</strong> 329.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Цезаре (30см/610г)</p>
+                <p><strong>Опис:</strong> Склад: соус вершковий, сир моцарела, сир пармезан, куряче м’ясо, бекон, помідори чері, листя салату, рукола, перепелині яйця, соус цезаре.</p>
+                <p><strong>Ціна:</strong> 329.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца М'ясна Brioche (30см/510г)</p>
+                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, салямі, бекон, баварськи ковбаски, огірок маринований, цибуля синя.</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Прошуто (30см/500г)</p>
+                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, Прошуто, помідори чері, листя салату, рукола, соус бальзамік.</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Лучіано (30см/525г)</p>
+                <p><strong>Опис:</strong> Склад: соус кисло- солодкий, сир моцарела, куряче м’ясо, печериці, томати вялені, листя салату, рукола, соус песто.</p>
+                <p><strong>Ціна:</strong> 292.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Фраттелі (30см/510г)</p>
+                <p><strong>Опис:</strong> Склад: Соус кисло-солодкий, сир моцарела, шинка, перець болгарський, маринований огірок.</p>
+                <p><strong>Ціна:</strong> 277.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Туна (30см/480г)</p>
+                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, тунець, кукурудза, цибуля синя.</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Карбонара (30см/430см)</p>
+                <p><strong>Опис:</strong> Склад: соус вершковий, сир моцарела, бекон, сир пармезан.</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Бон Густо (30см/510г)</p>
+                <p><strong>Опис:</strong> Склад: соус кисло-солодкий, сир моцарела, куряче м’ясо, баварські ковбаски, маринований огірок, цибуля синя .</p>
+                <p><strong>Ціна:</strong> 268.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Баварська (30см/520г)</p>
+                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, печериці, баварські ковбаски, перець болгарський, оливки.</p>
+                <p><strong>Ціна:</strong> 267.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Берлусконі (30см/510г)</p>
+                <p><strong>Опис:</strong> Склад: соус бешамель, сир моцарела, печериці, бекон, баварські ковбаски.</p>
+                <p><strong>Ціна:</strong> 259.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Капрічоза (30см/480г)</p>
+                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, печериці, шинка, оливки.</p>
+                <p><strong>Ціна:</strong> 257.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Ді Поло (30см/520г)</p>
+                <p><strong>Опис:</strong> Склад: Соус бешамель, сир моцарела, куряче м’ясо, печериці, помідори чері, соус песто.</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Пепероні (30см/420г)</p>
+                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, салямі, перець чілі.</p>
+                <p><strong>Ціна:</strong> 248.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Гавайська (30см/510г)</p>
+                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, куряче м’ясо, ананас, кукурудза.</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> ПІЦА КАЛЬЦОНЕ (30см/460г)</p>
+                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, крем - сир каліфорнія, шинка, печериці, прованські трави</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита (30см/460г)</p>
+                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, помідор.</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з червоною рибою (310г)</p>
+                <p><strong>Опис:</strong> Склад: крем-сир філадельфія, листя салату, червона риба, огірок.</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з тунцем (340г)</p>
+                <p><strong>Опис:</strong> Склад: соус класичний, листя салату, тунець, синя цибуля, перепелине яйце, маринований огірок.</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з шинкою (340г)</p>
+                <p><strong>Опис:</strong> Склад: соус тартар, листя салату, шинка, помідор, сир чеддер, огірок.</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з салямі (330г)</p>
+                <p><strong>Опис:</strong> Склад: соус тартар, листя салату, салямі, помідор, сир чеддер, огірок.</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан овочевий (315г)</p>
+                <p><strong>Опис:</strong> Склад: крем-сир філадельфія, помідор, листя салату, болгарський перець, огірок.</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан (140г.)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 46.0</p>
+                <p><strong>Тип:</strong> КРУАСАНИ СОЛОДКІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> СЕНДВІЧ МОНТЕ КРІСТО  (205 г.)</p>
+                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, крем-сир філадельфія, червона риба, огірок, помідор.</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <hr>
+                <p><strong>Позиція:</strong> СЕНДВІЧ ФІРМОВИЙ  (350 г.)</p>
+                <p><strong>Опис:</strong> Склад: хліб тостовий, салат айсберг, соус класичний, яйце, куряче мясо, бекон, помідор, соус песто.</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <hr>
+                <p><strong>Позиція:</strong> СЕНДВІЧ ЦЕЗАР  (230 г.)</p>
+                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, соус класичний, куряче мясо, цибуля синя, помідор.</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <hr>
+                <p><strong>Позиція:</strong> СЕНДВІЧ КЛАСИЧНИЙ  (260 г.)</p>
+                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, крем-сир філадельфія, шинка, червона цибуля, маринований огірок.</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <hr>
+                <p><strong>Позиція:</strong> СЕНДВІЧ АМЕРИКАНСЬКИЙ  (185 г.)</p>
+                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, сир чеддер, бекон, помідор.</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <hr>
+                <p><strong>Позиція:</strong> СЕНДВІЧ ІТАЛІЙСЬКИЙ  (230 г.)</p>
+                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, соус песто, авокадо, сир фета, помідор.</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Galicia Яблучний (скло) 0.3 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Galicia Яблучно-Грушевий (скло) 0.3 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Galicia Яблучно-Морквяний (скло) 0.3 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Galicia Яблучно-Чорносмородиновий (скло) 0.3л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Galicia Томатний (скло) 0.3л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta Апельсин (0.33 л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода BonAqua негазована (скло) 0.33</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr></div>
 </body>
 </html>

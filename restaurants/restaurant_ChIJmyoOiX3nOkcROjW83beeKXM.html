@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,285 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/432.png" alt="Restaurant Image">
         <h1>Honey Fish</h1>
-        <p><strong>Address:</strong> вулиця Перфецького, 2, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8138324, 'lng': 23.9890078}</p>
-        <p><strong>Website:</strong> <a href="https://instagram.com/honey.fish.lviv?igshid=NGVhN2U2NjQ0Yg==" target="_blank">https://instagram.com/honey.fish.lviv?igshid=NGVhN2U2NjQ0Yg==</a></p>
-        <p><strong>Phone:</strong> +380 96 128 4316</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 365.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Перфецького, 2, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8138324, 'lng': 23.9890078}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://instagram.com/honey.fish.lviv?igshid=NGVhN2U2NjQ0Yg==" target="_blank">https://instagram.com/honey.fish.lviv?igshid=NGVhN2U2NjQ0Yg==</a></p>
+        <p><strong>Телефон:</strong> +380 96 128 4316</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 365.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Джелато Орео</p>
+                <p><strong>Опис:</strong> Вершкове джелато з шматочками печива Орео. 
+
+1 кг</p>
+                <p><strong>Ціна:</strong> 500.0</p>
+                <p><strong>Тип:</strong> Вікенд Пак</p>
+                <hr>
+                <p><strong>Позиція:</strong> Джелато ваніль</p>
+                <p><strong>Опис:</strong> Вершкове джелато з зернами натуральної ванілі 
+
+1 кг</p>
+                <p><strong>Ціна:</strong> 500.0</p>
+                <p><strong>Тип:</strong> Вікенд Пак</p>
+                <hr>
+                <p><strong>Позиція:</strong> Джелато арахіс солона карамель</p>
+                <p><strong>Опис:</strong> Вершкове джелато з додаванням арахісової пасти та дробленого арахісу. З карамеллю та молочним шоколадом.
+
+1 кг</p>
+                <p><strong>Ціна:</strong> 500.0</p>
+                <p><strong>Тип:</strong> Вікенд Пак</p>
+                <hr>
+                <p><strong>Позиція:</strong> Полуничний сорбет</p>
+                <p><strong>Опис:</strong> Сорбет з полуниці з полуничним джемом
+
+1 кг</p>
+                <p><strong>Ціна:</strong> 400.0</p>
+                <p><strong>Тип:</strong> Вікенд Пак</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сорбет лимон</p>
+                <p><strong>Опис:</strong> Сорбет з фрешу лимона
+
+1 кг</p>
+                <p><strong>Ціна:</strong> 400.0</p>
+                <p><strong>Тип:</strong> Вікенд Пак</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сорбет апероль</p>
+                <p><strong>Опис:</strong> Апельсиновий фреш, Бітер апероль, апельсинова цедра, декороване апельсиновим джемом. 
+
+1 кг</p>
+                <p><strong>Ціна:</strong> 400.0</p>
+                <p><strong>Тип:</strong> Вікенд Пак</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штолен з родзинками, цукатами, горіхами та марципаном (500г)</p>
+                <p><strong>Опис:</strong> Што́лен — традиційна німецька ​різдвяна випічка.  Штолен від GeGe з цукатами цитрусових, родзинками, горіхами та марципаном.</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тюіль з мигдалем (5шт/50г)</p>
+                <p><strong>Опис:</strong> Вершкові вафлі з мигдалевими пластівцями</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Брауні (1шт/90г)</p>
+                <p><strong>Опис:</strong> Шоколадне брауні з пеканом та карамеллю</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кантучіні з фісташкою та журавлиною</p>
+                <p><strong>Опис:</strong> 200г
+Кукурудзяне хрустке печиво з фісташкою та журавлиною</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кантучіні з мигдалем та фундуком (200г)</p>
+                <p><strong>Опис:</strong> Італійське  печиво з кукурудзяного борошна з фундуком та мигдалем</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Горішки з тоффі та волоським горіхом (3шт)</p>
+                <p><strong>Опис:</strong> Пісочне печиво наповнене кремом з вершкового масла та згущеного молока з грецьким горіхом</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шоколадне печиво брауні 60г (2шт)</p>
+                <p><strong>Опис:</strong> Шоколадне печиво брауні з фундуком</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мадлен малиновий</p>
+                <p><strong>Опис:</strong> 25г
+Бісквітне печиво з малиновим джемом та білим шоколадом</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мадлен фісташковий з карамеллю</p>
+                <p><strong>Опис:</strong> 25г
+Бісквітне печиво з мигдалевого борошна з фісташкою та карамеллю, вкриті шоколадом</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарон арахіс та солона карамель</p>
+                <p><strong>Опис:</strong> 25г
+Мигдалеве печиво з ганашем</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарон фісташка-малина (1шт/25г)</p>
+                <p><strong>Опис:</strong> Мигдалеве печиво з ганашем</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА ТА ПЕЧИВО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шоколадний трюфель (3шт/45г)</p>
+                <p><strong>Опис:</strong> Тоффі карамель, коньяк, чорний шоколад</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЦУКЕРКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шварцвальд (3шт/45г)</p>
+                <p><strong>Опис:</strong> Фундук, мигдаль, жаравлина у молочному шоколаді</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЦУКЕРКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фісташковий марципан в чорному шоколаді (3шт/45г)</p>
+                <p><strong>Опис:</strong> Фісташковий та мигдальний марципан в чорному гіркому шоколаді</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЦУКЕРКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креміно фісташка (3шт)</p>
+                <p><strong>Опис:</strong> чорний, молочний та білий шоколад</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЦУКЕРКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чорний чай (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зелений чай (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фруктовий чай (350мл)</p>
+                <p><strong>Опис:</strong> Чай каркаде, сублімована вишня, чорниця, яблуко</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Глінтвейн безалкогольний (350 мл)</p>
+                <p><strong>Опис:</strong> Пюре з вишні з додаванням лимону, імбиря, прянощів (гвоздика, кориця, перець)</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай смородина  (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай малина з порічкою (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай обліпиха з мандарином та корицею (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай обліпиха з лимоном (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай калина з малиною (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай імбирний з лимоном (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай манго-маракуя-алича (350 мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай журавлина з апельсином (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай обліпиха з апельсином (350мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ЧАЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Джелато Орео (230г)</p>
+                <p><strong>Опис:</strong> Вершкове джелато з шматочками печива Орео</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Полуничні поля (230г)</p>
+                <p><strong>Опис:</strong> Ягідний сорбет з полуничним джемом</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Арахіс-солена карамель (230г)</p>
+                <p><strong>Опис:</strong> Джелато на основі арахісової пасти з додаванням соленої карамелі</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнійська фісташка (230г)</p>
+                <p><strong>Опис:</strong> Італійське джелато на основі каліфорнійської фісташки</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лісові ягоди (230г)</p>
+                <p><strong>Опис:</strong> Малина, смородина, чорниця та ожина, в одному сорбеті</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мадагаскарська ваніль (230г)</p>
+                <p><strong>Опис:</strong> Джелато з додаванням бобів мадагаскарської ванілі</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Манго-маракуйя (230г)</p>
+                <p><strong>Опис:</strong> Сорбет з манго та маракуї</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Страчателла (230г)</p>
+                <p><strong>Опис:</strong> Вершкове джелато з додаванням темперованого чорного шоколаду, що в процесі вимішування утворює маленькі м'які шматочки</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимон (230г)</p>
+                <p><strong>Опис:</strong> Кислий та соковитий лимонний сорбет на основі лимонного фрешу</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Джелато Груша Дорблю</p>
+                <p><strong>Опис:</strong> Вершкове джелато з сиром Дорблю з грушевим соусом варіегато</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Молочний шоколад (230г)</p>
+                <p><strong>Опис:</strong> Вершкове джелато з шоколадом</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Джелато Маскарпоне малина</p>
+                <p><strong>Опис:</strong> Вершкове джелато з сиром Маскарпоне та малиновим соусом-варіегато</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ДЖЕЛАТО</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,129 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/99.png" alt="Restaurant Image">
         <h1>Americano</h1>
-        <p><strong>Address:</strong> вулиця Остапа Нижанківського, 4, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8372222, 'lng': 24.0325}</p>
-        <p><strong>Website:</strong> <a href="http://americano.lviv.ua/" target="_blank">http://americano.lviv.ua/</a></p>
-        <p><strong>Phone:</strong> +380 63 933 1331</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 220.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Остапа Нижанківського, 4, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8372222, 'lng': 24.0325}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://americano.lviv.ua/" target="_blank">http://americano.lviv.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 63 933 1331</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 220.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Бульйон курячий (350г)</p>
+                <p><strong>Опис:</strong> Куряче філе, вермішель, морква, корінь петрушки, сіль, перець, зелень, питна вода</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Юшка грибна з вермішелькою (350г)</p>
+                <p><strong>Опис:</strong> Гриби Печериці, вермішель, масло вершкове, цибуля, морква, питна вода, зелень, перець, сіль</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рис запечений з овочами (150г)</p>
+                <p><strong>Опис:</strong> Рис, кукурудза, морква, зелена стручкова фасоля,вершкове масло, спеції.</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спагетті (150г)</p>
+                <p><strong>Опис:</strong> Спагетті, вершкове масло, сіль, перець</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечена куряча котлета + грибний соус (100/20)</p>
+                <p><strong>Опис:</strong> Філе куряче, цибуля, картопля, спеції, олія, печериці, масло, молоко, паніровка сухарів</p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> М'ЯСНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета свинна по-грузинськи (100г)</p>
+                <p><strong>Опис:</strong> Свинина, цибуля, хліб, молоко,чорнослив, спеції, паніровка сухарів, олія,грецький горіх</p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> М'ЯСНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Бурячок (100г)</p>
+                <p><strong>Опис:</strong> Відварений буряк, олія, цибуля, спеції.</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Осінній (100г)</p>
+                <p><strong>Опис:</strong> Капуста, перець Болгарський , морква, олія, сіля, перець</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з синьої капусти (100г)</p>
+                <p><strong>Опис:</strong> Синя капуста, цибуля, майонез, спеції</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бурячок з чорносливом (100г)</p>
+                <p><strong>Опис:</strong> Буряк варений, майонез, грецький горіх, чорнослив, спеції.</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирник по-домашньому (200г)</p>
+                <p><strong>Опис:</strong> Сир Домашній, родзинки, какао-корж</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> СОЛОДОЩІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Сирний (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Кисло-солодкий (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Барбекю (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода моршинська (слабогазована)</p>
+                <p><strong>Опис:</strong> (500мл)</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода моршинська (негазована)</p>
+                <p><strong>Опис:</strong> (500мл)</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

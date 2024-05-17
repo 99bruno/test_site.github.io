@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,609 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/37.png" alt="Restaurant Image">
         <h1>Puzata Hata / Пузата Хата</h1>
-        <p><strong>Address:</strong> проспект Шевченка, 10, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.837312, 'lng': 24.0312238}</p>
-        <p><strong>Website:</strong> <a href="http://www.puzatahata.ua/" target="_blank">http://www.puzatahata.ua/</a></p>
-        <p><strong>Phone:</strong> +380 800 505 299</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 76.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> проспект Шевченка, 10, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.837312, 'lng': 24.0312238}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://www.puzatahata.ua/" target="_blank">http://www.puzatahata.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 800 505 299</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 76.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Комбо-меню Ситне</p>
+                <p><strong>Опис:</strong> 724</p>
+                <p><strong>Ціна:</strong> 252.0</p>
+                <p><strong>Тип:</strong> Комбо-меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо-меню  Фірмове</p>
+                <p><strong>Опис:</strong> 718</p>
+                <p><strong>Ціна:</strong> 246.0</p>
+                <p><strong>Тип:</strong> Комбо-меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо-меню Сів і наївся тут</p>
+                <p><strong>Опис:</strong> 405</p>
+                <p><strong>Ціна:</strong> 224.0</p>
+                <p><strong>Тип:</strong> Комбо-меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Солянка м'ясна</p>
+                <p><strong>Опис:</strong> 360/30/4,5</p>
+                <p><strong>Ціна:</strong> 98.0</p>
+                <p><strong>Тип:</strong> Перші страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бульйон курячий з перепелиним яйцем</p>
+                <p><strong>Опис:</strong> 360</p>
+                <p><strong>Ціна:</strong> 96.0</p>
+                <p><strong>Тип:</strong> Перші страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ по-домашньому з м'ясом</p>
+                <p><strong>Опис:</strong> 390</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> Перші страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп гороховий з сухариками</p>
+                <p><strong>Опис:</strong> 360/15</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> Перші страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Болоньєзе з соусом Песто Россо</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 166.0</p>
+                <p><strong>Тип:</strong> Самостійні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печеня Київська</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 134.0</p>
+                <p><strong>Тип:</strong> Самостійні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Плов</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 112.0</p>
+                <p><strong>Тип:</strong> Самостійні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лосось запечений</p>
+                <p><strong>Опис:</strong> 100/10</p>
+                <p><strong>Ціна:</strong> 238.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хек з овочами в томатному соусі</p>
+                <p><strong>Опис:</strong> 75/120</p>
+                <p><strong>Ціна:</strong> 134.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета по-київськи з сиром та шпинатом</p>
+                <p><strong>Опис:</strong> 118</p>
+                <p><strong>Ціна:</strong> 116.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Відбивна із свинини</p>
+                <p><strong>Опис:</strong> 120</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета по-київськи класична</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 104.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Жульєн з грибами та куркою</p>
+                <p><strong>Опис:</strong> 150</p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Биток з курки в сирі</p>
+                <p><strong>Опис:</strong> 180</p>
+                <p><strong>Ціна:</strong> 98.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стейк курячий-гриль</p>
+                <p><strong>Опис:</strong> 90</p>
+                <p><strong>Ціна:</strong> 96.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гречаник під грибним соусом</p>
+                <p><strong>Опис:</strong> 115</p>
+                <p><strong>Ціна:</strong> 96.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Куряча відбивна під сиром</p>
+                <p><strong>Опис:</strong> 120</p>
+                <p><strong>Ціна:</strong> 96.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета рибна парова з лососем</p>
+                <p><strong>Опис:</strong> 100</p>
+                <p><strong>Ціна:</strong> 92.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ковбаса домашня гриль</p>
+                <p><strong>Опис:</strong> 80</p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета  куряча парова</p>
+                <p><strong>Опис:</strong> 110</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета куряча по-домашньому</p>
+                <p><strong>Опис:</strong> 90</p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета домашня</p>
+                <p><strong>Опис:</strong> 95</p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> Другі страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі бланшовані</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гречка</p>
+                <p><strong>Опис:</strong> 150</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля запечена</p>
+                <p><strong>Опис:</strong> 150</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рис з овочами</p>
+                <p><strong>Опис:</strong> 150</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляне пюре по-домашньому</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат-фреш з куркою гриль та овочами</p>
+                <p><strong>Опис:</strong> 220</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат-фреш Цезар з лососем</p>
+                <p><strong>Опис:</strong> 226</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат-фреш Грецький</p>
+                <p><strong>Опис:</strong> 250</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з запеченим гарбузом та фетою</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 114.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат-фреш з фетою та маринованим буряком</p>
+                <p><strong>Опис:</strong> 270</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з крабовими паличками</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 98.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Олів'є</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 98.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Вінегрет (з квашеною капустою)</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з буряка</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з квашеної капусти</p>
+                <p><strong>Опис:</strong> 200</p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оселедець під шубою</p>
+                <p><strong>Опис:</strong> 165</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Мімоза з куркою</p>
+                <p><strong>Опис:</strong> 165</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт з печінки</p>
+                <p><strong>Опис:</strong> 130</p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сало з часником</p>
+                <p><strong>Опис:</strong> 40</p>
+                <p><strong>Ціна:</strong> 22.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з малиною</p>
+                <p><strong>Опис:</strong> 130/20/3</p>
+                <p><strong>Ціна:</strong> 88.0</p>
+                <p><strong>Тип:</strong> Вареники і млинці</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники</p>
+                <p><strong>Опис:</strong> 140/20</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> Вареники і млинці</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бендерик з яловичиною</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Вареники і млинці</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з вишнями</p>
+                <p><strong>Опис:</strong> 210/20/5</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> Вареники і млинці</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці зі шпинатом під сиром Пармезан</p>
+                <p><strong>Опис:</strong> 145/20</p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> Вареники і млинці</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею</p>
+                <p><strong>Опис:</strong> 200/20</p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> Вареники і млинці</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з вишнями</p>
+                <p><strong>Опис:</strong> 130/20/4</p>
+                <p><strong>Ціна:</strong> 76.0</p>
+                <p><strong>Тип:</strong> Вареники і млинці</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зрази картопляні з грибами</p>
+                <p><strong>Опис:</strong> 210/20</p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> Вареники і млинці</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт еклер шоколадний  цілий</p>
+                <p><strong>Опис:</strong> 1080</p>
+                <p><strong>Ціна:</strong> 650.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Карамельний цілий</p>
+                <p><strong>Опис:</strong> 1040</p>
+                <p><strong>Ціна:</strong> 650.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Еклер фісташковий цілий</p>
+                <p><strong>Опис:</strong> 1320</p>
+                <p><strong>Ціна:</strong> 650.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Малиново-сирковий цілий</p>
+                <p><strong>Опис:</strong> 1240</p>
+                <p><strong>Ціна:</strong> 650.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Наполеон по-домашньому цілий</p>
+                <p><strong>Опис:</strong> 1080</p>
+                <p><strong>Ціна:</strong> 550.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Сирковий цілий</p>
+                <p><strong>Опис:</strong> 1040</p>
+                <p><strong>Ціна:</strong> 550.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Еклер фісташковий</p>
+                <p><strong>Опис:</strong> 165</p>
+                <p><strong>Ціна:</strong> 96.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Карамельний</p>
+                <p><strong>Опис:</strong> 130</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт еклер шоколадний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт з Чорницею</p>
+                <p><strong>Опис:</strong> 155</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Малиново-сирковий</p>
+                <p><strong>Опис:</strong> 155</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Брауні з горіхами</p>
+                <p><strong>Опис:</strong> 70</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт суфле з журавлиною</p>
+                <p><strong>Опис:</strong> 115</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Медовик з вишнею</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт cирковий</p>
+                <p><strong>Опис:</strong> 130</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Горіховий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Вафельний</p>
+                <p><strong>Опис:</strong> 95</p>
+                <p><strong>Ціна:</strong> 74.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель з яблуками</p>
+                <p><strong>Опис:</strong> 120/8/2</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель з вишнями</p>
+                <p><strong>Опис:</strong> 130</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пряник Пузата ялинка</p>
+                <p><strong>Опис:</strong> 35</p>
+                <p><strong>Ціна:</strong> 42.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пряник Пузатий зайка</p>
+                <p><strong>Опис:</strong> 50</p>
+                <p><strong>Ціна:</strong> 36.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиріжок з грибами</p>
+                <p><strong>Опис:</strong> 50</p>
+                <p><strong>Ціна:</strong> 26.0</p>
+                <p><strong>Тип:</strong> До страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус пікантний</p>
+                <p><strong>Опис:</strong> 40</p>
+                <p><strong>Ціна:</strong> 24.0</p>
+                <p><strong>Тип:</strong> До страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус гірчично-лимонний</p>
+                <p><strong>Опис:</strong> 50</p>
+                <p><strong>Ціна:</strong> 22.0</p>
+                <p><strong>Тип:</strong> До страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Барбекю</p>
+                <p><strong>Опис:</strong> 28</p>
+                <p><strong>Ціна:</strong> 18.0</p>
+                <p><strong>Тип:</strong> До страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Манго-чілі</p>
+                <p><strong>Опис:</strong> 25</p>
+                <p><strong>Ціна:</strong> 18.0</p>
+                <p><strong>Тип:</strong> До страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Кисло-солодкий</p>
+                <p><strong>Опис:</strong> 25</p>
+                <p><strong>Ціна:</strong> 18.0</p>
+                <p><strong>Тип:</strong> До страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус карі</p>
+                <p><strong>Опис:</strong> 28</p>
+                <p><strong>Ціна:</strong> 18.0</p>
+                <p><strong>Тип:</strong> До страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мед</p>
+                <p><strong>Опис:</strong> 18</p>
+                <p><strong>Ціна:</strong> 16.0</p>
+                <p><strong>Тип:</strong> До страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Столові прилади разові</p>
+                <p><strong>Опис:</strong> шт</p>
+                <p><strong>Ціна:</strong> 4.0</p>
+                <p><strong>Тип:</strong> До страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пампушки</p>
+                <p><strong>Опис:</strong> 60</p>
+                <p><strong>Ціна:</strong> 22.0</p>
+                <p><strong>Тип:</strong> Хліб</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хліб порційний чорний</p>
+                <p><strong>Опис:</strong> 28</p>
+                <p><strong>Ціна:</strong> 2.0</p>
+                <p><strong>Тип:</strong> Хліб</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хліб порційний білий</p>
+                <p><strong>Опис:</strong> 28</p>
+                <p><strong>Ціна:</strong> 2.0</p>
+                <p><strong>Тип:</strong> Хліб</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смузі манго</p>
+                <p><strong>Опис:</strong> 250</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбуча Spraga  класична</p>
+                <p><strong>Опис:</strong> 330</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбуча Spraga  яблоко та груша</p>
+                <p><strong>Опис:</strong> 330</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смузі шпинат</p>
+                <p><strong>Опис:</strong> 250</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбуча Spraga кола</p>
+                <p><strong>Опис:</strong> 330</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смузі полуниця</p>
+                <p><strong>Опис:</strong> 250</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смузі вишня</p>
+                <p><strong>Опис:</strong> 250</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смузі тропічний</p>
+                <p><strong>Опис:</strong> 250</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбуча Spraga полуниця та м'ята</p>
+                <p><strong>Опис:</strong> 250</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбуча Spraga манго та маракуйя</p>
+                <p><strong>Опис:</strong> 250</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Морс з малини та імбиря 0,5 л</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Узвар</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 58.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 58.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Холодний чай Lipton лимон 500 мл</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Pepsi 500 мл</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Холодний чай Lipton зелений 500 мл</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Холодний чай Lipton персик 500 мл</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Pepsi Black 500 мл</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій 7UP 500 мл</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Mirinda 500 мл</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мінеральна вода Aqua Minerale сильногазована 500 мл</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 46.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мінеральна вода Aqua Minerale негазована 500 мл</p>
+                <p><strong>Опис:</strong> 500</p>
+                <p><strong>Ціна:</strong> 46.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Pepsi 330 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 42.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Закуска до пива - печиво з сиром</p>
+                <p><strong>Опис:</strong> 80</p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> Закуски до пива</p>
+                <hr>
+                <p><strong>Позиція:</strong> Закуска до пива - сухарики зі сметаною та зеленню</p>
+                <p><strong>Опис:</strong> 80</p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> Закуски до пива</p>
+                <hr>
+                <p><strong>Позиція:</strong> Закуска до пива - сухарики з часником</p>
+                <p><strong>Опис:</strong> 80</p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> Закуски до пива</p>
+                <hr>
+                <p><strong>Позиція:</strong> Серветки вологі Smile</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 34.0</p>
+                <p><strong>Тип:</strong> Інші товари</p>
+                <hr>
+                <p><strong>Позиція:</strong> Серветки вологі DAILY</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 17.0</p>
+                <p><strong>Тип:</strong> Інші товари</p>
+                <hr></div>
 </body>
 </html>

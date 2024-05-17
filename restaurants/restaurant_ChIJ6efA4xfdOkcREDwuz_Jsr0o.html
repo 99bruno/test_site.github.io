@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,239 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/173.png" alt="Restaurant Image">
         <h1>King Kebab / Кінг Кебаб</h1>
-        <p><strong>Address:</strong> вулиця Джерельна, 30, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8498352, 'lng': 24.0205932}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> </p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 85.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Джерельна, 30, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8498352, 'lng': 24.0205932}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> </p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 85.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Чізбургер з яловичою котлетою</p>
+                <p><strong>Опис:</strong> Велика булка, котлета яловича, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, сир тостовий</p>
+                <p><strong>Ціна:</strong> 138.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізбургер з курячою котлетою</p>
+                <p><strong>Опис:</strong> Велика булка, куряча котлета, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, сир тостовий</p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гамбургер з яловичою котлетою</p>
+                <p><strong>Опис:</strong> Велика булка, котлета яловича, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, соус Бургер</p>
+                <p><strong>Ціна:</strong> 126.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гамбургер з курячою котлетою</p>
+                <p><strong>Опис:</strong> Велика булка, котлета куряча, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, соус Бургер</p>
+                <p><strong>Ціна:</strong> 121.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси XL (9шт)</p>
+                <p><strong>Опис:</strong> Шматочки із курятини</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси (6шт)</p>
+                <p><strong>Опис:</strong> Шматочки із курятини</p>
+                <p><strong>Ціна:</strong> 109.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по-селянськи (100г)</p>
+                <p><strong>Опис:</strong> Шматочки картоплі, обсмажені у великій кількості розпеченої олії</p>
+                <p><strong>Ціна:</strong> 63.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля Фрі (100г)</p>
+                <p><strong>Опис:</strong> Шматочки картоплі, обсмажені у великій кількості розпеченої олії</p>
+                <p><strong>Ціна:</strong> 52.0</p>
+                <p><strong>Тип:</strong> СНЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо Чізбургер яловича котлета/Картопля фрі/Pepsi</p>
+                <p><strong>Опис:</strong> Чізбургер яловича котлета
+Картопля фрі
+Pepsi залізна банка 0,33-1шт</p>
+                <p><strong>Ціна:</strong> 276.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо Чізбургер куряча котлета/Картопля фрі/Pepsi</p>
+                <p><strong>Опис:</strong> Чізбургер куряча котлета -1 шт
+Картопля фрі -1 порція
+Pepsi залізна банка 0,33-1шт</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо Нагетси 9шт/Картопля фрі/Pepsi</p>
+                <p><strong>Опис:</strong> Нагертси -9шт
+ Картопля фрі -1 порція
+Pepsi залізна банка 0,33 -1 шт</p>
+                <p><strong>Ціна:</strong> 213.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо Гамбургер яловича котлета/Картопля фрі/Pepsi</p>
+                <p><strong>Опис:</strong> Гамбургер яловича котлета -1шт
+Картопля фрі-1 порція
+Pepsi залізна банка 0,33-1шт</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо Гамбургер куряча котлета/Картопля фрі/Pepsi</p>
+                <p><strong>Опис:</strong> Гамбургер куряча котлета- 1 шт
+Картопля фрі- 1 порція
+Pepsi залізна банка 0,33 -1 шт</p>
+                <p><strong>Ціна:</strong> 184.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо Нагетси 6 шт/Картопля фрі/Pepsi</p>
+                <p><strong>Опис:</strong> Нагетси порція (6шт), картопля фрі порція (100г), Pepsi залізна банка (330мл)</p>
+                <p><strong>Ціна:</strong> 173.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог з куркою</p>
+                <p><strong>Опис:</strong> булка,курка печена, айсберг,помідори , огірок, сир чедер, соус часниковий ,соус томатний</p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог з шинкою</p>
+                <p><strong>Опис:</strong> булка,шинка, айсберг,помідори , огірок, сир чедер, соус часниковий ,соус томатний</p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот дог Лаваш класичний</p>
+                <p><strong>Опис:</strong> Лаваш, соус часниковий, сосиска молочна, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп</p>
+                <p><strong>Ціна:</strong> 91.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог булка класичний</p>
+                <p><strong>Опис:</strong> Булка хот-дог, соус часниковий, сосиска молочна, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп, майонез</p>
+                <p><strong>Ціна:</strong> 91.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот дог Лаваш баварський</p>
+                <p><strong>Опис:</strong> Лаваш, соус часниковий, сосиска баварська, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп</p>
+                <p><strong>Ціна:</strong> 91.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот-дог булка баварський</p>
+                <p><strong>Опис:</strong> Булка хот-дог, соус часниковий, сосиска баварська, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп, майонез</p>
+                <p><strong>Ціна:</strong> 91.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот дог французький класичний</p>
+                <p><strong>Опис:</strong> Булка французька з отвором, сосиска молочна, кетчуп, майонез, гірчиця</p>
+                <p><strong>Ціна:</strong> 63.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хот дог французький баварський</p>
+                <p><strong>Опис:</strong> Булка французька з отвором, сосиска баварська, кетчуп, майонез, гірчиця</p>
+                <p><strong>Ціна:</strong> 63.0</p>
+                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш Рол з куркою</p>
+                <p><strong>Опис:</strong> Лаваш, соус часниковий, курка печена, салат Айсберг, огірок, помідор, кетчуп</p>
+                <p><strong>Ціна:</strong> 91.0</p>
+                <p><strong>Тип:</strong> ФРЕШ РОЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус гострий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 21.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус кисло-солодкий (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 17.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус тартар (30г)</p>
+                <p><strong>Опис:</strong> 30г</p>
+                <p><strong>Ціна:</strong> 17.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус сирний (30г)</p>
+                <p><strong>Опис:</strong> 30 г</p>
+                <p><strong>Ціна:</strong> 17.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус манго-чилі (30)</p>
+                <p><strong>Опис:</strong> 30 г</p>
+                <p><strong>Ціна:</strong> 17.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус кетчуп (30г)</p>
+                <p><strong>Опис:</strong> 30 г</p>
+                <p><strong>Ціна:</strong> 17.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус часниковий (30г)</p>
+                <p><strong>Опис:</strong> 30 г</p>
+                <p><strong>Ціна:</strong> 17.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Mirinda (0.5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi (0.5л)</p>
+                <p><strong>Опис:</strong> Солодкий газований напій</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Lipton (0.5л)</p>
+                <p><strong>Опис:</strong> Холодний чай</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб Мікс</p>
+                <p><strong>Опис:</strong> Лаваш,яловичина кебаб, кебаб курка,листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p><strong>Ціна:</strong> 207.0</p>
+                <p><strong>Тип:</strong> Кебаби</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб яловичина 120</p>
+                <p><strong>Опис:</strong> Лаваш,яловичина кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p><strong>Ціна:</strong> 171.0</p>
+                <p><strong>Тип:</strong> Кебаби</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб курка 120</p>
+                <p><strong>Опис:</strong> Лаваш,курка кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> Кебаби</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб яловичина 80</p>
+                <p><strong>Опис:</strong> Лаваш,яловичина кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p><strong>Ціна:</strong> 137.0</p>
+                <p><strong>Тип:</strong> Кебаби</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб курка 80</p>
+                <p><strong>Опис:</strong> Лаваш,курка кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> Кебаби</p>
+                <hr></div>
 </body>
 </html>

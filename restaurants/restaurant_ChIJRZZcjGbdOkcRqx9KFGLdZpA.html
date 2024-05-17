@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,254 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/230.png" alt="Restaurant Image">
         <h1>Nice Guys</h1>
-        <p><strong>Address:</strong> вулиця Братів Рогатинців, 39, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8406034, 'lng': 24.0336641}</p>
-        <p><strong>Website:</strong> <a href="http://niceguys.lviv.ua/" target="_blank">http://niceguys.lviv.ua/</a></p>
-        <p><strong>Phone:</strong> +380 93 550 2898</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 214.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Братів Рогатинців, 39, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8406034, 'lng': 24.0336641}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://niceguys.lviv.ua/" target="_blank">http://niceguys.lviv.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 93 550 2898</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 214.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Тост з курячим шашликом (330г)</p>
+                <p><strong>Опис:</strong> Тост, мікс салату, карамелізована цибулька, шашлик з курки, сир Cулугуні, помідор</p>
+                <p><strong>Ціна:</strong> 172.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тост з яйцем та перцем гриль  (330г)</p>
+                <p><strong>Опис:</strong> Тост, мікс салату, Тайський соус, яйце глазуроване, перець гриль, сир Фета та Cулугуні</p>
+                <p><strong>Ціна:</strong> 158.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з домашнім сиром та яблуком  (350г)</p>
+                <p><strong>Опис:</strong> Солодкі млинці з домашнім сиром та яблуком, заварним кремом та апельсином</p>
+                <p><strong>Ціна:</strong> 134.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боргач пікантний (300г)</p>
+                <p><strong>Опис:</strong> Бограч варений в казані на відкритому вогні. Має нотку пікантності</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Український борщ (300г)</p>
+                <p><strong>Опис:</strong> Український борщ, варений на свинних ребрах. При варінні додаємо сметану</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибний крем-суп (300г)</p>
+                <p><strong>Опис:</strong> На основі Білих грибів та печериць</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий бульйон з локшиною  (300г)</p>
+                <p><strong>Опис:</strong> Курячий бульйон у поєднанні з локшиною та м'яском</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирна дошка (200/50г)</p>
+                <p><strong>Опис:</strong> Асорті сирів: Брі, Дорблю, Бейбі Моцарела, Cулугуні в кунжуті та мед</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оселедець з печеною картоплею (250г)</p>
+                <p><strong>Опис:</strong> Філе оселедця з печеною картоплею та маринованою цибулею</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борц з грінками (100/80/60г)</p>
+                <p><strong>Опис:</strong> Бастурма, житні грінки та Вершково-сирний соус</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Асорті соління (300г)</p>
+                <p><strong>Опис:</strong> Квашені помідори, огірки та крижавка</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Язик у Вершковому соусі (200г)</p>
+                <p><strong>Опис:</strong> Телячий язик з цибулею у Вершковому соусі</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі на вогні (200г)</p>
+                <p><strong>Опис:</strong> Листкове тісто, сир Cулугуні та Грецькі горішки</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з курки та сиру Дорблю (270г)</p>
+                <p><strong>Опис:</strong> Куряче філе, сир Дорблю, апельсин, виноград, мікс салату, кунжут</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з індика та ананасу під Горіховим соусом (270г)</p>
+                <p><strong>Опис:</strong> Філе індика, печериці, ананас, помідор Чері, салат Рукола, Горіх соус, кедровий горіх, земля з маслин</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Теплий салат з телячого язика (250г)</p>
+                <p><strong>Опис:</strong> Язик телячий, баклажан, перець Болгарський, цибуля, мікс салату, кунжут</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Теплий салат Жаровня (300г)</p>
+                <p><strong>Опис:</strong> Філе телятини, міні кукурудза, печериці, стручкова квасоля, асорті горішків</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький (250г)</p>
+                <p><strong>Опис:</strong> Помідор, огірок, Болгарський перець, маслини, сир Фета, мікс салату, оливкова олія</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з печених овочів (200г)</p>
+                <p><strong>Опис:</strong> Овочі печені на мангалі: баклажан, помідор, перець Болгарський, заправка на основі часнику та зелені</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з квашеної капусти та опеньок (200г)</p>
+                <p><strong>Опис:</strong> Квашена капуста, гриби Опеньки, цибуля</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль під соусом Бальзамік (260г)</p>
+                <p><strong>Опис:</strong> Баклажан, перець Болгарський та печериці</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кукурудза гриль (280г)</p>
+                <p><strong>Опис:</strong> З додаванням вершкового масла</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля на мангалі з салом (200/30г)</p>
+                <p><strong>Опис:</strong> Печена картопля на мангалі з салом та часниковою олією</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Компанійська дошка (2200г)</p>
+                <p><strong>Опис:</strong> Шашлик з телятини, свинини та курятини, картопля з салом, асорті овочів гриль, квашена капуста з грибами Підпеньками, лаваш, соус BBQ. Розраховано на 5 осіб</p>
+                <p><strong>Ціна:</strong> 1850.0</p>
+                <p><strong>Тип:</strong> М'ЯСО З ВОГНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик шинка теляча (250г)</p>
+                <p><strong>Опис:</strong> Подається з вірменським лавашем та маринованою цибулею</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> М'ЯСО З ВОГНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик язик телячий (200г)</p>
+                <p><strong>Опис:</strong> Подається з вірменським лавашем та маринованою цибулею</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> М'ЯСО З ВОГНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик шия свинна (250г)</p>
+                <p><strong>Опис:</strong> Подається з вірменським лавашем та маринованою цибулею</p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> М'ЯСО З ВОГНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Свинні ковбаски (250г)</p>
+                <p><strong>Опис:</strong> Рублене м'ясо свинини та спеції. З додаванням Американської гірчиці</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> М'ЯСО З ВОГНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик бедро куряче (250г)</p>
+                <p><strong>Опис:</strong> Подається з вірменським лавашет та маринованою цибулею</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> М'ЯСО З ВОГНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Форель у вершковому соусі (250/100г)</p>
+                <p><strong>Опис:</strong> Річкова біла риба під Вершковим соусом та печерицями</p>
+                <p><strong>Ціна:</strong> 370.0</p>
+                <p><strong>Тип:</strong> РИБА З ВОГНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Форель (250г)</p>
+                <p><strong>Опис:</strong> Річкова біла риба</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> РИБА З ВОГНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Тайський авторський (50г)</p>
+                <p><strong>Опис:</strong> Кисло-солодкий з легкою пікантністю. Власного приготування</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус BBQ (50г)</p>
+                <p><strong>Опис:</strong> Кисло-солодкий з нотками солодкавості. Власного приготування</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Жаровня (50г)</p>
+                <p><strong>Опис:</strong> Гострий соус на основі Болгарського перцю. Власного приготування</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Вершково-сирний (50г)</p>
+                <p><strong>Опис:</strong> Вершковий соус на основі Домашнього сиру на часнику. Власного приготування</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лаваш з тандиру (1шт, 350-400г)</p>
+                <p><strong>Опис:</strong> Грузинський хліб, допечений на мангалі</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грузинський лимонад Сапераві (500мл)</p>
+                <p><strong>Опис:</strong> В склі</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грузинський лимонад Груша (500мл)</p>
+                <p><strong>Опис:</strong> В склі</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грузинський лимонад Тархун (500мл)</p>
+                <p><strong>Опис:</strong> В склі</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi ж/б (330мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізкейк Солена карамель (1шт)</p>
+                <p><strong>Опис:</strong> Основа з крихти карамелізованого печива, Вершковий сир вкритий карамеллю</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель з вишнею (1шт)</p>
+                <p><strong>Опис:</strong> Тонке тісто, дуже багато вишні та Грецький горішок</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Наполеон  (1шт)</p>
+                <p><strong>Опис:</strong> На основі бвлого шоколаду та соленої карамелі</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr></div>
 </body>
 </html>

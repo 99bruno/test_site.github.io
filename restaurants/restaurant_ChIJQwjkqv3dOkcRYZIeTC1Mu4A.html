@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,434 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/135.png" alt="Restaurant Image">
         <h1>Coffee lab Чорновола</h1>
-        <p><strong>Address:</strong> проспект В'ячеслава Чорновола, 61, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8577091, 'lng': 24.019975}</p>
-        <p><strong>Website:</strong> <a href="https://www.facebook.com/coffeelablviv/" target="_blank">https://www.facebook.com/coffeelablviv/</a></p>
-        <p><strong>Phone:</strong> +380 67 344 4423</p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 08:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 131.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> проспект В'ячеслава Чорновола, 61, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8577091, 'lng': 24.019975}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://www.facebook.com/coffeelablviv/" target="_blank">https://www.facebook.com/coffeelablviv/</a></p>
+        <p><strong>Телефон:</strong> +380 67 344 4423</p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> 131.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 08:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Бургер з яловичиною горгонзолою, горіхами та вишневим джемом</p>
+                <p><strong>Опис:</strong> Подається з картопляними діпами, маринованою цибулею, квашеними огірками та цибулею</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер з рваною свининою</p>
+                <p><strong>Опис:</strong> Булочка бріош, рвана свинина барбекю, соус кімчі, салат: капуста, кінза, корінь селери, морква, гірчиця. Подається з бататом фрі, маринованою цибулею, квашеними огірками</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер з яловичиною пепероні і карамелізованою цибулею</p>
+                <p><strong>Опис:</strong> Подається з картопляними діпами, маринованою цибулею, квашеними огірками та цибулею</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер з куркою,шпинатом і пепероні</p>
+                <p><strong>Опис:</strong> Подається з картопляними діпами, маринованою цибулею, квашеними огірками та цибулею</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з лососем в кунжуті</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з грушею, креветками та авокадо</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з телятиною під соусом бальзамік</p>
+                <p><strong>Опис:</strong> Телятина, пармезан, салат-мікс, помідори чері, артишоки в маринаді</p>
+                <p><strong>Ціна:</strong> 247.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар з куркою і яйцем</p>
+                <p><strong>Опис:</strong> салат айсберг, бекон, куряче філе, крутони, помідори чері, пармезан, яйце куряче, соус Цезаре</p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Італійський салат</p>
+                <p><strong>Опис:</strong> Пармезан, помідори чері, рукола, заправка на оливковій олії з травами</p>
+                <p><strong>Ціна:</strong> 167.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Інволтіні з лосося з сиром та спеціями</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Інволтіні з мортадели та соусом песто</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Інволтіні з прошуто з сиром та спеціями</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крем-суп гарбузовий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 182.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крем-суп сирний</p>
+                <p><strong>Опис:</strong> з прошуто та грушею</p>
+                <p><strong>Ціна:</strong> 177.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп Страчaтелла</p>
+                <p><strong>Опис:</strong> Курячий суп з яйцем та шпинатом</p>
+                <p><strong>Ціна:</strong> 143.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крем-суп шпинатний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибний капучіно</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 119.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лосось гриль під соусом песто</p>
+                <p><strong>Опис:</strong> з цукіні, баклажаном, мікс-салатом, та болгарським перцем</p>
+                <p><strong>Ціна:</strong> 413.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стейк з телятини з соусом з смородини</p>
+                <p><strong>Опис:</strong> З соусом з чорної смородини та салатом з апельсини</p>
+                <p><strong>Ціна:</strong> 362.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тосканська яловичина Пепосо</p>
+                <p><strong>Опис:</strong> Подається з кремовою полентою та томатами конфі</p>
+                <p><strong>Ціна:</strong> 322.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Медальйони зі свинини</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 302.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Свинина по-міланські</p>
+                <p><strong>Опис:</strong> свиний шніцель в паніровці з сухарів Панко, томатами конкасе, руколою, кукурудзою гриль та соусом Наполі</p>
+                <p><strong>Ціна:</strong> 289.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курка Міланезе</p>
+                <p><strong>Опис:</strong> Куряче філе смажене в паніровці з пармезану та сухарів Панко. Подається на вершковому соусі з цукіні, свіжою руколою та смаженими томатами чері</p>
+                <p><strong>Ціна:</strong> 284.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Індичка Флорентіно</p>
+                <p><strong>Опис:</strong> Котлета з індички з начинкою зі шпинату та соусу бешамель в хрусткій паніровці, пюре з моркви та броколі, смажені помідори чері, пармезан</p>
+                <p><strong>Ціна:</strong> 236.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сальсіча ді Тачіно</p>
+                <p><strong>Опис:</strong> Італійська ковбаска з індички, картопля фрі, соус Цезаре</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креспелі з копченою куркою</p>
+                <p><strong>Опис:</strong> запечені з соусом бешамель та пармезаном</p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Батат фрі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля з розмарином та часником</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 113.0</p>
+                <p><strong>Тип:</strong> Основні страви</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з креветками та томатами чері конфі</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, моцарела, креветки, томати чері конфі, соус песто</p>
+                <p><strong>Ціна:</strong> 369.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Больцано</p>
+                <p><strong>Опис:</strong> вершковий соус, соус песто, сир моцарела, салямі Наполі, артишоки, помідори чері конфі, прошуто кото, сирний соус, рукола</p>
+                <p><strong>Ціна:</strong> 359.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца грибна з маскарпоне та трюфельною пастою</p>
+                <p><strong>Опис:</strong> вершковий соус, сири маскарпоне, моцарела, білі гриби, печериці, сир пармезан, трюфельна паста, трюфельна олія, розмарин.</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Соренто</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, лосось, помідори чері, рукола, фета, пармезан, моцарела і соус бальзамічний</p>
+                <p><strong>Ціна:</strong> 297.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з качкою конфі</p>
+                <p><strong>Опис:</strong> вершковий соус, сир моцарела, качка конфі, томати чері конфі, цибуля карамелізована, сир рікота, пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 289.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Формаджіо з Грушею</p>
+                <p><strong>Опис:</strong> вершковий соус, горгонзола, радомер, пармезан, пармезан, груша, мед</p>
+                <p><strong>Ціна:</strong> 282.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з прошуто Кото та горгондзолою</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, прошуто Кото, сир горгондзола, моцарела, базилік</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Кватро Формаджі</p>
+                <p><strong>Опис:</strong> Вершковий соус, сири горгонзола, радомер, пармезан та моцарела</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Капрічіоза</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, прошуто, салямі, печериці,  артишоки та моцарела</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Карбонара з помідорами чері та руколою</p>
+                <p><strong>Опис:</strong> соус карбонара, прошуто, помідори чері, рукола, пармезан та моцарела</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Гофредо</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, прошуто кото, салямі, помідори, маринована цибуля та моцарела</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Пепероні з пікантоною салямі та маринованим перцем</p>
+                <p><strong>Опис:</strong> соус з італійських томатів MUTTI, сир моцарела, салямі піканте, перець пепероні, перець чилі, томати чері, соус барбекю, соус бальзамічний</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Салерно</p>
+                <p><strong>Опис:</strong> вершковий соус, сир моцарела, сир Горгондзола, салямі Наполі, карамелізована цибуля, базилік</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Цезаре</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, бекон, куряче філе, мікс салат, сири пармезан, моцарела та соус Цезаре</p>
+                <p><strong>Ціна:</strong> 267.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Палермо</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, бекон, прошуто кото, салямі, печериці, маслини та моцарела.</p>
+                <p><strong>Ціна:</strong> 267.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з сиром брі та куркою</p>
+                <p><strong>Опис:</strong> вершковий соус, сир моцарела, сир брі, цибуля червона, журавлина вʼялена, соус журавлиновий, сир пармезан, рукола</p>
+                <p><strong>Ціна:</strong> 266.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Туно</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, тунець, каперси, червона цибуля та моцарела</p>
+                <p><strong>Ціна:</strong> 258.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з гострою куркою, беконом та солодким перцем</p>
+                <p><strong>Опис:</strong> вершковий соус,моцарела, курка в гострому соусі, бекон, печений солодкий перець, цибуля кранч, базилік</p>
+                <p><strong>Ціна:</strong> 258.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Діабола</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, салямі Pikante, перці болгарський та чилі, маслини і моцарела</p>
+                <p><strong>Ціна:</strong> 239.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Барбекю</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, куряче філе, пепероні маринований, моцарела, червона цибуля, соус барбекю</p>
+                <p><strong>Ціна:</strong> 239.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Гавайська</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, куряче філе, ананаси та моцарела</p>
+                <p><strong>Ціна:</strong> 239.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кальцоне із салямі</p>
+                <p><strong>Опис:</strong> закрита піца із салямі, шинкою, печерицями, моцарелою, пармезаном, базиліком та орегано</p>
+                <p><strong>Ціна:</strong> 239.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Рататуй</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, вершки, цукіні, баклажани, болгарський перець, печене куряче філе, моцарела фреска, соус песто, базилік</p>
+                <p><strong>Ціна:</strong> 239.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Салямі</p>
+                <p><strong>Опис:</strong> соус з італійських томатів MUTTI, салямі Наполі, сир моцарела</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Песто і томато</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, помідори чері, рукола, фета, пармезан, моцарела і соус Песто.</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита</p>
+                <p><strong>Опис:</strong> Соус з італійських томатів MUTTI, базилік та моцарела фреска,</p>
+                <p><strong>Ціна:</strong> 219.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фокачча з пармезаном</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Піца 30 см</p>
+                <hr>
+                <p><strong>Позиція:</strong> Равіолі з білими грибами та рікотою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Аманте</p>
+                <p><strong>Опис:</strong> з лососем, цукіні, часником і шпинатом</p>
+                <p><strong>Ціна:</strong> 279.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лазанья болоньєзе</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 259.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Равіолі з мортаделою та пармезаном</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 239.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста кватро формаджі</p>
+                <p><strong>Опис:</strong> Сири пармезан, радомер, маскарпоне, горгонзола, печений часник, подається з грецькими горіхами та кармелізованою грушею</p>
+                <p><strong>Ціна:</strong> 237.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тальятеле аль песто з бурратою</p>
+                <p><strong>Опис:</strong> паста з соусом песто, пармезаном та сиром буррата</p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Карбонара</p>
+                <p><strong>Опис:</strong> З беконом, яйцем, часником та пармезаном</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тальятеле аль помідоро з бурратою</p>
+                <p><strong>Опис:</strong> паста з соусом з томатів, базиліку, пармезану та сиром буррата</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Поло Фунгі</p>
+                <p><strong>Опис:</strong> З курячим філе, білими грибами, печерицями, цибулею і часником під ніжним соусом Бешамель</p>
+                <p><strong>Ціна:</strong> 223.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з печеними овочами</p>
+                <p><strong>Опис:</strong> Паста з курячим філе, печеним цукіні, баклажаном, болгарським перцем, свіжими помідорами та вершковим соусом</p>
+                <p><strong>Ціна:</strong> 223.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Равіолі з куркою та шпинатом і пармезаном</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 193.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Равіолі з м'ясом та прошуто</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> Паста</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники</p>
+                <p><strong>Опис:</strong> Сирники з ягідним соусом та сметаною</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шоколадний брауні з бананом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тірамісу</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізкейк класичний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Sandora</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 136.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мірінда 0,5 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 57.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> 7 UP 0,5 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 57.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi 0,5</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 57.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська с/г 0,5л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська н/г 0,5</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> Холодні напої</p>
+                <hr></div>
 </body>
 </html>

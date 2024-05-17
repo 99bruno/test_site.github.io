@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,114 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/457.png" alt="Restaurant Image">
         <h1>Kayanfood</h1>
-        <p><strong>Address:</strong> вулиця Тиктора, 4, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.842553, 'lng': 24.0254518}</p>
-        <p><strong>Website:</strong> <a href="https://koreankafemenu.netlify.app/#%D0%A7%D1%96%D0%B3%D0%B5" target="_blank">https://koreankafemenu.netlify.app/#%D0%A7%D1%96%D0%B3%D0%B5</a></p>
-        <p><strong>Phone:</strong> +380 63 541 9317</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Average price:</strong> 107.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Тиктора, 4, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.842553, 'lng': 24.0254518}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://koreankafemenu.netlify.app/#%D0%A7%D1%96%D0%B3%D0%B5" target="_blank">https://koreankafemenu.netlify.app/#%D0%A7%D1%96%D0%B3%D0%B5</a></p>
+        <p><strong>Телефон:</strong> +380 63 541 9317</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 107.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Монстер подвійний</p>
+                <p><strong>Опис:</strong> Булочка з конжутом, соус барбекю, котлета з яловичини 2шт, потрійний сир, свіжий салат, солений огірок, помідор, цибулька синя.</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> Монстер Бургер</p>
+                <p><strong>Опис:</strong> Булочка з конжутом, соус барбекю, котлета з яловичини, свіжий салат, помідор, огірок солений, подвійний сир, цибулька синя.</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> На Чілі</p>
+                <p><strong>Опис:</strong> Булочка з конжутом, соус солодкий чілі та барбекю, соковита котлета з яловичини, сир, гострий перець, салат, помідор, огірок, синя цибулька.</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гавайський</p>
+                <p><strong>Опис:</strong> Булочка з кунжутом, котлета з яловичини, карамелізований ананас, соус солодко-гострий, салат, свіжий  помідор, сир.</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий блю чіз</p>
+                <p><strong>Опис:</strong> Булочка з кунжутом, соус гірчичний, котлета куряча, блакитний сир, помідор, салат, огірок, цибулька синя.</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біф рол</p>
+                <p><strong>Опис:</strong> Лаваш, яловичий фарш, соус солодко-гострий, салат, помідор, огірок, цибулька, сир.</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол курячий</p>
+                <p><strong>Опис:</strong> Лаваш, курячі шматочки, салат, цибулька, помідор, огірок, сир, соус гірчичний.</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі нагетси 9шт</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> Снеки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі нагетси 6шт</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> Снеки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цибулеві кільця</p>
+                <p><strong>Опис:</strong> 6шт + соус гірчичний</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> Снеки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі + кетчуп</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> Снеки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Монстер подаійний комбо</p>
+                <p><strong>Опис:</strong> Монстер подвійний, картопля фрі+кетчуп, напій.</p>
+                <p><strong>Ціна:</strong> 340.0</p>
+                <p><strong>Тип:</strong> Комбо пропозиція</p>
+                <hr>
+                <p><strong>Позиція:</strong> Монстер Бургер Комбо</p>
+                <p><strong>Опис:</strong> Монстер бургер, картопля фрі+кетчуп, напій.</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> Комбо пропозиція</p>
+                <hr>
+                <p><strong>Позиція:</strong> На Чілі Комбо</p>
+                <p><strong>Опис:</strong> Бургер На Чілі, картопля фрі+кетчуп, напій.</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> Комбо пропозиція</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гавайський Комбо</p>
+                <p><strong>Опис:</strong> Гавайський бургер, картопля фрі+соус, напій.</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> Комбо пропозиція</p>
+                <hr></div>
 </body>
 </html>

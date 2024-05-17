@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,209 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/341.png" alt="Restaurant Image">
         <h1>ШніцBurger</h1>
-        <p><strong>Address:</strong> вулиця Кульпарківська, 230, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.80287329999999, 'lng': 23.9801595}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 96 886 6988</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 00:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 00:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 00:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 00:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 00:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 00:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 00:00:00</p>
-        <p><strong>Average price:</strong> 184.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Кульпарківська, 230, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.80287329999999, 'lng': 23.9801595}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 96 886 6988</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 184.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 00:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 00:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 00:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 00:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 00:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 00:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 00:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Карамельний чизкейк (120г)</p>
+                <p><strong>Опис:</strong> Крамбл з мигдального борошна та пшеничного борошна з вершковим сиром,зверху тоффі солена карамель</p>
+                <p><strong>Ціна:</strong> 148.0</p>
+                <p><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Батончик Марс  VEGAN</p>
+                <p><strong>Опис:</strong> Аквафаба, кеш‘ю паста, тростинний цукор, кокосовий цукор, мед, кокосова олія,кокосове молоко, молочний шоколад на кокосовому молоці.</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Батончик Снікерс VEGAN</p>
+                <p><strong>Опис:</strong> Аквафаба, арахісова паста, арахіс, Тростинний цукор, кокосовий цукор, кокосова олія, мед, кокосове молоко,молочний шоколад на кокосовому молоці, сіль.</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> брауні</p>
+                <p><strong>Опис:</strong> шоколадне брауні з орео\печивом</p>
+                <p><strong>Ціна:</strong> 67.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лате солена карамель (300мл)</p>
+                <p><strong>Опис:</strong> Лате з додавання соленої карамелі власного виробництва</p>
+                <p><strong>Ціна:</strong> 98.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лате (300мл)</p>
+                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лавандовий раф (300мл)</p>
+                <p><strong>Опис:</strong> Кавовий напій на основі еспресо, ванільного цукру і жирних вершків</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Раф (300мл)</p>
+                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p><strong>Ціна:</strong> 83.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Карамельне капучино (220мл)</p>
+                <p><strong>Опис:</strong> 100% Specialty Арабіка з карамеллю</p>
+                <p><strong>Ціна:</strong> 83.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Флет Вайт (220мл)</p>
+                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p><strong>Ціна:</strong> 78.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучино (220мл)</p>
+                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Допіо (35мл)</p>
+                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо (20мл)</p>
+                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зелена матча на кокосовому молоці (300мл)</p>
+                <p><strong>Опис:</strong> Японський чай, напій з густою піною</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> МАТЧА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зелена матча (300мл)</p>
+                <p><strong>Опис:</strong> Японський чай, зелений напій з густою піною</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> МАТЧА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кокосове какао (300мл)</p>
+                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p><strong>Ціна:</strong> 94.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Карамельне какао (300мл)</p>
+                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p><strong>Ціна:</strong> 77.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лавандове какао (300мл)</p>
+                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p><strong>Ціна:</strong> 77.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао (300мл)</p>
+                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гречаний чай (300мл)</p>
+                <p><strong>Опис:</strong> Чай</p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай чорний (300мл)</p>
+                <p><strong>Опис:</strong> Трав'яний напій</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай з жасмином (300мл)</p>
+                <p><strong>Опис:</strong> Трав'яний напій</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай трав’яний (300мл)</p>
+                <p><strong>Опис:</strong> Трав'яний напій</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай фруктовий (300мл)</p>
+                <p><strong>Опис:</strong> Чай</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Матча зелена (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 590.0</p>
+                <p><strong>Тип:</strong> ТОВАРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Матча зелена (50г)</p>
+                <p><strong>Опис:</strong> 50г</p>
+                <p><strong>Ціна:</strong> 300.0</p>
+                <p><strong>Тип:</strong> ТОВАРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Матча синя (20г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ТОВАРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Масала (300мл)</p>
+                <p><strong>Опис:</strong> Індійські прянощі, смак: кардамону, кориці та мускатного горіха</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Чорниця-малина-розмарин-кардамон (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Полуниця-лайм-м'ята (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Обліпиха-апельсин-кориця (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Квіти троянди (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Молочний улун (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай Шу пуер (300мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 66.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr></div>
 </body>
 </html>

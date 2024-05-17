@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,274 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/322.png" alt="Restaurant Image">
         <h1>Stargorod / Старгород</h1>
-        <p><strong>Address:</strong> вулиця Римлянина, 1, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.83902339999999, 'lng': 24.0375029}</p>
-        <p><strong>Website:</strong> <a href="http://lviv.stargorod.net/" target="_blank">http://lviv.stargorod.net/</a></p>
-        <p><strong>Phone:</strong> +380 50 323 4857</p>
-        <p><strong>Type:</strong> bar</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 206.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Римлянина, 1, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.83902339999999, 'lng': 24.0375029}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://lviv.stargorod.net/" target="_blank">http://lviv.stargorod.net/</a></p>
+        <p><strong>Телефон:</strong> +380 50 323 4857</p>
+        <p><strong>Тип:</strong> bar</p>
+        <p><strong>Середня ціна:</strong> 206.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Кав'яр чорний (50/30/20)</p>
+                <p><strong>Опис:</strong> Соленики сирні,масло вершкове</p>
+                <p><strong>Ціна:</strong> 2540.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар з яловичини (190)</p>
+                <p><strong>Опис:</strong> вирізка яловича, огірок, каперси, ворчестер, копчені гливи</p>
+                <p><strong>Ціна:</strong> 420.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар рибний (155г)</p>
+                <p><strong>Опис:</strong> Лосось, тунець, паста з авокадо, соус вафу, гель бергамот</p>
+                <p><strong>Ціна:</strong> 340.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Опеньки мариновані (200г)</p>
+                <p><strong>Опис:</strong> Опеньки, цибуля маринована, цибуля зелена</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Форшмак (350г)</p>
+                <p><strong>Опис:</strong> традиційний</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рибний рієт (65/20 )</p>
+                <p><strong>Опис:</strong> риба кінг кліп, лосось,  пюре маракуя, соус кім чі, соус устричний</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оселедець з картоплею і маринованою цибулею (80/50/20)</p>
+                <p><strong>Опис:</strong> оселедець, смажена картопля, цибуля шалот</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бабагануш (140/90)</p>
+                <p><strong>Опис:</strong> баклажан, тахіна, копчені гливи, часник, зіра,  коріандр, лобне, кінза, сумах</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Власна маринація (200г)</p>
+                <p><strong>Опис:</strong> перець болгарський, баклажан, петрушка</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соління (190г)</p>
+                <p><strong>Опис:</strong> Огірок квашений, капуста квашена, цибуля маринована, петрушка, часник квашений, чілі</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паштет з курячої печінки (55/20)</p>
+                <p><strong>Опис:</strong> печінка куряча, філе куряче, трюфельна паста, гель малиновий, соус дем міссо</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сало в спеціях (140/100)</p>
+                <p><strong>Опис:</strong> Сало, хрін, часник, заварний хліб</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Кріспі (225г)</p>
+                <p><strong>Опис:</strong> Рис, огірок, авокадо, лосось, шиїтакі темпура, креветка темпура, соус кешью, глазур які торі, спайсі соус, кунжут</p>
+                <p><strong>Ціна:</strong> 550.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Каліфорнія (195г)</p>
+                <p><strong>Опис:</strong> Рис, авокадо, огірок, тунець, краб, лосось, майонез з авокадо, кунжут</p>
+                <p><strong>Ціна:</strong> 540.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол з вугрем (310г)</p>
+                <p><strong>Опис:</strong> Вугор, рис, огірок, авокадо, лосось, соус кеш'ю, соус Унагі, майонез Юдзу</p>
+                <p><strong>Ціна:</strong> 540.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філадельфія (260г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, огірок, авокадо</p>
+                <p><strong>Ціна:</strong> 530.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Тайгер (215г)</p>
+                <p><strong>Опис:</strong> Рис, креветка темпура, соус васабі, авокадо, гребінець, глазур які торі, спайсі соус, ков'яр червоний</p>
+                <p><strong>Ціна:</strong> 530.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Авокадо рол (270г)</p>
+                <p><strong>Опис:</strong> Рис, авокадо, лосось, огірок, спайсі соус, глазур якіторі, тагаращі</p>
+                <p><strong>Ціна:</strong> 460.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Теплий салат з яловичини (230г)</p>
+                <p><strong>Опис:</strong> Салат айсберг, яловича вирізка, цибуля зелена, перець печений, глива копчена, кунжут, чіпс з тапіоки, соус унагі, заправка майонез юзу, заправка кеш'ю</p>
+                <p><strong>Ціна:</strong> 420.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з страчателою (180г)</p>
+                <p><strong>Опис:</strong> Мікс салату, сир страчатела, виноград, авокадо, лохина, гель з бергамоту</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат  з томатами та закарпатською бринзою (130г)</p>
+                <p><strong>Опис:</strong> Мікс салату, заправка гірчична, мариновані томати чері, ікра з бринзи</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вінігрет (230г)</p>
+                <p><strong>Опис:</strong> Буряк, морква, картопля, горошок зелений, квасоля, опеньки</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Том Ям (300г)</p>
+                <p><strong>Опис:</strong> Лемонграс, кафір лайм, чилі, рис басматі, тигрова креветка, кінза, лайм, кунжут, кокосове молоко</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бограч традиційний з сметаною та паляницею (250/50)</p>
+                <p><strong>Опис:</strong> М'ясний бульйон, томлена свинина та яловичина, печена картопля та морква, болгарський перець, олія з томатів</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибна юшка з вушками (255г)</p>
+                <p><strong>Опис:</strong> Білі гриби, вушка з копченими гливами та крем сиром</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ з вершковим бріош, копченою сметаною та салом (250/35/30)</p>
+                <p><strong>Опис:</strong> Традиційний борщ на м'ясному бульйоні</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Люля-кебаб з баранини (150/100)</p>
+                <p><strong>Опис:</strong> Баранина, йогурт грецький, мікс салату, кінза, м'ята, заправка малинова, паляниця</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик свинний (150/100)</p>
+                <p><strong>Опис:</strong> Шия свинна, йогурт грецький, мікс салату, кінза, м'ята, заправка малинова, паляниця</p>
+                <p><strong>Ціна:</strong> 300.0</p>
+                <p><strong>Тип:</strong> ГРИЛЬ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яловичина гамадарі (280г)</p>
+                <p><strong>Опис:</strong> Маринована яловичина сувід з картоплеанною та соусом гамадарі (яблуко, кеш'ю)</p>
+                <p><strong>Ціна:</strong> 560.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рулет з камбали (120/50/40)</p>
+                <p><strong>Опис:</strong> Камбала, пюре з селери з біском, соус рибний, копчені гливи, піна з білих грибів</p>
+                <p><strong>Ціна:</strong> 460.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рибна мозаїка (120/30/35)</p>
+                <p><strong>Опис:</strong> Риба кінг кліп, спеції фурекакі, пюре з цвітної капусти, чіпс тапіоки, соус рибний</p>
+                <p><strong>Ціна:</strong> 430.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Качине філе (90/40/20)</p>
+                <p><strong>Опис:</strong> Філе качине су-від, цибуля порей, глазур якіторія, гречаний поп-корн</p>
+                <p><strong>Ціна:</strong> 420.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pork belly (160/60/80)</p>
+                <p><strong>Опис:</strong> Свинина, глазур якіторія, горошок, капуста кім чі, булочка БАО</p>
+                <p><strong>Ціна:</strong> 390.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий рулет (150/50)</p>
+                <p><strong>Опис:</strong> Курча, пюре з баклажану, соус ден місо, копчені гливи, чіпси</p>
+                <p><strong>Ціна:</strong> 380.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета по київськи (215/160)</p>
+                <p><strong>Опис:</strong> Куряче філе, масло з кропом,  пюре з запеченої картоплі і  топленим маслом</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рибні котлети та пюре з запеченої картоплі (125/150)</p>
+                <p><strong>Опис:</strong> Короп, пюре з запеченої картоплі і  топленим маслом</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Голубці (220/40)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль (320г)</p>
+                <p><strong>Опис:</strong> Цукіні, баклажан, перець болгарський, помідор, петрушка</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники  з кроликом (190/50)</p>
+                <p><strong>Опис:</strong> Сметана, соус м'ясний</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею та сиром (190/50)</p>
+                <p><strong>Опис:</strong> Подаємо зі сметаною</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з  м'ясом (190/50)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники  з солоним сиром (190/50)</p>
+                <p><strong>Опис:</strong> Сметана, ікра з бринзи</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з  тушкованою капустою (190/50)</p>
+                <p><strong>Опис:</strong> Сметана, соус грибний, грибний дюксель</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з вишнею (160/50)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печериці в темпурі (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля запечена (250/20)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляне пюре з запеченої картоплі (275г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr></div>
 </body>
 </html>

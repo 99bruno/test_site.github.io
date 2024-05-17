@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,434 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/232.png" alt="Restaurant Image">
         <h1>Hot Pans</h1>
-        <p><strong>Address:</strong> площа Князя Ярослава Осмомисла, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.844846, 'lng': 24.028551}</p>
-        <p><strong>Website:</strong> <a href="https://hot-dogers-fast-food-restaurant.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://hot-dogers-fast-food-restaurant.business.site/?utm_source=gmb&utm_medium=referral</a></p>
-        <p><strong>Phone:</strong> </p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:30:00 - 21:30:00</p>
-        <p><strong>Tuesday:</strong> 08:30:00 - 21:30:00</p>
-        <p><strong>Wednesday:</strong> 08:30:00 - 21:30:00</p>
-        <p><strong>Thursday:</strong> 08:30:00 - 21:30:00</p>
-        <p><strong>Friday:</strong> 08:30:00 - 21:30:00</p>
-        <p><strong>Saturday:</strong> 08:30:00 - 21:30:00</p>
-        <p><strong>Sunday:</strong> 08:30:00 - 21:30:00</p>
-        <p><strong>Average price:</strong> 187.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> площа Князя Ярослава Осмомисла, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.844846, 'lng': 24.028551}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://hot-dogers-fast-food-restaurant.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://hot-dogers-fast-food-restaurant.business.site/?utm_source=gmb&utm_medium=referral</a></p>
+        <p><strong>Телефон:</strong> </p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 187.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:30:00 - 21:30:00</p>
+        <p><strong>Вівторок:</strong> 08:30:00 - 21:30:00</p>
+        <p><strong>Середа:</strong> 08:30:00 - 21:30:00</p>
+        <p><strong>Четверг:</strong> 08:30:00 - 21:30:00</p>
+        <p><strong>Пʼятниця:</strong> 08:30:00 - 21:30:00</p>
+        <p><strong>Субота:</strong> 08:30:00 - 21:30:00</p>
+        <p><strong>Неділя:</strong> 08:30:00 - 21:30:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Бограч (350г)</p>
+                <p><strong>Опис:</strong> Свинина, копчені ребра, телятина, болгарський перець, картопля. Пікантний !</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп Харчо (350г)</p>
+                <p><strong>Опис:</strong> Національна грузинська страва. Пікантний. Телятина, рис,томати, перець чилі,спеції</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Солянка м'ясна збірна (350г)</p>
+                <p><strong>Опис:</strong> Свинина, шпондер копчений, шинка копчена, мисливські ковбаски, сметана, лимон, оливки</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ з м`ясом та сметаною(350/30г)</p>
+                <p><strong>Опис:</strong> Подається із запашною пампушкою</p>
+                <p><strong>Ціна:</strong> 119.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бульйон з пельменями (350г)</p>
+                <p><strong>Опис:</strong> Курячий бульйон, пельмені з міксфаршем</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий бульйон з локшиною (350г)</p>
+                <p><strong>Опис:</strong> Бульйон на основі курятини з домашньою локшиною та курячим філе</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ пісний та сметана(350/ 30г)</p>
+                <p><strong>Опис:</strong> Український пісний Борщ який подається із сметаною</p>
+                <p><strong>Ціна:</strong> 98.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлички зі свинини (заг 450г)</p>
+                <p><strong>Опис:</strong> Ніжна свиннина подається на лаваші, з овочевим салатом, цибулею, картоплею фрі та соусом</p>
+                <p><strong>Ціна:</strong> 348.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлички курячі (заг 450 г)</p>
+                <p><strong>Опис:</strong> Ніжне філе курятини подається на лаваші, з овочевим салатом, цибулею, картоплею фрі та соусом</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пательня з свининою (400г)</p>
+                <p><strong>Опис:</strong> Запечена в печі картопля, свинина, сулугуні, перець Болгарський, цибуля, гриби Печериці</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пательня з курятиною (400г)</p>
+                <p><strong>Опис:</strong> Запечена в печі картопля, курка, сир Сулугуні, кабачок, цибуля синя, броколі,</p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пательня з овочами (350г)</p>
+                <p><strong>Опис:</strong> Запечені в печі картопля, баклажани, помідор, болгарський перець, цибуля, сир</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни в глечику (450г)</p>
+                <p><strong>Опис:</strong> Деруни подаються із грибним соусом та сиром</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Банош з бринзою та шкварками ( 300г)</p>
+                <p><strong>Опис:</strong> Панський банош з бринзою та шкварками</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни із сметаною(250/50г)</p>
+                <p><strong>Опис:</strong> Українські деруни подаються зі сметаною</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Налисники з м'ясом(250г)</p>
+                <p><strong>Опис:</strong> Налиснички, м'ясо курятини</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> НАЛИСНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Налисники з сиром(250г)</p>
+                <p><strong>Опис:</strong> Налиснички з домашнім сиром</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> НАЛИСНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль (200г)</p>
+                <p><strong>Опис:</strong> Печериці, Баклажани, Кабачок, Болгарський перець, зелень</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля печена зі шпондером та сметанно-часниковим соусом (200/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі з кетчупом (150г)</p>
+                <p><strong>Опис:</strong> Картопля фрі з соусом кетчуп</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по-селянськи (200г)</p>
+                <p><strong>Опис:</strong> Картопля запечена в печі по-селянськи</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибний соус (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шкварки (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 37.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Аджика (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Сецебелі(50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус BBQ(50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Кетчуп (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сметана (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Хрін (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гірчиця (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Майонез (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смажена цибуля (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ ТА ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Асорті соління(250г)</p>
+                <p><strong>Опис:</strong> Капуста квашена, крижавка, огірки квашені, помідори кваш, печериці мариновані</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оселедець з маринованою цибулею та печеною картоплею(100/50/20г)</p>
+                <p><strong>Опис:</strong> Норвежський Оселедець який подається з маринованою цибулею та запеченою картоплею</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Баклажанові рулетики (200г)</p>
+                <p><strong>Опис:</strong> Підсмажені плястерки баклажанів, скручені в рулет із пікантною начинкою з міксу сирів із волоським горіхом</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сало солоне з часником та грінками (100/50г)</p>
+                <p><strong>Опис:</strong> Українське солоне Сало з часником та хрумкими грінками подається з цибулею</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький (220г)</p>
+                <p><strong>Опис:</strong> Помідори, огірки, перець Болгарський, цибуля, сир Фета, оливки, оливкова олія, орегано.</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар (220г)</p>
+                <p><strong>Опис:</strong> Куряче філе, салат, соус Цезар, помідор, крутони, бекон, сир Пармизан</p>
+                <p><strong>Ціна:</strong> 198.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Вітамінна Бомба(230г)</p>
+                <p><strong>Опис:</strong> Капуста, селера, морква, яблуко, олія.</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Асорті ковбасок (400/100/50г)</p>
+                <p><strong>Опис:</strong> Асорті свинних і курячих ковбасок які подаються з квашеною капустою, соусом та картоплею по-селянськи</p>
+                <p><strong>Ціна:</strong> 540.0</p>
+                <p><strong>Тип:</strong> АСОРТІ КОВБАСОК</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ковбаски курячі(200/50г)</p>
+                <p><strong>Опис:</strong> Ковбаски курячі які подаються з квашеною капустою, гірчичним соусом та картоплею по-селянськи</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> АСОРТІ КОВБАСОК</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ковбаски свинні (200/50г)</p>
+                <p><strong>Опис:</strong> Ковбаски свинні які подаються з квашеною капустою, соусом та картоплею по-селянськи</p>
+                <p><strong>Ціна:</strong> 280.0</p>
+                <p><strong>Тип:</strong> АСОРТІ КОВБАСОК</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макітра вареників зі сметаною (500/100г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з м'ясом, картоплею, картоплею та сиром, картоплею та грибами, та з капустою подаються з сметаною</p>
+                <p><strong>Ціна:</strong> 278.0</p>
+                <p><strong>Тип:</strong> СОЛОНІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з м'ясом та сметаною (200/30г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з мікс м'ясом  та сметаною</p>
+                <p><strong>Ціна:</strong> 139.0</p>
+                <p><strong>Тип:</strong> СОЛОНІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею та грибами та сметаною (200/30г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з картоплею та грибами та сметаною</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> СОЛОНІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з капустою  та сметаною (200/30г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з картоплею та капустою та сметаною</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> СОЛОНІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею та сиром та сметаною (200/30г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з картоплею та сиром та сметаною</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> СОЛОНІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею та сметаною (200/30г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з картоплею та сметаною</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> СОЛОНІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макітра солодких вареників зі сметанною (500/100г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з вишнею, з полуницею, з черницею та сметаною</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> СОЛОДКІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з полуницею та сметаною (200/30г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з полуницею та сметаною</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> СОЛОДКІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з вишнею та сметаною (200/30г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з вишнею та сметаною</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> СОЛОДКІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з чорницею та сметаною (200/30г)</p>
+                <p><strong>Опис:</strong> Домашні вареники з черницею та сметаною</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> СОЛОДКІ ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені з мікс фаршем зі сметаною (200/30г)</p>
+                <p><strong>Опис:</strong> Домашні Пельмені з мікс фаршем та сметаною</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПЕЛЬМЕНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені з куркою та сиром зі сметаною(200/30г)</p>
+                <p><strong>Опис:</strong> Домашні Пельмені з куркою та сиром із сметаною</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПЕЛЬМЕНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хінкалі з яловичиною, свининою та зеленю(4шт)</p>
+                <p><strong>Опис:</strong> Домашні хінкалі з яловичиною, свинниною та зеленю</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ХІНКАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хінкалі з яловичиною (4шт)</p>
+                <p><strong>Опис:</strong> Домашні хінкалі з яловичиною</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ХІНКАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хінкалі з бринзою та cиром Сулугуні (4шт)</p>
+                <p><strong>Опис:</strong> Домашні хінкалі з бринзою та сулугуні</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ХІНКАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі по-мегрельски(350г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі по-аджарськи(300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 189.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі з грибами (350 г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички зі сметаною або з джемом ( 150/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Штрудель яблучний ( 120г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирник по-львівськи ( 150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока - кола (250)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Прохолодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фанта (250)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Прохолодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрайт ( 250)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Прохолодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Холодний чай ф'юз ( 500)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Прохолодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бонаква газ ( 500)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Прохолодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бонаква не газована ( 500)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Прохолодні напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад " Натахарі " ( 500)</p>
+                <p><strong>Опис:</strong> Смак тархун</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> Лимонад</p>
+                <hr>
+                <p><strong>Позиція:</strong> Компот полуничний ( 1л.)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Компот домашній</p>
+                <hr>
+                <p><strong>Позиція:</strong> Компот вишневий ( 1л.)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Компот домашній</p>
+                <hr>
+                <p><strong>Позиція:</strong> Компот асорті ( 1л.)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Компот домашній</p>
+                <hr>
+                <p><strong>Позиція:</strong> Компот полунично-яблучний ( 1л.)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Компот домашній</p>
+                <hr>
+                <p><strong>Позиція:</strong> Компот обліпиховий ( 1л.)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Компот домашній</p>
+                <hr>
+                <p><strong>Позиція:</strong> Компот смородиновий ( 1л.)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Компот домашній</p>
+                <hr>
+                <p><strong>Позиція:</strong> Компот малиновий ( 1л.)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Компот домашній</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хлібний кошик</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> Хліб</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пампушка з часником</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> Хліб</p>
+                <hr></div>
 </body>
 </html>

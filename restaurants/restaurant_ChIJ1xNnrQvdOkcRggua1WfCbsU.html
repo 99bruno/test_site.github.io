@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,74 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/482.png" alt="Restaurant Image">
         <h1>Sushi Lviv / Суші Львів</h1>
-        <p><strong>Address:</strong> ТРЦ "Форум, вулиця Під Дубом, 7Б, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8498827, 'lng': 24.0223092}</p>
-        <p><strong>Website:</strong> <a href="https://sushiya.ua/" target="_blank">https://sushiya.ua/</a></p>
-        <p><strong>Phone:</strong> +380 67 473 2893</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 20:30:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 20:30:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 20:30:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 20:30:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 20:30:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 20:30:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 20:30:00</p>
-        <p><strong>Average price:</strong> 123.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> ТРЦ "Форум, вулиця Під Дубом, 7Б, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8498827, 'lng': 24.0223092}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://sushiya.ua/" target="_blank">https://sushiya.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 67 473 2893</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 123.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 20:30:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 20:30:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 20:30:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 20:30:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 20:30:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 20:30:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 20:30:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Креветки в клярі (185г)</p>
+                <p><strong>Опис:</strong> Подаються з соусом Тартар</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі крильця (350/100г)</p>
+                <p><strong>Опис:</strong> Хрусткі курячі крильця у медовому соусі з картоплею фрі</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грінки з часником (85г)</p>
+                <p><strong>Опис:</strong> Смажені грінки з часником.</p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер Amsterdam</p>
+                <p><strong>Опис:</strong> Бургер з подвійною котлетою, подвійною картоплею та з подвійним соусом</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізбургер XXX</p>
+                <p><strong>Опис:</strong> Бургер з котлетою та сиром, картоплею фрі та соусом</p>
+                <p><strong>Ціна:</strong> 139.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер Чилі</p>
+                <p><strong>Опис:</strong> Бургер з котлетою та сиром, картоплею фрі та соусом Чилі</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер DAM</p>
+                <p><strong>Опис:</strong> Бургер з куркою, ананасом, картоплею фрі та соусом</p>
+                <p><strong>Ціна:</strong> 119.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr></div>
 </body>
 </html>

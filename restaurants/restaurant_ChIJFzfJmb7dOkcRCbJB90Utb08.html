@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,273 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/95.png" alt="Restaurant Image">
         <h1>Сісти -З'їсти</h1>
-        <p><strong>Address:</strong> вулиця Січових Стрільців, 4/2, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8410793, 'lng': 24.0250351}</p>
-        <p><strong>Website:</strong> <a href="https://website-305128554929865814243-beautysalon.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://website-305128554929865814243-beautysalon.business.site/?utm_source=gmb&utm_medium=referral</a></p>
-        <p><strong>Phone:</strong> +380 98 414 0216</p>
-        <p><strong>Type:</strong> beauty_salon</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 65.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Січових Стрільців, 4/2, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8410793, 'lng': 24.0250351}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://website-305128554929865814243-beautysalon.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://website-305128554929865814243-beautysalon.business.site/?utm_source=gmb&utm_medium=referral</a></p>
+        <p><strong>Телефон:</strong> +380 98 414 0216</p>
+        <p><strong>Тип:</strong> beauty_salon</p>
+        <p><strong>Середня ціна:</strong> 65.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Піта Норвезька</p>
+                <p><strong>Опис:</strong> піта з слабосоленим лососем, авокадом, міксом салату в медово-гірчичному дрейсінгу, перепилиними яйцями пашот та авторським соусом Тартар (260г)</p>
+                <p><strong>Ціна:</strong> 234.0</p>
+                <p><strong>Тип:</strong> ПІТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піта Чізбургер</p>
+                <p><strong>Опис:</strong> піта з яловичою котлетою, салатом айсберг, синьою маринованою цибулею, слайсами квашеного огірка, томатами, сиром Чеддер та Сирним соусом (300 г)</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> ПІТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піта Класична XL</p>
+                <p><strong>Опис:</strong> піта з грильованою куркою, пекінською капустою, міксом овочів, картоплею фрі та авторським соусом (400г)</p>
+                <p><strong>Ціна:</strong> 189.0</p>
+                <p><strong>Тип:</strong> ПІТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піта на грилі XL</p>
+                <p><strong>Опис:</strong> піта з грильованою куркою, слайсами сиру Чеддер та квашеного огірка, пекінською капустою, томатами, авторським соусом (400г)</p>
+                <p><strong>Ціна:</strong> 184.0</p>
+                <p><strong>Тип:</strong> ПІТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піта Грецька</p>
+                <p><strong>Опис:</strong> грильована свинина обгорнута м'якою пітою в поєднанні запеченого перцю, томатів, синьої маринованої цибулі та каперсів, з соусом Дзадзикі, і його знаменитим поєднанням грецького йогурту, огірка, часника та спецій
+(270 г)</p>
+                <p><strong>Ціна:</strong> 184.0</p>
+                <p><strong>Тип:</strong> ПІТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піта Мексиканська</p>
+                <p><strong>Опис:</strong> піта з грильованою куркою, червоною квасолею в соусі чилі, кукурудзою, міксом овочів, перцем халапеньйо та авторським соусом Гострим, подається з кукурудзяними начосами (300г)</p>
+                <p><strong>Ціна:</strong> 174.0</p>
+                <p><strong>Тип:</strong> ПІТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піта Кентукі</p>
+                <p><strong>Опис:</strong> піта з курячими нагетсами в хрусткій паніровці, слайсами квашеного огірка, міксом овочів, синьою маринованою цибулею та соусом BBQ (250г)</p>
+                <p><strong>Ціна:</strong> 174.0</p>
+                <p><strong>Тип:</strong> ПІТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піта Класична</p>
+                <p><strong>Опис:</strong> піта з грильованою куркою, пекінською капустою, міксом овочів, картоплею фрі та авторським соусом (250г)</p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> ПІТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піта на грилі</p>
+                <p><strong>Опис:</strong> піта з грильованою куркою, слайсами сиру Чеддер та квашеного огірка, пекінською капустою, томатами, авторським соусом (250г)</p>
+                <p><strong>Ціна:</strong> 154.0</p>
+                <p><strong>Тип:</strong> ПІТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечений сир камамбер з пряними травами</p>
+                <p><strong>Опис:</strong> запечений сир камамбер з прованськими травами, чебрецем та часником, подається з міні пітами</p>
+                <p><strong>Ціна:</strong> 276.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гауда фрі в хрусткій паніровці з соусом</p>
+                <p><strong>Опис:</strong> сир Гауда в хрусткій паніровці, подається з соусом (180 г)</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі крильця у соусі BBQ</p>
+                <p><strong>Опис:</strong> курячі крильця приготовлені в пікантному соусі BBQ  (300 г)</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Батат фрі з соусом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі нагетси з соусом</p>
+                <p><strong>Опис:</strong> нагетси з ніжного курячого філе в хрусткій паніровці з соусом</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кукурудза на грилі з пармезаном</p>
+                <p><strong>Опис:</strong> Кукурудза запечена на грилі до золотистої скоринки, з вершковим маслом та пармезаном</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляні крокети з соусом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по-селянськи з соусом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі з соусом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет з мезе</p>
+                <p><strong>Опис:</strong> ніжний крем-сир з в'яленими томатами та оливками, пікантний гуакамоле, грецький Дзадзикі, хумус та міні піти</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> МЕЗЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гуакамоле з начосами</p>
+                <p><strong>Опис:</strong> мексиканська страва з м'якоті авокадо, подається з перцем чилі, синьою цибулею, томатами та начосами</p>
+                <p><strong>Ціна:</strong> 184.0</p>
+                <p><strong>Тип:</strong> МЕЗЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Начоси з сирним соусом</p>
+                <p><strong>Опис:</strong> кукурудзяні начоси з сирним соусом на основі сиру Чеддер</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> МЕЗЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибний крем-суп з білими грибами</p>
+                <p><strong>Опис:</strong> Грибний суп з печерицями та білими грибами зварений на вершках.
+Подається з слайсами підсмажених печериць та грінками з піти</p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ традиційний український</p>
+                <p><strong>Опис:</strong> Подаємо з сметаною, міні пітами, намазкою сала з часником, зеленою цибулькою та корнішонами</p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бульйон курячий з перепелиними яйцями</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з слабосоленим лососем та авокадо</p>
+                <p><strong>Опис:</strong> мікс салату в медово-гірчичному дрейсінгу з слабосоленим лососем, авокадо, перепилиними яйцями та авторським соусом Тартар (300 г)</p>
+                <p><strong>Ціна:</strong> 274.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар з грильованою куркою</p>
+                <p><strong>Опис:</strong> мікс салату в соусі Цезар на основі каперсів та анчоусів з слайсами грильованої курки та бекону, томатами чері, перепелиними яйцями, крутонами з копченою паприкою.
+Подається з слайсами пармезану та паростками цибулі (260г)</p>
+                <p><strong>Ціна:</strong> 234.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ніжна вирізка в беконі з соусом дор блю</p>
+                <p><strong>Опис:</strong> запечена свинна вирізка в беконі з картопляним пюре, соусом дор блю та міксом салату (300 г)</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> НОУНЕЙМИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Жульєн запечений в горщику</p>
+                <p><strong>Опис:</strong> жульєн з печерицями, грильованою куркою запечений у вершковому соусі з сиром гауда та пармезаном, подається з грильованими грінками з піти (300 г)</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> НОУНЕЙМИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечені оладки з кабачка та цукіні з слабосоленим лососем</p>
+                <p><strong>Опис:</strong> запечені оладки з кабачка та цукіні з лососем власного соління, крем-сиром та соусом Дзадзикі</p>
+                <p><strong>Ціна:</strong> 224.0</p>
+                <p><strong>Тип:</strong> НОУНЕЙМИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий стейк з картоплею по-селянськи та мікс салатом</p>
+                <p><strong>Опис:</strong> грильований курячий стейк з картоплею по-селянськи, міксом салату та томатами чері, подається з соусом (300г)</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> НОУНЕЙМИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий стейк з картоплею по-селянськи та жульєном</p>
+                <p><strong>Опис:</strong> грильований курячий стейк з картоплею 
+по-селянськи, подається з жульєном  (300г)</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> НОУНЕЙМИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Равіолі з м'ясом та соусом blue cheese</p>
+                <p><strong>Опис:</strong> равіолі ручної роботи, начинка з яловичини, у соусі дор блю + пармезан (230 г)</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> НОУНЕЙМИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мітболи з картопляним пюре</p>
+                <p><strong>Опис:</strong> Мітболи з міксу яловичини та свинини, приправлені розмарином та копченою паприкою. Готуються в заправці з червоної квасолі із соусом чилі та аджикою. Подаються з ніжно-кремовим пюре та грильованими помідорами чері (400г)</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> НОУНЕЙМИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус BBQ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Тартар</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Гострий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Сирний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Пармезановий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Часниковий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус ягідний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Blue Cheese</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola</p>
+                <p><strong>Опис:</strong> 250 ml</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola Zero</p>
+                <p><strong>Опис:</strong> 250 ml</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta</p>
+                <p><strong>Опис:</strong> 250 ml</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite</p>
+                <p><strong>Опис:</strong> 250 ml</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Bonaqua газована</p>
+                <p><strong>Опис:</strong> 500 ml</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

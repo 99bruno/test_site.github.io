@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,443 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/97.png" alt="Restaurant Image">
         <h1>Маргарита на Стрийській</h1>
-        <p><strong>Address:</strong> вулиця Стрийська, 45а, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8032674, 'lng': 24.01915769999999}</p>
-        <p><strong>Website:</strong> <a href="http://margaryta.com.ua/" target="_blank">http://margaryta.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 97 201 0055</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 190.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Стрийська, 45а, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8032674, 'lng': 24.01915769999999}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://margaryta.com.ua/" target="_blank">http://margaryta.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 97 201 0055</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 190.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Гаряча сковорідка з куркою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 201.75</p>
+                <p><strong>Тип:</strong> Промоакції</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гаряча сковорідка з телятиною</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> Промоакції</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шніцель курячий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> Промоакції</p>
+                <hr>
+                <p><strong>Позиція:</strong> Seafood Royale</p>
+                <p><strong>Опис:</strong> Піца на вершковій основі з сирами Моцарела, Дор Блю, Пармезан, тигровими креветками та ароматною часниковою олією
+
+Вихід 420г</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> PIZZA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Mortadella Verde</p>
+                <p><strong>Опис:</strong> Піца на вершковій основі з сиром Моцарела, сиром Страчатела, ніжною мортаделою, фісташковим соусом Песто та фісташковим кранчем
+
+Вихід 420г</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> PIZZA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Spicy Chorizo</p>
+                <p><strong>Опис:</strong> Піца на томатній основі з сирами Моцарела, Дор Блю, Камамбер, пікантним салямі Чорізо, пластівцями з перцю Чілі, розмарином та шпинатним соусом
+
+Вихід 370г</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> PIZZA</p>
+                <hr>
+                <p><strong>Позиція:</strong> more than Quattro Formaggi</p>
+                <p><strong>Опис:</strong> Піца на вершковій основі з п'ятьма сирами: Моцарела, Дор Блю, Чедер, Пармезан та Фета. Подається з медом та мигдалевими пластівцями
+
+Вихід 390г</p>
+                <p><strong>Ціна:</strong> 232.5</p>
+                <p><strong>Тип:</strong> PIZZA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Cesare Special</p>
+                <p><strong>Опис:</strong> Піца на основі з соусу Цезар з сиром Моцарела, курячим філе, панчетою, томатами чері, свіжим листям салату та сиром Пармезан
+
+Вихід 500г</p>
+                <p><strong>Ціна:</strong> 217.5</p>
+                <p><strong>Тип:</strong> PIZZA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Red-Hot Diavola</p>
+                <p><strong>Опис:</strong> Гостра піца на томатній основі з сиром Моцарела, салямі Чорізо, свіжим червоним та зеленим перцем Чілі, пластівцями з перцю Чілі та сиром Пармезан
+
+Вихід 420г</p>
+                <p><strong>Ціна:</strong> 217.5</p>
+                <p><strong>Тип:</strong> PIZZA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Tonno del Mare</p>
+                <p><strong>Опис:</strong> Піца на вершковій основі з сиром Моцарела, консервованим тунцем, анчоусами, свіжим базиліком, маслинами та червоною цилубею
+
+Вихід 530г</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> PIZZA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Bolognese Majesty</p>
+                <p><strong>Опис:</strong> Піца на томатній основі з сиром Моцарела, фаршем з яловичини, червоною цибулею та свіжим базиліком
+
+Вихід 450г</p>
+                <p><strong>Ціна:</strong> 202.5</p>
+                <p><strong>Тип:</strong> PIZZA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Senorita Margherita</p>
+                <p><strong>Опис:</strong> Класична піца на томатній основі із сиром Моцарела, томатами чері, свіжим базиліком та ароматним сиром Пармезан
+
+Вихід 350г</p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> PIZZA</p>
+                <hr>
+                <p><strong>Позиція:</strong> Клубний Сніданок</p>
+                <p><strong>Опис:</strong> Яйця курячі, шпондер карамелізований, молочні сосиски, масло, грінки, бейбі морква, бейбі кукурудза</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яйця бенедикт з креветкою та Хешбрауне з батата</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники з соленою карамелью</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.25</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кускус з грибами та авокадо</p>
+                <p><strong>Опис:</strong> Кускус, печериці, мікс салату, авокадо, томати Чері, огірок, оливкова олія, сир Дроп</p>
+                <p><strong>Ціна:</strong> 140.25</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з морепродуктами</p>
+                <p><strong>Опис:</strong> Мікс салату, креветка тигрова, креветки коктейльні, кальмари, м'ясо мідій, авокадо, кунжут, груша, Медово-гірчичний соус</p>
+                <p><strong>Ціна:</strong> 292.5</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат теплий з телятиною</p>
+                <p><strong>Опис:</strong> Мікс салату, філе телятини, помідор, печериці, баклажан, горіх Кедровий, Гірчичний соус</p>
+                <p><strong>Ціна:</strong> 277.5</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з лососем</p>
+                <p><strong>Опис:</strong> Мікс салату, лосось запечений, огірок, томати Чері, сир Пармезан, соус Цезар, крутони</p>
+                <p><strong>Ціна:</strong> 276.75</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з лососем та грибами</p>
+                <p><strong>Опис:</strong> Салат Рукола, лосось запечений, печериці, сочевиця, пряна оливкова олія</p>
+                <p><strong>Ціна:</strong> 258.75</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Рокфор</p>
+                <p><strong>Опис:</strong> Мікс салату, сир Рокфор, шпондер, сир Фета, томати Чері, сир Пармезан, перець Болгарський, виноград, Медово-бальзамічна заправка</p>
+                <p><strong>Ціна:</strong> 224.25</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою</p>
+                <p><strong>Опис:</strong> Мікс салату, куряче філе, сир Пармезан, томати Чері, огірок, шпондер, крутони, соус Цезар</p>
+                <p><strong>Ціна:</strong> 221.25</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грецький салат</p>
+                <p><strong>Опис:</strong> Мікс салату, огірок, помідор, перець Болгарський, цибуля Синя, маслини, оливки, сир Фета</p>
+                <p><strong>Ціна:</strong> 171.75</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Олів'є з шинкою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 131.25</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер сирний в панко</p>
+                <p><strong>Опис:</strong> Булочка бріош в панко, котлета яловича, сир моцарела, сир чедер, сир ементаль, яйце куряче
+
+Вихід 440г</p>
+                <p><strong>Ціна:</strong> 336.75</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ТА БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер біф з білими грибами</p>
+                <p><strong>Опис:</strong> Булочка бріош, котлета яловича, гриби білі, сир чедер, соус BBQ з пивом, огірок маринований, цибуля , салат ромен
+
+Вихід 350г</p>
+                <p><strong>Ціна:</strong> 291.75</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ТА БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер дабл чіззззз</p>
+                <p><strong>Опис:</strong> Булочка бріош, котлета яловича, багато сиру чедер, соус сирний, соус BBQ з віскі , помідор, цибуля карамелізова, салат ромен
+
+Вихід 400г</p>
+                <p><strong>Ціна:</strong> 276.75</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ТА БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер біф</p>
+                <p><strong>Опис:</strong> Булочка бріош, котлета яловича, огірок маринований, соус сирний, сир чедер, соус місісіпі, кранч з цибулі, салат ромен
+
+Вихід 350г</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ТА БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендіч делюкс з яловичиною</p>
+                <p><strong>Опис:</strong> Хліб сендвічний, яловича вирізка, помідор, кетчуп,
+майонез, листя салату, картопля фрі
+
+Вихід 300г</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ТА БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бургер чікен</p>
+                <p><strong>Опис:</strong> Булочка бріош, куряче стегно в панко, яйце куряче, огірок маринований, сир чедер, соус сирний, соус манго-сапайсі, салат ромен
+
+Вихід 350г</p>
+                <p><strong>Ціна:</strong> 247.5</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ТА БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч делюкс з куркою</p>
+                <p><strong>Опис:</strong> Хліб сендвічний, куряче філе, помідор, кетчуп,
+майонез, листя салату, картопля фрі
+
+Вихід 370г</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ТА БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Солянка</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.25</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крем-суп шпинатний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.25</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крем-суп грибний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 141.75</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп мексиканський</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 141.75</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Томатний суп</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 141.75</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ</p>
+                <p><strong>Опис:</strong> Подається з сметаною, гріками, салом, часником та зеленою цибулькою</p>
+                <p><strong>Ціна:</strong> 138.75</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мінестроне</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 123.75</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бульйон</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 108.75</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп гороховий з беконом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 93.75</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бефстроганоф з пюре</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 261.75</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спагетті з лососем</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 247.5</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лазанья</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гаряча сковорідка зі свининою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 201.75</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з лососем та шпинатом</p>
+                <p><strong>Опис:</strong> Млинці, лосось, шпинат, вершки, сир Моцарела</p>
+                <p><strong>Ціна:</strong> 201.75</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста карбонара</p>
+                <p><strong>Опис:</strong> Паста Фетучіне, вершки, шпондер, сир Пармезан, цибуля</p>
+                <p><strong>Ціна:</strong> 201.75</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з грибами</p>
+                <p><strong>Опис:</strong> Лазанья, печериці, цибуля Порей, Тархун, часник, вершки</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни з грибним соусом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 149.25</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з куркою</p>
+                <p><strong>Опис:</strong> Млинці, куряче філе, сир Моцарела, вершки, цибуля, Вершково-грибний соус</p>
+                <p><strong>Ціна:</strong> 146.25</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни з сметаною</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 138.75</p>
+                <p><strong>Тип:</strong> ДГУРІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каре телятини з овочами гриль</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 299.25</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Куряче м'ясо Де Воляй</p>
+                <p><strong>Опис:</strong> Куряче філе, сир Моцарела, шпинат, цибуля, печериці, вершки</p>
+                <p><strong>Ціна:</strong> 292.5</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Биточки зі свинини з картопляним пюре</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 216.75</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета по-Київськи</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 213.75</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курче філе з печерицями та цибулею Порей</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стейк з курки з овочами гриль</p>
+                <p><strong>Опис:</strong> Куряче філе, томати Чері, перець Болгарський, цукіні, мікс салату, Кисло-солодкий соус</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе лосося з стейком з броколі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 367.5</p>
+                <p><strong>Тип:</strong> СТРАВИ З РИБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе форелі на шпинатній подушці</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 352.5</p>
+                <p><strong>Тип:</strong> СТРАВИ З РИБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе скумбрії з картопляним пюре</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 186.75</p>
+                <p><strong>Тип:</strong> СТРАВИ З РИБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе хека з картопляним пюре</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 131.25</p>
+                <p><strong>Тип:</strong> СТРАВИ З РИБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі Гриль</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 93.75</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стручкова квасоля</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 71.25</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля смажена по-домашньому</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 56.25</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляні дольки</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 56.25</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Наполеон</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 123.75</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з нутелою та бананом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 123.75</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з сиром та родзинками</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 123.75</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з карамелізованими яблуками</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 101.25</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Апельсиновий фреш</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 104.25</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грейпфрутовий фреш</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 104.25</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Грейпфрутовий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 56.25</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Цитрусовий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 56.25</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад Цитрусовий з манго</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 56.25</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

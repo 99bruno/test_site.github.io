@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,414 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/413.png" alt="Restaurant Image">
         <h1>Vesela Varenychka / Весела Вареничка</h1>
-        <p><strong>Address:</strong> вулиця Єфремова, 19, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8328094, 'lng': 24.0087473}</p>
-        <p><strong>Website:</strong> <a href="http://veselavarenychka.com.ua/" target="_blank">http://veselavarenychka.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 68 377 5766</p>
-        <p><strong>Type:</strong> grocery_or_supermarket</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 19:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 19:00:00</p>
-        <p><strong>Average price:</strong> 40.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Єфремова, 19, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8328094, 'lng': 24.0087473}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://veselavarenychka.com.ua/" target="_blank">http://veselavarenychka.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 68 377 5766</p>
+        <p><strong>Тип:</strong> grocery_or_supermarket</p>
+        <p><strong>Середня ціна:</strong> 40.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 19:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 19:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Ковбаски смажені на грилі з бобами в соусі</p>
+                <p><strong>Опис:</strong> яйце, помідором, огірком, подається з круасаном</p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> СНІДАЙ ПРОТЯГОМ ДНЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яйця пашот з лососем та шпинатом на хлібі</p>
+                <p><strong>Опис:</strong> Хумус морквяний, буряк з гірчичним соусом</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> СНІДАЙ ПРОТЯГОМ ДНЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яєчня з беконом та круасаном</p>
+                <p><strong>Опис:</strong> подається з цвітною капустою маринованою</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> СНІДАЙ ПРОТЯГОМ ДНЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скрембл з куркою та грибами на хлібі</p>
+                <p><strong>Опис:</strong> Хумус з бурячком, булгур</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> СНІДАЙ ПРОТЯГОМ ДНЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з лососем та овочами</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СНІДАЙ ПРОТЯГОМ ДНЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з куркою і овочами</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> СНІДАЙ ПРОТЯГОМ ДНЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники зі сметаною та вишнями</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> СНІДАЙ ПРОТЯГОМ ДНЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Круасан з маслом та джемом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> СНІДАЙ ПРОТЯГОМ ДНЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч "Вітело тонато"</p>
+                <p><strong>Опис:</strong> багет гречаний, телятина печена, листя салату, огірок квашений, соус з тунця</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> Сендвічі гарячі на багеті</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч сирний з беконом</p>
+                <p><strong>Опис:</strong> багет гречаний, бекон, сир твердий, огірок, помідор, листя салату, соус Хайдарі.</p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> Сендвічі гарячі на багеті</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з куркою</p>
+                <p><strong>Опис:</strong> Подаємо з печеною картоплею</p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> ГАРАЧІ СЕНДВІЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з фалафелем</p>
+                <p><strong>Опис:</strong> хліб, домашній хумус , помідор, редиска, листя салату та гірчичний соус. Подається з печеною картоплею</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> ГАРАЧІ СЕНДВІЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч «Моне» (французький)</p>
+                <p><strong>Опис:</strong> хліб тостовий, тунець, помідор, яйце, листя салату та медово-гірчичний соус.</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ХОЛОДНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч «Воргол»(американський)</p>
+                <p><strong>Опис:</strong> хліб тостовий , шинка, помідор, сир твердий, листя салату та гірчичний соус</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ХОЛОДНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч «Приймаченко» (український)</p>
+                <p><strong>Опис:</strong> хліб тостовий, сало, огірок квашений, листя салату та соус хрін.</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ ХОЛОДНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирні палички</p>
+                <p><strong>Опис:</strong> з томатним соусом</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі нагетси</p>
+                <p><strong>Опис:</strong> з гірчичним соусом</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля Крісперс</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля печена з морквяним хумусом</p>
+                <p><strong>Опис:</strong> Картопля печена</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хрусткі палички з беконом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиріг з лососем та шпинатом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> ПИРОГИ (солоні)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиріг з куркою та грибами</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ПИРОГИ (солоні)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиріг з беконом та моцарелою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ПИРОГИ (солоні)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиріг з  овочами та сиром Фета</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ПИРОГИ (солоні)</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боул з Лососем</p>
+                <p><strong>Опис:</strong> лосось слабосолений, огірок, цвітна капуста маринована, булгур, соус з тунця та картопля печена.</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> БОУЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боул з куркою</p>
+                <p><strong>Опис:</strong> Запечена курка, булгур, листя салату, яйце, помідор, огірок, гріночки, гірчичний соус</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> БОУЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боул фалафель з овочами</p>
+                <p><strong>Опис:</strong> фалафель, молода капуста, огірок свіжий, редиска, хумус морквяний, гірчичний соус та печена картопля</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> БОУЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирник</p>
+                <p><strong>Опис:</strong> корж із сиром і приправами</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиріг з абрикосами</p>
+                <p><strong>Опис:</strong> Пиріг</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пиріг з яблучком</p>
+                <p><strong>Опис:</strong> Яблучний пиріг</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Андрути</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тістечко "Ведмедик"</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Два кукіс з шоколадом</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спартак</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ромове тістечко</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Веганський тарт з апельсином</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сінабон</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарон</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Два печенька вівсяних</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мафін</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Раф</p>
+                <p><strong>Опис:</strong> Напій готують з еспресо, вершків і ванільного сиропу.Це все разом збивається в пітчері.</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кафе-лате Xl</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Флет-вайт</p>
+                <p><strong>Опис:</strong> Основою напою служить допіо (подвійна порція еспресо) з додаванням вспіненого молока</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кафе-лате</p>
+                <p><strong>Опис:</strong> Кавовий напій родом з Італії, що складається з молока  і кави еспресо.</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучино</p>
+                <p><strong>Опис:</strong> Напій італійського походження на основі еспресо з додаванням збитого парою молока, з гармонійним балансом насиченого солодкого смаку молока та еспресо</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава американо з молоко</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Допіо</p>
+                <p><strong>Опис:</strong> Подвійне еспресо</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макіато</p>
+                <p><strong>Опис:</strong> Еспресо з додаванням збитого молока</p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава американо</p>
+                <p><strong>Опис:</strong> Еспресо з додаванням окропу</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо</p>
+                <p><strong>Опис:</strong> Насичений кавовий напій, який виготовляють шляхом пропускання під тиском киплячої води через дрібно змелені кавові зерна.</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рістрето</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Раф speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 112.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кафе-лате Xl speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Флет-вайт speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 97.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кафе-лате speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 92.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучіно speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 87.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо з молоком speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 84.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Допіо speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макіято speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 74.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рістрето speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо speciality</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> SPECIALITY</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кемекс</p>
+                <p><strong>Опис:</strong> Альтернативний пристрій для заварювання кави, являє собою скляну ємність, що за формою нагадує пісочний годинник.Цей напій досить делікатний і насичений киснем.</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ALTERNATIVE</p>
+                <hr>
+                <p><strong>Позиція:</strong> V-60</p>
+                <p><strong>Опис:</strong> Метод заварювання кави, сутність якого полягає в тому, що гаряча вода проходить крізь мелену каву, яка знаходиться у воронці з паперовим фільтром.</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ALTERNATIVE</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліта</p>
+                <p><strong>Опис:</strong> У каліти пласке дно з 3 отворами для більш рівномірної екстракції.</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ALTERNATIVE</p>
+                <hr>
+                <p><strong>Позиція:</strong> Аеропрес</p>
+                <p><strong>Опис:</strong> У кави, завареної в аеропресі, чистий смак з маслянистою структурою — завдяки паперовому фільтру та швидкій екстракції. Кава виходить насиченою та щільною.</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ALTERNATIVE</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фільтр кава</p>
+                <p><strong>Опис:</strong> Метод приготовлення це протікання гарячої води крізь фільтр, заповнений кавою середньогрубого помелу в декантер.</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ALTERNATIVE</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi Zero</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 64.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао</p>
+                <p><strong>Опис:</strong> 100% натуральне какао</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> КАКАО</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай імбир, м’ята, лимон</p>
+                <p><strong>Опис:</strong> подається з квітковим медом</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> Чай</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чорний чай</p>
+                <p><strong>Опис:</strong> Класичний купаж відмінних чорних чаїв з плантацій Індії, Цейлону і Кенії.</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Чай</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зелений чай</p>
+                <p><strong>Опис:</strong> Класичний китайський зелений чай</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Чай</p>
+                <hr>
+                <p><strong>Позиція:</strong> Трав'яний чай</p>
+                <p><strong>Опис:</strong> Натуральна трав'яна суміш з шипшини, цедри та квітів апельсина, лемонграса, ромашки, м'яти, пелюсток волошки та сафлору.</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Чай</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фруктовий чай</p>
+                <p><strong>Опис:</strong> Склад вражає різноманітністю: каркаде, чорноплідна горобина, яблуко, шипшина, малина, ананас.</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Чай</p>
+                <hr></div>
 </body>
 </html>

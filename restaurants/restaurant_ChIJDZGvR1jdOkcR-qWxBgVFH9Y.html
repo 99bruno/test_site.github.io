@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,254 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/128.png" alt="Restaurant Image">
         <h1>Uni Force</h1>
-        <p><strong>Address:</strong> вулиця Мельника, 18, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8298498, 'lng': 24.0039774}</p>
-        <p><strong>Website:</strong> <a href="https://uniforce.ua/" target="_blank">https://uniforce.ua/</a></p>
-        <p><strong>Phone:</strong> +380 322 882 828</p>
-        <p><strong>Type:</strong> point_of_interest</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 07:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 07:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 07:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 07:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 07:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 08:00:00 - 20:00:00</p>
-        <p><strong>Sunday:</strong> 08:00:00 - 18:00:00</p>
-        <p><strong>Average price:</strong> 171.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Мельника, 18, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8298498, 'lng': 24.0039774}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://uniforce.ua/" target="_blank">https://uniforce.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 322 882 828</p>
+        <p><strong>Тип:</strong> point_of_interest</p>
+        <p><strong>Середня ціна:</strong> 171.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 07:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 07:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 07:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 07:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 07:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 08:00:00 - 20:00:00</p>
+        <p><strong>Неділя:</strong> 08:00:00 - 18:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Чебурек з свининою та сиром чедер (210 грам)</p>
+                <p><strong>Опис:</strong> Печена свинина з соусом BBQ, сир чедер</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек 4 сири (210 грам)</p>
+                <p><strong>Опис:</strong> Твердий сир, моцарела, чедер, лазур</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з моцарелою та грибами(210г)</p>
+                <p><strong>Опис:</strong> Сир Моцарела, гриби Печериці, цибуля</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з ковбасками і моцарелою (210 грам)</p>
+                <p><strong>Опис:</strong> Мисливські ковбаски, моцарела, гострий перець</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з м'ясом та сиром(210г)</p>
+                <p><strong>Опис:</strong> Свинина, яловичина, твердий сир, цибуля, кріп</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з сиром та зеленню(210г)</p>
+                <p><strong>Опис:</strong> Твердий сир та кріп</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з куркою та сиром(210г)</p>
+                <p><strong>Опис:</strong> Курка, твердий сир, кріп</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з грушею та сиром лазур(210 грам)</p>
+                <p><strong>Опис:</strong> Груша, сир лазур, мед</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з м'ясом (210г)</p>
+                <p><strong>Опис:</strong> Свинина, яловичина, цибуля, кріп</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з куркою, шпинатом та сиром Горгонзола(210г)</p>
+                <p><strong>Опис:</strong> Курка, шпинат, сир Горгонзола, вершки, цибуля</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чебурек з яблуками та горіхами(210г)</p>
+                <p><strong>Опис:</strong> Яблука, волоські горіхи, мед, кориця</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ЧЕБУРЕКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з свининою та сиром чедер(210г)</p>
+                <p><strong>Опис:</strong> Печена свинина з соусом BBQ, сир чедер</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик 4 сири(210г)</p>
+                <p><strong>Опис:</strong> Твердий сир, моцарела, чедер, лазур</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з моцарелою та грибами(210г)</p>
+                <p><strong>Опис:</strong> Сир Моцарела, гриби Печериці, цибуля</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з ковбасками та моцарелою (210 грам)</p>
+                <p><strong>Опис:</strong> Мисливські ковбаски, сир моцарела, гострий перець</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з м'ясом та сиром(210г)</p>
+                <p><strong>Опис:</strong> Свинина, яловичина, твердий сир, цибуля, кріп</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з сиром та зеленню(210г)</p>
+                <p><strong>Опис:</strong> Твердий сир та кріп</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з куркою та сиром(210г)</p>
+                <p><strong>Опис:</strong> Курка, твердий сир, кріп</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з грушею та сиром лазур(210г)</p>
+                <p><strong>Опис:</strong> Груша, сир лазур, мед</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з м'ясом(210г)</p>
+                <p><strong>Опис:</strong> Свинина, яловичина, цибуля, кріп</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з куркою та шпинатом та сиром (210г)</p>
+                <p><strong>Опис:</strong> Курка, шпинат, сир горгонзола, вершки, цибуля</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Янтик з яблуками та горіхами(210г)</p>
+                <p><strong>Опис:</strong> Яблука, волоські горіхи, мед, кориця</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ЯНТИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибний крем-суп(300г)</p>
+                <p><strong>Опис:</strong> Гриби, вершки, цибуля, грінки</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гарбузовий крем суп (300 грам)</p>
+                <p><strong>Опис:</strong> Гарбуз, цибуля, картопля, морква, вершки, гарбузове насіння</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий бульйон(300г)</p>
+                <p><strong>Опис:</strong> Бульйон, яєчна локшина, куряче філе</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою(200гр)</p>
+                <p><strong>Опис:</strong> Мікс салату, куряче філе, бекон, помідори чері, яйце, грінки, соус цезар, памезан</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з сиром та грушею (200гр)</p>
+                <p><strong>Опис:</strong> Мікс салату, груша, помідори чері, сир лазур, грецькі горіхи, соус вінегрет</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з буряком та фетою (200гр)</p>
+                <p><strong>Опис:</strong> Мікс салату, буряк, сир фета, чорнослив, журавлина, кунжут, кунжутний соус</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси(6шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цибулеві кільця(8шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі(150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Часниковий(30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Кетчуп(30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Світ Чілі(30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Холодний чай (500мл)</p>
+                <p><strong>Опис:</strong> Зелений або чорний</p>
+                <p><strong>Ціна:</strong> 46.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-Кола(500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-Кола зеро(500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фанта(500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрайт(500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрайт 0.33</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 38.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фанта 0.33</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 38.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода негазована Бонаква(500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 36.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода газована Бонаква(500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 36.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

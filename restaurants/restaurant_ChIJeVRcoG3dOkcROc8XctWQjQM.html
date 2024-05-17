@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,219 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/246.png" alt="Restaurant Image">
         <h1>36Po/36По</h1>
-        <p><strong>Address:</strong> площа Ринок, 36, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.842444, 'lng': 24.0308834}</p>
-        <p><strong>Website:</strong> <a href="https://36po.com.ua/" target="_blank">https://36po.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 98 336 3636</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 08:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 08:00:00 - 00:00:00</p>
-        <p><strong>Saturday:</strong> 08:00:00 - 00:00:00</p>
-        <p><strong>Sunday:</strong> 08:00:00 - 00:00:00</p>
-        <p><strong>Average price:</strong> 220.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> площа Ринок, 36, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.842444, 'lng': 24.0308834}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://36po.com.ua/" target="_blank">https://36po.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 98 336 3636</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 220.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 08:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 08:00:00 - 00:00:00</p>
+        <p><strong>Субота:</strong> 08:00:00 - 00:00:00</p>
+        <p><strong>Неділя:</strong> 08:00:00 - 00:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Комплекс Топ</p>
+                <p><strong>Опис:</strong> Борщ Український на ребрах (300г)
+Пюре картопляне (250г)
+Відбивна куряча (100г)
+Салат "Свіжість" (150г)</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комплекс Нектарин</p>
+                <p><strong>Опис:</strong> Борщ Український на ребрах (300г)
+Гречка (250г)
+Відбивна куряча (100г)
+Салат "Морква по-корейськи" (150г)</p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бізнес Топ</p>
+                <p><strong>Опис:</strong> Пюре картопляне (250г)
+Відбивна куряча (100г)
+Салат "Свіжість" (150г)</p>
+                <p><strong>Ціна:</strong> 147.0</p>
+                <p><strong>Тип:</strong> БІЗНЕС-ЛАНЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бізнес Нектарин</p>
+                <p><strong>Опис:</strong> Гречка (250г)
+Відбивна куряча (100г)
+Салат "Морква по-корейськи" (150г)</p>
+                <p><strong>Ціна:</strong> 137.0</p>
+                <p><strong>Тип:</strong> БІЗНЕС-ЛАНЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп-гуляш угорський (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ Український на ребрах (300г)</p>
+                <p><strong>Опис:</strong> Подається з сметаною</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп-пюре Сирний з крутонами (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 56.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені домашні (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 131.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Плов узбекський (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 116.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею та сметаною (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ДРУГІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з солодким сиром (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 63.0</p>
+                <p><strong>Тип:</strong> КІШ, МЛИНЦІ ТА ЗРАЗИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля по-селянськи (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пюре картопляне (250г)</p>
+                <p><strong>Опис:</strong> Відварена картопля</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рис з овочами (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гречка (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бедро куряче (125г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 81.0</p>
+                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Відбивна куряча літня (120г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 81.0</p>
+                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Відбивна куряча по-французьки (120г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 81.0</p>
+                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Відбивна куряча (100г)</p>
+                <p><strong>Опис:</strong> Смажене куряче філе в клярі</p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Відбивна зі свинини (120г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 91.0</p>
+                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Котлета рибна (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 91.0</p>
+                <p><strong>Тип:</strong> РИБА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат "Овочевий" (150г)</p>
+                <p><strong>Опис:</strong> Помідор, огірок, цибуля, олія</p>
+                <p><strong>Ціна:</strong> 74.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат "Свіжість" (150г)</p>
+                <p><strong>Опис:</strong> Капуста свіжа, огірки свіжі, кукурудза консервована, кріп, олія</p>
+                <p><strong>Ціна:</strong> 53.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат "Дністер" (150г)</p>
+                <p><strong>Опис:</strong> Капуста свіжа, ковбаса варена, горошок консервований, майонез</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат "Літо" (150г)</p>
+                <p><strong>Опис:</strong> Капуста, огірки, помідори, олійна заправка</p>
+                <p><strong>Ціна:</strong> 47.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат "Капуста з морквою в олії" (150г)</p>
+                <p><strong>Опис:</strong> Капуста, морква ,олія, оцет</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат "Буряки" (150г)</p>
+                <p><strong>Опис:</strong> Буряк, цибуля, олія, оцет</p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники зі сметаною (100/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-cola (0.5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 46.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> fanta (0.5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 46.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> sprite (0.5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 46.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік дитячий (0.25л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 42.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сметана (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хліб (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 17.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,396 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/233.png" alt="Restaurant Image">
         <h1>Nectarine / Нектарин Городоцька</h1>
-        <p><strong>Address:</strong> вулиця Городоцька, 226 "б, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8274311, 'lng': 23.9494073}</p>
-        <p><strong>Website:</strong> <a href="https://sites.google.com/view/nectarinebistro/" target="_blank">https://sites.google.com/view/nectarinebistro/</a></p>
-        <p><strong>Phone:</strong> +380 97 864 8732</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 17:30:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 17:30:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 17:30:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 17:30:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 17:30:00</p>
-        <p><strong>Saturday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Sunday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Average price:</strong> 64.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Городоцька, 226 "б, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8274311, 'lng': 23.9494073}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://sites.google.com/view/nectarinebistro/" target="_blank">https://sites.google.com/view/nectarinebistro/</a></p>
+        <p><strong>Телефон:</strong> +380 97 864 8732</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 64.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 17:30:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 17:30:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 17:30:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 17:30:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 17:30:00</p>
+        <p><strong>Субота:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Pizza мортадела з фісташками та стратчателою</p>
+                <p><strong>Опис:</strong> Вершкова основа, моцарела, страчателла, в'ялені томати, базилік, олія оливкова, фісташка.</p>
+                <p><strong>Ціна:</strong> 550.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza з тигровими креветками та лососем</p>
+                <p><strong>Опис:</strong> Основа соус біск (панцері криветок цибуля, морква, селера стебло, соус томатний, коньяк, спеції), лосось, креветка тигрова, томат коктейльний, мікрогрін (базилік)</p>
+                <p><strong>Ціна:</strong> 515.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza 4 сири з пекоріно та кленовим сиропом</p>
+                <p><strong>Опис:</strong> Вершкова основа, моцарела, Дор Блю, пармезан, пекоріно, борошно курудзяне, олія оливкова, горіх грецький.</p>
+                <p><strong>Ціна:</strong> 447.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Мілано з пекоріно та печеним баклажаном</p>
+                <p><strong>Опис:</strong> Томатна основа, баклажан, ковбаса мілано, моцарела, перець чорний, сир пекоріно, олія оливкова.</p>
+                <p><strong>Ціна:</strong> 445.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza з пармою, рукколою та Сицилійською моцарелою</p>
+                <p><strong>Опис:</strong> Томатна основа, моцарела, парма, рукола, пармезан, олія оливкова, соус песто.</p>
+                <p><strong>Ціна:</strong> 437.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza зі стратчателою, в'яленими томатами та розмарином</p>
+                <p><strong>Опис:</strong> Томатна основа, стратчателла, розмарин, в'ялені томати, олія трювельна, перець чорний.</p>
+                <p><strong>Ціна:</strong> 435.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Пепероні</p>
+                <p><strong>Опис:</strong> Томатна основа, моцарела, ковбаса пепероні, пекоріно, перець чорний, олія оливкова.</p>
+                <p><strong>Ціна:</strong> 424.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza з карамелізованою грушою та гаргонзолкою</p>
+                <p><strong>Опис:</strong> Вершкова основа, моцарела, груша, горгонзола, кедровий горіх, олія оливкова.</p>
+                <p><strong>Ціна:</strong> 424.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza дайте мяса</p>
+                <p><strong>Опис:</strong> Томатний соус, сир моцарела, шинка, бекон, мисливські ковбаски, земля з маслин.</p>
+                <p><strong>Ціна:</strong> 424.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza маргарита з Сицилійською моцарелою</p>
+                <p><strong>Опис:</strong> Томатна основа, моцарела, базилік, помідор коктейльний, олія оливкова.</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Марінара</p>
+                <p><strong>Опис:</strong> Соус томатний, часник, олія оливкова, перец чорний, сухий часник.</p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> Pizza 33</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Мортадела з фісташками та стратчателою (390г)</p>
+                <p><strong>Опис:</strong> Вершкова основа, моцарела, страчателла, в'ялені томати, базилік, олія оливкова, фісташка.</p>
+                <p><strong>Ціна:</strong> 409.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza з тигровими креветками та лососем</p>
+                <p><strong>Опис:</strong> Основа соус біск (панцері криветок цибуля, морква, селера стебло, соус томатний, коньяк, спеції), лосось, креветка тигрова, томат коктейльний, мікрогрін (базилік)</p>
+                <p><strong>Ціна:</strong> 366.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza 4 сири з пекоріно та кленовим сиропом (350г)</p>
+                <p><strong>Опис:</strong> Вершкова основа, моцарела, Дор Блю, пармезан, пекоріно, борошно курудзяне, олія оливкова, горіх грецький</p>
+                <p><strong>Ціна:</strong> 362.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Мілано з пекоріно та печеними баклажанами (290г)</p>
+                <p><strong>Опис:</strong> Томатна основа, баклажан, ковбаса мілано, моцарела, перець чорний, сир пекоріно, олія оливкова.</p>
+                <p><strong>Ціна:</strong> 339.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza З пармою, руколою та Сицилійською моцарелою (400г)</p>
+                <p><strong>Опис:</strong> Томатна основа, моцарела, парма, рукола, пармезан, олія оливкова, соус песто.</p>
+                <p><strong>Ціна:</strong> 335.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Зі стратчателлою та в'яленими томатами (310г)</p>
+                <p><strong>Опис:</strong> Томатна основа, стратчателла, розмарин, в'ялені томати, олія трювельна, перець чорний.</p>
+                <p><strong>Ціна:</strong> 333.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Дайте м'яса (500г)</p>
+                <p><strong>Опис:</strong> Томатний соус, сир моцарела, шинка, бекон, мисливські ковбаски, земля з маслин.</p>
+                <p><strong>Ціна:</strong> 333.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza З карамелізованою грушею та горгонзолою (280г)</p>
+                <p><strong>Опис:</strong> Вершкова основа, моцарела, груша, горгонзола, кедровий горіх, олія оливкова.</p>
+                <p><strong>Ціна:</strong> 297.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Пепероні (380г)</p>
+                <p><strong>Опис:</strong> Томатна основа, моцарела, ковбаса пепероні, пекоріно, перець чорний, олія оливкова.</p>
+                <p><strong>Ціна:</strong> 297.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Маргарита з Сицилійською моцарелою (350г)</p>
+                <p><strong>Опис:</strong> Томатна основа, моцарела, базилік, помідор коктейльний, олія оливкова.</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pizza Марінара (180г)</p>
+                <p><strong>Опис:</strong> Соус томатний, часник, олія оливкова, перец чорний, сухий часник.</p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> Pizza 22</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з креветками, мідіями та восьминогом</p>
+                <p><strong>Опис:</strong> Домашня паста, креветки, восьминіг, мідії, вершкове масло, томати, спеції, безилік.</p>
+                <p><strong>Ціна:</strong> 559.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Больньезе з яловичиною та пармезаном (290г)</p>
+                <p><strong>Опис:</strong> Паста домашня, соус болоньєзе (Яловичина, томати, цибуля, часник, вино червоне, перець болгарський, морква, молоко), вершкове масло, пармезан, земля із маслин.</p>
+                <p><strong>Ціна:</strong> 311.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Італійська Лазанья з соусом бешамель (275г)</p>
+                <p><strong>Опис:</strong> Паста домашня, соус болоньєзе, соус бешамель (молоко, борошно, вершкове масло, мускатний горіх, спеції), моцарела, декор, зелена олія.</p>
+                <p><strong>Ціна:</strong> 291.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Карбонара з беконом та землею з маслин (270г)</p>
+                <p><strong>Опис:</strong> Паста домашня, бекон, часник, спеції, соус вершковий, пармезан, гель жовток, вялений жовток, земля з маслин, декори.</p>
+                <p><strong>Ціна:</strong> 291.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Ала Норма з артишоками та не пармезаном з цвітної капусти (300г)</p>
+                <p><strong>Опис:</strong> Паста домашня, томатний соус, баклажан, артишоки, часник, не пармезан з цвітної капусти, спеції.</p>
+                <p><strong>Ціна:</strong> 291.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар із яловичини (210г)</p>
+                <p><strong>Опис:</strong> Тартар з яловичини, заправлений каперсами, французькою гірчицею і спеціями, рисовий чіпс, соус папрік.</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> М'ясна тарілка (150г)</p>
+                <p><strong>Опис:</strong> Пепероні
+Мілано
+Парма</p>
+                <p><strong>Ціна:</strong> 233.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирна тарілка (170г)</p>
+                <p><strong>Опис:</strong> Пармезан, пекоріно, сир брі, горгонзола, моцарела, малиновий та апельсиновий джем, мікс горіхів, земля з маслин, вялена слива</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сицилійський паштет з курячої печінки (270г)</p>
+                <p><strong>Опис:</strong> Паштет з сицилйської курячої печінки, джем малиновий, мікс горіхів, фундук, свіжа полуниця, мікрозелень, фокача.</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хумус з овочевим тартаром та базиліком (250г)</p>
+                <p><strong>Опис:</strong> Хумус, крекери з зірою, овочевий тартар, кінза, зелене масло, пудра з кропу</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оливки (115г)</p>
+                <p><strong>Опис:</strong> Справжні Сицилійські оливки гіганти з кісточкою.</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> В'ялені томати (70г)</p>
+                <p><strong>Опис:</strong> Справжні Італійськф в'ялені томати.</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Маслини (100г)</p>
+                <p><strong>Опис:</strong> Справжні Сицилійські маслини гіганти з кісточкою.</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гаспачо з овочевим тартаром та фокачею (360г)</p>
+                <p><strong>Опис:</strong> Гаспачо (томати, огірок, часник, перець болгарський, фреш лимона, чілі перець, спеції), огірок, овочевий тартар, кріп, олія оливкова, фокача.</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячий бульйон з фокачею (400г)</p>
+                <p><strong>Опис:</strong> Курячий бульйон, морква, картопля, домашня паста, куряче м'ясо, кріп, фокача.</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стейк із цвітної капусти та попкорном із гречки (340г)</p>
+                <p><strong>Опис:</strong> Капуста цвітна, вега майонез (картопля, гриби, олія), медово-гірчична заправка, шпинат, мікрогрін, попкорн із гречки.</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з восьминогом та креветкою в соусі лімончело</p>
+                <p><strong>Опис:</strong> Листя Ромен, листя Лоло росо, листя Лоло біонда, томат коктейльний, креветки тигрові, мідії, восьминіг, лімончело заправка (мед, олія оливкова, фреш лимону)</p>
+                <p><strong>Ціна:</strong> 339.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Гай Юлій (230г)</p>
+                <p><strong>Опис:</strong> Рамен, соус цезар, бейбі коржики, індичка, бекон, вялені томати, земля з маслин, мікрозелень.</p>
+                <p><strong>Ціна:</strong> 303.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат зі страчателою і томатами (260г)</p>
+                <p><strong>Опис:</strong> Сир страчатела,помідор жовтий, помідор рожевий, помідор чорний принц, редиска, спеції, зелена олія, мікрогрін.</p>
+                <p><strong>Ціна:</strong> 284.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат овочевий (250г)</p>
+                <p><strong>Опис:</strong> 2 види томатів, огірок, редис, шпинат, зелене масло, петрушка.</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шоколадний брауні вибухова карамель (200г)</p>
+                <p><strong>Опис:</strong> Шоколадне тістечко брауні, соус флан, мікс горіхів, апельсиновий гель.</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Баскський чізкейк (215г)</p>
+                <p><strong>Опис:</strong> Чізкейк з крем-сиру та вершків, малиново-розмариновий джем, горіх фундук, м'ята, мікс горіхів, гель із апельсину</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фреш апельсиновий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> Б/А НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> Б/А НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Б/А НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Б/А НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Tonic Sсhweppes</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Б/А НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Б/А НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Б/А НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лате</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучино</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Флет Вайт</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 69.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фільтр</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 69.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Глінтвейн червоний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Глінтвейн білий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай лічі-полуниця</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай фірмовий</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай манго-маракуйа</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Aperol Б/а</p>
+                <p><strong>Опис:</strong> Цитрусовий, солодко-гіркий апероль, тільки без алкоголю.</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> Б/А КОКТЕЙЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Mojito</p>
+                <p><strong>Опис:</strong> Холодний, м'ятний та такий лаймовий.</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> Б/А КОКТЕЙЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад лічі-полуниця</p>
+                <p><strong>Опис:</strong> Цитруси, лічі, полуниця та содова.</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Б/А КОКТЕЙЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сицилійський</p>
+                <p><strong>Опис:</strong> Апельсиновий та лимонний фреш з маракуйя і содовою</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Б/А КОКТЕЙЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад манго-маракуйа</p>
+                <p><strong>Опис:</strong> Свіженький, кисло-солодкий лмонад з цитрусами, манго, маракуйєю та содовою.</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Б/А КОКТЕЙЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо тонік</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНА КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оранж кава</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНА КАВА</p>
+                <hr></div>
 </body>
 </html>

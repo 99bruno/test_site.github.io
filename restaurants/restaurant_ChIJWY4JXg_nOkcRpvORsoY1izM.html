@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,164 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/430.png" alt="Restaurant Image">
         <h1>Susheriva</h1>
-        <p><strong>Address:</strong> вулиця Івана Франка, 6, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8374824, 'lng': 24.034747}</p>
-        <p><strong>Website:</strong> <a href="https://susheriva.ps.me/" target="_blank">https://susheriva.ps.me/</a></p>
-        <p><strong>Phone:</strong> +380 93 112 9816</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 13:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 13:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 13:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 13:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 13:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 13:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 13:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 231.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Івана Франка, 6, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8374824, 'lng': 24.034747}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://susheriva.ps.me/" target="_blank">https://susheriva.ps.me/</a></p>
+        <p><strong>Телефон:</strong> +380 93 112 9816</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 231.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 13:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 13:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 13:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 13:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 13:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 13:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 13:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Варерики з куркою, беконом та грибами (300г)</p>
+                <p><strong>Опис:</strong> Курятина, бекон, гриби, цибуля</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з вишнею (300г)</p>
+                <p><strong>Опис:</strong> Вишня без кісточки</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею та грибами (300г)</p>
+                <p><strong>Опис:</strong> Картопля, цибуля, гриби Печериці</p>
+                <p><strong>Ціна:</strong> 67.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею та сиром (300г)</p>
+                <p><strong>Опис:</strong> Картопля, сир кисломолочний</p>
+                <p><strong>Ціна:</strong> 67.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею (300г)</p>
+                <p><strong>Опис:</strong> Картопля та цибуля</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з вишнею (150г)</p>
+                <p><strong>Опис:</strong> Вишня без кісточки</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> ВАРЕНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені свинина-телятина (300г)</p>
+                <p><strong>Опис:</strong> Свинина, телятина, цибуля</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ПЕЛЬМЕНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пельмені з курятини (300г)</p>
+                <p><strong>Опис:</strong> Філе курки, цибуля</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> ПЕЛЬМЕНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з лососем, шпинатом та Філадельфією (2шт/160г)</p>
+                <p><strong>Опис:</strong> Лосось, сир Філадельфія, шпинат</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з м'ясом (2шт/160г)</p>
+                <p><strong>Опис:</strong> Куряче бедро, цибуля</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з сиром та чорницею (2шт/160г)</p>
+                <p><strong>Опис:</strong> Сиркова маса, чорниця</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з яблуком (2шт/160г)</p>
+                <p><strong>Опис:</strong> Карамелізоване яблуко</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зрази з м'ясом (2шт/196г)</p>
+                <p><strong>Опис:</strong> Картопля, свинина, цибуля</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> ЗРАЗИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зрази з сиром та зеленню (2шт/196г)</p>
+                <p><strong>Опис:</strong> Картопля, кисломолочний сир, зелень</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> ЗРАЗИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники з шоколадом та кокосом (зшт/150г)</p>
+                <p><strong>Опис:</strong> Кисломолчний сир, бельгійський шоколад, кокос</p>
+                <p><strong>Ціна:</strong> 77.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники класичні (3шт/150г)</p>
+                <p><strong>Опис:</strong> Кисломолочний сир</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> СИРНИКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Кока-кола (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Згущене молоко (44г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 18.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сметана (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Тар-тар (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний соус (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Топінг шоколад (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кисло-солодкий соус (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Топінг полуниця (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кетчуп (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 13.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,139 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/415.png" alt="Restaurant Image">
         <h1>Gege Sodova</h1>
-        <p><strong>Address:</strong> вулиця Садова, 2а, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8228712, 'lng': 23.9825699}</p>
-        <p><strong>Website:</strong> <a href="https://www.gege.com.ua/" target="_blank">https://www.gege.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 95 821 0592</p>
-        <p><strong>Type:</strong> store</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 95.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Садова, 2а, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8228712, 'lng': 23.9825699}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://www.gege.com.ua/" target="_blank">https://www.gege.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 95 821 0592</p>
+        <p><strong>Тип:</strong> store</p>
+        <p><strong>Середня ціна:</strong> 95.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Пампух сирний (6 шт) (200г)</p>
+                <p><strong>Опис:</strong> Сирне тісто</p>
+                <p><strong>Ціна:</strong> 73.0</p>
+                <p><strong>Тип:</strong> ПАМПУХИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пампух "Крем фісташка" (100г)</p>
+                <p><strong>Опис:</strong> Дріжджове тісто, Заварний крем з додаванням натуральної Фісташкової пасти</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> ПАМПУХИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пампух "Крем шоколад" (100г)</p>
+                <p><strong>Опис:</strong> Дріжджове тісто,  Шоколадна паста</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> ПАМПУХИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пампух сирний (4 шт) (120г)</p>
+                <p><strong>Опис:</strong> Сирне тісто</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> ПАМПУХИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еклер Лимонний курд (60г)</p>
+                <p><strong>Опис:</strong> Заварне тістечко, Заварний крем, чорничне кюлі</p>
+                <p><strong>Ціна:</strong> 73.0</p>
+                <p><strong>Тип:</strong> ЕКЛЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еклер Кокос (60г)</p>
+                <p><strong>Опис:</strong> Заварне тістечко, Заварний крем, кокосова паста</p>
+                <p><strong>Ціна:</strong> 73.0</p>
+                <p><strong>Тип:</strong> ЕКЛЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еклер Фісташка-малина (60г)</p>
+                <p><strong>Опис:</strong> Заварне тістечко, Заварний крем з додаванням натуральної фісташкової пасти, милюнове кюлі</p>
+                <p><strong>Ціна:</strong> 73.0</p>
+                <p><strong>Тип:</strong> ЕКЛЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тарта - малина-лохина (120г)</p>
+                <p><strong>Опис:</strong> Пісочна мигдалева тарта, малинове кюлі, Крем-сир, свіжі ягоди лохини</p>
+                <p><strong>Ціна:</strong> 93.0</p>
+                <p><strong>Тип:</strong> ТАРТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тарта Карамель-горіх (100г)</p>
+                <p><strong>Опис:</strong> Пісочна мигдалева тарта, солона карамель, карамелізавані горіхи (арахіс)</p>
+                <p><strong>Ціна:</strong> 93.0</p>
+                <p><strong>Тип:</strong> ТАРТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тарта Фундук (100г)</p>
+                <p><strong>Опис:</strong> Пісочна мигдалева тарта, шоколадна паста зі смаком фундука, крем-сир</p>
+                <p><strong>Ціна:</strong> 93.0</p>
+                <p><strong>Тип:</strong> ТАРТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тарта Шоколад (100г)</p>
+                <p><strong>Опис:</strong> Пісочна мигдалева тарта, шоколадна паста</p>
+                <p><strong>Ціна:</strong> 93.0</p>
+                <p><strong>Тип:</strong> ТАРТА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Горішки  (7 шт) (100г)</p>
+                <p><strong>Опис:</strong> Пісочне мигдалеве тісто, солона карамель, ядро мигдалевого горіха</p>
+                <p><strong>Ціна:</strong> 86.0</p>
+                <p><strong>Тип:</strong> СОЛОДКЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вафельний торт (90г)</p>
+                <p><strong>Опис:</strong> Вафлі, згущене молоко, масло солодковершкове</p>
+                <p><strong>Ціна:</strong> 67.0</p>
+                <p><strong>Тип:</strong> СОЛОДКЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сінабон (100г)</p>
+                <p><strong>Опис:</strong> Дріжджове тісто, кориця, цукор, Маскарпоне</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> СОЛОДКЕ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кіш Лосось (160г)</p>
+                <p><strong>Опис:</strong> Пісочне тісто, філе лосося, сир Фета, цибуля порей, вершки, приправа</p>
+                <p><strong>Ціна:</strong> 93.0</p>
+                <p><strong>Тип:</strong> КІШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кіш Курка-томати (160г)</p>
+                <p><strong>Опис:</strong> Пісочне тісто, курка копчена, томати, сир, вершки, приправа</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> КІШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кіш Сир-шпинат (160г)</p>
+                <p><strong>Опис:</strong> Пісочне тісто, сир кисломолочний, зелень шпинату, вершки, приправа</p>
+                <p><strong>Ціна:</strong> 67.0</p>
+                <p><strong>Тип:</strong> КІШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola (250мл)</p>
+                <p><strong>Опис:</strong> Сильногазований напій</p>
+                <p><strong>Ціна:</strong> 47.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta (250мл)</p>
+                <p><strong>Опис:</strong> Сильногазований напій</p>
+                <p><strong>Ціна:</strong> 47.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> sprite (250мл)</p>
+                <p><strong>Опис:</strong> Сильногазований напій</p>
+                <p><strong>Ціна:</strong> 47.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

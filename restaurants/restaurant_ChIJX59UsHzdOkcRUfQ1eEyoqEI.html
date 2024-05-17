@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,365 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/390.png" alt="Restaurant Image">
         <h1>EasyBar&Special desserts</h1>
-        <p><strong>Address:</strong> вулиця Братів Рогатинців, 37, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.84053900000001, 'lng': 24.0335815}</p>
-        <p><strong>Website:</strong> <a href="https://instagram.com/easybar_lviv?igshid=MzRlODBiNWFlZA==" target="_blank">https://instagram.com/easybar_lviv?igshid=MzRlODBiNWFlZA==</a></p>
-        <p><strong>Phone:</strong> +380 66 691 7261</p>
-        <p><strong>Type:</strong> bar</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 231.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Братів Рогатинців, 37, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.84053900000001, 'lng': 24.0335815}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://instagram.com/easybar_lviv?igshid=MzRlODBiNWFlZA==" target="_blank">https://instagram.com/easybar_lviv?igshid=MzRlODBiNWFlZA==</a></p>
+        <p><strong>Телефон:</strong> +380 66 691 7261</p>
+        <p><strong>Тип:</strong> bar</p>
+        <p><strong>Середня ціна:</strong> 231.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Рол від Шефа (278г)</p>
+                <p><strong>Опис:</strong> Рис, тунець, ікра тобіко, креветка, вугор, соус Унагі, кунжут</p>
+                <p><strong>Ціна:</strong> 478.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Спайсі Лосось (323г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, ікра тобіко, філадельфія, авокадо, огірок, соус Шрірача</p>
+                <p><strong>Ціна:</strong> 429.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія Ебісакана (313г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, креветка, філадельфія, авокадо, огірок</p>
+                <p><strong>Ціна:</strong> 396.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Маммі Рол (283г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, лосось, філадельфія, огірок, ікра Тобіко, соус Спайсі, Японський майонез, зелена цибуля</p>
+                <p><strong>Ціна:</strong> 390.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія з вугрем (278г)</p>
+                <p><strong>Опис:</strong> Рис, вугор, філадельфія, авокадо, огірок, соус Унагі</p>
+                <p><strong>Ціна:</strong> 368.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія Тобіко з лососем (283г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, філадельфія, авокадо, огірок, ікра Тобіко</p>
+                <p><strong>Ціна:</strong> 363.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія з тунцем (283г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 352.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія з лососем (283г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, філадельфія, авокадо, огірок</p>
+                <p><strong>Ціна:</strong> 341.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізрол з теріякі</p>
+                <p><strong>Опис:</strong> рис, теріякі, філідельфія, огірок, авокадо, чедер, унагі соус, пармезан</p>
+                <p><strong>Ціна:</strong> 341.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія рол (273г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, філадельфія, кунжут</p>
+                <p><strong>Ціна:</strong> 325.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія з креветкою (268г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, філадельфія, авокадо, огірок</p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізрол з креветкою Темпура (253г)</p>
+                <p><strong>Опис:</strong> Рис, філадельфія, огірок, креветка темпура, сир Чеддер, соус Унагі</p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія Тобіко з креветкою (285г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, філадельфія, авокадо, огірок, ікра Тобіко</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філадельфія мікс (278г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, креветка, філадельфія, авокадо, огірок</p>
+                <p><strong>Ціна:</strong> 309.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чізрол з креветкою (283г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, авокадо, філадельфія, сир Чеддер</p>
+                <p><strong>Ціна:</strong> 308.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Футомакі з лососем (229г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, філадельфія, авокадо, огірок, ікра Тобіко</p>
+                <p><strong>Ціна:</strong> 281.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія з Тунцем (223г)</p>
+                <p><strong>Опис:</strong> Рис, тунець, огірок, філадельфія, кунжут, соус унагі</p>
+                <p><strong>Ціна:</strong> 242.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Каліфорнія Теріякі (233г)</p>
+                <p><strong>Опис:</strong> Рис, лосось теріякі, філадельфія, огірок, кунжут</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з вугрем (143г)</p>
+                <p><strong>Опис:</strong> Рис, вугор, соус Унагі</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з лососем (148г)</p>
+                <p><strong>Опис:</strong> Рис, лосось</p>
+                <p><strong>Ціна:</strong> 203.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з тунцем (153г)</p>
+                <p><strong>Опис:</strong> Рис, тунець, соус Унагі</p>
+                <p><strong>Ціна:</strong> 203.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний рол (228г)</p>
+                <p><strong>Опис:</strong> Рис, філадельфія, огірок, сир Чеддер, соус Унагі, кунжут</p>
+                <p><strong>Ціна:</strong> 176.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з креветкою (130г)</p>
+                <p><strong>Опис:</strong> Рис, креветка</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Вега (265г)</p>
+                <p><strong>Опис:</strong> Рис, авокадо, огірок, водорості чука, кунжут</p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з авокадо (143г)</p>
+                <p><strong>Опис:</strong> Рис, авокадо</p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з огірком (133г)</p>
+                <p><strong>Опис:</strong> Рис, огірок</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечений креветка тобіко (323г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, філадельфія, авокадо, тобіко, сирні шапочки, сир Пармезан</p>
+                <p><strong>Ціна:</strong> 418.0</p>
+                <p><strong>Тип:</strong> ТЕПЛІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечені макі креветка та мідія (294г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, мідія, філадельфія, авокадо, сирні шапочки</p>
+                <p><strong>Ціна:</strong> 325.0</p>
+                <p><strong>Тип:</strong> ТЕПЛІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечений рол з креветкою (288г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, філадельфія, авокадо, сирні шапочки, кунжут</p>
+                <p><strong>Ціна:</strong> 325.0</p>
+                <p><strong>Тип:</strong> ТЕПЛІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечені макі з креветкою (274г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, філадельфія, авокадо, сирні шапочки</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ТЕПЛІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Темпура рол з креветкою (279г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, авокадо, соус Чилі шрірача, сухарі панко</p>
+                <p><strong>Ціна:</strong> 286.0</p>
+                <p><strong>Тип:</strong> ТЕПЛІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Темпура рол з креветкою та мідіями (270г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, мідії, авокадо, соус Чилі шрірача, сухарі панко</p>
+                <p><strong>Ціна:</strong> 286.0</p>
+                <p><strong>Тип:</strong> ТЕПЛІ РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі Вугор (45г)</p>
+                <p><strong>Опис:</strong> Рис, вугор, соус Унагі, кунжут</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з лососем (43г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, ікра тобіко, Японський майонез</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з лососем Спайсі (45г)</p>
+                <p><strong>Опис:</strong> Рис, лосось, ікра тобіко, Японський майонез, соус Шрірача</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з тунцем (43г)</p>
+                <p><strong>Опис:</strong> Рис, тунець, ікра тобіко, Японський майонез</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з тунцем Спайсі (45г)</p>
+                <p><strong>Опис:</strong> Рис, тунець, ікра тобіко, Японський майонез, соус Шрірача</p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з креветкою (43г)</p>
+                <p><strong>Опис:</strong> Рис, креветка, ікра тобіко, Японський майонез</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з креветкою Спайсі (45г)</p>
+                <p><strong>Опис:</strong> Рис, тунець, ікра тобіко, Японський майонез, соус Шрірача</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі з лососем (46г)</p>
+                <p><strong>Опис:</strong> Рис, лосось</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі Креветка (41г)</p>
+                <p><strong>Опис:</strong> Рис, креветка</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан Вакаме (45г)</p>
+                <p><strong>Опис:</strong> Рис, чука, Горіховий соус, кунжут</p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет у великому місті (1067г)</p>
+                <p><strong>Опис:</strong> Філадельфія з лососем, каліфорнія тобіко з лососем, каліфорнія тобіко з креветкою,  макі з вугрем, нігірі з лососем, нігірі з креветкою</p>
+                <p><strong>Ціна:</strong> 1225.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет номер Один</p>
+                <p><strong>Опис:</strong> Філадельфія з лососем, Каліфорнія з тунцем, Чізрол з теріякі, Гункан з лососем, Гункан з Тунцем спайсі, Макі з креветкою</p>
+                <p><strong>Ціна:</strong> 1210.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі Сет (858г)</p>
+                <p><strong>Опис:</strong> Макі з лососем, макі з креветкою, макі з вугрем, макі з тунцем, макі з авокадо, макі з огірком</p>
+                <p><strong>Ціна:</strong> 935.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Веган Сет (540г)</p>
+                <p><strong>Опис:</strong> Рол вега, макі з огірком, макі з авокадо</p>
+                <p><strong>Ціна:</strong> 357.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мікс Гунканів</p>
+                <p><strong>Опис:</strong> Гункан з Лососем, гункан з Тунцем, гункан з Креветкою, гункан Вакаме</p>
+                <p><strong>Ціна:</strong> 341.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креветки у вершковому соусі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 308.0</p>
+                <p><strong>Тип:</strong> КРЕВЕТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креветка темпура (180г)</p>
+                <p><strong>Опис:</strong> 8шт королівських креветок</p>
+                <p><strong>Ціна:</strong> 242.0</p>
+                <p><strong>Тип:</strong> КРЕВЕТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креветки смажені (120г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> КРЕВЕТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з слабосоленим лососем</p>
+                <p><strong>Опис:</strong> Мікс салату, оливкова олія, часник, лосось, моцарелла бебі, томати чері</p>
+                <p><strong>Ціна:</strong> 308.0</p>
+                <p><strong>Тип:</strong> САЛАТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з креветкою</p>
+                <p><strong>Опис:</strong> Мікс салату, креветка, оливкова олія, часник, моцарелла бебі, томат чері</p>
+                <p><strong>Ціна:</strong> 258.0</p>
+                <p><strong>Тип:</strong> САЛАТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Чука (160г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 110.0</p>
+                <p><strong>Тип:</strong> САЛАТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Кисло-Солодкий (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Унагі (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Шрирача Чилі (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Шрирача Майо (30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Соєвий (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Том Ям</p>
+                <p><strong>Опис:</strong> Лосось, креветка, мідія, кокосове молоко, рибний соус, шрірача, ( рис лимон кунжут подається окремо)
+Вага: 480грам</p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> Супи</p>
+                <hr>
+                <p><strong>Позиція:</strong> Др.Пеппер  (0,33л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Др.Пеппер Вишня  (0,33л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-Кола (0,33л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-Кола Зеро  (0,33л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська вода н/г (0,5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська вода с/г (0,5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

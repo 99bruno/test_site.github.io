@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,275 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/75.png" alt="Restaurant Image">
         <h1>Ratatuy / Рататуй</h1>
-        <p><strong>Address:</strong> вулиця Перфецького, 14, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8148497, 'lng': 23.9875668}</p>
-        <p><strong>Website:</strong> <a href="https://www.ratatouille.com.ua/" target="_blank">https://www.ratatouille.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 67 979 3434</p>
-        <p><strong>Type:</strong> meal_delivery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 12:00:00 - 22:30:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 22:30:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 22:30:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 22:30:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 22:30:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 22:30:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 22:30:00</p>
-        <p><strong>Average price:</strong> 267.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Перфецького, 14, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8148497, 'lng': 23.9875668}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://www.ratatouille.com.ua/" target="_blank">https://www.ratatouille.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 67 979 3434</p>
+        <p><strong>Тип:</strong> meal_delivery</p>
+        <p><strong>Середня ціна:</strong> 267.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 12:00:00 - 22:30:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 22:30:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 22:30:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 22:30:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 22:30:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 22:30:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 22:30:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Фарш Party сет (2050г)</p>
+                <p><strong>Опис:</strong> 6 бургерів (яловичина/Чедер/цибуля/салат/соус BBQ та фірмовий)+2 картоплі, 2 соуси, + 0, 75 л коли в подарунок!</p>
+                <p><strong>Ціна:</strong> 1899.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фарш сет з Негідників (1400г)</p>
+                <p><strong>Опис:</strong> 3 Негідника Стена, 2 різні картоплі, соуси Сирна насолода і Справжній Кетченатор + 0,75 л Cola в подарунок</p>
+                <p><strong>Ціна:</strong> 1199.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фарш Family Сет (1400г)</p>
+                <p><strong>Опис:</strong> Фаршинатор для нього, Таневроті для неї, Фаршенятко for Kids, 2 різні картоплі, соуси авторський і кетчуп + 0,75 л Cola в подарунок</p>
+                <p><strong>Ціна:</strong> 1159.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет з Кебабів XL</p>
+                <p><strong>Опис:</strong> 3 кебаби L +дві різні картоплі + соус кетчуп + 0, 75 л Коли в подарунок!</p>
+                <p><strong>Ціна:</strong> 825.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет з Кебабів L</p>
+                <p><strong>Опис:</strong> 3 кебаби L +дві різні картоплі + соус кетчуп + 0, 75 л Коли в подарунок!</p>
+                <p><strong>Ціна:</strong> 689.0</p>
+                <p><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Візьми мої булки (390г)</p>
+                <p><strong>Опис:</strong> Подвійна котлета,багато сиру Чеддер,багато хрусткого бекону,солені огірки,соус Sweet_Chili</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фаршинатор (425г)</p>
+                <p><strong>Опис:</strong> Велика яловича котлета фарширована моцарелою, багато американського бекону, потрійний сир Чеддер, маринована цибуля, авторські соуси</p>
+                <p><strong>Ціна:</strong> 339.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний Амнямнямчик (410г)</p>
+                <p><strong>Опис:</strong> Подвійна котлета,багато сиру Дор Блю,моцарела,сир Ементаль,в'ялені томати,яблучне Чатні,сирний соус</p>
+                <p><strong>Ціна:</strong> 339.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дикий, Дикий Фарш (390г)</p>
+                <p><strong>Опис:</strong> Котлета з яловичини, багато хрусткого бекону та сиру Моцарела, свіжі томати, цибуля синя маринована, соус з огірками</p>
+                <p><strong>Ціна:</strong> 309.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Негідник Стен (350г)</p>
+                <p><strong>Опис:</strong> Котлета з яловичини, беконовий джем з цибулею білою, багато сиру Чеддер, салат Коул Слоу з цибулею синьою, соус айолі та сирний</p>
+                <p><strong>Ціна:</strong> 309.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чорні Брови, Вишневі Очі (305г)</p>
+                <p><strong>Опис:</strong> Котлета з  яловичини,багато хрусткого бекону,потрійний сир Чеддер,сирний соус,карамелізована вишня</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Таневроті (350г)</p>
+                <p><strong>Опис:</strong> Котлета з яловичини, багато сиру Моцарела, цибулеве Конфі, солені
+огірки, фірмовий соус</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Той Самий Чіз (300г)</p>
+                <p><strong>Опис:</strong> Котлета з яловичини, подвійний чедер, цибуля синя маринована, салат айсберг, солені огірки, амер. гірчиця, соус BBQ та фірмовий</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фаршенятко (Дітям+6) (280г)</p>
+                <p><strong>Опис:</strong> куряче філе міньйон,сир Моцарела,свіжі томати,салат айсберг,соус кетчуп</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб XL (500г)</p>
+                <p><strong>Опис:</strong> куряче філе Міньйон, сир Фета, стиглі томати, мікс салату, соуси фірмові</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> КЕБАБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб L яловичий (400 г)</p>
+                <p><strong>Опис:</strong> фарш Яловичий з духмяними приправами, сир Ементаль, стиглі томати, мікс салату, суміш томленого перцю, синьої цибульки та шампіків по азійськи, хрумкий лаваш, соуси авторські</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> КЕБАБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб L (400г)</p>
+                <p><strong>Опис:</strong> куряче філе Міньйон, сир Фета, стиглі томати, мікс салату, соуси фірмові</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> КЕБАБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб - вегатеріанець (400 г)</p>
+                <p><strong>Опис:</strong> картопля Фрі, сир Фета, солений огірок, стиглі томати, мікс салату, лаваш, соуси фірмові</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> КЕБАБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетс Бокс (20шт)</p>
+                <p><strong>Опис:</strong> Хрусткі шматочки курячого філе в ніжній паніровці, подаються з соусом</p>
+                <p><strong>Ціна:</strong> 385.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зачьотні крильця (9шт)</p>
+                <p><strong>Опис:</strong> 9 ніжних соковитих крилець власного приготування обняті в медово-гірчичному соусі</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЧЕДЕРНА ФРІШКА</p>
+                <p><strong>Опис:</strong> класична Фрішка з хрустким беконом та чедерним соусом, кранч цибуля та нитки Чилі</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> ФАРШАНУТА ФРІШКА</p>
+                <p><strong>Опис:</strong> класична Фрішка з ФАРШем, солені огірки, ементаль, перець piri-piri, соус авторський</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> ЛАЗУРНІ ДІПИ</p>
+                <p><strong>Опис:</strong> діпи, в'ялені томати, сир фета, соус з блакитного сиру блю чіз, павутинка чилі</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетс Бокс (9шт)</p>
+                <p><strong>Опис:</strong> Хрусткі шматочки курячого філе в ніжній паніровці, подаються з соусом</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зачьотні крильця (5шт)</p>
+                <p><strong>Опис:</strong> 5 ніжних соковитих крилець власного приготування обняті в медово-гірчичному соусі</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> ВАННА АРИСТОКРАТА (200 г)</p>
+                <p><strong>Опис:</strong> ванна голубого сиру Блю Чіз, ідеально з нашими бургерами</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> ВАННА ЧЕДДЕРУ (200 г)</p>
+                <p><strong>Опис:</strong> ідеально смакувати з нашими бургерами</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляні діпи (140г)</p>
+                <p><strong>Опис:</strong> Картопля іншого сорту і форми,спробуй щось нове</p>
+                <p><strong>Ціна:</strong> 99.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі (140г)</p>
+                <p><strong>Опис:</strong> Твоя класична фрішечка</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> МR. ЧЕДДЕР (45 г)</p>
+                <p><strong>Опис:</strong> дуже сирний соус за власним рецептом</p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> АРИСТОКРАТ (45 г)</p>
+                <p><strong>Опис:</strong> соус з голубого сиру Блю чіз</p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пікантна Насолода (45г)</p>
+                <p><strong>Опис:</strong> Кисло-солодкий соус з пікантною ноткою</p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зачьотне Айолі (45г)</p>
+                <p><strong>Опис:</strong> Часниковий соус</p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фаршоус (авторський) (45г)</p>
+                <p><strong>Опис:</strong> Авторський соус за власним рецептом</p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирна насолода (45г)</p>
+                <p><strong>Опис:</strong> Сирний соус із пармезаном</p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ку-Ку-Барбеку (45г)</p>
+                <p><strong>Опис:</strong> Соус барбекю з ноткою копченого диму</p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Справжній Кетченатор (45г)</p>
+                <p><strong>Опис:</strong> Класичний кетчуп зі спеціями</p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбуча в асортименті</p>
+                <p><strong>Опис:</strong> Вода, симбіоз дріжджів та бактерій Medusomyces gisevii Lindau, зелений чай сенча</p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Річ (1л)</p>
+                <p><strong>Опис:</strong> Оберіть смак на вибір!</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Морс Бубочки (300мл)</p>
+                <p><strong>Опис:</strong> Чорничний морс за власним рецептом: чорниця, базилік, лимонний сік, цукор, вода очищена</p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кола (0, 75л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кола (0.5л)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 44.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макаронс великий/8шт</p>
+                <p><strong>Опис:</strong> 8 великих макаронcів різного смаку в 1-му наборі</p>
+                <p><strong>Ціна:</strong> 429.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макаронс малий /8шт</p>
+                <p><strong>Опис:</strong> 8  макаронcів різного смаку в 1-му наборі</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макаронс великий/5шт</p>
+                <p><strong>Опис:</strong> 5 великих макаронcів різного смаку в 1-му наборі</p>
+                <p><strong>Ціна:</strong> 289.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макаронс малий/5шт</p>
+                <p><strong>Опис:</strong> 5  макаронcів різного смаку в 1-му наборі</p>
+                <p><strong>Ціна:</strong> 199.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Андрути</p>
+                <p><strong>Опис:</strong> вафельний корж, згущене молоко, вершкове масло, глазур, арахіс</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr></div>
 </body>
 </html>

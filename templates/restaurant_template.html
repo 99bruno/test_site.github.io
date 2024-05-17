@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,39 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../restaurants.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a>
         <h1>{{Name}}</h1>
-        <p><strong>Address:</strong> {{Address}}</p>
-        <p><strong>Coordinates:</strong> {{Coordinates}}</p>
-        <p><strong>Website:</strong> <a href="{{Website}}" target="_blank">{{Website}}</a></p>
-        <p><strong>Phone:</strong> {{Phone}}</p>
-        <p><strong>Type:</strong> {{Type}}</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> {{Monday Open time}} - {{Monday Close time}}</p>
-        <p><strong>Tuesday:</strong> {{Tuesday Open time}} - {{Tuesday Close time}}</p>
-        <p><strong>Wednesday:</strong> {{Wednesday Open time}} - {{Wednesday Close time}}</p>
-        <p><strong>Thursday:</strong> {{Thursday Open time}} - {{Thursday Close time}}</p>
-        <p><strong>Friday:</strong> {{Friday Open time}} - {{Friday Close time}}</p>
-        <p><strong>Saturday:</strong> {{Saturday Open time}} - {{Saturday Close time}}</p>
-        <p><strong>Sunday:</strong> {{Sunday Open time}} - {{Sunday Close time}}</p>
-        <p><strong>Average price:</strong> {{Average price}}</p>
-        <p><strong>Overall price level:</strong> {{Overall price level}}</p>
+        <p><strong>Адреса:</strong> {{Address}}</p>
+        <p><strong>Координати:</strong> {{Coordinates}}</p>
+        <p><strong>Вебсайт:</strong> <a href="{{Website}}" target="_blank">{{Website}}</a></p>
+        <p><strong>Телефон:</strong> {{Phone}}</p>
+        <p><strong>Тип:</strong> {{Type}}</p>
+        <p><strong>Середня ціна:</strong> {{Average price}}</p>
+        <p><strong>Цінова політика:</strong> {{Overall price level}}</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> {{Monday Open time}} - {{Monday Close time}}</p>
+        <p><strong>Вівторок:</strong> {{Tuesday Open time}} - {{Tuesday Close time}}</p>
+        <p><strong>Середа:</strong> {{Wednesday Open time}} - {{Wednesday Close time}}</p>
+        <p><strong>Четверг:</strong> {{Thursday Open time}} - {{Thursday Close time}}</p>
+        <p><strong>Пʼятниця:</strong> {{Friday Open time}} - {{Friday Close time}}</p>
+        <p><strong>Субота:</strong> {{Saturday Open time}} - {{Saturday Close time}}</p>
+        <p><strong>Неділя:</strong> {{Sunday Open time}} - {{Sunday Close time}}</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
     </div>
 </body>
 </html>

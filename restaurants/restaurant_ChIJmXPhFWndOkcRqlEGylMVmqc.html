@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,236 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/90.png" alt="Restaurant Image">
         <h1>Celentano Ristorante/Челентано</h1>
-        <p><strong>Address:</strong> вулиця Шухевича, 3, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.83713909999999, 'lng': 24.0347957}</p>
-        <p><strong>Website:</strong> <a href="https://www.ibis.celentano.delivery/" target="_blank">https://www.ibis.celentano.delivery/</a></p>
-        <p><strong>Phone:</strong> +380 63 363 7362</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 232.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Шухевича, 3, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.83713909999999, 'lng': 24.0347957}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://www.ibis.celentano.delivery/" target="_blank">https://www.ibis.celentano.delivery/</a></p>
+        <p><strong>Телефон:</strong> +380 63 363 7362</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 232.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Півник клюке по-тайськи (380г)</p>
+                <p><strong>Опис:</strong> Півник, соус Тайський, кунжут</p>
+                <p><strong>Ціна:</strong> 390.0</p>
+                <p><strong>Тип:</strong> СТРАВИ НА МАНГАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Півник клюке часниковий (380г)</p>
+                <p><strong>Опис:</strong> Півник, часник, масло, зелень</p>
+                <p><strong>Ціна:</strong> 390.0</p>
+                <p><strong>Тип:</strong> СТРАВИ НА МАНГАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Козацький шашлик з беконом (250г)</p>
+                <p><strong>Опис:</strong> Ввинна вирізка в беконі на вірменському лаваші</p>
+                <p><strong>Ціна:</strong> 360.0</p>
+                <p><strong>Тип:</strong> СТРАВИ НА МАНГАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> М'ясо на ребрі</p>
+                <p><strong>Опис:</strong> томлені свинні  ребра, запечені на мангалі, після политі винним соусом бароло</p>
+                <p><strong>Ціна:</strong> 355.0</p>
+                <p><strong>Тип:</strong> СТРАВИ НА МАНГАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з телятини (250г)</p>
+                <p><strong>Опис:</strong> Шинка, подається з маринованою цибулею та вірменським лавашем</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> СТРАВИ НА МАНГАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Форель річкова (300г)</p>
+                <p><strong>Опис:</strong> Форель, масло, розмарин, лимон</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> СТРАВИ НА МАНГАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик зі свинини (250г)</p>
+                <p><strong>Опис:</strong> Ошийок, подаємо з маринованою цибулею та вірменським лавашем</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> СТРАВИ НА МАНГАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе коропа (300г)</p>
+                <p><strong>Опис:</strong> Подається з овочами гриль та мікс салатом</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> СТРАВИ НА МАНГАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шашлик з курячого філе (250г)</p>
+                <p><strong>Опис:</strong> Подається з соусом</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> СТРАВИ НА МАНГАЛІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі на мангалі (250г)</p>
+                <p><strong>Опис:</strong> Баклажан, перець, кабачок, шампіньйони</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ДО М'ЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кукурудза (250г)</p>
+                <p><strong>Опис:</strong> Запечена на мангалі з соусом Бальзамік</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ДО М'ЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля з салом (250г)</p>
+                <p><strong>Опис:</strong> Запечена на мангалі, подаємо з часниковим соусом</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ДО М'ЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лаваш грузинськй (300г)</p>
+                <p><strong>Опис:</strong> Теплий з мангалу</p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> ДО М'ЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чанахи з мангалу (350г)</p>
+                <p><strong>Опис:</strong> Наваристий суп зі свининою, овочами та квасолею</p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ (350г)</p>
+                <p><strong>Опис:</strong> Домашній український борщ, на свинині, з чорним хлібом і салом</p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибна юшка (300г)</p>
+                <p><strong>Опис:</strong> Бульйон, шампіньйони, вершки</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з язиком</p>
+                <p><strong>Опис:</strong> перепелині яйця, майонез" weight="book">
+      язик телячий, квасоля, мариновані огірки та печериці,  перепелині яйця, майонез</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з прошуто та грушею</p>
+                <p><strong>Опис:</strong> сир дор блю, чері, гірчично-медовий соус" weight="book">
+      мікс салату, прошуто, карамелізована груша,  сир дор блю, чері, гірчично-медовий соус</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат капрезе</p>
+                <p><strong>Опис:</strong> мікс салату, моцарела, чері, пармезан, соус песто</p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою (250г)</p>
+                <p><strong>Опис:</strong> Мікс салату, курка, бекон, перепелині яйця, чері, сир Пармезан,  крутони, соус Цезар власного приготування</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з квашеної капусти (250г)</p>
+                <p><strong>Опис:</strong> Квашена капуста, мариновані опеньки, цибуля, спеції, олія</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирна дошка (250г)</p>
+                <p><strong>Опис:</strong> Сир Радомер, сир Дор блю, сир Брі з Журавлиновим соусом</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сир в беконі</p>
+                <p><strong>Опис:</strong> сир сулугуні, загорнутий в бекон і запечений на мангалі</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сало з грінами (250г)</p>
+                <p><strong>Опис:</strong> Сало з часником, грінками та гірчицею</p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оселедець з картоплею (350г)</p>
+                <p><strong>Опис:</strong> Оселедець з картоплею та маринованою цибулею</p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соління (300г)</p>
+                <p><strong>Опис:</strong> огірок, помідор, крижавка, маринована слива</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хачапурі на рожні (200г)</p>
+                <p><strong>Опис:</strong> Сир Сулугуні з грецьким горіхом, в листковому тісті</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сулугуні-гриль в лаваші (200г)</p>
+                <p><strong>Опис:</strong> Сир Сулугуні з сиром Бринза та зеленню, у вірменському лаваші</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Наршараб (1шт)</p>
+                <p><strong>Опис:</strong> Гранатовий, кислосолодкий</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Журавлина (1шт)</p>
+                <p><strong>Опис:</strong> Ягідний, кислосолодкий</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кавказький (1шт)</p>
+                <p><strong>Опис:</strong> Овочевий, гострий</p>
+                <p><strong>Ціна:</strong> 58.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фірмовий (1шт)</p>
+                <p><strong>Опис:</strong> На основі болгарського перцю, напівгострий</p>
+                <p><strong>Ціна:</strong> 58.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Барбекю (1шт)</p>
+                <p><strong>Опис:</strong> Томати, діжонська гірчиця, солодкуватий</p>
+                <p><strong>Ціна:</strong> 58.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний (1шт)</p>
+                <p><strong>Опис:</strong> Крупнозернистий сир, сметана, часник</p>
+                <p><strong>Ціна:</strong> 58.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Натахтарі (500г)</p>
+                <p><strong>Опис:</strong> Грузинський лимонад в склі</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Айран (500г)</p>
+                <p><strong>Опис:</strong> Кисло-молочний напій з зеленню</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лимонад домашній (500г)</p>
+                <p><strong>Опис:</strong> Домашній лимонад з лимоном, апельсином та м'ятою</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Узвар (500г)</p>
+                <p><strong>Опис:</strong> Домашній узвар з сухофруктів</p>
+                <p><strong>Ціна:</strong> 80.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi (500г)</p>
+                <p><strong>Опис:</strong> Напій сильногазований Pepsi</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

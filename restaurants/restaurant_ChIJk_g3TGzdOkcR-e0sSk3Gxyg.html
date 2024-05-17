@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,344 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/323.png" alt="Restaurant Image">
         <h1>Kryivka / Криївка</h1>
-        <p><strong>Address:</strong> пл. Ринок, 14 (підвал), Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.84129309999999, 'lng': 24.0322703}</p>
-        <p><strong>Website:</strong> <a href="https://kryjivkalviv.com/" target="_blank">https://kryjivkalviv.com/</a></p>
-        <p><strong>Phone:</strong> +380 67 310 3145</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 22:30:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 22:30:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 22:30:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 22:30:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 22:30:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 22:30:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 22:30:00</p>
-        <p><strong>Average price:</strong> 118.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> пл. Ринок, 14 (підвал), Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.84129309999999, 'lng': 24.0322703}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://kryjivkalviv.com/" target="_blank">https://kryjivkalviv.com/</a></p>
+        <p><strong>Телефон:</strong> +380 67 310 3145</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 118.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 22:30:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 22:30:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 22:30:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 22:30:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 22:30:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 22:30:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 22:30:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Salmon mini box №2</p>
+                <p><strong>Опис:</strong> Гункан з лососем, крем-сиром та пікантним соусом, Рол Філа з вугрем, Рол Філа з тигровою креветкою та ікрою</p>
+                <p><strong>Ціна:</strong> 950.0</p>
+                <p><strong>Тип:</strong> MINI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon mini box №6</p>
+                <p><strong>Опис:</strong> Нігірі з лососем, Макі з лососем, Salmon сашимі в соусі світ-чілі манго, Гункан з лососем, крем-сиром та пікантним соусом</p>
+                <p><strong>Ціна:</strong> 890.0</p>
+                <p><strong>Тип:</strong> MINI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon mini box №7</p>
+                <p><strong>Опис:</strong> Філа абурі з лососем, креветкою та обліпиховим соусом, Філа абурі з креветкою і яблуком, Хіяші вакаме</p>
+                <p><strong>Ціна:</strong> 850.0</p>
+                <p><strong>Тип:</strong> MINI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon mini box №8</p>
+                <p><strong>Опис:</strong> Гункан абурі з лососем та соусом теріякі, Нігірі з лососем абурі, Нігірі з тартаром лосося, Гункан абурі з лососем та креветкою</p>
+                <p><strong>Ціна:</strong> 850.0</p>
+                <p><strong>Тип:</strong> MINI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon mini box №4</p>
+                <p><strong>Опис:</strong> Мега макі з лососем та зеленою цибулею, Гункан з лососем, крем-сиром та пікантним соусом, Філа абурі з креветкою і яблуком</p>
+                <p><strong>Ціна:</strong> 790.0</p>
+                <p><strong>Тип:</strong> MINI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon mini box №5</p>
+                <p><strong>Опис:</strong> Нігірі з лососем, Нігірі з лососем абурі, Гункан з лососем та хіяші, Гункан з лососем, Нігірі з лососем тар-тар</p>
+                <p><strong>Ціна:</strong> 790.0</p>
+                <p><strong>Тип:</strong> MINI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon mini box №1</p>
+                <p><strong>Опис:</strong> Нігірі з лососем, Salmon Філа супер чіз, Хіяші</p>
+                <p><strong>Ціна:</strong> 750.0</p>
+                <p><strong>Тип:</strong> MINI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon mini box №3</p>
+                <p><strong>Опис:</strong> Salmon сашимі в соусі світ-чілі манго, Макі з лососем, Нігірі з лососем, Хіяші</p>
+                <p><strong>Ціна:</strong> 750.0</p>
+                <p><strong>Тип:</strong> MINI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon maxi box №8</p>
+                <p><strong>Опис:</strong> Salmon Філа супер чіз з вугрем, Salmon Філа супер чіз, Salmon Філа авокадо з ікрою тобіко, Salmon сашимі в соусі світ-чілі манго, Нігірі з лососем тар-тар</p>
+                <p><strong>Ціна:</strong> 1750.4</p>
+                <p><strong>Тип:</strong> MAXI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon maxi box №1</p>
+                <p><strong>Опис:</strong> Нігірі з лососем, Макі з лососем, Нігірі з лососем тар-тар, Salmon абурі Філа з лососем, Salmon Філа супер чіз з вугрем</p>
+                <p><strong>Ціна:</strong> 1690.4</p>
+                <p><strong>Тип:</strong> MAXI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon maxi box №7</p>
+                <p><strong>Опис:</strong> Salmon Філа абурі з креветкою та яблуком, Salmon абурі рол з лососем, креветкою та обліпиховим соусом, Salmon супер чіз, Salmon супер чіз з вугрем, Гункан абурі з соусом теріякі</p>
+                <p><strong>Ціна:</strong> 1950.0</p>
+                <p><strong>Тип:</strong> MAXI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon maxi box №4</p>
+                <p><strong>Опис:</strong> Нігірі з лососем, Нігірі з лососем тар-тар, Гункан з лососем та хіяші, Salmon Філа супер чіз</p>
+                <p><strong>Ціна:</strong> 1300.0</p>
+                <p><strong>Тип:</strong> MAXI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon maxi box №5</p>
+                <p><strong>Опис:</strong> Мега макі з лососем та зеленою цибулею, Гункан з лососем, крем-сиром та пікантним соусом, Гункан з лососем та хіяші, Рол Філа з лососем супер чіз, Salmon Філа авокадо з ікрою тобіко</p>
+                <p><strong>Ціна:</strong> 1490.0</p>
+                <p><strong>Тип:</strong> MAXI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon maxi box №2</p>
+                <p><strong>Опис:</strong> Salmon Філа супер чіз, Salmon Філа авокадо з ікрою тобіко, Урамакі з лососем, Гункан з лососем, Гункан з лососем та хіяші, Макі з лососем</p>
+                <p><strong>Ціна:</strong> 1460.0</p>
+                <p><strong>Тип:</strong> MAXI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon maxi box №6</p>
+                <p><strong>Опис:</strong> Salmon Філа абурі з креветкою та яблуком, Salmon абурі рол з кальмаром та лососем, Salmon абурі рол з лососем, креветкою та обліпиховим соусом, Гункан абурі з соусом теріякі, Хіяші вакаме</p>
+                <p><strong>Ціна:</strong> 1420.0</p>
+                <p><strong>Тип:</strong> MAXI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon maxi box №3</p>
+                <p><strong>Опис:</strong> Нігірі з тартаром лосося, Гункан з лососем, крем-сиром та пікантним соусом, Salmon Філа авокадо з ікрою тобіко, Нігірі з лососем</p>
+                <p><strong>Ціна:</strong> 1300.0</p>
+                <p><strong>Тип:</strong> MAXI BOX</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філа абурі рол з лососем, креветкою та обліпиховим соусом</p>
+                <p><strong>Опис:</strong> Рис для суші, Креветка, Крем-сир, Огірок, Перець чилі, Соус обліпиха-манго, Соус теріякі, Норі</p>
+                <p><strong>Ціна:</strong> 495.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філа з вугрем</p>
+                <p><strong>Опис:</strong> Вугор, Норі, Рис, Крем-сир, Кунжут білий, Соус унагі, Авокадо</p>
+                <p><strong>Ціна:</strong> 490.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філа з тигровою креветкою та ікрою</p>
+                <p><strong>Опис:</strong> Креветка тигрова, Норі, Рис, Крем-сир, Огірок, Майонез гострий,  Авокадо</p>
+                <p><strong>Ціна:</strong> 490.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філа з креветкою</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Норі, Ікра летючої риби, Рис, Креветки, Крем-сир, Авокадо</p>
+                <p><strong>Ціна:</strong> 440.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філа абурі з вугрем</p>
+                <p><strong>Опис:</strong> Норі, Рис, Крем-сир, Лосось абури, Соус світ чілі, Авокадо, Вугор, Цибуля зелена, Цедра цитрусових</p>
+                <p><strong>Ціна:</strong> 440.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філа абурі з креветкою та яблуком</p>
+                <p><strong>Опис:</strong> Рис, Норі, Крем-сир, Лосось, Креветка панко, Авокадо, Соус світ-чілі, Цибуля зелена, Пластівці кранч, Соус теріякі, Яблуко, Спайсі-майонез</p>
+                <p><strong>Ціна:</strong> 385.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Каліфорнія з лососем</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Норі, Ікра летючої риби, Рис, Огірок, Авокадо</p>
+                <p><strong>Ціна:</strong> 375.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філа з лососем супер чіз</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Норі, Рис, Крем-сир, Авокадо</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філа тар-тар з соусом світ-чілі</p>
+                <p><strong>Опис:</strong> Рис для суші, Норі, Крем-сир, Лосось, Авокадо, Салат айсберг, Соус світ-чілі, Кунжут</p>
+                <p><strong>Ціна:</strong> 350.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол зі спайсі креветкою та тартаром лосося у фурікаке</p>
+                <p><strong>Опис:</strong> Рис для суші, Лосось, Креветка, Крем-сир, Авокадо, Огірок, Фурікаке, Цибуля зелена,  Норі</p>
+                <p><strong>Ціна:</strong> 325.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол з лососем і авокадо</p>
+                <p><strong>Опис:</strong> Рис для суші, лосось, авокадо, норі</p>
+                <p><strong>Ціна:</strong> 325.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рол Філа без рису з хіяші та лососем</p>
+                <p><strong>Опис:</strong> Лосось, Крем-сир, Хіяші, Норі</p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> Роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мега макі з лососем та зеленою цибулею</p>
+                <p><strong>Опис:</strong> Рис для суші, Лосось, Кунжут, Соус кімчі, Цибуля зелена, Норі</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> Макі роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Урамакі з лососем та крем-сиром</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Норі, Рис, Крем-сир</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> Макі роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Урамакі з лососем</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Норі, Рис</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> Макі роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макі з лососем</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Норі, Рис</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> Макі роли</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан абурі з лососем та креветкою</p>
+                <p><strong>Опис:</strong> Рис для суші, Лосось cвіжий, Креветка, Крем-сир, Соус світ чілі, Цибуля зелена</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> Гункани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан Дабл лосось</p>
+                <p><strong>Опис:</strong> Рис для суші, Лосось, Соус світ чілі майонез, Цибуля зелена, Норі</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Гункани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з вугрем</p>
+                <p><strong>Опис:</strong> Вугор, Норі, Рис, Кунжут білий, Соус унагі</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Гункани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан абурі з лососем та соусом теріякі</p>
+                <p><strong>Опис:</strong> Рис для суші, Лосось, Крем-сир, Соус теріякі, Цибуля зелена, Кунжут, Норі</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> Гункани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з лососем, крем-сиром та пікантним соусом</p>
+                <p><strong>Опис:</strong> Рис для суші, Лосось, Крем-сир, Соус шрірача, Соус кімчі, Цибуля зелена, Норі</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Гункани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з огірком і тартаром лосося</p>
+                <p><strong>Опис:</strong> Рис для суші, Лосось cвіжий, Огірок, Перець болгарський, Норі</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Гункани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з лососем</p>
+                <p><strong>Опис:</strong> Рис, Норі, Лосось свіжий, Соус світ-чілі</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Гункани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гункан з лососем та хіяші</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Норі, Рис, Соус горіховий, Хіяші</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Гункани</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі лосось з соусом понзу</p>
+                <p><strong>Опис:</strong> Рис для суші, Лосось, Соус понзу-кімчі, Кунжут</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> Суші</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі з тартаром лосося</p>
+                <p><strong>Опис:</strong> Рис, Лосось, Соус світ-чілі, Цибуля зелена, Цедра цитрусових</p>
+                <p><strong>Ціна:</strong> 57.0</p>
+                <p><strong>Тип:</strong> Суші</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі з лососем</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Рис</p>
+                <p><strong>Ціна:</strong> 57.0</p>
+                <p><strong>Тип:</strong> Суші</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нігірі з лососем абурі</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Рис, Майонез гострий</p>
+                <p><strong>Ціна:</strong> 57.0</p>
+                <p><strong>Тип:</strong> Суші</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon філе 750 г</p>
+                <p><strong>Опис:</strong> Філе лосося (на шкірі)</p>
+                <p><strong>Ціна:</strong> 1450.0</p>
+                <p><strong>Тип:</strong> Сашимі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon філе 300 г</p>
+                <p><strong>Опис:</strong> Філе лосося (на шкірі)</p>
+                <p><strong>Ціна:</strong> 690.0</p>
+                <p><strong>Тип:</strong> Сашимі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon сашимі в соусі світ-чілі манго</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Соус світ чилі манго (гострий), Цедра цитрусових, Імбир маринований,Васабі.</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> Сашимі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Salmon сашимі</p>
+                <p><strong>Опис:</strong> Лосось cвіжий, Васабі, Імбир маринований</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> Сашимі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Берн Оріджинал 0.25 л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-Кола 0.75л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська газ 330 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська н/газ 330 мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-Кола скло 0,25</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-Кола зеро скло 0,25</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрайт скло 0,25</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фанта апельсин скло 0,25</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Швепс Індіан тонік 0,33л банка</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Швепс Біттер лемон 0,33л банка</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бонаква 0,5 н/газ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бонаква 0,5 с/газ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бонаква 0,5 сл/газ</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> Напої</p>
+                <hr></div>
 </body>
 </html>

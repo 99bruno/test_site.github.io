@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,204 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/352.png" alt="Restaurant Image">
         <h1>EAT ME Pizza</h1>
-        <p><strong>Address:</strong> вулиця Любінська, 104, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.82128240000001, 'lng': 23.9687471}</p>
-        <p><strong>Website:</strong> <a href="https://otto.lviv.ua/" target="_blank">https://otto.lviv.ua/</a></p>
-        <p><strong>Phone:</strong> +380 97 148 2445</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 261.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Любінська, 104, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.82128240000001, 'lng': 23.9687471}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://otto.lviv.ua/" target="_blank">https://otto.lviv.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 97 148 2445</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 261.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Фірмове комбо</p>
+                <p><strong>Опис:</strong> Шаурма фірмова XL, картопля фрі, напій.</p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо з телятиною</p>
+                <p><strong>Опис:</strong> Шаурма з телятиною, картопля фрі, напій.</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо мікс</p>
+                <p><strong>Опис:</strong> Шаурма мікс, картопля фрі, напій.</p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо з куркою</p>
+                <p><strong>Опис:</strong> Шаурма з куркою, картопля фрі, напій.</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма фірмова XL</p>
+                <p><strong>Опис:</strong> Мікс м'яса, мариновані грибочки, болгарський перець, салат Айсберг, огірки, помідори та синя цибуля у поєднанні з фірмовим сметанковим соусом.</p>
+                <p><strong>Ціна:</strong> 187.0</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма куряча XXL (550г)</p>
+                <p><strong>Опис:</strong> Куряче філе, фірмовий сметанковий соус, салат Айсберг, свіжі огірки, помідори та синя цибуля</p>
+                <p><strong>Ціна:</strong> 161.5</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма куряча XL (450г)</p>
+                <p><strong>Опис:</strong> Куряче філе, фірмовий сметанковий соус, салат Айсберг, свіжі огірки, помідори та синя цибуля</p>
+                <p><strong>Ціна:</strong> 136.0</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма куряча L (350г)</p>
+                <p><strong>Опис:</strong> Куряче філе, фірмовий сметанковий соус, салат Айсберг, свіжі огірки, помідори та синя цибуля</p>
+                <p><strong>Ціна:</strong> 110.5</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма з телятиною XXL (550г)</p>
+                <p><strong>Опис:</strong> Телятина, фірмовий сметанковий соус, салат Айсберг, свіжі огірки, помідори та синя цибуля</p>
+                <p><strong>Ціна:</strong> 178.5</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма з телятиною XL (450г)</p>
+                <p><strong>Опис:</strong> Телятина, фірмовий сметанковий соус, салат Айсберг, свіжі огірки, помідори та синя цибуля</p>
+                <p><strong>Ціна:</strong> 153.0</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма з телятиною L (350г)</p>
+                <p><strong>Опис:</strong> Телятина, фірмовий сметанковий соус, салат Айсберг, свіжі огірки, помідори та синя цибуля</p>
+                <p><strong>Ціна:</strong> 127.5</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма мікс XXL (550г)</p>
+                <p><strong>Опис:</strong> Мікс м'яса, фірмовий сметанковий соус, салат Айсберг, свіжі огірки, помідори та синя цибуля</p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма мікс XL (450г)</p>
+                <p><strong>Опис:</strong> Мікс м'яса, фірмовий сметанковий соус, салат Айсберг, свіжі огірки, помідори та синя цибуля</p>
+                <p><strong>Ціна:</strong> 144.5</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Шаурма мікс L (350г)</p>
+                <p><strong>Опис:</strong> Мікс м'яса, фірмовий сметанковий соус, салат Айсберг, свіжі огірки, помідори та синя цибуля</p>
+                <p><strong>Ціна:</strong> 119.0</p>
+                <p><strong>Тип:</strong> ШАУРМА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі (200г)</p>
+                <p><strong>Опис:</strong> Картопля смажена у фритюрі</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі (100г)</p>
+                <p><strong>Опис:</strong> Картопля смажена у фритюрі</p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси (12шт)</p>
+                <p><strong>Опис:</strong> Смачна курочка в клярі, смажена у фритюрі</p>
+                <p><strong>Ціна:</strong> 136.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси (8шт)</p>
+                <p><strong>Опис:</strong> Смачна курочка в клярі, смажена у фритюрі</p>
+                <p><strong>Ціна:</strong> 94.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси (4шт)</p>
+                <p><strong>Опис:</strong> Смачна курочка в клярі, смажена у фритюрі</p>
+                <p><strong>Ціна:</strong> 52.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Айран (450мл)</p>
+                <p><strong>Опис:</strong> Літній охолоджуючий кисломолочний напій, ідеально смакує з шаурмою.</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-кола (330мл)</p>
+                <p><strong>Опис:</strong> Сильногазований, солодкий напій.</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Швепс мандарин (330мл)</p>
+                <p><strong>Опис:</strong> Сильногазований, солодкий напій</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрайт (330мл)</p>
+                <p><strong>Опис:</strong> Сильногазований, солодкий напій</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фанта (330мл)</p>
+                <p><strong>Опис:</strong> Сильногазований, солодкий напій</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Швепс гранат (330мл)</p>
+                <p><strong>Опис:</strong> Сильногазований, солодкий напій</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Швепс мохіто (330мл)</p>
+                <p><strong>Опис:</strong> Сильногазований, солодкий напій</p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Кисло-солодкий (25г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Часниковий (24г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кетчуп (28г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Тартар (24г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Карі (28г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Сирний (24г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Барбекю (28г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 15.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr></div>
 </body>
 </html>

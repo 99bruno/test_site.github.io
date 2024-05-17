@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,184 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/340.png" alt="Restaurant Image">
         <h1>The Шніцель</h1>
-        <p><strong>Address:</strong> вулиця Уласа Самчука, 12, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.82091880000001, 'lng': 24.02539}</p>
-        <p><strong>Website:</strong> <a href="https://cafe-49884.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://cafe-49884.business.site/?utm_source=gmb&utm_medium=referral</a></p>
-        <p><strong>Phone:</strong> +380 93 441 3704</p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 20:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 20:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 20:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 20:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 20:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 20:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 20:00:00</p>
-        <p><strong>Average price:</strong> 241.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Уласа Самчука, 12, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.82091880000001, 'lng': 24.02539}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://cafe-49884.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://cafe-49884.business.site/?utm_source=gmb&utm_medium=referral</a></p>
+        <p><strong>Телефон:</strong> +380 93 441 3704</p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> 241.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 20:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 20:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 20:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 20:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 20:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 20:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 20:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Оладки зі шпинатом, лососем та Крем-сиром (270г)</p>
+                <p><strong>Опис:</strong> Лосось слабосолений, крем-сир, томати черрі, мікрозелень, кунжут, соус на вибір</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> Промоакції</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички з кремом зі згущеного молока (210г)</p>
+                <p><strong>Опис:</strong> Найніжніші сирнички з кремом зі згущенки, попкорном та м‘ятою</p>
+                <p><strong>Ціна:</strong> 175.5</p>
+                <p><strong>Тип:</strong> Промоакції</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички із ягідним кюлі (165г)</p>
+                <p><strong>Опис:</strong> Найніжніші сирнички із ягідним кюлі</p>
+                <p><strong>Ціна:</strong> 175.5</p>
+                <p><strong>Тип:</strong> Промоакції</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тост з лососем та авокадо (255г)</p>
+                <p><strong>Опис:</strong> Лосось слабосолений, авокадо, яйце, хлібчик скандинавський, салат, мікрогрін, йогуртовий соус власного приготування, кунжут</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тост з бовтанкою, беконом та грибами (200г)</p>
+                <p><strong>Опис:</strong> Бекон, печериці, бовтанка (скрембл), карамелізована цибуля, хліб празький, пармезан, мікрогрін</p>
+                <p><strong>Ціна:</strong> 216.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець з куркою та грибами (270г)</p>
+                <p><strong>Опис:</strong> Курочка, печериці, томати черрі, салат, мікрогрін, соус сирний власного приготування</p>
+                <p><strong>Ціна:</strong> 171.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з крем англез та фруктами</p>
+                <p><strong>Опис:</strong> Млинці з кремом, хурмою, мандаринками та лохиною</p>
+                <p><strong>Ціна:</strong> 171.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сет брускет</p>
+                <p><strong>Опис:</strong> Брускета з лососем, брускета з авокадо та йогуртовим соусом, брускета з куркою та в'яленими томатами</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фірмова канапка з ковбасою від Тані (160г)</p>
+                <p><strong>Опис:</strong> Улюблена позиція власниці закладу. Багет, масло, варена ковбаса</p>
+                <p><strong>Ціна:</strong> 103.5</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вівсянка з гранолою (330г)</p>
+                <p><strong>Опис:</strong> Вівсяна каша на воді із гранолою</p>
+                <p><strong>Ціна:</strong> 85.5</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вівсянка на молоці із сезонними фруктами (375г)</p>
+                <p><strong>Опис:</strong> Вівсянка із хурмою, мандаринками та ягідним кюлі</p>
+                <p><strong>Ціна:</strong> 85.5</p>
+                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боул з лососем та броколі (310г)</p>
+                <p><strong>Опис:</strong> Лосось, броколі, кіноа, салат, яйце, Йогуртовий сосус</p>
+                <p><strong>Ціна:</strong> 345.0</p>
+                <p><strong>Тип:</strong> БОУЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боул з куркою та бататом (295г)</p>
+                <p><strong>Опис:</strong> Курочка, крем з батату, кус-кус, Фета, томати Черрі, салат, мікрогрін</p>
+                <p><strong>Ціна:</strong> 216.0</p>
+                <p><strong>Тип:</strong> БОУЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста з креветками, шпинатом та вершками (335г)</p>
+                <p><strong>Опис:</strong> Паста тельятеле, креветки Тигрові, шпинат, вершки, Пармезан, мікрогрін, часничок</p>
+                <p><strong>Ціна:</strong> 340.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паста Чотири сири (260г)</p>
+                <p><strong>Опис:</strong> Спагетті, соус сирний власного приготування, пармезан, мікрогрін</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кукурудзяний крем-суп (300г)</p>
+                <p><strong>Опис:</strong> Кукурудза, копчена курка, Фета, вершки</p>
+                <p><strong>Ціна:</strong> 153.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Малиновий раф (150мл)</p>
+                <p><strong>Опис:</strong> Кава Еспресо + молоко + вершки + малиновий сироп авторського приготування</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Раф (150мл)</p>
+                <p><strong>Опис:</strong> Кава Еспресо + молоко + вершки + ванільний цукор</p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Лате (250мл)</p>
+                <p><strong>Опис:</strong> Подвійна порція Еспресо + молоко</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао (250мл)</p>
+                <p><strong>Опис:</strong> Натуральне несолодке какао</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Капучино (150мл)</p>
+                <p><strong>Опис:</strong> Кава Еспресо + молоко</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Coca-cola 0.25 (0.25)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Bonaqua 0.33 газована (0.33)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Bonaqua 0.33 б/г (0.33)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мініпаста сирна з курочкою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> Бейбі меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мінімлинець з курочкою</p>
+                <p><strong>Опис:</strong> Млинець з куркою та сирним соусом</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> Бейбі меню</p>
+                <hr>
+                <p><strong>Позиція:</strong> Букет-мікс у білому кольорі розміру М</p>
+                <p><strong>Опис:</strong> Склад букетика може змінюватись залежно від наявного асортименту, проте ми постараємось сформувати якнайбільш схожий мікс до фото.</p>
+                <p><strong>Ціна:</strong> 2100.0</p>
+                <p><strong>Тип:</strong> КВІТИ ТА ПОДАРУНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Букет піонієвидних троянд розміру S</p>
+                <p><strong>Опис:</strong> 9 гілочок піонієвидних троянд із наявного асортименту. Зазвичай білого, рожевого чи червоного кольору, проте ми постараємось сформувати якнайбільш схожий букетик до фото</p>
+                <p><strong>Ціна:</strong> 1600.0</p>
+                <p><strong>Тип:</strong> КВІТИ ТА ПОДАРУНКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макаронс (5шт)</p>
+                <p><strong>Опис:</strong> Мікс смаків із наявного асортименту у пакуванні</p>
+                <p><strong>Ціна:</strong> 325.0</p>
+                <p><strong>Тип:</strong> КВІТИ ТА ПОДАРУНКИ</p>
+                <hr></div>
 </body>
 </html>

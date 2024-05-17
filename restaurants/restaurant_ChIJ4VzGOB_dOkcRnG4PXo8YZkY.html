@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,144 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/468.png" alt="Restaurant Image">
         <h1>Korovai / Коровай</h1>
-        <p><strong>Address:</strong> вулиця Замарстинівська, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8663973, 'lng': 24.0251639}</p>
-        <p><strong>Website:</strong> <a href="https://instagram.com/korovai_u_ivanki?igshid=k16n9o0s8qdn" target="_blank">https://instagram.com/korovai_u_ivanki?igshid=k16n9o0s8qdn</a></p>
-        <p><strong>Phone:</strong> +380 93 449 8274</p>
-        <p><strong>Type:</strong> bakery</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Tuesday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Wednesday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Thursday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Friday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Saturday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Sunday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Average price:</strong> 54.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Замарстинівська, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8663973, 'lng': 24.0251639}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://instagram.com/korovai_u_ivanki?igshid=k16n9o0s8qdn" target="_blank">https://instagram.com/korovai_u_ivanki?igshid=k16n9o0s8qdn</a></p>
+        <p><strong>Телефон:</strong> +380 93 449 8274</p>
+        <p><strong>Тип:</strong> bakery</p>
+        <p><strong>Середня ціна:</strong> 54.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Вівторок:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Середа:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Четверг:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Пʼятниця:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Субота:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Смузі</p>
+                <p><strong>Опис:</strong> Оберіть смак</p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо-тонік</p>
+                <p><strong>Опис:</strong> Безалкогольний напій</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Айс-лате</p>
+                <p><strong>Опис:</strong> Холодна кава</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мілкшейк</p>
+                <p><strong>Опис:</strong> Холодний напій на основі молока та морозива</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець Курка+сир+гриби</p>
+                <p><strong>Опис:</strong> Млинець</p>
+                <p><strong>Ціна:</strong> 68.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець Шинка+сир+гриби</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець Курка+сир</p>
+                <p><strong>Опис:</strong> Млинець</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець з прошутто</p>
+                <p><strong>Опис:</strong> Млинець</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець з салямі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець Шинка+сир</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 62.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець Капрезе</p>
+                <p><strong>Опис:</strong> Млинець</p>
+                <p><strong>Ціна:</strong> 59.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець Гриби+сир</p>
+                <p><strong>Опис:</strong> Млинець</p>
+                <p><strong>Ціна:</strong> 51.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець Нутелла+банан</p>
+                <p><strong>Опис:</strong> Млинець</p>
+                <p><strong>Ціна:</strong> 49.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець з джемом</p>
+                <p><strong>Опис:</strong> Млинець</p>
+                <p><strong>Ціна:</strong> 39.0</p>
+                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Флет вайт</p>
+                <p><strong>Опис:</strong> Кавовий напій на основі подвійного еспресо з додаванням молока</p>
+                <p><strong>Ціна:</strong> 38.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучино</p>
+                <p><strong>Опис:</strong> Кава з молоком</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лате</p>
+                <p><strong>Опис:</strong> Кава з молоком</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао</p>
+                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо з молоком</p>
+                <p><strong>Опис:</strong> Кава з молоком</p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо</p>
+                <p><strong>Опис:</strong> Чорна кава</p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еспресо</p>
+                <p><strong>Опис:</strong> Чорна кава</p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr></div>
 </body>
 </html>

@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,284 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/346.png" alt="Restaurant Image">
         <h1>Snack & Desserts</h1>
-        <p><strong>Address:</strong> вулиця Яна Жижки, 6, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.84410839999999, 'lng': 24.0292905}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 50 027 3660</p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 21:00:00</p>
-        <p><strong>Average price:</strong> 55.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Яна Жижки, 6, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.84410839999999, 'lng': 24.0292905}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 50 027 3660</p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> 55.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 09:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 21:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Яйця пашот з лососем</p>
+                <p><strong>Опис:</strong> Яйця які подаються на скибці бріош з ніжним крем-сиром, слабосоленим лососем, соусом, руколою та томатами Чері</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Скрембл з лососем</p>
+                <p><strong>Опис:</strong> Скрембл, крем-сир з травами, авокадо, лосось слабосолений, шинат, рокола, томати чері, сир фета.</p>
+                <p><strong>Ціна:</strong> 230.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яйця пашот з беконом</p>
+                <p><strong>Опис:</strong> Яйця пашот які подаються на скибці бріош з ніжним крем-сиром, беконом, соусом Цезар та томатами Чері.</p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Равіолі  яловичина-папрік</p>
+                <p><strong>Опис:</strong> Равіолі з яловичиною, копчена паприка, цибуля хрустка, мікрогрін, соус папрік.</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Равіолі з куркою карі та вершковим соусом</p>
+                <p><strong>Опис:</strong> Равіолі з куркою, соус вершковий-песто, сублімована малина, мікрогрін.</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Французький тост зі скремблом</p>
+                <p><strong>Опис:</strong> Скрембл на скибці бріош з томатами Чері, крем-сиром, авокадо та сосискою</p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Солодка вівсянка на кокосовому молоці</p>
+                <p><strong>Опис:</strong> Вівсянка, кокосове молоко, вершки, мед, волоські горіхи, лохина, пластівці мигдалеві та сублімована малина.</p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирнички</p>
+                <p><strong>Опис:</strong> Сирники з соусом Англес, ягодами, та цукровою пудрою</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> Сніданки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з лососем</p>
+                <p><strong>Опис:</strong> Хліб солодовий, лосось, крем-сир, італійські трави, огірок, помідор, вершки, соус цезар, томати чері, мікрогрін.</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> Сендвічі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гарячий сендвіч з індичкою та сиром</p>
+                <p><strong>Опис:</strong> Підмажений хліб з індичкою, маринованими огірочками, сиром, помідорами та соусом Цезар.</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> Сендвічі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч курка песто</p>
+                <p><strong>Опис:</strong> Пшеничний хліб, моцарелла, куряче філе, вершки, песто, в'ялені томати.</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> Сендвічі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мелт з тунцем</p>
+                <p><strong>Опис:</strong> Хліб бріош, соус цезар, моцарела, тунець, кукурудза.</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> Сендвічі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мелт з шинкою</p>
+                <p><strong>Опис:</strong> Хліб бріош, соус цезар, моцарела, шинка, кукурудза.</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> Сендвічі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мелт салямі</p>
+                <p><strong>Опис:</strong> Хліб бріош, соус цезар, салямі, моцарела, помідор.</p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> Сендвічі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат лосось Філадельфія</p>
+                <p><strong>Опис:</strong> Ніжний салат з слабосоленим лососем, сиром Філадельфією, авокадо, томатами Чері, листям салату заправлений медово-гірчичним соусом</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цезар з лососем</p>
+                <p><strong>Опис:</strong> Шпинат ,айсберг,соус цезар,пармезан, томати чері , яйця перепелині,лосось,грісіні.</p>
+                <p><strong>Ціна:</strong> 270.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою</p>
+                <p><strong>Опис:</strong> Усім відомий салат у склад якого входить: листя салату, куряче філе, томати Чері, перепелинні яйця, хрусткі грінки, Пармезан та соус Цезар.</p>
+                <p><strong>Ціна:</strong> 220.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат курка-авокадо</p>
+                <p><strong>Опис:</strong> Курка, авокадо, помідор, фета, журавлина, соус медовий, айсберг, шпинат.</p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Грецький</p>
+                <p><strong>Опис:</strong> Звичний для вісх салат з листям салату, огірками, помідорами, оливками, болгарським перцем, сиром Фета та соусом з італійських трав</p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> Салати</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мокачино (400мл)</p>
+                <p><strong>Опис:</strong> Кавово шоколадний напій який готується на основі капучино з додаванням какао.</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Раф (400мл)</p>
+                <p><strong>Опис:</strong> Ніжний напій з додаванням нагрітих вершків , невеликої кількості піни в одну порцію еспресо</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао (500мл)</p>
+                <p><strong>Опис:</strong> Улюблене какао для любителів солоденьких напоїв.</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Капучино (500мл)</p>
+                <p><strong>Опис:</strong> Класичний напій, який складається з двох порцій еспресо до яких додають добре збите молоко.</p>
+                <p><strong>Ціна:</strong> 94.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лате (500мл)</p>
+                <p><strong>Опис:</strong> Класичний напій, який складається з добре збитого молока яке додають у дві порції еспресо.</p>
+                <p><strong>Ціна:</strong> 94.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Флет вайт (250мл)</p>
+                <p><strong>Опис:</strong> Додавання спіненого молока з мінімальною кількістю піни в подвійну порцію еспресо.</p>
+                <p><strong>Ціна:</strong> 82.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо з молоком (400мл)</p>
+                <p><strong>Опис:</strong> Ароматний напій з двома порціями еспресо, з додаванням окропу і молока.</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо (400мл)</p>
+                <p><strong>Опис:</strong> Міцний, ароматний напій з двома порціями еспресо із додаванням окропу.</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо (250мл)</p>
+                <p><strong>Опис:</strong> Міцний, ароматний напій з однією еспресо із додаванням окропу.</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Американо з молоком (250мл)</p>
+                <p><strong>Опис:</strong> Ароматний напій з однією порцією еспресо, з додаванням окропу і молока.</p>
+                <p><strong>Ціна:</strong> 57.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> На мигдальному молоці</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> Додатки</p>
+                <hr>
+                <p><strong>Позиція:</strong> На кокосовому молоці</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> Додатки</p>
+                <hr>
+                <p><strong>Позиція:</strong> На вівсяному молоці</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 27.0</p>
+                <p><strong>Тип:</strong> Додатки</p>
+                <hr>
+                <p><strong>Позиція:</strong> На безлактозному молоцці</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 21.0</p>
+                <p><strong>Тип:</strong> Додатки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сироп з карамеллю</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 10.0</p>
+                <p><strong>Тип:</strong> Додатки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сироп лісовий горіх</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 10.0</p>
+                <p><strong>Тип:</strong> Додатки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сироп солена карамель</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 10.0</p>
+                <p><strong>Тип:</strong> Додатки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сироп ванільний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 10.0</p>
+                <p><strong>Тип:</strong> Додатки</p>
+                <hr>
+                <p><strong>Позиція:</strong> Orange Coffee (300мл)</p>
+                <p><strong>Опис:</strong> Цікаве поднання еспресо та апельсинового соку.</p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ice Latte (300мл)</p>
+                <p><strong>Опис:</strong> Класичний напій з шоколадним топінгом та сиропами на вибір</p>
+                <p><strong>Ціна:</strong> 94.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кока-кола</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун банан</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Макаруни великі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун вишня</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Макаруни великі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун диня</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Макаруни великі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун манго</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Макаруни великі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун фісташка</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Макаруни великі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун м'ята</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Макаруни великі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун ваніль</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Макаруни великі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун солена карамель</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Макаруни великі</p>
+                <hr>
+                <p><strong>Позиція:</strong> Макарун шоколад-кокос</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> Макаруни великі</p>
+                <hr></div>
 </body>
 </html>

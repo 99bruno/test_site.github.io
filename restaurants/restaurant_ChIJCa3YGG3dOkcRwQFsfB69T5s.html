@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,140 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/275.png" alt="Restaurant Image">
         <h1>Lvivskyi Universytet Kraftovoho Pyva im. sv. Khrystofora / Львівський Університет Крафтового Пива ім. св. Христофора</h1>
-        <p><strong>Address:</strong> вулиця Івана Франка, 3, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.83784300000001, 'lng': 24.035373}</p>
-        <p><strong>Website:</strong> <a href="http://lcbu.com.ua/" target="_blank">http://lcbu.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 97 429 1752</p>
-        <p><strong>Type:</strong> bar</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 12:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 189.0</p>
-        <p><strong>Overall price level:</strong> Medium-High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Івана Франка, 3, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.83784300000001, 'lng': 24.035373}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://lcbu.com.ua/" target="_blank">http://lcbu.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 97 429 1752</p>
+        <p><strong>Тип:</strong> bar</p>
+        <p><strong>Середня ціна:</strong> 189.0</p>
+        <p><strong>Цінова політика:</strong> Medium-High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 12:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 12:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Пепсі 0,33л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Моршинська 0,33л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Моршинська 0,5л</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Галіція 200мл</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Ростбіф (480г)</p>
+                <p><strong>Опис:</strong> Неаполітанська піца на помідоровій основі з моцарелою, ростбіфом (попередньо замаринована і приготовлена теляча вирізка), рукколою і пряною олією</p>
+                <p><strong>Ціна:</strong> 330.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Квадро Формаджі (550г)</p>
+                <p><strong>Опис:</strong> Неаполітанська піца з чотирьома ввидами сиру (моцарела, горгонзола, радомер, пармезан) з грушею, горіхами, медом і 
+пряною олією</p>
+                <p><strong>Ціна:</strong> 320.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Яблуко- Горгонзола (490г)</p>
+                <p><strong>Опис:</strong> Неаполітанська піца з вершковою основою, моцареллою, горгонзолою і яблуками по- нормандськи</p>
+                <p><strong>Ціна:</strong> 310.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Грибна (550г)</p>
+                <p><strong>Опис:</strong> Неаполітанська піца з вершковою основою, моцареллою, горгонзолою, лисичками, цибулею, зеленню і рожевим перцем</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з Салямі (505г)</p>
+                <p><strong>Опис:</strong> Неаполітанська піца з помідоровою основою, моцарелою, салямі, пряною олією і зеленню</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца з Тунцем (545г)</p>
+                <p><strong>Опис:</strong> Неаполітанська піца з помідоровою основою, моцарелою, тунцем, каперсами, маринованою червоною цибулею, зеленню і пряною олією</p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Путанеска (525г)</p>
+                <p><strong>Опис:</strong> Неаполітанська піца з помідоровою основою, моцарелою, анчоусами, маслинами і пряною олією</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Піца Маргарита (470г)</p>
+                <p><strong>Опис:</strong> Неаполітанська піца з помідоровою основою, моцарелою, пряною олією і зеленню</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сир горгонзола</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салямі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сир моцарелла</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оливки</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус до піци</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з Роздбіфом (330г)</p>
+                <p><strong>Опис:</strong> Сендвіч на нашому цільнозерновому хлібі на заквасці, з ростбіфом (смажена теляча вирізка мариноваана в травах), помідори, руккола, пряна олія і лимонний сік</p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з Анчоусом (390г)</p>
+                <p><strong>Опис:</strong> Сендвіч на нашому бріоші з пряною олією, моцарелою, помідорами і рукколою та анчоусами</p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сендвіч з Моцареллою (335г)</p>
+                <p><strong>Опис:</strong> Сендвіч на нашому бріоші з пряною олією, моцарелою, помідорами і рукколою</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr></div>
 </body>
 </html>

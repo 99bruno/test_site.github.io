@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,157 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/438.png" alt="Restaurant Image">
         <h1>Ostannia barukada / Остання Барикада</h1>
-        <p><strong>Address:</strong> площа Ринок, 20, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8410496, 'lng': 24.0314407}</p>
-        <p><strong>Website:</strong> <a href="https://borysov.com.ua/" target="_blank">https://borysov.com.ua/</a></p>
-        <p><strong>Phone:</strong> +380 73 090 8998</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Tuesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Wednesday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Thursday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Friday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Saturday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Sunday:</strong> 10:00:00 - 23:00:00</p>
-        <p><strong>Average price:</strong> 130.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> площа Ринок, 20, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8410496, 'lng': 24.0314407}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://borysov.com.ua/" target="_blank">https://borysov.com.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 73 090 8998</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 130.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Вівторок:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Середа:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Четверг:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Пʼятниця:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Субота:</strong> 10:00:00 - 23:00:00</p>
+        <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Суп Том Ям (500мл/100г)</p>
+                <p><strong>Опис:</strong> Лосось, креветка тигрова, кальмар, паста Том Ям, гливи, лимон трава, кафір, курячий бульйон, кокосове молоко, томати чері, рис, кунжут, кінза, рибний соус, зелена цибуля</p>
+                <p><strong>Ціна:</strong> 189.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп Рамен з телятиною</p>
+                <p><strong>Опис:</strong> Класичний азійський суп на основі бульйону рамен з яєчною локшиною та телячою вирізкою філе</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп Рамен з куркою</p>
+                <p><strong>Опис:</strong> Класичний азійський суп на основі бульйону рамен з яєчною локшиною та соковитим курячим філе</p>
+                <p><strong>Ціна:</strong> 109.0</p>
+                <p><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з креветками WOK (285г)</p>
+                <p><strong>Опис:</strong> Креветка, овочевий мікс, кукурудза, томати, яйце,
+кунжут чорний</p>
+                <p><strong>Ціна:</strong> 168.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з яловичиною WOK (275г)</p>
+                <p><strong>Опис:</strong> Яловичина, овочевий мікс, кукурудза, томати, яйце, кунжут чорний</p>
+                <p><strong>Ціна:</strong> 146.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з тунцем (265г)</p>
+                <p><strong>Опис:</strong> Тунець, овочевий мікс, кукурудза, томати, яйце,
+кунжут чорний</p>
+                <p><strong>Ціна:</strong> 132.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з куркою WOK (275г)</p>
+                <p><strong>Опис:</strong> Курка, овочевий мікс, кукурудза, томати, яйце,
+кунжут чорний</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Унагі Азія Стар</p>
+                <p><strong>Опис:</strong> Королівський рол з соковитими скибочками копченого вугра, тигровими креветками та авторським соусом Світ Чилі Манго</p>
+                <p><strong>Ціна:</strong> 265.0</p>
+                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Саке Азія Стар</p>
+                <p><strong>Опис:</strong> Соковитий рол з філе лосося в поєднанні з сніжним крабом, ніжним сиром та пікантним соусом васабі</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мідорі Азія Стар</p>
+                <p><strong>Опис:</strong> Рол з кремовим авокадо, ніжним вугрем і хрустким кранчем під соусом спайсі</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Магуро Азія Стар</p>
+                <p><strong>Опис:</strong> Великий рол з рожевим тунцем, соковитим крабом і вершковим сиром під соусом світ чилі</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний Азія Стар</p>
+                <p><strong>Опис:</strong> Рол з великою кількістю вершкового сиру, скибочками червоного чедру та сирним соусом власного приготування</p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Інарі суші з вугрем</p>
+                <p><strong>Опис:</strong> Ніжні суші з соєвого сиру з копченим вугрем, рисом та авокадо</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Інарі суші з креветками</p>
+                <p><strong>Опис:</strong> Ніжні суші з соєвого сиру з тигровими креветками, рисом та авокадо</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Інарі суші з сніжним крабом</p>
+                <p><strong>Опис:</strong> Ніжні суші з соєвого сиру з соковитим крабом, рисом та авокадо</p>
+                <p><strong>Ціна:</strong> 119.0</p>
+                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Боул з креветкою</p>
+                <p><strong>Опис:</strong> Вітамінне поєднання продуктів з тигровими креветками, авторським соусом для боулів та соусом на вибір (горіховий, солодкий чилі, манговий)</p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> БОУЛИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моті</p>
+                <p><strong>Опис:</strong> Класичний японський десерт з соєвих вершків в рисовому папері</p>
+                <p><strong>Ціна:</strong> 69.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрінг рол з креветками</p>
+                <p><strong>Опис:</strong> Рол у рисовому папері, з тигровими креветками, вершковим сиром та соусом світ чилі</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> ХАРУМАКІ/НЕМ/СПРІНГ РОЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Спрінг рол з копченим лососем</p>
+                <p><strong>Опис:</strong> Рол у рисовому папері, з філе копченого лосося, вершковим сиром та соусом світ чилі</p>
+                <p><strong>Ціна:</strong> 119.0</p>
+                <p><strong>Тип:</strong> ХАРУМАКІ/НЕМ/СПРІНГ РОЛ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Pepsi (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 29.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій 7up (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 23.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Напій Mirinda (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 23.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Aqua Minerale (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 19.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

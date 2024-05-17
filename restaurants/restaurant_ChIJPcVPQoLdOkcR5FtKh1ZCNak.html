@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,344 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/315.png" alt="Restaurant Image">
         <h1>Coffee&Burger.Pizza. Bake House</h1>
-        <p><strong>Address:</strong> площа Кропивницького, 12, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8366676, 'lng': 24.003798}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> +380 67 430 0101</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Tuesday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Wednesday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Thursday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Friday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Saturday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 20:00:00</p>
-        <p><strong>Average price:</strong> 254.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> площа Кропивницького, 12, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8366676, 'lng': 24.003798}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> +380 67 430 0101</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 254.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Вівторок:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Середа:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Четверг:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Пʼятниця:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Субота:</strong> 09:00:00 - 20:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 20:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> М'ясне асорті (200/50/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 290.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Асорті сала (250/50/50/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Паштет з курячої печінки (210г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Асорті квашенини (410г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Оселедець з картоплею (240г)</p>
+                <p><strong>Опис:</strong> Оселедець, картопля молода, соус хрін, цибуля</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з м'ясом</p>
+                <p><strong>Опис:</strong> Вареники з м'ясом та сметаною</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з картоплею (250/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з капустою (250/50/20г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смажені палюшки з сирним соусом (335г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вареники з вишнею ( 220/60г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Смажені палюшки з сметаною та шкварками (350г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бограч з пампушками (340/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ з яворівським пирогом (250/150/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бульйон курячий (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Свинний биток зі смаженою картоплею і соусом барбекю (270/150/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> ПОЛЬСЬКЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Журек(330г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ПОЛЬСЬКЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Томатна зупа(400г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ПОЛЬСЬКЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля в мундирі з сирним соусом(200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> НАША КАРТОПЛЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля в мундирі з салом(200)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 100.0</p>
+                <p><strong>Тип:</strong> НАША КАРТОПЛЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печена картопля з маринованою цибулею (280/30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> НАША КАРТОПЛЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Куряче філе з грибним соусом та картоплею пюре (200/150/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 300.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стейк з ошийка та картопля по-селянськи (380г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 285.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі котлетки з картопляним пюре</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Налисники з м'ясом та соусом з печериць (240/100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 200.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Голубці з тертою картоплею (285г)</p>
+                <p><strong>Опис:</strong> Картопля, капуста, сметана</p>
+                <p><strong>Ціна:</strong> 190.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Зрази з м'ясом</p>
+                <p><strong>Опис:</strong> Рвана свинина, грибний соус, картопля</p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі ковбаски з тушеною капустою (380г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кров'янка з тушеною капустою</p>
+                <p><strong>Опис:</strong> 240/200/70</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни з грибним соусом (300/80г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни з рваною свининою (300/50/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Банош з з білими грибами (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни з сметаною та шкварками (300/50/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 155.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Банош зі шкварками (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пивна дошка (800/50/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 515.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бастурма (80г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі крила (180/50/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цибулеві кільця (150/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грінки з часником (150/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 115.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чіпси картопляні (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 90.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою (320г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Крумплі (150г)</p>
+                <p><strong>Опис:</strong> Бекон, гриби білі мариновані, помідори черрі, чіпси картопляні, сир Бринза, салат ромен, соус майонез</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Шуба (440г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Олів'є (310г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 185.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Вінігрет (290г)</p>
+                <p><strong>Опис:</strong> Квасоля, картопля, морква, буряк, солоні огірки, цибуля</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат овочевий(125г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Налисники (220/30/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Андрути (90г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 194.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирники (150/30/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Львівський сирник (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Засмажка з білих грибів</p>
+                <p><strong>Опис:</strong> 50 г</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Соус Сирний (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сметана (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Огірок свіжий (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Помідор свіжий (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хлібний кошик (150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 55.0</p>
+                <p><strong>Тип:</strong> ОСНОВНЕ МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Galicia яблуко</p>
+                <p><strong>Опис:</strong> 0.33</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Galicia яблуко-вишня</p>
+                <p><strong>Опис:</strong> 0.33</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Galicia яблуко-чорниця</p>
+                <p><strong>Опис:</strong> 0.33</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Galicia яблуко-груша</p>
+                <p><strong>Опис:</strong> 0.33</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік Jaffa таматний</p>
+                <p><strong>Опис:</strong> 0.25</p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Pepsi</p>
+                <p><strong>Опис:</strong> 0.33</p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr></div>
 </body>
 </html>

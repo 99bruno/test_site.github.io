@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,129 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/119.png" alt="Restaurant Image">
         <h1>Food On Fire - Їжа на Вогні</h1>
-        <p><strong>Address:</strong> вулиця Івана Миколайчука, 12, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8747575, 'lng': 24.04175549999999}</p>
-        <p><strong>Website:</strong> <a href="https://foofdrinkszone.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://foofdrinkszone.business.site/?utm_source=gmb&utm_medium=referral</a></p>
-        <p><strong>Phone:</strong> +380 97 041 4848</p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 21:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 19:00:00</p>
-        <p><strong>Average price:</strong> 102.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Івана Миколайчука, 12, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8747575, 'lng': 24.04175549999999}</p>
+        <p><strong>Вебсайт:</strong> <a href="https://foofdrinkszone.business.site/?utm_source=gmb&utm_medium=referral" target="_blank">https://foofdrinkszone.business.site/?utm_source=gmb&utm_medium=referral</a></p>
+        <p><strong>Телефон:</strong> +380 97 041 4848</p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> 102.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 21:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 19:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Рамен Тонкоцу (600г)</p>
+                <p><strong>Опис:</strong> Меганаваристий свинний бульйон, Умамі соус, ароматна олія з підвугленого часнику, свіжа хендмейд локшина, томлений свинний рулет зі скоринкою, мариноване яйце, зелена цибуля, кукурудза, норі, чорний гриб</p>
+                <p><strong>Ціна:</strong> 258.0</p>
+                <p><strong>Тип:</strong> РАМЕН</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рамен Торікоцу (600г)</p>
+                <p><strong>Опис:</strong> Наваристий, кремовий курячий бульйон, Умамі соус, свіжа хендмейд локшина, томлене куряче стегенце, мариноване яйце, зелена цибуля, кукурудза, норі, чорний гриб</p>
+                <p><strong>Ціна:</strong> 252.0</p>
+                <p><strong>Тип:</strong> РАМЕН</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рамен Місо  (600г)</p>
+                <p><strong>Опис:</strong> Меганаваристий свинний бульйон з місо пастою, свіжа хендмейд локшина, пряний свинний фарш, мариноване яйце, зелена цибуля, кукурудза, норі</p>
+                <p><strong>Ціна:</strong> 252.0</p>
+                <p><strong>Тип:</strong> РАМЕН</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рамен  Шою  (600г)</p>
+                <p><strong>Опис:</strong> Ароматний курячий бульйон з Соєвим соусом, свіжа хендмейд локшина, томлений свинний рулет зі скоринкою, мариноване яйце, зелена цибуля, ферментований бамбук, норі</p>
+                <p><strong>Ціна:</strong> 252.0</p>
+                <p><strong>Тип:</strong> РАМЕН</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рамен Веган Місо (600г)</p>
+                <p><strong>Опис:</strong> Ароматний веганський бульйон з вівсяним молоком та пастою місо, свіжа хендмейд локшина, маринований тофу, чорний гриб, зелена цибуля, цибуля фрі, кукурудза, кунжут, норі</p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> РАМЕН</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рамен  Шіо  (600г)</p>
+                <p><strong>Опис:</strong> Ароматний курячий бульйон з морською сіллю, свіжа хендмейд локшина, ніжне куряче філе, мариноване яйце, зелена цибуля, ферментований бамбук, норі</p>
+                <p><strong>Ціна:</strong> 228.0</p>
+                <p><strong>Тип:</strong> РАМЕН</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рамен  Веган Шою  (600г)</p>
+                <p><strong>Опис:</strong> Ароматний веганський бульйон з Соєвим соусом, свіжа хендмейд локшина, маринований тофу, чорний гриб, зелена цибуля, цибуля фрі, кукурудза, кунжут, норі</p>
+                <p><strong>Ціна:</strong> 228.0</p>
+                <p><strong>Тип:</strong> РАМЕН</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гьоза  класичні, 6 шт. (180г)</p>
+                <p><strong>Опис:</strong> Японські пельмені з міксом курки та свинини, зеленою цибулею, імбирем та часником</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ГЬОЗА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гьоза  з куркою та креветкою, 6 шт. (180г)</p>
+                <p><strong>Опис:</strong> Японські пельмені з міксом курки та креветки, зеленою цибулею, імбирем та часником</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ГЬОЗА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гьоза  веганські, 6 шт. (180г)</p>
+                <p><strong>Опис:</strong> Японські пельмені з грибами та капустою</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ГЬОЗА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Онігірі з тунцем (130г)</p>
+                <p><strong>Опис:</strong> Рисовий трикутничок з тунцем, загорнутий в норі</p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> ОНІГІРІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Маземен (270г)</p>
+                <p><strong>Опис:</strong> Свіжа локшина, пікантний свинний фарш, мариноване яйце, зелена цибуля, кукурудза, норі, імбир, оігрок, кунжут</p>
+                <p><strong>Ціна:</strong> 156.0</p>
+                <p><strong>Тип:</strong> ЛОКШИНА І САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вакаме (160г)</p>
+                <p><strong>Опис:</strong> Водорості вакаме з Горіховим соусом та кунжутною олією</p>
+                <p><strong>Ціна:</strong> 138.0</p>
+                <p><strong>Тип:</strong> ЛОКШИНА І САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кімчі (120г)</p>
+                <p><strong>Опис:</strong> Гостра закуска з ферментованої Пекінської капусти</p>
+                <p><strong>Ціна:</strong> 102.0</p>
+                <p><strong>Тип:</strong> ЛОКШИНА І САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мочі (60г)</p>
+                <p><strong>Опис:</strong> Японський десерт з рисового тіста з кремовою начинкою</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca-Cola (330мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Баночка кімчі (200г)</p>
+                <p><strong>Опис:</strong> Гостра закуска з ферментованої пекінської капусти</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> ПОЛИЦЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Баночка олійки чилі (160г)</p>
+                <p><strong>Опис:</strong> Хоуммейд олійка чилі</p>
+                <p><strong>Ціна:</strong> 168.0</p>
+                <p><strong>Тип:</strong> ПОЛИЦЯ</p>
+                <hr></div>
 </body>
 </html>

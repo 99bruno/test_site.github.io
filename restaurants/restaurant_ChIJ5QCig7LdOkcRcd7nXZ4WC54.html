@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,419 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/206.png" alt="Restaurant Image">
         <h1>Kebab sandwich bar</h1>
-        <p><strong>Address:</strong> RXRW+45, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8403894, 'lng': 23.99548919999999}</p>
-        <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
-        <p><strong>Phone:</strong> </p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Tuesday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Wednesday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Thursday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Friday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Saturday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Sunday:</strong> 00:00:00 - 23:59:00</p>
-        <p><strong>Average price:</strong> 89.0</p>
-        <p><strong>Overall price level:</strong> Low</p>
-    </div>
+        <p><strong>Адреса:</strong> RXRW+45, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8403894, 'lng': 23.99548919999999}</p>
+        <p><strong>Вебсайт:</strong> <a href="" target="_blank"></a></p>
+        <p><strong>Телефон:</strong> </p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 89.0</p>
+        <p><strong>Цінова політика:</strong> Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Вівторок:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Середа:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Четверг:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Пʼятниця:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Субота:</strong> 00:00:00 - 23:59:00</p>
+        <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Сицилійський салат + Пенірлі Афродіта</p>
+                <p><strong>Опис:</strong> Сицилійський салат з креветками смаженими на мангалі та локальною фетою, поєднуємо з класичною Пенірлі на томатній основі - Афродіта.</p>
+                <p><strong>Ціна:</strong> 490.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з телятиною + Пенірлі з чорізо</p>
+                <p><strong>Опис:</strong> Салат з ніжною телятиною щойно з вогню поєднуємо з пікантною Пенірлі з Чорізо, крем-фетою та кімчі.</p>
+                <p><strong>Ціна:</strong> 490.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сицилійський салат + Вершковий суп</p>
+                <p><strong>Опис:</strong> Сицилійський салат з креветками смаженими на мангалі та локальною фетою поєднуємо з ніжним Вершковим супом з морепродуктами.</p>
+                <p><strong>Ціна:</strong> 490.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вершковий суп + Птітім з мідіями</p>
+                <p><strong>Опис:</strong> Ніжний Вершковий суп з морепродуктами поєднуємо з птітімом з овочами та мідіями з мангалу.</p>
+                <p><strong>Ціна:</strong> 450.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з телятиною + Бульйон</p>
+                <p><strong>Опис:</strong> Салат з ніжною телятиною щойно з вогню поєднуємо з насиченим курячим бульйоном з птітімом.</p>
+                <p><strong>Ціна:</strong> 390.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бульйон + Птітім з креветками</p>
+                <p><strong>Опис:</strong> Курячий бульйон поєднуємо з птітімом з овочами та креветками з мангалу.</p>
+                <p><strong>Ціна:</strong> 390.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> З креветками та гливами (500g)</p>
+                <p><strong>Опис:</strong> Моцарела, креветки, смажені гливи, заправка з йогурту, крафтові в'ялені томати, мікс зелені</p>
+                <p><strong>Ціна:</strong> 389.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Груша дорблю (500g)</p>
+                <p><strong>Опис:</strong> Моцарела, заправка з йогурту, сир дорблю, виноград гриль, груша, зелена олія, мед, горіхи пекан та кешью</p>
+                <p><strong>Ціна:</strong> 379.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> З тартаром з лосося (550g)</p>
+                <p><strong>Опис:</strong> Заправка з йогурту, моцарела, лосось слабосолений, крем фета, сальса з оливками, мікс зелені</p>
+                <p><strong>Ціна:</strong> 359.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Special Пенірлі з креветками (595g)</p>
+                <p><strong>Опис:</strong> Сири Моцарела та Гауда,креветки, заправка з йогурту, шпинатне песто</p>
+                <p><strong>Ціна:</strong> 359.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Індичка на шпинаті (500g)</p>
+                <p><strong>Опис:</strong> Крем фета, моцарела, індичка сувід, кисло- солодкий соус, шпинат, часникова олія</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пенірлі з гарбузом та беконом (500g)</p>
+                <p><strong>Опис:</strong> Бекон, маринований гарбуз, сир гауда, моцарела, пекан,  томатна основа</p>
+                <p><strong>Ціна:</strong> 349.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> З щоками та кімчі (745g)</p>
+                <p><strong>Опис:</strong> Томатний соус, моцарела, яловичі щоки, маринована цибуля, кімчі, мікс зелені</p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> З чорізо крем фетою та кімчі (600g)</p>
+                <p><strong>Опис:</strong> Чорізо, томатний соус, моцарела, крем фета, кімчі, мікс зелені</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> З мітболами (580g)</p>
+                <p><strong>Опис:</strong> Заправка з йогурту, кафтедес, крем фета, моцарела, кисло-солодкий соус,  мікс зелені</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Афродіта (550g)</p>
+                <p><strong>Опис:</strong> Томатний соус, крем фета, моцарела, базилік</p>
+                <p><strong>Ціна:</strong> 259.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пухкий пенірлі</p>
+                <p><strong>Опис:</strong> Пенірлі запечений в печі з часниковою олією</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Страчателла (150g)</p>
+                <p><strong>Опис:</strong> Волокна моцарели з вершками, ікрою  та зеленою олією</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тарамасалата (165g)</p>
+                <p><strong>Опис:</strong> Традиційна закуска з печінки тріски, хліба, лимонного фрешу та фрешу молодого буряка</p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Дзадзикі (150g)</p>
+                <p><strong>Опис:</strong> Закуска з грецького йогурту, свіжого огірка та зеленні та лимонного фрешу, фундук</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крем Фета (150g)</p>
+                <p><strong>Опис:</strong> Фета із вершками та крем сиром вимішана із шпинатним соусом, олією з паприки, каперсами, мікс зелені</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мухамара (150g)</p>
+                <p><strong>Опис:</strong> Закуска з запеченого перцю капі, патоки винограду, лимонного фрешу та горіхами</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Хумус (170g)</p>
+                <p><strong>Опис:</strong> Традиційна закуска близького сходу з нуту, тахіні та оливокової олії</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бабагануш (170g)</p>
+                <p><strong>Опис:</strong> Закуска близькосхідної кухні.Готується з печених баклажанів на грилі , чімічурі, тахіні та лимонного фрешу</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фрітелле з креветками (300g)</p>
+                <p><strong>Опис:</strong> Крокети з цукіні та креветки. Подаються з крем фетою та сальсою з вʼялених томатів</p>
+                <p><strong>Ціна:</strong> 339.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тартар з в'яленої телятини (160g)</p>
+                <p><strong>Опис:</strong> Телятина вимішана із сальсою з в'ялених томатів. Подається з червоною олією, гелем з ферментованого лимону, ніжним кремом з фети та ферментованих каперсів, та соусом блек пепер</p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сир халумі гриль (260g)</p>
+                <p><strong>Опис:</strong> Сир халумі на грилі. Подається  з кисло-солодким соусом, сезонними ягодами та горіхами</p>
+                <p><strong>Ціна:</strong> 279.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Крудо з лосося (115g)</p>
+                <p><strong>Опис:</strong> Лосось, кисло-гострий соус</p>
+                <p><strong>Ціна:</strong> 229.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фета запечена з томатами (300g)</p>
+                <p><strong>Опис:</strong> Фета запечена з оливковою олією,  соус на основі меду та хрону, вʼялені помідори чері, фермерські томати, мікс зелені</p>
+                <p><strong>Ціна:</strong> 219.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пате з курячої печінки (250g)</p>
+                <p><strong>Опис:</strong> Ніжне пате з курячої печінки, подаємо з грінками з гречаного хліба , посипаємо фісташкою.Ідеально поєднається з: Porto Ruby. Noval</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Фалафель з хумусом (215g)</p>
+                <p><strong>Опис:</strong> Фалафель подається з хумусом та гранатом</p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чіпси з цукіні (300g)</p>
+                <p><strong>Опис:</strong> Цукіні обсмажені в клярі темпура. Подаються з фетою та кисло-солодким соусом</p>
+                <p><strong>Ціна:</strong> 149.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мікс маринованих оливок (150g)</p>
+                <p><strong>Опис:</strong> Копчені мариновані оливки з цедрою апельсину і лимону та оливкової олії</p>
+                <p><strong>Ціна:</strong> 119.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з восьминогом (250g)</p>
+                <p><strong>Опис:</strong> Мікс салату, помідори чері, картопля, восьминіг, лимон.</p>
+                <p><strong>Ціна:</strong> 329.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат сицилійський (330g)</p>
+                <p><strong>Опис:</strong> Мікс салату, креветки, філе апельсина, огірок, в'ялені чері, фета та сальса. Заправляється соусом вінегрет</p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з телятиною (275g)</p>
+                <p><strong>Опис:</strong> Теляча вирізка, листя салату та картопля, попередньо обсмажені на грилі, сливи з фетою, обсмажені гливи, сальса, соус блек пеппер</p>
+                <p><strong>Ціна:</strong> 309.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нісуаз гриль (320g)</p>
+                <p><strong>Опис:</strong> Тунець, листя салату та картопля, крафтові в'ялені томати, зелений горошок, маринований гарбуз та варене яйце, вінегрет.</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грецький салат (310g)</p>
+                <p><strong>Опис:</strong> Традиційне поєднання свіжих овочів та сиру.Фета, огірок, томати чері, перець капі, оливки та маринована цибуля</p>
+                <p><strong>Ціна:</strong> 209.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Восьминіг гриль (270g)</p>
+                <p><strong>Опис:</strong> Восьминіг запечений на грилі. Подається з картопляним пюре, в'яленими томатами ,обсмаженими гливами, зеленю та червоною олією</p>
+                <p><strong>Ціна:</strong> 489.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Телятина з пепер соусом (370g)</p>
+                <p><strong>Опис:</strong> Теляча вирізка гриль з соусом блек пепер. Подається з  маринованим гарбузом та печеною на грилі картоплею з соусом чімічурі</p>
+                <p><strong>Ціна:</strong> 429.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Стейк з лосося (376g)</p>
+                <p><strong>Опис:</strong> Лосось запечений на грилі. Подається з гливами та салатом з печеною картоплею під вершково-рибним соусом</p>
+                <p><strong>Ціна:</strong> 409.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сувлакі з ягня (500g)</p>
+                <p><strong>Опис:</strong> Ягня гриль, мариноване у грецьких спеціях, подаємо із пітою, печеною картоплею, соусом дзадзикі, в'яленими томатами чері та редисом. Прикрашаємо зеленню.Ідеально поєднається з:California Cabernet Sauvignon. BeringerChinuri-Rkatsiteli. Papari Valley</p>
+                <p><strong>Ціна:</strong> 369.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сувлакі з тунцем (560g)</p>
+                <p><strong>Опис:</strong> Тунець маринований в соусі теріякі. Подається з печеною картоплею з сиром, пітою, соусом дзадзикі, в'яленими томатами чері, прикрашаємо міксом кунжуту, редисом та зеленню.</p>
+                <p><strong>Ціна:</strong> 359.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тушкована спинка кроля (350g)</p>
+                <p><strong>Опис:</strong> Ніжне м'ясо кроля з картопляним пюре та тушкованими овочами. При подачі посипаємо фісташкою та волошкою.Ідеально поєднається з:Red. 19 crimesNemea Grande Reserve. Semeli Estate</p>
+                <p><strong>Ціна:</strong> 329.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сувлакі з куркою (395g)</p>
+                <p><strong>Опис:</strong> Мариноване куряче м'ясо запечене на грилі. Подається з печеною картоплею, авокадо, маринованим вяленим салатом, печеним на мангалі, вʼяленими томатами чері, редисом та соусом дзадзикі</p>
+                <p><strong>Ціна:</strong> 319.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб з ягня (450g)</p>
+                <p><strong>Опис:</strong> Ягня подаємо із печеним баклажаном та соусом на основі лабне, при подачі додаємо в'ялені томати чері та зелень, посипаємо міксом кунжуту.Ідеально поєднається з:Saperavi Sandotren. GraevoOld Vines. Ktima Papaioannou</p>
+                <p><strong>Ціна:</strong> 309.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Саганакі з креветками (290g)</p>
+                <p><strong>Опис:</strong> Креветки обсмажені на грилі із соусом Саганакі на основі томатів та спецій</p>
+                <p><strong>Ціна:</strong> 309.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яловичі щоки (320g)</p>
+                <p><strong>Опис:</strong> Яловичі щоки, томлені в томатному соусі. Подаються із картопляним пюре. Прикрашаємо кремом з фети, червоною олією та міксом зелені</p>
+                <p><strong>Ціна:</strong> 269.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочева мусака з фетою (370g)</p>
+                <p><strong>Опис:</strong> Цукіні та селера запечені з фетою та соусом на основі каперсів та глив, йогуртова заправка на основі шпинатного песто та зелені , запікаємо в печі з пітою.</p>
+                <p><strong>Ціна:</strong> 259.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лосось гриль на шпажці (130g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 170.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Телятина гриль на шпажці (70g)</p>
+                <p><strong>Опис:</strong> Вирізка яловичини з соусом Блек пеппер</p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Креветки гриль на шпажці (60g)</p>
+                <p><strong>Опис:</strong> Мариновані креветки з лимонним фрешем  та зеленню</p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тунець гриль на шпажці (75g)</p>
+                <p><strong>Опис:</strong> Тунець маринований з апельсином, зеленню та лимонним фрешем</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Ягня гриль на шпажці (100g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб на шпажці (100g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курка гриль на шпажці (100g)</p>
+                <p><strong>Опис:</strong> Куряче стегно, мікс чотирьох перців, лимонний фреш , тим'ян, часник та шрірача</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Мідії гриль на шпажці (50g)</p>
+                <p><strong>Опис:</strong> Мідії, лимонний фреш, зелень та часник</p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль на мангалі (170g)</p>
+                <p><strong>Опис:</strong> Перець капі , цукіні , шампіньйони та зелень</p>
+                <p><strong>Ціна:</strong> 129.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Птітім на вершковому маслі (150g)</p>
+                <p><strong>Опис:</strong> Птітім на вершковому маслі з пармезаном</p>
+                <p><strong>Ціна:</strong> 89.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печена картопля на мангалі (200g)</p>
+                <p><strong>Опис:</strong> Запечена картопля  із зеленню</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляне пюре (200g)</p>
+                <p><strong>Опис:</strong> Картопляне пюре з вершковим маслом</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля з сиром (200kg)</p>
+                <p><strong>Опис:</strong> Вершкова картопля з сиром.</p>
+                <p><strong>Ціна:</strong> 79.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вершковий суп з морепродуктами (260g)</p>
+                <p><strong>Опис:</strong> Ніжний вершковий суп з лососем, креветками, мідіями та хеком</p>
+                <p><strong>Ціна:</strong> 249.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Харіра (320g)</p>
+                <p><strong>Опис:</strong> Томатний суп з яловичиною, сочевицею та овочами</p>
+                <p><strong>Ціна:</strong> 169.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бульйон (300g)</p>
+                <p><strong>Опис:</strong> Курячий бульйон з птітімом , морквою та горошком, прикрашаємо зеленню.</p>
+                <p><strong>Ціна:</strong> 159.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> З восьминогом (440g)</p>
+                <p><strong>Опис:</strong> Птітім у вершково-рибному соусі з восьминогом, запеченим на грилі. Подаємо із бланшированими броколіПрикрашаємо кремом з фети та червоною ікрою</p>
+                <p><strong>Ціна:</strong> 449.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> З овочами та креветками (390g)</p>
+                <p><strong>Опис:</strong> Птітім із овочами, томленими у вершковому соусі. Подається із креветками запеченими на мангалі. Прикрашаємо спецією затар</p>
+                <p><strong>Ціна:</strong> 299.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> З овочами та мідіями (450g)</p>
+                <p><strong>Опис:</strong> Вершковий соус з пармезаном. Подається із мідіями запеченими на мангалі.Прикрашаємо кремом з фети та червоною ікрою</p>
+                <p><strong>Ціна:</strong> 279.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Перлина (100g)</p>
+                <p><strong>Опис:</strong> Ніжний мус на основі грецького йогурту, в поєднанні з апельсиновим конфітюром та легкими нотками чилі.</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чизкейк (165g)</p>
+                <p><strong>Опис:</strong> Ніжний вершковий чизкейкПодається з лаймовим гелем та фісташкою</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Пантеон (190g)</p>
+                <p><strong>Опис:</strong> Хрустке безе, ягідне конфі, крем з маскарпоне, оливки з шоколадного бісквіту,  білий шоколад, свіжі ягоди, м'ята, малинова пудра</p>
+                <p><strong>Ціна:</strong> 179.0</p>
+                <p><strong>Тип:</strong> MENU</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сік в асортименті 1л (1g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> N|A BAR</p>
+                <hr>
+                <p><strong>Позиція:</strong> Набеглаві (500ml)</p>
+                <p><strong>Опис:</strong> Грузинська лікувально-мінеральна вода</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> N|A BAR</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тонік (250ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> N|A BAR</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кола (250ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> N|A BAR</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Бонаква (330ml)</p>
+                <p><strong>Опис:</strong> Газована/негазована</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> N|A BAR</p>
+                <hr></div>
 </body>
 </html>

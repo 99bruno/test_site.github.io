@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,309 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/180.png" alt="Restaurant Image">
         <h1>Truffaldino-піца на дровах</h1>
-        <p><strong>Address:</strong> вулиця Миколи Хвильового, 50, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.8696666, 'lng': 24.0389374}</p>
-        <p><strong>Website:</strong> <a href="http://www.truffaldino.ua/" target="_blank">http://www.truffaldino.ua/</a></p>
-        <p><strong>Phone:</strong> +380 96 170 1900</p>
-        <p><strong>Type:</strong> restaurant</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Tuesday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Wednesday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Thursday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Friday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Saturday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Sunday:</strong> 11:00:00 - 22:00:00</p>
-        <p><strong>Average price:</strong> 255.0</p>
-        <p><strong>Overall price level:</strong> High</p>
-    </div>
+        <p><strong>Адреса:</strong> вулиця Миколи Хвильового, 50, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.8696666, 'lng': 24.0389374}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://www.truffaldino.ua/" target="_blank">http://www.truffaldino.ua/</a></p>
+        <p><strong>Телефон:</strong> +380 96 170 1900</p>
+        <p><strong>Тип:</strong> restaurant</p>
+        <p><strong>Середня ціна:</strong> 255.0</p>
+        <p><strong>Цінова політика:</strong> High</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Вівторок:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Середа:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Четверг:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Пʼятниця:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Субота:</strong> 11:00:00 - 22:00:00</p>
+        <p><strong>Неділя:</strong> 11:00:00 - 22:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Кебаб з куркою XL (490g)</p>
+                <p><strong>Опис:</strong> Склад: Куряче мясо, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лаваш</p>
+                <p><strong>Ціна:</strong> 171.0</p>
+                <p><strong>Тип:</strong> Промоакції</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб мікс XL (490g)</p>
+                <p><strong>Опис:</strong> Склад: Мікс телятини та курятини, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лаваш</p>
+                <p><strong>Ціна:</strong> 180.0</p>
+                <p><strong>Тип:</strong> Промоакції</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб з куркою L (420g)</p>
+                <p><strong>Опис:</strong> Склад: Куряче мясо, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лаваш</p>
+                <p><strong>Ціна:</strong> 148.5</p>
+                <p><strong>Тип:</strong> Промоакції</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб телятина XL (490g)</p>
+                <p><strong>Опис:</strong> Склад: Телятина, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лаваш</p>
+                <p><strong>Ціна:</strong> 193.5</p>
+                <p><strong>Тип:</strong> КЕБАБ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб з телятиною L (380g)</p>
+                <p><strong>Опис:</strong> Склад: Телятина, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лаваш</p>
+                <p><strong>Ціна:</strong> 157.5</p>
+                <p><strong>Тип:</strong> КЕБАБ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб мікс L (380g)</p>
+                <p><strong>Опис:</strong> Склад: Мікс телятини та курятини, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лаваш</p>
+                <p><strong>Ціна:</strong> 153.0</p>
+                <p><strong>Тип:</strong> КЕБАБ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб з телятиною М</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> КЕБАБ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб з куркою М</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> КЕБАБ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кебаб мікс М</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> КЕБАБ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо  з телятиною XL+картопля фрі+напій ж/б</p>
+                <p><strong>Опис:</strong> Склад: Телятина,салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лавашФрі: 120 г</p>
+                <p><strong>Ціна:</strong> 295.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо  з куркою XL +картопля фрі+напій ж/б</p>
+                <p><strong>Опис:</strong> Склад: Куряче мясо, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лавашФрі: 120 г</p>
+                <p><strong>Ціна:</strong> 275.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо  з телятиною L +картопля фрі+напій ж/б</p>
+                <p><strong>Опис:</strong> Склад: Телятина,салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лавашФрі: 120 г</p>
+                <p><strong>Ціна:</strong> 260.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо  мікс L +картопля фрі+напій ж/б</p>
+                <p><strong>Опис:</strong> Склад: Мікс телятини та курятини, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лавашФрі: 120 г</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо  мікс XL +картопля фрі+напій ж/б (470g)</p>
+                <p><strong>Опис:</strong> Склад: Мікс телятини та курятини, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лавашФрі: 120 г</p>
+                <p><strong>Ціна:</strong> 255.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо з куркою L +картопля фрі+напій ж/б</p>
+                <p><strong>Опис:</strong> Склад: Куряче мясо, салат айсберг, помідор, маринований огірок, синя цибулька, фірмовий соус та лавашФрі: 120 г</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо  з телятиною M +картопля фрі+напій ж/б</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо  мікс M +картопля фрі+напій ж/б</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 240.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Комбо з куркою M +картопля фрі+напій ж/б</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі крильця XL</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 375.0</p>
+                <p><strong>Тип:</strong> ФРІТЮР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Курячі крильця L</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 235.0</p>
+                <p><strong>Тип:</strong> ФРІТЮР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цибулеві кільця max</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 210.0</p>
+                <p><strong>Тип:</strong> ФРІТЮР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирні палички</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ФРІТЮР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Цибулеві кільця mini</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 120.0</p>
+                <p><strong>Тип:</strong> ФРІТЮР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляні діпи</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ФРІТЮР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопля фрі (120g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 72.0</p>
+                <p><strong>Тип:</strong> ФРІТЮР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси з сиром</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 63.0</p>
+                <p><strong>Тип:</strong> ФРІТЮР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Нагетси</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 63.0</p>
+                <p><strong>Тип:</strong> ФРІТЮР</p>
+                <hr>
+                <p><strong>Позиція:</strong> Часниковий (50g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кетчуп (50g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кисло-солодкий (50g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сирний (50g)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Барбекю</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Солодкий чилі</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Брусничний</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 20.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> RICH мультифруктовий (500ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> RICH ягідний (500ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca Cola скло (250ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite (250ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fuze tea чорний чай (500ml)</p>
+                <p><strong>Опис:</strong> зі смаком лісових ягід та гібіскуса</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fuze tea зелений чай (500ml)</p>
+                <p><strong>Опис:</strong> зі смаком манго та ромашкою</p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca Cola (500ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca Cola zero 0,5</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite (500ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta (500ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Coca Cola 0.33 coffe</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Sprite ж/б (330ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Fanta ж/б (330ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська газована (500ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Bon aqua негазована</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Bon Aqua газована</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська kids</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Моршинська негазована (500ml)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 25.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лаваш з подвійною ковбаскою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 175.0</p>
+                <p><strong>Тип:</strong> ЛАВАШ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Лаваш з ковбаскою</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 135.0</p>
+                <p><strong>Тип:</strong> ЛАВАШ</p>
+                <hr></div>
 </body>
 </html>

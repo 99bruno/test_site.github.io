@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-content: center;
         }
         h1 {
             margin: 0 0 20px;
@@ -31,27 +32,354 @@
             text-decoration: none;
             color: #007BFF;
         }
+        .container img{
+            width: 150px; /* Встановлюємо ширину */
+            height: auto; /* Автоматична висота, щоб зберегти пропорції */
+            border-radius: 15%;
+            align-content: center;
+
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="back-link">← Back to list</a>
+        <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/332.png" alt="Restaurant Image">
         <h1>Glory cafe</h1>
-        <p><strong>Address:</strong> площа Міцкевича, 1, Львів</p>
-        <p><strong>Coordinates:</strong> {'lat': 49.83866390000001, 'lng': 24.03077159999999}</p>
-        <p><strong>Website:</strong> <a href="http://www.theglorycafe.com/" target="_blank">http://www.theglorycafe.com/</a></p>
-        <p><strong>Phone:</strong> +380 66 310 4317</p>
-        <p><strong>Type:</strong> cafe</p>
-        <h2>Opening Hours</h2>
-        <p><strong>Monday:</strong> 08:30:00 - 00:00:00</p>
-        <p><strong>Tuesday:</strong> 08:30:00 - 00:00:00</p>
-        <p><strong>Wednesday:</strong> 08:30:00 - 00:00:00</p>
-        <p><strong>Thursday:</strong> 08:30:00 - 00:00:00</p>
-        <p><strong>Friday:</strong> 08:30:00 - 00:00:00</p>
-        <p><strong>Saturday:</strong> 09:00:00 - 00:00:00</p>
-        <p><strong>Sunday:</strong> 09:00:00 - 00:00:00</p>
-        <p><strong>Average price:</strong> 162.0</p>
-        <p><strong>Overall price level:</strong> Medium-Low</p>
-    </div>
+        <p><strong>Адреса:</strong> площа Міцкевича, 1, Львів</p>
+        <p><strong>Координати:</strong> {'lat': 49.83866390000001, 'lng': 24.03077159999999}</p>
+        <p><strong>Вебсайт:</strong> <a href="http://www.theglorycafe.com/" target="_blank">http://www.theglorycafe.com/</a></p>
+        <p><strong>Телефон:</strong> +380 66 310 4317</p>
+        <p><strong>Тип:</strong> cafe</p>
+        <p><strong>Середня ціна:</strong> 162.0</p>
+        <p><strong>Цінова політика:</strong> Medium-Low</p>
+        <h2>Години роботи</h2>
+        <p><strong>Понеділок:</strong> 08:30:00 - 00:00:00</p>
+        <p><strong>Вівторок:</strong> 08:30:00 - 00:00:00</p>
+        <p><strong>Середа:</strong> 08:30:00 - 00:00:00</p>
+        <p><strong>Четверг:</strong> 08:30:00 - 00:00:00</p>
+        <p><strong>Пʼятниця:</strong> 08:30:00 - 00:00:00</p>
+        <p><strong>Субота:</strong> 09:00:00 - 00:00:00</p>
+        <p><strong>Неділя:</strong> 09:00:00 - 00:00:00</p>
+
+
+        <!-- Додано блок для виведення інформації про меню -->
+
+    <h2>Меню</h2>
+                <p><strong>Позиція:</strong> Сирники з ягідною поливкою та сметаною (200/30/30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ЗДОРОВІ ТА СМАЧНІ ПЕРЕКУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці з домашнім сиром (180/30г)</p>
+                <p><strong>Опис:</strong> З родзинками та ягідною поливкою</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ЗДОРОВІ ТА СМАЧНІ ПЕРЕКУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинець з карамелізованими яблоками (250г)</p>
+                <p><strong>Опис:</strong> З медом та корицею</p>
+                <p><strong>Ціна:</strong> 125.0</p>
+                <p><strong>Тип:</strong> ЗДОРОВІ ТА СМАЧНІ ПЕРЕКУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Бабусині млинці з ягідною поливкою (120/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> ЗДОРОВІ ТА СМАЧНІ ПЕРЕКУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тости з індичкою та сиром і томатами (2шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ЗДОРОВІ ТА СМАЧНІ ПЕРЕКУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Тости з сиром (2шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> ЗДОРОВІ ТА СМАЧНІ ПЕРЕКУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Медове печене Яблуко з корицею (1шт)</p>
+                <p><strong>Опис:</strong> З корицею, горішками та родзинками</p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> ЗДОРОВІ ТА СМАЧНІ ПЕРЕКУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вівсяна каша на вівсяному молоці з горіхами та сухофруктами (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 106.0</p>
+                <p><strong>Тип:</strong> КАШІ МОЛОЧНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вівсяна каша з горіхами (250г)</p>
+                <p><strong>Опис:</strong> З сухофруктами та медом</p>
+                <p><strong>Ціна:</strong> 105.0</p>
+                <p><strong>Тип:</strong> КАШІ МОЛОЧНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вівсяна каша з вареним яйцем та сиром Фета (260г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 95.0</p>
+                <p><strong>Тип:</strong> КАШІ МОЛОЧНІ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біг Боул Хумус  (300г)</p>
+                <p><strong>Опис:</strong> З  морквою, сочевицею, авокадо, броколі, лавашем та печерицями</p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з індичкою гриль та квасолею (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з печеного лосося (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат теплий з печінки (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 245.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Цезар з куркою (250г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат Шопський з карпатською бринзою (230г)</p>
+                <p><strong>Опис:</strong> Cbh Бринза, помідори, огірки, зелений перець, пtтрушка, чорні оливки, оливкова олія</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Салат з буряка (200г)</p>
+                <p><strong>Опис:</strong> Заправлений олією, що подається з запашним чорним хлібом</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Суп овочевий з фрикадельками (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 150.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Борщ червоний зі сметаною (300г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 130.0</p>
+                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Млинці зі шпинатом та лососем (250/30г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 215.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Голубці з пшоном та грибами(200/50г)</p>
+                <p><strong>Опис:</strong> Капуста Савойська, пшоно, гриби Печериці та Білі</p>
+                <p><strong>Ціна:</strong> 165.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Деруни по-Галицькі зі сметаною (200/50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 160.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Банош (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 140.0</p>
+                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе індички на грилі (150г)</p>
+                <p><strong>Опис:</strong> Подається з соусом Барбекю</p>
+                <p><strong>Ціна:</strong> 250.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кнелі на пару з індички (120г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 205.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Біфстроганоф з печінки (150г)</p>
+                <p><strong>Опис:</strong> Печінка куряча, цибуля, вершки</p>
+                <p><strong>Ціна:</strong> 195.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Яйце Пашот з тостом та авокадо</p>
+                <p><strong>Опис:</strong> Яйце, хліб тостовий, паста з авокадо</p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З МЯСА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Запечене філе лосося на вершково-шпинатній подушці (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 360.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З РИБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Форель запечена з ароматними травами (1шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 315.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З РИБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Філе хека запечене з сиром (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 225.0</p>
+                <p><strong>Тип:</strong> СТРАВИ З РИБИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Овочі гриль (150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 145.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Картопляне пюре (200г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кус-кус (150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Гречка (150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рис з овочами (150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Буряк тушкований (150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Морква тушкована (150г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Грибний соус (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Сметана (50г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 30.0</p>
+                <p><strong>Тип:</strong> СОУСИ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Спартак (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> ФІРМОВІ ЗАПІКАНКИ ТА ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Торт Наполеон (100г)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> ФІРМОВІ ЗАПІКАНКИ ТА ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Еклер класичний зі справжнім заварним кремом (1шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> ФІРМОВІ ЗАПІКАНКИ ТА ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Рогалики з вишнею (1шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 54.0</p>
+                <p><strong>Тип:</strong> ФІРМОВІ ЗАПІКАНКИ ТА ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печиво Австрійське з джемом чорної смородини (1шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 48.0</p>
+                <p><strong>Тип:</strong> ФІРМОВІ ЗАПІКАНКИ ТА ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печиво Горіхове з родзинками(за 1шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> ФІРМОВІ ЗАПІКАНКИ ТА ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печиво Пряне  (1шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 45.0</p>
+                <p><strong>Тип:</strong> ФІРМОВІ ЗАПІКАНКИ ТА ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Печиво Вівсяне з грецьким горіхом (1шт)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> ФІРМОВІ ЗАПІКАНКИ ТА ВИПІЧКА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кисіль вишневий (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> НАПОЇ ВЛАСНОГО ПРИГОТУВАННЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Узвар домашній (250мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 35.0</p>
+                <p><strong>Тип:</strong> НАПОЇ ВЛАСНОГО ПРИГОТУВАННЯ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Боржомі (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 60.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Моршинська слабогазована (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Вода Моршинська негазована (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 50.0</p>
+                <p><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай обліпиховий (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 85.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай чорний заварний (500мл)</p>
+                <p><strong>Опис:</strong> На перетертому мигдалі, із сушеними вишнями та родзинками</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай чорний заварний з бергомотом (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай зелений (500мл)</p>
+                <p><strong>Опис:</strong> З мигдалем та курагою</p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай зелений з жасмином (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай трав'яний (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Чай фруктовий (500мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 70.0</p>
+                <p><strong>Тип:</strong> ЧАЙ</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Лате (180мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Какао домашнє (200мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 75.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Капучіно (140мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 65.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p><strong>Позиція:</strong> Кава Американо (100мл)</p>
+                <p><strong>Опис:</strong> </p>
+                <p><strong>Ціна:</strong> 40.0</p>
+                <p><strong>Тип:</strong> КАВА</p>
+                <hr></div>
 </body>
 </html>
