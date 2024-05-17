@@ -8,14 +8,17 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const csvFilePath = 'data/Restaurants.csv';
+            let restaurants = [];
             Papa.parse(csvFilePath, {
                 download: true,
                 header: true,
                 complete: function (results) {
-                    const restaurants = results.data;
+                    restaurants = results.data;
                     console.log('CSV parsing complete.', restaurants);
+                    populateFilters(restaurants);
                     displayRestaurants(restaurants);
                     addSearchFunctionality(restaurants);
+                    addFilterFunctionality(restaurants);
                 }
             });
 
@@ -39,13 +42,95 @@
                 const searchInput = document.getElementById('search');
                 searchInput.addEventListener('input', function () {
                     const query = searchInput.value.toLowerCase();
-                    const filteredRestaurants = restaurants.filter(restaurant => 
-                        (restaurant.Name && restaurant.Name.toLowerCase().includes(query)) ||
-                        (restaurant.Address && restaurant.Address.toLowerCase().includes(query))
-                    );
+                    const filteredRestaurants = filterRestaurants(restaurants, query, getFilterValues());
                     console.log('Filtered restaurants:', filteredRestaurants);
                     displayRestaurants(filteredRestaurants);
                 });
+            }
+
+            function addFilterFunctionality(restaurants) {
+                const filterButton = document.getElementById('filter-button');
+                const filterContainer = document.getElementById('filter-container');
+                filterButton.addEventListener('click', function () {
+                    filterContainer.classList.toggle('hidden');
+                });
+
+                const filterInputs = Array.from(filterContainer.querySelectorAll('input, select'));
+                filterInputs.forEach(input => {
+                    input.addEventListener('change', function () {
+                        const query = document.getElementById('search').value.toLowerCase();
+                        const filteredRestaurants = filterRestaurants(restaurants, query, getFilterValues());
+                        console.log('Filtered restaurants:', filteredRestaurants);
+                        displayRestaurants(filteredRestaurants);
+                    });
+                });
+            }
+
+            function populateFilters(restaurants) {
+                const types = [...new Set(restaurants.map(r => r.Type))].sort();
+                const prices = [...new Set(restaurants.map(r => r['Overall price level']))].sort();
+                const areas = [...new Set(restaurants.map(r => r.Area))].sort();
+
+                const typeSelect = document.getElementById('filter-type');
+                types.forEach(type => {
+                    const option = document.createElement('option');
+                    option.value = type;
+                    option.textContent = type;
+                    typeSelect.appendChild(option);
+                });
+
+                const priceSelect = document.getElementById('filter-price');
+                prices.forEach(price => {
+                    const option = document.createElement('option');
+                    option.value = price;
+                    option.textContent = price;
+                    priceSelect.appendChild(option);
+                });
+
+                const areaSelect = document.getElementById('filter-area');
+                areas.forEach(area => {
+                    const option = document.createElement('option');
+                    option.value = area;
+                    option.textContent = area;
+                    areaSelect.appendChild(option);
+                });
+            }
+
+            function getFilterValues() {
+                return {
+                    type: document.getElementById('filter-type').value,
+                    price: document.getElementById('filter-price').value,
+                    area: document.getElementById('filter-area').value,
+                    hours: document.getElementById('filter-hours').value
+                };
+            }
+
+            function filterRestaurants(restaurants, query, filters) {
+                return restaurants.filter(restaurant => {
+                    const matchesSearch = (restaurant.Name && restaurant.Name.toLowerCase().includes(query)) ||
+                                          (restaurant.Address && restaurant.Address.toLowerCase().includes(query));
+                    const matchesType = !filters.type || restaurant.Type === filters.type;
+                    const matchesPrice = !filters.price || restaurant['Overall price level'] === filters.price;
+                    const matchesArea = !filters.area || restaurant.Area === filters.area;
+                    const matchesHours = !filters.hours || compareHours(restaurant, filters.hours);
+
+                    return matchesSearch && matchesType && matchesPrice && matchesArea && matchesHours;
+                });
+            }
+
+            function compareHours(restaurant, hours) {
+                const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+                const minOpenTime = Math.min(...days.map(day => timeToMinutes(restaurant[`${day} Open time`])));
+                const minCloseTime = Math.min(...days.map(day => timeToMinutes(restaurant[`${day} Close time`])));
+
+                const filterTime = timeToMinutes(hours);
+                return minOpenTime <= filterTime && filterTime <= minCloseTime;
+            }
+
+            function timeToMinutes(time) {
+                if (!time) return Infinity;
+                const [hour, minute] = time.split(':').map(Number);
+                return hour * 60 + minute;
             }
         });
     </script>
@@ -64,17 +149,21 @@
             margin: 0;
             font-size: 2.5em;
         }
-        .search-container {
+        .search-container, .filter-container {
             text-align: center;
             margin-bottom: 20px;
         }
-        .search-container input {
+        .search-container input, .filter-container select, .filter-container input {
             padding: 10px;
             font-size: 1.2em;
             width: 80%;
             max-width: 600px;
             border: 1px solid #ccc;
             border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .filter-container.hidden {
+            display: none;
         }
         .restaurant-item {
             background: #fff;
@@ -89,6 +178,19 @@
         .restaurant-item p {
             margin: 5px 0;
         }
+        .filter-button-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .filter-button-container button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
@@ -97,6 +199,21 @@
     </div>
     <div class="search-container">
         <input type="text" id="search" placeholder="Search for restaurants...">
+    </div>
+    <div class="filter-button-container">
+        <button id="filter-button">Filter</button>
+    </div>
+    <div class="filter-container hidden" id="filter-container">
+        <select id="filter-type">
+            <option value="">Select Type</option>
+        </select>
+        <select id="filter-price">
+            <option value="">Select Price Level</option>
+        </select>
+        <select id="filter-area">
+            <option value="">Select Area</option>
+        </select>
+        <input type="time" id="filter-hours" placeholder="Open Hours">
     </div>
     <div id="restaurant-list"></div>
 </body>
