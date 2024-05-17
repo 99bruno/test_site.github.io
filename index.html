@@ -40,8 +40,8 @@
                 searchInput.addEventListener('input', function () {
                     const query = searchInput.value.toLowerCase();
                     const filteredRestaurants = restaurants.filter(restaurant => 
-                        restaurant.Name.toLowerCase().includes(query) || 
-                        restaurant.Address.toLowerCase().includes(query)
+                        (restaurant.Name && restaurant.Name.toLowerCase().includes(query)) ||
+                        (restaurant.Address && restaurant.Address.toLowerCase().includes(query))
                     );
                     console.log('Filtered restaurants:', filteredRestaurants);
                     displayRestaurants(filteredRestaurants);
