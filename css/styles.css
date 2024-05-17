@@ -1,3 +1,50 @@
+#logo {
+    max-height: 40px; /* регулюємо висоту логотипу */
+    margin-right: 10px; /* додамо відступ між логотипом і текстом */
+    border-radius: 25% 10%;
+}
+.support-icon img {
+    width: 150px; /* Встановлюємо ширину */
+    height: auto; /* Автоматична висота, щоб зберегти пропорції */
+    border-radius: 10px;
+}
+
+.support-icon {
+    position: fixed; /* Закріплюємо фотографію */
+    bottom: 20px; /* Встановлюємо відступ від нижнього краю */
+    right: 20px; /* Встановлюємо відступ від правого краю */
+    z-index: 1000; /* Забезпечуємо, щоб фотографія була наверху */
+}
+
+
+.custom-navbar {
+    background-color: #05DA9D !important;
+    position: fixed; /* Закріплюємо навігаційний бар */
+    top: 0; /* Встановлюємо його у верхню частину екрану */
+    width: 100%; /* Розтягуємо на всю ширину екрану */
+    z-index: 1000;
+}
+
+#map {
+    height: 500px; /* Встановлюємо висоту карти */
+    width: 100%; /* Займаємо всю доступну ширину */
+    border-radius: 10px; /* Округлі кути */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь */
+}
+
+/* Застосовуємо кастомні стилі до навігаційного меню */
+.navbar-light.bg-light.custom-navbar {
+    background-color: blue;
+    border-color: blue;
+}
+
+
+/* Застосовуємо кастомні кольори тексту при наведенні */
+.navbar-light.bg-light.custom-navbar .navbar-nav .nav-link:hover {
+    color: black;
+
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -26,4 +73,52 @@ h1 {
 
 #restaurantList .restaurant p {
     margin: 5px 0;
+}
+
+
+.photo-background-Elego img {
+    border-radius: 10px;
+    background-color: #05DA9D; /* Кольор тла */
+
+}
+
+.team-member {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.member-info {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(100%);
+    border-radius: 10px;
+}
+
+.team-member:hover img {
+    transform: translateY(-20%);
+    border-radius: 10px;
+}
+
+.team-member:hover .member-info {
+    transform: translateY(0);
+    border-radius: 10px;
+}
+
+#footer {
+    background-color: black !important;
+    position: static !important;
+    bottom: 0 !important;
+
 }

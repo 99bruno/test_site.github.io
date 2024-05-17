@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Події</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const csvFilePath = 'data/Events.csv';
+            let events = [];
+            Papa.parse(csvFilePath, {
+                download: true,
+                header: true,
+                complete: function (results) {
+                    events = results.data;
+                    console.log('CSV parsing complete.', events);
+                    populateFilters(events);
+                    displayRestaurants(events);
+                    addSearchFunctionality(events);
+                    addFilterFunctionality(events);
+                }
+            });
+
+            function displayRestaurants(events) {
+                const EventsList = document.getElementById('restaurant-list');
+                EventsList.innerHTML = ''; // Clear existing list
+                events.forEach(event => {
+                    const EventsItem = document.createElement('div');
+                    EventsItem.className = 'event-item';
+                    EventsItem.innerHTML = `
+                        <h2><a href="events/event_${event.Name}.html">${event.Name}</a></h2>
+                        <p>Адереса: ${event.Place}</p>
+                        <p>Дата: ${event['Start time']}</p>
+                        <p>Ціна: ${event['Prices lower']} - ${event['Prices upper']}</p>`;
+                    EventsList.appendChild(EventsItem);
+                });
+            }
+
+            function addSearchFunctionality(events) {
+                const searchInput = document.getElementById('search');
+                searchInput.addEventListener('input', function () {
+                    const query = searchInput.value.toLowerCase();
+                    const filteredEvents = filterRestaurants(events, query, getFilterValues());
+                    console.log('Filtered restaurants:', filteredEvents);
+                    displayRestaurants(filteredEvents);
+                });
+            }
+
+            function addFilterFunctionality(events) {
+                const filterButton = document.getElementById('filter-button');
+                const filterContainer = document.getElementById('filter-container');
+                filterButton.addEventListener('click', function () {
+                    filterContainer.classList.toggle('hidden');
+                });
+
+                const filterInputs = Array.from(filterContainer.querySelectorAll('input, select'));
+                filterInputs.forEach(input => {
+                    input.addEventListener('change', function () {
+                        const query = document.getElementById('search').value.toLowerCase();
+                        const filteredEvents = filterRestaurants(events, query, getFilterValues());
+                        console.log('Filtered restaurants:', filteredEvents);
+                        displayRestaurants(filteredEvents);
+                    });
+                });
+            }
+
+            function populateFilters(events) {
+
+                const places = [...new Set(events.map(r => r.Place))].sort();
+
+
+                const areaSelect = document.getElementById('filter-area');
+                places.forEach(area => {
+                    const option = document.createElement('option');
+                    option.value = area;
+                    option.textContent = area;
+                    areaSelect.appendChild(option);
+                });
+            }
+
+            function getFilterValues() {
+                return {
+                    area: document.getElementById('filter-area').value,
+                    hours: document.getElementById('filter-hours').value
+                };
+            }
+
+            function filterRestaurants(events, query, filters) {
+                return events.filter(event => {
+                    const matchesSearch = (event.Name && event.Name.toLowerCase().includes(query)) ||
+                                          (event.Place && event.Place.toLowerCase().includes(query));
+                    const matchesArea = !filters.area || event.Place === filters.area;
+                    const matchesHours = !filters.hours || compareHours(event, filters.hours);
+
+                    return matchesSearch && matchesArea && matchesHours;
+                });
+            }
+
+            function timeToMinutes_parser(dateTimeString) {
+                console.log(typeof dateTimeString)
+                if (typeof dateTimeString !== 'string') {
+        console.error('Invalid input: dateTimeString is not a string');
+        return 0;
+    }
+
+    // Розділяємо дату та час
+    const dateTimeParts = dateTimeString.split(' ');
+    if (dateTimeParts.length !== 2) {
+        console.error('Invalid dateTimeString format', dateTimeString);
+        return 0;
+    }
+
+    // Витягуємо частину часу
+    const timePart = dateTimeParts[1];
+    // Розділяємо час на години та хвилини
+    const timeParts = timePart.split(':');
+    if (timeParts.length < 2) {
+        console.error('Invalid time format', timePart);
+        return 0;
+    }
+
+    const hours = parseInt(timeParts[0], 10);
+    const minutes = parseInt(timeParts[1], 10);
+
+    // Перевіряємо, чи години та хвилини є коректними числами
+    if (isNaN(hours) || isNaN(minutes)) {
+        console.error('Invalid time values', timePart);
+        return 0;
+    }
+
+    // Перетворюємо години на хвилини та додаємо хвилини
+    return (hours * 60) + minutes;
+}
+
+
+            function compareHours(event, hours) {
+                const minOpenTime = timeToMinutes_parser(event[`Start time`]);
+                const minCloseTime = timeToMinutes_parser(event[`End time`]);
+
+                const filterTime = timeToMinutes(hours);
+                return minOpenTime <= filterTime <= minCloseTime;
+            }
+
+            function timeToMinutes(time) {
+                if (!time) return Infinity;
+                const [hour, minute] = time.split(':').map(Number);
+                return hour * 60 + minute;
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f8f8;
+            padding-top: 5%;
+        }
+        .rest_cont {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 2%;
+            padding-right: 15%;
+            padding-left: 15%;
+            background-color: #f8f8f8;
+
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .search-container, .filter-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .search-container input, .filter-container select, .filter-container input {
+            padding: 10px;
+            font-size: 1.2em;
+            width: 80%;
+            max-width: 600px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+        .filter-container.hidden {
+            display: none;
+        }
+        .event-item {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .restaurant-item h2 {
+            margin: 0 0 10px;
+        }
+        .restaurant-item p {
+            margin: 5px 0;
+        }
+        .filter-button-container {
+            text-align: center;
+            margin-bottom: 20px;
+
+        }
+        .filter-button-container button {
+            padding: 10px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+
+    <a class="navbar-brand" href="index.html">
+
+        <img src="Photo/Logo_var5.png" alt="Hozu Logo" id="logo">
+
+        Hozu
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Про нас</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="design.html">Дизайн застосунку</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="map.html">Карта Закладів</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="restaurants.html">Заклади</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="events.html">Події</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</head>
+<body>
+
+<div class="rest_cont">
+
+    <div class="header">
+        <h1>Перелік Подій</h1><br>
+    </div>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Пошук за подіями...">
+    </div>
+    <div class="filter-button-container">
+        <button id="filter-button">Фільтр</button>
+    </div>
+    <div class="filter-container hidden" id="filter-container">
+        <select id="filter-area">
+            <option value="">Район</option>
+        </select>
+        <input type="time" id="filter-hours" placeholder="Open Hours">
+    </div>
+    <div id="restaurant-list"></div>
+    </div>
+<div class="support-icon">
+    <img src="Photo/qrcode_99bruno.github.io.png" alt="Support Icon">
+</div>
+<footer class="footer bg-dark text-center text-light py-3">
+    <!-- Футер з контактною інформацією або іншими посиланнями -->
+    <p>&copy; 2024 Hozu. Усі права захищені.</p>
+</footer>
+</body>
+</html>
