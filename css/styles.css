@@ -30,7 +30,10 @@
     top: 0; /* Встановлюємо його у верхню частину екрану */
     width: 100%; /* Розтягуємо на всю ширину екрану */
     z-index: 1000;
+    color: black !important;
 }
+
+
 
 #map {
     height: 500px; /* Встановлюємо висоту карти */
@@ -39,16 +42,17 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь */
 }
 
-/* Застосовуємо кастомні стилі до навігаційного меню */
-.navbar-light.bg-light.custom-navbar {
-    background-color: blue;
-    border-color: blue;
+
+.navbar, .navbar-nav .nav-link {
+    background-color: #05DA9D !important;
+    color: rgb(18, 91, 61) !important;
 }
 
-
 /* Застосовуємо кастомні кольори тексту при наведенні */
-.navbar-light.bg-light.custom-navbar .navbar-nav .nav-link:hover {
-    color: black;
+.navbar, .navbar-nav .nav-link:hover {
+    color: black !important;
+    list-style: none;
+    display: flex;
 
 }
 
@@ -150,7 +154,7 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
@@ -162,7 +166,7 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: black;
     margin: 5px;
     transition: all 0.3s ease;
 }
