@@ -7,6 +7,13 @@
     width: 150px; /* Встановлюємо ширину */
     height: auto; /* Автоматична висота, щоб зберегти пропорції */
     border-radius: 10px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .support-icon {
+        display: none;
+    }
 }
 
 .support-icon {
@@ -121,6 +128,60 @@ h1 {
     position: static !important;
     bottom: 0 !important;
 
+}
+
+/* Add styles for the navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    .burger {
+        display: block;
+    }
 }
 
 
