@@ -208,3 +208,42 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container_competition {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container_competition img {
+    max-width: 80%;
+    height: auto;
+}
+
+.col-md-6_img_commercial {
+    display: flex !important;
+    justify-content: right !important;
+}
+
+.col-md-6_img_commercial img {
+    max-width: 65%;
+    height: auto;
+}
+
+.custom-img {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 60%; /* Max width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+}
+
