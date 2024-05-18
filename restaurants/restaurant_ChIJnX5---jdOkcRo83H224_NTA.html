@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee lab Залізнична</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/300.png" alt="Restaurant Image">
         <h1>Coffee lab Залізнична</h1>
@@ -63,168 +116,189 @@
         <p><strong>Неділя:</strong> 08:00:00 - 21:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Люля-кебаб мікс (200г)</p>
-                <p><strong>Опис:</strong> Люля-кебаб мікс з телятини та свинини</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> ЛЮЛЯ-КЕБАБ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Люля-кебаб мікс (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Люля-кебаб мікс з телятини та свинини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛЮЛЯ-КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Журавлиний (100г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Журавлиний (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Аджика (100мл)</p>
-                <p><strong>Опис:</strong> Аджика</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Аджика (100мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Аджика</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Ткемалі (100мл)</p>
-                <p><strong>Опис:</strong> Кисло-солодкий</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Ткемалі (100мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кисло-солодкий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус часниковий (100мл)</p>
-                <p><strong>Опис:</strong> Зроблений на основі натурального йогурту</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус часниковий (100мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зроблений на основі натурального йогурту</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус томатний (100мл)</p>
-                <p><strong>Опис:</strong> Соус томатний</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус томатний (100мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Часник маринований (200г)</p>
-                <p><strong>Опис:</strong> Часник маринований</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Часник маринований (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Часник маринований</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Цицак - гостро-маринований перець (200г)</p>
-                <p><strong>Опис:</strong> Цицак - гостро-маринований перець</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цицак - гостро-маринований перець (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цицак - гостро-маринований перець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Помiдори квашені (200г)</p>
-                <p><strong>Опис:</strong> Помiдори квашені зелені та червоні</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Помiдори квашені (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Помiдори квашені зелені та червоні</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Огірки солені (200г)</p>
-                <p><strong>Опис:</strong> Огірки солені</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Огірки солені (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Огірки солені</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Капуста квашена (200г)</p>
-                <p><strong>Опис:</strong> Крижавка по-вірменски</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капуста квашена (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крижавка по-вірменски</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ МАРИНОВАНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Аджапсандал з багаття (200г)</p>
-                <p><strong>Опис:</strong> Страва приготована з суміші овочів (баклажани, перец болгарський, помідори, цибуля)</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Аджапсандал з багаття (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Страва приготована з суміші овочів (баклажани, перец болгарський, помідори, цибуля)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Ереван (200г)</p>
-                <p><strong>Опис:</strong> М'ясо, гриби, огірки малосольні, селера</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Ереван (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> М'ясо, гриби, огірки малосольні, селера</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Вітамінний (200г)</p>
-                <p><strong>Опис:</strong> Капуста, огірок, зелень</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Вітамінний (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Капуста, огірок, зелень</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Морква по-корейськи (200г)</p>
-                <p><strong>Опис:</strong> Морква по-корейськи</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морква по-корейськи (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Морква по-корейськи</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Телятина Каре (200г)</p>
-                <p><strong>Опис:</strong> Телятина стейк (полядвиця на кістці)</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ТЕЛЯТИНА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Телятина Каре (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Телятина стейк (полядвиця на кістці)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТЕЛЯТИНА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик з телячої шинки (200г)</p>
-                <p><strong>Опис:</strong> Смажена теляча шинка на вогні</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ТЕЛЯТИНА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик з телячої шинки (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажена теляча шинка на вогні</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТЕЛЯТИНА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинина вирізка (200г)</p>
-                <p><strong>Опис:</strong> Свинина вирізка</p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> СВИНИНА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинина вирізка (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина вирізка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СВИНИНА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинина Ошийок (200г)</p>
-                <p><strong>Опис:</strong> Шашлик зі свиної шиї</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> СВИНИНА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинина Ошийок (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шашлик зі свиної шиї</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СВИНИНА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик із свинячої шинки (200г)</p>
-                <p><strong>Опис:</strong> Шашлик із свинячої шинки</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> СВИНИНА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик із свинячої шинки (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шашлик із свинячої шинки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СВИНИНА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинина Ребро (200г)</p>
-                <p><strong>Опис:</strong> Свинина Ребро</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> СВИНИНА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинина Ребро (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина Ребро</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СВИНИНА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Перець на мангалі (200г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Перець на мангалі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Баклажани на мангалі (200г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Баклажани на мангалі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Помідори на мангалі (200г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Помідори на мангалі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Печериці на мангалі (200г)</p>
-                <p><strong>Опис:</strong> Смажені печериці на мангалі</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печериці на мангалі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажені печериці на мангалі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля з салом на мангалі (200г)</p>
-                <p><strong>Опис:</strong> Смажена картопаля на мангалі з салом</p>
-                <p><strong>Ціна:</strong> 77.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля з салом на мангалі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажена картопаля на мангалі з салом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 77.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Філе індички (200г)</p>
-                <p><strong>Опис:</strong> Філе індички</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ПТИЦЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Філе індички (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе індички</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПТИЦЯ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Філе курки (200г)</p>
-                <p><strong>Опис:</strong> Філе курки</p>
-                <p><strong>Ціна:</strong> 177.0</p>
-                <p><strong>Тип:</strong> ПТИЦЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Філе курки (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе курки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 177.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПТИЦЯ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячі крильця (200г)</p>
-                <p><strong>Опис:</strong> Курячі крильця</p>
-                <p><strong>Ціна:</strong> 113.0</p>
-                <p><strong>Тип:</strong> ПТИЦЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі крильця (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячі крильця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 113.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПТИЦЯ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хачапурi на мангалi (1шт)</p>
-                <p><strong>Опис:</strong> Хачапурi на мангалi</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ХЛІБ, ЛАВАШ ТА ХАЧАПУРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хачапурi на мангалi (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хачапурi на мангалi</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХЛІБ, ЛАВАШ ТА ХАЧАПУРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хліб Матнакаш (1шт)</p>
-                <p><strong>Опис:</strong> Хліб Матнакаш</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ХЛІБ, ЛАВАШ ТА ХАЧАПУРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хліб Матнакаш (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб Матнакаш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХЛІБ, ЛАВАШ ТА ХАЧАПУРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лаваш вірменський (1шт)</p>
-                <p><strong>Опис:</strong> Тонкий лист прісного білого хліба</p>
-                <p><strong>Ціна:</strong> 24.0</p>
-                <p><strong>Тип:</strong> ХЛІБ, ЛАВАШ ТА ХАЧАПУРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лаваш вірменський (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тонкий лист прісного білого хліба</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 24.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХЛІБ, ЛАВАШ ТА ХАЧАПУРІ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marinad Meat Bar</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/213.png" alt="Restaurant Image">
         <h1>Marinad Meat Bar</h1>
@@ -63,414 +116,435 @@
         <p><strong>Неділя:</strong> 11:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Качка по-пекінськи 1500g</p>
-                <p><strong>Опис:</strong> Особливість нашого грилю: походження, адже це класична китайська піч для качки по-пекінськи; технологія та специфіка маринування ароматними спеціями. Маринується м'ясо 3 доби, та "масажується" зі спеціями</p>
-                <p><strong>Ціна:</strong> 1548.0</p>
-                <p><strong>Тип:</strong> ГРИЛЬ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Качка по-пекінськи 1500g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Особливість нашого грилю: походження, адже це класична китайська піч для качки по-пекінськи; технологія та специфіка маринування ароматними спеціями. Маринується м'ясо 3 доби, та "масажується" зі спеціями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1548.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГРИЛЬ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Качка гриль 1000\50g</p>
-                <p><strong>Опис:</strong> Соковита на хрумка качка-гриль, яка Вам принесе масу задоволення. Мʼясо дбайливо відділене від костей, щоб Ви мали можливість якомога комфортніше насолодитися кожним шматочком</p>
-                <p><strong>Ціна:</strong> 1224.0</p>
-                <p><strong>Тип:</strong> ГРИЛЬ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Качка гриль 1000\50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита на хрумка качка-гриль, яка Вам принесе масу задоволення. Мʼясо дбайливо відділене від костей, щоб Ви мали можливість якомога комфортніше насолодитися кожним шматочком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1224.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГРИЛЬ</p>
                 <hr>
-                <p><strong>Позиція:</strong> 1/2 Качка по-пекінськи 750g</p>
-                <p><strong>Опис:</strong> Особливість нашого грилю: походження, адже це класична китайська піч для качки по-пекінськи; технологія та специфіка маринування ароматними спеціями. Маринується м'ясо 3 доби, та "масажується" зі спеціями</p>
-                <p><strong>Ціна:</strong> 820.0</p>
-                <p><strong>Тип:</strong> ГРИЛЬ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 1/2 Качка по-пекінськи 750g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Особливість нашого грилю: походження, адже це класична китайська піч для качки по-пекінськи; технологія та специфіка маринування ароматними спеціями. Маринується м'ясо 3 доби, та "масажується" зі спеціями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 820.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГРИЛЬ</p>
                 <hr>
-                <p><strong>Позиція:</strong> 1/2 Качка гриль 550g</p>
-                <p><strong>Опис:</strong> Соковита та хрумка качка-гриль, яка Вам принесе масу задоволення. Мʼясо дбайливо відділене від костей, щоб Ви мали можливість якомога комфортніше насолодитися кожним шматочком</p>
-                <p><strong>Ціна:</strong> 610.0</p>
-                <p><strong>Тип:</strong> ГРИЛЬ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 1/2 Качка гриль 550g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита та хрумка качка-гриль, яка Вам принесе масу задоволення. Мʼясо дбайливо відділене від костей, щоб Ви мали можливість якомога комфортніше насолодитися кожним шматочком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 610.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГРИЛЬ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курка гриль 900 гр</p>
-                <p><strong>Опис:</strong> Соковита та хрумка курка-гриль, яка Вам принесе масу задоволення. Мʼясо дбайливо відділене від костей, щоб Ви мали можливість якомога комфортніше насолодитися кожним шматочком</p>
-                <p><strong>Ціна:</strong> 504.0</p>
-                <p><strong>Тип:</strong> ГРИЛЬ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курка гриль 900 гр</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита та хрумка курка-гриль, яка Вам принесе масу задоволення. Мʼясо дбайливо відділене від костей, щоб Ви мали можливість якомога комфортніше насолодитися кожним шматочком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 504.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГРИЛЬ</p>
                 <hr>
-                <p><strong>Позиція:</strong> 1/2 Курка гриль 450g</p>
-                <p><strong>Опис:</strong> Соковита та хрумка курка-гриль, яка Вам принесе масу задоволення. Мʼясо дбайливо відділене від костей, щоб Ви мали можливість якомога комфортніше насолодитися кожним шматочком</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> ГРИЛЬ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 1/2 Курка гриль 450g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита та хрумка курка-гриль, яка Вам принесе масу задоволення. Мʼясо дбайливо відділене від костей, щоб Ви мали можливість якомога комфортніше насолодитися кожним шматочком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГРИЛЬ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинна голонка 250g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 247.0</p>
-                <p><strong>Тип:</strong> ГРИЛЬ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинна голонка 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 247.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГРИЛЬ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бекон по-шанхайськи 200\80g</p>
-                <p><strong>Опис:</strong> Бекон маринований та запечений в азійських спеціях</p>
-                <p><strong>Ціна:</strong> 208.0</p>
-                <p><strong>Тип:</strong> ГРИЛЬ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бекон по-шанхайськи 200\80g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бекон маринований та запечений в азійських спеціях</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 208.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГРИЛЬ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з чорних та білих грибів 250g</p>
-                <p><strong>Опис:</strong> Делікатний салат приготований з китайських чорних грибів Муер та білих коралових грибів, заправлений кунжутною олією</p>
-                <p><strong>Ціна:</strong> 203.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з чорних та білих грибів 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Делікатний салат приготований з китайських чорних грибів Муер та білих коралових грибів, заправлений кунжутною олією</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 203.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з хрумким баклажаном
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з хрумким баклажаном
 250g</p>
-                <p><strong>Опис:</strong> Томати чері, петрушка, баклажан, арахіс, мед, часник, французька гірчиця, зелена цибуля</p>
-                <p><strong>Ціна:</strong> 193.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хіяші Вакаме 150/50g</p>
-                <p><strong>Опис:</strong> Легкий салат з хрумких водоростей Чука, подається з кунжутним соусом. Він є ідеальним легким перекусом</p>
-                <p><strong>Ціна:</strong> 183.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Китайський домашній салат 240g</p>
-                <p><strong>Опис:</strong> Китайський домашній салат є найпопулярнішим, складається з пекінської капусти, болгарського перцю, моркви, чорних деревних грибів Муер, огірка та соєвої локшини, автентична китайська заправка на основі кунжутної олії</p>
-                <p><strong>Ціна:</strong> 173.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Корейський овочевий салат 200g</p>
-                <p><strong>Опис:</strong> Пікантний салат із пекінської капусти, огірка та з маринованого дайкону в корейських приправах, які надають салату гострий смак і аромат</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з Селерою та кунжутним соусом 200g</p>
-                <p><strong>Опис:</strong> Легкий салат на основі морської капусти та селери з кунжутним соусом, який надає особливого смаку</p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Биті огірки 230g</p>
-                <p><strong>Опис:</strong> Освіжаюча пряна традиційна китайська закуска з хрустких огірків з нотками часнику, дзвінкої гірчиці та кислинкою лимону</p>
-                <p><strong>Ціна:</strong> 123.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бекон в пікантному соусі 230g</p>
-                <p><strong>Опис:</strong> Запечений в нашій чудо-печі бекон, нарізаний тоненькими слайсами, в пікантному вогняному соусі на основі олії чилі, збагачений ароматом конжутної олії</p>
-                <p><strong>Ціна:</strong> 173.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімбап з качкою 280g</p>
-                <p><strong>Опис:</strong> Широкої популярності отримала корейська страва Кімбап з качкою, яка схожа на суші, але зі своїм унікальним смаком і інгредієнтами</p>
-                <p><strong>Ціна:</strong> 171.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Крем-сир з ікрою тріски 150\80g</p>
-                <p><strong>Опис:</strong> Вершкова текстура з ідеальним балансом смаків, хрумка і ніжна водночас, подається з хрумкою булочкою БАО</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімбап з тунцем 280g</p>
-                <p><strong>Опис:</strong> Широкої популярності отримала корейська страва Кімбап з тунцем, яка схожа на суші, але зі своїм унікальним смаком і інгредієнтами</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> В'єтнамський салат з курячих шлунків 200g</p>
-                <p><strong>Опис:</strong> Ніжні шлунки курки з нотами екзотичних спецій, доповнені морквою та зеленою цибулею, з пікантною гостринкою</p>
-                <p><strong>Ціна:</strong> 133.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рисові чіпси 90g</p>
-                <p><strong>Опис:</strong> Хрусткі легкі чіпси, виготовлені із найкращого сорту рису, їх характеризує досконалий хруст та ніжний смак</p>
-                <p><strong>Ціна:</strong> 103.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хліб Бао з імбирно-часниковим соусом 140g</p>
-                <p><strong>Опис:</strong> Смачна закуска, де ніжний хліб бао подається з вершковим імбирно-часниковим соусом</p>
-                <p><strong>Ціна:</strong> 93.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мідії в вершково-часниковому соусі 350g</p>
-                <p><strong>Опис:</strong> Мідії в мушлях, приготовлені у вершковому соусі з додаванням часнику та імбиру, подаються з булочкою БАО, аби не втратити жодної краплі смачнезного соусу</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смажені пельмені з качкою 200/50g</p>
-                <p><strong>Опис:</strong> Ніжні шматочки з найтоншого тіста і це не пельмені в нашому традиційному розумінні - це незвичайно тонке тісто, яке ідеально поєднується з більше, ніж 60% начинки</p>
-                <p><strong>Ціна:</strong> 203.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тофу у кисло-солодкому соусі 250g</p>
-                <p><strong>Опис:</strong> Смажений Тофу у кисло-солодкому соусі - дивовижна страва, яка до смаку абсолютно усім. Якщо раптом ще не куштували, то це можна зробити вже зараз</p>
-                <p><strong>Ціна:</strong> 176.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Спрінг роли з солодко-гострим соусом 100/50g</p>
-                <p><strong>Опис:</strong> Хрусткі спрінг-роли з рисового паперу з ніжними овочами, подаються з пікантним солодко-гострим соусом</p>
-                <p><strong>Ціна:</strong> 167.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смажені пельмені Гьодзі з яловичиною 200/50g</p>
-                <p><strong>Опис:</strong> Пельмені Гьодзі з начинкою з яловичини, підсмажені до золотистої скоринки, що надає їм хрустку текстуру. Подаються з пікантним соусом на основі чилі</p>
-                <p><strong>Ціна:</strong> 163.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Креветка-темпура з соусом Тао Тао 100/50g</p>
-                <p><strong>Опис:</strong> Звичайна-незвичайна страва японської кухні, яке має назву креветка -темпура. Звичайне, тому, що по суті, це креветки, які обмокуються в темпура-клярі й смажаться у фритюрі, а незвичайним його робить те, що кляр має бути особливо підготовлений</p>
-                <p><strong>Ціна:</strong> 143.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рибні палички з соусом васабі 200/50g</p>
-                <p><strong>Опис:</strong> Обсмажені до золотистої скоринки рибно-рисові палички фрі, подаються з гостро-пікантним соусом васабі</p>
-                <p><strong>Ціна:</strong> 141.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Броколі з грибами 250g</p>
-                <p><strong>Опис:</strong> Смачність і корисність в одній страві: соковиті броколі в обіймах китайських грибів. Справжня гастрономічна подорож в здоровому стилі</p>
-                <p><strong>Ціна:</strong> 133.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Стручкова квасоля з чилі 220g</p>
-                <p><strong>Опис:</strong> Соковита спаржева квасоля з вогняним дотиком чилі - це поєднання свіжості та гострого смаку, від якого прокидається апетит</p>
-                <p><strong>Ціна:</strong> 123.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> БАО з Качкою 220g</p>
-                <p><strong>Опис:</strong> Ніжна пелюстка Бао на пару із запеченим качиним філе, помідором, розтопленим сиром та рожевим соусом.Вибір справжніх гурманів</p>
-                <p><strong>Ціна:</strong> 196.0</p>
-                <p><strong>Тип:</strong> БАО БАН (АЗІЙСЬКІ СЕНДВІЧІ)</p>
-                <hr>
-                <p><strong>Позиція:</strong> БАО з Тунцем 220g</p>
-                <p><strong>Опис:</strong> Парова пелюстка БАО змагається в ніжності з начинкою - тунцем, сиром та соусом. Ідеальний вибір для швидкого обіду</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> БАО БАН (АЗІЙСЬКІ СЕНДВІЧІ)</p>
-                <hr>
-                <p><strong>Позиція:</strong> БАО з куркою 220g</p>
-                <p><strong>Опис:</strong> Пелюстка Бао із ніжним курячим філе, розтопленим сиром і соковитими овочами - смачний швидкий перекус</p>
-                <p><strong>Ціна:</strong> 156.0</p>
-                <p><strong>Тип:</strong> БАО БАН (АЗІЙСЬКІ СЕНДВІЧІ)</p>
-                <hr>
-                <p><strong>Позиція:</strong> БАО Корейський 240g</p>
-                <p><strong>Опис:</strong> Ніжне куряче м'ясо, пухкий капустяний омлет, вкритий корейською гостро-солодкою пастою створюють справжню симфонію смаку</p>
-                <p><strong>Ціна:</strong> 156.0</p>
-                <p><strong>Тип:</strong> БАО БАН (АЗІЙСЬКІ СЕНДВІЧІ)</p>
-                <hr>
-                <p><strong>Позиція:</strong> Том ям з морепродуктами 350g</p>
-                <p><strong>Опис:</strong> Основа Том Ям - це кокосове молоко, лемонграс, галангал, чилі та лайм. Зараз Ви можете спробувати Том Ям з морепродуктами - він ідеально підійде для справжніх гурманів морепродуктів</p>
-                <p><strong>Ціна:</strong> 226.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Том ям з куркою та креветкою 350g</p>
-                <p><strong>Опис:</strong> Найвідоміший тайський суп який має кремовий смак за рахунок курячого бульйону та кокосового молока. Лемонграс, галангал, листя кафіру та лайм створюють глибокий смаковий спектр, поєднуючи цитрусові нотки з гостротою та ніжністю</p>
-                <p><strong>Ціна:</strong> 206.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Том Кха з куркою 350g</p>
-                <p><strong>Опис:</strong> Традиційний тайський суп на основі кокосового молока, яке балансує гострість та солоність інгредієнтів. Кожен ковток супу легкий і насичений водночас завдяки неповторному букету тайських спецій</p>
-                <p><strong>Ціна:</strong> 196.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо з морепродуктами 350g</p>
-                <p><strong>Опис:</strong> Найсмачніший місо суп із морепродуктами - це насичений смак і чудовий аромат, які роблять страву фаворитом не тільки в японській кухні, але і далеко за її межами</p>
-                <p><strong>Ціна:</strong> 166.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо з куркою 350g</p>
-                <p><strong>Опис:</strong> Курка відмінно підходить за смаковою гамою до місо супу і добре поєднується з іншими інгредієнтами страви</p>
-                <p><strong>Ціна:</strong> 146.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо з тофу 350g</p>
-                <p><strong>Опис:</strong> Класичний японський суп на основі пасти місо, яка є продуктом бродіння та ферментації сої та рису, з додаванням тофу і водоростями вакаме, з насиченим морським ароматом</p>
-                <p><strong>Ціна:</strong> 136.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Локшина Пад Тай з креветкою 280g</p>
-                <p><strong>Опис:</strong> Рисова локшина з креветками, приготована з ароматним соусом на основі тамаринду, з ідеальним балансом солодкого, кислого та солоного</p>
-                <p><strong>Ціна:</strong> 287.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Локшина Пад Тай з куркою 280g</p>
-                <p><strong>Опис:</strong> Рисова локшина з курячим м'ясом та овочами, приготована з ароматним, ідеально збалансованим соусом</p>
-                <p><strong>Ціна:</strong> 197.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Локшина з Качкою та овочами 320g</p>
-                <p><strong>Опис:</strong> Ситна, проста та одночасно вишукана страва, локшина обсмажується з качиним м'ясом, грибами Муер, овочами та китайськими традиційними соусами</p>
-                <p><strong>Ціна:</strong> 197.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Локшина з куркою та овочами 320g</p>
-                <p><strong>Опис:</strong> Проста та ситна страва, локшина обсмажується з курячим м'ясом, грибами Муер, овочами та китайськими традиційними соусами</p>
-                <p><strong>Ціна:</strong> 153.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пібімбап 410g</p>
-                <p><strong>Опис:</strong> Гостра корейська страва, подібна на боул. На рис викладаються смажені овочі та гриби Шіїтаке, куряче м'ясо, соус на основі гострої пасти Гочуджан та смажене яйце. Не забудьте перемішати перед споживанням</p>
-                <p><strong>Ціна:</strong> 192.0</p>
-                <p><strong>Тип:</strong> СТРАВИ З РИСОМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курка Карі 300g</p>
-                <p><strong>Опис:</strong> Куряче м'ясо, приготоване в ароматному карі-соусі, що надає страві багатий смак та аромат спецій. Подається з рисом</p>
-                <p><strong>Ціна:</strong> 173.0</p>
-                <p><strong>Тип:</strong> СТРАВИ З РИСОМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курка в кисло-солодкому соусі 360g</p>
-                <p><strong>Опис:</strong> Ніжні курячі шматочки у кисло-солодкому соусі з відчуттям справжнього Китаю. Це екзотичний шедевр за традиційним рецептом. Подається з рисом</p>
-                <p><strong>Ціна:</strong> 161.0</p>
-                <p><strong>Тип:</strong> СТРАВИ З РИСОМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смажений рис з яйцем та овочами 260g</p>
-                <p><strong>Опис:</strong> Китайська класика - це рис смажений на традиційному китайському Вок з яйцем та овочами</p>
-                <p><strong>Ціна:</strong> 123.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рис паровий 200g</p>
-                <p><strong>Опис:</strong> Ароматний китайський рис на пару</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля печена 1шт (170g)</p>
-                <p><strong>Опис:</strong> Запечена з пармезаном ароматна, соковита, хрумка картопля</p>
-                <p><strong>Ціна:</strong> 33.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинці рисові до качки 6шт</p>
-                <p><strong>Опис:</strong> Мовою північного Китаю та околиць Пекіна млинці до качки називають "мандаринські". В цих регіонах популярні млинці, у які загортають м’ясо. Мандаринські млинці до китайської національної страви «качка по-пекінськи»</p>
-                <p><strong>Ціна:</strong> 77.0</p>
-                <p><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хліб Бао 1шт</p>
-                <p><strong>Опис:</strong> Хліб БАО виготовлений ​​з молочного заварного тіста, яке готується на пару, запашна, дуже м'яка, білого кольору</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соєвий соус 50g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус імбирно-часниковий 50g</p>
-                <p><strong>Опис:</strong> Свіжий імбир та ароматний часник у поєднані з вершковою м'якістю</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус до качки 50g</p>
-                <p><strong>Опис:</strong> Унікальний соус для качки, створений за традиційними тисячолітніми рецептами, має ніжний сливово-кремовий смак</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус Червоний 50g</p>
-                <p><strong>Опис:</strong> Екзотична суміш чилі, ароматної зелені, імбиру та томатів, вибух смаку з вогненною гостротою</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смажене кокосове молоко 250g</p>
-                <p><strong>Опис:</strong> Так, ми віднайшли старий секретний китайський рецепт і навчились смажити кокосове молоко, роблячи його хрустким та ніжним водночас. Подається з солодкими соусами. Скуштуй, це незабутні смакові враження!</p>
-                <p><strong>Ціна:</strong> 153.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Десерт Моті 60g</p>
-                <p><strong>Опис:</strong> Найпопулярніший десерт в південно-азійській кухні, виготовлений на основі солодкого клейкого рису з смачними начинками, з багатим смаком та цікавою текстурою</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Квітка годжі</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сік Rich в асортименті 1л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад тропік 250мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 56.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Special</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 56.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад персиковий 250мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 56.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад апельсиновий 250мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 56.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Elderflower</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 56.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад класичний 250мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 51.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бонаква скло 0,33 газ/негаз</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Солуки слабогазована 0,33л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Солуки незазована 0,33л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Солуки сильногазована 0,33л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Швепс 0,25л скло</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фанта 0,25л скло</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Спрайт 0,25л скло</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кола 0,25л скло</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кола зеро 0,25л скло</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Швепс тонік 0,25л ж/б</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 32.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фанта ж/б 0,25л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 32.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Спрайт ж/б 0,33л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 32.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бонаква 0,5 газ/негаз</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сік Rich в асортименті</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томати чері, петрушка, баклажан, арахіс, мед, часник, французька гірчиця, зелена цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 193.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хіяші Вакаме 150/50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Легкий салат з хрумких водоростей Чука, подається з кунжутним соусом. Він є ідеальним легким перекусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 183.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Китайський домашній салат 240g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Китайський домашній салат є найпопулярнішим, складається з пекінської капусти, болгарського перцю, моркви, чорних деревних грибів Муер, огірка та соєвої локшини, автентична китайська заправка на основі кунжутної олії</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 173.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Корейський овочевий салат 200g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пікантний салат із пекінської капусти, огірка та з маринованого дайкону в корейських приправах, які надають салату гострий смак і аромат</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з Селерою та кунжутним соусом 200g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Легкий салат на основі морської капусти та селери з кунжутним соусом, який надає особливого смаку</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Биті огірки 230g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Освіжаюча пряна традиційна китайська закуска з хрустких огірків з нотками часнику, дзвінкої гірчиці та кислинкою лимону</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 123.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бекон в пікантному соусі 230g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запечений в нашій чудо-печі бекон, нарізаний тоненькими слайсами, в пікантному вогняному соусі на основі олії чилі, збагачений ароматом конжутної олії</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 173.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімбап з качкою 280g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Широкої популярності отримала корейська страва Кімбап з качкою, яка схожа на суші, але зі своїм унікальним смаком і інгредієнтами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 171.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем-сир з ікрою тріски 150\80g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова текстура з ідеальним балансом смаків, хрумка і ніжна водночас, подається з хрумкою булочкою БАО</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімбап з тунцем 280g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Широкої популярності отримала корейська страва Кімбап з тунцем, яка схожа на суші, але зі своїм унікальним смаком і інгредієнтами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> В'єтнамський салат з курячих шлунків 200g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні шлунки курки з нотами екзотичних спецій, доповнені морквою та зеленою цибулею, з пікантною гостринкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 133.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рисові чіпси 90g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрусткі легкі чіпси, виготовлені із найкращого сорту рису, їх характеризує досконалий хруст та ніжний смак</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 103.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хліб Бао з імбирно-часниковим соусом 140g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смачна закуска, де ніжний хліб бао подається з вершковим імбирно-часниковим соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 93.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мідії в вершково-часниковому соусі 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мідії в мушлях, приготовлені у вершковому соусі з додаванням часнику та імбиру, подаються з булочкою БАО, аби не втратити жодної краплі смачнезного соусу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смажені пельмені з качкою 200/50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні шматочки з найтоншого тіста і це не пельмені в нашому традиційному розумінні - це незвичайно тонке тісто, яке ідеально поєднується з більше, ніж 60% начинки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 203.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тофу у кисло-солодкому соусі 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажений Тофу у кисло-солодкому соусі - дивовижна страва, яка до смаку абсолютно усім. Якщо раптом ще не куштували, то це можна зробити вже зараз</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 176.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спрінг роли з солодко-гострим соусом 100/50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрусткі спрінг-роли з рисового паперу з ніжними овочами, подаються з пікантним солодко-гострим соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 167.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смажені пельмені Гьодзі з яловичиною 200/50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пельмені Гьодзі з начинкою з яловичини, підсмажені до золотистої скоринки, що надає їм хрустку текстуру. Подаються з пікантним соусом на основі чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 163.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Креветка-темпура з соусом Тао Тао 100/50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Звичайна-незвичайна страва японської кухні, яке має назву креветка -темпура. Звичайне, тому, що по суті, це креветки, які обмокуються в темпура-клярі й смажаться у фритюрі, а незвичайним його робить те, що кляр має бути особливо підготовлений</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 143.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рибні палички з соусом васабі 200/50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Обсмажені до золотистої скоринки рибно-рисові палички фрі, подаються з гостро-пікантним соусом васабі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 141.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Броколі з грибами 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смачність і корисність в одній страві: соковиті броколі в обіймах китайських грибів. Справжня гастрономічна подорож в здоровому стилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 133.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стручкова квасоля з чилі 220g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита спаржева квасоля з вогняним дотиком чилі - це поєднання свіжості та гострого смаку, від якого прокидається апетит</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 123.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТАРТЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> БАО з Качкою 220g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжна пелюстка Бао на пару із запеченим качиним філе, помідором, розтопленим сиром та рожевим соусом.Вибір справжніх гурманів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 196.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БАО БАН (АЗІЙСЬКІ СЕНДВІЧІ)</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> БАО з Тунцем 220g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Парова пелюстка БАО змагається в ніжності з начинкою - тунцем, сиром та соусом. Ідеальний вибір для швидкого обіду</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БАО БАН (АЗІЙСЬКІ СЕНДВІЧІ)</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> БАО з куркою 220g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пелюстка Бао із ніжним курячим філе, розтопленим сиром і соковитими овочами - смачний швидкий перекус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 156.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БАО БАН (АЗІЙСЬКІ СЕНДВІЧІ)</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> БАО Корейський 240g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжне куряче м'ясо, пухкий капустяний омлет, вкритий корейською гостро-солодкою пастою створюють справжню симфонію смаку</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 156.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БАО БАН (АЗІЙСЬКІ СЕНДВІЧІ)</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Том ям з морепродуктами 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа Том Ям - це кокосове молоко, лемонграс, галангал, чилі та лайм. Зараз Ви можете спробувати Том Ям з морепродуктами - він ідеально підійде для справжніх гурманів морепродуктів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 226.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Том ям з куркою та креветкою 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Найвідоміший тайський суп який має кремовий смак за рахунок курячого бульйону та кокосового молока. Лемонграс, галангал, листя кафіру та лайм створюють глибокий смаковий спектр, поєднуючи цитрусові нотки з гостротою та ніжністю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 206.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Том Кха з куркою 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційний тайський суп на основі кокосового молока, яке балансує гострість та солоність інгредієнтів. Кожен ковток супу легкий і насичений водночас завдяки неповторному букету тайських спецій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 196.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо з морепродуктами 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Найсмачніший місо суп із морепродуктами - це насичений смак і чудовий аромат, які роблять страву фаворитом не тільки в японській кухні, але і далеко за її межами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 166.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо з куркою 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка відмінно підходить за смаковою гамою до місо супу і добре поєднується з іншими інгредієнтами страви</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 146.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо з тофу 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний японський суп на основі пасти місо, яка є продуктом бродіння та ферментації сої та рису, з додаванням тофу і водоростями вакаме, з насиченим морським ароматом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 136.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина Пад Тай з креветкою 280g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рисова локшина з креветками, приготована з ароматним соусом на основі тамаринду, з ідеальним балансом солодкого, кислого та солоного</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 287.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина Пад Тай з куркою 280g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рисова локшина з курячим м'ясом та овочами, приготована з ароматним, ідеально збалансованим соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 197.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина з Качкою та овочами 320g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ситна, проста та одночасно вишукана страва, локшина обсмажується з качиним м'ясом, грибами Муер, овочами та китайськими традиційними соусами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 197.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина з куркою та овочами 320g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Проста та ситна страва, локшина обсмажується з курячим м'ясом, грибами Муер, овочами та китайськими традиційними соусами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 153.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пібімбап 410g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гостра корейська страва, подібна на боул. На рис викладаються смажені овочі та гриби Шіїтаке, куряче м'ясо, соус на основі гострої пасти Гочуджан та смажене яйце. Не забудьте перемішати перед споживанням</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 192.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ З РИСОМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курка Карі 300g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче м'ясо, приготоване в ароматному карі-соусі, що надає страві багатий смак та аромат спецій. Подається з рисом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 173.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ З РИСОМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курка в кисло-солодкому соусі 360g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні курячі шматочки у кисло-солодкому соусі з відчуттям справжнього Китаю. Це екзотичний шедевр за традиційним рецептом. Подається з рисом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 161.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ З РИСОМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смажений рис з яйцем та овочами 260g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Китайська класика - це рис смажений на традиційному китайському Вок з яйцем та овочами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 123.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рис паровий 200g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний китайський рис на пару</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля печена 1шт (170g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запечена з пармезаном ароматна, соковита, хрумка картопля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 33.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці рисові до качки 6шт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мовою північного Китаю та околиць Пекіна млинці до качки називають "мандаринські". В цих регіонах популярні млинці, у які загортають м’ясо. Мандаринські млинці до китайської національної страви «качка по-пекінськи»</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 77.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хліб Бао 1шт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб БАО виготовлений ​​з молочного заварного тіста, яке готується на пару, запашна, дуже м'яка, білого кольору</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соєвий соус 50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус імбирно-часниковий 50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжий імбир та ароматний часник у поєднані з вершковою м'якістю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус до качки 50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Унікальний соус для качки, створений за традиційними тисячолітніми рецептами, має ніжний сливово-кремовий смак</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Червоний 50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Екзотична суміш чилі, ароматної зелені, імбиру та томатів, вибух смаку з вогненною гостротою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ, ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смажене кокосове молоко 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Так, ми віднайшли старий секретний китайський рецепт і навчились смажити кокосове молоко, роблячи його хрустким та ніжним водночас. Подається з солодкими соусами. Скуштуй, це незабутні смакові враження!</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 153.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Десерт Моті 60g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Найпопулярніший десерт в південно-азійській кухні, виготовлений на основі солодкого клейкого рису з смачними начинками, з багатим смаком та цікавою текстурою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Квітка годжі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Rich в асортименті 1л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад тропік 250мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 56.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Special</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 56.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад персиковий 250мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 56.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад апельсиновий 250мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 56.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Elderflower</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 56.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад класичний 250мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 51.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бонаква скло 0,33 газ/негаз</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солуки слабогазована 0,33л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солуки незазована 0,33л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солуки сильногазована 0,33л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Швепс 0,25л скло</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фанта 0,25л скло</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спрайт 0,25л скло</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кола 0,25л скло</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кола зеро 0,25л скло</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Швепс тонік 0,25л ж/б</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 32.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фанта ж/б 0,25л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 32.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спрайт ж/б 0,33л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 32.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бонаква 0,5 газ/негаз</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Rich в асортименті</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ Б/А</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

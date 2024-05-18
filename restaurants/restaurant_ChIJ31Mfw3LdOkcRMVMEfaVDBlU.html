@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Чебуреки</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/305.png" alt="Restaurant Image">
         <h1>Чебуреки</h1>
@@ -63,618 +116,639 @@
         <p><strong>Неділя:</strong> 08:00:00 - 21:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Шашлик курячий (200г)</p>
-                <p><strong>Опис:</strong> Ніжні шматочки курячого філе на шпажці з овочами(болгарський перець,шампіньйони)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Котлета по-київськи  (180г)</p>
-                <p><strong>Опис:</strong> Куряче філе в хрумкій паніровці, з маслом та зеленню(петрушкою)</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Крученики (180г)</p>
-                <p><strong>Опис:</strong> Куряче філе з шампіньйонами у часниково-сметанковому соусі</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сюрприз (180г)</p>
-                <p><strong>Опис:</strong> Куряче філе всередині якого ніжний сир, шпондер та соус з аджики, обсмажене в клярі</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Ніжність (180г)</p>
-                <p><strong>Опис:</strong> Куряче філе з шампіньйонами та сиром, обсмажене в клярі</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Відбивна куряча (100г)</p>
-                <p><strong>Опис:</strong> Смажене куряче філе у клярі зі спеціями</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Печінковий стейк (180г)</p>
-                <p><strong>Опис:</strong> Куряча печінка,покрита тушкованою цибулею</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Куряча відбивна по- французьки (200г)</p>
-                <p><strong>Опис:</strong> Відбивна в клярі,покрита майонезом, помідором та твердим сиром</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тушене куряче філе в сметані  (150г)</p>
-                <p><strong>Опис:</strong> Шматочки курячого філе в сметанному соусі</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бедра курячі  (150г)</p>
-                <p><strong>Опис:</strong> Запечені курячі бедра з додаванням спецій</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Ковбаски з індика (80г)</p>
-                <p><strong>Опис:</strong> Індичий фарш з спеціями, запечений в духовці</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі нагетси  (150г)</p>
-                <p><strong>Опис:</strong> Шматочки курки в паніровці</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі бедра по-прованському (150г)</p>
-                <p><strong>Опис:</strong> Тушені у червоному вині бедра з прованськими травами</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тефтелі курячі (100г)</p>
-                <p><strong>Опис:</strong> Курячий фарш з цибулею,приправами, в сметанковому соусі,запечений в духовці</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Печінкова котлета (80г)</p>
-                <p><strong>Опис:</strong> Рублена печінка з  в хрусткій паніровці.Додаткові інгредієнти: цибуля, часник, свіжі трави, яйця, хлібні крихти,спеції та приправи за смаком.</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Печінка тушена  (150г)</p>
-                <p><strong>Опис:</strong> Куряча печінка з цибулею в сметанному соусі</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Куряча котлета  (80г)</p>
-                <p><strong>Опис:</strong> Шматки курячого філе з твердим сиром у клярі</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шашлик свинний (200г)</p>
-                <p><strong>Опис:</strong> Шия запечена у духовці з цибулею на шпажці</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Запечене м'ясо  (150г)</p>
-                <p><strong>Опис:</strong> Свинна шия запечена у духовці,покрита майонезом</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Язик  (150г)</p>
-                <p><strong>Опис:</strong> Тушкований свинний язик з шампіньйонами у сметані</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бефстроганов (150г)</p>
-                <p><strong>Опис:</strong> Свинна полядвиця, протушкована у сметані</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Ребра  (150г)</p>
-                <p><strong>Опис:</strong> Запечені свинні ребра з свіжою маринованою цибулею</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> М'ясо по-французьки  (150г)</p>
-                <p><strong>Опис:</strong> Свинна шия запечена з томатами,майонезом і твердим сиром</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Відбивна із свинини (100г)</p>
-                <p><strong>Опис:</strong> Ніжна полядвиця, обсмажена в клярі зі спеціями</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тефтелі свинні  (180г)</p>
-                <p><strong>Опис:</strong> Свинний фарш зі спеціями у томатному соусі</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Люля-кебаб (130г)</p>
-                <p><strong>Опис:</strong> Рублений фарш з зеленню(петрушкою) на шпажці</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Біфштекс (130г)</p>
-                <p><strong>Опис:</strong> Запечений свинний фарш з яйцем</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Ковбаски гриль (100г)</p>
-                <p><strong>Опис:</strong> Рублене свинне м‘ясо з додаванням спецій</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Риба по французьки  (150г)</p>
-                <p><strong>Опис:</strong> Філе хека запечене з морквою та часником, покрите твердим сиром</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> РИБА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Риба смажена  (150г)</p>
-                <p><strong>Опис:</strong> Тушка хеку зі спеціями  у клярі</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> РИБА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Філе хека  (150г)</p>
-                <p><strong>Опис:</strong> Смажене у клярі</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> РИБА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тушкована риба   (150г)</p>
-                <p><strong>Опис:</strong> У сметанковому соусі</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> РИБА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Ребра тушковані  (150г)</p>
-                <p><strong>Опис:</strong> У пікантному томатному соусі</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> М'ясо печене по-французьки  (120г)</p>
-                <p><strong>Опис:</strong> Полядвиця з цибулею,майонезом та твердим сиром</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> М'ясо з овочами  (150г)</p>
-                <p><strong>Опис:</strong> Тушковані медальйони з червоним перцем,томатами та маслинами</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гуляш  (150г)</p>
-                <p><strong>Опис:</strong> Тушкована шия у томатному соусі</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тушковане м'ясо   (150г)</p>
-                <p><strong>Опис:</strong> Свинна шия у гірчичному соусі</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шніцель (100г)</p>
-                <p><strong>Опис:</strong> Курячий фарш з шпинатом,смажений у сухарях</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля з тушкованим мясом (150г)</p>
-                <p><strong>Опис:</strong> Картопля,м‘ясо, томатний соус</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Котлета по-домашньому  (80г)</p>
-                <p><strong>Опис:</strong> Із свіжозмеленого мішаного фаршу</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Половинки картоплі запечені з сиром і кмином  (250г)</p>
-                <p><strong>Опис:</strong> Картопля запечена в духовці зверху присипана сиром,майонезом та кмином</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля фарширована фаршем  (250г)</p>
-                <p><strong>Опис:</strong> Половинки картоплі фаршировані свинним фаршем</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля  з домашнім сиром та зеленню  (250г)</p>
-                <p><strong>Опис:</strong> Картопля фарширована домашнім сиром та зеленню</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Печена молода картопля  (250г)</p>
-                <p><strong>Опис:</strong> Запечена молода картопля з кропом та часником</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Запечена картопля  (250г)</p>
-                <p><strong>Опис:</strong> Шматочки картоплі зі спеціями,часником та зеленню, запечені в духовці</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопляне пюре  (250г)</p>
-                <p><strong>Опис:</strong> Ніжне картопляне пюре з молоком та маслом</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля по домашньому з кропом  (250г)</p>
-                <p><strong>Опис:</strong> Відварена картопля з кропом та маслом</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля половинками  (250г)</p>
-                <p><strong>Опис:</strong> Відварна картопля половинками з маслом</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Булгур з овочами  (250г)</p>
-                <p><strong>Опис:</strong> Відварений булгур з додаванням суміші овочів</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> КАШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пшенична каша  (250г)</p>
-                <p><strong>Опис:</strong> Відварена каша з маслом</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> КАШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гречка  (250г)</p>
-                <p><strong>Опис:</strong> Відварена гречана крупа з маслом</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> КАШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Ячна каша  (250г)</p>
-                <p><strong>Опис:</strong> Відварена каша з маслом</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> КАШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Горохове пюре  (250г)</p>
-                <p><strong>Опис:</strong> Ніжне горохове пюре з спеціями</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> КАШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Плов  (250г)</p>
-                <p><strong>Опис:</strong> Рис з свинним м'ясом,морквою та цибулею</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> РИС</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рис з овочами  (250г)</p>
-                <p><strong>Опис:</strong> Відварний рис з додаванням овочів(морква,цибуля)</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> РИС</p>
-                <hr>
-                <p><strong>Позиція:</strong> Відварний рис  (250г)</p>
-                <p><strong>Опис:</strong> Відварений рис з маслом</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> РИС</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарони з сиром та м'ясом  (250г)</p>
-                <p><strong>Опис:</strong> Макарони з твердим сиром та шматочками свинного  м'яса</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> МАКАРОНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарони болоньєзе  (250г)</p>
-                <p><strong>Опис:</strong> Макарони з мішаним фаршем та томатним соусом</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> МАКАРОНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Цвітна капуста в паніровці (200г)</p>
-                <p><strong>Опис:</strong> Свіжа цвітна капуста у клярі</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> МАКАРОНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тушені овочі (200г)</p>
-                <p><strong>Опис:</strong> Тушені сезонні овочі зі спеціями</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> МАКАРОНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинці з м'ясом  (150г)</p>
-                <p><strong>Опис:</strong> Ніжні млинці з мішаним фаршем</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинець з куркою,грибами та твердим сиром  (130г)</p>
-                <p><strong>Опис:</strong> Великий млинець з шматочками курки, шампіньйонами,майонезом та сиром</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Солодкі млинці з домашнім сиром   (150г)</p>
-                <p><strong>Опис:</strong> Ніжні млинці з сирковою начинкою</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Зрази з печінкою  (200г)</p>
-                <p><strong>Опис:</strong> Ніжні зрази за основу яких йде картопля,всередині печінка</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ЗРАЗИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Зрази з м'ясом (200г)</p>
-                <p><strong>Опис:</strong> Ніжні зрази з картоплі та мішаного фаршу</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ЗРАЗИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопляні зрази (200г)</p>
-                <p><strong>Опис:</strong> Ніжні зрази з картопляного пюре</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ЗРАЗИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вареники з м'ясом  (250г)</p>
-                <p><strong>Опис:</strong> Ніжні вареники з мішаним фаршем</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ДОМАШНІ ВАРЕНИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вареники з картоплею  (250г)</p>
-                <p><strong>Опис:</strong> Домашні вареники з картоплею та сметаною</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ДОМАШНІ ВАРЕНИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вареники з капустою  (250г)</p>
-                <p><strong>Опис:</strong> Вареники з тушкованою квашеною капустою з цибулею</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ДОМАШНІ ВАРЕНИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пельмені  (250г)</p>
-                <p><strong>Опис:</strong> Соковиті пельмені з мішаним фаршем</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ДОМАШНІ ПЕЛЬМЕНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Перлина  (300г)</p>
-                <p><strong>Опис:</strong> Дерун в середині якого ніжна курятина, гриби, помідор та соус</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> ДЕРУНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Деруни з м'ясом  (250г)</p>
-                <p><strong>Опис:</strong> Оладки з тертої картоплі та свинним фаршем</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ДЕРУНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Голубці   (250г)</p>
-                <p><strong>Опис:</strong> Домашні голубці з рисом та фаршем</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ДЕРУНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Деруни класичні  (250г)</p>
-                <p><strong>Опис:</strong> Оладки з тертої картоплі,яйця та цибулі</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ДЕРУНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер з курячою котлетою</p>
-                <p><strong>Опис:</strong> Булка,куряча котлета,листя салату,огірок,сир,соус</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер з курячою відбивною</p>
-                <p><strong>Опис:</strong> Булка,відбивна куряча,листя салату,сир,соус,огірок</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер з свинною відбивною</p>
-                <p><strong>Опис:</strong> Булка,свинна відбивна,огірок,листя салату,сир,соус</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чебурек асорті (сир+фарш) (100г)</p>
-                <p><strong>Опис:</strong> Тонке хрустке тісто з сиром та фаршем</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чебуреки з твердим сиром (100г)</p>
-                <p><strong>Опис:</strong> Тонке хрустке тісто з твердим сиром</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чебуреки з свинним фаршем (100г)</p>
-                <p><strong>Опис:</strong> Тонке хрустке тісто з соковитим фаршем та зеленню</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з печінки (130г)</p>
-                <p><strong>Опис:</strong> Куряча печінка, твердий сир, яйце, болгарський перець,майонез</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фасоля в асортименті (150г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Дністер (130г)</p>
-                <p><strong>Опис:</strong> Капуста, консервований горошок, ковбаса, цибуля, майонез</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з квашеною капустою (130г)</p>
-                <p><strong>Опис:</strong> Квашена капуста, цибуля, запашна олія</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з квашених огірків (130г)</p>
-                <p><strong>Опис:</strong> Квашені огірки, олія, маринована цибуля, зелень</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з капусти та огірка (130г)</p>
-                <p><strong>Опис:</strong> Салат з молодої капусти,зеленні,зеленої цибулі,свіжого огірка,заправлений олією</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат грецький (130г)</p>
-                <p><strong>Опис:</strong> Салат з помідором,огірком, болгарським перцем, сиром фета,маслинами та салатом айсберг,заправлений олією та лимонним соком</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з пекінської капусти та крабовими паличками (130г)</p>
-                <p><strong>Опис:</strong> Салат з помідорами, крабовими паличками, пекінською капустою, зеленою цибулею,грінками, заправлений майонезним соусом</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з пекінською капустою, огірком та помідором (130г)</p>
-                <p><strong>Опис:</strong> Салат з пекінською капустою, огірком,помідором,зеленою цибулею,заправлений олією</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат олів'є (130г)</p>
-                <p><strong>Опис:</strong> Салат з шматочками відвареної картоплі,зеленим горошком,квашеним огірком, морквою, цибулею, та ковбасою, заправлений майонезом</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат шуба (130г)</p>
-                <p><strong>Опис:</strong> Дрібно нарізане філе оселедця, накладені шарами картопля, морква,цибуля,яйце та буряк,заправлене майонезом</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат лінива шуба (130г)</p>
-                <p><strong>Опис:</strong> Дрібно нарізані овочі(буряк,картопля,квашений огірок) з шматочками оселедця</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат мізерія (130г)</p>
-                <p><strong>Опис:</strong> Домашній сир, огірок, помідор, зелена цибуля, заправлений сметаною</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Морква по корейськи (130г)</p>
-                <p><strong>Опис:</strong> Салат з дрібно нарізаної моркви,часнику та приправ</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з буряка, майонеза та часника (130г)</p>
-                <p><strong>Опис:</strong> Варений буряк з додаванням спецій, майонезу та часнику</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат вітамінний (130г)</p>
-                <p><strong>Опис:</strong> Свіжий буряк, капуста, яблуко,цибуля та морква,заправлений майонезом</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з буряка та олією (130г)</p>
-                <p><strong>Опис:</strong> Салат з тертого буряка,цибулі та заправлений олією</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з капусти та моркви (130г)</p>
-                <p><strong>Опис:</strong> Салат з свіжої капусти та моркви,заправлений олією</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з редиски (130г)</p>
-                <p><strong>Опис:</strong> Салат з редискою,вареним яйцем,зеленою цибулею,заправлений майонезом</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> КОМПЛЕКСНИЙ ОБІД #1 (460г)</p>
-                <p><strong>Опис:</strong> Котлета (80г), картопля (250г), овочевий салат (130г)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> КОМПЛЕКСНИЙ ОБІД #2 (480г)</p>
-                <p><strong>Опис:</strong> Куряче бедро (100г), гречка (250г), салат з буряка (130г)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> КОМПЛЕКСНИЙ ОБІД #3 (480г)</p>
-                <p><strong>Опис:</strong> Свинна котлета (100г),рис з морквою (250г),салат(свіжа капуста з огірком,130г)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат м'ясний (130г)</p>
-                <p><strong>Опис:</strong> Огірок, яйце, свинне мясо, заправлений майонезним соусом</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода поляна квасова  (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Coca Cola (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Pepsi  (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода негазована  (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода слабогазована  (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода сильногазована  (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Солянка (300г)</p>
-                <p><strong>Опис:</strong> З різними видами м'яса(свинні нирки,копчений шпондер,свинина,молочна ковбаса,копчена ковбаса),томатний соус,квашені огірки</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бограч (300г)</p>
-                <p><strong>Опис:</strong> Гуляш,приготований із кількох видів м'яса,з додаванням овочів(болгарський перець,морква,томати) і спецій</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Харчо (300 г)</p>
-                <p><strong>Опис:</strong> Рис,м‘ясо,картопля,морква,заправка з томатів,часнику та паприки</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Росольник (300г)</p>
-                <p><strong>Опис:</strong> Рис,картопля,морква,квашені огірки,м‘ясний бульйон</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Грибний суп (300г)</p>
-                <p><strong>Опис:</strong> Картопля,морква,гриби, макарони,курячий бульйон</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Суп томатний (300г)</p>
-                <p><strong>Опис:</strong> Картопля, морква, рис, тушені томати в сметані, курячий бульйон</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Капусняк (300г)</p>
-                <p><strong>Опис:</strong> Картопля, морква, квашена капуста, м‘ясний бульйон</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Борщ (300г)</p>
-                <p><strong>Опис:</strong> Класичний український борщ.Основні інгредієнти для борщу включають буряк, картоплю, моркву, цибулю, капусту,  часник, м'ясо ( свинину) та сметану для подачі.</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бульйон (300г)</p>
-                <p><strong>Опис:</strong> Інгредієнти: курка, локшина, морква, цибуля, селера, петрушка, кріп, спеції</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Суп з плавленими сирочками (300г)</p>
-                <p><strong>Опис:</strong> Овочевий суп з плавленими сирочками,морквою,картоплею,цибулею,сумішю овочів,кукурудзою,куркою</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Зелений борщ (300г)</p>
-                <p><strong>Опис:</strong> Класичний щавлевий борщ з морквою,рисом,яйцем,м'ясом та щавлем з сметаною</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гороховий суп (300г)</p>
-                <p><strong>Опис:</strong> Суп з додаванням гороху,картоплі,цибулі.моркви,м'яса</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Суп з фрикадельками (300г)</p>
-                <p><strong>Опис:</strong> Суп з овочами(морква,цибуля,кріп,картопля)та м'ясними фрикадельками</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик курячий (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні шматочки курячого філе на шпажці з овочами(болгарський перець,шампіньйони)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлета по-київськи  (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе в хрумкій паніровці, з маслом та зеленню(петрушкою)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крученики (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе з шампіньйонами у часниково-сметанковому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сюрприз (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе всередині якого ніжний сир, шпондер та соус з аджики, обсмажене в клярі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ніжність (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе з шампіньйонами та сиром, обсмажене в клярі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Відбивна куряча (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажене куряче філе у клярі зі спеціями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печінковий стейк (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряча печінка,покрита тушкованою цибулею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Куряча відбивна по- французьки (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбивна в клярі,покрита майонезом, помідором та твердим сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тушене куряче філе в сметані  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курячого філе в сметанному соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бедра курячі  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запечені курячі бедра з додаванням спецій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ковбаски з індика (80г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Індичий фарш з спеціями, запечений в духовці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі нагетси  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курки в паніровці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі бедра по-прованському (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тушені у червоному вині бедра з прованськими травами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тефтелі курячі (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячий фарш з цибулею,приправами, в сметанковому соусі,запечений в духовці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печінкова котлета (80г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рублена печінка з  в хрусткій паніровці.Додаткові інгредієнти: цибуля, часник, свіжі трави, яйця, хлібні крихти,спеції та приправи за смаком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печінка тушена  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряча печінка з цибулею в сметанному соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Куряча котлета  (80г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматки курячого філе з твердим сиром у клярі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО КУРОЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик свинний (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шия запечена у духовці з цибулею на шпажці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечене м'ясо  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинна шия запечена у духовці,покрита майонезом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Язик  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тушкований свинний язик з шампіньйонами у сметані</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бефстроганов (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинна полядвиця, протушкована у сметані</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запечені свинні ребра з свіжою маринованою цибулею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> М'ясо по-французьки  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинна шия запечена з томатами,майонезом і твердим сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Відбивна із свинини (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжна полядвиця, обсмажена в клярі зі спеціями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тефтелі свинні  (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинний фарш зі спеціями у томатному соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Люля-кебаб (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рублений фарш з зеленню(петрушкою) на шпажці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Біфштекс (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запечений свинний фарш з яйцем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ковбаски гриль (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рублене свинне м‘ясо з додаванням спецій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСО СВИНИНА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Риба по французьки  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе хека запечене з морквою та часником, покрите твердим сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Риба смажена  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тушка хеку зі спеціями  у клярі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Філе хека  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажене у клярі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тушкована риба   (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> У сметанковому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра тушковані  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> У пікантному томатному соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> М'ясо печене по-французьки  (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Полядвиця з цибулею,майонезом та твердим сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> М'ясо з овочами  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тушковані медальйони з червоним перцем,томатами та маслинами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гуляш  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тушкована шия у томатному соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тушковане м'ясо   (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинна шия у гірчичному соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шніцель (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячий фарш з шпинатом,смажений у сухарях</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля з тушкованим мясом (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля,м‘ясо, томатний соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлета по-домашньому  (80г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Із свіжозмеленого мішаного фаршу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Половинки картоплі запечені з сиром і кмином  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля запечена в духовці зверху присипана сиром,майонезом та кмином</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фарширована фаршем  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Половинки картоплі фаршировані свинним фаршем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля  з домашнім сиром та зеленню  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля фарширована домашнім сиром та зеленню</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печена молода картопля  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запечена молода картопля з кропом та часником</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечена картопля  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки картоплі зі спеціями,часником та зеленню, запечені в духовці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопляне пюре  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжне картопляне пюре з молоком та маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля по домашньому з кропом  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварена картопля з кропом та маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля половинками  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварна картопля половинками з маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Булгур з овочами  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварений булгур з додаванням суміші овочів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пшенична каша  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварена каша з маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гречка  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварена гречана крупа з маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ячна каша  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварена каша з маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Горохове пюре  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжне горохове пюре з спеціями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Плов  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис з свинним м'ясом,морквою та цибулею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИС</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рис з овочами  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварний рис з додаванням овочів(морква,цибуля)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИС</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Відварний рис  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварений рис з маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИС</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарони з сиром та м'ясом  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Макарони з твердим сиром та шматочками свинного  м'яса</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРОНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарони болоньєзе  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Макарони з мішаним фаршем та томатним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРОНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цвітна капуста в паніровці (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжа цвітна капуста у клярі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРОНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тушені овочі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тушені сезонні овочі зі спеціями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРОНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з м'ясом  (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні млинці з мішаним фаршем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з куркою,грибами та твердим сиром  (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Великий млинець з шматочками курки, шампіньйонами,майонезом та сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солодкі млинці з домашнім сиром   (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні млинці з сирковою начинкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зрази з печінкою  (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні зрази за основу яких йде картопля,всередині печінка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗРАЗИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зрази з м'ясом (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні зрази з картоплі та мішаного фаршу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗРАЗИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопляні зрази (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні зрази з картопляного пюре</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗРАЗИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вареники з м'ясом  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні вареники з мішаним фаршем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОМАШНІ ВАРЕНИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вареники з картоплею  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Домашні вареники з картоплею та сметаною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОМАШНІ ВАРЕНИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вареники з капустою  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вареники з тушкованою квашеною капустою з цибулею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОМАШНІ ВАРЕНИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пельмені  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковиті пельмені з мішаним фаршем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОМАШНІ ПЕЛЬМЕНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Перлина  (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дерун в середині якого ніжна курятина, гриби, помідор та соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕРУНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Деруни з м'ясом  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Оладки з тертої картоплі та свинним фаршем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕРУНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Голубці   (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Домашні голубці з рисом та фаршем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕРУНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Деруни класичні  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Оладки з тертої картоплі,яйця та цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕРУНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер з курячою котлетою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка,куряча котлета,листя салату,огірок,сир,соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер з курячою відбивною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка,відбивна куряча,листя салату,сир,соус,огірок</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер з свинною відбивною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка,свинна відбивна,огірок,листя салату,сир,соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чебурек асорті (сир+фарш) (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тонке хрустке тісто з сиром та фаршем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чебуреки з твердим сиром (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тонке хрустке тісто з твердим сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чебуреки з свинним фаршем (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тонке хрустке тісто з соковитим фаршем та зеленню</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧЕБУРЕКИ ВЛАСНОГО ВИРОБНИЦТВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з печінки (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряча печінка, твердий сир, яйце, болгарський перець,майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фасоля в асортименті (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Дністер (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Капуста, консервований горошок, ковбаса, цибуля, майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з квашеною капустою (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Квашена капуста, цибуля, запашна олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з квашених огірків (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Квашені огірки, олія, маринована цибуля, зелень</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з капусти та огірка (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з молодої капусти,зеленні,зеленої цибулі,свіжого огірка,заправлений олією</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат грецький (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з помідором,огірком, болгарським перцем, сиром фета,маслинами та салатом айсберг,заправлений олією та лимонним соком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з пекінської капусти та крабовими паличками (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з помідорами, крабовими паличками, пекінською капустою, зеленою цибулею,грінками, заправлений майонезним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з пекінською капустою, огірком та помідором (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з пекінською капустою, огірком,помідором,зеленою цибулею,заправлений олією</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат олів'є (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з шматочками відвареної картоплі,зеленим горошком,квашеним огірком, морквою, цибулею, та ковбасою, заправлений майонезом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат шуба (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дрібно нарізане філе оселедця, накладені шарами картопля, морква,цибуля,яйце та буряк,заправлене майонезом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат лінива шуба (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дрібно нарізані овочі(буряк,картопля,квашений огірок) з шматочками оселедця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат мізерія (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Домашній сир, огірок, помідор, зелена цибуля, заправлений сметаною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морква по корейськи (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з дрібно нарізаної моркви,часнику та приправ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з буряка, майонеза та часника (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Варений буряк з додаванням спецій, майонезу та часнику</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат вітамінний (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжий буряк, капуста, яблуко,цибуля та морква,заправлений майонезом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з буряка та олією (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з тертого буряка,цибулі та заправлений олією</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з капусти та моркви (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з свіжої капусти та моркви,заправлений олією</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з редиски (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з редискою,вареним яйцем,зеленою цибулею,заправлений майонезом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> КОМПЛЕКСНИЙ ОБІД #1 (460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Котлета (80г), картопля (250г), овочевий салат (130г)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> КОМПЛЕКСНИЙ ОБІД #2 (480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче бедро (100г), гречка (250г), салат з буряка (130г)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> КОМПЛЕКСНИЙ ОБІД #3 (480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинна котлета (100г),рис з морквою (250г),салат(свіжа капуста з огірком,130г)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат м'ясний (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Огірок, яйце, свинне мясо, заправлений майонезним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМПЛЕКСНІ ОБІДИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода поляна квасова  (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca Cola (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Pepsi  (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода негазована  (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода слабогазована  (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода сильногазована  (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солянка (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З різними видами м'яса(свинні нирки,копчений шпондер,свинина,молочна ковбаса,копчена ковбаса),томатний соус,квашені огірки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бограч (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гуляш,приготований із кількох видів м'яса,з додаванням овочів(болгарський перець,морква,томати) і спецій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Харчо (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис,м‘ясо,картопля,морква,заправка з томатів,часнику та паприки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Росольник (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис,картопля,морква,квашені огірки,м‘ясний бульйон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грибний суп (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля,морква,гриби, макарони,курячий бульйон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суп томатний (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля, морква, рис, тушені томати в сметані, курячий бульйон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капусняк (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля, морква, квашена капуста, м‘ясний бульйон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Борщ (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний український борщ.Основні інгредієнти для борщу включають буряк, картоплю, моркву, цибулю, капусту,  часник, м'ясо ( свинину) та сметану для подачі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бульйон (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Інгредієнти: курка, локшина, морква, цибуля, селера, петрушка, кріп, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суп з плавленими сирочками (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Овочевий суп з плавленими сирочками,морквою,картоплею,цибулею,сумішю овочів,кукурудзою,куркою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зелений борщ (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний щавлевий борщ з морквою,рисом,яйцем,м'ясом та щавлем з сметаною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гороховий суп (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суп з додаванням гороху,картоплі,цибулі.моркви,м'яса</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суп з фрикадельками (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суп з овочами(морква,цибуля,кріп,картопля)та м'ясними фрикадельками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

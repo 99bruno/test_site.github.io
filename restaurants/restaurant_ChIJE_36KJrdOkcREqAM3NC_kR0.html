@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syodo Sushi</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/342.png" alt="Restaurant Image">
         <h1>Syodo Sushi</h1>
@@ -63,208 +116,229 @@
         <p><strong>Неділя:</strong> 11:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Джамму рол з бараниною / Jammu lamb roll(HALAL)(400)</p>
-                <p><strong>Опис:</strong> Шматочки курятини з індійськими спеціями та ароматною гарам масалою, чатні, огірки, помідори, свіжа кінза, загорнуті у роті/Slices of chicken flavoured with Indian spices and aromatic garam masala, chatni, ,fresh cilantro wrapped in roti.</p>
-                <p><strong>Ціна:</strong> 355.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Джамму рол з бараниною / Jammu lamb roll(HALAL)(400)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курятини з індійськими спеціями та ароматною гарам масалою, чатні, огірки, помідори, свіжа кінза, загорнуті у роті/Slices of chicken flavoured with Indian spices and aromatic garam masala, chatni, ,fresh cilantro wrapped in roti.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 355.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Джамму чикен рол / Jammu chicken roll(HALAL)(400)</p>
-                <p><strong>Опис:</strong> Шматочки курятини з індійськими спеціями та ароматною гарам масалою,чатні,огірки, помідори,свіжа кінза, загорнуті у роті/Slices of chicken flavoured with Indian spices and aromatic garam masala, chatni, fresh cilantro wrapped in roti</p>
-                <p><strong>Ціна:</strong> 325.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Джамму чикен рол / Jammu chicken roll(HALAL)(400)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курятини з індійськими спеціями та ароматною гарам масалою,чатні,огірки, помідори,свіжа кінза, загорнуті у роті/Slices of chicken flavoured with Indian spices and aromatic garam masala, chatni, fresh cilantro wrapped in roti</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 325.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Самоса з бараниною / Lamb samosa(HALAL)(180)</p>
-                <p><strong>Опис:</strong> Cмажені у фритюрі трикутники з тіста,фаршировані овочами, бараниною таприправлені індійськими спеціями таароматною гарам масалою/Deep fried pastry snack stuffed with vegetables and lamb, flavoured with Indian spices and aromatic garam masala</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Самоса з бараниною / Lamb samosa(HALAL)(180)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Cмажені у фритюрі трикутники з тіста,фаршировані овочами, бараниною таприправлені індійськими спеціями таароматною гарам масалою/Deep fried pastry snack stuffed with vegetables and lamb, flavoured with Indian spices and aromatic garam masala</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пакора баклажанна / Eggplant pakora(180)</p>
-                <p><strong>Опис:</strong> Свіжі баклажани, смажені у фритюрі з нутовим борошном, приправлені індійськими спеціями та ароматною гарам масалою/Fresh eggplants,deep fried with chickpea flour, flavoured with Indian spices and aromatic garam masala</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пакора баклажанна / Eggplant pakora(180)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжі баклажани, смажені у фритюрі з нутовим борошном, приправлені індійськими спеціями та ароматною гарам масалою/Fresh eggplants,deep fried with chickpea flour, flavoured with Indian spices and aromatic garam masala</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Самоса з куркою / Chicken samosa(HALAL)(180)</p>
-                <p><strong>Опис:</strong> Cмажені у фритюрі трикутники з тіста, фаршировані овочами, курятиною і приправлені індійськими спеціями та ароматною гарам масалою.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Самоса з куркою / Chicken samosa(HALAL)(180)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Cмажені у фритюрі трикутники з тіста, фаршировані овочами, курятиною і приправлені індійськими спеціями та ароматною гарам масалою.
 Deep fried pastry snack stuffed with vegetables and chicken, flavoured with Indian spices and aromatic garam masala</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Cамоса овочева / Vegetable samosa(180)</p>
-                <p><strong>Опис:</strong> Cмажені у фритюрі трикутники з тіста, фаршировані овочами і приправлені індійськими спеціями та ароматною гарам масалою/Deep fried pastry snack stuffed with vegetables and flavoured with Indian spices and aromatic garam masala</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Cамоса овочева / Vegetable samosa(180)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Cмажені у фритюрі трикутники з тіста, фаршировані овочами і приправлені індійськими спеціями та ароматною гарам масалою/Deep fried pastry snack stuffed with vegetables and flavoured with Indian spices and aromatic garam masala</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ / HOT APPETIZERS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус зелений чатні / Green chutney sauce(50)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> СОУСИ / SAUCES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус зелений чатні / Green chutney sauce(50)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ / SAUCES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус йогуртовий / Yogurt sauce(50)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> СОУСИ / SAUCES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус йогуртовий / Yogurt sauce(50)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ / SAUCES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус тікка / Tikka sauce(50)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> СОУСИ / SAUCES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус тікка / Tikka sauce(50)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ / SAUCES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус кашмірі чилі / Kashmiri chili sauce(50)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> СОУСИ / SAUCES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус кашмірі чилі / Kashmiri chili sauce(50)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ / SAUCES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дал з куркою / Chicken dal(HALAL)(300)</p>
-                <p><strong>Опис:</strong> Cочевиця з курятиною та свіжою кінзою, приправлена індійськими спеціями та ароматною гарам масалою/A dish of simmered lentils and chicken, fresh cilantro flavoured with Indian spices and aromatic garam masala</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> СУПИ / SOUPS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дал з куркою / Chicken dal(HALAL)(300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Cочевиця з курятиною та свіжою кінзою, приправлена індійськими спеціями та ароматною гарам масалою/A dish of simmered lentils and chicken, fresh cilantro flavoured with Indian spices and aromatic garam masala</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ / SOUPS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дал зі шпинатом / Spinach dal(300)</p>
-                <p><strong>Опис:</strong> Cочевиця зі шпинатом та свіжою кінзою, приправлена індійськими спеціями таароматною гарам масалою.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дал зі шпинатом / Spinach dal(300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Cочевиця зі шпинатом та свіжою кінзою, приправлена індійськими спеціями таароматною гарам масалою.
 A dish of simmered lentils with spinach, fresh cilantro flavoured Indian spices and aromatic garam masala</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> СУПИ / SOUPS</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ / SOUPS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Панір тікка салат / Paneer tikka salad(200)</p>
-                <p><strong>Опис:</strong> Панір тікка, болгарський перець, помідори, соус заправка для салата, цибуля пора, кінза з ароматною індійською гарам масалою.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Панір тікка салат / Paneer tikka salad(200)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Панір тікка, болгарський перець, помідори, соус заправка для салата, цибуля пора, кінза з ароматною індійською гарам масалою.
  Paneer tikka,  paprica , tomatoes, souce for salad, leeks, cilantro, flavoured with indian garam masala.</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат хатта / Khatta salad (200)</p>
-                <p><strong>Опис:</strong> Свіже манго, помідори, цибуля пора, кінза з ароматною індійською гарам масалою/Fresh mango, tomatoes, leeks, cilantro flavoured with Indian garam masala</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат хатта / Khatta salad (200)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіже манго, помідори, цибуля пора, кінза з ароматною індійською гарам масалою/Fresh mango, tomatoes, leeks, cilantro flavoured with Indian garam masala</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат малван / Malvan salad (250)</p>
-                <p><strong>Опис:</strong> Нут, свіжі огірки, помідори, морква, цибуля пора, кінза з ароматною індійською гарам масалою/
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат малван / Malvan salad (250)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Нут, свіжі огірки, помідори, морква, цибуля пора, кінза з ароматною індійською гарам масалою/
 Chickpea, fresh cucumber, tomatoes, carrots, leeks, cilantro flavoured with Indian garam masala</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гарлік наан / Garlik naan(100)</p>
-                <p><strong>Опис:</strong> Індійський плоский хліб, запечений у духовці з маслом, часником і свіжою кінзою/Indian flat bread baked in oven with butter, garlic and fresh cilantro</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гарлік наан / Garlik naan(100)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Індійський плоский хліб, запечений у духовці з маслом, часником і свіжою кінзою/Indian flat bread baked in oven with butter, garlic and fresh cilantro</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХЛІБИ / BREADS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Батар наан / Butter naan(100)</p>
-                <p><strong>Опис:</strong> Індійський плоский хліб, запечений у духовці з маслом і свіжою кінзою/Indian flat bread baked in oven with butter and fresh cilantro</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Батар наан / Butter naan(100)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Індійський плоский хліб, запечений у духовці з маслом і свіжою кінзою/Indian flat bread baked in oven with butter and fresh cilantro</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХЛІБИ / BREADS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Наан / Naan(90)</p>
-                <p><strong>Опис:</strong> Індійський плоский хліб, запечений у духовці/Indian flat bread baked in oven</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наан / Naan(90)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Індійський плоский хліб, запечений у духовці/Indian flat bread baked in oven</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХЛІБИ / BREADS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Роті / Roti(90)</p>
-                <p><strong>Опис:</strong> Iндійський хліб у формі палянички/Indian flat bread</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Роті / Roti(90)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Iндійський хліб у формі палянички/Indian flat bread</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХЛІБИ / BREADS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пурі / Puri(60)</p>
-                <p><strong>Опис:</strong> Смажений у фритюрі індійський хліб/Deep fried Indian bread</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ХЛІБИ / BREADS</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пурі / Puri(60)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажений у фритюрі індійський хліб/Deep fried Indian bread</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХЛІБИ / BREADS</p>
                 <hr>
-                <p><strong>Позиція:</strong> Баранина кема з зеленим горошком / Lamb matar keema(HALAL)(300)</p>
-                <p><strong>Опис:</strong> Фарш баранини у соусі карі з індійськими спеціями, ароматною гарам масалою та зеленим горошком/Keema of lamb in curry sauce flavoured with Indian spices and aromati cgaram masala</p>
-                <p><strong>Ціна:</strong> 370.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Баранина кема з зеленим горошком / Lamb matar keema(HALAL)(300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фарш баранини у соусі карі з індійськими спеціями, ароматною гарам масалою та зеленим горошком/Keema of lamb in curry sauce flavoured with Indian spices and aromati cgaram masala</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 370.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Баранина вуна / Lamb bhuna(HALAL)(300)</p>
-                <p><strong>Опис:</strong> Шматочки баранини в соусі карі з індійськими спеціями, ароматною гарам масалою.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Баранина вуна / Lamb bhuna(HALAL)(300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки баранини в соусі карі з індійськими спеціями, ароматною гарам масалою.
 Slices of lamb in curry sauce flavoured with Indian spices and aromatic garam masala</p>
-                <p><strong>Ціна:</strong> 360.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 360.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Палак панір масала / Palak paneer masala (300)</p>
-                <p><strong>Опис:</strong> Домашній панір у соусі карі з індійськими спеціями, ароматною гарам масалою, шпинатом, вершками та свіжою кінзою/Homemade paneer in curry sauce flavoured with Indian spices and aromatic garam masala, spinach, cream, fresh cilantro</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Палак панір масала / Palak paneer masala (300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Домашній панір у соусі карі з індійськими спеціями, ароматною гарам масалою, шпинатом, вершками та свіжою кінзою/Homemade paneer in curry sauce flavoured with Indian spices and aromatic garam masala, spinach, cream, fresh cilantro</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шахі  панір масала / Shahi paneer masala (300)</p>
-                <p><strong>Опис:</strong> Домашній панір у соусі карі з індійськими спеціями, ароматною гарам масалою, вершками та свіжою кінзою/Homemade paneer in curry sauce flavoured with Indian spices and aromatic garam masala, cream, fresh cilantro</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шахі  панір масала / Shahi paneer masala (300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Домашній панір у соусі карі з індійськими спеціями, ароматною гарам масалою, вершками та свіжою кінзою/Homemade paneer in curry sauce flavoured with Indian spices and aromatic garam masala, cream, fresh cilantro</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чикен тікка масала / Chicken тikka masala(HALAL) (300)</p>
-                <p><strong>Опис:</strong> Шматочки курятини у соусі каррі з індійськими спеціями, ароматною гараммасалою, вершками такокосовим молоком/Slices of chicken tikka in curry sauce flavoured with Indian spices and aromatic garam masala, cream, coconut milk</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чикен тікка масала / Chicken тikka masala(HALAL) (300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курятини у соусі каррі з індійськими спеціями, ароматною гараммасалою, вершками такокосовим молоком/Slices of chicken tikka in curry sauce flavoured with Indian spices and aromatic garam masala, cream, coconut milk</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Манго чикен / Mango chicken(HALAL) (300)</p>
-                <p><strong>Опис:</strong> Шматочки курятини в соусі карі з індійськими спеціями, ароматною гарам масалою та свіжим манго/Slices of chicken in curry sauce flavoured with Indian spices and aromatic garam masala, fresh mango</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Манго чикен / Mango chicken(HALAL) (300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курятини в соусі карі з індійськими спеціями, ароматною гарам масалою та свіжим манго/Slices of chicken in curry sauce flavoured with Indian spices and aromatic garam masala, fresh mango</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чикен кофта масала / Chicken kofta masala(HALAL)(300)</p>
-                <p><strong>Опис:</strong> Фрикадельки з курятини в соусі карі з індійськими спеціями, ароматною гарам масалою, вершками такокосовим молоком/Chicken meatballs in curry sauce flavoured with Indian spices and aromatic garam masala,cream,coconut milk.</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чикен кофта масала / Chicken kofta masala(HALAL)(300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фрикадельки з курятини в соусі карі з індійськими спеціями, ароматною гарам масалою, вершками такокосовим молоком/Chicken meatballs in curry sauce flavoured with Indian spices and aromatic garam masala,cream,coconut milk.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чикен карі / Chicken curry (HALAL)(300)</p>
-                <p><strong>Опис:</strong> Шматочки курятини в соусі карі з індійськими спеціями і ароматною гарам масалою/
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чикен карі / Chicken curry (HALAL)(300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курятини в соусі карі з індійськими спеціями і ароматною гарам масалою/
 Slices of chicken in curry sauce flavoured with Indian spices and aromatic garam masala</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Овочі карі / Vegetable curry (300)</p>
-                <p><strong>Опис:</strong> Суміш літніх овочів у соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/Mixed summer vegetables in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Овочі карі / Vegetable curry (300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суміш літніх овочів у соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/Mixed summer vegetables in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Раджма масала / Rajma masala(300)</p>
-                <p><strong>Опис:</strong> Відварена домашня квасоля у соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/Boiled beans in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Раджма масала / Rajma masala(300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварена домашня квасоля у соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/Boiled beans in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чана масала / Chana masala (300)</p>
-                <p><strong>Опис:</strong> Відварений нут у соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чана масала / Chana masala (300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварений нут у соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/
 Boiled chickpea in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Яйця карі / Eggs curry(220)</p>
-                <p><strong>Опис:</strong> Яйця в соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/Eggs in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яйця карі / Eggs curry(220)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яйця в соусі карі з індійськими спеціями, ароматною гарам масалою, свіжою кінзою/Eggs in curry sauce flavoured with Indian spices and aromatic garam masala, fresh cilantro</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ / MAIN DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Басматі рис із зірою / Basmati rice with jeera(300)</p>
-                <p><strong>Опис:</strong> Відварений басматі рис із зірою/Boiled basmati rice with jeera.</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ / SIDE DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Басматі рис із зірою / Basmati rice with jeera(300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварений басматі рис із зірою/Boiled basmati rice with jeera.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ / SIDE DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля бомбей / Bombay potatoes(250)</p>
-                <p><strong>Опис:</strong> Картопля смажена з індійськими спеціями, свіжою кінзою та ароматною індійською гарам масалою/Fried potatoes flavoured with Indian spices, freshc ilantro and aromatic garam masala</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ / SIDE DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля бомбей / Bombay potatoes(250)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля смажена з індійськими спеціями, свіжою кінзою та ароматною індійською гарам масалою/Fried potatoes flavoured with Indian spices, freshc ilantro and aromatic garam masala</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ / SIDE DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Басматі рис / Basmati rice(300)</p>
-                <p><strong>Опис:</strong> Відварений басматі рис/Boiled basmati rice.</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ / SIDE DISHES</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Басматі рис / Basmati rice(300)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварений басматі рис/Boiled basmati rice.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ / SIDE DISHES</p>
                 <hr>
-                <p><strong>Позиція:</strong> Талі м'ясний / Meat thaliі (HALAL)(700)</p>
-                <p><strong>Опис:</strong> Чикен карі, баранина вуна, тушкований шпинат, пурі, басматі рис/Сhicken curry, lamb bhuna, stewed spinach, puri, basmati rice</p>
-                <p><strong>Ціна:</strong> 450.0</p>
-                <p><strong>Тип:</strong> ТАЛІ / THALI</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Талі м'ясний / Meat thaliі (HALAL)(700)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чикен карі, баранина вуна, тушкований шпинат, пурі, басматі рис/Сhicken curry, lamb bhuna, stewed spinach, puri, basmati rice</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 450.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТАЛІ / THALI</p>
                 <hr>
-                <p><strong>Позиція:</strong> Талі вегетаріанський / Vegetarian thali (750)</p>
-                <p><strong>Опис:</strong> Овочі каррі, дал із шпинатом, салат малван, пурі, рис басматі з зірою</p>
-                <p><strong>Ціна:</strong> 410.0</p>
-                <p><strong>Тип:</strong> ТАЛІ / THALI</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Талі вегетаріанський / Vegetarian thali (750)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Овочі каррі, дал із шпинатом, салат малван, пурі, рис басматі з зірою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 410.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТАЛІ / THALI</p>
                 <hr>
-                <p><strong>Позиція:</strong> Талі пивний / Beer thali (450)</p>
-                <p><strong>Опис:</strong> 1хCамоса овочева, 1хсамоса з куркою, 1хсамоса з бараниною, пакора баклажанна,
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Талі пивний / Beer thali (450)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 1хCамоса овочева, 1хсамоса з куркою, 1хсамоса з бараниною, пакора баклажанна,
 німкі, соус зелений чатні.
 1хVegetable samosa, 1хchicken samosa, 1хlamb samosa, eggplant pakora, nimki,
 green chutney sauce.</p>
-                <p><strong>Ціна:</strong> 395.0</p>
-                <p><strong>Тип:</strong> ТАЛІ / THALI</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 395.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТАЛІ / THALI</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

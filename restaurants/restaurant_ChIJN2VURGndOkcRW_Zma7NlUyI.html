@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кафе Млинці / Cafe Pancakes</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/184.png" alt="Restaurant Image">
         <h1>Кафе Млинці / Cafe Pancakes</h1>
@@ -63,318 +116,339 @@
         <p><strong>Неділя:</strong> 08:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Кебаб селянський великий з яловичиною</p>
-                <p><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб селянський великий з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб селянський великий мікс</p>
-                <p><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб селянський великий мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб селянський великий з курочкою</p>
-                <p><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб селянський великий з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб селянський середній з яловичиною</p>
-                <p><strong>Опис:</strong> Надзвичайне поєднання картоплі фрі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб селянський середній з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайне поєднання картоплі фрі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб селянський середній мікс</p>
-                <p><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб селянський середній мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб селянський середній з курочкою</p>
-                <p><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб селянський середній з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб селянський маленький з яловичиною</p>
-                <p><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб селянський маленький з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайне поєднання картоплі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб селянський маленький мікс</p>
-                <p><strong>Опис:</strong> Надзвичайне поєднання картоплі фрі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб селянський маленький мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайне поєднання картоплі фрі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб селянський маленький з курочкою</p>
-                <p><strong>Опис:</strong> Надзвичайне поєднання картоплі фрі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб селянський маленький з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайне поєднання картоплі фрі та м'яса з часниковим соусом та відбірними овочами запечені в лаваші на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ СЕЛЯНСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб класичний великий з яловичиною</p>
-                <p><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб класичний великий з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб класичний великий мікс</p>
-                <p><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб класичний великий мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб класичний великий з курочкою</p>
-                <p><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб класичний великий з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб класичний середній з яловичиною</p>
-                <p><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб класичний середній з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб класичний середній мікс</p>
-                <p><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб класичний середній мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб класичний середній з курочкою</p>
-                <p><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб класичний середній з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб класичний маленький з яловичиною</p>
-                <p><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб класичний маленький з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб класичний маленький мікс</p>
-                <p><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб класичний маленький мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб класичний маленький з курочкою</p>
-                <p><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб класичний маленький з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Привичний усім смак м'яса та часникового соусу з овочами в лаваші запеченому до скоринки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шаурма вегетаріанська L</p>
-                <p><strong>Опис:</strong> Прекрасне поєднання овочів, сиру, картоплі фрі, та соусу цезар</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шаурма вегетаріанська L</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прекрасне поєднання овочів, сиру, картоплі фрі, та соусу цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шаурма вегетаріанська M</p>
-                <p><strong>Опис:</strong> Прекрасне поєднання овочів, сиру, картоплі фрі, та соусу цезар</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шаурма вегетаріанська M</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прекрасне поєднання овочів, сиру, картоплі фрі, та соусу цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шаурма вегетаріанська S</p>
-                <p><strong>Опис:</strong> Прекрасне поєднання овочів, сиру, картоплі фрі, та соусу цезар</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шаурма вегетаріанська S</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прекрасне поєднання овочів, сиру, картоплі фрі, та соусу цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ КЛАСИЧНИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб грецький великий з яловичиною</p>
-                <p><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з томатами та м'ясом</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб грецький великий з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з томатами та м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб грецький великий мікс</p>
-                <p><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб грецький великий мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб грецький великий з курочкою</p>
-                <p><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб грецький великий з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб грецький середній з яловичиною</p>
-                <p><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб грецький середній з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб грецький середній мікс</p>
-                <p><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з томатами та м'ясом</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб грецький середній мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з томатами та м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб грецький середній з курочкою</p>
-                <p><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб грецький середній з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб грецький маленький з яловичиною</p>
-                <p><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб грецький маленький з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб грецький маленький мікс</p>
-                <p><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб грецький маленький мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб грецький маленький з курочкою</p>
-                <p><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб грецький маленький з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання смаку сиру фера та соусу цезар з капустою, томатами та м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ ГРЕЦЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> ФРІ бокс</p>
-                <p><strong>Опис:</strong> Картопля фрі, 4 нагетси та 4 сирні палички з соусом на вибір</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> ФРІ бокс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля фрі, 4 нагетси та 4 сирні палички з соусом на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат мікс</p>
-                <p><strong>Опис:</strong> Смачненька пекінська капуста, свіженький помідор, сир фета та мікс мʼяса: курочки та яловичини. Вся ця смакота заправлена нашим фірмовим часниковим соусом.</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смачненька пекінська капуста, свіженький помідор, сир фета та мікс мʼяса: курочки та яловичини. Вся ця смакота заправлена нашим фірмовим часниковим соусом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирні палички 9 шт</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирні палички 9 шт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси 9 шт</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси 9 шт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі велика</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі велика</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирні палички 5 шт</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирні палички 5 шт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси 5 шт</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси 5 шт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі маленька</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі маленька</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Rich</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Rich</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fuzetea лимон (0,5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fuzetea лимон (0,5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fuzetea персик троянда (0,5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fuzetea персик троянда (0,5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fuzetea лісова ягода</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fuzetea лісова ягода</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fuzetea манго-ромашка</p>
-                <p><strong>Опис:</strong> Манго-ромашка</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fuzetea манго-ромашка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Манго-ромашка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Bon-aqua негазована (0,5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Bon-aqua негазована (0,5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Bon-aqua газована (0,5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Bon-aqua газована (0,5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Schweppes Mojito (0,33л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Schweppes Mojito (0,33л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Schweppes pomegranate (0,33)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Schweppes pomegranate (0,33)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Schweppes Tangerine</p>
-                <p><strong>Опис:</strong> Мандарин</p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Schweppes Tangerine</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мандарин</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Діп-соус манго-чилі</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> ДІП-СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Діп-соус манго-чилі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДІП-СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Діп-соус барбекю</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> ДІП-СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Діп-соус барбекю</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДІП-СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Діп-соус тар-тар</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> ДІП-СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Діп-соус тар-тар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДІП-СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Діп-соус французький з гірчицею</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> ДІП-СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Діп-соус французький з гірчицею</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДІП-СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Діп-соус сирний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> ДІП-СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Діп-соус сирний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДІП-СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо велике з яловичиною</p>
-                <p><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо велике з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо велике мікс</p>
-                <p><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо велике мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо велике з курочкою</p>
-                <p><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо велике з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо середнє з яловичиною</p>
-                <p><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо середнє з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо середнє мікс</p>
-                <p><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо середнє мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо середнє з курочкою</p>
-                <p><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо середнє з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо маленьке з яловичиною</p>
-                <p><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо маленьке з яловичиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо маленьке мікс</p>
-                <p><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо маленьке мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо маленьке з курочкою</p>
-                <p><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо маленьке з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Набір з: Шаурми маленької картоплі фрі та напою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

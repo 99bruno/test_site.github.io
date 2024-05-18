@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cheesy Pizza</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/373.png" alt="Restaurant Image">
         <h1>Cheesy Pizza</h1>
@@ -63,188 +116,209 @@
         <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Піца Кватро Формаджі (30см/520г)</p>
-                <p><strong>Опис:</strong> Склад: соус вершковий, сир моцарела, сир дор блю, сир камамбер, сир пармезан, груша, грецький горіх.</p>
-                <p><strong>Ціна:</strong> 329.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Кватро Формаджі (30см/520г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус вершковий, сир моцарела, сир дор блю, сир камамбер, сир пармезан, груша, грецький горіх.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 329.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Цезаре (30см/610г)</p>
-                <p><strong>Опис:</strong> Склад: соус вершковий, сир моцарела, сир пармезан, куряче м’ясо, бекон, помідори чері, листя салату, рукола, перепелині яйця, соус цезаре.</p>
-                <p><strong>Ціна:</strong> 329.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Цезаре (30см/610г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус вершковий, сир моцарела, сир пармезан, куряче м’ясо, бекон, помідори чері, листя салату, рукола, перепелині яйця, соус цезаре.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 329.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца М'ясна Brioche (30см/510г)</p>
-                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, салямі, бекон, баварськи ковбаски, огірок маринований, цибуля синя.</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца М'ясна Brioche (30см/510г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус томатний, сир моцарела, салямі, бекон, баварськи ковбаски, огірок маринований, цибуля синя.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Прошуто (30см/500г)</p>
-                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, Прошуто, помідори чері, листя салату, рукола, соус бальзамік.</p>
-                <p><strong>Ціна:</strong> 295.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Прошуто (30см/500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус томатний, сир моцарела, Прошуто, помідори чері, листя салату, рукола, соус бальзамік.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 295.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Лучіано (30см/525г)</p>
-                <p><strong>Опис:</strong> Склад: соус кисло- солодкий, сир моцарела, куряче м’ясо, печериці, томати вялені, листя салату, рукола, соус песто.</p>
-                <p><strong>Ціна:</strong> 292.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Лучіано (30см/525г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус кисло- солодкий, сир моцарела, куряче м’ясо, печериці, томати вялені, листя салату, рукола, соус песто.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 292.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Фраттелі (30см/510г)</p>
-                <p><strong>Опис:</strong> Склад: Соус кисло-солодкий, сир моцарела, шинка, перець болгарський, маринований огірок.</p>
-                <p><strong>Ціна:</strong> 277.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Фраттелі (30см/510г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: Соус кисло-солодкий, сир моцарела, шинка, перець болгарський, маринований огірок.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 277.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Туна (30см/480г)</p>
-                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, тунець, кукурудза, цибуля синя.</p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Туна (30см/480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус томатний, сир моцарела, тунець, кукурудза, цибуля синя.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Карбонара (30см/430см)</p>
-                <p><strong>Опис:</strong> Склад: соус вершковий, сир моцарела, бекон, сир пармезан.</p>
-                <p><strong>Ціна:</strong> 269.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Карбонара (30см/430см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус вершковий, сир моцарела, бекон, сир пармезан.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 269.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Бон Густо (30см/510г)</p>
-                <p><strong>Опис:</strong> Склад: соус кисло-солодкий, сир моцарела, куряче м’ясо, баварські ковбаски, маринований огірок, цибуля синя .</p>
-                <p><strong>Ціна:</strong> 268.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Бон Густо (30см/510г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус кисло-солодкий, сир моцарела, куряче м’ясо, баварські ковбаски, маринований огірок, цибуля синя .</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 268.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Баварська (30см/520г)</p>
-                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, печериці, баварські ковбаски, перець болгарський, оливки.</p>
-                <p><strong>Ціна:</strong> 267.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Баварська (30см/520г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус томатний, сир моцарела, печериці, баварські ковбаски, перець болгарський, оливки.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 267.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Берлусконі (30см/510г)</p>
-                <p><strong>Опис:</strong> Склад: соус бешамель, сир моцарела, печериці, бекон, баварські ковбаски.</p>
-                <p><strong>Ціна:</strong> 259.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Берлусконі (30см/510г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус бешамель, сир моцарела, печериці, бекон, баварські ковбаски.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 259.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Капрічоза (30см/480г)</p>
-                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, печериці, шинка, оливки.</p>
-                <p><strong>Ціна:</strong> 257.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Капрічоза (30см/480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус томатний, сир моцарела, печериці, шинка, оливки.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 257.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Ді Поло (30см/520г)</p>
-                <p><strong>Опис:</strong> Склад: Соус бешамель, сир моцарела, куряче м’ясо, печериці, помідори чері, соус песто.</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Ді Поло (30см/520г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: Соус бешамель, сир моцарела, куряче м’ясо, печериці, помідори чері, соус песто.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Пепероні (30см/420г)</p>
-                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, салямі, перець чілі.</p>
-                <p><strong>Ціна:</strong> 248.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Пепероні (30см/420г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус томатний, сир моцарела, салямі, перець чілі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 248.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Гавайська (30см/510г)</p>
-                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, куряче м’ясо, ананас, кукурудза.</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Гавайська (30см/510г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус томатний, сир моцарела, куряче м’ясо, ананас, кукурудза.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> ПІЦА КАЛЬЦОНЕ (30см/460г)</p>
-                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, крем - сир каліфорнія, шинка, печериці, прованські трави</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> ПІЦА КАЛЬЦОНЕ (30см/460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус томатний, сир моцарела, крем - сир каліфорнія, шинка, печериці, прованські трави</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Маргарита (30см/460г)</p>
-                <p><strong>Опис:</strong> Склад: соус томатний, сир моцарела, помідор.</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Маргарита (30см/460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус томатний, сир моцарела, помідор.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з червоною рибою (310г)</p>
-                <p><strong>Опис:</strong> Склад: крем-сир філадельфія, листя салату, червона риба, огірок.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з червоною рибою (310г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: крем-сир філадельфія, листя салату, червона риба, огірок.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з тунцем (340г)</p>
-                <p><strong>Опис:</strong> Склад: соус класичний, листя салату, тунець, синя цибуля, перепелине яйце, маринований огірок.</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з тунцем (340г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус класичний, листя салату, тунець, синя цибуля, перепелине яйце, маринований огірок.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з шинкою (340г)</p>
-                <p><strong>Опис:</strong> Склад: соус тартар, листя салату, шинка, помідор, сир чеддер, огірок.</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з шинкою (340г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус тартар, листя салату, шинка, помідор, сир чеддер, огірок.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з салямі (330г)</p>
-                <p><strong>Опис:</strong> Склад: соус тартар, листя салату, салямі, помідор, сир чеддер, огірок.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з салямі (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: соус тартар, листя салату, салямі, помідор, сир чеддер, огірок.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан овочевий (315г)</p>
-                <p><strong>Опис:</strong> Склад: крем-сир філадельфія, помідор, листя салату, болгарський перець, огірок.</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан овочевий (315г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: крем-сир філадельфія, помідор, листя салату, болгарський перець, огірок.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан (140г.)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 46.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ СОЛОДКІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан (140г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 46.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ СОЛОДКІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> СЕНДВІЧ МОНТЕ КРІСТО  (205 г.)</p>
-                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, крем-сир філадельфія, червона риба, огірок, помідор.</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> СЕНДВІЧ МОНТЕ КРІСТО  (205 г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: хліб тостовий, листя салату, крем-сир філадельфія, червона риба, огірок, помідор.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧ</p>
                 <hr>
-                <p><strong>Позиція:</strong> СЕНДВІЧ ФІРМОВИЙ  (350 г.)</p>
-                <p><strong>Опис:</strong> Склад: хліб тостовий, салат айсберг, соус класичний, яйце, куряче мясо, бекон, помідор, соус песто.</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> СЕНДВІЧ ФІРМОВИЙ  (350 г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: хліб тостовий, салат айсберг, соус класичний, яйце, куряче мясо, бекон, помідор, соус песто.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧ</p>
                 <hr>
-                <p><strong>Позиція:</strong> СЕНДВІЧ ЦЕЗАР  (230 г.)</p>
-                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, соус класичний, куряче мясо, цибуля синя, помідор.</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> СЕНДВІЧ ЦЕЗАР  (230 г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: хліб тостовий, листя салату, соус класичний, куряче мясо, цибуля синя, помідор.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧ</p>
                 <hr>
-                <p><strong>Позиція:</strong> СЕНДВІЧ КЛАСИЧНИЙ  (260 г.)</p>
-                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, крем-сир філадельфія, шинка, червона цибуля, маринований огірок.</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> СЕНДВІЧ КЛАСИЧНИЙ  (260 г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: хліб тостовий, листя салату, крем-сир філадельфія, шинка, червона цибуля, маринований огірок.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧ</p>
                 <hr>
-                <p><strong>Позиція:</strong> СЕНДВІЧ АМЕРИКАНСЬКИЙ  (185 г.)</p>
-                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, сир чеддер, бекон, помідор.</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> СЕНДВІЧ АМЕРИКАНСЬКИЙ  (185 г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: хліб тостовий, листя салату, сир чеддер, бекон, помідор.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧ</p>
                 <hr>
-                <p><strong>Позиція:</strong> СЕНДВІЧ ІТАЛІЙСЬКИЙ  (230 г.)</p>
-                <p><strong>Опис:</strong> Склад: хліб тостовий, листя салату, соус песто, авокадо, сир фета, помідор.</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> СЕНДВІЧ ІТАЛІЙСЬКИЙ  (230 г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: хліб тостовий, листя салату, соус песто, авокадо, сир фета, помідор.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Galicia Яблучний (скло) 0.3 л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Galicia Яблучний (скло) 0.3 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Galicia Яблучно-Грушевий (скло) 0.3 л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Galicia Яблучно-Грушевий (скло) 0.3 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Galicia Яблучно-Морквяний (скло) 0.3 л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Galicia Яблучно-Морквяний (скло) 0.3 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Galicia Яблучно-Чорносмородиновий (скло) 0.3л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Galicia Яблучно-Чорносмородиновий (скло) 0.3л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Galicia Томатний (скло) 0.3л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Galicia Томатний (скло) 0.3л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fanta Апельсин (0.33 л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fanta Апельсин (0.33 л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода BonAqua негазована (скло) 0.33</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода BonAqua негазована (скло) 0.33</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

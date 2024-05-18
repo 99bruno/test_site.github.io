@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Garage</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/106.png" alt="Restaurant Image">
         <h1>Food Garage</h1>
@@ -63,368 +116,389 @@
         <p><strong>Неділя:</strong> 09:00:00 - 17:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Бургер Трюфельний з подвійною котлетою(410/50/25гр)</p>
-                <p><strong>Опис:</strong> Булочка, томатний айолі, 2 яловичі котлети, рамен, сир чедер, помідор, сирний мус з козячого сиру та трюфельної пасти. Подається з картоплею фрі з копченою паприкою, маринованими огірочками, колою.</p>
-                <p><strong>Ціна:</strong> 420.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бріскет бургер з джемом із бекону та хурмою (370/50/30гр).</p>
-                <p><strong>Опис:</strong> булочка, жовта харіса, бріскет (грудина яловича), BBQ сливовий, хурма маринована. Подається з картоплею фрі із копченою паприкою, маринованими огірочками, колою.</p>
-                <p><strong>Ціна:</strong> 410.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Pulled Pork(410/50/25гр)</p>
-                <p><strong>Опис:</strong> булочка, гірчичний соус, моцарела, свинина,помідор, маринований огірок, пікантний соус. Подається з картоплею фрі з копченою паприкою, маринованими огірочками. колою.</p>
-                <p><strong>Ціна:</strong> 390.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер з яєшнею та цибулевими кільцями (370/50/30гр).</p>
-                <p><strong>Опис:</strong> булочка, соус BBQ слива, карамелізована цибуля , котлета яловича, чедер, цибулеві кільця, соус гірчичний. Подається з картоплею фрі із копченою паприкою, маринованими огірочками, колою.</p>
-                <p><strong>Ціна:</strong> 390.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фіш бургер (350/50/25г)</p>
-                <p><strong>Опис:</strong> Булочка, айолі соус, філе судака паніроване в сухарях, обсмажене у фритюрі, рамен, огірок, помідор, соус тартар. Подається з картоплею фрі з копченою паприкою, малосольними огірочками, колою.</p>
-                <p><strong>Ціна:</strong> 370.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мексикано (450/50/25г)</p>
-                <p><strong>Опис:</strong> Яловича котлета, соус гуакамоле, чіпси з бекону, сир Чедер, малосольний огірок, помідор свіжий, свіжа цибуля, чіпси начос, завертаються у пшеничну тортилью, обволікується в яйці. Подається з картоплею фрі, малосольними огірочками, колою.</p>
-                <p><strong>Ціна:</strong> 370.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> BBQ бургер (410/50/25г)</p>
-                <p><strong>Опис:</strong> Булочка, гірчичний соус, яловича котлета, смажені чіпси бекону, огірок маринований, цибуля маринована, помідор, BBQ соус. Подається з картоплею фрі з копченою паприкою, маринованими огірками, колою.</p>
-                <p><strong>Ціна:</strong> 350.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Chicken фрі(380/50/25гр)</p>
-                <p><strong>Опис:</strong> булочка, медово-гірчичний соус, куряче філе, айсберг, свіжі огірок, помідор, сирний соус, цитрусовий мус. Подається з картоплею фрі з копченою паприкою, маринованими огірочками,  колою.</p>
-                <p><strong>Ціна:</strong> 350.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чізбургер (400/50/25г)</p>
-                <p><strong>Опис:</strong> Булочка, соус BBQ, яловича котлета, сир Чедер, цибуля, молосольний огірок, сирно гірчичний соус.Подається з картоплею фрі з копченою паприкою, маринованими огірками, колою.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер з індички  (380/50/25г)</p>
-                <p><strong>Опис:</strong> Булочка, айолі соус, рамен, котлета індича, маринована цибуля, помідор з соусом песто, сир Моцарела, соус айолі. Подається з картоплею фрі з копченою паприкою, маринованими огірками, колою.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кесадилья з телятиною(360/50гр)</p>
-                <p><strong>Опис:</strong> Традиційна мексиканська страва з яловичиною, гуакамоле, свіжим томатом, сиром чедер, цибулею та кінзою. Подається з картоплею фрі.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кесадилья з куркою(425/50гр)</p>
-                <p><strong>Опис:</strong> Традиційна мексиканська страва з куркою, гуакамоле, свіжим томатом, сиром чедер, цибулею та кінзою. Подається з картоплею фрі.</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Батат фрі(180/50гр)</p>
-                <p><strong>Опис:</strong> з соусом айолі</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопляні діпи(150/30/30/30)</p>
-                <p><strong>Опис:</strong> з соусом айоллі, гірчичним і соусом тар-тар.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля фрі (150г)</p>
-                <p><strong>Опис:</strong> огірок маринований, кетчуп.</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тар-тар із яловичини   (180/60/20г)</p>
-                <p><strong>Опис:</strong> З умамі маслом та маринованими овочами</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сир брі в паніровці (200/50г)</p>
-                <p><strong>Опис:</strong> З журавлинно-винним соусом</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Запечений сир  (125/20/50г)</p>
-                <p><strong>Опис:</strong> З інжирним джемом та хрусткими грінками</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі палички  (200/50г)</p>
-                <p><strong>Опис:</strong> З соусом Дорблю</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі крильця   (200/50г)</p>
-                <p><strong>Опис:</strong> В хрумкій паніровці без кісточки з соусом барбекю</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Корн-доги  (200/50г)</p>
-                <p><strong>Опис:</strong> З сиром Моцарелою та гірчичним соусом</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Грибна юшка з м'ясними кульками  (250/150г)</p>
-                <p><strong>Опис:</strong> Грибна юшка з мясними кульками, спеції</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Яловичий бульйон  (250/150г)</p>
-                <p><strong>Опис:</strong> З хрусткими  м'ясними млинцями</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячий бульйон   (250/150г)</p>
-                <p><strong>Опис:</strong> З хрусткими  м'ясними млинцями</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Наш улюблений хрусткий салат з креветками (310 г)</p>
-                <p><strong>Опис:</strong> Салат рамен, перепелині яйця, соус цезар, помідори чері, пармезан, креветки (310 гр)</p>
-                <p><strong>Ціна:</strong> 350.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Зелений салат (290г)</p>
-                <p><strong>Опис:</strong> Із бланшованим броколі, спаржевою квасолею, бобами Едаме, артишоком та в'яленими томатами.</p>
-                <p><strong>Ціна:</strong> 350.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Великий зелений салат (300г)</p>
-                <p><strong>Опис:</strong> З ростбіфом та гірчичним соусом</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з кільцями кальмара та кіноа(310гр)</p>
-                <p><strong>Опис:</strong> салат ромен, кіноа, боби едамаме, свіжий огірок, смажені кальмари, пармезан, соус</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Наш улюблений хрусткий салат з курячою ніжкою (380 г)</p>
-                <p><strong>Опис:</strong> Салат рамен, перепелині яйця, соус цезар, помідори чері, пармезан, бекон, куряча ніжка в паніровці, обсмажена в фритюрі</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий салат з картоплею та грибами (270 гр)</p>
-                <p><strong>Опис:</strong> Мікс салату, обсмажена картопля, гриби, в'ялені томати, пармезан, помідори чері, оливкова олія, соєвий соус.</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Біфштекс з картопляними діпами (150/100/50/35гр).</p>
-                <p><strong>Опис:</strong> яловича вирізка, картопляні діпи, копчена паприка, яєшня, рукола, маринований огірок, соус ред вайн .</p>
-                <p><strong>Ціна:</strong> 420.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хрустке курча з молодою картоплею та грибами (480 гр)</p>
-                <p><strong>Опис:</strong> Обсмажене курча, молода картопля, гриби, цибуля шалот, вершкове масло, зелень</p>
-                <p><strong>Ціна:</strong> 350.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бефстроганов (325гр).</p>
-                <p><strong>Опис:</strong> яловичина сувід, соус сметанковий, картопля пюре, петрушка фрі, цибулеві кільця.</p>
-                <p><strong>Ціна:</strong> 350.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Телятина з пюре з печеної картоплі  (130/150/30/30гр).</p>
-                <p><strong>Опис:</strong> Антрекот яловичий, пюре з печеної картоплі, цибуля ріпчаста, часник, пряжене молоко, журавлиновий демігляс, пікантний демігляс.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Котлети індичі (310гр)</p>
-                <p><strong>Опис:</strong> з картопляним пюре</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Міні кейк - Львівський сирник</p>
-                <p><strong>Опис:</strong> кисломолочний сир з ваніллю, ніжний вершковий крем , макова підложка з молочним шоколадом і уламками бельгійської вафлі та покритий молочним шоколадом.</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Міні кейк - Снікерс</p>
-                <p><strong>Опис:</strong> брауні молочний шоколад, карамель з арахісом, шоколадний мус і шоколадний ганаш, покриття чорний шоколад з арахісом.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Міні кейк - Тарт Веганський</p>
-                <p><strong>Опис:</strong> Корзинка - фініки, чорнослив, соняшникове насіння, льон, арахісова паста, кокосова і мигдальна мука. Полуничне пюре, стевія, чіа.  Мус кеш'ю - кокосові вершки, кокосове масло, кеш'ю, ваніль, лимонний фреш та мед. Прикрашається свіжою полуницею.</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Міні кейк - Чізкейк</p>
-                <p><strong>Опис:</strong> Корзинка з пісочного тіста, крем сир з ваніллю, карамель, ванільний ганаш.</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Міні кейк - Нутела</p>
-                <p><strong>Опис:</strong> Бісквіт з какао і горіховим сиропом з фундука, вершковий крем на основі крем сиру з нутеллою.</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Міні кейк - Шоколадно - карамельний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шоколад (180г.)</p>
-                <p><strong>Опис:</strong> Шоколадний бісквіт, ганаш на основі чорного шоколаду і вершковий крем на основі крем сиру та шоколаду.</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Орео  (180г.)</p>
-                <p><strong>Опис:</strong> Ніжний бісквіт з чорного какао і ванілі, чізкейк на основі крем сиру з печивом "Орео", вершковий крем на основі крем сиру з подрібненим печивом "Орео".</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Полуниця (180г.)</p>
-                <p><strong>Опис:</strong> Ніжний бисквіт з полуничним сиропом, полуничне конфі та вершковий крем з сублімованою подрібненою полуницею.</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Міні кейк - Фісташка - вишня</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Ваніль (180г.)</p>
-                <p><strong>Опис:</strong> Бісквіт просочений сиропом з мексиканської ванілі, ванільне крем брюле, крем вершково - ванільний.</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимон (180г.)</p>
-                <p><strong>Опис:</strong> Бісквіт просочений лимонним сиропом і цедрою, ніжний лимонно - вершковий крем.</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Спартак (1кг)</p>
-                <p><strong>Опис:</strong> Медові коржі з какао та заварний крем зі згущеним молоком.</p>
-                <p><strong>Ціна:</strong> 1050.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Червоний оксамит (1кг)</p>
-                <p><strong>Опис:</strong> Класичний американський десерт з вологими бісквітними коржами та вершковим кремом.</p>
-                <p><strong>Ціна:</strong> 860.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Медовик (1кг)</p>
-                <p><strong>Опис:</strong> Ніжні й соковиті медові коржі зі сметанним кремом.</p>
-                <p><strong>Ціна:</strong> 860.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Наполеон (1кг)</p>
-                <p><strong>Опис:</strong> Класичний торт з листкового тіста із заварним кремом.</p>
-                <p><strong>Ціна:</strong> 790.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Горішки зі згущеним молоком (1кг)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тарт мандариновий (240гр).</p>
-                <p><strong>Опис:</strong> курд з мандаринів (яйця, цукор, фреш мандаринів, фреш лайма,желатин), пісочне тісто (яйця, борошно, цукрова пудра, цедра мандаринів, вершкове масло), крем сир з цедрою лайма.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Спартак (165г.)</p>
-                <p><strong>Опис:</strong> Медові коржі з какао і заварний крем зі згущеним молоком.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Червоний оксамит (165г.)</p>
-                <p><strong>Опис:</strong> Класичний американський десерт з вологими бісквітними коржами та вершковим кремом.</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Медовик (165г.)</p>
-                <p><strong>Опис:</strong> Ніжні та соковиті медові коржі зі сметанним кремом.</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Наполеон (165г.)</p>
-                <p><strong>Опис:</strong> Класичний торт з листкового тіста з ніжним заварним кремом.</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Горішки зі згущеним молоком (1шт)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Еклер Фісташка</p>
-                <p><strong>Опис:</strong> Заварне тісто, фісташковий ганаш.</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ЕКЛЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Еклер Полуниця</p>
-                <p><strong>Опис:</strong> Заварне тісто, полуничний ганаш.</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ЕКЛЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Еклер молочний шоколад  (65г.)</p>
-                <p><strong>Опис:</strong> Заварне тісто та ганаш з молочного шоколаду.</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ЕКЛЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Еклер ваніль  (65г.)</p>
-                <p><strong>Опис:</strong> Заварне тісто, ванільний крем та білий шоколад.</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ЕКЛЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Еклер карамель з маскарпоне  (75г.)</p>
-                <p><strong>Опис:</strong> Заварне тісто, карамельний ганаш зі збитою та солоною карамеллю</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ЕКЛЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Еклер маракуя  (65г.)</p>
-                <p><strong>Опис:</strong> Заварне тісто, білий шоколад та заварний крем з маракуєю.</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ЕКЛЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Слойка з малиною</p>
-                <p><strong>Опис:</strong> Листове тісто з вершковим маслом, малинове тісто, пюре з малини.</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Слойка з карамеллю</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Ароматні пончики з цукровою пудрою та джемом</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Слойка з шоколадом</p>
-                <p><strong>Опис:</strong> Листкове тісто з вершковим маслом, шоколад</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Слойка з маком</p>
-                <p><strong>Опис:</strong> Листкове тісто з вершковим маслом, макова начинка з родзинками і шоколадним брауні.</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Печиво Малина</p>
-                <p><strong>Опис:</strong> пісочне малинове тісто з малиновою карамеллю.</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Печиво Кунжут</p>
-                <p><strong>Опис:</strong> пісочне кунжутне тісто і ганаш з чорним кунжутом.</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Печиво Фісташка</p>
-                <p><strong>Опис:</strong> пісочне фісташкове тісто і фісташковий ганаш.</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Трюфельний з подвійною котлетою(410/50/25гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, томатний айолі, 2 яловичі котлети, рамен, сир чедер, помідор, сирний мус з козячого сиру та трюфельної пасти. Подається з картоплею фрі з копченою паприкою, маринованими огірочками, колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 420.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бріскет бургер з джемом із бекону та хурмою (370/50/30гр).</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> булочка, жовта харіса, бріскет (грудина яловича), BBQ сливовий, хурма маринована. Подається з картоплею фрі із копченою паприкою, маринованими огірочками, колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 410.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Pulled Pork(410/50/25гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> булочка, гірчичний соус, моцарела, свинина,помідор, маринований огірок, пікантний соус. Подається з картоплею фрі з копченою паприкою, маринованими огірочками. колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 390.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер з яєшнею та цибулевими кільцями (370/50/30гр).</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> булочка, соус BBQ слива, карамелізована цибуля , котлета яловича, чедер, цибулеві кільця, соус гірчичний. Подається з картоплею фрі із копченою паприкою, маринованими огірочками, колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 390.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фіш бургер (350/50/25г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, айолі соус, філе судака паніроване в сухарях, обсмажене у фритюрі, рамен, огірок, помідор, соус тартар. Подається з картоплею фрі з копченою паприкою, малосольними огірочками, колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 370.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мексикано (450/50/25г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яловича котлета, соус гуакамоле, чіпси з бекону, сир Чедер, малосольний огірок, помідор свіжий, свіжа цибуля, чіпси начос, завертаються у пшеничну тортилью, обволікується в яйці. Подається з картоплею фрі, малосольними огірочками, колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 370.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> BBQ бургер (410/50/25г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, гірчичний соус, яловича котлета, смажені чіпси бекону, огірок маринований, цибуля маринована, помідор, BBQ соус. Подається з картоплею фрі з копченою паприкою, маринованими огірками, колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 350.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Chicken фрі(380/50/25гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> булочка, медово-гірчичний соус, куряче філе, айсберг, свіжі огірок, помідор, сирний соус, цитрусовий мус. Подається з картоплею фрі з копченою паприкою, маринованими огірочками,  колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 350.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер (400/50/25г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, соус BBQ, яловича котлета, сир Чедер, цибуля, молосольний огірок, сирно гірчичний соус.Подається з картоплею фрі з копченою паприкою, маринованими огірками, колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер з індички  (380/50/25г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, айолі соус, рамен, котлета індича, маринована цибуля, помідор з соусом песто, сир Моцарела, соус айолі. Подається з картоплею фрі з копченою паприкою, маринованими огірками, колою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кесадилья з телятиною(360/50гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційна мексиканська страва з яловичиною, гуакамоле, свіжим томатом, сиром чедер, цибулею та кінзою. Подається з картоплею фрі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кесадилья з куркою(425/50гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційна мексиканська страва з куркою, гуакамоле, свіжим томатом, сиром чедер, цибулею та кінзою. Подається з картоплею фрі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Батат фрі(180/50гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> з соусом айолі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопляні діпи(150/30/30/30)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> з соусом айоллі, гірчичним і соусом тар-тар.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> огірок маринований, кетчуп.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тар-тар із яловичини   (180/60/20г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З умамі маслом та маринованими овочами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сир брі в паніровці (200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З журавлинно-винним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечений сир  (125/20/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З інжирним джемом та хрусткими грінками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі палички  (200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З соусом Дорблю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі крильця   (200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> В хрумкій паніровці без кісточки з соусом барбекю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Корн-доги  (200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З сиром Моцарелою та гірчичним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грибна юшка з м'ясними кульками  (250/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грибна юшка з мясними кульками, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яловичий бульйон  (250/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З хрусткими  м'ясними млинцями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий бульйон   (250/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З хрусткими  м'ясними млинцями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наш улюблений хрусткий салат з креветками (310 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат рамен, перепелині яйця, соус цезар, помідори чері, пармезан, креветки (310 гр)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 350.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зелений салат (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Із бланшованим броколі, спаржевою квасолею, бобами Едаме, артишоком та в'яленими томатами.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 350.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Великий зелений салат (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З ростбіфом та гірчичним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з кільцями кальмара та кіноа(310гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> салат ромен, кіноа, боби едамаме, свіжий огірок, смажені кальмари, пармезан, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наш улюблений хрусткий салат з курячою ніжкою (380 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат рамен, перепелині яйця, соус цезар, помідори чері, пармезан, бекон, куряча ніжка в паніровці, обсмажена в фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з картоплею та грибами (270 гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, обсмажена картопля, гриби, в'ялені томати, пармезан, помідори чері, оливкова олія, соєвий соус.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Біфштекс з картопляними діпами (150/100/50/35гр).</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> яловича вирізка, картопляні діпи, копчена паприка, яєшня, рукола, маринований огірок, соус ред вайн .</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 420.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хрустке курча з молодою картоплею та грибами (480 гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Обсмажене курча, молода картопля, гриби, цибуля шалот, вершкове масло, зелень</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 350.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бефстроганов (325гр).</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> яловичина сувід, соус сметанковий, картопля пюре, петрушка фрі, цибулеві кільця.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 350.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Телятина з пюре з печеної картоплі  (130/150/30/30гр).</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Антрекот яловичий, пюре з печеної картоплі, цибуля ріпчаста, часник, пряжене молоко, журавлиновий демігляс, пікантний демігляс.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлети індичі (310гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> з картопляним пюре</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Міні кейк - Львівський сирник</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> кисломолочний сир з ваніллю, ніжний вершковий крем , макова підложка з молочним шоколадом і уламками бельгійської вафлі та покритий молочним шоколадом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Міні кейк - Снікерс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> брауні молочний шоколад, карамель з арахісом, шоколадний мус і шоколадний ганаш, покриття чорний шоколад з арахісом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Міні кейк - Тарт Веганський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Корзинка - фініки, чорнослив, соняшникове насіння, льон, арахісова паста, кокосова і мигдальна мука. Полуничне пюре, стевія, чіа.  Мус кеш'ю - кокосові вершки, кокосове масло, кеш'ю, ваніль, лимонний фреш та мед. Прикрашається свіжою полуницею.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Міні кейк - Чізкейк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Корзинка з пісочного тіста, крем сир з ваніллю, карамель, ванільний ганаш.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Міні кейк - Нутела</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бісквіт з какао і горіховим сиропом з фундука, вершковий крем на основі крем сиру з нутеллою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Міні кейк - Шоколадно - карамельний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шоколад (180г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколадний бісквіт, ганаш на основі чорного шоколаду і вершковий крем на основі крем сиру та шоколаду.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Орео  (180г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний бісквіт з чорного какао і ванілі, чізкейк на основі крем сиру з печивом "Орео", вершковий крем на основі крем сиру з подрібненим печивом "Орео".</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Полуниця (180г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний бисквіт з полуничним сиропом, полуничне конфі та вершковий крем з сублімованою подрібненою полуницею.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Міні кейк - Фісташка - вишня</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ваніль (180г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бісквіт просочений сиропом з мексиканської ванілі, ванільне крем брюле, крем вершково - ванільний.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимон (180г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бісквіт просочений лимонним сиропом і цедрою, ніжний лимонно - вершковий крем.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІНІ-КЕЙКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спартак (1кг)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Медові коржі з какао та заварний крем зі згущеним молоком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1050.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Червоний оксамит (1кг)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний американський десерт з вологими бісквітними коржами та вершковим кремом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 860.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Медовик (1кг)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні й соковиті медові коржі зі сметанним кремом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 860.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наполеон (1кг)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний торт з листкового тіста із заварним кремом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 790.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Горішки зі згущеним молоком (1кг)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарт мандариновий (240гр).</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> курд з мандаринів (яйця, цукор, фреш мандаринів, фреш лайма,желатин), пісочне тісто (яйця, борошно, цукрова пудра, цедра мандаринів, вершкове масло), крем сир з цедрою лайма.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спартак (165г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Медові коржі з какао і заварний крем зі згущеним молоком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Червоний оксамит (165г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний американський десерт з вологими бісквітними коржами та вершковим кремом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Медовик (165г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні та соковиті медові коржі зі сметанним кремом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наполеон (165г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний торт з листкового тіста з ніжним заварним кремом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Горішки зі згущеним молоком (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер Фісташка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Заварне тісто, фісташковий ганаш.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЕКЛЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер Полуниця</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Заварне тісто, полуничний ганаш.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЕКЛЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер молочний шоколад  (65г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Заварне тісто та ганаш з молочного шоколаду.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЕКЛЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер ваніль  (65г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Заварне тісто, ванільний крем та білий шоколад.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЕКЛЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер карамель з маскарпоне  (75г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Заварне тісто, карамельний ганаш зі збитою та солоною карамеллю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЕКЛЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер маракуя  (65г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Заварне тісто, білий шоколад та заварний крем з маракуєю.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЕКЛЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Слойка з малиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Листове тісто з вершковим маслом, малинове тісто, пюре з малини.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Слойка з карамеллю</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ароматні пончики з цукровою пудрою та джемом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Слойка з шоколадом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Листкове тісто з вершковим маслом, шоколад</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Слойка з маком</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Листкове тісто з вершковим маслом, макова начинка з родзинками і шоколадним брауні.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печиво Малина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> пісочне малинове тісто з малиновою карамеллю.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печиво Кунжут</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> пісочне кунжутне тісто і ганаш з чорним кунжутом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печиво Фісташка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> пісочне фісташкове тісто і фісташковий ганаш.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

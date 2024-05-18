@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wine bar “Колишня“</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/435.png" alt="Restaurant Image">
         <h1>Wine bar “Колишня“</h1>
@@ -63,78 +116,99 @@
         <p><strong>Неділя:</strong> 12:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Фрі суперкранч (200г)</p>
-                <p><strong>Опис:</strong> Картопля смажена у фритюрі</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фрі суперкранч (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля смажена у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопляні Діпи (200г)</p>
-                <p><strong>Опис:</strong> Картопля смажена у фритюрі</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопляні Діпи (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля смажена у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси (4шт)</p>
-                <p><strong>Опис:</strong> Соковита курочка в хрусткій паніровці, смажена у фритюрі</p>
-                <p><strong>Ціна:</strong> 82.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси (4шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита курочка в хрусткій паніровці, смажена у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля Селянська (200г)</p>
-                <p><strong>Опис:</strong> Картопля скибками, смажена, спеції</p>
-                <p><strong>Ціна:</strong> 78.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля Селянська (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля скибками, смажена, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 78.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сир Брі (4шт)</p>
-                <p><strong>Опис:</strong> Сир Брі в паніровці, смажені у фритюрі</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сир Брі (4шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир Брі в паніровці, смажені у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Цибулеві кільця (4шт)</p>
-                <p><strong>Опис:</strong> Цибулеві кільця смажені у фритюрі</p>
-                <p><strong>Ціна:</strong> 52.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цибулеві кільця (4шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цибулеві кільця смажені у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 52.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Гірчично-медовий (30г)</p>
-                <p><strong>Опис:</strong> Соус на основі гірчиці та меду</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Гірчично-медовий (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус на основі гірчиці та меду</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус часниковий (30г)</p>
-                <p><strong>Опис:</strong> Соус на основі часнику, має гострий смак та приємний запах</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус часниковий (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус на основі часнику, має гострий смак та приємний запах</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус сирний (30г)</p>
-                <p><strong>Опис:</strong> Соус з додаванням різних сирів, має насичений смак та кремову консистенцію</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус сирний (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус з додаванням різних сирів, має насичений смак та кремову консистенцію</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус BBQ (30г)</p>
-                <p><strong>Опис:</strong> Соус на основі томатів, меду та спецій, має солодко-гострий смак</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус BBQ (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус на основі томатів, меду та спецій, має солодко-гострий смак</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кисло-солодкий соус (30г)</p>
-                <p><strong>Опис:</strong> Соус з додаванням оцту та цукру, має свіжий смак та бадьорить апетит</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кисло-солодкий соус (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус з додаванням оцту та цукру, має свіжий смак та бадьорить апетит</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Тартар (30г)</p>
-                <p><strong>Опис:</strong> Соус на основі майонезу з додаванням каперсів, цибулі та інших інгредієнтів, має насичений смак та характерний аромат</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Тартар (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус на основі майонезу з додаванням каперсів, цибулі та інших інгредієнтів, має насичений смак та характерний аромат</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кетчуп (30г)</p>
-                <p><strong>Опис:</strong> Томати, спеції</p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кетчуп (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томати, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирна ванна</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирна ванна</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

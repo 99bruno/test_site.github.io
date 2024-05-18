@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PERSHYI - kava ta yizha / ПЕРШИЙ - кава та їжа</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/460.png" alt="Restaurant Image">
         <h1>PERSHYI - kava ta yizha / ПЕРШИЙ - кава та їжа</h1>
@@ -63,383 +116,404 @@
         <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Макарон Жовто - блакитний мохіто (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарон Лавандовий (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарон полуниця (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарон Фісташковий (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарон білий та молочний шоколад (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарон вишня (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Зефір смородиновий (30г)</p>
-                <p><strong>Опис:</strong> Солодкий десерт</p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Зефір яблучний (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Морозиво полуниця банан</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО</p>
-                <hr>
-                <p><strong>Позиція:</strong> Морозиво Ківі (55г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО</p>
-                <hr>
-                <p><strong>Позиція:</strong> Морозиво Лісова ягода (55г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО</p>
-                <hr>
-                <p><strong>Позиція:</strong> Морозиво Львівський сирник (55г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО</p>
-                <hr>
-                <p><strong>Позиція:</strong> Морозиво манго-маракуйя смузі (55г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО</p>
-                <hr>
-                <p><strong>Позиція:</strong> Морозиво сорбет гранат - вишня</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО</p>
-                <hr>
-                <p><strong>Позиція:</strong> Морозиво бабил фрут</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО</p>
-                <hr>
-                <p><strong>Позиція:</strong> Морозиво фісташка-смак маскарпоне (55г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілк Шейк Super Манго маракуя (320мл)</p>
-                <p><strong>Опис:</strong> Холодний напій</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілк Шейк Super (330мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Айс Лате</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> PEPSI Блек (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> PEPSI (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кока кола без цукру</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кока кола</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Карпатська джерельна сильногазована</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Джерельна спортік</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Карпатська джерельна не газована</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сочок щинячий патруль персик яблуко</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сочок щинячий патруль мультифрукт</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сочок щинячий патруль яблуко полуниця</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сочок щинячий патруль яблуко виноград</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Какао з маршмелоу</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лате</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Флет вайт</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Капучіно</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Матча лате</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Какао</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Еспрессо</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Подвійне еспрессо</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Какао на воді</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пакет з синьо-жовтими ручками</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 67.0</p>
-                <p><strong>Тип:</strong> ПАКУВАННЯ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донатс Вишня</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> Донатс</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донатс milka з малиною</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> Донатс</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донатс МмДнс</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Донатс</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донатс Малина</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Донатс</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донатс Солена Карамель</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Донатс</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донатс чорничний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Донатс</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донатс Манго</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Донатс</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донатс Полуниця</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Донатс</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Маракуя</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Лимонади</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Ананас</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Лимонади</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Манго</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Лимонади</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Гранат</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Лимонади</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Полуниця</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Лимонади</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Ожина</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Лимонади</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Мохіто</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Лимонади</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Апельсин</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Лимонади</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад Яблуко</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Лимонади</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк манго</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> Мілкшейки</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк фісташка</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Мілкшейки</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк бабил фрут</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Мілкшейки</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк сирник</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Мілкшейки</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк полуниця банан</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Мілкшейки</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк гранат - вишня</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Мілкшейки</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк лісова ягода</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Мілкшейки</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк ваніль смородина</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> Мілкшейки</p>
-                <hr>
-                <p><strong>Позиція:</strong> Англійський сніданок</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
-                <hr>
-                <p><strong>Позиція:</strong> Молочний улунг</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сірий граф</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
-                <hr>
-                <p><strong>Позиція:</strong> Медовий манго</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
-                <hr>
-                <p><strong>Позиція:</strong> М ятна фантазія</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
-                <hr>
-                <p><strong>Позиція:</strong> Карпатський чай</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бризкі шампанського</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
-                <hr>
-                <p><strong>Позиція:</strong> Королівський десерт</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
-                <hr>
-                <p><strong>Позиція:</strong> Моті</p>
-                <p><strong>Опис:</strong> В асортименті ( в середині пасто подібна начинка або джем може не співпадати з фото 1 в 1 )</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> Моті</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарон Жовто - блакитний мохіто (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарон Лавандовий (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарон полуниця (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарон Фісташковий (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарон білий та молочний шоколад (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарон вишня (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зефір смородиновий (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий десерт</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зефір яблучний (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морозиво полуниця банан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морозиво Ківі (55г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морозиво Лісова ягода (55г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морозиво Львівський сирник (55г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морозиво манго-маракуйя смузі (55г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морозиво сорбет гранат - вишня</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морозиво бабил фрут</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морозиво фісташка-смак маскарпоне (55г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілк Шейк Super Манго маракуя (320мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Холодний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілк Шейк Super (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Айс Лате</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> PEPSI Блек (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> PEPSI (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кока кола без цукру</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кока кола</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Карпатська джерельна сильногазована</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Джерельна спортік</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Карпатська джерельна не газована</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сочок щинячий патруль персик яблуко</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сочок щинячий патруль мультифрукт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сочок щинячий патруль яблуко полуниця</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сочок щинячий патруль яблуко виноград</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао з маршмелоу</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Флет вайт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучіно</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Матча лате</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еспрессо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Подвійне еспрессо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао на воді</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пакет з синьо-жовтими ручками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 67.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАКУВАННЯ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донатс Вишня</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Донатс</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донатс milka з малиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Донатс</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донатс МмДнс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Донатс</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донатс Малина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Донатс</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донатс Солена Карамель</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Донатс</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донатс чорничний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Донатс</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донатс Манго</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Донатс</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донатс Полуниця</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Донатс</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Маракуя</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Лимонади</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Ананас</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Лимонади</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Манго</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Лимонади</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Гранат</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Лимонади</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Полуниця</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Лимонади</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Ожина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Лимонади</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Мохіто</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Лимонади</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Апельсин</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Лимонади</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Яблуко</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Лимонади</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк манго</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейки</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк фісташка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейки</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк бабил фрут</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейки</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк сирник</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейки</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк полуниця банан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейки</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк гранат - вишня</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейки</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк лісова ягода</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейки</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк ваніль смородина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейки</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Англійський сніданок</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Молочний улунг</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сірий граф</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Медовий манго</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> М ятна фантазія</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Карпатський чай</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бризкі шампанського</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Королівський десерт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Преміальний чай Пальміра ( незаварений )</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моті</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> В асортименті ( в середині пасто подібна начинка або джем може не співпадати з фото 1 в 1 )</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Моті</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza by Fabryka Tista / Піца Фабрика тіста</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/433.png" alt="Restaurant Image">
         <h1>Pizza by Fabryka Tista / Піца Фабрика тіста</h1>
@@ -63,133 +116,154 @@
         <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Сандвіч ХL курка (550г)</p>
-                <p><strong>Опис:</strong> Будь-який сандвіч на вибір з додаванням додаткової курки</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандвіч ХL курка (550г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Будь-який сандвіч на вибір з додаванням додаткової курки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сандвіч Мортадела (350г)</p>
-                <p><strong>Опис:</strong> Курка, помідори, квашені огірки, картопля фрі, сир твердий, соус Фета, лаваш</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандвіч Мортадела (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, помідори, квашені огірки, картопля фрі, сир твердий, соус Фета, лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сандвіч Фагіта (350г)</p>
-                <p><strong>Опис:</strong> Курка, помідори, сир твердий, картопля фрі, соус Фета, салат, лаваш</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандвіч Фагіта (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, помідори, сир твердий, картопля фрі, соус Фета, салат, лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сандвіч Сан-Пауло (350г)</p>
-                <p><strong>Опис:</strong> Курка, квашені огірки, сир плавлений, кукурудза, картопля фрі, соус Часниковий, кетчуп, лаваш</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандвіч Сан-Пауло (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, квашені огірки, сир плавлений, кукурудза, картопля фрі, соус Часниковий, кетчуп, лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сандвіч Греко (350г)</p>
-                <p><strong>Опис:</strong> Курка, помідори, свіжі огірки, картопля фрі, соус Фета, лаваш</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандвіч Греко (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, помідори, свіжі огірки, картопля фрі, соус Фета, лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сандвіч Панчо (350г)</p>
-                <p><strong>Опис:</strong> Курка, квашені огірки, капуста, сир твердий, кукурудза, соус Часниковий, лаваш</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандвіч Панчо (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, квашені огірки, капуста, сир твердий, кукурудза, соус Часниковий, лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сандвіч Торнадо (350г)</p>
-                <p><strong>Опис:</strong> Курка, квашені огірки, капуста, картопля фрі, кетчуп, соус Часниковий, лаваш</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандвіч Торнадо (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, квашені огірки, капуста, картопля фрі, кетчуп, соус Часниковий, лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сандвіч Вегетаріано (350г)</p>
-                <p><strong>Опис:</strong> Будь-який сандвіч на вибір, без м’яса</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандвіч Вегетаріано (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Будь-який сандвіч на вибір, без м’яса</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САНДВІЧІ У ЛАВАШІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарілка від Мішеля з куркою (500г)</p>
-                <p><strong>Опис:</strong> М’ясо, квашені огірки, свіжі помідори, чіпси з лавашу, картопля фрі, соус на вибір</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарілка від Мішеля з куркою (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> М’ясо, квашені огірки, свіжі помідори, чіпси з лавашу, картопля фрі, соус на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фаті XL з куркою (450г)</p>
-                <p><strong>Опис:</strong> М’ясо, більше чіпсів із смаженого лавашу, спеції, більше соусу Сметанково-часниковий</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фаті XL з куркою (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> М’ясо, більше чіпсів із смаженого лавашу, спеції, більше соусу Сметанково-часниковий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фаті з куркою (300г)</p>
-                <p><strong>Опис:</strong> М’ясо, чіпси із смаженого лавашу, спеції, соус Сметанково-часниковий</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фаті з куркою (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> М’ясо, чіпси із смаженого лавашу, спеції, соус Сметанково-часниковий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лаваш з соусом Фета  (200г)</p>
-                <p><strong>Опис:</strong> Лаваш, соус Фета, спеції</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лаваш з соусом Фета  (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш, соус Фета, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі (130г)</p>
-                <p><strong>Опис:</strong> Картопля смужками,  приготована у фритюрі</p>
-                <p><strong>Ціна:</strong> 63.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля смужками,  приготована у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 63.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чіпси з лавашу з соусом (70/70г)</p>
-                <p><strong>Опис:</strong> Лаваш смажений, соус на вибір, спеції</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чіпси з лавашу з соусом (70/70г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш смажений, соус на вибір, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Фета (70г)</p>
-                <p><strong>Опис:</strong> Соус Фета власного приготування, спеції</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Фета (70г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Фета власного приготування, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Часниковий (70г)</p>
-                <p><strong>Опис:</strong> Соус Часниковий власного приготування, спеції</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Часниковий (70г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Часниковий власного приготування, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік яблучний Rich (1л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік яблучний Rich (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Екзотик Rich (1л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Екзотик Rich (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік апельсиновий Rich (1л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік апельсиновий Rich (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік томатний Rich (1л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік томатний Rich (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік персиковий Rich (1л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік персиковий Rich (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Напій Кока-Кола (0,5л)</p>
-                <p><strong>Опис:</strong> Солодкогазоновий напій</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій Кока-Кола (0,5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкогазоновий напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Напій Фанта (0,5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій Фанта (0,5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Напій Спрайт (0,5л)</p>
-                <p><strong>Опис:</strong> Солодкогазований напій</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій Спрайт (0,5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкогазований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода Бонаква негазована (0,5л)</p>
-                <p><strong>Опис:</strong> Вода в асортименті</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Бонаква негазована (0,5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вода в асортименті</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

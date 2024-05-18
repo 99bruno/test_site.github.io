@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red Monkey на Замарстинівській</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/107.png" alt="Restaurant Image">
         <h1>Red Monkey на Замарстинівській</h1>
@@ -63,208 +116,229 @@
         <p><strong>Неділя:</strong> 12:00:00 - 21:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Бізнес Ланч (380г)</p>
-                <p><strong>Опис:</strong> Збірна позиція страв з трьох різних категорій</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> Сісти-Зʼїсти</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бізнес Ланч (380г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Збірна позиція страв з трьох різних категорій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сісти-Зʼїсти</p>
                 <hr>
-                <p><strong>Позиція:</strong> Борщ (250г)</p>
-                <p><strong>Опис:</strong> Традиційний червоний борщ з курочкою</p>
-                <p><strong>Ціна:</strong> 84.0</p>
-                <p><strong>Тип:</strong> Зʼїсти ложкою</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Борщ (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційний червоний борщ з курочкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 84.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти ложкою</p>
                 <hr>
-                <p><strong>Позиція:</strong> Суп гороховий з мисливськими ковбасками (250г)</p>
-                <p><strong>Опис:</strong> Ароматний гороховий суп з мисливськими ковбасками</p>
-                <p><strong>Ціна:</strong> 74.0</p>
-                <p><strong>Тип:</strong> Зʼїсти ложкою</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суп гороховий з мисливськими ковбасками (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний гороховий суп з мисливськими ковбасками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 74.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти ложкою</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем-суп грибний (250г)</p>
-                <p><strong>Опис:</strong> Ніжний грибний крем-суп з додаванням вершків</p>
-                <p><strong>Ціна:</strong> 74.0</p>
-                <p><strong>Тип:</strong> Зʼїсти ложкою</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем-суп грибний (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний грибний крем-суп з додаванням вершків</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 74.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти ложкою</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бульон курячий з фрикадельками (250г)</p>
-                <p><strong>Опис:</strong> Класичний курячий бульйон з фрикадельками та локшиною</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> Зʼїсти ложкою</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бульон курячий з фрикадельками (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний курячий бульйон з фрикадельками та локшиною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти ложкою</p>
                 <hr>
-                <p><strong>Позиція:</strong> Голубці курячі зі сметаною (200г)</p>
-                <p><strong>Опис:</strong> Курочка з рисом, завернута у м'якеньку капусту</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Голубці курячі зі сметаною (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курочка з рисом, завернута у м'якеньку капусту</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинці з куркою та грибами (200г)</p>
-                <p><strong>Опис:</strong> Рум'яні млинці зі смаженою курочкою, грибами та сметаною</p>
-                <p><strong>Ціна:</strong> 78.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з куркою та грибами (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рум'яні млинці зі смаженою курочкою, грибами та сметаною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 78.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вареники з куркою та сметаною (200г)</p>
-                <p><strong>Опис:</strong> Домашні варенички з м'ясом курочки та сметаною</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вареники з куркою та сметаною (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Домашні варенички з м'ясом курочки та сметаною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Зрази з капустою та сметаною (200г)</p>
-                <p><strong>Опис:</strong> Золотисті картопляні зрази з тушкованою капустою та сметаною</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зрази з капустою та сметаною (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Золотисті картопляні зрази з тушкованою капустою та сметаною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вареники з капустою та сметаною (200г)</p>
-                <p><strong>Опис:</strong> Домашні варенички з тушкованою капустою зі сметаною</p>
-                <p><strong>Ціна:</strong> 63.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вареники з капустою та сметаною (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Домашні варенички з тушкованою капустою зі сметаною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 63.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Деруни зі сметаною (180г)</p>
-                <p><strong>Опис:</strong> Смажені деруни зі сметаною, як вдома</p>
-                <p><strong>Ціна:</strong> 57.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Деруни зі сметаною (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажені деруни зі сметаною, як вдома</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 57.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вареники з картоплею та сметаною (200г)</p>
-                <p><strong>Опис:</strong> Домашні варенички з  картопелькою та сметаною</p>
-                <p><strong>Ціна:</strong> 56.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вареники з картоплею та сметаною (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Домашні варенички з  картопелькою та сметаною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 56.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пюре (200г)</p>
-                <p><strong>Опис:</strong> Ніжне картопляне пюре з молоком та маслом</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пюре (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжне картопляне пюре з молоком та маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля по-селянськи (180г)</p>
-                <p><strong>Опис:</strong> Запашна смажена картопля</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля по-селянськи (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запашна смажена картопля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Спагеті (200г)</p>
-                <p><strong>Опис:</strong> Класичне спагеті з додаванням масла</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спагеті (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичне спагеті з додаванням масла</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гречка (200г)</p>
-                <p><strong>Опис:</strong> Улюблена варена гречка з додаванням масла</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гречка (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Улюблена варена гречка з додаванням масла</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти, щоб наїстися</p>
                 <hr>
-                <p><strong>Позиція:</strong> Котлета зі свинини (100г)</p>
-                <p><strong>Опис:</strong> Апетитна котлетка з м'яса свинини</p>
-                <p><strong>Ціна:</strong> 59.0</p>
-                <p><strong>Тип:</strong> Зʼїсти  додатково</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлета зі свинини (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Апетитна котлетка з м'яса свинини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 59.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти  додатково</p>
                 <hr>
-                <p><strong>Позиція:</strong> Котлета з курки (100г)</p>
-                <p><strong>Опис:</strong> Апетитна котлетка з м'яса курочки</p>
-                <p><strong>Ціна:</strong> 56.0</p>
-                <p><strong>Тип:</strong> Зʼїсти  додатково</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлета з курки (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Апетитна котлетка з м'яса курочки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 56.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти  додатково</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники на вибір (5 шт)</p>
-                <p><strong>Опис:</strong> Обери 5 сирників на свій смак</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> Зʼїсти солоденьке</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники на вибір (5 шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Обери 5 сирників на свій смак</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти солоденьке</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники з нутелою (3шт)</p>
-                <p><strong>Опис:</strong> Ароматні і легкі сирники з нутелою</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> Зʼїсти солоденьке</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники з нутелою (3шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматні і легкі сирники з нутелою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти солоденьке</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники з абрикосом (3шт)</p>
-                <p><strong>Опис:</strong> Ароматні і легкі сирники з абрикосом</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> Зʼїсти солоденьке</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники з абрикосом (3шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматні і легкі сирники з абрикосом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти солоденьке</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники з кокосом (3шт)</p>
-                <p><strong>Опис:</strong> Ароматні і легкі сирники з вишнею</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> Зʼїсти солоденьке</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники з кокосом (3шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматні і легкі сирники з вишнею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти солоденьке</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники з малиною (3шт)</p>
-                <p><strong>Опис:</strong> Ароматні і легкі сирники з малиною</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> Зʼїсти солоденьке</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники з малиною (3шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматні і легкі сирники з малиною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти солоденьке</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинці з вишнею (150г)</p>
-                <p><strong>Опис:</strong> Ніжно-солодкий млинець з вишневою начинкою</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> Зʼїсти солоденьке</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з вишнею (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжно-солодкий млинець з вишневою начинкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти солоденьке</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинці з яблуком (150г)</p>
-                <p><strong>Опис:</strong> Ніжно-солодкий млинець з яблучною начинкою</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> Зʼїсти солоденьке</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з яблуком (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжно-солодкий млинець з яблучною начинкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Зʼїсти солоденьке</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кетчуп (30г)</p>
-                <p><strong>Опис:</strong> 30г</p>
-                <p><strong>Ціна:</strong> 10.0</p>
-                <p><strong>Тип:</strong> Щоб було смачніше</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кетчуп (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 10.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Щоб було смачніше</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гірчиця (30г)</p>
-                <p><strong>Опис:</strong> 30г</p>
-                <p><strong>Ціна:</strong> 10.0</p>
-                <p><strong>Тип:</strong> Щоб було смачніше</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гірчиця (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 10.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Щоб було смачніше</p>
                 <hr>
-                <p><strong>Позиція:</strong> Майонез (30г)</p>
-                <p><strong>Опис:</strong> 30г</p>
-                <p><strong>Ціна:</strong> 10.0</p>
-                <p><strong>Тип:</strong> Щоб було смачніше</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Майонез (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 10.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Щоб було смачніше</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сметана (30г)</p>
-                <p><strong>Опис:</strong> 30г</p>
-                <p><strong>Ціна:</strong> 10.0</p>
-                <p><strong>Тип:</strong> Щоб було смачніше</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сметана (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 10.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Щоб було смачніше</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хліб (40г)</p>
-                <p><strong>Опис:</strong> 40г</p>
-                <p><strong>Ціна:</strong> 5.0</p>
-                <p><strong>Тип:</strong> Щоб було смачніше</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хліб (40г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 40г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 5.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Щоб було смачніше</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фреш Грейпфрутовий (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш Грейпфрутовий (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фреш Апельсиновий (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш Апельсиновий (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фреш Яблучний (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш Яблучний (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фреш Морквяний (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш Морквяний (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фреш Вітамінний (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш Вітамінний (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Borjomi (330мл) ж/б</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Borjomi (330мл) ж/б</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Моршинська н/г (500мл) пет</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинська н/г (500мл) пет</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Моршинська с/г (500мл) пет</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинська с/г (500мл) пет</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca cola (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 51.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca cola (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 51.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca cola (250мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca cola (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

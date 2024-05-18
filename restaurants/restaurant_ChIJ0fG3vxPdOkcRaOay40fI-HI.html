@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food On Fire - Їжа на Вогні</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/119.png" alt="Restaurant Image">
         <h1>Food On Fire - Їжа на Вогні</h1>
@@ -63,98 +116,119 @@
         <p><strong>Неділя:</strong> 11:00:00 - 19:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Рамен Тонкоцу (600г)</p>
-                <p><strong>Опис:</strong> Меганаваристий свинний бульйон, Умамі соус, ароматна олія з підвугленого часнику, свіжа хендмейд локшина, томлений свинний рулет зі скоринкою, мариноване яйце, зелена цибуля, кукурудза, норі, чорний гриб</p>
-                <p><strong>Ціна:</strong> 258.0</p>
-                <p><strong>Тип:</strong> РАМЕН</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рамен Тонкоцу (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Меганаваристий свинний бульйон, Умамі соус, ароматна олія з підвугленого часнику, свіжа хендмейд локшина, томлений свинний рулет зі скоринкою, мариноване яйце, зелена цибуля, кукурудза, норі, чорний гриб</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 258.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЕН</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рамен Торікоцу (600г)</p>
-                <p><strong>Опис:</strong> Наваристий, кремовий курячий бульйон, Умамі соус, свіжа хендмейд локшина, томлене куряче стегенце, мариноване яйце, зелена цибуля, кукурудза, норі, чорний гриб</p>
-                <p><strong>Ціна:</strong> 252.0</p>
-                <p><strong>Тип:</strong> РАМЕН</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рамен Торікоцу (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Наваристий, кремовий курячий бульйон, Умамі соус, свіжа хендмейд локшина, томлене куряче стегенце, мариноване яйце, зелена цибуля, кукурудза, норі, чорний гриб</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 252.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЕН</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рамен Місо  (600г)</p>
-                <p><strong>Опис:</strong> Меганаваристий свинний бульйон з місо пастою, свіжа хендмейд локшина, пряний свинний фарш, мариноване яйце, зелена цибуля, кукурудза, норі</p>
-                <p><strong>Ціна:</strong> 252.0</p>
-                <p><strong>Тип:</strong> РАМЕН</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рамен Місо  (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Меганаваристий свинний бульйон з місо пастою, свіжа хендмейд локшина, пряний свинний фарш, мариноване яйце, зелена цибуля, кукурудза, норі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 252.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЕН</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рамен  Шою  (600г)</p>
-                <p><strong>Опис:</strong> Ароматний курячий бульйон з Соєвим соусом, свіжа хендмейд локшина, томлений свинний рулет зі скоринкою, мариноване яйце, зелена цибуля, ферментований бамбук, норі</p>
-                <p><strong>Ціна:</strong> 252.0</p>
-                <p><strong>Тип:</strong> РАМЕН</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рамен  Шою  (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний курячий бульйон з Соєвим соусом, свіжа хендмейд локшина, томлений свинний рулет зі скоринкою, мариноване яйце, зелена цибуля, ферментований бамбук, норі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 252.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЕН</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рамен Веган Місо (600г)</p>
-                <p><strong>Опис:</strong> Ароматний веганський бульйон з вівсяним молоком та пастою місо, свіжа хендмейд локшина, маринований тофу, чорний гриб, зелена цибуля, цибуля фрі, кукурудза, кунжут, норі</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> РАМЕН</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рамен Веган Місо (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний веганський бульйон з вівсяним молоком та пастою місо, свіжа хендмейд локшина, маринований тофу, чорний гриб, зелена цибуля, цибуля фрі, кукурудза, кунжут, норі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЕН</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рамен  Шіо  (600г)</p>
-                <p><strong>Опис:</strong> Ароматний курячий бульйон з морською сіллю, свіжа хендмейд локшина, ніжне куряче філе, мариноване яйце, зелена цибуля, ферментований бамбук, норі</p>
-                <p><strong>Ціна:</strong> 228.0</p>
-                <p><strong>Тип:</strong> РАМЕН</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рамен  Шіо  (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний курячий бульйон з морською сіллю, свіжа хендмейд локшина, ніжне куряче філе, мариноване яйце, зелена цибуля, ферментований бамбук, норі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 228.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЕН</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рамен  Веган Шою  (600г)</p>
-                <p><strong>Опис:</strong> Ароматний веганський бульйон з Соєвим соусом, свіжа хендмейд локшина, маринований тофу, чорний гриб, зелена цибуля, цибуля фрі, кукурудза, кунжут, норі</p>
-                <p><strong>Ціна:</strong> 228.0</p>
-                <p><strong>Тип:</strong> РАМЕН</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рамен  Веган Шою  (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний веганський бульйон з Соєвим соусом, свіжа хендмейд локшина, маринований тофу, чорний гриб, зелена цибуля, цибуля фрі, кукурудза, кунжут, норі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 228.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЕН</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гьоза  класичні, 6 шт. (180г)</p>
-                <p><strong>Опис:</strong> Японські пельмені з міксом курки та свинини, зеленою цибулею, імбирем та часником</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ГЬОЗА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гьоза  класичні, 6 шт. (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Японські пельмені з міксом курки та свинини, зеленою цибулею, імбирем та часником</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГЬОЗА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гьоза  з куркою та креветкою, 6 шт. (180г)</p>
-                <p><strong>Опис:</strong> Японські пельмені з міксом курки та креветки, зеленою цибулею, імбирем та часником</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ГЬОЗА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гьоза  з куркою та креветкою, 6 шт. (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Японські пельмені з міксом курки та креветки, зеленою цибулею, імбирем та часником</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГЬОЗА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гьоза  веганські, 6 шт. (180г)</p>
-                <p><strong>Опис:</strong> Японські пельмені з грибами та капустою</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ГЬОЗА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гьоза  веганські, 6 шт. (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Японські пельмені з грибами та капустою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГЬОЗА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Онігірі з тунцем (130г)</p>
-                <p><strong>Опис:</strong> Рисовий трикутничок з тунцем, загорнутий в норі</p>
-                <p><strong>Ціна:</strong> 102.0</p>
-                <p><strong>Тип:</strong> ОНІГІРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Онігірі з тунцем (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рисовий трикутничок з тунцем, загорнутий в норі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 102.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОНІГІРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Маземен (270г)</p>
-                <p><strong>Опис:</strong> Свіжа локшина, пікантний свинний фарш, мариноване яйце, зелена цибуля, кукурудза, норі, імбир, оігрок, кунжут</p>
-                <p><strong>Ціна:</strong> 156.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА І САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Маземен (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжа локшина, пікантний свинний фарш, мариноване яйце, зелена цибуля, кукурудза, норі, імбир, оігрок, кунжут</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 156.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА І САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вакаме (160г)</p>
-                <p><strong>Опис:</strong> Водорості вакаме з Горіховим соусом та кунжутною олією</p>
-                <p><strong>Ціна:</strong> 138.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА І САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вакаме (160г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Водорості вакаме з Горіховим соусом та кунжутною олією</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 138.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА І САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кімчі (120г)</p>
-                <p><strong>Опис:</strong> Гостра закуска з ферментованої Пекінської капусти</p>
-                <p><strong>Ціна:</strong> 102.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА І САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімчі (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гостра закуска з ферментованої Пекінської капусти</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 102.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА І САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мочі (60г)</p>
-                <p><strong>Опис:</strong> Японський десерт з рисового тіста з кремовою начинкою</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мочі (60г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Японський десерт з рисового тіста з кремовою начинкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-Cola (330мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-Cola (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Баночка кімчі (200г)</p>
-                <p><strong>Опис:</strong> Гостра закуска з ферментованої пекінської капусти</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ПОЛИЦЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Баночка кімчі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гостра закуска з ферментованої пекінської капусти</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОЛИЦЯ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Баночка олійки чилі (160г)</p>
-                <p><strong>Опис:</strong> Хоуммейд олійка чилі</p>
-                <p><strong>Ціна:</strong> 168.0</p>
-                <p><strong>Тип:</strong> ПОЛИЦЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Баночка олійки чилі (160г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хоуммейд олійка чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 168.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОЛИЦЯ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

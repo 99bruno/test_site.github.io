@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кафе "Домашньої кухні"</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/292.png" alt="Restaurant Image">
         <h1>Кафе "Домашньої кухні"</h1>
@@ -63,258 +116,279 @@
         <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Шоконям лісовий горіх (180г)</p>
-                <p><strong>Опис:</strong> Паста горіхова ліщина</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ ПАСТИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шоконям лісовий горіх (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста горіхова ліщина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ ПАСТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шоконям молочний шоколад та лісовий горіх (200г)</p>
-                <p><strong>Опис:</strong> Молочний шоколад, ліщина, олія виноградних кісточок</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ ПАСТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шоконям молочний шоколад та лісовий горіх (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Молочний шоколад, ліщина, олія виноградних кісточок</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ ПАСТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шоконям арахісова паста (180г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ ПАСТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шоконям арахісова паста (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ ПАСТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг з телятиною та болгарським перцем (125г)</p>
-                <p><strong>Опис:</strong> Склад: м'ясо яловиче власного копчення, болгарський перець, цибуля порей, яйця*, чорний перець, спеція чахохбілі
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг з телятиною та болгарським перцем (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: м'ясо яловиче власного копчення, болгарський перець, цибуля порей, яйця*, чорний перець, спеція чахохбілі
 Пісочне тісто: пшеничне борошно*, вершкове масло*, сметана*, сіль, розпушувач
 Начинка: яловичина, болгарський перець</p>
-                <p><strong>Ціна:</strong> 79.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ ПИРОГИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 79.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ ПИРОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг з тріскою та сиром (125г)</p>
-                <p><strong>Опис:</strong> Склад: філе мерлузи*, сир плавлений "Дружба" ДСТУ*, цибуля порей, вино біле, лимон, часник, масло вершкове*, чорний перець
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг з тріскою та сиром (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: філе мерлузи*, сир плавлений "Дружба" ДСТУ*, цибуля порей, вино біле, лимон, часник, масло вершкове*, чорний перець
 Пісочне тісто: пшеничне борошно*, вершкове масло*, сметана*, сіль, розпушувач
 Начинка: філе мерлузи*, сир*</p>
-                <p><strong>Ціна:</strong> 83.0</p>
-                <p><strong>Тип:</strong> РИБНІ ПИРОГИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 83.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБНІ ПИРОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг з фореллю та шпинатом (125г)</p>
-                <p><strong>Опис:</strong> Склад: філе форелі*, шпинат, цибуля порей, яйця*, чорний перець, сушений часник, петрушка сушена
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг з фореллю та шпинатом (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: філе форелі*, шпинат, цибуля порей, яйця*, чорний перець, сушений часник, петрушка сушена
 Пісочне тісто: пшеничне борошно*, вершкове масло*, сметана*, сіль, розпушувач
 Начинка: форель*, шпинат</p>
-                <p><strong>Ціна:</strong> 83.0</p>
-                <p><strong>Тип:</strong> РИБНІ ПИРОГИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 83.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБНІ ПИРОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг з індичкою та капустою (125г)</p>
-                <p><strong>Опис:</strong> Склад: м'ясо індички, капуста, цибуля порей, сливовий соус*, яйця*, чорний перець, соєвий соус, соус чилі, паприка, сіль, перець.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг з індичкою та капустою (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: м'ясо індички, капуста, цибуля порей, сливовий соус*, яйця*, чорний перець, соєвий соус, соус чилі, паприка, сіль, перець.
 Начинка: індичка, капуста</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ПИРОГИ З ПТИЦІ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПИРОГИ З ПТИЦІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг з куркою та грибами (125г)</p>
-                <p><strong>Опис:</strong> Склад: куряче філе, печериці, сир плавлений "Дружба" ДСТУ*, цибуля порей, яйця*, чорний перець, сушена петрушка
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг з куркою та грибами (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: куряче філе, печериці, сир плавлений "Дружба" ДСТУ*, цибуля порей, яйця*, чорний перець, сушена петрушка
 Пісочне тісто: пшеничне борошно*, вершкове масло*, сметана*, сіль, розпушувач
 Начинка: курка, гриби, сир</p>
-                <p><strong>Ціна:</strong> 71.0</p>
-                <p><strong>Тип:</strong> ПИРОГИ З ПТИЦІ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 71.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПИРОГИ З ПТИЦІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг 4 сири (100г)</p>
-                <p><strong>Опис:</strong> Склад: сир гауда витриманий “Мукко”, сир дорблю, сир рікота, сир плавлений ДСТУ, соус ворчестер, чорний перець, вершки, яйця
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг 4 сири (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: сир гауда витриманий “Мукко”, сир дорблю, сир рікота, сир плавлений ДСТУ, соус ворчестер, чорний перець, вершки, яйця
 Начинка: сир, сир рікота</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ПИРОГИ З СИРОМ ТА ОВОЧАМИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПИРОГИ З СИРОМ ТА ОВОЧАМИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг Брауні горіх (125г)</p>
-                <p><strong>Опис:</strong> Склад: фундук, фісташка, волоський горіх, арахіс, яйця, чорний шоколад, вершки, згущене молоко, какао, цукор
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг Брауні горіх (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: фундук, фісташка, волоський горіх, арахіс, яйця, чорний шоколад, вершки, згущене молоко, какао, цукор
 Пісочне тісто: пшеничне борошно, вершкове масло, сметана, сіль, розпушувач
 Начинка: горіх, шоколад, фундук, фісташка, арахіс</p>
-                <p><strong>Ціна:</strong> 71.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 71.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг по-київськи з арахісом та чорним шоколадом(125г)</p>
-                <p><strong>Опис:</strong> Пісочне тісто: пшеничне борошно, вершкове масло, сметана, сіль, розпушувач
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг по-київськи з арахісом та чорним шоколадом(125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пісочне тісто: пшеничне борошно, вершкове масло, сметана, сіль, розпушувач
 Начинка: Крем-сир *, арахіс *, чорний шоколад, білий шоколад, вершки*, цукор, яйця*, ванільний цукор.</p>
-                <p><strong>Ціна:</strong> 71.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 71.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ГОРІХОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг з апельсином,журавлиною та рікотою (125г)</p>
-                <p><strong>Опис:</strong> Тісто: Апельсинові цукати, журавлина, чорний шоколад, какао, рікота, масло вершкове, вершки, яйця, молоко, цукор, ванільний цукор, апельсиновий цукор.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг з апельсином,журавлиною та рікотою (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тісто: Апельсинові цукати, журавлина, чорний шоколад, какао, рікота, масло вершкове, вершки, яйця, молоко, цукор, ванільний цукор, апельсиновий цукор.
 Начинка: пшеничне борошно, вершкове масло, сметана, сіль, розпушувач</p>
-                <p><strong>Ціна:</strong> 71.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 71.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг Брауні лимон (115г)</p>
-                <p><strong>Опис:</strong> Склад: лимон, чорний шоколад, молоко, сир рікота*, есенція, яйця*, цукор, вершкове масло*, вершки*
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг Брауні лимон (115г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: лимон, чорний шоколад, молоко, сир рікота*, есенція, яйця*, цукор, вершкове масло*, вершки*
 Пісочне тісто: пшеничне борошно, вершкове масло, сметана, сіль, розпушувач
 Начинка: лимон, шоколад, сир рікота</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг з вишнею та рікотою (125г)</p>
-                <p><strong>Опис:</strong> Склад: сир рікота*, вершки*, вишня, яйця*, цукор, вівсяне печиво, ванілін
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг з вишнею та рікотою (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: сир рікота*, вершки*, вишня, яйця*, цукор, вівсяне печиво, ванілін
 Пісочне тісто: пшеничне борошно*, вершкове масло*, сметана*, сіль, розпушувач
 Начинка: вишня, сир рікота</p>
-                <p><strong>Ціна:</strong> 64.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 64.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг з полуницею та ожиною (125г)</p>
-                <p><strong>Опис:</strong> Тісто: пшеничне борошно*, вершкове масло*, сметана*, сіль, розпушувач
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг з полуницею та ожиною (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тісто: пшеничне борошно*, вершкове масло*, сметана*, сіль, розпушувач
 Начинка: Полуниця, Ожина, сир рікота*, вершки*, вівсяне печиво, яйця*, цукор, ванілін.</p>
-                <p><strong>Ціна:</strong> 64.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 64.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиріг з яблуком, горіхами та корицею(125г)</p>
-                <p><strong>Опис:</strong> Склад: яблука, волоський горіх*, цукор, вівсяне печиво, кориця
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріг з яблуком, горіхами та корицею(125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: яблука, волоський горіх*, цукор, вівсяне печиво, кориця
 Пісочне тісто: пшеничне борошно*, вершкове масло*, сметана*, сіль, розпушувач
 Начинка: яблуко, горіх</p>
-                <p><strong>Ціна:</strong> 53.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 53.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ ПИРОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Асорті-macarons xl 9 шт.</p>
-                <p><strong>Опис:</strong> Диня - Дорблю, боб тонка, бабл гам - малина, матча - вишня, капучино - сир Гудбрандсдален, арахіс</p>
-                <p><strong>Ціна:</strong> 513.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Асорті-macarons xl 9 шт.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Диня - Дорблю, боб тонка, бабл гам - малина, матча - вишня, капучино - сир Гудбрандсдален, арахіс</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 513.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тістечко шу 9 шт.</p>
-                <p><strong>Опис:</strong> Масло, молоко, борошно, сіль, цукор, яйця</p>
-                <p><strong>Ціна:</strong> 440.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тістечко шу 9 шт.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Масло, молоко, борошно, сіль, цукор, яйця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 440.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Асорті-macarons класичні 10 шт.</p>
-                <p><strong>Опис:</strong> Солона-карамель, фісташковий, полуничний Мохіто, Пармезан-груша, лайм-базилік, маракуя</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Асорті-macarons класичні 10 шт.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солона-карамель, фісташковий, полуничний Мохіто, Пармезан-груша, лайм-базилік, маракуя</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Батончик шоколадно-кокосовий 4шт</p>
-                <p><strong>Опис:</strong> Крем-сир, ванільний цукор, шоколад, вершки, сироп кокосовий, молочний шоколад, заварне тістечко</p>
-                <p><strong>Ціна:</strong> 360.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Батончик шоколадно-кокосовий 4шт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, ванільний цукор, шоколад, вершки, сироп кокосовий, молочний шоколад, заварне тістечко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 360.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Батончик · роше 4шт</p>
-                <p><strong>Опис:</strong> Вершковий крем сир, солона карамель, арахіс, брауні, молочний шоколад, вершки, вершкове масло, ванілін</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Батончик · роше 4шт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершковий крем сир, солона карамель, арахіс, брауні, молочний шоколад, вершки, вершкове масло, ванілін</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еклер банановий 4 шт.</p>
-                <p><strong>Опис:</strong> Крем-сир, масло, вершки, цукор, яйця, ванільний цукор, борошно, шоколадна глазур</p>
-                <p><strong>Ціна:</strong> 288.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер банановий 4 шт.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, масло, вершки, цукор, яйця, ванільний цукор, борошно, шоколадна глазур</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 288.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еклер Брауні 4 шт.</p>
-                <p><strong>Опис:</strong> Вершковий сир, шоколад, какао, вершки, вершкове масло, цукор, ванільний цукор, яйця</p>
-                <p><strong>Ціна:</strong> 288.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер Брауні 4 шт.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершковий сир, шоколад, какао, вершки, вершкове масло, цукор, ванільний цукор, яйця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 288.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еклер ванільний 4 шт.</p>
-                <p><strong>Опис:</strong> Крем-сир, масло, вершки, цукор, яйця, ванільний цукор, борошно, шоколадна глазур</p>
-                <p><strong>Ціна:</strong> 288.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер ванільний 4 шт.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, масло, вершки, цукор, яйця, ванільний цукор, борошно, шоколадна глазур</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 288.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еклер фісташковий 4 шт.</p>
-                <p><strong>Опис:</strong> Крем-сир, вершки, цукор, яйця, ванільний цукор, борошно, біла шоколадна глазур</p>
-                <p><strong>Ціна:</strong> 288.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер фісташковий 4 шт.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, вершки, цукор, яйця, ванільний цукор, борошно, біла шоколадна глазур</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 288.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еклер-арахісовий 4 шт.</p>
-                <p><strong>Опис:</strong> Крем-сир, арахіс, арахісова паста, шоколад, вершки, цукор, вершкове масло, яйця, ванільний цукор</p>
-                <p><strong>Ціна:</strong> 288.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер-арахісовий 4 шт.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, арахіс, арахісова паста, шоколад, вершки, цукор, вершкове масло, яйця, ванільний цукор</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 288.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чизкейк в Банці манго маракуя (150 г)</p>
-                <p><strong>Опис:</strong> Крем-сир, манго, маракуя, вершки, масло вершкове, ванільний цукор, яйця, сіль, цукор, борошно, сметана</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чизкейк в Банці манго маракуя (150 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, манго, маракуя, вершки, масло вершкове, ванільний цукор, яйця, сіль, цукор, борошно, сметана</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чизкейк фісташковий в банці (150 г)</p>
-                <p><strong>Опис:</strong> Крем-сир, масло вершкове, вершки, фісташка, цукор, яйця, малина</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чизкейк фісташковий в банці (150 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, масло вершкове, вершки, фісташка, цукор, яйця, малина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чизкейк полуниця-базилік в банці (150 г)</p>
-                <p><strong>Опис:</strong> Крем-сир, полуниця, базилік, вершки, масло вершкове, ванільний цукор, яйця, сіль, цукор, борошно, см</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чизкейк полуниця-базилік в банці (150 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, полуниця, базилік, вершки, масло вершкове, ванільний цукор, яйця, сіль, цукор, борошно, см</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чизкейк із Брауні та вишнею в банці (150 г)</p>
-                <p><strong>Опис:</strong> Крем-сир, шоколад, какао, масло, вершки, цукор, яйця, ванільний цукор, вишня</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чизкейк із Брауні та вишнею в банці (150 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, шоколад, какао, масло, вершки, цукор, яйця, ванільний цукор, вишня</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чизкейк із Брауні та чорницею в банці (150 г)</p>
-                <p><strong>Опис:</strong> Крем-сир, шоколад, какао, масло, вершки, цукор, яйця, ванільний цукор, чорниця</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чизкейк із Брауні та чорницею в банці (150 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, шоколад, какао, масло, вершки, цукор, яйця, ванільний цукор, чорниця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шоколадний чизкейк з солоною карамеллю в банці (150 г)</p>
-                <p><strong>Опис:</strong> Крем-сир, апельсин, шоколад чорний, шоколад молочний, вершки, цукор, яйця, борошно, масло вершкове</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шоколадний чизкейк з солоною карамеллю в банці (150 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, апельсин, шоколад чорний, шоколад молочний, вершки, цукор, яйця, борошно, масло вершкове</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чизкейк із Брауні в банці (150 г)</p>
-                <p><strong>Опис:</strong> Крем-сир, шоколад, какао, масло, вершки, цукор, яйця, ванільний цукор</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чизкейк із Брауні в банці (150 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крем-сир, шоколад, какао, масло, вершки, цукор, яйця, ванільний цукор</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізкейк Манго-маракуйя</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 103.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізкейк Манго-маракуйя</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 103.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізкейк Брауні (120г)</p>
-                <p><strong>Опис:</strong> Склад: Крем-сир, шоколад, какао, масло, вершки, цукор, яйця, ванільний цукор, борошно, розпушувач
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізкейк Брауні (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: Крем-сир, шоколад, какао, масло, вершки, цукор, яйця, ванільний цукор, борошно, розпушувач
 Пісочне тісто: пшеничне борошно, вершкове масло, сметана, сіль, розпушувач
 Начинка: крем-сир, шоколад, какао</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізкейк Нью Йорк (120г)</p>
-                <p><strong>Опис:</strong> Склад: Крем-сир, масло, вершки, цукор, яйця, ванільний цукор, борошно, розпушувач
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізкейк Нью Йорк (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Склад: Крем-сир, масло, вершки, цукор, яйця, ванільний цукор, борошно, розпушувач
 Пісочне тісто: пшеничне борошно, вершкове масло, сметана, сіль, розпушувач
 Начинка: крем-сир</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Флан фісташковий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Флан фісташковий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧИЗКЕЙКИ ТА СОЛОДКА ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Наліпка-листівка дякую</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наліпка-листівка дякую</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Наліпка-листівка з днем народження</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наліпка-листівка з днем народження</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Наліпка-листівка найкращій подрузі</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наліпка-листівка найкращій подрузі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Наліпка-листівка найкращому другу</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наліпка-листівка найкращому другу</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Наліпка-листівка найкращому колезі</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наліпка-листівка найкращому колезі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Наліпка-листівка одужуй 2</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наліпка-листівка одужуй 2</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИСТІВКИ ДО ПИРОГІВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Компот</p>
-                <p><strong>Опис:</strong> Сезонні ягоди, цукор,вода</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Компот</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сезонні ягоди, цукор,вода</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Узвар</p>
-                <p><strong>Опис:</strong> Сухофрукти, цукор, вода</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Узвар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сухофрукти, цукор, вода</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>resto Friends</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/289.png" alt="Restaurant Image">
         <h1>resto Friends</h1>
@@ -63,198 +116,219 @@
         <p><strong>Неділя:</strong> 11:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Комбо BBQ</p>
-                <p><strong>Опис:</strong> BBQ +картопля фрі і пепсі ж/б</p>
-                <p><strong>Ціна:</strong> 407.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо BBQ</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> BBQ +картопля фрі і пепсі ж/б</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 407.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Гавайський</p>
-                <p><strong>Опис:</strong> Гавайський +картопля фрі і пепсі ж/б</p>
-                <p><strong>Ціна:</strong> 360.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Гавайський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гавайський +картопля фрі і пепсі ж/б</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 360.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Бой</p>
-                <p><strong>Опис:</strong> Бой +картопля фрі і пепсі ж/б</p>
-                <p><strong>Ціна:</strong> 349.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Бой</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бой +картопля фрі і пепсі ж/б</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 349.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Калійний</p>
-                <p><strong>Опис:</strong> Калійний +картопля фрі і пепсі ж/б</p>
-                <p><strong>Ціна:</strong> 319.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Калійний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Калійний +картопля фрі і пепсі ж/б</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 319.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Дабл</p>
-                <p><strong>Опис:</strong> Калійний +картопля фрі і пепсі ж/б</p>
-                <p><strong>Ціна:</strong> 292.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Дабл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Калійний +картопля фрі і пепсі ж/б</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 292.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Чіз</p>
-                <p><strong>Опис:</strong> Чізбургер +картопля фрі і пепсі ж/б</p>
-                <p><strong>Ціна:</strong> 158.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Чіз</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чізбургер +картопля фрі і пепсі ж/б</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 158.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирна Ванна</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирна Ванна</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Дро (460г)</p>
-                <p><strong>Опис:</strong> Класична булочка, чотири соковитих яловичі котлети, підсмажені скибки бекону, сир Чеддер, мариновані огірочки, скибки стиглого помідору, фіолетова цибуля, кетчуп, майонез, гірчиця.</p>
-                <p><strong>Ціна:</strong> 410.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Дро (460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична булочка, чотири соковитих яловичі котлети, підсмажені скибки бекону, сир Чеддер, мариновані огірочки, скибки стиглого помідору, фіолетова цибуля, кетчуп, майонез, гірчиця.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 410.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фарш бургер (470г)</p>
-                <p><strong>Опис:</strong> Картопляна булочка з сезамом, пшенична тортилья, фарш заправлений болгарським перцем, підсмажені скибки бекону, сир Чеддер, домашні мариновані огірочки, скибки стиглого помідору, хрусткий салат Айсберг, секретний соус Х.</p>
-                <p><strong>Ціна:</strong> 317.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фарш бургер (470г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляна булочка з сезамом, пшенична тортилья, фарш заправлений болгарським перцем, підсмажені скибки бекону, сир Чеддер, домашні мариновані огірочки, скибки стиглого помідору, хрусткий салат Айсберг, секретний соус Х.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 317.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер BBQ (310г)</p>
-                <p><strong>Опис:</strong> Картопляна булочка з сезамом, соковита яловича котлета, підсмажені гриби з цибулею, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, сир Чеддер, соус Барбекю.</p>
-                <p><strong>Ціна:</strong> 317.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер BBQ (310г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляна булочка з сезамом, соковита яловича котлета, підсмажені гриби з цибулею, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, сир Чеддер, соус Барбекю.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 317.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Мамба (250г)</p>
-                <p><strong>Опис:</strong> Булочка з чорнилом каракатиці, соковита яловича котлета, підсмажені скибки бекону, сир Чеддер, Сирний соус з сиром Пармезан, пряний Вишневий соус</p>
-                <p><strong>Ціна:</strong> 282.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Мамба (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка з чорнилом каракатиці, соковита яловича котлета, підсмажені скибки бекону, сир Чеддер, Сирний соус з сиром Пармезан, пряний Вишневий соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 282.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Гавайський (350г)</p>
-                <p><strong>Опис:</strong> Картопляна булочка з сезамом, соковита яловича котлета, грильовані кільця ананасу, сир Чеддер, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, Кисло-солодкий соус</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Гавайський (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляна булочка з сезамом, соковита яловича котлета, грильовані кільця ананасу, сир Чеддер, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, Кисло-солодкий соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер American boy (330г)</p>
-                <p><strong>Опис:</strong> Картопляна булочка з сезамом, соковита яловича котлета, яйце смажене на грилі, цибулеві кільця в паніруванні, сир Чеддер, домашні мариновані огірочки, фіолетова цибуля, секретний соус Х</p>
-                <p><strong>Ціна:</strong> 259.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер American boy (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляна булочка з сезамом, соковита яловича котлета, яйце смажене на грилі, цибулеві кільця в паніруванні, сир Чеддер, домашні мариновані огірочки, фіолетова цибуля, секретний соус Х</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 259.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Калійний (420г)</p>
-                <p><strong>Опис:</strong> Картопляна булочка з сезамом, три соковиті яловичі котлети, сир Чеддер, тягуча сир Моцарелла, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, кетчуп, майонез, гірчиця, Часниковий соус, стебницька сіль.</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Калійний (420г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляна булочка з сезамом, три соковиті яловичі котлети, сир Чеддер, тягуча сир Моцарелла, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, кетчуп, майонез, гірчиця, Часниковий соус, стебницька сіль.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Кордон блю (290г)</p>
-                <p><strong>Опис:</strong> Картопляна булочка з сезамом, котлета з курятини із твердим сиром та шинкою, хрусткий салат Айсберг, майонез, Медово-гірчичний соус.</p>
-                <p><strong>Ціна:</strong> 213.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Кордон блю (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляна булочка з сезамом, котлета з курятини із твердим сиром та шинкою, хрусткий салат Айсберг, майонез, Медово-гірчичний соус.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 213.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дабл Чізбургер (310г)</p>
-                <p><strong>Опис:</strong> Картопляна булочка з сезамом, дві соковиті яловичі котлети, сир Чеддер, тягучий сир Моцарелла, хрусткий салат Айсберг, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, Сирний соус, кетчуп, майонез, гірчиця.</p>
-                <p><strong>Ціна:</strong> 202.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл Чізбургер (310г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляна булочка з сезамом, дві соковиті яловичі котлети, сир Чеддер, тягучий сир Моцарелла, хрусткий салат Айсберг, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, Сирний соус, кетчуп, майонез, гірчиця.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 202.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер ЧікенЧіз</p>
-                <p><strong>Опис:</strong> Класична булочка без сезаму, соковита куряча котлета в паніруванні, мариновані огірочки, фіолетова цибуля, карамелізована цибуля, перець Халапеньйо, цибуля кранч, соус Чедер.</p>
-                <p><strong>Ціна:</strong> 202.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер ЧікенЧіз</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична булочка без сезаму, соковита куряча котлета в паніруванні, мариновані огірочки, фіолетова цибуля, карамелізована цибуля, перець Халапеньйо, цибуля кранч, соус Чедер.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 202.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Чікен</p>
-                <p><strong>Опис:</strong> Класична булочка без сезаму, соковита куряча котлета в паніруванні, мариновані огірочки, салат коул слоу.</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Чікен</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична булочка без сезаму, соковита куряча котлета в паніруванні, мариновані огірочки, салат коул слоу.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Чіз з беконом (160г)</p>
-                <p><strong>Опис:</strong> Класична булочка без сезаму, соковита яловича котлета, сир Чеддер, скибки бекону, домашні мариновані огірочки, скибки стиглого помідору, фіолетова цибуля, кетчуп, майонез, гірчиця.</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Чіз з беконом (160г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична булочка без сезаму, соковита яловича котлета, сир Чеддер, скибки бекону, домашні мариновані огірочки, скибки стиглого помідору, фіолетова цибуля, кетчуп, майонез, гірчиця.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізбургер (150г)</p>
-                <p><strong>Опис:</strong> Класична булочка без сезаму, соковита яловича котлета, сир Чеддер, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, кетчуп, майонез, гірчиця.</p>
-                <p><strong>Ціна:</strong> 68.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична булочка без сезаму, соковита яловича котлета, сир Чеддер, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, кетчуп, майонез, гірчиця.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 68.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кордон Рол (260г)</p>
-                <p><strong>Опис:</strong> Пшенична тортилья, котлета з курятини з твердим сиром та шинкою, хрусткий салат Айсберг, Медово-гірчичний соус.</p>
-                <p><strong>Ціна:</strong> 202.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кордон Рол (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пшенична тортилья, котлета з курятини з твердим сиром та шинкою, хрусткий салат Айсберг, Медово-гірчичний соус.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 202.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рол Space X (250г)</p>
-                <p><strong>Опис:</strong> Пшенична тортилья, соковита яловича котлета, сир Чеддер, хрусткий салат Айсберг, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, секретний соус Х.</p>
-                <p><strong>Ціна:</strong> 156.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Space X (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пшенична тортилья, соковита яловича котлета, сир Чеддер, хрусткий салат Айсберг, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, секретний соус Х.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 156.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рол Вега (290г)</p>
-                <p><strong>Опис:</strong> Пшенична тортилья, картопля фрі, хрусткий салат Айсберг, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, Сирний соус, секретний соус Х</p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Вега (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пшенична тортилья, картопля фрі, хрусткий салат Айсберг, домашні мариновані огірочки, скибки спілого помідору, фіолетова цибуля, Сирний соус, секретний соус Х</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рол Цезар (220г)</p>
-                <p><strong>Опис:</strong> Пшенична тортилья, курячі нагетси, хрусткий салат Айсберг, скибки спілого помідору, Часниковий соус</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Цезар (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пшенична тортилья, курячі нагетси, хрусткий салат Айсберг, скибки спілого помідору, Часниковий соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сендвіч з Ньо-Йорка (140г)</p>
-                <p><strong>Опис:</strong> Два шматочки тостового хліба, яйце, смажене на грилі, підсмажені скибки бекону, сир Чеддер.</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сендвіч з Ньо-Йорка (140г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Два шматочки тостового хліба, яйце, смажене на грилі, підсмажені скибки бекону, сир Чеддер.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фрі з беконом</p>
-                <p><strong>Опис:</strong> Картопля смажена у фритюрі з грильованим беконом та соусами</p>
-                <p><strong>Ціна:</strong> 213.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фрі з беконом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля смажена у фритюрі з грильованим беконом та соусами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 213.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Діпи з курочкою і соусом Чедер</p>
-                <p><strong>Опис:</strong> Картопляні Діпи з курочкою, соусом Чедер і зеленою цибулькою</p>
-                <p><strong>Ціна:</strong> 202.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Діпи з курочкою і соусом Чедер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляні Діпи з курочкою, соусом Чедер і зеленою цибулькою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 202.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси</p>
-                <p><strong>Опис:</strong> Куряче філе в паніровці, смажене у фритюрі</p>
-                <p><strong>Ціна:</strong> 78.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе в паніровці, смажене у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 78.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля Фрі</p>
-                <p><strong>Опис:</strong> Картопля смажена у фритюрі</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля Фрі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля смажена у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирний начос (110г)</p>
-                <p><strong>Опис:</strong> Чіпси з тортилії</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний начос (110г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чіпси з тортилії</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Цибулеві кільця</p>
-                <p><strong>Опис:</strong> Цибулеві кільця в паніровці, смажені у фритюрі</p>
-                <p><strong>Ціна:</strong> 48.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цибулеві кільця</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цибулеві кільця в паніровці, смажені у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 48.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат неЦезар (370г)</p>
-                <p><strong>Опис:</strong> Курячі негетси, підсмажені скибки бекону, тостові грінки, хрусткий салат Айсберг, помідори Чері, сир Пармезан, соус Цезар.</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат неЦезар (370г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячі негетси, підсмажені скибки бекону, тостові грінки, хрусткий салат Айсберг, помідори Чері, сир Пармезан, соус Цезар.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Твій Пиріжечок</p>
-                <p><strong>Опис:</strong> Хрумкий пиріжок з вишневою начинкою</p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Твій Пиріжечок</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий пиріжок з вишневою начинкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Bbq</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Bbq</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кисло-солодкий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кисло-солодкий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тартар</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тартар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода газована 0.5л</p>
-                <p><strong>Опис:</strong> Сильногазована вода</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода газована 0.5л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сильногазована вода</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

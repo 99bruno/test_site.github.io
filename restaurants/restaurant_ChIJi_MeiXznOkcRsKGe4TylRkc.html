@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Shot Cafe</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/255.png" alt="Restaurant Image">
         <h1>One Shot Cafe</h1>
@@ -63,358 +116,379 @@
         <p><strong>Неділя:</strong> 09:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Рол з вугрем (325г)</p>
-                <p><strong>Опис:</strong> Рол з вугрем - це страва японської кухні, обгорнутими в рисовий лист і зазвичай подаються в кільцях або порційних шматочках. Роли з вугрем відрізняються своєю соковитістю і неймовірним поєднанням смаків.</p>
-                <p><strong>Ціна:</strong> 370.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол бруклін (335г)</p>
-                <p><strong>Опис:</strong> Рол "Бруклін" - це  страва японської кухні. Він містить в собі комбінацію інгредієнтів, таких як сирний крем-сир, тунець, огірок, тигрова креветка, теріякі обгорнуті в норі та рис.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол з опаленим лососем (290г)</p>
-                <p><strong>Опис:</strong> Рол з опаленим лососем - це смачна і популярна страва в японській кухні, яка поєднує в собі лосось та кунжут.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Прайм з лососем (280г)</p>
-                <p><strong>Опис:</strong> Прайм з лососем - це популярна страва суші, яка включає в себе шматочки сирого лосося, а також інші інгредієнти, такі як авокадо і огірок, обгорнуті в рис і норі.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Філадельфія   (380г)</p>
-                <p><strong>Опис:</strong> Рол Філадельфія - це класична страва суші, яка включає в себе ніжний сирний крем-сир, шматочки сирого лосося .Цей рол прикрашають ікрою масаго, надаючи йому багатогранний смак і текстуру.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Прайм з креветкою (280г)</p>
-                <p><strong>Опис:</strong> Прайм з креветкою - це смачна і апетитна страва, яка поєднує в собі різноманітні смаки та текстури. Ця страва ідеально підходить щоб задовольнити вашу апетитну пристрасть до суші.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тейсті рол   (315г)</p>
-                <p><strong>Опис:</strong> Тейсті рол- це  суші, яка може варіюватися в залежності від ресторану та регіону. Склад і рецепт "Тейсті ролу" може бути різним, але в цілому ця страва  включає в себе ніжний сирний крем-сир, шматочки лосося, а також інші інгредієнти</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Каліфорнія Лосось (290г)</p>
-                <p><strong>Опис:</strong> Каліфорнія Лосось - це популярна варіація ролу суші, що містить в собі лосось та огірок, які обгортаються в рис та норі. Цей рол  прикрашений ікрою та  подається з соєвим соусом та васабі. Він відзначається своєю свіжістю і вишуканим смаком.</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Каліфорнія Креветка (290г)</p>
-                <p><strong>Опис:</strong> Каліфорнія креветка - це ніжне поєднання креветки, свіжого огірка та чудового сиру.</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Брайт (315г)</p>
-                <p><strong>Опис:</strong> Брайт - це один з видів суші, який складається з ікри, авокадо, сир філадельфія,лосось, обгорнутих в рисовий лист, а також обгорнутий норі.</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фірмовий (330г)</p>
-                <p><strong>Опис:</strong> Фірмовий рол - це поєднання незабутнього сиру філадельфія та лосося, який перенесе вас в інший світ.</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол з ікрою масаго та манго соусом (290 г)</p>
-                <p><strong>Опис:</strong> Рол з ікрою масаго та манго соусом - це смачна страва японської кухні, що містить в собі ніжні шматочки сирого риби.</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Філадельфія з креветкою (300г)</p>
-                <p><strong>Опис:</strong> Філадельфія з креветкою -  суші, яка поєднує в собі м'якість та смак сиру Філадельфія зі смаком та текстурою креветок. Ця страва відзначається ніжністю сиру та м'ясистістю креветок, що робить її смачною та популярною в японській кухні.</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Каліфорнія сніжний краб (290г)</p>
-                <p><strong>Опис:</strong> Каліфорнія зі сніжним крабом - це смачна і популярна страва в японській кухні, яка поєднує в собі рис, крабове м'ясо та інші інгредієнт. Ці ролі має свіжий смак та текстури та є однією з класичних ролей суші.</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Канада з лососем   (300г)</p>
-                <p><strong>Опис:</strong> Роли "Канада з лососем" - це смачна і популярна страва у японській кухні, яка поєднує свіжий лосось та інші інгредієнти</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кранч рол (315г)</p>
-                <p><strong>Опис:</strong> Вишукана японська страва, яка включає в себе свіжого вугра та соковиті тигрові креветки, обгорнуті ніжним рисом. Страва має приємну текстуру та багатий смак. Для пікантності використовується соус Сладкогір'є, а також кранч цибуля та сир філадельфія.</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Канада з креветкою (300г)</p>
-                <p><strong>Опис:</strong> Канада з креветкою - це страва у японській кухні, яка поєднує в собі свіжість креветок з іншими смаками та текстурами.</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Манго-креветка (340г)</p>
-                <p><strong>Опис:</strong> Манго-креветка - це суші, які включать в себе манго, креветки та інші інгредієнти. Ця страва представляє собою комбінацію солодкого манго та морських смаків креветок, що створює гармонійний і освіжаючий смак.</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Грін рол Креветка (290 г)</p>
-                <p><strong>Опис:</strong> Грін рол з креветкою - це свіжа та смачна страва в японській кухні, яка поєднує в собі креветки та авокадо, теріякі та сир філадельфія.</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Грін рол Лосось (290 г)</p>
-                <p><strong>Опис:</strong> Грін рол з лососем - це свіжа та смачна страва в японській кухні, яка поєднує в собі лосось, авокадо та ніжний сир.</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Скін макі лосось (260г)</p>
-                <p><strong>Опис:</strong> Скін макі лосось - це чудове поєднання лосося з кунжутом.</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Філадельфія (1000г)</p>
-                <p><strong>Опис:</strong> Поєднання:Філадельфія з креветкою,Рол з вугрем, Рол Філадельфія</p>
-                <p><strong>Ціна:</strong> 770.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Пікантний (1000г)</p>
-                <p><strong>Опис:</strong> Поєднання:Бруклін, Тейсті рол,Манго-креветка.</p>
-                <p><strong>Ціна:</strong> 760.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Cheriba (900г)</p>
-                <p><strong>Опис:</strong> Поєднання: Брайт, Фірмовий, Рол з опаленим лососем.</p>
-                <p><strong>Ціна:</strong> 750.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Каліфорнія (850г)</p>
-                <p><strong>Опис:</strong> Поєднання:Прайм з креветкою, Прайм з лососем,Каліфорнія Сніжний Краб.</p>
-                <p><strong>Ціна:</strong> 700.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирна тарілка (320 г)</p>
-                <p><strong>Опис:</strong> Сирна тарілка - це страва, яка включає в себе різні сорти сирів. Така тарілка містить такі сири як: Сир Дорблю, Пармезан, Ландана трюфельна, Камамбер, а також подані разом з різними додатками наприклад: виноград, грецький горіх та гірчична заправка</p>
-                <p><strong>Ціна:</strong> 370.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Авокадо тост  (350г)</p>
-                <p><strong>Опис:</strong> Авокадо тост - це проста та смачна страва, яка стала популярною завдяки своєму смаку та корисності.</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Брускета з лососем  (110г)</p>
-                <p><strong>Опис:</strong> Брускета з лососем - це смачна та елегантна закуска, яка часто подається на святкових заходах і ресторанах. Основні інгредієнти для приготування цієї страви включають: слабо солений лосось, крем-сир, рукола та маслини.</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Брускета з прошуто  (70г)</p>
-                <p><strong>Опис:</strong> Брускета з прошуто - це популярна італійська страва, яка складається з кількох простих і смачних інгредієнтів.</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер з яловичиною   (395г)</p>
-                <p><strong>Опис:</strong> Бургер з яловичиною - це ситна та апетитна страва, яка включає в себе соковитий фарш яловичини, подається в спеціальній булочці та доповнюється різноманітними інгредієнтами для створення багатошарового смакового досвіду.</p>
-                <p><strong>Ціна:</strong> 350.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гонконгська вафля з лососем копченим (415г)</p>
-                <p><strong>Опис:</strong> Вафля, яка принесе вам гастрономічний вибух емоцій, адже поєднання вафлі з лососем це саме те, що потрібно для хорошого обіду або вечері.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер сирний  (360г)</p>
-                <p><strong>Опис:</strong> Бургер сирний - це поєднання незабутньої насолоди та ситної страви, яка допоможе насититись тобі на цілий день.</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гонконгська вафля з куркою (470г)</p>
-                <p><strong>Опис:</strong> Вафля, яка має в собі поєднання сиру дорблю та курячого філе, яке влаштовує неймовірну фієрію смаків.</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер з куркою   (380г)</p>
-                <p><strong>Опис:</strong> Бургер з куркою - це апетитна страва, що включає в себе  курячу котлету, всі ці інгредієнти завернуті в м'яку булочку, створюючи гармонійний поєднання смаків і текстур.</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гонконгська вафля з мисливськими ковбасками (455г)</p>
-                <p><strong>Опис:</strong> Вафля, що нагадує тобі про безтурботне дитинство з сиром косичкою, соковитими мисливськими ковбасками та квашеним огірком.</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирні палочки моцарела   (185г)</p>
-                <p><strong>Опис:</strong> Сирні палочки моцарела - це смачна закуска, яка складається зі смужок моцарели, обгорнутих в хрустку паніровку і смажених до золотистої корки.</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопляні дольки  (160г)</p>
-                <p><strong>Опис:</strong> Картопляні дольки - це популярна закуска, приготовлена зі смаженої або запеченої картоплі, яка зазвичай змішується з різноманітними інгредієнтами, для створення смачного і ситного супроводу до інших страв.</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля фрі   (135г)</p>
-                <p><strong>Опис:</strong> Картопля фрі саме така, як тобі і подобається - з апетитною хрусткою та м'якою, розсипчатою серединкою.</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Цибулеві кільця   (125г)</p>
-                <p><strong>Опис:</strong> Цибулеві кільця - це смажені кільця цибулі, покриті хрусткою паніровкою. Мають солодкий і соковитий смак цибулі всередині та хрустку зовнішню оболонку.</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> ФАСТ ФУД</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий салат з телятини  (370г)</p>
-                <p><strong>Опис:</strong> Теплий салат з телятини - це страва, яка поєднує ніжний смак телятини з різноманітністю свіжих овочів та ароматними приправами.</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Цезар з лососем  (245г)</p>
-                <p><strong>Опис:</strong> Цей смачний салат "Цезар з лососем" поєднує в собі ніжну текстуру лосося з кріпкістю салату, ароматним соусом та апетитними гарнірами. Ця страва гармонійно поєднує смаки та створює справжню гастрономічну насолоду.</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Цезар з куркою (280г)</p>
-                <p><strong>Опис:</strong> Смачний та насичений салат "Цезар з куркою" - це поєднання соковитого курячого м'яса, хрумкого салату, ароматного соусу Цезар та апетитних гарнірів. Ця страва заслуговує на вашу увагу завдяки своєму чудовому смаку та насиченості.</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з качки  (230г)</p>
-                <p><strong>Опис:</strong> Насолоджуйтеся смаком вишуканого салату, який поєднує ніжну качину грудку,  пікантний Камамбер та свіжий мікс зелених листя. Все це підкреслено ароматним соусом з журавлини та легким пікантним відтінком сушеного чілі.</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Грецький салат  (240г)</p>
-                <p><strong>Опис:</strong> Грецький салат - це класична страва, яка походить з Греції і славиться своєю простотою та вишуканим смаком. Цей салат включає в себе свіжі овочі, традиційний грецький сир фета, оливки та ароматний соус на основі оливкової олії та спецій.</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі крильця гриль (320 г)</p>
-                <p><strong>Опис:</strong> Курячі крильця гриль - це апетитна та популярна страва, має неперевершений смак і аромат, а також хрустку скоринку завдяки впливу відкритого вогню.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> Гарячі закуски</p>
-                <hr>
-                <p><strong>Позиція:</strong> Поке креветка (380 г)</p>
-                <p><strong>Опис:</strong> Поке з креветкою -  популярна гавайська страва, яка базується на свіжих креветках та інших інгредієнтах. Цей страва відома своєю легкістю, яскравими кольорами та багатством смаків.</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> Боули</p>
-                <hr>
-                <p><strong>Позиція:</strong> Поке тунець (365 г)</p>
-                <p><strong>Опис:</strong> Поке з тунцем -  дуже смачна та освіжаюча страва, яка добре підходить для літніх днів або як швидкий та здоровий гарнір.</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> Боули</p>
-                <hr>
-                <p><strong>Позиція:</strong> Поке курка (390 г)</p>
-                <p><strong>Опис:</strong> Боул Поке з куркою - страва, яка походить із Гаваїв і стала популярною у багатьох частинах світу. Ця страва є яскравою, смачною і здоровою, складається з курячого м'яса, різних овочів і  горіхового соусу, подається на рису.</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> Боули</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста паелья  (297г)</p>
-                <p><strong>Опис:</strong> Паста Паэлья - італійське інтерпретація традиційної іспанської страви "Паэлья", в якій рис і морепродукти поєднуються з іншими інгредієнтами, такими як паста, створюючи багатий смак і аромат.</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста "Тальятелле"  (290г)</p>
-                <p><strong>Опис:</strong> Паста "Тальятелле" - це вид пасти, яка має широкі і плоскі стрічки. Назва  походить від італійського слова "tagliare," що означає "різати," і вказує на те, як вона готується - тісто розрізається на широкі смужки.</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Різото з білими грибами та куркою  (285г)</p>
-                <p><strong>Опис:</strong> Різото з білими грибами та куркою -  вишукана і смачна італійська страва, яка приготовлюється з рису, грибів і курячого м'яса, і завжди приносить задоволення своїм багатим смаком і кремовою текстурою.</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста карбонара  (315г)</p>
-                <p><strong>Опис:</strong> Паста карбонара -  класична італійська страва, яка готується з кількох простих інгредієнтів, таких як спагетті, яйця, грудинка, пармезан.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Равіолі балоньєзе  (210г)</p>
-                <p><strong>Опис:</strong> Равіолі болоньєзе -  страва, яка поєднує в собі класичний болоньєзе (м'ясний соус) і равіолі (тісто з начинкою), створюючи чудовий смаковий дует.</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Овочі гриль (200 г)</p>
-                <p><strong>Опис:</strong> Овочі гриль - смачна і здорова страва, яка готується шляхом обсмажування різних видів овочів. Ця страва відмінно підходить для вегетаріанців і відмінно підходить для літнього часу, коли свіже овочі дуже смачні і поживні.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> Гарніри</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дорадо з овочами гриль  (300г)</p>
-                <p><strong>Опис:</strong> Дорадо з овочами гриль - чудова страва, яка включає в себе рибу дорадо, яка готується на грилі разом з ароматними овочами</p>
-                <p><strong>Ціна:</strong> 395.0</p>
-                <p><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Філе лосося  (270г)</p>
-                <p><strong>Опис:</strong> Філе лосося - неймовірно смачна та поживна страва, яка приготовлюється зі свіжого філе лосося. Лосось є багатим джерелом білка та омега-3 жирних кислот, що робить його корисним для здоров'я.</p>
-                <p><strong>Ціна:</strong> 370.0</p>
-                <p><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Креветки панко  (250г)</p>
-                <p><strong>Опис:</strong> Креветки панко - це смачна та хрустка страва, яка приготовлюється зі свіжих креветок, обваляних у панко  та смажених до золотистої корки.</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фруктова нарізка  (985г)</p>
-                <p><strong>Опис:</strong> Фруктова нарізка -  страва, яка складається з різноманітних фруктів</p>
-                <p><strong>Ціна:</strong> 370.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гонконгська вафля солодка  (425г)</p>
-                <p><strong>Опис:</strong> Вафля має в собі поєднання нутели, банана чудових горішків емемдемс, які перенесуть вас у дитинство.</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирники  (300г)</p>
-                <p><strong>Опис:</strong> Сирники з топпінгом карамелі та вершковим маслом - це ніжний і смачний десерт, який поєднує в собі солодкість та кремову текстуру сирників з багатим смаком карамелі</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Rich Гранат</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> Напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Rich Eкзотик</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> Напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Rich Яблуко</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> Напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Rich Апельсин</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> Напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус грибний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус дорблю</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус кетчуп</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус світ чілі</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус часниковий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус Сладкогір'є (гострий чілі)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол з вугрем (325г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол з вугрем - це страва японської кухні, обгорнутими в рисовий лист і зазвичай подаються в кільцях або порційних шматочках. Роли з вугрем відрізняються своєю соковитістю і неймовірним поєднанням смаків.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 370.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол бруклін (335г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол "Бруклін" - це  страва японської кухні. Він містить в собі комбінацію інгредієнтів, таких як сирний крем-сир, тунець, огірок, тигрова креветка, теріякі обгорнуті в норі та рис.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол з опаленим лососем (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол з опаленим лососем - це смачна і популярна страва в японській кухні, яка поєднує в собі лосось та кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Прайм з лососем (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прайм з лососем - це популярна страва суші, яка включає в себе шматочки сирого лосося, а також інші інгредієнти, такі як авокадо і огірок, обгорнуті в рис і норі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Філадельфія   (380г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол Філадельфія - це класична страва суші, яка включає в себе ніжний сирний крем-сир, шматочки сирого лосося .Цей рол прикрашають ікрою масаго, надаючи йому багатогранний смак і текстуру.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Прайм з креветкою (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прайм з креветкою - це смачна і апетитна страва, яка поєднує в собі різноманітні смаки та текстури. Ця страва ідеально підходить щоб задовольнити вашу апетитну пристрасть до суші.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тейсті рол   (315г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тейсті рол- це  суші, яка може варіюватися в залежності від ресторану та регіону. Склад і рецепт "Тейсті ролу" може бути різним, але в цілому ця страва  включає в себе ніжний сирний крем-сир, шматочки лосося, а також інші інгредієнти</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Каліфорнія Лосось (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Каліфорнія Лосось - це популярна варіація ролу суші, що містить в собі лосось та огірок, які обгортаються в рис та норі. Цей рол  прикрашений ікрою та  подається з соєвим соусом та васабі. Він відзначається своєю свіжістю і вишуканим смаком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Каліфорнія Креветка (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Каліфорнія креветка - це ніжне поєднання креветки, свіжого огірка та чудового сиру.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Брайт (315г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Брайт - це один з видів суші, який складається з ікри, авокадо, сир філадельфія,лосось, обгорнутих в рисовий лист, а також обгорнутий норі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фірмовий (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фірмовий рол - це поєднання незабутнього сиру філадельфія та лосося, який перенесе вас в інший світ.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол з ікрою масаго та манго соусом (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол з ікрою масаго та манго соусом - це смачна страва японської кухні, що містить в собі ніжні шматочки сирого риби.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Філадельфія з креветкою (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філадельфія з креветкою -  суші, яка поєднує в собі м'якість та смак сиру Філадельфія зі смаком та текстурою креветок. Ця страва відзначається ніжністю сиру та м'ясистістю креветок, що робить її смачною та популярною в японській кухні.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Каліфорнія сніжний краб (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Каліфорнія зі сніжним крабом - це смачна і популярна страва в японській кухні, яка поєднує в собі рис, крабове м'ясо та інші інгредієнт. Ці ролі має свіжий смак та текстури та є однією з класичних ролей суші.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Канада з лососем   (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Роли "Канада з лососем" - це смачна і популярна страва у японській кухні, яка поєднує свіжий лосось та інші інгредієнти</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кранч рол (315г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вишукана японська страва, яка включає в себе свіжого вугра та соковиті тигрові креветки, обгорнуті ніжним рисом. Страва має приємну текстуру та багатий смак. Для пікантності використовується соус Сладкогір'є, а також кранч цибуля та сир філадельфія.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Канада з креветкою (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Канада з креветкою - це страва у японській кухні, яка поєднує в собі свіжість креветок з іншими смаками та текстурами.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Манго-креветка (340г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Манго-креветка - це суші, які включать в себе манго, креветки та інші інгредієнти. Ця страва представляє собою комбінацію солодкого манго та морських смаків креветок, що створює гармонійний і освіжаючий смак.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грін рол Креветка (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грін рол з креветкою - це свіжа та смачна страва в японській кухні, яка поєднує в собі креветки та авокадо, теріякі та сир філадельфія.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грін рол Лосось (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грін рол з лососем - це свіжа та смачна страва в японській кухні, яка поєднує в собі лосось, авокадо та ніжний сир.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Скін макі лосось (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Скін макі лосось - це чудове поєднання лосося з кунжутом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Філадельфія (1000г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поєднання:Філадельфія з креветкою,Рол з вугрем, Рол Філадельфія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 770.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Пікантний (1000г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поєднання:Бруклін, Тейсті рол,Манго-креветка.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 760.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Cheriba (900г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поєднання: Брайт, Фірмовий, Рол з опаленим лососем.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 750.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Каліфорнія (850г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поєднання:Прайм з креветкою, Прайм з лососем,Каліфорнія Сніжний Краб.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 700.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирна тарілка (320 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сирна тарілка - це страва, яка включає в себе різні сорти сирів. Така тарілка містить такі сири як: Сир Дорблю, Пармезан, Ландана трюфельна, Камамбер, а також подані разом з різними додатками наприклад: виноград, грецький горіх та гірчична заправка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 370.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Авокадо тост  (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Авокадо тост - це проста та смачна страва, яка стала популярною завдяки своєму смаку та корисності.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Брускета з лососем  (110г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Брускета з лососем - це смачна та елегантна закуска, яка часто подається на святкових заходах і ресторанах. Основні інгредієнти для приготування цієї страви включають: слабо солений лосось, крем-сир, рукола та маслини.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Брускета з прошуто  (70г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Брускета з прошуто - це популярна італійська страва, яка складається з кількох простих і смачних інгредієнтів.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер з яловичиною   (395г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бургер з яловичиною - це ситна та апетитна страва, яка включає в себе соковитий фарш яловичини, подається в спеціальній булочці та доповнюється різноманітними інгредієнтами для створення багатошарового смакового досвіду.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 350.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гонконгська вафля з лососем копченим (415г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вафля, яка принесе вам гастрономічний вибух емоцій, адже поєднання вафлі з лососем це саме те, що потрібно для хорошого обіду або вечері.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер сирний  (360г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бургер сирний - це поєднання незабутньої насолоди та ситної страви, яка допоможе насититись тобі на цілий день.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гонконгська вафля з куркою (470г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вафля, яка має в собі поєднання сиру дорблю та курячого філе, яке влаштовує неймовірну фієрію смаків.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер з куркою   (380г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бургер з куркою - це апетитна страва, що включає в себе  курячу котлету, всі ці інгредієнти завернуті в м'яку булочку, створюючи гармонійний поєднання смаків і текстур.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гонконгська вафля з мисливськими ковбасками (455г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вафля, що нагадує тобі про безтурботне дитинство з сиром косичкою, соковитими мисливськими ковбасками та квашеним огірком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирні палочки моцарела   (185г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сирні палочки моцарела - це смачна закуска, яка складається зі смужок моцарели, обгорнутих в хрустку паніровку і смажених до золотистої корки.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопляні дольки  (160г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляні дольки - це популярна закуска, приготовлена зі смаженої або запеченої картоплі, яка зазвичай змішується з різноманітними інгредієнтами, для створення смачного і ситного супроводу до інших страв.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі   (135г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля фрі саме така, як тобі і подобається - з апетитною хрусткою та м'якою, розсипчатою серединкою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цибулеві кільця   (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цибулеві кільця - це смажені кільця цибулі, покриті хрусткою паніровкою. Мають солодкий і соковитий смак цибулі всередині та хрустку зовнішню оболонку.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФАСТ ФУД</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з телятини  (370г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Теплий салат з телятини - це страва, яка поєднує ніжний смак телятини з різноманітністю свіжих овочів та ароматними приправами.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цезар з лососем  (245г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цей смачний салат "Цезар з лососем" поєднує в собі ніжну текстуру лосося з кріпкістю салату, ароматним соусом та апетитними гарнірами. Ця страва гармонійно поєднує смаки та створює справжню гастрономічну насолоду.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цезар з куркою (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смачний та насичений салат "Цезар з куркою" - це поєднання соковитого курячого м'яса, хрумкого салату, ароматного соусу Цезар та апетитних гарнірів. Ця страва заслуговує на вашу увагу завдяки своєму чудовому смаку та насиченості.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з качки  (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Насолоджуйтеся смаком вишуканого салату, який поєднує ніжну качину грудку,  пікантний Камамбер та свіжий мікс зелених листя. Все це підкреслено ароматним соусом з журавлини та легким пікантним відтінком сушеного чілі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грецький салат  (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грецький салат - це класична страва, яка походить з Греції і славиться своєю простотою та вишуканим смаком. Цей салат включає в себе свіжі овочі, традиційний грецький сир фета, оливки та ароматний соус на основі оливкової олії та спецій.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі крильця гриль (320 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячі крильця гриль - це апетитна та популярна страва, має неперевершений смак і аромат, а також хрустку скоринку завдяки впливу відкритого вогню.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі закуски</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Поке креветка (380 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поке з креветкою -  популярна гавайська страва, яка базується на свіжих креветках та інших інгредієнтах. Цей страва відома своєю легкістю, яскравими кольорами та багатством смаків.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Боули</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Поке тунець (365 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поке з тунцем -  дуже смачна та освіжаюча страва, яка добре підходить для літніх днів або як швидкий та здоровий гарнір.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Боули</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Поке курка (390 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Боул Поке з куркою - страва, яка походить із Гаваїв і стала популярною у багатьох частинах світу. Ця страва є яскравою, смачною і здоровою, складається з курячого м'яса, різних овочів і  горіхового соусу, подається на рису.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Боули</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста паелья  (297г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста Паэлья - італійське інтерпретація традиційної іспанської страви "Паэлья", в якій рис і морепродукти поєднуються з іншими інгредієнтами, такими як паста, створюючи багатий смак і аромат.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста "Тальятелле"  (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста "Тальятелле" - це вид пасти, яка має широкі і плоскі стрічки. Назва  походить від італійського слова "tagliare," що означає "різати," і вказує на те, як вона готується - тісто розрізається на широкі смужки.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Різото з білими грибами та куркою  (285г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Різото з білими грибами та куркою -  вишукана і смачна італійська страва, яка приготовлюється з рису, грибів і курячого м'яса, і завжди приносить задоволення своїм багатим смаком і кремовою текстурою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста карбонара  (315г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста карбонара -  класична італійська страва, яка готується з кількох простих інгредієнтів, таких як спагетті, яйця, грудинка, пармезан.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Равіолі балоньєзе  (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Равіолі болоньєзе -  страва, яка поєднує в собі класичний болоньєзе (м'ясний соус) і равіолі (тісто з начинкою), створюючи чудовий смаковий дует.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Овочі гриль (200 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Овочі гриль - смачна і здорова страва, яка готується шляхом обсмажування різних видів овочів. Ця страва відмінно підходить для вегетаріанців і відмінно підходить для літнього часу, коли свіже овочі дуже смачні і поживні.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дорадо з овочами гриль  (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дорадо з овочами гриль - чудова страва, яка включає в себе рибу дорадо, яка готується на грилі разом з ароматними овочами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 395.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Філе лосося  (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе лосося - неймовірно смачна та поживна страва, яка приготовлюється зі свіжого філе лосося. Лосось є багатим джерелом білка та омега-3 жирних кислот, що робить його корисним для здоров'я.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 370.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Креветки панко  (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Креветки панко - це смачна та хрустка страва, яка приготовлюється зі свіжих креветок, обваляних у панко  та смажених до золотистої корки.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА ТА МОРЕПРОДУКТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фруктова нарізка  (985г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фруктова нарізка -  страва, яка складається з різноманітних фруктів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 370.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гонконгська вафля солодка  (425г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вафля має в собі поєднання нутели, банана чудових горішків емемдемс, які перенесуть вас у дитинство.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники  (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сирники з топпінгом карамелі та вершковим маслом - це ніжний і смачний десерт, який поєднує в собі солодкість та кремову текстуру сирників з багатим смаком карамелі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Rich Гранат</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Rich Eкзотик</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Rich Яблуко</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Rich Апельсин</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус грибний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус дорблю</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус світ чілі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус часниковий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Сладкогір'є (гострий чілі)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

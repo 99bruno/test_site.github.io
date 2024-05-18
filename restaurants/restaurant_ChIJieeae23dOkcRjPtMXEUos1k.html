@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medivnia / Медівня</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/23.png" alt="Restaurant Image">
         <h1>Medivnia / Медівня</h1>
@@ -63,203 +116,224 @@
         <p><strong>Неділя:</strong> 05:00:00 - 00:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Рибна юшка з саламуром (350г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 286.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рибна юшка з саламуром (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 286.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Борщ на копченій груші (400г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Борщ на копченій груші (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бограч  (350г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 204.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бограч  (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 204.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Юшка з білих грибів (340г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Юшка з білих грибів (340г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> З копченим лососем та креветкою</p>
-                <p><strong>Опис:</strong> Копчений лосось, креветка, корнішони, помідори, печериці, перепелині яйця, каперси, соус Цезар</p>
-                <p><strong>Ціна:</strong> 396.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> З копченим лососем та креветкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Копчений лосось, креветка, корнішони, помідори, печериці, перепелині яйця, каперси, соус Цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 396.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> З яловичиною та грибами (250г)</p>
-                <p><strong>Опис:</strong> Вирізка яловича, печериці, картопля, мікс салату, томати чері, соус вінегрет</p>
-                <p><strong>Ціна:</strong> 374.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> З яловичиною та грибами (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вирізка яловича, печериці, картопля, мікс салату, томати чері, соус вінегрет</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 374.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з грильованого індика під гарбузово-імбирним соусом</p>
-                <p><strong>Опис:</strong> Індик, яблуко, фета, шпинат, мікс салату,  насіння гарбуза, кунжут, гарбузово-імбирний та соєвий соус</p>
-                <p><strong>Ціна:</strong> 319.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з грильованого індика під гарбузово-імбирним соусом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Індик, яблуко, фета, шпинат, мікс салату,  насіння гарбуза, кунжут, гарбузово-імбирний та соєвий соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 319.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Цезар із куркою (250г)</p>
-                <p><strong>Опис:</strong> Мікс салату, томати чері, яйця перепелині, хлібні чіпси, пармезан, куряче філе, шпондер власного копчення, соус цезар</p>
-                <p><strong>Ціна:</strong> 319.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цезар із куркою (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, томати чері, яйця перепелині, хлібні чіпси, пармезан, куряче філе, шпондер власного копчення, соус цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 319.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Трипільський із соусом бринзуватий (260г)</p>
-                <p><strong>Опис:</strong> Огірок, помідор, перець болгарський, мікс салатів, оливки зелені, соус бринзуватий, земля їстівна, бринза домашня</p>
-                <p><strong>Ціна:</strong> 231.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Трипільський із соусом бринзуватий (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Огірок, помідор, перець болгарський, мікс салатів, оливки зелені, соус бринзуватий, земля їстівна, бринза домашня</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 231.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Медальйони з трюфельним соусом (320г)</p>
-                <p><strong>Опис:</strong> Телячі медальйони, трюфельний соус, картопляне пюре</p>
-                <p><strong>Ціна:</strong> 528.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Медальйони з трюфельним соусом (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Телячі медальйони, трюфельний соус, картопляне пюре</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 528.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Маківка</p>
-                <p><strong>Опис:</strong> Філе лосося, креветки, помідори пілаті, мак, імбир та спеції</p>
-                <p><strong>Ціна:</strong> 528.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Маківка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе лосося, креветки, помідори пілаті, мак, імбир та спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 528.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Філе форелі з жульєном Борщ (280г)</p>
-                <p><strong>Опис:</strong> Філе форелі, обсмажені овочі, лимонний соус</p>
-                <p><strong>Ціна:</strong> 396.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Філе форелі з жульєном Борщ (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе форелі, обсмажені овочі, лимонний соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 396.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра у медово-пікантній глазурі (360г)</p>
-                <p><strong>Опис:</strong> Свинні ребра, печена молода картопля, лапша з моркви та селери</p>
-                <p><strong>Ціна:</strong> 374.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра у медово-пікантній глазурі (360г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинні ребра, печена молода картопля, лапша з моркви та селери</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 374.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Деруни з яловичиною та мисливським соусом (400 г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 374.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Деруни з яловичиною та мисливським соусом (400 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 374.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Котлети з баранини з овочевою сальсою</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 308.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлети з баранини з овочевою сальсою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 308.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Котлетки індичі з ніжним пюре (330г)</p>
-                <p><strong>Опис:</strong> Котлети з індичого фаршу, картопляне пюре, малосольні огірки</p>
-                <p><strong>Ціна:</strong> 297.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлетки індичі з ніжним пюре (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Котлети з індичого фаршу, картопляне пюре, малосольні огірки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 297.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Банош зі шкварками та бринзою (300г)</p>
-                <p><strong>Опис:</strong> Кукурудзяна каша, смажений шпондер, сирний соус на основі дорблю</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Банош зі шкварками та бринзою (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кукурудзяна каша, смажений шпондер, сирний соус на основі дорблю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирник з  ягідно-медовим соусом (230г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 231.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирник з  ягідно-медовим соусом (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 231.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фірмовий медівник (200г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 176.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фірмовий медівник (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 176.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дошка львівських спеціалітетів</p>
-                <p><strong>Опис:</strong> Паштет, тартар з яловичини, крафтові сири, крафтова ковбаса з трюфелем</p>
-                <p><strong>Ціна:</strong> 1012.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дошка львівських спеціалітетів</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паштет, тартар з яловичини, крафтові сири, крафтова ковбаса з трюфелем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1012.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дошка крафтового в'яленого м'яса</p>
-                <p><strong>Опис:</strong> Шинка яловича в'ялена, шинка конина в'ялена, ковбаси свинні в червоному вині, ковбачи свинні в чорному трюфелі</p>
-                <p><strong>Ціна:</strong> 572.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дошка крафтового в'яленого м'яса</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шинка яловича в'ялена, шинка конина в'ялена, ковбаси свинні в червоному вині, ковбачи свинні в чорному трюфелі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 572.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарілка крафтових сирів (230г)</p>
-                <p><strong>Опис:</strong> Сир трюфельний, витриманий, козячий, фермерський та з пажитником</p>
-                <p><strong>Ціна:</strong> 451.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарілка крафтових сирів (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир трюфельний, витриманий, козячий, фермерський та з пажитником</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 451.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сет намазанок (350г)</p>
-                <p><strong>Опис:</strong> Паштет курячий, сало мелене з зелен- ню, форшмак</p>
-                <p><strong>Ціна:</strong> 319.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет намазанок (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паштет курячий, сало мелене з зелен- ню, форшмак</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 319.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Буженина з бурячками</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 308.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Буженина з бурячками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 308.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Асорті сала (300г)</p>
-                <p><strong>Опис:</strong> Три види сала (солене, копчене,  мелене), зелена цибуля, перець чилі, соус Гогодзи</p>
-                <p><strong>Ціна:</strong> 297.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Асорті сала (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Три види сала (солене, копчене,  мелене), зелена цибуля, перець чилі, соус Гогодзи</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 297.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Квашенина</p>
-                <p><strong>Опис:</strong> Маринований часник, квашені помідори, крижавки, перець чілі</p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Квашенина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Маринований часник, квашені помідори, крижавки, перець чілі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тартар з яловичини</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 264.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тартар з яловичини</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 264.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пате з курча (350г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пате з курча (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Оселедець з картоплею в креветочному соусі (250г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Оселедець з картоплею в креветочному соусі (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Форшмак (220г)</p>
-                <p><strong>Опис:</strong> Оселедець, скумбрія копчена, яйце відварене, яблуко, цибуля червона, масло вершкове</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Форшмак (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Оселедець, скумбрія копчена, яйце відварене, яблуко, цибуля червона, масло вершкове</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сало мелене з часником</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 171.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сало мелене з часником</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 171.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Огірки малосольні з медом (150г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 143.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Огірки малосольні з медом (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 143.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вареники з чорницею та ванільним соусом</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> Вареники</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вареники з чорницею та ванільним соусом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Вареники</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дошка м'ясна Гуцульська</p>
-                <p><strong>Опис:</strong> Томлені свинні ребра, яловичина та курка на грилі, огірок малосольний, лечо, печена картопля</p>
-                <p><strong>Ціна:</strong> 1595.0</p>
-                <p><strong>Тип:</strong> Страви на компанію</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дошка м'ясна Гуцульська</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томлені свинні ребра, яловичина та курка на грилі, огірок малосольний, лечо, печена картопля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1595.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Страви на компанію</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дошка козацька</p>
-                <p><strong>Опис:</strong> Паляниця, огірки, два види сала, оселедець малосольний, білі гриби мариновані</p>
-                <p><strong>Ціна:</strong> 616.0</p>
-                <p><strong>Тип:</strong> Страви на компанію</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дошка козацька</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паляниця, огірки, два види сала, оселедець малосольний, білі гриби мариновані</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 616.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Страви на компанію</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вареники з картоплею та білими грибами</p>
-                <p><strong>Опис:</strong> Вареники, білі гриби, печериці, вершки, цибуля</p>
-                <p><strong>Ціна:</strong> 308.0</p>
-                <p><strong>Тип:</strong> Фірмові страви від Шефа</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вареники з картоплею та білими грибами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вареники, білі гриби, печериці, вершки, цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 308.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Фірмові страви від Шефа</p>
                 <hr>
-                <p><strong>Позиція:</strong> З м'ясом та копченою аджикою</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 292.0</p>
-                <p><strong>Тип:</strong> Фірмові страви від Шефа</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> З м'ясом та копченою аджикою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 292.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Фірмові страви від Шефа</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шпинатні вареники з сиром</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 286.0</p>
-                <p><strong>Тип:</strong> Фірмові страви від Шефа</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шпинатні вареники з сиром</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 286.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Фірмові страви від Шефа</p>
                 <hr>
-                <p><strong>Позиція:</strong> Телячі щічки</p>
-                <p><strong>Опис:</strong> Ніжні телячі щічки у власному бульйоні з овочами</p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> Гарячі закуски</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Телячі щічки</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні телячі щічки у власному бульйоні з овочами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі закуски</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

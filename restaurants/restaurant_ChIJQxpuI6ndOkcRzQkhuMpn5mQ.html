@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Persha Lipsha/ Перша Ліпша</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/465.png" alt="Restaurant Image">
         <h1>Persha Lipsha/ Перша Ліпша</h1>
@@ -63,248 +116,269 @@
         <p><strong>Неділя:</strong> 08:00:00 - 20:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Вівсянка з цукатами</p>
-                <p><strong>Опис:</strong> Ніжна вівсянка на молоці з додаванням цукат доповнить ваш ранок. Ви можете обрати в додаток  натуральний мед. Скдад: вівсянка, молоко, фруктові цукати.</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вівсянка з цукатами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжна вівсянка на молоці з додаванням цукат доповнить ваш ранок. Ви можете обрати в додаток  натуральний мед. Скдад: вівсянка, молоко, фруктові цукати.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вівсяночка з сухофруктами</p>
-                <p><strong>Опис:</strong> Ніжна вівсянка на молоці з додаванням сухофруктів доповнить ваш ранок. Додатково за бажанням можете додати натуральний мед. Склад: вівсянка, молоко, сухофрукти.</p>
-                <p><strong>Ціна:</strong> 4.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вівсяночка з сухофруктами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжна вівсянка на молоці з додаванням сухофруктів доповнить ваш ранок. Додатково за бажанням можете додати натуральний мед. Склад: вівсянка, молоко, сухофрукти.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 4.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Молоко 200мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> Додатки для сніданків</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Молоко 200мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Додатки для сніданків</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мед натуральний 15г</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 12.0</p>
-                <p><strong>Тип:</strong> Додатки для сніданків</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мед натуральний 15г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 12.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Додатки для сніданків</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Карбонара XL 500г</p>
-                <p><strong>Опис:</strong> Мега крута порція власноруч вигитовленої пасти з чудовим сирним соусом Бешамель та хрустким беконом та перепелинем яйцем.</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Карбонара XL 500г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мега крута порція власноруч вигитовленої пасти з чудовим сирним соусом Бешамель та хрустким беконом та перепелинем яйцем.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Болоньєзе XL500г</p>
-                <p><strong>Опис:</strong> Шалено крута порція власноруч виготовленої пасти , з борошна твердих сортів . З соусом Болоньєзе втамує ваш голод.</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Болоньєзе XL500г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шалено крута порція власноруч виготовленої пасти , з борошна твердих сортів . З соусом Болоньєзе втамує ваш голод.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Грибна XL 500г</p>
-                <p><strong>Опис:</strong> Крута порція пасти з італійського борошна твердих сортів пшениці. Власноруч виготовлена з грибним соусом на вершках.</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Грибна XL 500г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крута порція пасти з італійського борошна твердих сортів пшениці. Власноруч виготовлена з грибним соусом на вершках.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Курка гриби ( 360г)</p>
-                <p><strong>Опис:</strong> Крута порція власноруч виготовленої пасти з вершковим соусом, сиром моцарела, ніжною курочкою та грибами .</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Курка гриби ( 360г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крута порція власноруч виготовленої пасти з вершковим соусом, сиром моцарела, ніжною курочкою та грибами .</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Карбонара (360г)</p>
-                <p><strong>Опис:</strong> Ніжна паста виготовлена з власного тіста італійського борошна з додаванням шпинату який додає особливого смаку та ніжним сирним соусом Бешамель, хрустким беконом та мікро-зеленню</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Карбонара (360г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжна паста виготовлена з власного тіста італійського борошна з додаванням шпинату який додає особливого смаку та ніжним сирним соусом Бешамель, хрустким беконом та мікро-зеленню</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Три сири 360г</p>
-                <p><strong>Опис:</strong> Паста виготовлена власноруч з додаванням чорнил каракатиці, з італійського борошна твердих сортів пшениці. А також ніжний сирний соус Бешамель, моцарела та горгонзола.</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Три сири 360г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста виготовлена власноруч з додаванням чорнил каракатиці, з італійського борошна твердих сортів пшениці. А також ніжний сирний соус Бешамель, моцарела та горгонзола.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мікс Равіолі ( варені )</p>
-                <p><strong>Опис:</strong> В наш чудовий мікс входять 5 видів равіолі. Курка карі, яловичина папрік, три сири, картопля печериці, лосось базилік довершені нашим фірмовим вершковим соусом. Тут ви зможете скуштувати всі смаки.</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мікс Равіолі ( варені )</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> В наш чудовий мікс входять 5 видів равіолі. Курка карі, яловичина папрік, три сири, картопля печериці, лосось базилік довершені нашим фірмовим вершковим соусом. Тут ви зможете скуштувати всі смаки.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Варені равіолі з яловичиною та паприкою (200г)</p>
-                <p><strong>Опис:</strong> Равіолі за авторським рецептом, начинка з ніжної яловичини з додаванням цибулі та спецій доповнюється вершковим фірмовим соусом.</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Варені равіолі з яловичиною та паприкою (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Равіолі за авторським рецептом, начинка з ніжної яловичини з додаванням цибулі та спецій доповнюється вершковим фірмовим соусом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Варені равіолі з яловичиною, фініками та курагою (200г)</p>
-                <p><strong>Опис:</strong> Подається з фірмовим суперсоусом</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Варені равіолі з яловичиною, фініками та курагою (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подається з фірмовим суперсоусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Варені равіолі з куркою та карі (200г)</p>
-                <p><strong>Опис:</strong> Власноруч виготовлені равіолі з італійського борошна. В середині соковита курочка з ніжним сиром. Подається з вершковим фірмовим соусом.</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Варені равіолі з куркою та карі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Власноруч виготовлені равіолі з італійського борошна. В середині соковита курочка з ніжним сиром. Подається з вершковим фірмовим соусом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Варені равіолі з картоплею та печерицями (200г)</p>
-                <p><strong>Опис:</strong> Равіолі приготовлені власноруч за авторським рецептом. Подається з фірмовим вершковим соусом.</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Варені равіолі з картоплею та печерицями (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Равіолі приготовлені власноруч за авторським рецептом. Подається з фірмовим вершковим соусом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАВІОЛІ ВАРЕНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мікс Равіолі (смажені)</p>
-                <p><strong>Опис:</strong> Супер мікс равіолі смажені входить 5 видів равіолі. Курка карі, яловичина папрік, три сири, картопля печериці, лосось базилік . Тут ви зможете спробувати зразу всі види і обрати свої улюблені. Доповнюються вершковим соусом чи солодким чилі на вибір.</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> РАВІОЛІ СМАЖЕНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мікс Равіолі (смажені)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Супер мікс равіолі смажені входить 5 видів равіолі. Курка карі, яловичина папрік, три сири, картопля печериці, лосось базилік . Тут ви зможете спробувати зразу всі види і обрати свої улюблені. Доповнюються вершковим соусом чи солодким чилі на вибір.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАВІОЛІ СМАЖЕНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Смажені равіолі з яловичиною та паприкою (200г)</p>
-                <p><strong>Опис:</strong> Смажені равіолі виготовлені з борошна твердих сортів пшениці з начинкою з соковитої яловичини та цибулі зі спеціями. Подається з фірмовим вершковим соусом чи солодким чилі на вибір.</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> РАВІОЛІ СМАЖЕНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смажені равіолі з яловичиною та паприкою (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажені равіолі виготовлені з борошна твердих сортів пшениці з начинкою з соковитої яловичини та цибулі зі спеціями. Подається з фірмовим вершковим соусом чи солодким чилі на вибір.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАВІОЛІ СМАЖЕНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Смажені равіолі з яловичиною, фініками та курагою (200г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> РАВІОЛІ СМАЖЕНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смажені равіолі з яловичиною, фініками та курагою (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАВІОЛІ СМАЖЕНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Смажені равіолі з картоплею та печерицями (200г)</p>
-                <p><strong>Опис:</strong> Равіолі Картопля печериці виготовлені з італійського борошна. Картопля та печериці доповнені вершками.  На вибір вершковий авторський соус чи солодкий чилі.</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> РАВІОЛІ СМАЖЕНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смажені равіолі з картоплею та печерицями (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Равіолі Картопля печериці виготовлені з італійського борошна. Картопля та печериці доповнені вершками.  На вибір вершковий авторський соус чи солодкий чилі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАВІОЛІ СМАЖЕНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з куркою</p>
-                <p><strong>Опис:</strong> Айсберг, філе куряче-гриль, бекон смажений, перепелине яйце, чері, пармезан, крутони. соус Цезар власного приготування.</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Айсберг, філе куряче-гриль, бекон смажений, перепелине яйце, чері, пармезан, крутони. соус Цезар власного приготування.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Грецький</p>
-                <p><strong>Опис:</strong> Традиційний Салат Грецький ( болгарський перець, помідор, огірок, оливки/маслини, фета, чорний кунжут, соєвий соус та оливкова олія)</p>
-                <p><strong>Ціна:</strong> 162.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Грецький</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційний Салат Грецький ( болгарський перець, помідор, огірок, оливки/маслини, фета, чорний кунжут, соєвий соус та оливкова олія)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 162.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Капрезе</p>
-                <p><strong>Опис:</strong> Айсберг, томати, моцарела та соус песто</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Капрезе</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Айсберг, томати, моцарела та соус песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем - суп Грибний 300</p>
-                <p><strong>Опис:</strong> Грибний крем - суп на вершках власного приготування</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> БУЛЬЙОН & Крем-суп</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем - суп Грибний 300</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грибний крем - суп на вершках власного приготування</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУЛЬЙОН & Крем-суп</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бульйон з локшиною</p>
-                <p><strong>Опис:</strong> Курячий бульйон з локшиною власного виробництва, курячим м*ясом , перепелинем яйцем та зеленню.</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> БУЛЬЙОН & Крем-суп</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бульйон з локшиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячий бульйон з локшиною власного виробництва, курячим м*ясом , перепелинем яйцем та зеленню.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУЛЬЙОН & Крем-суп</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем - суп Грибний 250</p>
-                <p><strong>Опис:</strong> Грибний крем-суп на вершках</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> БУЛЬЙОН & Крем-суп</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем - суп Грибний 250</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грибний крем-суп на вершках</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУЛЬЙОН & Крем-суп</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс Равіолі картопля + печериці</p>
-                <p><strong>Опис:</strong> Равіолі картопля + печериці власного виробництва 200г з вершковим соусом та курячий бульйон 250 мл та Компотик 300 мл власного виробництва.</p>
-                <p><strong>Ціна:</strong> 148.0</p>
-                <p><strong>Тип:</strong> Комплексне меню</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс Равіолі картопля + печериці</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Равіолі картопля + печериці власного виробництва 200г з вершковим соусом та курячий бульйон 250 мл та Компотик 300 мл власного виробництва.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 148.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Комплексне меню</p>
                 <hr>
-                <p><strong>Позиція:</strong> Печево з передбаченням Hello Dream</p>
-                <p><strong>Опис:</strong> Корисне печиво з передбаченням , цільнозернове додасть вам св`яткового настрою !)))</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> Печиво</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печево з передбаченням Hello Dream</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Корисне печиво з передбаченням , цільнозернове додасть вам св`яткового настрою !)))</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Печиво</p>
                 <hr>
-                <p><strong>Позиція:</strong> Патріотичне печиво з передбаченням</p>
-                <p><strong>Опис:</strong> Патріотичне печиво додасть вам наснаги та св`яткового настрою.</p>
-                <p><strong>Ціна:</strong> 18.0</p>
-                <p><strong>Тип:</strong> Печиво</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Патріотичне печиво з передбаченням</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Патріотичне печиво додасть вам наснаги та св`яткового настрою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 18.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Печиво</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонадик 1000мл</p>
-                <p><strong>Опис:</strong> Лимонадик за авторським рецептом з апельсин, лимонів, м*яти та цукру.</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонадик 1000мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лимонадик за авторським рецептом з апельсин, лимонів, м*яти та цукру.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Компотик 1000мл</p>
-                <p><strong>Опис:</strong> Авторський компотик за фірмовим рецептом з смородини, червоної порічки, апельсин, м*яти та додавання цукру</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Компотик 1000мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Авторський компотик за фірмовим рецептом з смородини, червоної порічки, апельсин, м*яти та додавання цукру</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиво Volynski Browar 0 безалкогольне</p>
-                <p><strong>Опис:</strong> Cвітле пшеничне нефільтроване</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво Volynski Browar 0 безалкогольне</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Cвітле пшеничне нефільтроване</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиво Volynski Browar ZERO безалкогольне</p>
-                <p><strong>Опис:</strong> Світле</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво Volynski Browar ZERO безалкогольне</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Світле</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Компотик (0.3л)</p>
-                <p><strong>Опис:</strong> Солодкий домашній компот із чорниці, порічки, апельсину та молодої м'яти</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Компотик (0.3л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий домашній компот із чорниці, порічки, апельсину та молодої м'яти</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-Cola (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-Cola (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-Cola zero (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-Cola zero (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Sprite (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Sprite (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fanta (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fanta (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бонаква негазована (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бонаква негазована (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бонаква газована (0.5л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бонаква газована (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Часниковий соус</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Часниковий соус</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Заморозка Лосось базилік 800г</p>
-                <p><strong>Опис:</strong> Равіолі з ніжного філе лосося, крем сиру та свіжого базиліку чекають поки ви власноруч приготуєте їх з фірмовим соусом</p>
-                <p><strong>Ціна:</strong> 630.0</p>
-                <p><strong>Тип:</strong> ЗАМОРОЗКА РАВІОЛІ КРАФТОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Заморозка Лосось базилік 800г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Равіолі з ніжного філе лосося, крем сиру та свіжого базиліку чекають поки ви власноруч приготуєте їх з фірмовим соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 630.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАМОРОЗКА РАВІОЛІ КРАФТОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Заморозка Равіолі Картопля-печериці 800г</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ЗАМОРОЗКА РАВІОЛІ КРАФТОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Заморозка Равіолі Картопля-печериці 800г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАМОРОЗКА РАВІОЛІ КРАФТОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крафтовий соус Вершковий 500г</p>
-                <p><strong>Опис:</strong> Фірмовий соус , приготовлений з вершків та соєвого соусу за авторським рецептом.</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крафтовий соус Вершковий 500г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фірмовий соус , приготовлений з вершків та соєвого соусу за авторським рецептом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крафтовий соус Бешамель сирний 500г</p>
-                <p><strong>Опис:</strong> Соус за фірмовим рецептом</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крафтовий соус Бешамель сирний 500г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус за фірмовим рецептом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крафтовий соус солодкий чолі 500г</p>
-                <p><strong>Опис:</strong> Власноруч приготовлений соус Солодкий чилі додасть пікантності вашим равіолям</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крафтовий соус солодкий чолі 500г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Власноруч приготовлений соус Солодкий чилі додасть пікантності вашим равіолям</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крафтовий соус Вершковий 100г</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крафтовий соус Вершковий 100г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крафтовий соус Бешамель сирний 100г</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крафтовий соус Бешамель сирний 100г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крафтовий соус Солодкий чилі 100г</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крафтовий соус Солодкий чилі 100г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУС КРАФТОВИЙ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

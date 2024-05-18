@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Varenyky TUT / Вареники ТУТ</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/71.png" alt="Restaurant Image">
         <h1>Varenyky TUT / Вареники ТУТ</h1>
@@ -63,208 +116,229 @@
         <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Monster</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Monster</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Айран</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Айран</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад апельсиновий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад апельсиновий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад Полуничний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Полуничний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Bonaqua</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Bonaqua</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-cola</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-cola</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fanta</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fanta</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fuzetea</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fuzetea</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Schweppes</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Schweppes</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Sprite</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Sprite</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Меню Тamash</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий та томатний соус, хрумкий лаваш, порція картоплі фрі та прохолодний напій. Без цибулі</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> TAMASH KEBAБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Меню Тamash</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий та томатний соус, хрумкий лаваш, порція картоплі фрі та прохолодний напій. Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> TAMASH KEBAБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Tamash kebab</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш. Без цибулі</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> TAMASH KEBAБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Tamash kebab</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш. Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> TAMASH KEBAБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Меню XL</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш, порція картоплі фрі та прохолодний напій Без цибулі</p>
-                <p><strong>Ціна:</strong> 272.0</p>
-                <p><strong>Тип:</strong> XL</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Меню XL</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш, порція картоплі фрі та прохолодний напій Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 272.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> XL</p>
                 <hr>
-                <p><strong>Позиція:</strong> Tamash kebab XL</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш. Без цибулі</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> XL</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Tamash kebab XL</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш. Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> XL</p>
                 <hr>
-                <p><strong>Позиція:</strong> Меню XXL</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш, порція картоплі фрі та прохолодний напій Без цибулі</p>
-                <p><strong>Ціна:</strong> 335.0</p>
-                <p><strong>Тип:</strong> XXL</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Меню XXL</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш, порція картоплі фрі та прохолодний напій Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 335.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> XXL</p>
                 <hr>
-                <p><strong>Позиція:</strong> Tamash kebab XXL</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш. Без цибулі</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> XXL</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Tamash kebab XXL</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, грильований сир, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш. Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> XXL</p>
                 <hr>
-                <p><strong>Позиція:</strong> Меню Fresh</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш, картопля фрі та прохолодний напійБез цибулі</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> FRESH</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Меню Fresh</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш, картопля фрі та прохолодний напійБез цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> FRESH</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fresh kebab</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш. Без цибулі</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> FRESH</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fresh kebab</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір, овочі: помідор, огірок квашений, капуста, фірмовий соус, томатний соус, хрумкий лаваш. Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> FRESH</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сулугуні в лаваші з м'ясом меню</p>
-                <p><strong>Опис:</strong> Багато топленого сиру, соковите м'ясо на вибір, помідор, фірмовий соус, насіння льону, хрумкий лаваш, порція картоплі фрі, прохолодний напій</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> СУЛУГУНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сулугуні в лаваші з м'ясом меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Багато топленого сиру, соковите м'ясо на вибір, помідор, фірмовий соус, насіння льону, хрумкий лаваш, порція картоплі фрі, прохолодний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУЛУГУНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сулугуні в лаваші з м'ясом та ананасом меню</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> СУЛУГУНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сулугуні в лаваші з м'ясом та ананасом меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУЛУГУНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сулугуні в лаваші меню</p>
-                <p><strong>Опис:</strong> Багато топленого сиру, помідор, фірмовий соус, насіння льону, хрумкий лаваш, картопля фрі та прохолодний напій</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> СУЛУГУНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сулугуні в лаваші меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Багато топленого сиру, помідор, фірмовий соус, насіння льону, хрумкий лаваш, картопля фрі та прохолодний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУЛУГУНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сулугуні в лаваші з беконом меню</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> СУЛУГУНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сулугуні в лаваші з беконом меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУЛУГУНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сулугуні</p>
-                <p><strong>Опис:</strong> Багато топленого сиру, соковите м'ясо на вибір, помідор, фірмовий соус, насіння льону, хрумкий лаваш</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> СУЛУГУНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сулугуні</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Багато топленого сиру, соковите м'ясо на вибір, помідор, фірмовий соус, насіння льону, хрумкий лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУЛУГУНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сулугуні в лаваші з м'ясом та ананасом</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> СУЛУГУНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сулугуні в лаваші з м'ясом та ананасом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУЛУГУНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сулугуні в лаваші з беконом</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> СУЛУГУНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сулугуні в лаваші з беконом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУЛУГУНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сулугуні в лаваші</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> СУЛУГУНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сулугуні в лаваші</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУЛУГУНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Арабський меню</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір , мариновані огірки, помідори, фірмовий соус, хрумкий лаваш, картопля фрі та прохолодний напійБез цибулі</p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> АРАБСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Арабський меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір , мариновані огірки, помідори, фірмовий соус, хрумкий лаваш, картопля фрі та прохолодний напійБез цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> АРАБСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Арабський XL</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір , мариновані огірки, помідори, фірмовий соус, хрумкий лаваш.Без цибулі</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> АРАБСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Арабський XL</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір , мариновані огірки, помідори, фірмовий соус, хрумкий лаваш.Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> АРАБСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Арабський</p>
-                <p><strong>Опис:</strong> Відбірні шматочки м'яса на вибір , мариновані огірки, помідори, фірмовий соус, хрумкий лаваш.Без цибулі</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> АРАБСЬКИЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Арабський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбірні шматочки м'яса на вибір , мариновані огірки, помідори, фірмовий соус, хрумкий лаваш.Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> АРАБСЬКИЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Меню вегатеріанський</p>
-                <p><strong>Опис:</strong> Багато топленого сиру, помідор, фірмовий соус, насіння льону, хрумкий лаваш, картопля фрі прохолодний напій</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКИЙ КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Меню вегатеріанський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Багато топленого сиру, помідор, фірмовий соус, насіння льону, хрумкий лаваш, картопля фрі прохолодний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКИЙ КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Меню Веган Фреш</p>
-                <p><strong>Опис:</strong> Грильований сир, овочі: салат айcберг, помідор, огірок свіжий, кукурудза, фірмовий соус, хрумкий лаваш, картопля фрі, прохолодний напій.Без цибулі</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> ВЕГАН ФРЕШ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Меню Веган Фреш</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грильований сир, овочі: салат айcберг, помідор, огірок свіжий, кукурудза, фірмовий соус, хрумкий лаваш, картопля фрі, прохолодний напій.Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГАН ФРЕШ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Веган Фреш</p>
-                <p><strong>Опис:</strong> Грильований сир, овочі: салат айcберг, помідор, огірок свіжий, кукурудза, фірмовий соус, хрумкий лаваш.Без цибулі</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> ВЕГАН ФРЕШ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Веган Фреш</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грильований сир, овочі: салат айcберг, помідор, огірок свіжий, кукурудза, фірмовий соус, хрумкий лаваш.Без цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГАН ФРЕШ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб в боксі</p>
-                <p><strong>Опис:</strong> Куряче соковите м'яско, пекінська капуста, огірок солений, помідор, фірмовий соус</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> КЕБАБ В БОКСІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб в боксі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче соковите м'яско, пекінська капуста, огірок солений, помідор, фірмовий соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ В БОКСІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб в боксі без фрі</p>
-                <p><strong>Опис:</strong> Куряче соковите м'яско, пекінська капуста, огірок солений, помідор, фірмовий соус</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> КЕБАБ В БОКСІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб в боксі без фрі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче соковите м'яско, пекінська капуста, огірок солений, помідор, фірмовий соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ В БОКСІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Креветки</p>
-                <p><strong>Опис:</strong> (6шт)Соковиті креветки в хрумкому клярі. Чудово смакують з соусами</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Креветки</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> (6шт)Соковиті креветки в хрумкому клярі. Чудово смакують з соусами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тріпси з кальмарів</p>
-                <p><strong>Опис:</strong> (5шт)Тріпси з філе кальмару у хрумкому клярі.Чудово смакує з соусамисмакують з соусами</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тріпси з кальмарів</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> (5шт)Тріпси з філе кальмару у хрумкому клярі.Чудово смакує з соусамисмакують з соусами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кільця кальмарів</p>
-                <p><strong>Опис:</strong> (5шт)Кільця кальмару у хрумкому клярі.Чудово смакують з соусами</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кільця кальмарів</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> (5шт)Кільця кальмару у хрумкому клярі.Чудово смакують з соусами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі</p>
-                <p><strong>Опис:</strong> (120г)Хрумка та соковита картопелька фрі.Чудово смакує з соусами</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> (120г)Хрумка та соковита картопелька фрі.Чудово смакує з соусами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси</p>
-                <p><strong>Опис:</strong> (4шт)Соковите куряче філе в хрумкому клярі. Чудово смакує з соусами</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> (4шт)Соковите куряче філе в хрумкому клярі. Чудово смакує з соусами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

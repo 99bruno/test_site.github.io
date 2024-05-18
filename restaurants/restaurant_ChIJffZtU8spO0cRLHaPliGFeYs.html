@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zharovnia na Zamku / Жаровня на Замку</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/217.png" alt="Restaurant Image">
         <h1>Zharovnia na Zamku / Жаровня на Замку</h1>
@@ -63,118 +116,139 @@
         <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Млинець з лососем та шпинатом</p>
-                <p><strong>Опис:</strong> Основа - млинець,шпинат,лосось,соус бешамель,конжут.</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з лососем та шпинатом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа - млинець,шпинат,лосось,соус бешамель,конжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець з лососем (190г)</p>
-                <p><strong>Опис:</strong> Основа млинець, огірок, помідор, лосось слабо солений, мікс салатів, соус айолі</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з лососем (190г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа млинець, огірок, помідор, лосось слабо солений, мікс салатів, соус айолі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець Англійський</p>
-                <p><strong>Опис:</strong> Основа - млинець, фасоля,яйце,ковбаски,мікс салату,соус барбекю, помідор.</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Англійський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа - млинець, фасоля,яйце,ковбаски,мікс салату,соус барбекю, помідор.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець з куркою та печерицями (255г)</p>
-                <p><strong>Опис:</strong> Основа - млинець, філе куряче, печериці, сир моцарела, соус Бешамель та Барбекю</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з куркою та печерицями (255г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа - млинець, філе куряче, печериці, сир моцарела, соус Бешамель та Барбекю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець Мексикинський</p>
-                <p><strong>Опис:</strong> Основа млинець,філе куряче,соус барбекю,фасоля,помідор свіжий,сир гауда,соус айолі,мкс салату.</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Мексикинський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа млинець,філе куряче,соус барбекю,фасоля,помідор свіжий,сир гауда,соус айолі,мкс салату.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець Сніданковий (280г)</p>
-                <p><strong>Опис:</strong> Основа - млинець, яйце смажене, бекон, огірок, помідор, сир бринза, мікс салатів, соус Айолі</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Сніданковий (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа - млинець, яйце смажене, бекон, огірок, помідор, сир бринза, мікс салатів, соус Айолі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець Чотири сири (220г)</p>
-                <p><strong>Опис:</strong> Основа - млинець, сир моцарела, бринза, дорблю, гауда, соус Журавлиний</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Чотири сири (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа - млинець, сир моцарела, бринза, дорблю, гауда, соус Журавлиний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець Карбонара (250г)</p>
-                <p><strong>Опис:</strong> Основа млинець ,бекон, соус бешамель</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Карбонара (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа млинець ,бекон, соус бешамель</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець з сиром та маком</p>
-                <p><strong>Опис:</strong> Основа - млинець ,  домашній солодкий сир , макова начинка перетерта з родзинками, згущоне молоко, вишня, грецький горіх</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з сиром та маком</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа - млинець ,  домашній солодкий сир , макова начинка перетерта з родзинками, згущоне молоко, вишня, грецький горіх</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець з  вишнею та карамеллю (320г)</p>
-                <p><strong>Опис:</strong> Основа млинець, вишня, солона карамель, чорниця</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з  вишнею та карамеллю (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа млинець, вишня, солона карамель, чорниця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець з сиром та ягодами (220г)</p>
-                <p><strong>Опис:</strong> Основа млинець, домашній солодкий сир, сезонні ягоди та фрукти</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з сиром та ягодами (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа млинець, домашній солодкий сир, сезонні ягоди та фрукти</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець з бананом та нутеллою (230г)</p>
-                <p><strong>Опис:</strong> Основа млинець, банан, нутелла</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з бананом та нутеллою (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа млинець, банан, нутелла</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ ФІРМОВІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Омлет з лососем (290г)</p>
-                <p><strong>Опис:</strong> Омлет, крем-сир, лосось, авокадо, мікс салатів,грінки</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Омлет з лососем (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Омлет, крем-сир, лосось, авокадо, мікс салатів,грінки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Омлет з беконом (280г)</p>
-                <p><strong>Опис:</strong> Омлет, сир гауда, бекон, помідор свіжий, мікс салатів, грінки</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Омлет з беконом (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Омлет, сир гауда, бекон, помідор свіжий, мікс салатів, грінки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Омлет з сиром (230г)</p>
-                <p><strong>Опис:</strong> Омлет, сир гауда, сир бринза, сир моцарела,  мікс салатів, грінки</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Омлет з сиром (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Омлет, сир гауда, сир бринза, сир моцарела,  мікс салатів, грінки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лате (480мл)</p>
-                <p><strong>Опис:</strong> Кава з молоком</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате (480мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава з молоком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао (480мл)</p>
-                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао (480мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лате (250мл)</p>
-                <p><strong>Опис:</strong> Кава з молоком</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава з молоком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао (250мл)</p>
-                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Капучино (250мл)</p>
-                <p><strong>Опис:</strong> Кава з молоком</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава з молоком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Американо з молоком (250мл)</p>
-                <p><strong>Опис:</strong> Чорна кава з молоком</p>
-                <p><strong>Ціна:</strong> 33.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо з молоком (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чорна кава з молоком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 33.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Американо (160мл)</p>
-                <p><strong>Опис:</strong> Чорна кава</p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо (160мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чорна кава</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

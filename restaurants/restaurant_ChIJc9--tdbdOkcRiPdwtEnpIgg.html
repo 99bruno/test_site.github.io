@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BRIOSH / БРІОШ</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/250.png" alt="Restaurant Image">
         <h1>BRIOSH / БРІОШ</h1>
@@ -63,178 +116,199 @@
         <p><strong>Неділя:</strong> 08:00:00 - 20:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Сніданок Happy morning (370г)</p>
-                <p><strong>Опис:</strong> Вершковий скрембл із креветками та насінням чорного кунжута, свіжоспечений цільнозерновий круасан із сиром Філадельфія та слайсами авокадо, мікс салату із томатами черрі та насінням, кунжутна олія</p>
-                <p><strong>Ціна:</strong> 360.0</p>
-                <p><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сніданок Happy morning (370г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершковий скрембл із креветками та насінням чорного кунжута, свіжоспечений цільнозерновий круасан із сиром Філадельфія та слайсами авокадо, мікс салату із томатами черрі та насінням, кунжутна олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 360.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Авокадо-тост з лососем та яйцем пашот (400г)</p>
-                <p><strong>Опис:</strong> Ідеальне гуакамоле (подрібнене авокадо, томати, синя цибуля) подається на тостовому цільнозерновому хлібі із яйцем пашот під соусом Голландез та чорного кунжута, та ще більше слайсів ніжного філе слабосоленого лосося</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Авокадо-тост з лососем та яйцем пашот (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ідеальне гуакамоле (подрібнене авокадо, томати, синя цибуля) подається на тостовому цільнозерновому хлібі із яйцем пашот під соусом Голландез та чорного кунжута, та ще більше слайсів ніжного філе слабосоленого лосося</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сніданок Impero Breakfast (350г)</p>
-                <p><strong>Опис:</strong> Ідеальний сніданок у поєднанні слайсів ніжного  філе слабосоленого лосося та авокадо, та яйця пашот під соусом Голландез на житніх грінках. Подається із салатом Капрезе (салат маш, томати черрі, сир моцарелла під соусом Песто)</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сніданок Impero Breakfast (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ідеальний сніданок у поєднанні слайсів ніжного  філе слабосоленого лосося та авокадо, та яйця пашот під соусом Голландез на житніх грінках. Подається із салатом Капрезе (салат маш, томати черрі, сир моцарелла під соусом Песто)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крок Мадам з яєчнею та курячим філе (460г)</p>
-                <p><strong>Опис:</strong> Найсмачніший французький бріош із яйцями пашот під соусом Голландез та із запеченим курячим філе, сиром чеддер, карамелізованою цибулею, соленим огірком та соусом Бургер. Подається із салатним міксом та томатами черрі, під соусом Теріякі</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крок Мадам з яєчнею та курячим філе (460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Найсмачніший французький бріош із яйцями пашот під соусом Голландез та із запеченим курячим філе, сиром чеддер, карамелізованою цибулею, соленим огірком та соусом Бургер. Подається із салатним міксом та томатами черрі, під соусом Теріякі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Англійський сніданок (455г)</p>
-                <p><strong>Опис:</strong> Оката яєчня, запечені ковбаски із соусом Барбекю, червона квасоля, салатний мікс із томатами черрі, булочка житня із вершковим маслом</p>
-                <p><strong>Ціна:</strong> 279.0</p>
-                <p><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Англійський сніданок (455г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Оката яєчня, запечені ковбаски із соусом Барбекю, червона квасоля, салатний мікс із томатами черрі, булочка житня із вершковим маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 279.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Скрембл на житньому тості (330г)</p>
-                <p><strong>Опис:</strong> Вершково-сирний скрембл із томатним тартаром на житньому тості, синьою цибулею, помідорами черрі, салатним міксом, під соусом Голландез та солодкою паприкою</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Скрембл на житньому тості (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершково-сирний скрембл із томатним тартаром на житньому тості, синьою цибулею, помідорами черрі, салатним міксом, під соусом Голландез та солодкою паприкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Солона мультизлакова каша із яйцем пашот (340г)</p>
-                <p><strong>Опис:</strong> Каша на молоці із максимально корисним поєднанням злаків (овес, пшениця, ячмінь, жито) із салатним міксом та мікрогріном, яйцем пашот, пармезаном та соусом Голландез</p>
-                <p><strong>Ціна:</strong> 188.0</p>
-                <p><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солона мультизлакова каша із яйцем пашот (340г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Каша на молоці із максимально корисним поєднанням злаків (овес, пшениця, ячмінь, жито) із салатним міксом та мікрогріном, яйцем пашот, пармезаном та соусом Голландез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 188.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОНІ СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники із сезонними ягодами (350г)</p>
-                <p><strong>Опис:</strong> Підсмажені на вершковому маслі млинці з домашнього сиру та борошна, з додаванням яєць. Подаються зі сметаною, карамельним топінгом та мигдалевими пластівцями</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники із сезонними ягодами (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Підсмажені на вершковому маслі млинці з домашнього сиру та борошна, з додаванням яєць. Подаються зі сметаною, карамельним топінгом та мигдалевими пластівцями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Солодка мультизлакова каша із сезонними ягодами (300г)</p>
-                <p><strong>Опис:</strong> Каша на молоці із максимально корисним поєднанням злаків (овес, пшениця, ячмінь, жито) із сезонними ягодами, насінням льону та чіа, мигдалевими пластівцями</p>
-                <p><strong>Ціна:</strong> 124.0</p>
-                <p><strong>Тип:</strong> СОЛОДКІ СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солодка мультизлакова каша із сезонними ягодами (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Каша на молоці із максимально корисним поєднанням злаків (овес, пшениця, ячмінь, жито) із сезонними ягодами, насінням льону та чіа, мигдалевими пластівцями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 124.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКІ СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Impero (400г)</p>
-                <p><strong>Опис:</strong> Складається з найніжнішої котлети з рубаної яловичини, шматочка сиру, кілець карамелізованої синьої цибулі, салату айсберг, шматочків соковитого помідора і хрусткого соленого огірка та бургерним соусом. Подається із хрумкою картоплею фрі</p>
-                <p><strong>Ціна:</strong> 299.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Impero (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Складається з найніжнішої котлети з рубаної яловичини, шматочка сиру, кілець карамелізованої синьої цибулі, салату айсберг, шматочків соковитого помідора і хрусткого соленого огірка та бургерним соусом. Подається із хрумкою картоплею фрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 299.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер з рваною яловичиною (390g)</p>
-                <p><strong>Опис:</strong> Підсмажений бріош з соковитою яловичиною, соленими огірками і карамелізованою цибулею. Подється з картоплею фрі</p>
-                <p><strong>Ціна:</strong> 299.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер з рваною яловичиною (390g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Підсмажений бріош з соковитою яловичиною, соленими огірками і карамелізованою цибулею. Подється з картоплею фрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 299.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан із слабосоленим лососем</p>
-                <p><strong>Опис:</strong> З сиром філадельфія, авокадо, салатним міксом, слабосоленим лососем, свіжим огірком, лимонним соком, яйцем пашот під медово-гірчичним соусом</p>
-                <p><strong>Ціна:</strong> 293.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан із слабосоленим лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З сиром філадельфія, авокадо, салатним міксом, слабосоленим лососем, свіжим огірком, лимонним соком, яйцем пашот під медово-гірчичним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 293.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з прошуто і сезонними фруктами</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 292.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з прошуто і сезонними фруктами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 292.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з яловичиною та в'яленими томатами</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 285.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з яловичиною та в'яленими томатами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 285.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан "Капрезе"</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 228.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан "Капрезе"</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 228.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан із запеченим курячим філе (230г)</p>
-                <p><strong>Опис:</strong> Свіжоспечений зерновий круасан наповнений слайсами запеченого курячого філе, свіжих помідорів, авокадо, салатним міксом, крем-сиром філадельфія, пармезаном, під горіховим соусом та солодкою паприкою</p>
-                <p><strong>Ціна:</strong> 199.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан із запеченим курячим філе (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжоспечений зерновий круасан наповнений слайсами запеченого курячого філе, свіжих помідорів, авокадо, салатним міксом, крем-сиром філадельфія, пармезаном, під горіховим соусом та солодкою паприкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 199.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Клаб-сендвіч із шинкою (170г)</p>
-                <p><strong>Опис:</strong> Сендвіч із пшеничного тостового хліба із наповнений слайсами пармської шинки, свіжих помідорів, салатом айсберга, синьою цибулею, соленими огірками, твердим сиром і соусом Барбекю</p>
-                <p><strong>Ціна:</strong> 178.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Клаб-сендвіч із шинкою (170г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сендвіч із пшеничного тостового хліба із наповнений слайсами пармської шинки, свіжих помідорів, салатом айсберга, синьою цибулею, соленими огірками, твердим сиром і соусом Барбекю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 178.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Клаб-сендвіч із запеченим курячим філе (215г)</p>
-                <p><strong>Опис:</strong> Сендвіч із тостового пшеничним хлібом наповнений слайсами запеченого курячого філе, свіжими помідорами, болгарським перцем, твердим сиром, салатом айсберг з соусом Песто, французькою гірчицею і теріякі</p>
-                <p><strong>Ціна:</strong> 162.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Клаб-сендвіч із запеченим курячим філе (215г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сендвіч із тостового пшеничним хлібом наповнений слайсами запеченого курячого філе, свіжими помідорами, болгарським перцем, твердим сиром, салатом айсберг з соусом Песто, французькою гірчицею і теріякі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 162.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан мигдалевий</p>
-                <p><strong>Опис:</strong> З смаженими мигдалевими пластівцями та амаретто, политий карамельним топінгом та присипаний цукровою пудрою</p>
-                <p><strong>Ціна:</strong> 117.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан мигдалевий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З смаженими мигдалевими пластівцями та амаретто, политий карамельним топінгом та присипаний цукровою пудрою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 117.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан із ванільний кремом (200г)</p>
-                <p><strong>Опис:</strong> Свіжоспечений зерновий круасан із ванільним кремом, подається із сезонними ягодами, политий карамельним топінгом і мигдалевими пластівцями</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан із ванільний кремом (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжоспечений зерновий круасан із ванільним кремом, подається із сезонними ягодами, политий карамельним топінгом і мигдалевими пластівцями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ ТА СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гострий суп з морепродуктами</p>
-                <p><strong>Опис:</strong> З рисовою локшиною, креветками, лососем, мідіями, грибами шиітаке, лимоном, соусом Табаско і присипаний кунжутом та проростками</p>
-                <p><strong>Ціна:</strong> 345.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гострий суп з морепродуктами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З рисовою локшиною, креветками, лососем, мідіями, грибами шиітаке, лимоном, соусом Табаско і присипаний кунжутом та проростками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 345.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гарбузовий крем-суп з грінками (400г)</p>
-                <p><strong>Опис:</strong> Подається з соусом Песто, проростками та насінням гарбуза</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гарбузовий крем-суп з грінками (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подається з соусом Песто, проростками та насінням гарбуза</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Качина грудка в медово-коричному соусі на подушці пюре з батату (475г)</p>
-                <p><strong>Опис:</strong> Соковита качина грудка на подушці вершково-солодкавого пюре з батату, доповнена соусом Теріякі</p>
-                <p><strong>Ціна:</strong> 420.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Качина грудка в медово-коричному соусі на подушці пюре з батату (475г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита качина грудка на подушці вершково-солодкавого пюре з батату, доповнена соусом Теріякі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 420.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лосось під вершково-пармезановим соусом з кус-кусом та салатним міксом</p>
-                <p><strong>Опис:</strong> Ніжне філе лосося під соусом з вершків і сиру пармезан, кус-кусом та салатним міксом</p>
-                <p><strong>Ціна:</strong> 410.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лосось під вершково-пармезановим соусом з кус-кусом та салатним міксом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжне філе лосося під соусом з вершків і сиру пармезан, кус-кусом та салатним міксом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 410.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Яловича вирізка на подушці з овочів та картопляними кульками (400г)</p>
-                <p><strong>Опис:</strong> Соковита яловича вирізка з грильованим кабачком та баклажаном, доповнена хрусткими картопляними кульками з соусом на ваш вибір</p>
-                <p><strong>Ціна:</strong> 319.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яловича вирізка на подушці з овочів та картопляними кульками (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита яловича вирізка з грильованим кабачком та баклажаном, доповнена хрусткими картопляними кульками з соусом на ваш вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 319.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Куряче філе з карамелізованими овочами (460г)</p>
-                <p><strong>Опис:</strong> Запечене куряче філе, морква, броколлі, помідори черрі, мигдалеві пластівці, під горіховим соусом</p>
-                <p><strong>Ціна:</strong> 286.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Куряче філе з карамелізованими овочами (460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запечене куряче філе, морква, броколлі, помідори черрі, мигдалеві пластівці, під горіховим соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 286.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Локшина з телятиною (390г)</p>
-                <p><strong>Опис:</strong> Телятина, локшина на вибір, соус на вибір, мікс овочів (морква, цибуля, болгарський перець, печериці, бебі кукурудза)</p>
-                <p><strong>Ціна:</strong> 299.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА WOK</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина з телятиною (390г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Телятина, локшина на вибір, соус на вибір, мікс овочів (морква, цибуля, болгарський перець, печериці, бебі кукурудза)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 299.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА WOK</p>
                 <hr>
-                <p><strong>Позиція:</strong> Локшина з куркою (390г)</p>
-                <p><strong>Опис:</strong> Курка, локшина на вибір, соус на вибір, мікс овочів (морква, цибуля, болгарський перець, печериці, бебі кукурудза)</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА WOK</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина з куркою (390г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, локшина на вибір, соус на вибір, мікс овочів (морква, цибуля, болгарський перець, печериці, бебі кукурудза)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА WOK</p>
                 <hr>
-                <p><strong>Позиція:</strong> Локшина вегетеріанська (330г)</p>
-                <p><strong>Опис:</strong> Локшина на вибір, соус на вибір, мікс овочів (морква, цибуля, болгарський перець, печериці, бебі кукурудза)</p>
-                <p><strong>Ціна:</strong> 202.0</p>
-                <p><strong>Тип:</strong> ЛОКШИНА WOK</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина вегетеріанська (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина на вибір, соус на вибір, мікс овочів (морква, цибуля, болгарський перець, печериці, бебі кукурудза)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 202.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛОКШИНА WOK</p>
                 <hr>
-                <p><strong>Позиція:</strong> Напій Red Bull в асортименті (250мл)</p>
-                <p><strong>Опис:</strong> Енергетичний напій</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій Red Bull в асортименті (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Енергетичний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мінеральна вода Borjomi (500мл)</p>
-                <p><strong>Опис:</strong> Лікувально-столова, сильногазована</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мінеральна вода Borjomi (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лікувально-столова, сильногазована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода мінеральна Моршинська (500мл)</p>
-                <p><strong>Опис:</strong> В асортименті негазована та слабогазована</p>
-                <p><strong>Ціна:</strong> 58.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода мінеральна Моршинська (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> В асортименті негазована та слабогазована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 58.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік GALICIA в асортименті (200мл)</p>
-                <p><strong>Опис:</strong> 100% натуральний сік прямого віджиму. Без додавання цукру, води, консервантів та ГМО. Смаки: яблуко-вишня, яблуко-смородина, яблучно-морквяний, яблуко-груша, яблучно-гарбузовий, яблучно-чорничний та ін</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік GALICIA в асортименті (200мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% натуральний сік прямого віджиму. Без додавання цукру, води, консервантів та ГМО. Смаки: яблуко-вишня, яблуко-смородина, яблучно-морквяний, яблуко-груша, яблучно-гарбузовий, яблучно-чорничний та ін</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Напій PEPSI (330мл)</p>
-                <p><strong>Опис:</strong> Солодка вода, сильногазована</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій PEPSI (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодка вода, сильногазована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

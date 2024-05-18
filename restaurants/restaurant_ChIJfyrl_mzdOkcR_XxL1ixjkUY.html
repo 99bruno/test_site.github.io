@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ostannia barukada / Остання Барикада</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/438.png" alt="Restaurant Image">
         <h1>Ostannia barukada / Остання Барикада</h1>
@@ -63,126 +116,147 @@
         <p><strong>Неділя:</strong> 10:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Суп Том Ям (500мл/100г)</p>
-                <p><strong>Опис:</strong> Лосось, креветка тигрова, кальмар, паста Том Ям, гливи, лимон трава, кафір, курячий бульйон, кокосове молоко, томати чері, рис, кунжут, кінза, рибний соус, зелена цибуля</p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суп Том Ям (500мл/100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лосось, креветка тигрова, кальмар, паста Том Ям, гливи, лимон трава, кафір, курячий бульйон, кокосове молоко, томати чері, рис, кунжут, кінза, рибний соус, зелена цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Суп Рамен з телятиною</p>
-                <p><strong>Опис:</strong> Класичний азійський суп на основі бульйону рамен з яєчною локшиною та телячою вирізкою філе</p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суп Рамен з телятиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний азійський суп на основі бульйону рамен з яєчною локшиною та телячою вирізкою філе</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Суп Рамен з куркою</p>
-                <p><strong>Опис:</strong> Класичний азійський суп на основі бульйону рамен з яєчною локшиною та соковитим курячим філе</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суп Рамен з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний азійський суп на основі бульйону рамен з яєчною локшиною та соковитим курячим філе</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з креветками WOK (285г)</p>
-                <p><strong>Опис:</strong> Креветка, овочевий мікс, кукурудза, томати, яйце,
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з креветками WOK (285г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Креветка, овочевий мікс, кукурудза, томати, яйце,
 кунжут чорний</p>
-                <p><strong>Ціна:</strong> 168.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 168.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з яловичиною WOK (275г)</p>
-                <p><strong>Опис:</strong> Яловичина, овочевий мікс, кукурудза, томати, яйце, кунжут чорний</p>
-                <p><strong>Ціна:</strong> 146.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з яловичиною WOK (275г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яловичина, овочевий мікс, кукурудза, томати, яйце, кунжут чорний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 146.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з тунцем (265г)</p>
-                <p><strong>Опис:</strong> Тунець, овочевий мікс, кукурудза, томати, яйце,
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з тунцем (265г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тунець, овочевий мікс, кукурудза, томати, яйце,
 кунжут чорний</p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з куркою WOK (275г)</p>
-                <p><strong>Опис:</strong> Курка, овочевий мікс, кукурудза, томати, яйце,
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з куркою WOK (275г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, овочевий мікс, кукурудза, томати, яйце,
 кунжут чорний</p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Унагі Азія Стар</p>
-                <p><strong>Опис:</strong> Королівський рол з соковитими скибочками копченого вугра, тигровими креветками та авторським соусом Світ Чилі Манго</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Унагі Азія Стар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Королівський рол з соковитими скибочками копченого вугра, тигровими креветками та авторським соусом Світ Чилі Манго</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ/РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Саке Азія Стар</p>
-                <p><strong>Опис:</strong> Соковитий рол з філе лосося в поєднанні з сніжним крабом, ніжним сиром та пікантним соусом васабі</p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Саке Азія Стар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковитий рол з філе лосося в поєднанні з сніжним крабом, ніжним сиром та пікантним соусом васабі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ/РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мідорі Азія Стар</p>
-                <p><strong>Опис:</strong> Рол з кремовим авокадо, ніжним вугрем і хрустким кранчем під соусом спайсі</p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мідорі Азія Стар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол з кремовим авокадо, ніжним вугрем і хрустким кранчем під соусом спайсі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ/РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Магуро Азія Стар</p>
-                <p><strong>Опис:</strong> Великий рол з рожевим тунцем, соковитим крабом і вершковим сиром під соусом світ чилі</p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Магуро Азія Стар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Великий рол з рожевим тунцем, соковитим крабом і вершковим сиром під соусом світ чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ/РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирний Азія Стар</p>
-                <p><strong>Опис:</strong> Рол з великою кількістю вершкового сиру, скибочками червоного чедру та сирним соусом власного приготування</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний Азія Стар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол з великою кількістю вершкового сиру, скибочками червоного чедру та сирним соусом власного приготування</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ/РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Інарі суші з вугрем</p>
-                <p><strong>Опис:</strong> Ніжні суші з соєвого сиру з копченим вугрем, рисом та авокадо</p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Інарі суші з вугрем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні суші з соєвого сиру з копченим вугрем, рисом та авокадо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ/РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Інарі суші з креветками</p>
-                <p><strong>Опис:</strong> Ніжні суші з соєвого сиру з тигровими креветками, рисом та авокадо</p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Інарі суші з креветками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні суші з соєвого сиру з тигровими креветками, рисом та авокадо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ/РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Інарі суші з сніжним крабом</p>
-                <p><strong>Опис:</strong> Ніжні суші з соєвого сиру з соковитим крабом, рисом та авокадо</p>
-                <p><strong>Ціна:</strong> 119.0</p>
-                <p><strong>Тип:</strong> СУШІ/РОЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Інарі суші з сніжним крабом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні суші з соєвого сиру з соковитим крабом, рисом та авокадо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 119.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ/РОЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з креветкою</p>
-                <p><strong>Опис:</strong> Вітамінне поєднання продуктів з тигровими креветками, авторським соусом для боулів та соусом на вибір (горіховий, солодкий чилі, манговий)</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з креветкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вітамінне поєднання продуктів з тигровими креветками, авторським соусом для боулів та соусом на вибір (горіховий, солодкий чилі, манговий)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Моті</p>
-                <p><strong>Опис:</strong> Класичний японський десерт з соєвих вершків в рисовому папері</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моті</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний японський десерт з соєвих вершків в рисовому папері</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Спрінг рол з креветками</p>
-                <p><strong>Опис:</strong> Рол у рисовому папері, з тигровими креветками, вершковим сиром та соусом світ чилі</p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> ХАРУМАКІ/НЕМ/СПРІНГ РОЛ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спрінг рол з креветками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол у рисовому папері, з тигровими креветками, вершковим сиром та соусом світ чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХАРУМАКІ/НЕМ/СПРІНГ РОЛ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Спрінг рол з копченим лососем</p>
-                <p><strong>Опис:</strong> Рол у рисовому папері, з філе копченого лосося, вершковим сиром та соусом світ чилі</p>
-                <p><strong>Ціна:</strong> 119.0</p>
-                <p><strong>Тип:</strong> ХАРУМАКІ/НЕМ/СПРІНГ РОЛ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спрінг рол з копченим лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол у рисовому папері, з філе копченого лосося, вершковим сиром та соусом світ чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 119.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХАРУМАКІ/НЕМ/СПРІНГ РОЛ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Напій Pepsi (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 29.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій Pepsi (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 29.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Напій 7up (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 23.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій 7up (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 23.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Напій Mirinda (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 23.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій Mirinda (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 23.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода Aqua Minerale (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 19.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Aqua Minerale (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 19.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Хліб з маслом coffee shop</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/397.png" alt="Restaurant Image">
         <h1>Хліб з маслом coffee shop</h1>
@@ -63,293 +116,314 @@
         <p><strong>Неділя:</strong> 09:00:00 - 20:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Круасан капрезе (320г)</p>
-                <p><strong>Опис:</strong> Соус песто, моцарелла, помідор, салат айсберг. Подається з міксом салату та помідором Чері</p>
-                <p><strong>Ціна:</strong> 287.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан капрезе (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус песто, моцарелла, помідор, салат айсберг. Подається з міксом салату та помідором Чері</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 287.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан селянський (205г)</p>
-                <p><strong>Опис:</strong> Соус Голландез, сир Чеддер, салат айсберг, огірок маринований, шинка. Подається з міксом салату та помідором Чері</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан селянський (205г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Голландез, сир Чеддер, салат айсберг, огірок маринований, шинка. Подається з міксом салату та помідором Чері</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з куркою (225г)</p>
-                <p><strong>Опис:</strong> Соус Голландез, сир Чеддер, салат айсберг, помідори, куряче філе. Подається з міксом салату та помідором Чері</p>
-                <p><strong>Ціна:</strong> 249.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з куркою (225г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Голландез, сир Чеддер, салат айсберг, помідори, куряче філе. Подається з міксом салату та помідором Чері</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 249.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з шоколадом і бананом (175г)</p>
-                <p><strong>Опис:</strong> Шоколадна паста, банан. При подачі посипається цукровою пудрою та топінгом</p>
-                <p><strong>Ціна:</strong> 143.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з шоколадом і бананом (175г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколадна паста, банан. При подачі посипається цукровою пудрою та топінгом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 143.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з вишнею (75г)</p>
-                <p><strong>Опис:</strong> Маскарпоне, наповнювач вишня. При подачі посипається цукровою пудрою та топінгом</p>
-                <p><strong>Ціна:</strong> 137.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з вишнею (75г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Маскарпоне, наповнювач вишня. При подачі посипається цукровою пудрою та топінгом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 137.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з полуницею (75г)</p>
-                <p><strong>Опис:</strong> Маскарпоне, наповнювач полуниця. При подачі посипається цукровою пудрою та топінгом</p>
-                <p><strong>Ціна:</strong> 137.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з полуницею (75г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Маскарпоне, наповнювач полуниця. При подачі посипається цукровою пудрою та топінгом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 137.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог Цезар (210г)</p>
-                <p><strong>Опис:</strong> Булка Бріош, курка запечена, соус цезар на основі анчоусів власного виробництва, помідором Чері, яйця перепелині, сир Пармезан, листя салату</p>
-                <p><strong>Ціна:</strong> 184.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог Цезар (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка Бріош, курка запечена, соус цезар на основі анчоусів власного виробництва, помідором Чері, яйця перепелині, сир Пармезан, листя салату</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 184.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог Грецький (185г)</p>
-                <p><strong>Опис:</strong> Булка Бріош, майонез, французька гірчиця, сосиска молочна, мікс салату, помідор Чері, сир Фета, оливки</p>
-                <p><strong>Ціна:</strong> 154.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог Грецький (185г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка Бріош, майонез, французька гірчиця, сосиска молочна, мікс салату, помідор Чері, сир Фета, оливки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 154.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог з квашеною капустою (210г)</p>
-                <p><strong>Опис:</strong> Булка Бріош, соус: майонез, французька гірчиця; сосиска баварська, капуста квашена, синя цибуля</p>
-                <p><strong>Ціна:</strong> 121.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог з квашеною капустою (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка Бріош, соус: майонез, французька гірчиця; сосиска баварська, капуста квашена, синя цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 121.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог Датський (210г)</p>
-                <p><strong>Опис:</strong> Булка Датська, соуси: майонез, кетчуп, гірчиця. Огірок маринований, цибулеві чіпси. Сосиска молочна</p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог Датський (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка Датська, соуси: майонез, кетчуп, гірчиця. Огірок маринований, цибулеві чіпси. Сосиска молочна</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог Баварський (210г)</p>
-                <p><strong>Опис:</strong> Булка Французька, соуси:  майонез, кетчуп,  гірчиця. Сосиска Баварська</p>
-                <p><strong>Ціна:</strong> 91.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог Баварський (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка Французька, соуси:  майонез, кетчуп,  гірчиця. Сосиска Баварська</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 91.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог Французький (210г)</p>
-                <p><strong>Опис:</strong> Булка Французька, соуси: майонез, кетчуп, гірчиця. Сосиска молочна</p>
-                <p><strong>Ціна:</strong> 84.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог Французький (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка Французька, соуси: майонез, кетчуп, гірчиця. Сосиска молочна</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 84.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чікенбургер (155г)</p>
-                <p><strong>Опис:</strong> Булка гамбургерна, соус бургерний, сир Чеддер, огірок маринований, помідор, листя салату, нагетси</p>
-                <p><strong>Ціна:</strong> 114.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікенбургер (155г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка гамбургерна, соус бургерний, сир Чеддер, огірок маринований, помідор, листя салату, нагетси</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 114.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фісташка (200г)</p>
-                <p><strong>Опис:</strong> Пісочне сабле, чізкейк з натуральної фісташкової пасти, крем чіз фісташковий</p>
-                <p><strong>Ціна:</strong> 194.0</p>
-                <p><strong>Тип:</strong> ЧІЗКЕЙКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фісташка (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пісочне сабле, чізкейк з натуральної фісташкової пасти, крем чіз фісташковий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 194.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧІЗКЕЙКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нью-Йорк (200г)</p>
-                <p><strong>Опис:</strong> Пісочне сабле та ніжний вершковий чізкейк з лимонним фрешом</p>
-                <p><strong>Ціна:</strong> 178.0</p>
-                <p><strong>Тип:</strong> ЧІЗКЕЙКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нью-Йорк (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пісочне сабле та ніжний вершковий чізкейк з лимонним фрешом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 178.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧІЗКЕЙКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Малина-фісташка (200г)</p>
-                <p><strong>Опис:</strong> Фісташковий бісквіт, малинове кремю, малинове желе та ніжний фісташковий мус</p>
-                <p><strong>Ціна:</strong> 182.0</p>
-                <p><strong>Тип:</strong> МУСОВІ ТОРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Малина-фісташка (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фісташковий бісквіт, малинове кремю, малинове желе та ніжний фісташковий мус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 182.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МУСОВІ ТОРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шампань (200г)</p>
-                <p><strong>Опис:</strong> Бісквіт шпинатний, полуничне кюлі з базиліком, ганаш з зеленим яблуком, ніжний базиліковий мус</p>
-                <p><strong>Ціна:</strong> 172.0</p>
-                <p><strong>Тип:</strong> МУСОВІ ТОРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шампань (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бісквіт шпинатний, полуничне кюлі з базиліком, ганаш з зеленим яблуком, ніжний базиліковий мус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 172.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МУСОВІ ТОРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Спартак (200г)</p>
-                <p><strong>Опис:</strong> шоколадно-медові коржі, з ніжним масляно-заварним кремом</p>
-                <p><strong>Ціна:</strong> 168.0</p>
-                <p><strong>Тип:</strong> БІСКВІТНІ ТОРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спартак (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> шоколадно-медові коржі, з ніжним масляно-заварним кремом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 168.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БІСКВІТНІ ТОРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарта малина-фіташка (130г)</p>
-                <p><strong>Опис:</strong> Пісочна основа з додаванням фісташкового крему та малинового конфі</p>
-                <p><strong>Ціна:</strong> 124.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарта малина-фіташка (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пісочна основа з додаванням фісташкового крему та малинового конфі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 124.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мусове тістечко Ескімо (115г)</p>
-                <p><strong>Опис:</strong> Мус на молочному шоколаді, кулі манго-маракуйя, глазур на основі чорного шоколаду з кульками повітряного рису</p>
-                <p><strong>Ціна:</strong> 106.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мусове тістечко Ескімо (115г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мус на молочному шоколаді, кулі манго-маракуйя, глазур на основі чорного шоколаду з кульками повітряного рису</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 106.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еклер фісташковий (125г)</p>
-                <p><strong>Опис:</strong> Заварне тістечко з ніжним фісташковим кремом, политий глазур'ю та припорошений фісташковити горішками та пудрою</p>
-                <p><strong>Ціна:</strong> 91.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер фісташковий (125г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Заварне тістечко з ніжним фісташковим кремом, политий глазур'ю та припорошений фісташковити горішками та пудрою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 91.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Макарун Полуниця (75г)</p>
-                <p><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним полуничним кремом</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун Полуниця (75г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним полуничним кремом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Макарун М'ята (75г)</p>
-                <p><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним м'ятним кремом</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун М'ята (75г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним м'ятним кремом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Макарун Ваніль (75г)</p>
-                <p><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним ванільним кремом</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун Ваніль (75г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним ванільним кремом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Макарун Лимон (75г)</p>
-                <p><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним лимонним кремом</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун Лимон (75г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дві повітряні половинки печива, з'єднані ніжним лимонним кремом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Малинова тарта (160г)</p>
-                <p><strong>Опис:</strong> Пісочна основа, заварний крем, малинове конфі та зверху покритий меренгою</p>
-                <p><strong>Ціна:</strong> 86.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Малинова тарта (160г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пісочна основа, заварний крем, малинове конфі та зверху покритий меренгою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 86.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонна тарта (120г)</p>
-                <p><strong>Опис:</strong> Пісочна основа, з додаванням лимонного курту та зверху покрита меренгою</p>
-                <p><strong>Ціна:</strong> 86.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонна тарта (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пісочна основа, з додаванням лимонного курту та зверху покрита меренгою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 86.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еклер ванільний (115г)</p>
-                <p><strong>Опис:</strong> Заварне тістечко з вершково - ванільним кремом та политий міраллю</p>
-                <p><strong>Ціна:</strong> 77.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еклер ванільний (115г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Заварне тістечко з вершково - ванільним кремом та политий міраллю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 77.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Цезар ( 200 гр)</p>
-                <p><strong>Опис:</strong> Мікс салатів у поєднанні з печеною куркою, томатами чері, ломтиками італійського пармезану, грінками, перепелиними яйцями та заправлений оригінальною приправою цезар з анчоусами</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар ( 200 гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салатів у поєднанні з печеною куркою, томатами чері, ломтиками італійського пармезану, грінками, перепелиними яйцями та заправлений оригінальною приправою цезар з анчоусами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Грецький (230 гр)</p>
-                <p><strong>Опис:</strong> Мікс салатів у поєднанні ними з зеленими оливками, маслинами, свіжих огірочків, томатів чері, сиру фети та зернят гірчиці .Ноту смаку довершує оригінальний соус з оливковою олією.</p>
-                <p><strong>Ціна:</strong> 107.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Грецький (230 гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салатів у поєднанні ними з зеленими оливками, маслинами, свіжих огірочків, томатів чері, сиру фети та зернят гірчиці .Ноту смаку довершує оригінальний соус з оливковою олією.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 107.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сінабони</p>
-                <p><strong>Опис:</strong> Запашні булочки з корицею прикрашені маскарпоне з вершками та фундуком</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> БУЛОЧКИ СОЛОДКІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сінабони</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запашні булочки з корицею прикрашені маскарпоне з вершками та фундуком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУЛОЧКИ СОЛОДКІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кока-кола 330 мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кока-кола 330 мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фанта 330 мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фанта 330 мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Спрайт 330 мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спрайт 330 мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Раф кава XL</p>
-                <p><strong>Опис:</strong> 450 мл</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Раф кава XL</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 450 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лате XL</p>
-                <p><strong>Опис:</strong> 450 мл</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате XL</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 450 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Капучино XL</p>
-                <p><strong>Опис:</strong> 450 мл</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино XL</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 450 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао з бананом</p>
-                <p><strong>Опис:</strong> 350 мл</p>
-                <p><strong>Ціна:</strong> 87.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао з бананом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 350 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 87.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Раф кава L</p>
-                <p><strong>Опис:</strong> 360 мл</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Раф кава L</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 360 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао натуральне</p>
-                <p><strong>Опис:</strong> 450 мл</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао натуральне</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 450 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао натуральне</p>
-                <p><strong>Опис:</strong> 350 мл</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао натуральне</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 350 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао дитяче</p>
-                <p><strong>Опис:</strong> 450 мл</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао дитяче</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 450 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лате L</p>
-                <p><strong>Опис:</strong> 360 мл</p>
-                <p><strong>Ціна:</strong> 79.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате L</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 360 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 79.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Капучино L</p>
-                <p><strong>Опис:</strong> 360 мл</p>
-                <p><strong>Ціна:</strong> 79.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино L</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 360 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 79.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао дитяче</p>
-                <p><strong>Опис:</strong> 350 мл</p>
-                <p><strong>Ціна:</strong> 73.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао дитяче</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 350 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 73.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лате М</p>
-                <p><strong>Опис:</strong> 260 мл</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 260 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Капучино М</p>
-                <p><strong>Опис:</strong> 260 мл</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 260 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Флет-вайт</p>
-                <p><strong>Опис:</strong> 250 мл</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Флет-вайт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 250 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао дитяче</p>
-                <p><strong>Опис:</strong> 250 мл</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао дитяче</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 250 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Американо з молоком L</p>
-                <p><strong>Опис:</strong> 320 мл</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо з молоком L</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 320 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао натуральне</p>
-                <p><strong>Опис:</strong> 250 мл</p>
-                <p><strong>Ціна:</strong> 68.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао натуральне</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 250 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 68.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Допіо</p>
-                <p><strong>Опис:</strong> 90 мл</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Допіо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 90 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Американо L</p>
-                <p><strong>Опис:</strong> 270 мл</p>
-                <p><strong>Ціна:</strong> 62.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо L</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 270 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Американо з молоком  М</p>
-                <p><strong>Опис:</strong> 210 мл</p>
-                <p><strong>Ціна:</strong> 62.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо з молоком  М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 210 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еспресо макіято</p>
-                <p><strong>Опис:</strong> 50 мл</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еспресо макіято</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 50 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Американо  М</p>
-                <p><strong>Опис:</strong> 160 мл</p>
-                <p><strong>Ціна:</strong> 52.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо  М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 160 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 52.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еспресо</p>
-                <p><strong>Опис:</strong> 40 мл</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еспресо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 40 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

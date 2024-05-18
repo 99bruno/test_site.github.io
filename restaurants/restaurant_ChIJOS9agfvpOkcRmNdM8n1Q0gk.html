@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CACAO</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/383.png" alt="Restaurant Image">
         <h1>CACAO</h1>
@@ -63,256 +116,277 @@
         <p><strong>Неділя:</strong> 08:30:00 - 20:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Дабл-дог у вершковому бріоші (270г)</p>
-                <p><strong>Опис:</strong> Хот-дог у вершковій французькій булочці бріош з двома молочними сосисками, з кетчупом, гірчицею, білим соусом та фірмовою посипкою з яблучних та цибулевих чіпсів. Краще смакує з сиром</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл-дог у вершковому бріоші (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хот-дог у вершковій французькій булочці бріош з двома молочними сосисками, з кетчупом, гірчицею, білим соусом та фірмовою посипкою з яблучних та цибулевих чіпсів. Краще смакує з сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дабл-дог шейк-шейк</p>
-                <p><strong>Опис:</strong> З двома молочними сосисками, корнішонами, томатами, херсонською цибулею, кетчупом та гірчицею у вершковому бріоші.</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл-дог шейк-шейк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З двома молочними сосисками, корнішонами, томатами, херсонською цибулею, кетчупом та гірчицею у вершковому бріоші.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дабл хот-дог Блю Чіз (270г)</p>
-                <p><strong>Опис:</strong> Хот-дог з двома молочними сосисками, соусом Блю Чіз та карамелізованою цибулею та яблуками в вершковій булочці бріош</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл хот-дог Блю Чіз (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хот-дог з двома молочними сосисками, соусом Блю Чіз та карамелізованою цибулею та яблуками в вершковій булочці бріош</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> НОВИНКА СЕЗОНУ Дог Цезар</p>
-                <p><strong>Опис:</strong> Дог в булочці бріош, молочною сосискою, салатом айсберг, свіжими помідорами та дресінгом цезар</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> НОВИНКА СЕЗОНУ Дог Цезар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дог в булочці бріош, молочною сосискою, салатом айсберг, свіжими помідорами та дресінгом цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> НОВИНКА СЕЗОНУ Дог Old School</p>
-                <p><strong>Опис:</strong> Дог в булочці бріош з молочною сосискою, свіжайшим салатом айсберг, гострою корейською морквою, кетчупом і майонезом</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> НОВИНКА СЕЗОНУ Дог Old School</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дог в булочці бріош з молочною сосискою, свіжайшим салатом айсберг, гострою корейською морквою, кетчупом і майонезом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог Блю Чіз (210г)</p>
-                <p><strong>Опис:</strong> Хот-дог з молочною сосискою, соусом Блю Чіз та карамелізованою цибулею та яблуками в вершковій булочці бріош</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог Блю Чіз (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хот-дог з молочною сосискою, соусом Блю Чіз та карамелізованою цибулею та яблуками в вершковій булочці бріош</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог у вершковому бріоші (190г)</p>
-                <p><strong>Опис:</strong> Хот-дог у вершковій французькій булочці бріош з молочною сосискою, з кечтупом, гірчицею, білим соусом та фірмовою посипкою з яблучних та цибулевих чіпсів. Краще смакує з сиром</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог у вершковому бріоші (190г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хот-дог у вершковій французькій булочці бріош з молочною сосискою, з кечтупом, гірчицею, білим соусом та фірмовою посипкою з яблучних та цибулевих чіпсів. Краще смакує з сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дог Шейк-шейк</p>
-                <p><strong>Опис:</strong> З молочною сосискою, корнішонами, томатами, херсонською цибулею, кетчупом та гірчицею у вершковому бріоші</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дог Шейк-шейк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З молочною сосискою, корнішонами, томатами, херсонською цибулею, кетчупом та гірчицею у вершковому бріоші</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дабл хот-дог Класік (240г)</p>
-                <p><strong>Опис:</strong> Класичний хот-тог з двома соковитими сосисками з трьома соусами, хрусткою цибулею та яблучними чіпсами</p>
-                <p><strong>Ціна:</strong> 79.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл хот-дог Класік (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний хот-тог з двома соковитими сосисками з трьома соусами, хрусткою цибулею та яблучними чіпсами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 79.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог Класік (170г)</p>
-                <p><strong>Опис:</strong> Класичний хот-тог з трьома соусами, хрусткою цибулею та яблучними чіпсами</p>
-                <p><strong>Ціна:</strong> 59.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог Класік (170г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний хот-тог з трьома соусами, хрусткою цибулею та яблучними чіпсами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 59.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сир Чеддер (13г)</p>
-                <p><strong>Опис:</strong> Додатково до кожного хот-дога рекомендуємо додати слайси сиру чеддер</p>
-                <p><strong>Ціна:</strong> 14.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сир Чеддер (13г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково до кожного хот-дога рекомендуємо додати слайси сиру чеддер</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 14.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дюжина устриць Святий Патрік №2 (12шт)</p>
-                <p><strong>Опис:</strong> Благородна устриця з соковитою текстурою. Устриці подаються закритими, але Ви можете вказати в страві, щоб ресторан їх привідкрив для вас</p>
-                <p><strong>Ціна:</strong> 948.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дюжина устриць Святий Патрік №2 (12шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Благородна устриця з соковитою текстурою. Устриці подаються закритими, але Ви можете вказати в страві, щоб ресторан їх привідкрив для вас</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 948.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дюжина устриць Фін де Клер #2 (12шт)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 708.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дюжина устриць Фін де Клер #2 (12шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 708.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пів дюжини устриць Святий Патрік №2 (6шт)</p>
-                <p><strong>Опис:</strong> Благородна устриця з соковитою текстурою. Устриці подаються закритими, але Ви можете вказати в страві, щоб ресторан їх привідкрив для вас</p>
-                <p><strong>Ціна:</strong> 474.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пів дюжини устриць Святий Патрік №2 (6шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Благородна устриця з соковитою текстурою. Устриці подаються закритими, але Ви можете вказати в страві, щоб ресторан їх привідкрив для вас</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 474.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пів дюжини устриць Фін де Клер #2 (6шт)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 354.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пів дюжини устриць Фін де Клер #2 (6шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 354.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чверть дюжини устриць Святий Патрік №2 (3шт)</p>
-                <p><strong>Опис:</strong> Благородна устриця з соковитою текстурою. Устриці подаються закритими, але Ви можете вказати в страві, щоб ресторан їх привідкрив для вас</p>
-                <p><strong>Ціна:</strong> 237.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чверть дюжини устриць Святий Патрік №2 (3шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Благородна устриця з соковитою текстурою. Устриці подаються закритими, але Ви можете вказати в страві, щоб ресторан їх привідкрив для вас</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 237.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чверть дюжини устриць Фін де Клер #2 (3шт)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 177.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чверть дюжини устриць Фін де Клер #2 (3шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 177.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дабл хот-дог Вега в булочці бріош (260г)</p>
-                <p><strong>Опис:</strong> Хот-дог з двома вегетаріанськими сосисками із сої, з трьома соусами, хрусткими яблуками та цибулею у вершковій булочці бріош.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл хот-дог Вега в булочці бріош (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хот-дог з двома вегетаріанськими сосисками із сої, з трьома соусами, хрусткими яблуками та цибулею у вершковій булочці бріош.
 Увага: вершковий бріош (містить яйця у складі) прогрівається на топленому маслі.</p>
-                <p><strong>Ціна:</strong> 119.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 119.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вега кесадилья XXL (250г)</p>
-                <p><strong>Опис:</strong> Мексиканська страва в класичній тортильї з двома дієтичними вегетаріанськими сосисками із сої, кукурудзою, ананасами, сиром, соусами та фірмовими чіпсами з яблук та карамелізованої цибулі</p>
-                <p><strong>Ціна:</strong> 119.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вега кесадилья XXL (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мексиканська страва в класичній тортильї з двома дієтичними вегетаріанськими сосисками із сої, кукурудзою, ананасами, сиром, соусами та фірмовими чіпсами з яблук та карамелізованої цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 119.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вега дабл-дог шейк-шейк</p>
-                <p><strong>Опис:</strong> З двома вегетаріанськими сосисками із сої, корнішонами, томатами, херсонською цибулею, кетчупом та гірчицею у вершковому бріоші. 
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вега дабл-дог шейк-шейк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З двома вегетаріанськими сосисками із сої, корнішонами, томатами, херсонською цибулею, кетчупом та гірчицею у вершковому бріоші. 
 Увага: вершковий бріош (містить яйця у складі) прогрівається на топленому маслі</p>
-                <p><strong>Ціна:</strong> 119.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 119.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог Вега в булочці бріош (200г)</p>
-                <p><strong>Опис:</strong> Хот-дог з вегетаріанською сосискою із сої, з трьома соусами, хрусткими яблуками та цибулею у вершковій булочці бріош.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог Вега в булочці бріош (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хот-дог з вегетаріанською сосискою із сої, з трьома соусами, хрусткими яблуками та цибулею у вершковій булочці бріош.
 Увага: вершковий бріош (містить яйця у складі) прогрівається на топленому маслі.</p>
-                <p><strong>Ціна:</strong> 99.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 99.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вега дог Шейк-шейк</p>
-                <p><strong>Опис:</strong> З вегетаріанською сосискою із сої, корнішонами, томатами, херсонською цибулею, кетчупом та гірчицею у вершковому бріоші. 
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вега дог Шейк-шейк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З вегетаріанською сосискою із сої, корнішонами, томатами, херсонською цибулею, кетчупом та гірчицею у вершковому бріоші. 
 Увага: вершковий бріош (містить яйця у складі) прогрівається на топленому маслі</p>
-                <p><strong>Ціна:</strong> 99.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 99.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> НОВИНКА СЕЗОНУ Вега Дог Цезар</p>
-                <p><strong>Опис:</strong> З вегетаріанською сосискою із сої в булочці бріош, салатом айсберг, свіжими помідорами та дресінгом цезар
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> НОВИНКА СЕЗОНУ Вега Дог Цезар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З вегетаріанською сосискою із сої в булочці бріош, салатом айсберг, свіжими помідорами та дресінгом цезар
 Увага: вершковий бріош (містить яйця у складі) прогрівається на топленому маслі.</p>
-                <p><strong>Ціна:</strong> 99.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 99.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вега хот-дог Блючіз (190г)</p>
-                <p><strong>Опис:</strong> Хот-дог у вершковій французькій булочці бріош з вегетаріанською сосискою із сої, з соусом із сиру дор блю та вершків, фірмовою посипкою з яблучних та цибулевих чіпсів. Краще смакує з сиром.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вега хот-дог Блючіз (190г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хот-дог у вершковій французькій булочці бріош з вегетаріанською сосискою із сої, з соусом із сиру дор блю та вершків, фірмовою посипкою з яблучних та цибулевих чіпсів. Краще смакує з сиром.
 Увага: вершковий бріош (містить яйця у складі) прогрівається...</p>
-                <p><strong>Ціна:</strong> 99.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 99.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> НОВИНКА СЕЗОНУ Вега Дог Old School</p>
-                <p><strong>Опис:</strong> З вегетаріанською сосискою із сої в булочці бріош, свіжайшим салатом айсберг, гострою корейською морквою, кетчупом і майонезом.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> НОВИНКА СЕЗОНУ Вега Дог Old School</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З вегетаріанською сосискою із сої в булочці бріош, свіжайшим салатом айсберг, гострою корейською морквою, кетчупом і майонезом.
 Увага: вершковий бріош (містить яйця у складі) прогрівається на топленому маслі.</p>
-                <p><strong>Ціна:</strong> 99.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 99.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вега кесадилья (170г)</p>
-                <p><strong>Опис:</strong> Мексиканська страва в класичній тортильї з дієтичною сосискою із вегетаріанською сосискою із сої, кукурудзою, ананасами, сиром, соусами та фірмовими чіпсами з яблук та карамелізованої цибулі</p>
-                <p><strong>Ціна:</strong> 99.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вега кесадилья (170г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мексиканська страва в класичній тортильї з дієтичною сосискою із вегетаріанською сосискою із сої, кукурудзою, ананасами, сиром, соусами та фірмовими чіпсами з яблук та карамелізованої цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 99.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дабл хот-дог Вега класичний (200г)</p>
-                <p><strong>Опис:</strong> Класичний хот-дог з двома вегетаріанськими сосисками із сої, з трьома соусами, хрусткими яблуками та цибулею.</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл хот-дог Вега класичний (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний хот-дог з двома вегетаріанськими сосисками із сої, з трьома соусами, хрусткими яблуками та цибулею.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Устриця Святий Патрік №2 (1шт)</p>
-                <p><strong>Опис:</strong> Благородна устриця з соковитою текстурою. Устриці подаються закритими, але Ви можете вказати в страві, щоб ресторан їх привідкрив для вас</p>
-                <p><strong>Ціна:</strong> 79.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Устриця Святий Патрік №2 (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Благородна устриця з соковитою текстурою. Устриці подаються закритими, але Ви можете вказати в страві, щоб ресторан їх привідкрив для вас</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 79.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог Вега класичний (155г)</p>
-                <p><strong>Опис:</strong> Класичний хот-дог з вегетаріанською сосискою із сої, з трьома соусами, хрусткими яблуками та цибулею.</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог Вега класичний (155г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний хот-дог з вегетаріанською сосискою із сої, з трьома соусами, хрусткими яблуками та цибулею.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Устриця Фін де Клер №2 (1шт)</p>
-                <p><strong>Опис:</strong> Соковита устриця з лимоном з солоним післясмаком</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Устриця Фін де Клер №2 (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита устриця з лимоном з солоним післясмаком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вега дабл-дог Блючіз (250г)</p>
-                <p><strong>Опис:</strong> Хот-дог у вершковій французькій булочці бріош з двома вегетаріанськими сосисками із сої, з соусом із сиру Дор Блю та вершків, фірмовою посипкою з яблучних та цибулевих чипсів. Краще смакує з сиром.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вега дабл-дог Блючіз (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хот-дог у вершковій французькій булочці бріош з двома вегетаріанськими сосисками із сої, з соусом із сиру Дор Блю та вершків, фірмовою посипкою з яблучних та цибулевих чипсів. Краще смакує з сиром.
 Увага: вершковий бріош (містить яйця у складі) прогр...</p>
-                <p><strong>Ціна:</strong> 11.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 11.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Устриця Фін де Клер №3 (1шт)</p>
-                <p><strong>Опис:</strong> Соковита устриця з лимоном з солоним післясмаком</p>
-                <p><strong>Ціна:</strong> 59.0</p>
-                <p><strong>Тип:</strong> УСТРИЦІ (доставляємо закритими)</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Устриця Фін де Клер №3 (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковита устриця з лимоном з солоним післясмаком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 59.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> УСТРИЦІ (доставляємо закритими)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус наршараб (20г)</p>
-                <p><strong>Опис:</strong> Гранатовий соус яскраво доповнить смак устриць</p>
-                <p><strong>Ціна:</strong> 9.0</p>
-                <p><strong>Тип:</strong> УСТРИЦІ (доставляємо закритими)</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус наршараб (20г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гранатовий соус яскраво доповнить смак устриць</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 9.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> УСТРИЦІ (доставляємо закритими)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Груша (1л)</p>
-                <p><strong>Опис:</strong> Напій слабоалкогольний</p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Груша (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Напій слабоалкогольний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Яблучний напівсолодкий 1000мл (свіжий розлив)</p>
-                <p><strong>Опис:</strong> Пляшка розливного яблуневого напівсолодкого сидру</p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Яблучний напівсолодкий 1000мл (свіжий розлив)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пляшка розливного яблуневого напівсолодкого сидру</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Secret Cider 1л (свіжий розлив)</p>
-                <p><strong>Опис:</strong> Пляшка розливного сидру секретного смаку ;)</p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Secret Cider 1л (свіжий розлив)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пляшка розливного сидру секретного смаку ;)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Полуничний 1000мл (свіжий розлив)</p>
-                <p><strong>Опис:</strong> Пляшка розливного Полуничного солодкого сидру</p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Полуничний 1000мл (свіжий розлив)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пляшка розливного Полуничного солодкого сидру</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад 1000мл (свіжий розлив)</p>
-                <p><strong>Опис:</strong> Пляшка безалкогольного лимонаду зі смаком ситро з дитинства</p>
-                <p><strong>Ціна:</strong> 99.0</p>
-                <p><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад 1000мл (свіжий розлив)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пляшка безалкогольного лимонаду зі смаком ситро з дитинства</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 99.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СВІЖИЙ РОЗЛИВ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Яблучний 0.7л (скло)</p>
-                <p><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку (5об)</p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> СИДР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Яблучний 0.7л (скло)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку (5об)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИДР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Розе 0.7л (скло)</p>
-                <p><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку та полуниці (5об)</p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> СИДР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Розе 0.7л (скло)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку та полуниці (5об)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИДР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Вишня 0,7 (скло)</p>
-                <p><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку та вишні (5об)</p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> СИДР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Вишня 0,7 (скло)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку та вишні (5об)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИДР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Магнум (сухий) 0,7 (скло)</p>
-                <p><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку, сухий (8об)</p>
-                <p><strong>Ціна:</strong> 199.0</p>
-                <p><strong>Тип:</strong> СИДР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Магнум (сухий) 0,7 (скло)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку, сухий (8об)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 199.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИДР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Груша 0,7 (скло)</p>
-                <p><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку та груші (5об)</p>
-                <p><strong>Ціна:</strong> 199.0</p>
-                <p><strong>Тип:</strong> СИДР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Груша 0,7 (скло)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку та груші (5об)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 199.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИДР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Смородина 0,33 (скло)</p>
-                <p><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку та смородини (5об)</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> СИДР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Смородина 0,33 (скло)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку та смородини (5об)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИДР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Яблучний 0,33 (скло)</p>
-                <p><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку (5об)</p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> СИДР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Яблучний 0,33 (скло)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний слабоалкогольний газований напій на основі яблучного соку (5об)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИДР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Напій Coca-cola (330мл)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій Coca-cola (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода Бонаква газована (330мл)</p>
-                <p><strong>Опис:</strong> Мінеральна вода газована</p>
-                <p><strong>Ціна:</strong> 39.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Бонаква газована (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мінеральна вода газована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 39.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода Бонаква негазована (330мл)</p>
-                <p><strong>Опис:</strong> Мінеральна вода негазована</p>
-                <p><strong>Ціна:</strong> 39.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Бонаква негазована (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мінеральна вода негазована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 39.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

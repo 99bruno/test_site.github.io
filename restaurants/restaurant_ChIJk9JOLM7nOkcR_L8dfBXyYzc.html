@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shisha Garden</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/405.png" alt="Restaurant Image">
         <h1>Shisha Garden</h1>
@@ -63,348 +116,369 @@
         <p><strong>Неділя:</strong> 15:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Салат Середземноморський (250г)</p>
-                <p><strong>Опис:</strong> Гриби Печериці, мідії, креветки, сир Пармезан, томати Чері, листя салату, вершки, соєвий соус, цитрусовий соус, часник</p>
-                <p><strong>Ціна:</strong> 309.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з лососем слабосоленим (250г)</p>
-                <p><strong>Опис:</strong> Лосось маринований, мікс салатів, сир Пармезан, соус Цезар, яйце перепелине, томати Чері</p>
-                <p><strong>Ціна:</strong> 299.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з креветками (160г)</p>
-                <p><strong>Опис:</strong> Креветка, соус Соєвий, помідор Коктейльний, сир Пармезан, часник, листя салату, салат Айсберг, салат Рукола, соус Цезар, яйце перепелине</p>
-                <p><strong>Ціна:</strong> 239.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з куркою та беконом (280г)</p>
-                <p><strong>Опис:</strong> Салат Айсберг, курка, бекон, сир Пармезан, соєвий соус, соус Цезар, яйце перепелине, томати Чері, часник</p>
-                <p><strong>Ціна:</strong> 204.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з курячої печінки (230г)</p>
-                <p><strong>Опис:</strong> Печінка куряча, мікс салатів, цитрусовий соус, томати Чері, червона цибуля, оцет Бальзамік, сир Фета, кунжут</p>
-                <p><strong>Ціна:</strong> 199.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Грецький (280г)</p>
-                <p><strong>Опис:</strong> Томат, огірок, болгарський перець, сир Фета, цибуля, маслини, соус Песто, базилік</p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Асорті благородних сирів (280/50г)</p>
-                <p><strong>Опис:</strong> Сир Пармезан, сир Дор блю, сир Брі, мед, горіхи, виноград</p>
-                <p><strong>Ціна:</strong> 319.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> М'ясні делікатеси (240/30г)</p>
-                <p><strong>Опис:</strong> Копчена свинина, бекон, ковбаса, апельсин, маслини, гірчиця</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Домашні соління (300/30г)</p>
-                <p><strong>Опис:</strong> Мариновані томати, огірки, перець та часник, капуста квашена, гірчиця</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сало з грінками (200/30г)</p>
-                <p><strong>Опис:</strong> Сало, грінки, часник, цибуля, гірчиця</p>
-                <p><strong>Ціна:</strong> 159.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Оселедець з картопляними медальйонами (300г)</p>
-                <p><strong>Опис:</strong> Оселедець, картопля, цибуля, зелень</p>
-                <p><strong>Ціна:</strong> 159.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Асорті свіжих овочів (280г)</p>
-                <p><strong>Опис:</strong> Томат, огірок, перець Болгарський, листя салату</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Маслини (100г)</p>
-                <p><strong>Опис:</strong> Маслини без кісточок, лимон</p>
-                <p><strong>Ціна:</strong> 97.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пивна дошка (500/50г)</p>
-                <p><strong>Опис:</strong> Пікантні крильця, мисливські ковбаски, сир Моцарелла фрі, чіпси з лаваша, картопля по-селянськи, кетчуп</p>
-                <p><strong>Ціна:</strong> 269.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл-Чізбургер з яловичиною (260/200/50г)</p>
-                <p><strong>Опис:</strong> Яловичина, сир Моцарелла, булочка, томат, листя салату, мед, гірчиця, цибуля маринована, салат Айсберг, цитрусовий соус, соус до шашлику, катропля, майонез, кетчуп</p>
-                <p><strong>Ціна:</strong> 249.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Голден Чікен (240/50г)</p>
-                <p><strong>Опис:</strong> Куряче філе у паніровці, кетчуп</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл-Чізбургер з куркою (260/200/50г)</p>
-                <p><strong>Опис:</strong> Курка, сир Моцарелла, булочка, томат, листя салату, салат Айсберг, огірок консервований, картопля, майонез, кетчуп, соус Тар-тар, соус до шашлику, соус Цитрусовий</p>
-                <p><strong>Ціна:</strong> 214.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Печериці фрі (450/50г)</p>
-                <p><strong>Опис:</strong> Гриби Печериці у паніровці, соус Тар-тар</p>
-                <p><strong>Ціна:</strong> 214.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чізбургер з яловичиною (180/200/50г)</p>
-                <p><strong>Опис:</strong> Яловичина, сир Моцарелла, булочка, томат, листя салату, мед, гірчиця, цибуля маринована, салат Айсберг, цитрусовий соус, соус до шашлику, катропля, майонез, кетчуп</p>
-                <p><strong>Ціна:</strong> 184.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пікантні крильця (180г)</p>
-                <p><strong>Опис:</strong> Курячі крильця, пікантний соус</p>
-                <p><strong>Ціна:</strong> 179.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чізбургер з куркою (180/200/50г)</p>
-                <p><strong>Опис:</strong> Курка, сир Моцарелла, булочка, томат, листя салату, салат Айсберг, огірок консервований, картопля, майонез, кетчуп, соус Тар-тар, соус до шашлику, соус Цитрусовий</p>
-                <p><strong>Ціна:</strong> 167.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шашлик зі свинини (200/110/50г)</p>
-                <p><strong>Опис:</strong> Ошийок маринований, цибуля, картопля, болгарський перець, соус до шашлику</p>
-                <p><strong>Ціна:</strong> 279.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курка на грилі в соусі Теріякі (350г)</p>
-                <p><strong>Опис:</strong> Курка, болгарський перець, цибуля, соус Теріякі</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шашлик з курячого філе (200/110/50г)</p>
-                <p><strong>Опис:</strong> Куряче філе мариноване, цибуля, картопля, болгарський перець, соус до шашлику</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Овочі на грилі (250г)</p>
-                <p><strong>Опис:</strong> Томат, цукіні, болгарський перець, гриби Печериці, цибуля, соєвий соус, орегано</p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста з куркою та Печерицями (280г)</p>
-                <p><strong>Опис:</strong> Паста, вершки, базилік, сир Пармезан, гриби Печериці, бульйон курячий, цибуля, курка</p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста Карбонара (250г)</p>
-                <p><strong>Опис:</strong> Паста, вершки, базилік, сир Пармезан, бекон, бульйон курячий, часник, вино, яйце перепелине</p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля з Печерицями та беконом (320г)</p>
-                <p><strong>Опис:</strong> Картопля, бекон, гриби Печериці, цибуля, зелень, часник</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля з Печерицями та ковбасками (320г)</p>
-                <p><strong>Опис:</strong> Картопля, ковбаски, гриби Печериці, цибуля, зелень, часник</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля фрі (100/50г)</p>
-                <p><strong>Опис:</strong> Картопля, кетчуп</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля по-селянськи (200/50г)</p>
-                <p><strong>Опис:</strong> Картопля, зелень, часник, кетчуп</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Чотири сири (400г)</p>
-                <p><strong>Опис:</strong> Сир Дор блю, сир Пармезан, сир Брі, сир Моцарелла, вершковий соус</p>
-                <p><strong>Ціна:</strong> 259.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Чотири м'яса (480г)</p>
-                <p><strong>Опис:</strong> Ковбаса Італійська, бекон, ковбаски Мисливські, свинячий балик, томат, сир Моцарелла, соус Помодоро</p>
-                <p><strong>Ціна:</strong> 249.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца з куркою та беконом (480г)</p>
-                <p><strong>Опис:</strong> Курка, бекон, сир Моцарелла, вершковий соус, картопля фрі, кетчуп</p>
-                <p><strong>Ціна:</strong> 239.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца з італійською ковбасою (420г)</p>
-                <p><strong>Опис:</strong> Ковбаса Італійська, сир Моцарелла, сир Пармезан, соус Помодоро</p>
-                <p><strong>Ціна:</strong> 239.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Гаваї (450г)</p>
-                <p><strong>Опис:</strong> Курка, ананас, сир Моцарелла, соус Помодоро</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Мисливська (450г)</p>
-                <p><strong>Опис:</strong> Ковбаски Мисливські, сир Моцарелла, гриби Печериці, маслини, соус Помодоро</p>
-                <p><strong>Ціна:</strong> 219.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Маргарита (400г)</p>
-                <p><strong>Опис:</strong> Сир Моцарелла, томати, соус Помодоро</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хліб бородинський (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 17.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Багет (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 17.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус Унагі (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 44.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Майонез (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 29.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус Тар-тар (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 29.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сметана (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус до шашлика (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 23.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кетчуп (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 23.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус соєвий (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 18.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Склянка (1шт/450мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 8.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Виделка (1шт)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 1.0</p>
-                <p><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет міні-бургерів (300г)</p>
-                <p><strong>Опис:</strong> Котлети з курячого філе, котлета з яловичини, булочка, томат, листя салату, огірок консервований, кунжут, соус</p>
-                <p><strong>Ціна:</strong> 204.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чізбургер з куркою Крабік</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 184.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шашличок з курочки (120/40г)</p>
-                <p><strong>Опис:</strong> Куряче філе, тортилья, томати Чері</p>
-                <p><strong>Ціна:</strong> 159.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Голден Чікен (120/50г)</p>
-                <p><strong>Опис:</strong> Куряче філе у паніровці, кетчуп</p>
-                <p><strong>Ціна:</strong> 139.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі котлетки Зайка (80/160г)</p>
-                <p><strong>Опис:</strong> Куряче філе, цибуля, картопляне пюре, вершкове масло, вершки, томати Чері, маслини, кетчуп</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинці з горіховою пастою (200г)</p>
-                <p><strong>Опис:</strong> Млинці, топінг, ягоди, горіхова паста</p>
-                <p><strong>Ціна:</strong> 119.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Оладки з малиновим джемом (200/50г)</p>
-                <p><strong>Опис:</strong> Молоко, борошно, яйце, цукор, малиновий джем, ягоди, цукрова пудра</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Омлет (100г)</p>
-                <p><strong>Опис:</strong> Яйце, молоко, томати Чері, листя салату</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля фрі з кетчупом (100/50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Свіжі овочі (150г)</p>
-                <p><strong>Опис:</strong> Огірок, морква, болгарський перець</p>
-                <p><strong>Ціна:</strong> 74.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопляне пюре (150г)</p>
-                <p><strong>Опис:</strong> Картопля, молоко, вершки, вершкове масло, томати Чері</p>
-                <p><strong>Ціна:</strong> 74.0</p>
-                <p><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пепсі (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мірінда (500мл)</p>
-                <p><strong>Опис:</strong> Апельсин/Ананас</p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> 7-Ап (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Моршинська (750мл)</p>
-                <p><strong>Опис:</strong> ПЕТ Спорт</p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Моршинська (500мл)</p>
-                <p><strong>Опис:</strong> ПЕТ</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Моршинська (330мл)</p>
-                <p><strong>Опис:</strong> ПЕТ Іграшка</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сік Садочок в асортименті (200мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 37.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Моршинка (330мл)</p>
-                <p><strong>Опис:</strong> ПЕТ</p>
-                <p><strong>Ціна:</strong> 37.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Середземноморський (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гриби Печериці, мідії, креветки, сир Пармезан, томати Чері, листя салату, вершки, соєвий соус, цитрусовий соус, часник</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 309.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з лососем слабосоленим (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лосось маринований, мікс салатів, сир Пармезан, соус Цезар, яйце перепелине, томати Чері</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 299.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з креветками (160г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Креветка, соус Соєвий, помідор Коктейльний, сир Пармезан, часник, листя салату, салат Айсберг, салат Рукола, соус Цезар, яйце перепелине</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 239.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з куркою та беконом (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат Айсберг, курка, бекон, сир Пармезан, соєвий соус, соус Цезар, яйце перепелине, томати Чері, часник</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 204.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з курячої печінки (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Печінка куряча, мікс салатів, цитрусовий соус, томати Чері, червона цибуля, оцет Бальзамік, сир Фета, кунжут</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 199.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Грецький (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томат, огірок, болгарський перець, сир Фета, цибуля, маслини, соус Песто, базилік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Асорті благородних сирів (280/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир Пармезан, сир Дор блю, сир Брі, мед, горіхи, виноград</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 319.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> М'ясні делікатеси (240/30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Копчена свинина, бекон, ковбаса, апельсин, маслини, гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Домашні соління (300/30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мариновані томати, огірки, перець та часник, капуста квашена, гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сало з грінками (200/30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сало, грінки, часник, цибуля, гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 159.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Оселедець з картопляними медальйонами (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Оселедець, картопля, цибуля, зелень</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 159.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Асорті свіжих овочів (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томат, огірок, перець Болгарський, листя салату</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Маслини (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Маслини без кісточок, лимон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 97.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пивна дошка (500/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пікантні крильця, мисливські ковбаски, сир Моцарелла фрі, чіпси з лаваша, картопля по-селянськи, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 269.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл-Чізбургер з яловичиною (260/200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яловичина, сир Моцарелла, булочка, томат, листя салату, мед, гірчиця, цибуля маринована, салат Айсберг, цитрусовий соус, соус до шашлику, катропля, майонез, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 249.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Голден Чікен (240/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе у паніровці, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл-Чізбургер з куркою (260/200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, сир Моцарелла, булочка, томат, листя салату, салат Айсберг, огірок консервований, картопля, майонез, кетчуп, соус Тар-тар, соус до шашлику, соус Цитрусовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 214.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печериці фрі (450/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гриби Печериці у паніровці, соус Тар-тар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 214.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер з яловичиною (180/200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яловичина, сир Моцарелла, булочка, томат, листя салату, мед, гірчиця, цибуля маринована, салат Айсберг, цитрусовий соус, соус до шашлику, катропля, майонез, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 184.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пікантні крильця (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячі крильця, пікантний соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 179.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер з куркою (180/200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, сир Моцарелла, булочка, томат, листя салату, салат Айсберг, огірок консервований, картопля, майонез, кетчуп, соус Тар-тар, соус до шашлику, соус Цитрусовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 167.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик зі свинини (200/110/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ошийок маринований, цибуля, картопля, болгарський перець, соус до шашлику</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 279.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курка на грилі в соусі Теріякі (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, болгарський перець, цибуля, соус Теріякі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик з курячого філе (200/110/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе мариноване, цибуля, картопля, болгарський перець, соус до шашлику</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Овочі на грилі (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томат, цукіні, болгарський перець, гриби Печериці, цибуля, соєвий соус, орегано</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з куркою та Печерицями (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста, вершки, базилік, сир Пармезан, гриби Печериці, бульйон курячий, цибуля, курка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Карбонара (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста, вершки, базилік, сир Пармезан, бекон, бульйон курячий, часник, вино, яйце перепелине</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля з Печерицями та беконом (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля, бекон, гриби Печериці, цибуля, зелень, часник</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля з Печерицями та ковбасками (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля, ковбаски, гриби Печериці, цибуля, зелень, часник</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі (100/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля по-селянськи (200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля, зелень, часник, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Чотири сири (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир Дор блю, сир Пармезан, сир Брі, сир Моцарелла, вершковий соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 259.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Чотири м'яса (480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ковбаса Італійська, бекон, ковбаски Мисливські, свинячий балик, томат, сир Моцарелла, соус Помодоро</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 249.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца з куркою та беконом (480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, бекон, сир Моцарелла, вершковий соус, картопля фрі, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 239.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца з італійською ковбасою (420г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ковбаса Італійська, сир Моцарелла, сир Пармезан, соус Помодоро</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 239.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Гаваї (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, ананас, сир Моцарелла, соус Помодоро</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Мисливська (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ковбаски Мисливські, сир Моцарелла, гриби Печериці, маслини, соус Помодоро</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 219.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Маргарита (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир Моцарелла, томати, соус Помодоро</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хліб бородинський (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 17.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Багет (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 17.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Унагі (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 44.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Майонез (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 29.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Тар-тар (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 29.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сметана (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус до шашлика (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 23.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кетчуп (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 23.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус соєвий (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 18.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Склянка (1шт/450мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 8.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Виделка (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОРОСЛЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет міні-бургерів (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Котлети з курячого філе, котлета з яловичини, булочка, томат, листя салату, огірок консервований, кунжут, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 204.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер з куркою Крабік</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 184.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашличок з курочки (120/40г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе, тортилья, томати Чері</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 159.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Голден Чікен (120/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе у паніровці, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 139.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі котлетки Зайка (80/160г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе, цибуля, картопляне пюре, вершкове масло, вершки, томати Чері, маслини, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з горіховою пастою (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Млинці, топінг, ягоди, горіхова паста</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 119.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Оладки з малиновим джемом (200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Молоко, борошно, яйце, цукор, малиновий джем, ягоди, цукрова пудра</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Омлет (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яйце, молоко, томати Чері, листя салату</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі з кетчупом (100/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свіжі овочі (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Огірок, морква, болгарський перець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 74.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопляне пюре (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля, молоко, вершки, вершкове масло, томати Чері</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 74.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДИТЯЧЕ МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пепсі (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мірінда (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Апельсин/Ананас</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 7-Ап (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинська (750мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ПЕТ Спорт</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинська (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ПЕТ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинська (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ПЕТ Іграшка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Садочок в асортименті (200мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 37.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинка (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ПЕТ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 37.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

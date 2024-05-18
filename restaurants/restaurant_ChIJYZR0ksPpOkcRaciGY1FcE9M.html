@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fugazzeta</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/120.png" alt="Restaurant Image">
         <h1>Fugazzeta</h1>
@@ -63,208 +116,229 @@
         <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Тако</p>
-                <p><strong>Опис:</strong> Порція Тако 3 шт. Міксуй смаки як завгодно! Тако De Camarones +50 грн</p>
-                <p><strong>Ціна:</strong> 341.55</p>
-                <p><strong>Тип:</strong> Промоакції</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тако</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Порція Тако 3 шт. Міксуй смаки як завгодно! Тако De Camarones +50 грн</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 341.55</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Промоакції</p>
                 <hr>
-                <p><strong>Позиція:</strong> Буріто Chicken 'n' Cheese</p>
-                <p><strong>Опис:</strong> Тортилья пшенична, соус Smoked Mayo, м'ясо курча, моцарелла, нагетси-чеддер, цибуля зелена, огірки мариновані, соус чіпотле, кінза, перець чилі, картопля фрі з сирним соусом</p>
-                <p><strong>Ціна:</strong> 346.73</p>
-                <p><strong>Тип:</strong> Промоакції</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Буріто Chicken 'n' Cheese</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тортилья пшенична, соус Smoked Mayo, м'ясо курча, моцарелла, нагетси-чеддер, цибуля зелена, огірки мариновані, соус чіпотле, кінза, перець чилі, картопля фрі з сирним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 346.73</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Промоакції</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гуакамоле (180г)</p>
-                <p><strong>Опис:</strong> Начоси, гуакамоле, кінза, томат чері, халапеньо, чілі, лайм, кінза, цибуля синя</p>
-                <p><strong>Ціна:</strong> 191.48</p>
-                <p><strong>Тип:</strong> Промоакції</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гуакамоле (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Начоси, гуакамоле, кінза, томат чері, халапеньо, чілі, лайм, кінза, цибуля синя</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 191.48</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Промоакції</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кесадилья De Pollo (280г)</p>
-                <p><strong>Опис:</strong> Тортилья пшенична, м'ясо курча, соус Smoky Red Chimichuri, кукурудза, ананас, Моцарела, часник, перець халапеньо, кінза, Cilantro lime рис, соус Чіпотле, Коул-Слоу</p>
-                <p><strong>Ціна:</strong> 289.8</p>
-                <p><strong>Тип:</strong> КЕСАДИЛЬЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кесадилья De Pollo (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тортилья пшенична, м'ясо курча, соус Smoky Red Chimichuri, кукурудза, ананас, Моцарела, часник, перець халапеньо, кінза, Cilantro lime рис, соус Чіпотле, Коул-Слоу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 289.8</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕСАДИЛЬЯ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кесадилья Cuatro quesos (290г)</p>
-                <p><strong>Опис:</strong> Тортилья пшенична, соус Smoky Red Chimichuri, Чедер, Бринза, Камамбер, Моцарела, синя цибуля, перець халапеньо, кінза, Cilantro lime рис, медовий соус чилі, Коул-Слоу</p>
-                <p><strong>Ціна:</strong> 289.8</p>
-                <p><strong>Тип:</strong> КЕСАДИЛЬЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кесадилья Cuatro quesos (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тортилья пшенична, соус Smoky Red Chimichuri, Чедер, Бринза, Камамбер, Моцарела, синя цибуля, перець халапеньо, кінза, Cilantro lime рис, медовий соус чилі, Коул-Слоу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 289.8</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕСАДИЛЬЯ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кесадилья De Carne (280г)</p>
-                <p><strong>Опис:</strong> Тортилья пшенична, свинина, соус Smoky Red Chimichuri, квасоля, кукурудза, Моцарела, соус Аль Пастор, перець халапеньо, кінза, цибуля синя, часник, соус Cilantro lime, рис</p>
-                <p><strong>Ціна:</strong> 289.8</p>
-                <p><strong>Тип:</strong> КЕСАДИЛЬЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кесадилья De Carne (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тортилья пшенична, свинина, соус Smoky Red Chimichuri, квасоля, кукурудза, Моцарела, соус Аль Пастор, перець халапеньо, кінза, цибуля синя, часник, соус Cilantro lime, рис</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 289.8</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕСАДИЛЬЯ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кесадилья Вегана (295г)</p>
-                <p><strong>Опис:</strong> Тортилья пшенична, соус Smoky Red Chimichuri, хумус, кукурудза, квасоля, томати чері, цибуля синя, перець халапеньо, кінза, Піко-де-Гайо, гуакамоле, морква-фрі</p>
-                <p><strong>Ціна:</strong> 258.75</p>
-                <p><strong>Тип:</strong> КЕСАДИЛЬЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кесадилья Вегана (295г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тортилья пшенична, соус Smoky Red Chimichuri, хумус, кукурудза, квасоля, томати чері, цибуля синя, перець халапеньо, кінза, Піко-де-Гайо, гуакамоле, морква-фрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 258.75</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕСАДИЛЬЯ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Буріто De Camarones</p>
-                <p><strong>Опис:</strong> Тортилья пшенична, креветки тигрові, гуакамоле, соус Cilantro Lime, піко-де-гайо, мікс салатів, морква фрі, кінза, перець чилі, медовий соус чилі, соус манго-хабанеро</p>
-                <p><strong>Ціна:</strong> 408.83</p>
-                <p><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Буріто De Camarones</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тортилья пшенична, креветки тигрові, гуакамоле, соус Cilantro Lime, піко-де-гайо, мікс салатів, морква фрі, кінза, перець чилі, медовий соус чилі, соус манго-хабанеро</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 408.83</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Mexican Smash Burger</p>
-                <p><strong>Опис:</strong> Булочка, котлета яловича, чорізо, гуакамоле, соус Smoked Mayo, огірок гострий маринований, сир чедер, цибуля синя маринована, халапеньйо, начос, сирний соус, чилі, кінза, сангріта шот</p>
-                <p><strong>Ціна:</strong> 331.2</p>
-                <p><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Mexican Smash Burger</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, котлета яловича, чорізо, гуакамоле, соус Smoked Mayo, огірок гострий маринований, сир чедер, цибуля синя маринована, халапеньйо, начос, сирний соус, чилі, кінза, сангріта шот</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 331.2</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Taquitos De Picadillo De Pollo</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 331.2</p>
-                <p><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Taquitos De Picadillo De Pollo</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 331.2</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Chicken Crunchwrap</p>
-                <p><strong>Опис:</strong> М'ясо курча, моцарела, соус сирний, тортилья пшенична, тортилья кукурудзяна, мікс салату, томати, огірок маринований, соус Cilantro Lime, кінза</p>
-                <p><strong>Ціна:</strong> 315.68</p>
-                <p><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Chicken Crunchwrap</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> М'ясо курча, моцарела, соус сирний, тортилья пшенична, тортилья кукурудзяна, мікс салату, томати, огірок маринований, соус Cilantro Lime, кінза</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 315.68</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Буріто (400/65/70г)</p>
-                <p><strong>Опис:</strong> Тортилья пшенична, чилі Кон Карне, Cilantro lime рис, сир Чедер, квасоля, Бринза, цибуля синя, соус Carolina mustard, Піко-де-Гайо</p>
-                <p><strong>Ціна:</strong> 310.5</p>
-                <p><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Буріто (400/65/70г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тортилья пшенична, чилі Кон Карне, Cilantro lime рис, сир Чедер, квасоля, Бринза, цибуля синя, соус Carolina mustard, Піко-де-Гайо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.5</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Free</p>
-                <p><strong>Опис:</strong> Картопля фрі, морква фрі, соус Cilantro Lime,   кукурудза, перець халапеньйо, кінза, бринза, цибуля синя</p>
-                <p><strong>Ціна:</strong> 155.25</p>
-                <p><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Free</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля фрі, морква фрі, соус Cilantro Lime,   кукурудза, перець халапеньйо, кінза, бринза, цибуля синя</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.25</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЩОСЬ З МЕКСИКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Суп Чилі кон Карне (300г)</p>
-                <p><strong>Опис:</strong> Фарш яловичий, перець болгарський, цибуля ріпчаста, томати пелаті, квасоля, перець чіпотле, морква, кукурудза, Бринза, соус Сілантро лайм, чілі, кінза, начос</p>
-                <p><strong>Ціна:</strong> 181.13</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суп Чилі кон Карне (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фарш яловичий, перець болгарський, цибуля ріпчаста, томати пелаті, квасоля, перець чіпотле, морква, кукурудза, Бринза, соус Сілантро лайм, чілі, кінза, начос</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 181.13</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Улюблений суп Фріди Кало (300г)</p>
-                <p><strong>Опис:</strong> Гарбуз, кукурудза, курячий бульйон, вершки, авокадо, часник, Бринза, начос, чілі, чілі сухий</p>
-                <p><strong>Ціна:</strong> 170.78</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Улюблений суп Фріди Кало (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гарбуз, кукурудза, курячий бульйон, вершки, авокадо, часник, Бринза, начос, чілі, чілі сухий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.78</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Це не Ceasar, Amigo (240г)</p>
-                <p><strong>Опис:</strong> Айсберг, ромен, м’ясо курча, томати чері, авокадо, цибуля синя, Бринза, чілі, соус Lime Alioli, соус Чіпотле, начоси</p>
-                <p><strong>Ціна:</strong> 217.35</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Це не Ceasar, Amigo (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Айсберг, ромен, м’ясо курча, томати чері, авокадо, цибуля синя, Бринза, чілі, соус Lime Alioli, соус Чіпотле, начоси</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 217.35</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Mexican Corn Salad (220г)</p>
-                <p><strong>Опис:</strong> Кукурудза, томати чері, Чедер, цибуля синя, соус Cilantro lime, Бринза, кінза, лайм, тортилья кукурудзяна, чілі, перець халапеньо</p>
-                <p><strong>Ціна:</strong> 175.95</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Mexican Corn Salad (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кукурудза, томати чері, Чедер, цибуля синя, соус Cilantro lime, Бринза, кінза, лайм, тортилья кукурудзяна, чілі, перець халапеньо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.95</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Креветка-сир (175г)</p>
-                <p><strong>Опис:</strong> Начоси, креветки, сирний соус, медовий соус чілі, кінза, перець чилі</p>
-                <p><strong>Ціна:</strong> 248.4</p>
-                <p><strong>Тип:</strong> ДІПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Креветка-сир (175г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Начоси, креветки, сирний соус, медовий соус чілі, кінза, перець чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 248.4</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДІПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піко-де-гайо (185г)</p>
-                <p><strong>Опис:</strong> Начоси, Піко-де-Гайо, соус Cilantro lime, перець халапеньо, кінза, чілі</p>
-                <p><strong>Ціна:</strong> 165.6</p>
-                <p><strong>Тип:</strong> ДІПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піко-де-гайо (185г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Начоси, Піко-де-Гайо, соус Cilantro lime, перець халапеньо, кінза, чілі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.6</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДІПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Начос (50г)</p>
-                <p><strong>Опис:</strong> Начоси, кінза, перець халапеньо</p>
-                <p><strong>Ціна:</strong> 67.28</p>
-                <p><strong>Тип:</strong> ДІПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Начос (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Начоси, кінза, перець халапеньо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 67.28</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДІПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шоколадний торт Pastel de Chocolate</p>
-                <p><strong>Опис:</strong> Шоколадний торт коржі якого пропитані маргаритою</p>
-                <p><strong>Ціна:</strong> 175.95</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шоколадний торт Pastel de Chocolate</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколадний торт коржі якого пропитані маргаритою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.95</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чуррос</p>
-                <p><strong>Опис:</strong> чурос, цукор тростинний, кориця, морозиво, шоколадний соус, сушений перець чилі</p>
-                <p><strong>Ціна:</strong> 175.95</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чуррос</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> чурос, цукор тростинний, кориця, морозиво, шоколадний соус, сушений перець чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.95</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сангріта з ананасом (0,5 л)</p>
-                <p><strong>Опис:</strong> Томатний сік, ананасовий сік, апельсиновий сік, фреш лимону, соус Ворчестер, соус табаско, спеції</p>
-                <p><strong>Ціна:</strong> 134.55</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сангріта з ананасом (0,5 л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний сік, ананасовий сік, апельсиновий сік, фреш лимону, соус Ворчестер, соус табаско, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 134.55</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сангріта з кінзою (0,5 л)</p>
-                <p><strong>Опис:</strong> Томатний сік, фреш лимону, кінза, соус Ворчестер, соус табаско, спеції</p>
-                <p><strong>Ціна:</strong> 134.55</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сангріта з кінзою (0,5 л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний сік, фреш лимону, кінза, соус Ворчестер, соус табаско, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 134.55</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Borjomi мінеральна вода 0,33</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 98.33</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Borjomi мінеральна вода 0,33</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.33</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Класичний Лимонад</p>
-                <p><strong>Опис:</strong> Фреш лимона, цукровий сироп, содова</p>
-                <p><strong>Ціна:</strong> 82.8</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Класичний Лимонад</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фреш лимона, цукровий сироп, содова</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.8</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Малина-Розмарин лимонад</p>
-                <p><strong>Опис:</strong> Малиново-розмариновий сироп власного приготування, цукровий сироп, фреш лимону</p>
-                <p><strong>Ціна:</strong> 82.8</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Малина-Розмарин лимонад</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Малиново-розмариновий сироп власного приготування, цукровий сироп, фреш лимону</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.8</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Обліпиховий лимонад</p>
-                <p><strong>Опис:</strong> Огірково-базиліковий сироп власного приготування, цукровий сироп</p>
-                <p><strong>Ціна:</strong> 82.8</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Обліпиховий лимонад</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Огірково-базиліковий сироп власного приготування, цукровий сироп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.8</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Burn (0.25л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 82.8</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Burn (0.25л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.8</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-Cola 0.25 Скло</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 67.28</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-Cola 0.25 Скло</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 67.28</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-Cola 0.25 Скло Zero</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 67.28</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-Cola 0.25 Скло Zero</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 67.28</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Чіпотле (50мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 62.1</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Чіпотле (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.1</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирний соус (50мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 62.1</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний соус (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.1</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Smoky Red Chimichuri (50мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 62.1</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Smoky Red Chimichuri (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.1</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Медовий соус чілі (50мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 62.1</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Медовий соус чілі (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.1</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Манго-Хабанеро (50мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 62.1</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Манго-Хабанеро (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.1</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Cilantro Lime (50мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 62.1</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Cilantro Lime (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.1</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Аль Пастор (50мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 62.1</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Аль Пастор (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.1</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Lime Alioli (50мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 62.1</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Lime Alioli (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.1</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Carolina Mustard (50мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 62.1</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Carolina Mustard (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 62.1</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

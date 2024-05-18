@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pruten / Прутень</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/22.png" alt="Restaurant Image">
         <h1>Pruten / Прутень</h1>
@@ -63,88 +116,109 @@
         <p><strong>Неділя:</strong> 12:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> "Кокосовий крутелик" (15см)</p>
-                <p><strong>Опис:</strong> Зовнішній шар: білий шоколад, кокосова стружка, арахіс</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Кокосовий крутелик" (15см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зовнішній шар: білий шоколад, кокосова стружка, арахіс</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Рожевий яструб"  (15см)</p>
-                <p><strong>Опис:</strong> Зовнішній шар: полуничний шоколад, білий шоколад</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Рожевий яструб"  (15см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зовнішній шар: полуничний шоколад, білий шоколад</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Піжон в шоколаді" (15см)</p>
-                <p><strong>Опис:</strong> Зовнішній шар: чорний шоколад, топінг карамель, дріблений шоколад</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Піжон в шоколаді" (15см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зовнішній шар: чорний шоколад, топінг карамель, дріблений шоколад</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Остання капля" (15см)</p>
-                <p><strong>Опис:</strong> Зовнішній шар: молочний шоколад, гранола</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Остання капля" (15см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зовнішній шар: молочний шоколад, гранола</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Оксамитова фата" (12см)</p>
-                <p><strong>Опис:</strong> Зовнішній шар: білий шоколад, кокосова стружка, арахіс</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Оксамитова фата" (12см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зовнішній шар: білий шоколад, кокосова стружка, арахіс</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Полунична розкішниця" (12см)</p>
-                <p><strong>Опис:</strong> Зовнішній шар: полуничний шоколад, білий шоколад</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Полунична розкішниця" (12см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зовнішній шар: полуничний шоколад, білий шоколад</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Мохнатка під шафе" (12см)</p>
-                <p><strong>Опис:</strong> Зовнішній шар: білий шоколад, кокосова стружка, арахіс</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Мохнатка під шафе" (12см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зовнішній шар: білий шоколад, кокосова стружка, арахіс</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Гаряча мілфа" (12см)</p>
-                <p><strong>Опис:</strong> Зовнішній шар: чорний шоколад, топінг карамель, дріблений шоколад</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Гаряча мілфа" (12см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зовнішній шар: чорний шоколад, топінг карамель, дріблений шоколад</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Фруктовий оргазм" (12см)</p>
-                <p><strong>Опис:</strong> Наповнювач: нутелла, топінг, банан</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА З НАПОВНЮВАЧЕМ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Фруктовий оргазм" (12см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Наповнювач: нутелла, топінг, банан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА З НАПОВНЮВАЧЕМ</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Полуничне куні" (12см)</p>
-                <p><strong>Опис:</strong> Наповнювач:полуничний крем, полуниця, топінг</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА З НАПОВНЮВАЧЕМ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Полуничне куні" (12см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Наповнювач:полуничний крем, полуниця, топінг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА З НАПОВНЮВАЧЕМ</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Конча лате" (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Конча лате" (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Шоколадний прутень" (15см)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ШОКОЛАДНІ ВИРОБИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Шоколадний прутень" (15см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШОКОЛАДНІ ВИРОБИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Льодяник прутень" (15см)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> ЛЬОДЯНИКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Льодяник прутень" (15см)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛЬОДЯНИКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Вагіна"</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ЛЬОДЯНИКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Вагіна"</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛЬОДЯНИКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Міні-пісюнці" (1шт)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ЛЬОДЯНИКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Міні-пісюнці" (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛЬОДЯНИКИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

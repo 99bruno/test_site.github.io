@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restobar Tema /  Рестобар Тема</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/140.png" alt="Restaurant Image">
         <h1>Restobar Tema /  Рестобар Тема</h1>
@@ -63,343 +116,364 @@
         <p><strong>Неділя:</strong> 10:30:00 - 22:30:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Холодна матча на рослинному молоці</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Холодна матча на безлактозному молоці</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Холодна матча</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фраппе кокос</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кава Фраппе лате</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Еспресо тонік</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кава Фраппе</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Маракуйя з полуницею</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Імбирний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк полуниця</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк фундук-груша</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мілкшейк банан</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Yellow</p>
-                <p><strong>Опис:</strong> Юдзу, кокосове пюре, манго, кокосова вода, колаген, насіння чіа</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Green</p>
-                <p><strong>Опис:</strong> Авокадо, груша, броколі, вода алое, спіруліна</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Orange</p>
-                <p><strong>Опис:</strong> Маракуйя, банан, бджолиний пилок, апельсиновий фреш</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Pink</p>
-                <p><strong>Опис:</strong> Полуниця, кокосове пюре, манго, кокосова вода</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Red</p>
-                <p><strong>Опис:</strong> Вишня, гранат, банан, насіння коноплі</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Purple</p>
-                <p><strong>Опис:</strong> Насіння чіа, полуниця, малина, лохина, мигдалеве молоко</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Immunity Nectar</p>
-                <p><strong>Опис:</strong> Обліпиха, абрикос, банан, мигдальне молоко, гарбузове насіння.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Supergreens</p>
-                <p><strong>Опис:</strong> Ківі, авокадо, манго, вода алое, базилік, хролелла.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Fruity Supreme</p>
-                <p><strong>Опис:</strong> Груша, полуниця, малина, апельсиновий фреш, яблучна клітковина.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шоколад-банан</p>
-                <p><strong>Опис:</strong> Ванільний протеїн, банан, мигдалеве молоко, червоне 100% какао</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Манго-апельсин</p>
-                <p><strong>Опис:</strong> Ванільний протеїн, манго, апельсиновий фреш, кеш'ю</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Полуниця-ваніль</p>
-                <p><strong>Опис:</strong> Ванільний протеїн, полуниця, кокосове молоко</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Апельсиновий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Грейпфрутовий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Яблучний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Моркв'яний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Селеровий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Ferrarelle  газована</p>
-                <p><strong>Опис:</strong> Мінеральна вода</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> 2085 Bluberry</p>
-                <p><strong>Опис:</strong> Напій безалкогольний газований фруктовмісний</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> 2085 Fantastic Fruit</p>
-                <p><strong>Опис:</strong> Напій безалкогольний газований фруктовмісний</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Evian</p>
-                <p><strong>Опис:</strong> Мінеральна вода</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Трускавецька</p>
-                <p><strong>Опис:</strong> Мінеральна вода</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бенедикти з лососем та сирним соусом (280г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Скрамбл з ростбіфом та авокадо (310г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Авокадо тост з томатною сальсою та яйцем пашот (315г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Яєчня глазунʼя з індичими сосисками</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Крок мадам з мортаделлою</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинці з м'ясом  птиці (240г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Омлет із сиром чедер (210г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шакшука</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Запечена груша</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Яблуко з сиром брі та горіхами</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирники зі сметаноюта ягодами (270г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинці з солодким сиром (220г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Грецький йогурт з гранолою та чіа (230г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Солодкий сир з горіхами, сухофруктами та медом (200/70/30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лляна каша з яблуком та сухофруктами</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вівсяна каша з бананом та мигдалевими пелюстками</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Боул зі слабосолоним лососем та кіноа (300г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Боул з індичкою, яйцем пашот та соусом песто (430г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Великий зелений салат з креветками</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тар-тар із тунця (200г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з ростбіфом та горіховим соусом (320г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Буряк печений з горіхами (230г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячий бульйон з яйцем та локшиною (250/150г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лосось запечений з кус-кусом та стручковою квасолею</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 390.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста цукіні з креветками (350г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Запечене філе судака з броколі в вершковому соусі (350г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Різотто з білими грибами</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 285.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шніцель з індички з броколі в вершковому соусі (180/170г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста цукіні з індичкою (350г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рис з сердечками та шлуночками</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Спагетті з польпетте з індички (400г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер kids з індичою котлеткою (300г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мікс салату з овочами (240г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Холодна матча на рослинному молоці</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Холодна матча на безлактозному молоці</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Холодна матча</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фраппе кокос</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Фраппе лате</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еспресо тонік</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Фраппе</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Маракуйя з полуницею</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Імбирний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк полуниця</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк фундук-груша</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мілкшейк банан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Yellow</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Юдзу, кокосове пюре, манго, кокосова вода, колаген, насіння чіа</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Green</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Авокадо, груша, броколі, вода алое, спіруліна</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Orange</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Маракуйя, банан, бджолиний пилок, апельсиновий фреш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Pink</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Полуниця, кокосове пюре, манго, кокосова вода</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Red</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вишня, гранат, банан, насіння коноплі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Purple</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Насіння чіа, полуниця, малина, лохина, мигдалеве молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Immunity Nectar</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Обліпиха, абрикос, банан, мигдальне молоко, гарбузове насіння.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Supergreens</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ківі, авокадо, манго, вода алое, базилік, хролелла.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fruity Supreme</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Груша, полуниця, малина, апельсиновий фреш, яблучна клітковина.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шоколад-банан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ванільний протеїн, банан, мигдалеве молоко, червоне 100% какао</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Манго-апельсин</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ванільний протеїн, манго, апельсиновий фреш, кеш'ю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Полуниця-ваніль</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ванільний протеїн, полуниця, кокосове молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Апельсиновий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грейпфрутовий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яблучний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моркв'яний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Селеровий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ferrarelle  газована</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мінеральна вода</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 2085 Bluberry</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Напій безалкогольний газований фруктовмісний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 2085 Fantastic Fruit</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Напій безалкогольний газований фруктовмісний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Evian</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мінеральна вода</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Трускавецька</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мінеральна вода</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бенедикти з лососем та сирним соусом (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Скрамбл з ростбіфом та авокадо (310г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Авокадо тост з томатною сальсою та яйцем пашот (315г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яєчня глазунʼя з індичими сосисками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крок мадам з мортаделлою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з м'ясом  птиці (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Омлет із сиром чедер (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шакшука</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечена груша</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яблуко з сиром брі та горіхами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники зі сметаноюта ягодами (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з солодким сиром (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грецький йогурт з гранолою та чіа (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солодкий сир з горіхами, сухофруктами та медом (200/70/30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лляна каша з яблуком та сухофруктами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вівсяна каша з бананом та мигдалевими пелюстками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул зі слабосолоним лососем та кіноа (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з індичкою, яйцем пашот та соусом песто (430г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Великий зелений салат з креветками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тар-тар із тунця (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з ростбіфом та горіховим соусом (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Буряк печений з горіхами (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий бульйон з яйцем та локшиною (250/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лосось запечений з кус-кусом та стручковою квасолею</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 390.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста цукіні з креветками (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечене філе судака з броколі в вершковому соусі (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Різотто з білими грибами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 285.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шніцель з індички з броколі в вершковому соусі (180/170г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста цукіні з індичкою (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рис з сердечками та шлуночками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спагетті з польпетте з індички (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер kids з індичою котлеткою (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мікс салату з овочами (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

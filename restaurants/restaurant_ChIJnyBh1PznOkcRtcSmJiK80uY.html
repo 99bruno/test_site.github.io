@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tomato</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/404.png" alt="Restaurant Image">
         <h1>Tomato</h1>
@@ -63,188 +116,209 @@
         <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Просто Цезар</p>
-                <p><strong>Опис:</strong> Мікс салату, соус Цезар на основі анчоусів, хрумкий бекон, курочка Кацу, пармезан, помідори чері, зелень</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Просто Цезар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, соус Цезар на основі анчоусів, хрумкий бекон, курочка Кацу, пармезан, помідори чері, зелень</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Коб Салат з індичкою</p>
-                <p><strong>Опис:</strong> Індичка су-від маринована з гранульованим часником та паприкою, соус Honey Mustard, пармезан, мікс салату, яйце 6 хв, томати чері, боби едамаме</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Коб Салат з індичкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Індичка су-від маринована з гранульованим часником та паприкою, соус Honey Mustard, пармезан, мікс салату, яйце 6 хв, томати чері, боби едамаме</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> I'm champion</p>
-                <p><strong>Опис:</strong> Неймовірна Бріош,4x соковита яловичина, 4x медово-цибулевий джем, 4x сир Чеддер, 4х бекон, BBQ, картопляні діпи з пармезаном, мариновані огірочки, соус на вибір: сирний або BBQ</p>
-                <p><strong>Ціна:</strong> 800.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> I'm champion</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Неймовірна Бріош,4x соковита яловичина, 4x медово-цибулевий джем, 4x сир Чеддер, 4х бекон, BBQ, картопляні діпи з пармезаном, мариновані огірочки, соус на вибір: сирний або BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 800.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Nice to meat you</p>
-                <p><strong>Опис:</strong> Неймовірна Бріош, double соковита яловичина, double медово-цибулевий джем, double Чеддер, double бекон, синя цибуля, BBQ, цибулеві кріпси, картопляні діпи з пармезаном, мариновані огірочки, соус BBQ</p>
-                <p><strong>Ціна:</strong> 480.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Nice to meat you</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Неймовірна Бріош, double соковита яловичина, double медово-цибулевий джем, double Чеддер, double бекон, синя цибуля, BBQ, цибулеві кріпси, картопляні діпи з пармезаном, мариновані огірочки, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 480.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Damn easy onion</p>
-                <p><strong>Опис:</strong> Неймовірна Бріош, Соковита яловичина, Медово-цибулевий джем, Чеддер, Рамен, Цибулеві кільця, Маринована цибуля, Цибуля кріспі, Сирний соус, Соус Дор-блю. Додатково до бургера додаємо: Мариновані огірочки; Салат Коул слоу; Картопляні діпи; Соус</p>
-                <p><strong>Ціна:</strong> 430.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Damn easy onion</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Неймовірна Бріош, Соковита яловичина, Медово-цибулевий джем, Чеддер, Рамен, Цибулеві кільця, Маринована цибуля, Цибуля кріспі, Сирний соус, Соус Дор-блю. Додатково до бургера додаємо: Мариновані огірочки; Салат Коул слоу; Картопляні діпи; Соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 430.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Triple cheese</p>
-                <p><strong>Опис:</strong> Неймовірна Бріош, Соковита яловичина, Медово-цибулевий джем, double Чеддер, Сир Брі, Сир Дор-блю, Рамен, Маринована цибуля, Соус Дор-блю, Сирий соус. Додатково до бургера додаємо:Мариновані огірочки; Салат Коул слоу; Картопляні діпи; Соус</p>
-                <p><strong>Ціна:</strong> 425.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Triple cheese</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Неймовірна Бріош, Соковита яловичина, Медово-цибулевий джем, double Чеддер, Сир Брі, Сир Дор-блю, Рамен, Маринована цибуля, Соус Дор-блю, Сирий соус. Додатково до бургера додаємо:Мариновані огірочки; Салат Коул слоу; Картопляні діпи; Соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 425.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Truffle-Fresh</p>
-                <p><strong>Опис:</strong> Неймовірна Бріош, Соковита яловичина, Медово-цибулевий джем, Triple Чеддер, Рамен, Маринована цибуля, Трюфельний майонез, Помідор. Додатково до бургера додаємо: Мариновані огірочки; Салат Коул слоу; Картопляні діпи; Соус</p>
-                <p><strong>Ціна:</strong> 410.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Truffle-Fresh</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Неймовірна Бріош, Соковита яловичина, Медово-цибулевий джем, Triple Чеддер, Рамен, Маринована цибуля, Трюфельний майонез, Помідор. Додатково до бургера додаємо: Мариновані огірочки; Салат Коул слоу; Картопляні діпи; Соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 410.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Baconator</p>
-                <p><strong>Опис:</strong> Неймовірна Бріош, соковита яловичина, медово-цибулевий джем, сир Чеддер, double бекон, беконовий джем, BBQ, цибулеві кріпси, картопляні діпи з пармезаном, мариновані огірочки, соус BBQ</p>
-                <p><strong>Ціна:</strong> 395.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Baconator</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Неймовірна Бріош, соковита яловичина, медово-цибулевий джем, сир Чеддер, double бекон, беконовий джем, BBQ, цибулеві кріпси, картопляні діпи з пармезаном, мариновані огірочки, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 395.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> I love Camembert</p>
-                <p><strong>Опис:</strong> Неймовірна Бріош, соковита яловичина, медово-цибулевий джем, запечений камамбер, сирний соус, сир Чеддер, малинове компоте, картопляні діпи з пармезаном, мариновані огірочки, соус BBQ</p>
-                <p><strong>Ціна:</strong> 395.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> I love Camembert</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Неймовірна Бріош, соковита яловичина, медово-цибулевий джем, запечений камамбер, сирний соус, сир Чеддер, малинове компоте, картопляні діпи з пармезаном, мариновані огірочки, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 395.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Mustard-relish</p>
-                <p><strong>Опис:</strong> Неймовірна Бріош, Соковита яловичина, Медово-цибулевий джем, double Чеддер, Рамен, Гірчиця американська, Медово-гірчичний соус, Овочевий Реліш, Помідор. Додатково до бургера додаємо: Мариновані огірочки; Салат Коул слоу; Картопляні діпи; Соус</p>
-                <p><strong>Ціна:</strong> 390.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Mustard-relish</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Неймовірна Бріош, Соковита яловичина, Медово-цибулевий джем, double Чеддер, Рамен, Гірчиця американська, Медово-гірчичний соус, Овочевий Реліш, Помідор. Додатково до бургера додаємо: Мариновані огірочки; Салат Коул слоу; Картопляні діпи; Соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 390.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Easy Cheeseburger</p>
-                <p><strong>Опис:</strong> Неймовірна Бріош, соковита яловичина, медово-цибулевий джем, double Чеддер, сирний соус, рамен, картопляні діпи з пармезаном, мариновані огірочки, соус BBQ</p>
-                <p><strong>Ціна:</strong> 365.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Easy Cheeseburger</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Неймовірна Бріош, соковита яловичина, медово-цибулевий джем, double Чеддер, сирний соус, рамен, картопляні діпи з пармезаном, мариновані огірочки, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 365.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер з Куркою Кацу</p>
-                <p><strong>Опис:</strong> Булочка бріош, курочка Кацу, сир Чеддар, помідор, дзадзикі, картопляні діпи, соус BBQ</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер з Куркою Кацу</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка бріош, курочка Кацу, сир Чеддар, помідор, дзадзикі, картопляні діпи, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Запечений Камамбер</p>
-                <p><strong>Опис:</strong> Запечений камамбер, смородинове кюлі, м'ятне масло, полунична пудра, зелень, бріош, копчена олія</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечений Камамбер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запечений камамбер, смородинове кюлі, м'ятне масло, полунична пудра, зелень, бріош, копчена олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тартар з яловичини</p>
-                <p><strong>Опис:</strong> Яловича вирізка, мариновані овочі, чилі перець, часник, ворчестер, жовток перепелиний, мкрогрін. Бріош</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тартар з яловичини</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яловича вирізка, мариновані овочі, чилі перець, часник, ворчестер, жовток перепелиний, мкрогрін. Бріош</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Easy snak+Cheese and Truffle</p>
-                <p><strong>Опис:</strong> Картопляні діпи, Картопляні Крокети, Цибулеві кільця, Трюфельний майонез, пармезан, Сир Брі</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Easy snak+Cheese and Truffle</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляні діпи, Картопляні Крокети, Цибулеві кільця, Трюфельний майонез, пармезан, Сир Брі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Easy snack+Bacon and BBQ</p>
-                <p><strong>Опис:</strong> Картопляні діпи, Картопляні Крокети, Цибулеві кільця, бекон, соус BBQ</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Easy snack+Bacon and BBQ</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляні діпи, Картопляні Крокети, Цибулеві кільця, бекон, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Dips with parmesan + sauce</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Dips with parmesan + sauce</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грибний крем-суп</p>
-                <p><strong>Опис:</strong> Бульйон на основі білих грибів, печериці, білі гриби, вершки, трюфельна олія, зелена олія, зелень, Бріош</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грибний крем-суп</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бульйон на основі білих грибів, печериці, білі гриби, вершки, трюфельна олія, зелена олія, зелень, Бріош</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бульйон з курочкою та яйцем 6хв</p>
-                <p><strong>Опис:</strong> Курячий бульйон, курочка, слайси моркви, боби едамаме, яйце 6хв, зелень, копчена олія</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бульйон з курочкою та яйцем 6хв</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячий бульйон, курочка, слайси моркви, боби едамаме, яйце 6хв, зелень, копчена олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Трюфельний скрамбл з Бріошем</p>
-                <p><strong>Опис:</strong> Бріош 2 шматки, скрамбл на основі трюфельної пасти, зелена цибуля, трюфельна олія, мікс салату, мариновані огірочки, зелена олія, копчена олія</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Трюфельний скрамбл з Бріошем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бріош 2 шматки, скрамбл на основі трюфельної пасти, зелена цибуля, трюфельна олія, мікс салату, мариновані огірочки, зелена олія, копчена олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мелт з Куркою Кацу</p>
-                <p><strong>Опис:</strong> Дві скибки Бріошу, курка Кацу, дзадзикі, сир Чеддер, помідор, картопляні діпи, соус BBQ</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мелт з Куркою Кацу</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дві скибки Бріошу, курка Кацу, дзадзикі, сир Чеддер, помідор, картопляні діпи, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізкейк Три шоколади</p>
-                <p><strong>Опис:</strong> Основа - печиво сабле на основі мигдалевого борошна. Сирна частина на основі крем сиру Cremette, вершків та ванільної пасти. Зверху - ганаш на темному гіркому шоколаді та на основі крем сиру та білому шоколаді</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізкейк Три шоколади</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа - печиво сабле на основі мигдалевого борошна. Сирна частина на основі крем сиру Cremette, вершків та ванільної пасти. Зверху - ганаш на темному гіркому шоколаді та на основі крем сиру та білому шоколаді</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізкейк Малина</p>
-                <p><strong>Опис:</strong> Мигдалеве сабле із додаванням сублімованої малини. Сирна маса на основі крем-сиру з фісташковою пастою та малиновим компоте. Сублімована малина</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізкейк Малина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мигдалеве сабле із додаванням сублімованої малини. Сирна маса на основі крем-сиру з фісташковою пастою та малиновим компоте. Сублімована малина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізкейк Манго-Маракуя</p>
-                <p><strong>Опис:</strong> Основа - печиво сабле на основі мигдалевого борошна. Сирна частина на основі крем сиру Cremette, вершків та ванліьної пасти. Зверху чізкейк покритий пюре манго та маракуї</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізкейк Манго-Маракуя</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа - печиво сабле на основі мигдалевого борошна. Сирна частина на основі крем сиру Cremette, вершків та ванліьної пасти. Зверху чізкейк покритий пюре манго та маракуї</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізкейк Нью-Йорк</p>
-                <p><strong>Опис:</strong> Мигдалеве сабле, сирна частина на основі крем-сиру Cremette, ванільної пасти, вершків та творогу. Зверху покритий шоколадним ганашем на основі білого шоколаду Calebaut</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізкейк Нью-Йорк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мигдалеве сабле, сирна частина на основі крем-сиру Cremette, ванільної пасти, вершків та творогу. Зверху покритий шоколадним ганашем на основі білого шоколаду Calebaut</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарта Груша-Ваніль</p>
-                <p><strong>Опис:</strong> Тісто сюкре на основі мигдалевого борошна. Всередині - ванільний бісквіт, поєднання груші конфі та ванілі. Зверху - ганаш на основі крем-сиру Cremette, білого шоколаду та ванільної пасти</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарта Груша-Ваніль</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тісто сюкре на основі мигдалевого борошна. Всередині - ванільний бісквіт, поєднання груші конфі та ванілі. Зверху - ганаш на основі крем-сиру Cremette, білого шоколаду та ванільної пасти</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарта Лохина</p>
-                <p><strong>Опис:</strong> Мигдалева основа з мигдалевим франжипаном та цілим мигдалем. Всередині компоте з чорної смородини та багато свіжої лохини</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарта Лохина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мигдалева основа з мигдалевим франжипаном та цілим мигдалем. Всередині компоте з чорної смородини та багато свіжої лохини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарта Раф</p>
-                <p><strong>Опис:</strong> Шоколадна основа з використанням бельгійського какао. Всередні мигдалевий франжипан, фундучне праліне. Зверху - шоколадний ганаш</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарта Раф</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколадна основа з використанням бельгійського какао. Всередні мигдалевий франжипан, фундучне праліне. Зверху - шоколадний ганаш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарта Манго-Маракуя</p>
-                <p><strong>Опис:</strong> Тісто сюкре на основі мигдалевого борошна. Всередині - ванільний бісквіт, поєднання манго та маракуї. Зверху - ганаш на основі крем-сиру Cremette, білого шоколаду та ванільної пасти</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарта Манго-Маракуя</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тісто сюкре на основі мигдалевого борошна. Всередині - ванільний бісквіт, поєднання манго та маракуї. Зверху - ганаш на основі крем-сиру Cremette, білого шоколаду та ванільної пасти</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарта Снікерс</p>
-                <p><strong>Опис:</strong> Шоколадна основа з використанням бельгійського какао. Всередині солона карамель, арахіс, карамельний крем та цілий фундук</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарта Снікерс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколадна основа з використанням бельгійського какао. Всередині солона карамель, арахіс, карамельний крем та цілий фундук</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Schweppes</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Schweppes</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Sprite</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Sprite</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fanta</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fanta</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-cola</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-cola</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-cola Zero</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-cola Zero</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Bonaqua</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Bonaqua</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

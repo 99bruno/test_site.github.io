@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STORY</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/354.png" alt="Restaurant Image">
         <h1>STORY</h1>
@@ -63,198 +116,219 @@
         <p><strong>Неділя:</strong> 11:00:00 - 21:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Дабл beef бургер</p>
-                <p><strong>Опис:</strong> Булочка, кетчуп, салат айсберг, солоний огірок, подвійна котлета яловича, олія, сир, гірчиця</p>
-                <p><strong>Ціна:</strong> 247.0</p>
-                <p><strong>Тип:</strong> Новинки</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл beef бургер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, кетчуп, салат айсберг, солоний огірок, подвійна котлета яловича, олія, сир, гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 247.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Новинки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дабл chicken бургер</p>
-                <p><strong>Опис:</strong> Булочка, кетчуп, салат айсберг, солоний огірок, подвійна котлета куряча, олія, сир, гірчиця</p>
-                <p><strong>Ціна:</strong> 202.0</p>
-                <p><strong>Тип:</strong> Новинки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл chicken бургер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, кетчуп, салат айсберг, солоний огірок, подвійна котлета куряча, олія, сир, гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 202.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Новинки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хані beef бургер</p>
-                <p><strong>Опис:</strong> Булочка, кетчуп, салат айсберг, помідор,  котлета яловича, олія, огірок солоний, соус медово-гірчичний</p>
-                <p><strong>Ціна:</strong> 156.0</p>
-                <p><strong>Тип:</strong> Новинки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хані beef бургер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, кетчуп, салат айсберг, помідор,  котлета яловича, олія, огірок солоний, соус медово-гірчичний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 156.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Новинки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хані chicken бургер</p>
-                <p><strong>Опис:</strong> Булочка, кетчуп, салат айсберг, помідор,  котлета куряча, олія, огірок солоний, соус медово-гірчичний</p>
-                <p><strong>Ціна:</strong> 134.0</p>
-                <p><strong>Тип:</strong> Новинки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хані chicken бургер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, кетчуп, салат айсберг, помідор,  котлета куряча, олія, огірок солоний, соус медово-гірчичний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 134.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Новинки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинний ШніцBurger BBQ Меню</p>
-                <p><strong>Опис:</strong> Свинний ШніцBurger з соусом BBQ + Картопля на вибір + Напій на вибір</p>
-                <p><strong>Ціна:</strong> 358.0</p>
-                <p><strong>Тип:</strong> ШніцBurger Меню</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинний ШніцBurger BBQ Меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинний ШніцBurger з соусом BBQ + Картопля на вибір + Напій на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 358.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger Меню</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячий ШніцBurger Меню</p>
-                <p><strong>Опис:</strong> Курячий ШніцBurger з сирним соусом + Картопля на вибір + Напій на вибір</p>
-                <p><strong>Ціна:</strong> 332.0</p>
-                <p><strong>Тип:</strong> ШніцBurger Меню</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий ШніцBurger Меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячий ШніцBurger з сирним соусом + Картопля на вибір + Напій на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 332.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger Меню</p>
                 <hr>
-                <p><strong>Позиція:</strong> Beef Піко Меню</p>
-                <p><strong>Опис:</strong> Beef Піко Burger + Картопля на вибір + Напій на вибір</p>
-                <p><strong>Ціна:</strong> 302.0</p>
-                <p><strong>Тип:</strong> ШніцBurger Меню</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Beef Піко Меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Beef Піко Burger + Картопля на вибір + Напій на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 302.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger Меню</p>
                 <hr>
-                <p><strong>Позиція:</strong> Chicken Фреш Меню</p>
-                <p><strong>Опис:</strong> Chicken Фреш Burger + Картопля на вибір + Напій на вибір</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> ШніцBurger Меню</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Chicken Фреш Меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Chicken Фреш Burger + Картопля на вибір + Напій на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger Меню</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячий  King ШніцBurger (370г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, огірок свіжий, шніцель курячий, соус, сир моцарела, сир чедер, помідор, цибуля маринована, майонез, олія</p>
-                <p><strong>Ціна:</strong> 289.0</p>
-                <p><strong>Тип:</strong> ШніцBurger курячий</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий  King ШніцBurger (370г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, огірок свіжий, шніцель курячий, соус, сир моцарела, сир чедер, помідор, цибуля маринована, майонез, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 289.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger курячий</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячий  ШніцBurger з соусом BBQ (270г)</p>
-                <p><strong>Опис:</strong> Шніцель курячий, соус BBQ, булочка, масло вершкове, кетчуп, салат айсберг, помідор, сир чедер, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 243.0</p>
-                <p><strong>Тип:</strong> ШніцBurger курячий</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий  ШніцBurger з соусом BBQ (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шніцель курячий, соус BBQ, булочка, масло вершкове, кетчуп, салат айсберг, помідор, сир чедер, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 243.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger курячий</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячий  ШніцBurger з сирним соусом (270г)</p>
-                <p><strong>Опис:</strong> Шніцель курячий, соус сирний, булочка, масло вершкове, кетчуп, капуста пекінська, аджика, помідор, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 233.0</p>
-                <p><strong>Тип:</strong> ШніцBurger курячий</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий  ШніцBurger з сирним соусом (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шніцель курячий, соус сирний, булочка, масло вершкове, кетчуп, капуста пекінська, аджика, помідор, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 233.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger курячий</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячий  Класичний ШніцBurger (250г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, огірок солоний, шніцель курячий, соус сирний, помідор, цибуля маринована, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 177.0</p>
-                <p><strong>Тип:</strong> ШніцBurger курячий</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий  Класичний ШніцBurger (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, огірок солоний, шніцель курячий, соус сирний, помідор, цибуля маринована, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 177.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger курячий</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинний King ШніцBurger (370г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, огірок свіжий, шніцель свинний, соус, сир моцарела, сир чедер, помідор, цибуля маринована, майонез, олія</p>
-                <p><strong>Ціна:</strong> 308.0</p>
-                <p><strong>Тип:</strong> ШніцBurger свинний</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинний King ШніцBurger (370г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, огірок свіжий, шніцель свинний, соус, сир моцарела, сир чедер, помідор, цибуля маринована, майонез, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 308.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger свинний</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинний  ШніцBurger з соусом BBQ (270г)</p>
-                <p><strong>Опис:</strong> Шніцель свинний, соус BBQ, булочка, масло вершкове, кетчуп, салат айсберг, помідор, сир черер, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 262.0</p>
-                <p><strong>Тип:</strong> ШніцBurger свинний</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинний  ШніцBurger з соусом BBQ (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шніцель свинний, соус BBQ, булочка, масло вершкове, кетчуп, салат айсберг, помідор, сир черер, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 262.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger свинний</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинний ШніцBurger з сирним соусом (270г)</p>
-                <p><strong>Опис:</strong> Шніцель свинний, соус сирний, булочка, масло вершкове, кетчуп, капуста пекінська, аджика, помідор, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 251.0</p>
-                <p><strong>Тип:</strong> ШніцBurger свинний</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинний ШніцBurger з сирним соусом (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шніцель свинний, соус сирний, булочка, масло вершкове, кетчуп, капуста пекінська, аджика, помідор, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 251.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger свинний</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинний  Класичний ШніцBurger (250г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, огірок солоний, шніцель свинний, соус сирний, помідор, цибуля маринована, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 186.0</p>
-                <p><strong>Тип:</strong> ШніцBurger свинний</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинний  Класичний ШніцBurger (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, огірок солоний, шніцель свинний, соус сирний, помідор, цибуля маринована, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 186.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШніцBurger свинний</p>
                 <hr>
-                <p><strong>Позиція:</strong> Chicken  Песто Burger (280г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, котлета куряча, соус Цезар, бекон, яйце куряче, цибуля маринована, соус Песто</p>
-                <p><strong>Ціна:</strong> 246.0</p>
-                <p><strong>Тип:</strong> Chicken Burger</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Chicken  Песто Burger (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, котлета куряча, соус Цезар, бекон, яйце куряче, цибуля маринована, соус Песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 246.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Chicken Burger</p>
                 <hr>
-                <p><strong>Позиція:</strong> Chicken  Цезар Burger (270г)</p>
-                <p><strong>Опис:</strong> Подається холодним! Булочка, масло вершкове, салат айсберг, огірок, філе куряче, соус Цезар, помідор, яйце варене, пармезан, гірчиця</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> Chicken Burger</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Chicken  Цезар Burger (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подається холодним! Булочка, масло вершкове, салат айсберг, огірок, філе куряче, соус Цезар, помідор, яйце варене, пармезан, гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Chicken Burger</p>
                 <hr>
-                <p><strong>Позиція:</strong> Chicken Піко Burger (270г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, капуста пекінська, аджика, помідор, котлета куряча, соус сирний, огірок солоний, цибуля маринована, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> Chicken Burger</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Chicken Піко Burger (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, капуста пекінська, аджика, помідор, котлета куряча, соус сирний, огірок солоний, цибуля маринована, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Chicken Burger</p>
                 <hr>
-                <p><strong>Позиція:</strong> Chicken Фреш Burger (240г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, соус BBQ, салат айсберг, огірок свіжий, котлета куряча, соус сирний, помідор, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 159.0</p>
-                <p><strong>Тип:</strong> Chicken Burger</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Chicken Фреш Burger (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, соус BBQ, салат айсберг, огірок свіжий, котлета куряча, соус сирний, помідор, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 159.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Chicken Burger</p>
                 <hr>
-                <p><strong>Позиція:</strong> Beef Барбекю Burger (270г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, перець болгарський, мікс овочів (огірок, капуста, помідор), яловичина, соус BBQ, цибуля маринована, гірчиця</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> Beef Burger</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Beef Барбекю Burger (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, перець болгарський, мікс овочів (огірок, капуста, помідор), яловичина, соус BBQ, цибуля маринована, гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Beef Burger</p>
                 <hr>
-                <p><strong>Позиція:</strong> Beef Піко Burger (270г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, капуста пекінська, аджика, помідор, котлета яловича, соус сирний, огірок солоний, цибуля маринована, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 186.0</p>
-                <p><strong>Тип:</strong> Beef Burger</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Beef Піко Burger (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, капуста пекінська, аджика, помідор, котлета яловича, соус сирний, огірок солоний, цибуля маринована, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 186.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Beef Burger</p>
                 <hr>
-                <p><strong>Позиція:</strong> Beef Песто Burger (280г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, котлета яловича, соус Цезар, бекон, яйце куряче, цибуля маринована, соус Песто</p>
-                <p><strong>Ціна:</strong> 186.0</p>
-                <p><strong>Тип:</strong> Beef Burger</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Beef Песто Burger (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, кетчуп, салат айсберг, котлета яловича, соус Цезар, бекон, яйце куряче, цибуля маринована, соус Песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 186.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Beef Burger</p>
                 <hr>
-                <p><strong>Позиція:</strong> Beef Фреш Burger (240г)</p>
-                <p><strong>Опис:</strong> Булочка, масло вершкове, соус BBQ, салат айсберг, огірок свіжий, котлета яловича, соус сирний, помідор, гірчиця, олія</p>
-                <p><strong>Ціна:</strong> 179.0</p>
-                <p><strong>Тип:</strong> Beef Burger</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Beef Фреш Burger (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, масло вершкове, соус BBQ, салат айсберг, огірок свіжий, котлета яловича, соус сирний, помідор, гірчиця, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 179.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Beef Burger</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат "Цезар" з куркою (220г)</p>
-                <p><strong>Опис:</strong> Мікс салатів, помідор чері, філе, яйце куряче, соус Цезар, пармезан, крутони</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат "Цезар" з куркою (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салатів, помідор чері, філе, яйце куряче, соус Цезар, пармезан, крутони</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з яловичиною (180г)</p>
-                <p><strong>Опис:</strong> Мікс салатів, помідор чері, огірок, яловичина, кунжут, соус медово-гірчичний</p>
-                <p><strong>Ціна:</strong> 147.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з яловичиною (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салатів, помідор чері, огірок, яловичина, кунжут, соус медово-гірчичний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 147.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат "Грецький" (180г)</p>
-                <p><strong>Опис:</strong> Мікс салатів, помідор, огірок, перець болгарський, цибуля, оливки, сир фета, оливкова олія, лимон</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат "Грецький" (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салатів, помідор, огірок, перець болгарський, цибуля, оливки, сир фета, оливкова олія, лимон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> Набір снеків (360г)</p>
-                <p><strong>Опис:</strong> Картопля фрі, картопляні діпи, курячі нагетси, цибулеві кільця, сіль, паприка</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> Снеки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Набір снеків (360г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля фрі, картопляні діпи, курячі нагетси, цибулеві кільця, сіль, паприка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Снеки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гострі курячі стріпси (150г)</p>
-                <p><strong>Опис:</strong> Стріпси курячі з перцем в паніровці</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> Снеки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гострі курячі стріпси (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Стріпси курячі з перцем в паніровці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Снеки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі з сирним соусом та беконом (160/30 г)</p>
-                <p><strong>Опис:</strong> Картопля фрі, сіль, паприка, бекон, сирний соус</p>
-                <p><strong>Ціна:</strong> 148.0</p>
-                <p><strong>Тип:</strong> Снеки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі з сирним соусом та беконом (160/30 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля фрі, сіль, паприка, бекон, сирний соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 148.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Снеки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Цибулеві кільця (180г)</p>
-                <p><strong>Опис:</strong> Цибулеві кільця у паніровці</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> Снеки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цибулеві кільця (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цибулеві кільця у паніровці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Снеки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячі нагетси (6шт)</p>
-                <p><strong>Опис:</strong> Нагетси з курячого філе у паніровці</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> Снеки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі нагетси (6шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Нагетси з курячого філе у паніровці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Снеки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі (140г)</p>
-                <p><strong>Опис:</strong> Картопля фрі, паприка, сіль</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> Снеки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі (140г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля фрі, паприка, сіль</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Снеки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопляні діпи (140г)</p>
-                <p><strong>Опис:</strong> Картопляні діпи, паприка, сіль</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> Снеки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопляні діпи (140г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопляні діпи, паприка, сіль</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Снеки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пепсі 0.5л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 38.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пепсі 0.5л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 38.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> 7UP 0.33л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 7UP 0.33л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода газована 0.5л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода газована 0.5л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода негазована 0.5л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода негазована 0.5л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grand Cafe Leopolis / Гранд кафе Леополіс</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/362.png" alt="Restaurant Image">
         <h1>Grand Cafe Leopolis / Гранд кафе Леополіс</h1>
@@ -63,98 +116,119 @@
         <p><strong>Неділя:</strong> 08:00:00 - 22:30:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Запечена куряча котлета + грибний соус (100/20)</p>
-                <p><strong>Опис:</strong> Домашній курячий фарш, цибулька, картопля,спеції, печериці, масло, молоко</p>
-                <p><strong>Ціна:</strong> 79.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечена куряча котлета + грибний соус (100/20)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Домашній курячий фарш, цибулька, картопля,спеції, печериці, масло, молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 79.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинна котлета по-грузинськи (100г)</p>
-                <p><strong>Опис:</strong> Свинина, молоко, чорнослив, цибуля, хліб, яйце, спеції, олія, паніровка сухарів, грецький горіх.</p>
-                <p><strong>Ціна:</strong> 79.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинна котлета по-грузинськи (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина, молоко, чорнослив, цибуля, хліб, яйце, спеції, олія, паніровка сухарів, грецький горіх.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 79.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бурячок з чорносливом та грецьким горіхом (100г)</p>
-                <p><strong>Опис:</strong> Буряк варений, чорнослив, грецький горіх, майонез, спеції</p>
-                <p><strong>Ціна:</strong> 51.0</p>
-                <p><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бурячок з чорносливом та грецьким горіхом (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Буряк варений, чорнослив, грецький горіх, майонез, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 51.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Бурячок (100г)</p>
-                <p><strong>Опис:</strong> Відварений бурячок, олія, цибулька, спеції</p>
-                <p><strong>Ціна:</strong> 51.0</p>
-                <p><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Бурячок (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварений бурячок, олія, цибулька, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 51.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Осінній (100г)</p>
-                <p><strong>Опис:</strong> Капуста, Болгарський перець, морква, олія, сіля, перець</p>
-                <p><strong>Ціна:</strong> 51.0</p>
-                <p><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Осінній (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Капуста, Болгарський перець, морква, олія, сіля, перець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 51.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Синя капуста (100г)</p>
-                <p><strong>Опис:</strong> Синя капуста, цибулька, майонез</p>
-                <p><strong>Ціна:</strong> 51.0</p>
-                <p><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Синя капуста (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Синя капуста, цибулька, майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 51.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ-БАЗОВЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рис запечений з овочами (150г)</p>
-                <p><strong>Опис:</strong> Рис розсипчатий, кукурудза, морква, зелена стрючкова фасоля, вершкове масло, спеції, сіль, перець</p>
-                <p><strong>Ціна:</strong> 56.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рис запечений з овочами (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис розсипчатий, кукурудза, морква, зелена стрючкова фасоля, вершкове масло, спеції, сіль, перець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 56.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Спагетті (150г)</p>
-                <p><strong>Опис:</strong> Спагетті, вершкове масло, сіль, перець</p>
-                <p><strong>Ціна:</strong> 56.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спагетті (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спагетті, вершкове масло, сіль, перець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 56.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грибна юшка з вермішелькою (350г)</p>
-                <p><strong>Опис:</strong> Печериці, вермішелька, масло вершкове, цибуля, морква, питна вода, зелень, перець, сіль</p>
-                <p><strong>Ціна:</strong> 86.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грибна юшка з вермішелькою (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Печериці, вермішелька, масло вершкове, цибуля, морква, питна вода, зелень, перець, сіль</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 86.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячий бульйон (350г)</p>
-                <p><strong>Опис:</strong> Куряче філе, вермішелька, морква, корінь петрушки, сіль, перець, зелень, питна вода</p>
-                <p><strong>Ціна:</strong> 86.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий бульйон (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе, вермішелька, морква, корінь петрушки, сіль, перець, зелень, питна вода</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 86.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ-БАЗОВЕ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирник (200г)</p>
-                <p><strong>Опис:</strong> Сир домашній, шоколадний корж, родзинки, ванільний цукор</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ-ПРЕМІУМ МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирник (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир домашній, шоколадний корж, родзинки, ванільний цукор</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ-ПРЕМІУМ МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-Cola (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-Cola (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fanta (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fanta (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода моршинська (слабогазована)</p>
-                <p><strong>Опис:</strong> (500мл)</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода моршинська (слабогазована)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода моршинська (негазована)</p>
-                <p><strong>Опис:</strong> (500мл)</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода моршинська (негазована)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПРОХОЛОДНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус кисло-солодкий (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус кисло-солодкий (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус барбекю (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус барбекю (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус сирний (30г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус сирний (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

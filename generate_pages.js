@@ -56,19 +56,19 @@ function generatePages(restaurants, menus) {
         // Фільтрування меню для поточного ресторану
         const restaurantMenus = menus.filter(menu => menu.ID_Rest === `${restaurant.id}`);
         // Додаємо інформацію про меню до сторінки
-        let menuContent = '<h2>Меню</h2>';
+        let menuContent = '<h2 style="font-family: Montserrat">Меню</h2>';
         // console.log(restaurantMenus);
         restaurantMenus.forEach(menu => {
             menuContent += `
-                <p><strong>Позиція:</strong> ${menu.Name}</p>
-                <p><strong>Опис:</strong> ${menu.Description}</p>
-                <p><strong>Ціна:</strong> ${menu.Price}</p>
-                <p><strong>Тип:</strong> ${menu.Category}</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> ${menu.Name}</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ${menu.Description}</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> ${menu.Price}</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ${menu.Category}</p>
                 <hr>`;
         });
 
         // Додаємо блок меню до сторінки
-        pageContent = pageContent.replace('</div>', `${menuContent}</div>`);
+        pageContent = pageContent.replace('<!-- Додано блок для виведення інформації про меню --></div>', `${menuContent}</div>`);
 
         // Запис згенерованого HTML у файл
         const outputPath = path.join(__dirname, 'restaurants', `restaurant_${restaurant.Google_ID}.html`);

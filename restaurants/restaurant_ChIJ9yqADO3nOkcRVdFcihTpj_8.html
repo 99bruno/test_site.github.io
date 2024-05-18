@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ШніцBurger</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/341.png" alt="Restaurant Image">
         <h1>ШніцBurger</h1>
@@ -63,178 +116,199 @@
         <p><strong>Неділя:</strong> 11:00:00 - 00:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Карамельний чизкейк (120г)</p>
-                <p><strong>Опис:</strong> Крамбл з мигдального борошна та пшеничного борошна з вершковим сиром,зверху тоффі солена карамель</p>
-                <p><strong>Ціна:</strong> 148.0</p>
-                <p><strong>Тип:</strong> ТОРТИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Карамельний чизкейк (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крамбл з мигдального борошна та пшеничного борошна з вершковим сиром,зверху тоффі солена карамель</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 148.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Батончик Марс  VEGAN</p>
-                <p><strong>Опис:</strong> Аквафаба, кеш‘ю паста, тростинний цукор, кокосовий цукор, мед, кокосова олія,кокосове молоко, молочний шоколад на кокосовому молоці.</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Батончик Марс  VEGAN</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Аквафаба, кеш‘ю паста, тростинний цукор, кокосовий цукор, мед, кокосова олія,кокосове молоко, молочний шоколад на кокосовому молоці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Батончик Снікерс VEGAN</p>
-                <p><strong>Опис:</strong> Аквафаба, арахісова паста, арахіс, Тростинний цукор, кокосовий цукор, кокосова олія, мед, кокосове молоко,молочний шоколад на кокосовому молоці, сіль.</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Батончик Снікерс VEGAN</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Аквафаба, арахісова паста, арахіс, Тростинний цукор, кокосовий цукор, кокосова олія, мед, кокосове молоко,молочний шоколад на кокосовому молоці, сіль.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> брауні</p>
-                <p><strong>Опис:</strong> шоколадне брауні з орео\печивом</p>
-                <p><strong>Ціна:</strong> 67.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> брауні</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> шоколадне брауні з орео\печивом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 67.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лате солена карамель (300мл)</p>
-                <p><strong>Опис:</strong> Лате з додавання соленої карамелі власного виробництва</p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате солена карамель (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лате з додавання соленої карамелі власного виробництва</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лате (300мл)</p>
-                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
-                <p><strong>Ціна:</strong> 86.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 86.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лавандовий раф (300мл)</p>
-                <p><strong>Опис:</strong> Кавовий напій на основі еспресо, ванільного цукру і жирних вершків</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лавандовий раф (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кавовий напій на основі еспресо, ванільного цукру і жирних вершків</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Раф (300мл)</p>
-                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
-                <p><strong>Ціна:</strong> 83.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Раф (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 83.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Карамельне капучино (220мл)</p>
-                <p><strong>Опис:</strong> 100% Specialty Арабіка з карамеллю</p>
-                <p><strong>Ціна:</strong> 83.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Карамельне капучино (220мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% Specialty Арабіка з карамеллю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 83.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Флет Вайт (220мл)</p>
-                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
-                <p><strong>Ціна:</strong> 78.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Флет Вайт (220мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 78.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Капучино (220мл)</p>
-                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино (220мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Допіо (35мл)</p>
-                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Допіо (35мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Еспресо (20мл)</p>
-                <p><strong>Опис:</strong> 100% Specialty Арабіка</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еспресо (20мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% Specialty Арабіка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Зелена матча на кокосовому молоці (300мл)</p>
-                <p><strong>Опис:</strong> Японський чай, напій з густою піною</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> МАТЧА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зелена матча на кокосовому молоці (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Японський чай, напій з густою піною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАТЧА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Зелена матча (300мл)</p>
-                <p><strong>Опис:</strong> Японський чай, зелений напій з густою піною</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> МАТЧА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зелена матча (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Японський чай, зелений напій з густою піною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАТЧА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кокосове какао (300мл)</p>
-                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
-                <p><strong>Ціна:</strong> 94.0</p>
-                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кокосове какао (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 94.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НЕ КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Карамельне какао (300мл)</p>
-                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
-                <p><strong>Ціна:</strong> 77.0</p>
-                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Карамельне какао (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 77.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НЕ КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лавандове какао (300мл)</p>
-                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
-                <p><strong>Ціна:</strong> 77.0</p>
-                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лавандове какао (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 77.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НЕ КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао (300мл)</p>
-                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НЕ КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гречаний чай (300мл)</p>
-                <p><strong>Опис:</strong> Чай</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гречаний чай (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чай</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НЕ КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай чорний (300мл)</p>
-                <p><strong>Опис:</strong> Трав'яний напій</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай чорний (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Трав'яний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НЕ КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай з жасмином (300мл)</p>
-                <p><strong>Опис:</strong> Трав'яний напій</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай з жасмином (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Трав'яний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НЕ КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай трав’яний (300мл)</p>
-                <p><strong>Опис:</strong> Трав'яний напій</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай трав’яний (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Трав'яний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НЕ КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай фруктовий (300мл)</p>
-                <p><strong>Опис:</strong> Чай</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НЕ КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай фруктовий (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чай</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НЕ КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Матча зелена (100г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 590.0</p>
-                <p><strong>Тип:</strong> ТОВАРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Матча зелена (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 590.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОВАРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Матча зелена (50г)</p>
-                <p><strong>Опис:</strong> 50г</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ТОВАРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Матча зелена (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 50г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОВАРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Матча синя (20г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> ТОВАРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Матча синя (20г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОВАРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай Масала (300мл)</p>
-                <p><strong>Опис:</strong> Індійські прянощі, смак: кардамону, кориці та мускатного горіха</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ЧАЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай Масала (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Індійські прянощі, смак: кардамону, кориці та мускатного горіха</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧАЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай Чорниця-малина-розмарин-кардамон (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> ЧАЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай Чорниця-малина-розмарин-кардамон (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧАЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай Полуниця-лайм-м'ята (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> ЧАЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай Полуниця-лайм-м'ята (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧАЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай Обліпиха-апельсин-кориця (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> ЧАЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай Обліпиха-апельсин-кориця (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧАЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай Квіти троянди (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> ЧАЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай Квіти троянди (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧАЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай Молочний улун (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> ЧАЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай Молочний улун (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧАЙ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай Шу пуер (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> ЧАЙ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай Шу пуер (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧАЙ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

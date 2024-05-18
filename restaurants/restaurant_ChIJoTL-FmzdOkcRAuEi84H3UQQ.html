@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Churrasco Grill & Wine</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/403.png" alt="Restaurant Image">
         <h1>Churrasco Grill & Wine</h1>
@@ -63,185 +116,206 @@
         <p><strong>Неділя:</strong> 11:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Сніданок з ростбіфом (350г)</p>
-                <p><strong>Опис:</strong> Оката яєчня разом із соковитими шматками ростбіфу, хрустким бріошем, свіжим салатом з помідорів, огірків, мікс салату, перцю з ніжним з крем-сиром із зеленою цибулею</p>
-                <p><strong>Ціна:</strong> 287.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сніданок з ростбіфом (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Оката яєчня разом із соковитими шматками ростбіфу, хрустким бріошем, свіжим салатом з помідорів, огірків, мікс салату, перцю з ніжним з крем-сиром із зеленою цибулею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 287.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сніданок з лососем (350г)</p>
-                <p><strong>Опис:</strong> Скрамбл ідеально смакує зі слабосоленим лососем, салатом зі свіжих овочів в поєднанні з ніжним крем-сиром із зеленою цибулею. Подається з хрустким бріошем і ароматним маслом зі свіжою зеленню та часником</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сніданок з лососем (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Скрамбл ідеально смакує зі слабосоленим лососем, салатом зі свіжих овочів в поєднанні з ніжним крем-сиром із зеленою цибулею. Подається з хрустким бріошем і ароматним маслом зі свіжою зеленню та часником</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сніданок з куркою су-від (350г)</p>
-                <p><strong>Опис:</strong> Куряче філе су-від, омлет, мікс салат з помідорами чері, огірок, лимонний курд, бріошем</p>
-                <p><strong>Ціна:</strong> 251.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сніданок з куркою су-від (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе су-від, омлет, мікс салат з помідорами чері, огірок, лимонний курд, бріошем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 251.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники з солоною карамеллю (250г)</p>
-                <p><strong>Опис:</strong> Ніжні сирники під солоною карамеллю власного виробництва</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники з солоною карамеллю (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні сирники під солоною карамеллю власного виробництва</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Цезар класичний (260г)</p>
-                <p><strong>Опис:</strong> Куряче філе, салат айсберг, крутони, сир Пармезан та соус Цезар</p>
-                <p><strong>Ціна:</strong> 249.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар класичний (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе, салат айсберг, крутони, сир Пармезан та соус Цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 249.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем-суп з сочевиці (330г)</p>
-                <p><strong>Опис:</strong> Вершковий крем-суп із червоної сочевиці з ароматним маслом зі свіжою зеленню та часником</p>
-                <p><strong>Ціна:</strong> 159.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем-суп з сочевиці (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершковий крем-суп із червоної сочевиці з ароматним маслом зі свіжою зеленню та часником</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 159.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирний крем-суп (260г)</p>
-                <p><strong>Опис:</strong> Ніжний крем-суп з сиру, довершений шматками смаженого бекону</p>
-                <p><strong>Ціна:</strong> 159.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний крем-суп (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний крем-суп з сиру, довершений шматками смаженого бекону</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 159.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Томатний крем-суп (375г)</p>
-                <p><strong>Опис:</strong> Пікантний крем-суп з томатів в поєднанні з вершками та перцем чилі з запашними прованськими травами</p>
-                <p><strong>Ціна:</strong> 159.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Томатний крем-суп (375г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пікантний крем-суп з томатів в поєднанні з вершками та перцем чилі з запашними прованськими травами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 159.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячі нагетси (150/50г)</p>
-                <p><strong>Опис:</strong> курячі нагетси з хрусткою скоринкою та часниковим соусом</p>
-                <p><strong>Ціна:</strong> 181.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧИЙ ПЕРЕКУС</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі нагетси (150/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> курячі нагетси з хрусткою скоринкою та часниковим соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 181.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧИЙ ПЕРЕКУС</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирні палички (230/35г)</p>
-                <p><strong>Опис:</strong> Обсмажений в клярі сир моцарелла з пікантним томатним соусом</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧИЙ ПЕРЕКУС</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирні палички (230/35г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Обсмажений в клярі сир моцарелла з пікантним томатним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧИЙ ПЕРЕКУС</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі (170/50г)</p>
-                <p><strong>Опис:</strong> картопля фрі з кетчупом</p>
-                <p><strong>Ціна:</strong> 91.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧИЙ ПЕРЕКУС</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі (170/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> картопля фрі з кетчупом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 91.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧИЙ ПЕРЕКУС</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сендвіч з ростбіфом (310г)</p>
-                <p><strong>Опис:</strong> Хрусткий гречаний хліб в поєднанні з соковитим ростбіфом, приготованим способом су-від, свіжим салатом, огірком, соусом Тартар, тостовим сиром та цибулею. Подається з картоплею пай</p>
-                <p><strong>Ціна:</strong> 287.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сендвіч з ростбіфом (310г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрусткий гречаний хліб в поєднанні з соковитим ростбіфом, приготованим способом су-від, свіжим салатом, огірком, соусом Тартар, тостовим сиром та цибулею. Подається з картоплею пай</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 287.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сендвіч з куркою та сиром Моцарелла (340г)</p>
-                <p><strong>Опис:</strong> Поєднання гречаного хліба з куркою су-від, сиром Моцарела, мікс салатом під соусом Голандез та унікальним джемом з бекону, який додає особливого смаку. Подається з картоплею пай</p>
-                <p><strong>Ціна:</strong> 253.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сендвіч з куркою та сиром Моцарелла (340г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поєднання гречаного хліба з куркою су-від, сиром Моцарела, мікс салатом під соусом Голандез та унікальним джемом з бекону, який додає особливого смаку. Подається з картоплею пай</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 253.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сендвіч з лососем (300 г)</p>
-                <p><strong>Опис:</strong> Філе слабосоленого  лосося, ніжного авокадо-мусу, крем-сир та свіжий салат. 
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сендвіч з лососем (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе слабосоленого  лосося, ніжного авокадо-мусу, крем-сир та свіжий салат. 
 Подається в хрумкому бріоші з міксом салату та помідорами черрі.</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сендвіч курка-бекон (300 г)</p>
-                <p><strong>Опис:</strong> Ніжна, медова курочка  та хрумкий бекон,  фірмове яблучне пюре та свіжа зелень.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сендвіч курка-бекон (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжна, медова курочка  та хрумкий бекон,  фірмове яблучне пюре та свіжа зелень.
 Подається в хрумкому бріоші з міксом салату та помідорами черрі.</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава суміш Арабіка Люкс 500 г</p>
-                <p><strong>Опис:</strong> Кава сортів арабіки з Латинської Америки. Аромат горіховий, з легким відтінком апельсинової цедри. Смак свіжий, приємний, збалансований, вершковий, з нотами зеленого яблука та лимону.</p>
-                <p><strong>Ціна:</strong> 790.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава суміш Арабіка Люкс 500 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава сортів арабіки з Латинської Америки. Аромат горіховий, з легким відтінком апельсинової цедри. Смак свіжий, приємний, збалансований, вершковий, з нотами зеленого яблука та лимону.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 790.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава суміш Шоколадна 300 г</p>
-                <p><strong>Опис:</strong> Суміш арабіки та робусти з Південно-Східної Азії. Аромат - шоколадний, відчутні ноти горіха та спецій (чорний перець). Смак - виражена гірчинка, яка нагадує чорний шоколад, терпкуватість, духм'яний перець. Текстура какао.</p>
-                <p><strong>Ціна:</strong> 400.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава суміш Шоколадна 300 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суміш арабіки та робусти з Південно-Східної Азії. Аромат - шоколадний, відчутні ноти горіха та спецій (чорний перець). Смак - виражена гірчинка, яка нагадує чорний шоколад, терпкуватість, духм'яний перець. Текстура какао.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 400.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава суміш Львівська 300 г</p>
-                <p><strong>Опис:</strong> Суміш арабіки та робусти з Центральної Америки та Азії. Аромат приємний. В смаку ледь відчутні спеції, горіх, з додаванням цукру з'являється легкий присмак карамелі,післясмак тривалий. Міцна. Легко п'ється і добре поєднується з молоком.</p>
-                <p><strong>Ціна:</strong> 400.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава суміш Львівська 300 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суміш арабіки та робусти з Центральної Америки та Азії. Аромат приємний. В смаку ледь відчутні спеції, горіх, з додаванням цукру з'являється легкий присмак карамелі,післясмак тривалий. Міцна. Легко п'ється і добре поєднується з молоком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 400.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава суміш Класична 300 г</p>
-                <p><strong>Опис:</strong> Суміш арабіки та робусти з Центральної Америки та Азії. Аромат - приємний з легкою димкуватістю. Смак терпкий, збалансований, з легкою кислинкою спілого яблука. М'яка гірчинка.</p>
-                <p><strong>Ціна:</strong> 360.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава суміш Класична 300 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суміш арабіки та робусти з Центральної Америки та Азії. Аромат - приємний з легкою димкуватістю. Смак терпкий, збалансований, з легкою кислинкою спілого яблука. М'яка гірчинка.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 360.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава суміш Вірменська 200 г</p>
-                <p><strong>Опис:</strong> Аромат схожий на шоколадний бісквіт. Смак із яскраво вираженими нотами чорносливу з горіхами. Також відчуваються сухофрукти, кислинка м'яка, винна, більше розкривається у післясмаку. Найкраще смакує у еспресо та гейзерній кавоварці, добра з молоком.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава суміш Вірменська 200 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Аромат схожий на шоколадний бісквіт. Смак із яскраво вираженими нотами чорносливу з горіхами. Також відчуваються сухофрукти, кислинка м'яка, винна, більше розкривається у післясмаку. Найкраще смакує у еспресо та гейзерній кавоварці, добра з молоком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава суміш Східна Таємниця 200 г</p>
-                <p><strong>Опис:</strong> Суміш трьох сортів арабіки. Аромат - горіховий з нотами сухофруктів, родзинок. Тіло (міцність)-середнє. Смак збалансований горіховий, з нотами спецій та тютюну, кислинка легка, цитрусова. Післясмак приємний, довготривалий, пряний, з текстурою какао.</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава суміш Східна Таємниця 200 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суміш трьох сортів арабіки. Аромат - горіховий з нотами сухофруктів, родзинок. Тіло (міцність)-середнє. Смак збалансований горіховий, з нотами спецій та тютюну, кислинка легка, цитрусова. Післясмак приємний, довготривалий, пряний, з текстурою какао.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава суміш Львівська 200 г</p>
-                <p><strong>Опис:</strong> Суміш арабіки та робусти з Центральної Америки та Азії. Аромат приємний. В смаку ледь відчутні спеції, горіх, з додаванням цукру з'являється легкий присмак карамелі,післясмак тривалий. Міцна. Легко п'ється і добре поєднується з молоком.</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава суміш Львівська 200 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суміш арабіки та робусти з Центральної Америки та Азії. Аромат приємний. В смаку ледь відчутні спеції, горіх, з додаванням цукру з'являється легкий присмак карамелі,післясмак тривалий. Міцна. Легко п'ється і добре поєднується з молоком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава з ароматом Шоколад 150 г</p>
-                <p><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Шоколад</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава з ароматом Шоколад 150 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Шоколад</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава з ароматом Топлене молоко 150 г</p>
-                <p><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Топлене молоко</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава з ароматом Топлене молоко 150 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Топлене молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава з ароматом Карамель 150 г</p>
-                <p><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Карамель</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава з ароматом Карамель 150 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Карамель</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава з ароматом Коньяк 150</p>
-                <p><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Коньяк</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава з ароматом Коньяк 150</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Коньяк</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава з ароматом Ірландський крем 150 г</p>
-                <p><strong>Опис:</strong> Кава трьох сортів Арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Ірландський крем</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава з ароматом Ірландський крем 150 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава трьох сортів Арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Ірландський крем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава з ароматом Кориця 150 г</p>
-                <p><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Кориця</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава з ароматом Кориця 150 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава трьох сортів арабіки з Мексики, Азії та Ефіопії, з додаванням ароматизатора Кориця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава для Нього 150 г</p>
-                <p><strong>Опис:</strong> Суміш арабіки та робусти з Центральної Америки та Азії. Аромат - приємний з легкою димкуватістю. Смак терпкий, збалансований, з легкою кислинкою спілого яблука. М'яка гірчинка.</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава для Нього 150 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суміш арабіки та робусти з Центральної Америки та Азії. Аромат - приємний з легкою димкуватістю. Смак терпкий, збалансований, з легкою кислинкою спілого яблука. М'яка гірчинка.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава для Неї 150 г</p>
-                <p><strong>Опис:</strong> Арабіка з Ефіопії має приємний аромат какао та цитрусів, м'яке, проте доволі насичене тіло (помірна міцність), киcлинка відчутна - лимонна, смак схожий на зелений чай, солодкість помірна з нотками молочного шоколаду з легким приємним післясмаком.</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава для Неї 150 г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Арабіка з Ефіопії має приємний аромат какао та цитрусів, м'яке, проте доволі насичене тіло (помірна міцність), киcлинка відчутна - лимонна, смак схожий на зелений чай, солодкість помірна з нотками молочного шоколаду з легким приємним післясмаком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Торт "Чорничні ночі"</p>
-                <p><strong>Опис:</strong> пухкий шоколадний бісквіт з ніжним чорничним чизкейком та конфі з чорниці</p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Торт "Чорничні ночі"</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> пухкий шоколадний бісквіт з ніжним чорничним чизкейком та конфі з чорниці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Карамельний чизкейк (150г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Карамельний чизкейк (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Торт "Мигдалевий бумцик" (110г)</p>
-                <p><strong>Опис:</strong> білково-мигдалеві коржі з ніжним ванільним кремом та мигдалевими пластівцями</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Торт "Мигдалевий бумцик" (110г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> білково-мигдалеві коржі з ніжним ванільним кремом та мигдалевими пластівцями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Наполеон (130г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наполеон (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Спартак (100г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спартак (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

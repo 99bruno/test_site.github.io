@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loveroll</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/174.png" alt="Restaurant Image">
         <h1>Loveroll</h1>
@@ -63,279 +116,300 @@
         <p><strong>Неділя:</strong> 14:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Піца з телятиною</p>
-                <p><strong>Опис:</strong> Вершковий соус, сир Моцарела, телятина, гриби Печериці, цибуля, помідор Чері, сир Грана падано</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца з телятиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершковий соус, сир Моцарела, телятина, гриби Печериці, цибуля, помідор Чері, сир Грана падано</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца з лососем</p>
-                <p><strong>Опис:</strong> Вершковий соус, сир Моцарела, лосось, помідор, сир Грана падано</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца з лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершковий соус, сир Моцарела, лосось, помідор, сир Грана падано</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Кватро Формаджі</p>
-                <p><strong>Опис:</strong> Соус на вибір, сир Моцарела, сир Горгонзола, сир Ементаль, сир Грана падано</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Кватро Формаджі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус на вибір, сир Моцарела, сир Горгонзола, сир Ементаль, сир Грана падано</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Італі</p>
-                <p><strong>Опис:</strong> Оливкова олія, сир Моцарела, прошуто, помідор Чері, салат Рукола, сир Грана падано</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Італі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Оливкова олія, сир Моцарела, прошуто, помідор Чері, салат Рукола, сир Грана падано</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Тонно</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, тунець консервований, маслини, каперси, цибуля, помідори</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Тонно</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, тунець консервований, маслини, каперси, цибуля, помідори</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Джовано</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, шинка, ковбаса Салмі, маслини, болгарський перець, цибуля</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Джовано</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, шинка, ковбаса Салмі, маслини, болгарський перець, цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца зі шпинатом та Філадельфією</p>
-                <p><strong>Опис:</strong> Вершковий соус, сир Моцарела, печена куряча грудка, свіжий шпинат, сир Філадельфія, груша</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца зі шпинатом та Філадельфією</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершковий соус, сир Моцарела, печена куряча грудка, свіжий шпинат, сир Філадельфія, груша</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Гостра Пепероні</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, гострий перець, ковбаса Салямі, малини</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Гостра Пепероні</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, гострий перець, ковбаса Салямі, малини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Leopoli cheese</p>
-                <p><strong>Опис:</strong> Соус на вибір, сир Моцарела, сир Сулугуні, сир Моцарела в розсолі, сир Маасдам</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Leopoli cheese</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус на вибір, сир Моцарела, сир Сулугуні, сир Моцарела в розсолі, сир Маасдам</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Угорська</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, ковбаса Салямі, гриби Печериці, маслини</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Угорська</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, ковбаса Салямі, гриби Печериці, маслини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Кардінале</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, ковбаски копчені, шинка, куряча шинка, яйце</p>
-                <p><strong>Ціна:</strong> 238.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Кардінале</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, ковбаски копчені, шинка, куряча шинка, яйце</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 238.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Барбек'ю</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, гриби Печериці, ковбаски копчені, печена куряча грудка, помідор</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Барбек'ю</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, гриби Печериці, ковбаски копчені, печена куряча грудка, помідор</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Вегетеріанська</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, цвітна капуста, броколі, квасоля стручкова, болгарський перець, гриби Печериці, помідор</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Вегетеріанська</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, цвітна капуста, броколі, квасоля стручкова, болгарський перець, гриби Печериці, помідор</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Капрічіоза</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, шинка, гриби Печериці, 
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Капрічіоза</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, шинка, гриби Печериці, 
 болгарський перець, помідор</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кальцоне вулкан</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, шинка, куряча шинка, яйце, часник</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кальцоне вулкан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, шинка, куряча шинка, яйце, часник</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Гавайська</p>
-                <p><strong>Опис:</strong> Томатний соус, сир Моцарела, шинка, консервований ананас</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Гавайська</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, сир Моцарела, шинка, консервований ананас</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кальцоне закрита</p>
-                <p><strong>Опис:</strong> Томатний соус, свіжі гриби Печериці, шанка, сир Моцарела, болгарський перець</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кальцоне закрита</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатний соус, свіжі гриби Печериці, шанка, сир Моцарела, болгарський перець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Пологрігія</p>
-                <p><strong>Опис:</strong> Вершковий соус, печена куряча грудка, помідор, цибуля</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Пологрігія</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершковий соус, печена куряча грудка, помідор, цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Маргарита</p>
-                <p><strong>Опис:</strong> Помідори, томатний соус, сир Моцарела, сир Моцарела в розсолі, базилік</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Маргарита</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Помідори, томатний соус, сир Моцарела, сир Моцарела в розсолі, базилік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Віні Пух Дитяча</p>
-                <p><strong>Опис:</strong> Соус, сир, болгарський перець, шинка, маслини</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Віні Пух Дитяча</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус, сир, болгарський перець, шинка, маслини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Тальятелле</p>
-                <p><strong>Опис:</strong> Телятина, гриби</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Тальятелле</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Телятина, гриби</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Болоньєзе</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Болоньєзе</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Овочева</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Овочева</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Карбонара</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Карбонара</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Овочі гриль з телятиною</p>
-                <p><strong>Опис:</strong> Болгарський перець, гриби Печериці, баклажани, цукіні</p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Овочі гриль з телятиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Болгарський перець, гриби Печериці, баклажани, цукіні</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з Руколою та прошуто</p>
-                <p><strong>Опис:</strong> Салат Рукола, прошуто, сир Моцарела, груша, помідор Чері, синя цибуля, болгарський перець, соус Бальзаміко</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з Руколою та прошуто</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат Рукола, прошуто, сир Моцарела, груша, помідор Чері, синя цибуля, болгарський перець, соус Бальзаміко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Цезар</p>
-                <p><strong>Опис:</strong> Мікс салату, огірки, помідор Чері, печена куряча грудка, бекон, соус Пармезан, сир Пармезан, грінки</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, огірки, помідор Чері, печена куряча грудка, бекон, соус Пармезан, сир Пармезан, грінки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Ніца</p>
-                <p><strong>Опис:</strong> Мікс салату, овочі, тунець, анчоуси, маслини, синя цибуля, олія, яйце Пашот</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Ніца</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, овочі, тунець, анчоуси, маслини, синя цибуля, олія, яйце Пашот</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Овочевий салат з авокадо і кіноа</p>
-                <p><strong>Опис:</strong> Шпинат, авокадо, огірок, помідор Чері, маринована цибуля</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Овочевий салат з авокадо і кіноа</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шпинат, авокадо, огірок, помідор Чері, маринована цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Грецький</p>
-                <p><strong>Опис:</strong> Мікс салату, овочі, сир Фета, маслини, гриби Печериці, синя цибуля, олія, сік лимона</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Грецький</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, овочі, сир Фета, маслини, гриби Печериці, синя цибуля, олія, сік лимона</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Олів'є</p>
-                <p><strong>Опис:</strong> Варені овочі, свіжий огірок, печена куряча грудка, кукурудза, яйцк перепелине, домашній майонез</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Олів'є</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Варені овочі, свіжий огірок, печена куряча грудка, кукурудза, яйцк перепелине, домашній майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Шопський</p>
-                <p><strong>Опис:</strong> Овочі, сир Бринза, синя цибуля, зелень, олія</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Шопський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Овочі, сир Бринза, синя цибуля, зелень, олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Селера та яблука</p>
-                <p><strong>Опис:</strong> Паростки селери, яблуко, сир Голандський, домашній майонез, сметана</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Селера та яблука</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паростки селери, яблуко, сир Голандський, домашній майонез, сметана</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Теплий салат з квасолі</p>
-                <p><strong>Опис:</strong> Морква, цибуля, гриби Печериці, квасоля, грінки, зелень</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з квасолі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Морква, цибуля, гриби Печериці, квасоля, грінки, зелень</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Вітамінний</p>
-                <p><strong>Опис:</strong> Свіжа капуста, зелень, насіння соняшника</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Вітамінний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжа капуста, зелень, насіння соняшника</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гарбузовий крем-суп</p>
-                <p><strong>Опис:</strong> З бринзою та беконом</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гарбузовий крем-суп</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З бринзою та беконом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем-суп Сирний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем-суп Сирний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем-суп з броколі та Пармезаном</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем-суп з броколі та Пармезаном</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем-суп Грибний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем-суп Грибний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем-суп Шпинатний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем-суп Шпинатний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паніні Прошуто</p>
-                <p><strong>Опис:</strong> Салат Рукола, авокадо, крем-сир, соус Песто</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> ПАНІНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паніні Прошуто</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат Рукола, авокадо, крем-сир, соус Песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАНІНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паніні Капрезе</p>
-                <p><strong>Опис:</strong> Сир Моцарела, помідор, базилік, соус Песто</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> ПАНІНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паніні Капрезе</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир Моцарела, помідор, базилік, соус Песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАНІНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паніні з тунцем</p>
-                <p><strong>Опис:</strong> Листя салату, помідор, огірок, синя цибуля</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> ПАНІНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паніні з тунцем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Листя салату, помідор, огірок, синя цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАНІНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паніні з курячим філе</p>
-                <p><strong>Опис:</strong> Листя салату, помідор, огірок, синя цибуля</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> ПАНІНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паніні з курячим філе</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Листя салату, помідор, огірок, синя цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАНІНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паніні з беконом</p>
-                <p><strong>Опис:</strong> Листя салату, помідор, огірок, синя цибуля</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> ПАНІНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паніні з беконом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Листя салату, помідор, огірок, синя цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАНІНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинці з куркою, болгарським перцем та кремово-сирною начинкою</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з куркою, болгарським перцем та кремово-сирною начинкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинці з домашнім сиром та родзинками</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з домашнім сиром та родзинками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинці з Печерицями</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з Печерицями</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинці з яблуками</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з яблуками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Брауні</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Брауні</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тірамісу</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тірамісу</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вершки з чорносливом та горіхами</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вершки з чорносливом та горіхами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Сандора в асортименті</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Сандора в асортименті</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кока-Кола</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кока-Кола</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

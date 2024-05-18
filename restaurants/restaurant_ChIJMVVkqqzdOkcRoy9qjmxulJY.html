@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YOKI</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/129.png" alt="Restaurant Image">
         <h1>YOKI</h1>
@@ -63,145 +116,166 @@
         <p><strong>Неділя:</strong> 12:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Бургер меню</p>
-                <p><strong>Опис:</strong> Бургер зі свининою або з курячим стейком, картоплею фрі, соус до фрі на вибір та напій на вибір</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бургер зі свининою або з курячим стейком, картоплею фрі, соус до фрі на вибір та напій на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фрі меню</p>
-                <p><strong>Опис:</strong> Картопля фрі 200г з ковбаскою на вибір або з  курячими нагетсами та напій на вибір</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фрі меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля фрі 200г з ковбаскою на вибір або з  курячими нагетсами та напій на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дитяче Фрі Меню</p>
-                <p><strong>Опис:</strong> Золотиста картопелька фрі - 100г, курячі нагетси в хрусткій скоринці - 4шт, соус на вибір + сік річ kids 0,2л</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> КОМБО-МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дитяче Фрі Меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Золотиста картопелька фрі - 100г, курячі нагетси в хрусткій скоринці - 4шт, соус на вибір + сік річ kids 0,2л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО-МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-Дог Класичний</p>
-                <p><strong>Опис:</strong> Може бути з молочною сосискою або з мисливською ковбаскою</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-Дог Класичний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Може бути з молочною сосискою або з мисливською ковбаскою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-Дог Супер</p>
-                <p><strong>Опис:</strong> Може бути з двома молочними сосисками або з двома мисливськими ковбасками</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-Дог Супер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Може бути з двома молочними сосисками або з двома мисливськими ковбасками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-Дог в лаваші</p>
-                <p><strong>Опис:</strong> Може бути з молочною сосискою або з мисливською ковбаскою</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-Дог в лаваші</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Може бути з молочною сосискою або з мисливською ковбаскою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-Дог в лаваші супер</p>
-                <p><strong>Опис:</strong> Може бути з двома молочними сосисками або з двома мисливськими ковбасками</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-Дог в лаваші супер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Може бути з двома молочними сосисками або з двома мисливськими ковбасками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Біг Бургер свинний</p>
-                <p><strong>Опис:</strong> Дві свинні котлети</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ГАМБУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Біг Бургер свинний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дві свинні котлети</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАМБУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Біг Бургер з курячими стейками</p>
-                <p><strong>Опис:</strong> Два курячі стейки</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ГАМБУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Біг Бургер з курячими стейками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Два курячі стейки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАМБУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гамбургер свинний</p>
-                <p><strong>Опис:</strong> Біфштекс із натуральної свинини,
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гамбургер свинний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Біфштекс із натуральної свинини,
  шматочки маринованого огірка, морква, капуста, помідор свіжий, кукурудза, листя салату, заправлені
  гірчицею, майонезом і кетчупом, у запашній булочці з
  пшеничного борошна.</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ГАМБУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАМБУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гамбургер з курячим стейком</p>
-                <p><strong>Опис:</strong> Шматок смаженого філе курячого,
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гамбургер з курячим стейком</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматок смаженого філе курячого,
  шматочки маринованого огірка, морква, капуста, помідор свіжий, кукурудза, листя салату, заправлені
  гірчицею, майонезом і кетчупом, у запашній булочці з
  пшеничного борошна.</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ГАМБУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАМБУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Велика кишеня</p>
-                <p><strong>Опис:</strong> Найситніша страва, яку ви зможете наповнити самостійно</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> ВЕЛИКА КИШЕНЯ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Велика кишеня</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Найситніша страва, яку ви зможете наповнити самостійно</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕЛИКА КИШЕНЯ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі (200г)</p>
-                <p><strong>Опис:</strong> Золотиста картопелька фрі. Подається з томатним або часниковим соусом на вибір</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> КАРТОПЛЯ ФРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Золотиста картопелька фрі. Подається з томатним або часниковим соусом на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАРТОПЛЯ ФРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> НАГЕТСИ (курячі)</p>
-                <p><strong>Опис:</strong> Соковиті курячі нагетси, обсмажені у фритюрі до хрусткого смаку. Доступні порції
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> НАГЕТСИ (курячі)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковиті курячі нагетси, обсмажені у фритюрі до хрусткого смаку. Доступні порції
  4-6-8шт. Додатково можна замовити на вибір томатний або часниковий соус.</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> КАРТОПЛЯ ФРІ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАРТОПЛЯ ФРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі (100г)</p>
-                <p><strong>Опис:</strong> Золотиста картопелька фрі. Подається з томатним або часниковим соусом на вибір</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> КАРТОПЛЯ ФРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Золотиста картопелька фрі. Подається з томатним або часниковим соусом на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАРТОПЛЯ ФРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Rich (500мл)</p>
-                <p><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Rich (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fuzetea (500мл)</p>
-                <p><strong>Опис:</strong> Холодний чай</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fuzetea (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Холодний чай</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кола (500мл)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кола (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фанта (500мл)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фанта (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Спрайт (500мл)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спрайт (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Швепс (330мл)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Швепс (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фанта (330мл)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фанта (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Спрайт (330мл)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спрайт (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Rich (200мл)</p>
-                <p><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Rich (200мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бонаква (500мл)</p>
-                <p><strong>Опис:</strong> Мінеральна вода</p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бонаква (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мінеральна вода</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат із свіжих овочів</p>
-                <p><strong>Опис:</strong> Порція 220г салату зі свіжих овочів, таких як: капуста терта, морква по корейськи, огірочок квашений, помідор свіжий, кукурузка консервована, зелень (цибулька, кріп) заправлений часниковим соусом на основі майонезу.</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> САЛАТ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат із свіжих овочів</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Порція 220г салату зі свіжих овочів, таких як: капуста терта, морква по корейськи, огірочок квашений, помідор свіжий, кукурузка консервована, зелень (цибулька, кріп) заправлений часниковим соусом на основі майонезу.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

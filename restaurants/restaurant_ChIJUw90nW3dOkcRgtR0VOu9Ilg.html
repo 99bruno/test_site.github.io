@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Druzi Cafe</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/196.png" alt="Restaurant Image">
         <h1>Druzi Cafe</h1>
@@ -63,209 +116,230 @@
         <p><strong>Неділя:</strong> 09:00:00 - 21:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Млинець Курка-сир-гриби (300г)</p>
-                <p><strong>Опис:</strong> Млинець з сиром, помідор, листя салату, соус, зварені печериці та куряча грудинка нарізана кубиками</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Курка-сир-гриби (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Млинець з сиром, помідор, листя салату, соус, зварені печериці та куряча грудинка нарізана кубиками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець шинка-сир (300г)</p>
-                <p><strong>Опис:</strong> Млинець з сиром, помідор, листя салату, соус та шинка нарізана плястерками</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець шинка-сир (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Млинець з сиром, помідор, листя салату, соус та шинка нарізана плястерками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець з сиром (250г)</p>
-                <p><strong>Опис:</strong> Млинець з сиром, помідор, листя салату, соус</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з сиром (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Млинець з сиром, помідор, листя салату, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Без Начинки (80г)</p>
-                <p><strong>Опис:</strong> Тісто на молоці з додавання яйця, води цукру та солі</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Без Начинки (80г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тісто на молоці з додавання яйця, води цукру та солі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець Nutella-банан (310г)</p>
-                <p><strong>Опис:</strong> Млинець з Nutella та бананом</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Nutella-банан (310г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Млинець з Nutella та бананом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинець Білий шоколад-банан (310г)</p>
-                <p><strong>Опис:</strong> Млинець з білим шоколадом та бананом</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Білий шоколад-банан (310г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Млинець з білим шоколадом та бананом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Без начинки (80г)</p>
-                <p><strong>Опис:</strong> Тісто на молоці з додавання яйця, води цукру та солі</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Без начинки (80г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тісто на молоці з додавання яйця, води цукру та солі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай Fuza (0.5л)</p>
-                <p><strong>Опис:</strong> Холодний чай</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай Fuza (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Холодний чай</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-Cola (0.5л)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-Cola (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fanta (0.5 л)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fanta (0.5 л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Молочний коктейль XXL (500мл)</p>
-                <p><strong>Опис:</strong> Молоко, морозиво, джем</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Молочний коктейль XXL (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Молоко, морозиво, джем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Маслопиво коктейль XXL (500мл)</p>
-                <p><strong>Опис:</strong> Прохолодний напій на основі  квасу з додаванням морозива та льоду</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Маслопиво коктейль XXL (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прохолодний напій на основі  квасу з додаванням морозива та льоду</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Молочний коктейль M (350мл)</p>
-                <p><strong>Опис:</strong> Молоко, морозиво, джем</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Молочний коктейль M (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Молоко, морозиво, джем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Маслопиво коктейль М (350мл)</p>
-                <p><strong>Опис:</strong> Прохолодний напій на основі  квасу з додаванням морозива та льоду.</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Маслопиво коктейль М (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прохолодний напій на основі  квасу з додаванням морозива та льоду.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Освіжуючий коктейль XXL (500мл)</p>
-                <p><strong>Опис:</strong> Прохолодний напій на основі 7up з додаванням сиропу та льоду</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Освіжуючий коктейль XXL (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прохолодний напій на основі 7up з додаванням сиропу та льоду</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Еспресо Доппіо (70мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Еспресо Доппіо (70мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Еспресо з молоком (50мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Еспресо з молоком (50мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Еспресо (35мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Еспресо (35мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Американо з молоком M (350мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Американо з молоком M (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Американо M (350мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Американо M (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Американо з молоком S (250мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Американо з молоком S (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Американо S (250мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Американо S (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Капучіно XXL (500мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Капучіно XXL (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Капучіно M (350мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Капучіно M (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Капучіно S (250мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Капучіно S (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Банановий Лате XXL (500мл)</p>
-                <p><strong>Опис:</strong> 100% Арабіка</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Банановий Лате XXL (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% Арабіка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гарбузове лате (350мл)</p>
-                <p><strong>Опис:</strong> Лате на основі гарбузового пюре та молока
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гарбузове лате (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лате на основі гарбузового пюре та молока
 100% arabica</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Лате XXL (500мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Лате XXL (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Лате M (350мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Лате M (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Лате S (250мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Лате S (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Флет Вайт (250мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Флет Вайт (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Авторська з імбиром та медом XXL (350мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Авторська з імбиром та медом XXL (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кава Авторська з імбиром та медом S (250мл)</p>
-                <p><strong>Опис:</strong> 100% arabica</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Авторська з імбиром та медом S (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 100% arabica</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао XXL (500мл)</p>
-                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао XXL (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао M (350мл)</p>
-                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао M (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао S (250мл)</p>
-                <p><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао S (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий напій на основі какао та молока</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гарячий шоколад XXL (500мл)</p>
-                <p><strong>Опис:</strong> Шоколадний напій</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гарячий шоколад XXL (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколадний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гарячий шоколад S (350мл)</p>
-                <p><strong>Опис:</strong> Шоколадний напій</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гарячий шоколад S (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколадний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай із обліпіхою та імбиром (350мл)</p>
-                <p><strong>Опис:</strong> Вітамінний чай, 100% натуральний</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай із обліпіхою та імбиром (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вітамінний чай, 100% натуральний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай з малиною та апельсином (350мл)</p>
-                <p><strong>Опис:</strong> Вітамінний чай, 100% натуральний</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай з малиною та апельсином (350мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вітамінний чай, 100% натуральний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

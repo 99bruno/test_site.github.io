@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khlibokrai / Хлібокрай</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/358.png" alt="Restaurant Image">
         <h1>Khlibokrai / Хлібокрай</h1>
@@ -63,423 +116,444 @@
         <p><strong>Неділя:</strong> 07:00:00 - 17:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Круасан Цезар (270г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, шматочки курячого філе в паніруванні, підсмажений бекон, сир Пармезан, помідор, салат Айсберг, фірмовий соус Цезар власного приготування</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Спешл Чікен (270г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, ніжні курячі шматочки, сир з пліснявою, підсмажений бекон, маринований огірочок, айсберг</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Сніданковий (300г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, смажене яйце, ніжна куряча котлета,  підсмажений бекон, сир Чедер, помідор</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Салямі-сир (260г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, шматочки Салямі, сир вершковий, помідор, салат Айсберг</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Сирний (240г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, подвійна порція сиру Чедер, сир з пліснявою, томати, айсберг</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Шоколад-Полуниця-Вершки (220г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, шоколадно-горіхова паста зі шматочками полуниці та збитими вершками</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Банан-Шоколад (220г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, шоколадно-горіхова паста зі шматочками банану</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Вишня-Шоколад (200г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, ароматний конфітюр зі шматочками вишні, шоколадно-горіхова паста</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Груша-Шоколад (220г)</p>
-                <p><strong>Опис:</strong> масляний  круасан, шоколадно-горіхова паста із шматочками  груші Дюшес</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Вишня (180г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, ароматний конфітюр зі шматочками вишні</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Круасан Абрикос (180г)</p>
-                <p><strong>Опис:</strong> Хрумкий круасан, ароматний конфітюр зі шматочками абрикосу</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> КРУАСАНИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинець Цезар (440г)</p>
-                <p><strong>Опис:</strong> Запашний млинець, шматочки курячого філе в паніруванні, сир Пармезан, помідор, салат Айсберг, фірмовий соус Цезар власного приготування</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинець Курка-сир (370г)</p>
-                <p><strong>Опис:</strong> Запашний млинець, шматочки курячого філе в паніруванні, помідор, сир вершковий</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинець з полуницею та шоколадом (275г)</p>
-                <p><strong>Опис:</strong> Млинець, соковита полуниця, шоколадно-горіхова паста</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинець Сир-помідор (320г)</p>
-                <p><strong>Опис:</strong> Запашний млинець, фірмова сирна намазка власного приготування, сир вершковий, помідор</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинець з шоколадом та вишнею (275г)</p>
-                <p><strong>Опис:</strong> Запашний млинець, ароматний конфітюр зі шматочками вишні, шоколадно-горіхова паста</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинець з бананом та шоколадом (325г)</p>
-                <p><strong>Опис:</strong> Запашний млинець, шоколадно-горіхова паста, шматочки банану</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинець з шоколадом та абрикосом (275г)</p>
-                <p><strong>Опис:</strong> Запашний млинець, конфітюр із шматочками абрикосу, шоколадно-горіхова паста</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Млинець з ківі та шоколадом (275г)</p>
-                <p><strong>Опис:</strong> Млинець,  ароматний конфітюр із шматочками ківі, шоколадно-горіхова паста</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МЛИНЦІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш гранатовий (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 665.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш ананас-гранат (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 615.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш ананасовий (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 550.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш грейпфрутовий (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 435.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш грушевий (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 390.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш апельсин-грейпфрут (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 375.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш апельсиновий (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 315.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш яблуко-груша (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш апельсин-морква (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш морквяний (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш морква-яблуко (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш яблучний (1л)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Вишня</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з вишневою начинкою та хрустиками</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Панна Котта</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з апетитною полунично-ванільною начинкою, молочною глазур"ю із шматочками сушеної полуниці</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Тропік</p>
-                <p><strong>Опис:</strong> солодкий апетитний донат з тропічною начинкою - манго і питахайя та цукровою пудрою</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат із Сирним кремом</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат із сирним кремом та  начинкою з лісових ягід</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Рафаелло</p>
-                <p><strong>Опис:</strong> ніжний , солодкий донат з апетитною кокосово-мигдалевою начинкою та кокосовою посипкою</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Різдвяні Марципани</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з марципановою начинкою та хрустиками</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Карамель</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з апетитною карамельною начинкою та молочною глазур'ю</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Шоколад з M&M's</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з шоколадною начинкою та шоколадною глазур'ю із крихтою M&M's</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Шоколад-Малина</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з  малиновою начинкою та шоколадною глазур'ю</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Малина</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з  малиновою начинкою та фруктовою глазур'ю</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Лісова Ягода</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з  ягідною начинкою та фруктовою глазур'ю</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Манго</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з апетитною начинкою з манго та молочною глазур'ю із хрустиками</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Персик</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат з  персиковою начинкою та фруктовою глазур'ю</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Заварний Крем</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат із заварним кремом то молочною глазур'ю</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Полуничний</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат із полуничною начинкою та фруктовою глазур'ю</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Карамель-Горіх</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат із карамельною начинкою та  глазур'ю з горіхами</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат Ягідний</p>
-                <p><strong>Опис:</strong> Ніжний, солодкий донат із ягідною начинкою та фруктовою глазур'ю з хрустиками</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ПОНЧИКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо з молоком (400 мл)</p>
-                <p><strong>Опис:</strong> Класична свіжомелена, запашна кава арабіка з гарячим молоком</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лате (400 мл)</p>
-                <p><strong>Опис:</strong> Кавово-молочний напій на основі еспресо, гарячого молока та ніжної піни</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Капучіно (400 мл)</p>
-                <p><strong>Опис:</strong> Подвійна порція еспресо з ніжною молочною піною</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо з молоком (300 мл)</p>
-                <p><strong>Опис:</strong> Класична свіжомелена, запашна кава арабіка з гарячим молоком</p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лате (300 мл)</p>
-                <p><strong>Опис:</strong> Кавово-молочний напій на основі еспресо (арабіка), гарячого молока та ніжної піни</p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Капучіно (300 мл)</p>
-                <p><strong>Опис:</strong> Подвійна порція еспресо з ніжною молочною піною</p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Несквік (300 мл)</p>
-                <p><strong>Опис:</strong> Гарячий шоколадно-молочний напій</p>
-                <p><strong>Ціна:</strong> 48.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай вітамінний в асортименті (330мл)</p>
-                <p><strong>Опис:</strong> Натуральний концентрат  на основі малини, обліпихи, журавлини та натурального меду</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо (300мл)</p>
-                <p><strong>Опис:</strong> Класична свіжомелена, запашна кава арабіка</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай пакетований Пальміра (400 мл)</p>
-                <p><strong>Опис:</strong> В асортименті: чорний, чорний з бергамотом, чорний з манго, зелений, трав'яний, м'ята, фруктовий, бризки шампанського</p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Pepsi (0.5л)</p>
-                <p><strong>Опис:</strong> освіжаючий сильногазований напій у пляшці</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Mirinda (0.5л)</p>
-                <p><strong>Опис:</strong> освіжаючий сильногазований напій у пляшці</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Pepsi Max (500 мл)</p>
-                <p><strong>Опис:</strong> освіжаючий сильногазований напій без цукру у пляшці</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сік Galicia в асортименті (0.2л)</p>
-                <p><strong>Опис:</strong> натуральний сік прямого віджиму</p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Джерельна Карпатська сильногазована (0.5л)</p>
-                <p><strong>Опис:</strong> Сильногазована</p>
-                <p><strong>Ціна:</strong> 27.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Джерельна Карпатська негазована (0.5л)</p>
-                <p><strong>Опис:</strong> Негазована</p>
-                <p><strong>Ціна:</strong> 27.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл Джем: Шоколад-Вишня (200г)</p>
-                <p><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл Джем: Ківі-Ананас (200 г)</p>
-                <p><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл Джем: Манго-Диня (200 г)</p>
-                <p><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл Джем: Полуниця-Білий Шоколад з Кокосом (200 г)</p>
-                <p><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл Джем: Персик-Апельсин (200г)</p>
-                <p><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Крейзі Мікс</p>
-                <p><strong>Опис:</strong> Ванільне м'яке морозиво з джемом на вибір та посипкою крейзі мікс: M&M's, арахіс та шматочки шоколаду</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шейк Йогуртовий (400мл)</p>
-                <p><strong>Опис:</strong> Йогуртовий шейк без додатків (з кислинкою)</p>
-                <p><strong>Ціна:</strong> 54.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шейк з полуничним сиропом (400мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 53.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шейк з банановим сиропом (400 мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 53.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шейк з шоколадним сиропом (400 мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 53.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шейк ванільний (400мл)</p>
-                <p><strong>Опис:</strong> молочний коктель без додатків</p>
-                <p><strong>Ціна:</strong> 48.0</p>
-                <p><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Йогурт заморожений з додатками (200г)</p>
-                <p><strong>Опис:</strong> добірний заморожений йогурт, политий натуральним джемом з кусочками фруктів</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ЙОГУРТ ЗАМОРОЖЕНИЙ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Йогурт заморожений без додатків (200г)</p>
-                <p><strong>Опис:</strong> добірний заморожений йогурт</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> ЙОГУРТ ЗАМОРОЖЕНИЙ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смузі Манго (400 мл)</p>
-                <p><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> СМУЗІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смузі Ананас (400 мл)</p>
-                <p><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> СМУЗІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смузі Малина (400 мл)</p>
-                <p><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> СМУЗІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смузі Полуниця (400 мл)</p>
-                <p><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> СМУЗІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смузі Чорниця (400 мл)</p>
-                <p><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> СМУЗІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Смузі Вишня (400 мл)</p>
-                <p><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> СМУЗІ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Цезар (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, шматочки курячого філе в паніруванні, підсмажений бекон, сир Пармезан, помідор, салат Айсберг, фірмовий соус Цезар власного приготування</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Спешл Чікен (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, ніжні курячі шматочки, сир з пліснявою, підсмажений бекон, маринований огірочок, айсберг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Сніданковий (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, смажене яйце, ніжна куряча котлета,  підсмажений бекон, сир Чедер, помідор</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Салямі-сир (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, шматочки Салямі, сир вершковий, помідор, салат Айсберг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Сирний (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, подвійна порція сиру Чедер, сир з пліснявою, томати, айсберг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Шоколад-Полуниця-Вершки (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, шоколадно-горіхова паста зі шматочками полуниці та збитими вершками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Банан-Шоколад (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, шоколадно-горіхова паста зі шматочками банану</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Вишня-Шоколад (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, ароматний конфітюр зі шматочками вишні, шоколадно-горіхова паста</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Груша-Шоколад (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> масляний  круасан, шоколадно-горіхова паста із шматочками  груші Дюшес</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Вишня (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, ароматний конфітюр зі шматочками вишні</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан Абрикос (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий круасан, ароматний конфітюр зі шматочками абрикосу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КРУАСАНИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Цезар (440г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запашний млинець, шматочки курячого філе в паніруванні, сир Пармезан, помідор, салат Айсберг, фірмовий соус Цезар власного приготування</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Курка-сир (370г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запашний млинець, шматочки курячого філе в паніруванні, помідор, сир вершковий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з полуницею та шоколадом (275г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Млинець, соковита полуниця, шоколадно-горіхова паста</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець Сир-помідор (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запашний млинець, фірмова сирна намазка власного приготування, сир вершковий, помідор</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з шоколадом та вишнею (275г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запашний млинець, ароматний конфітюр зі шматочками вишні, шоколадно-горіхова паста</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з бананом та шоколадом (325г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запашний млинець, шоколадно-горіхова паста, шматочки банану</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з шоколадом та абрикосом (275г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Запашний млинець, конфітюр із шматочками абрикосу, шоколадно-горіхова паста</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинець з ківі та шоколадом (275г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Млинець,  ароматний конфітюр із шматочками ківі, шоколадно-горіхова паста</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЛИНЦІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш гранатовий (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 665.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш ананас-гранат (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 615.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш ананасовий (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 550.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш грейпфрутовий (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 435.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш грушевий (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 390.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш апельсин-грейпфрут (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 375.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш апельсиновий (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 315.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш яблуко-груша (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш апельсин-морква (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш морквяний (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш морква-яблуко (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш яблучний (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Вишня</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з вишневою начинкою та хрустиками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Панна Котта</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з апетитною полунично-ванільною начинкою, молочною глазур"ю із шматочками сушеної полуниці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Тропік</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> солодкий апетитний донат з тропічною начинкою - манго і питахайя та цукровою пудрою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат із Сирним кремом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат із сирним кремом та  начинкою з лісових ягід</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Рафаелло</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ніжний , солодкий донат з апетитною кокосово-мигдалевою начинкою та кокосовою посипкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Різдвяні Марципани</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з марципановою начинкою та хрустиками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Карамель</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з апетитною карамельною начинкою та молочною глазур'ю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Шоколад з M&M's</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з шоколадною начинкою та шоколадною глазур'ю із крихтою M&M's</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Шоколад-Малина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з  малиновою начинкою та шоколадною глазур'ю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Малина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з  малиновою начинкою та фруктовою глазур'ю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Лісова Ягода</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з  ягідною начинкою та фруктовою глазур'ю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Манго</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з апетитною начинкою з манго та молочною глазур'ю із хрустиками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Персик</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат з  персиковою начинкою та фруктовою глазур'ю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Заварний Крем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат із заварним кремом то молочною глазур'ю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Полуничний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат із полуничною начинкою та фруктовою глазур'ю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Карамель-Горіх</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат із карамельною начинкою та  глазур'ю з горіхами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат Ягідний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний, солодкий донат із ягідною начинкою та фруктовою глазур'ю з хрустиками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПОНЧИКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо з молоком (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична свіжомелена, запашна кава арабіка з гарячим молоком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кавово-молочний напій на основі еспресо, гарячого молока та ніжної піни</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучіно (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подвійна порція еспресо з ніжною молочною піною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо з молоком (300 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична свіжомелена, запашна кава арабіка з гарячим молоком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате (300 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кавово-молочний напій на основі еспресо (арабіка), гарячого молока та ніжної піни</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучіно (300 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подвійна порція еспресо з ніжною молочною піною</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Несквік (300 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гарячий шоколадно-молочний напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 48.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай вітамінний в асортименті (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Натуральний концентрат  на основі малини, обліпихи, журавлини та натурального меду</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична свіжомелена, запашна кава арабіка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай пакетований Пальміра (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> В асортименті: чорний, чорний з бергамотом, чорний з манго, зелений, трав'яний, м'ята, фруктовий, бризки шампанського</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Pepsi (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> освіжаючий сильногазований напій у пляшці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Mirinda (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> освіжаючий сильногазований напій у пляшці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Pepsi Max (500 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> освіжаючий сильногазований напій без цукру у пляшці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Galicia в асортименті (0.2л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> натуральний сік прямого віджиму</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Джерельна Карпатська сильногазована (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сильногазована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 27.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Джерельна Карпатська негазована (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Негазована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 27.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл Джем: Шоколад-Вишня (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл Джем: Ківі-Ананас (200 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл Джем: Манго-Диня (200 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл Джем: Полуниця-Білий Шоколад з Кокосом (200 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл Джем: Персик-Апельсин (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ванільне м'яке морозиво з подвійним джемом та кусочками фруктів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крейзі Мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ванільне м'яке морозиво з джемом на вибір та посипкою крейзі мікс: M&M's, арахіс та шматочки шоколаду</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шейк Йогуртовий (400мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Йогуртовий шейк без додатків (з кислинкою)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 54.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шейк з полуничним сиропом (400мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 53.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шейк з банановим сиропом (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 53.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шейк з шоколадним сиропом (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 53.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шейк ванільний (400мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> молочний коктель без додатків</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 48.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОРОЗИВО ТА МОЛОЧНИЙ ШЕЙК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Йогурт заморожений з додатками (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> добірний заморожений йогурт, политий натуральним джемом з кусочками фруктів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЙОГУРТ ЗАМОРОЖЕНИЙ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Йогурт заморожений без додатків (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> добірний заморожений йогурт</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЙОГУРТ ЗАМОРОЖЕНИЙ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смузі Манго (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМУЗІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смузі Ананас (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМУЗІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смузі Малина (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМУЗІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смузі Полуниця (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМУЗІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смузі Чорниця (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМУЗІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смузі Вишня (400 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> фруктовий коктель, приготовлений шляхом збивання натуральних заморожених фруктів на основі фруктового сиропу</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМУЗІ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

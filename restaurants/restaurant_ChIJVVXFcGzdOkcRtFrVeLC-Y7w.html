@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHALOM</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/48.png" alt="Restaurant Image">
         <h1>SHALOM</h1>
@@ -63,190 +116,211 @@
         <p><strong>Неділя:</strong> 08:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Мутабаль</p>
-                <p><strong>Опис:</strong> закуска з топінамбура, тахіні та йогурту, яку ми подаємо зі схугом, гранатом та заатаром</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> МЕЗЕ-БАР</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мутабаль</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> закуска з топінамбура, тахіні та йогурту, яку ми подаємо зі схугом, гранатом та заатаром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕЗЕ-БАР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарамасалата (50г)</p>
-                <p><strong>Опис:</strong> традиційна грецька закуска з двох видів ікри, тріски та оселедцю. Готуємо з йогуртом, подаємо з пряним маслом та зеленою цибулею.</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> МЕЗЕ-БАР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарамасалата (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> традиційна грецька закуска з двох видів ікри, тріски та оселедцю. Готуємо з йогуртом, подаємо з пряним маслом та зеленою цибулею.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕЗЕ-БАР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Форшмак (50г)</p>
-                <p><strong>Опис:</strong> це традиційна єврейська закуска, яку ми готуємо з оселедця матіас та кислих яблук. Подаємо з маринованою червоною цибулею.</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МЕЗЕ-БАР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Форшмак (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> це традиційна єврейська закуска, яку ми готуємо з оселедця матіас та кислих яблук. Подаємо з маринованою червоною цибулею.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕЗЕ-БАР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хумус (50г)</p>
-                <p><strong>Опис:</strong> це класика близькосхідної кухні, яку ми в Шаломі готові їсти тарілками. Готуємо з нута та тахіні, подаємо з гострим соусом та кінзою, але можемо змінити це для тебе.</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> МЕЗЕ-БАР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хумус (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> це класика близькосхідної кухні, яку ми в Шаломі готові їсти тарілками. Готуємо з нута та тахіні, подаємо з гострим соусом та кінзою, але можемо змінити це для тебе.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕЗЕ-БАР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лабне</p>
-                <p><strong>Опис:</strong> кремова близькосхідна закуска з сальсою з квашених томатів, заатаром та цедрою лимона</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> МЕЗЕ-БАР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лабне</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> кремова близькосхідна закуска з сальсою з квашених томатів, заатаром та цедрою лимона</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕЗЕ-БАР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чірші</p>
-                <p><strong>Опис:</strong> пряна лівійська закуска з гарбуза та моркви, яку ми подаємо з заатаром та схугом</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> МЕЗЕ-БАР</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чірші</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> пряна лівійська закуска з гарбуза та моркви, яку ми подаємо з заатаром та схугом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МЕЗЕ-БАР</p>
                 <hr>
-                <p><strong>Позиція:</strong> Усе разом (430г)</p>
-                <p><strong>Опис:</strong> Увесь наш хліб зі збитим вершковим маслом</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> НАШ ХЛІБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Усе разом (430г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Увесь наш хліб зі збитим вершковим маслом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАШ ХЛІБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піта (90г)</p>
-                <p><strong>Опис:</strong> Наш дріжджовий хліб.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піта (90г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Наш дріжджовий хліб.
 Ідеально підходить для всіх наших закусок</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> НАШ ХЛІБ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАШ ХЛІБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хала</p>
-                <p><strong>Опис:</strong> Ізраїльский здобний дріжджовий хліб</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> НАШ ХЛІБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хала</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ізраїльский здобний дріжджовий хліб</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАШ ХЛІБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лафа (100г)</p>
-                <p><strong>Опис:</strong> Наш цільнозерновий коржик</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НАШ ХЛІБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лафа (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Наш цільнозерновий коржик</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАШ ХЛІБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ростбіф з теля</p>
-                <p><strong>Опис:</strong> це ніжне м’ясо, яке ми подаємо з сальсою з квашених томатів, тахіні, схугом, печеною цибулею, малдонською сіллю та каперсами.</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ростбіф з теля</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> це ніжне м’ясо, яке ми подаємо з сальсою з квашених томатів, тахіні, схугом, печеною цибулею, малдонською сіллю та каперсами.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рубані баклажани</p>
-                <p><strong>Опис:</strong> Подаемо з густим йогуртом та мухамарою</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рубані баклажани</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаемо з густим йогуртом та мухамарою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паштет з курячої печінки</p>
-                <p><strong>Опис:</strong> подаємо з житнім тостом та солоними огірками</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паштет з курячої печінки</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> подаємо з житнім тостом та солоними огірками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тартар із оселедця</p>
-                <p><strong>Опис:</strong> з латкес з картоплі та солоною сметаною.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тартар із оселедця</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> з латкес з картоплі та солоною сметаною.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Артишоки</p>
-                <p><strong>Опис:</strong> Це гастрономічний старт твоєї трапези. Обсмажуємо та маринуємо артишоки з лимонною цедрою та петрушкою,  подаємо з густим йогуртом та томатною сальсою</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Артишоки</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Це гастрономічний старт твоєї трапези. Обсмажуємо та маринуємо артишоки з лимонною цедрою та петрушкою,  подаємо з густим йогуртом та томатною сальсою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мариновані томати</p>
-                <p><strong>Опис:</strong> Це хумус з томатами чи томати з хумусом? Вирішувати тобі</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мариновані томати</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Це хумус з томатами чи томати з хумусом? Вирішувати тобі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бабагануш</p>
-                <p><strong>Опис:</strong> Намазка із запечених баклажанів з йогуртом,
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бабагануш</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Намазка із запечених баклажанів з йогуртом,
 подаємо з зернами гранату, посипаємо кінзою</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Мухаммара</p>
-                <p><strong>Опис:</strong> Закуска із запеченого перцю, подаємо з кедровими горішками та зеленою цибулею</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мухаммара</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Закуска із запеченого перцю, подаємо з кедровими горішками та зеленою цибулею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Запечений буряк</p>
-                <p><strong>Опис:</strong> запікаємо на тліючому вугіллі, подаємо з салатом радічіо, кремом з сиру шевр та фундуком</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечений буряк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> запікаємо на тліючому вугіллі, подаємо з салатом радічіо, кремом з сиру шевр та фундуком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фалафель</p>
-                <p><strong>Опис:</strong> готуемо із нуту, подаемо з тахіні, ароматною олією, маринованою цибулею та харіссою</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фалафель</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> готуемо із нуту, подаемо з тахіні, ароматною олією, маринованою цибулею та харіссою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТАРТЕРИ І ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Нісуаз</p>
-                <p><strong>Опис:</strong> з в'яленими оливками, тунцем, томатами та печеною картоплею</p>
-                <p><strong>Ціна:</strong> 420.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Нісуаз</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> з в'яленими оливками, тунцем, томатами та печеною картоплею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 420.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Теплий салат з теляти</p>
-                <p><strong>Опис:</strong> готуємо з печеними овочами, та подаємо на кремі з топінамбуру</p>
-                <p><strong>Ціна:</strong> 390.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з теляти</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> готуємо з печеними овочами, та подаємо на кремі з топінамбуру</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 390.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Зелений салат</p>
-                <p><strong>Опис:</strong> Салат з усім корисним зеленим, що є у світі. Обпалений авокадо, зелений горошок, латук, ромен, фризе, мангольд, петрушка, м'ята. Подаємо з кремом із сиру шевр</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зелений салат</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат з усім корисним зеленим, що є у світі. Обпалений авокадо, зелений горошок, латук, ромен, фризе, мангольд, петрушка, м'ята. Подаємо з кремом із сиру шевр</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лафа з лососем та тунцем</p>
-                <p><strong>Опис:</strong> Міксуємо печений лосось та тунець, додаємо овочі, зелень, оливки, хумус з зеленого горошку, тахіну і схуг</p>
-                <p><strong>Ціна:</strong> 385.0</p>
-                <p><strong>Тип:</strong> ЛАФА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лафа з лососем та тунцем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Міксуємо печений лосось та тунець, додаємо овочі, зелень, оливки, хумус з зеленого горошку, тахіну і схуг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 385.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛАФА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лафа з подвійним курчам</p>
-                <p><strong>Опис:</strong> З різними соусами, овочами та салатом айсберг.</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> ЛАФА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лафа з подвійним курчам</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З різними соусами, овочами та салатом айсберг.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛАФА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лафа сирна</p>
-                <p><strong>Опис:</strong> Із сирним соусом, куркою та овочами.</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> ЛАФА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лафа сирна</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Із сирним соусом, куркою та овочами.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛАФА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лафа смеш</p>
-                <p><strong>Опис:</strong> Із цибулевим варенням, сиром чеддер, котлетами з яловичини, гірчицею та овочами.</p>
-                <p><strong>Ціна:</strong> 305.0</p>
-                <p><strong>Тип:</strong> ЛАФА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лафа смеш</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Із цибулевим варенням, сиром чеддер, котлетами з яловичини, гірчицею та овочами.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 305.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛАФА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Борщ</p>
-                <p><strong>Опис:</strong> з кебабом</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> СУПИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Борщ</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> з кебабом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУПИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Велика тарілка хумусу з креветками</p>
-                <p><strong>Опис:</strong> Подаємо з нашими соліннями, тахіна, сальса халапеньо</p>
-                <p><strong>Ціна:</strong> 385.0</p>
-                <p><strong>Тип:</strong> ТАРІЛКА ХУМУСУ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Велика тарілка хумусу з креветками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаємо з нашими соліннями, тахіна, сальса халапеньо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 385.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТАРІЛКА ХУМУСУ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Велика тарілка хумусу зі швармою з курча</p>
-                <p><strong>Опис:</strong> подаємо з нашими соліннями, тахіна, сальса халапеньо</p>
-                <p><strong>Ціна:</strong> 295.0</p>
-                <p><strong>Тип:</strong> ТАРІЛКА ХУМУСУ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Велика тарілка хумусу зі швармою з курча</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> подаємо з нашими соліннями, тахіна, сальса халапеньо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 295.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТАРІЛКА ХУМУСУ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Велика тарілка хумуса з фалафелем</p>
-                <p><strong>Опис:</strong> Подаємо з нашими соліннями, тахіна, сальса халапеньо</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> ТАРІЛКА ХУМУСУ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Велика тарілка хумуса з фалафелем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаємо з нашими соліннями, тахіна, сальса халапеньо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТАРІЛКА ХУМУСУ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Наполеон (310г)</p>
-                <p><strong>Опис:</strong> Із ванільним кремом</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> СОЛОДКЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Наполеон (310г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Із ванільним кремом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Малиновий чізкейк (210г)</p>
-                <p><strong>Опис:</strong> Із заварним вишневим кремом та фундуком</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> СОЛОДКЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Малиновий чізкейк (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Із заварним вишневим кремом та фундуком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОЛОДКЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Яблуко (200мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> СІК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яблуко (200мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СІК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Апельсин (200мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> СІК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Апельсин (200мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СІК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Томатний (200мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> СІК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Томатний (200мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СІК</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

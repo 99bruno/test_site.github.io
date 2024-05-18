@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IQ PIZZA</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/39.png" alt="Restaurant Image">
         <h1>IQ PIZZA</h1>
@@ -63,213 +116,234 @@
         <p><strong>Неділя:</strong> 09:30:00 - 21:30:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Піца Сирне курча (465г)</p>
-                <p><strong>Опис:</strong> Соус Сирний, курка маринована, сир твердий, сир Моцарела</p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Промоакції</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Сирне курча (465г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Сирний, курка маринована, сир твердий, сир Моцарела</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Промоакції</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грецька (565г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, курка маринована, сир моцарела, помідори, салат Айсберг, сир Фелата, маслини, соус бальзамічний</p>
-                <p><strong>Ціна:</strong> 175.2</p>
-                <p><strong>Тип:</strong> Промоакції</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грецька (565г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, курка маринована, сир моцарела, помідори, салат Айсберг, сир Фелата, маслини, соус бальзамічний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.2</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Промоакції</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вершковий лосось (500г)</p>
-                <p><strong>Опис:</strong> Соус вершково-шпинатний, сир моцарела, лосось, помідори, маслини, сир Фелата</p>
-                <p><strong>Ціна:</strong> 223.2</p>
-                <p><strong>Тип:</strong> Промоакції</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вершковий лосось (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершково-шпинатний, сир моцарела, лосось, помідори, маслини, сир Фелата</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 223.2</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Промоакції</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тунець (460г)</p>
-                <p><strong>Опис:</strong> Соус вершково-шпинатний, цибуля маринована, сир моцарела, тунець, кукурудза, маслини, часникова олія</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тунець (460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершково-шпинатний, цибуля маринована, сир моцарела, тунець, кукурудза, маслини, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Чізбургер (435г)</p>
-                <p><strong>Опис:</strong> Соус BBQ, цибуля маринована, курка маринована, сир Моцарела,  огірок маринований, сир Чедер</p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Чізбургер (435г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус BBQ, цибуля маринована, курка маринована, сир Моцарела,  огірок маринований, сир Чедер</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Цезар (490г)</p>
-                <p><strong>Опис:</strong> Соус Вершковий, курка маринована, сир Моцарела, салат Айсберг, соус Цезар, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 179.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Цезар (490г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Вершковий, курка маринована, сир Моцарела, салат Айсберг, соус Цезар, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 179.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Пепероні (410г)</p>
-                <p><strong>Опис:</strong> Соус Томатний, сир Моцарела, пепероні, перець Халапеньйо</p>
-                <p><strong>Ціна:</strong> 179.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Пепероні (410г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Томатний, сир Моцарела, пепероні, перець Халапеньйо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 179.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца 4 м'яса (485г)</p>
-                <p><strong>Опис:</strong> Соус Томатний, цибуля маринована, салямі, ковбаски, курка маринована, бекон, сир моцарела, зелень, часникова олія</p>
-                <p><strong>Ціна:</strong> 169.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца 4 м'яса (485г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Томатний, цибуля маринована, салямі, ковбаски, курка маринована, бекон, сир моцарела, зелень, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 169.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца М'ясна BBQ (480г)</p>
-                <p><strong>Опис:</strong> Соус BBQ, цибуля маринована, ковбаски, курка маринована, бекон, сир Моцарела, кукурудза, зелень, часникова олія</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца М'ясна BBQ (480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус BBQ, цибуля маринована, ковбаски, курка маринована, бекон, сир Моцарела, кукурудза, зелень, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца 4 сири (390г)</p>
-                <p><strong>Опис:</strong> Соус Сирний, сир твердий, сир Моцарела, сир Дорблю, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца 4 сири (390г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Сирний, сир твердий, сир Моцарела, сир Дорблю, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Карбонара (430г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, бекон, сир Моцарела, жовток, сир Пармезан, перець чорний молотий</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Карбонара (430г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, бекон, сир Моцарела, жовток, сир Пармезан, перець чорний молотий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Баварська (475г)</p>
-                <p><strong>Опис:</strong> Соус Томатний, ковбаски баварські, печериці, сир Моцарела, перець болгарський, зелень, часникова олія</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Баварська (475г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Томатний, ковбаски баварські, печериці, сир Моцарела, перець болгарський, зелень, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Мисливська (480г)</p>
-                <p><strong>Опис:</strong> Соус Томатний, цибуля маринована, ковбаски баварські, печериці, сир Моцарела, перець халапеньйо</p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Мисливська (480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Томатний, цибуля маринована, ковбаски баварські, печериці, сир Моцарела, перець халапеньйо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца White Chicken (460г)</p>
-                <p><strong>Опис:</strong> Соус Вершковий, цибуля маринована, курка маринована, бекон, сир Моцарела, помідор</p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца White Chicken (460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Вершковий, цибуля маринована, курка маринована, бекон, сир Моцарела, помідор</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Курка BBQ (440г)</p>
-                <p><strong>Опис:</strong> Соус BBQ, цибуля маринована, курка маринована,  сир моцарела, кукурудза, часникова олія</p>
-                <p><strong>Ціна:</strong> 142.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Курка BBQ (440г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус BBQ, цибуля маринована, курка маринована,  сир моцарела, кукурудза, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 142.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Франческа (470г)</p>
-                <p><strong>Опис:</strong> Соус Томатний, салямі, печериці, помідор, сир Моцарела, маринований огірок, часникова олія</p>
-                <p><strong>Ціна:</strong> 142.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Франческа (470г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Томатний, салямі, печериці, помідор, сир Моцарела, маринований огірок, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 142.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Гавайська (455г)</p>
-                <p><strong>Опис:</strong> Соус Вершковий, цибуля маринована, курка маринована, ананас, сир Моцарела, зелень</p>
-                <p><strong>Ціна:</strong> 142.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Гавайська (455г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Вершковий, цибуля маринована, курка маринована, ананас, сир Моцарела, зелень</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 142.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Салямі White (440г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, цибуля маринована, ковбаски, салямі, сир Моцарела</p>
-                <p><strong>Ціна:</strong> 139.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Салямі White (440г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, цибуля маринована, ковбаски, салямі, сир Моцарела</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 139.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Сирна салямі (415г)</p>
-                <p><strong>Опис:</strong> Соус томатний, салямі, сир Моцарела</p>
-                <p><strong>Ціна:</strong> 139.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Сирна салямі (415г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, салямі, сир Моцарела</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 139.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца курка гриби (425г)</p>
-                <p><strong>Опис:</strong> Соус Вершково-шпинатний, цибуля маринована, курка маринована, печериці, сир моцарела, зелень, часникова олія</p>
-                <p><strong>Ціна:</strong> 139.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца курка гриби (425г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Вершково-шпинатний, цибуля маринована, курка маринована, печериці, сир моцарела, зелень, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 139.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Маргарита (400г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, помідор, зелень</p>
-                <p><strong>Ціна:</strong> 96.0</p>
-                <p><strong>Тип:</strong> ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Маргарита (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, помідор, зелень</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 96.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Patriot (570г)</p>
-                <p><strong>Опис:</strong> Свинина маринована, сир моцарела, цибуля маринована, перець болгарський, салат Айсберг, кунжут, соус вершковий, соус солодкий чилі</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Patriot (570г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина маринована, сир моцарела, цибуля маринована, перець болгарський, салат Айсберг, кунжут, соус вершковий, соус солодкий чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Himars (590г)</p>
-                <p><strong>Опис:</strong> Свинина маринована, картопля маринована, цибуля маринована, сир моцарела, сир пармезан, соус BBQ, соус Цезар</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Himars (590г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина маринована, картопля маринована, цибуля маринована, сир моцарела, сир пармезан, соус BBQ, соус Цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чорнобаївка (600г)</p>
-                <p><strong>Опис:</strong> Свинина маринована, бекон, сир моцарела, помідори, цибуля маринована, кукурудза, соус BBQ, соус теріяки</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чорнобаївка (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина маринована, бекон, сир моцарела, помідори, цибуля маринована, кукурудза, соус BBQ, соус теріяки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Джавелін (535г)</p>
-                <p><strong>Опис:</strong> Свинина маринована, сир моцарела, цибуля маринована, маслини, перець Халапеньйо, кукурудза, кунжут, соус томатний</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Джавелін (535г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина маринована, сир моцарела, цибуля маринована, маслини, перець Халапеньйо, кукурудза, кунжут, соус томатний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Байрактар (535г)</p>
-                <p><strong>Опис:</strong> Свинина маринована, сир моцарела, сир дорблю, цибуля маринована, сир тостерний, льон, соус вершковий, соус з журавлини</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Байрактар (535г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина маринована, сир моцарела, сир дорблю, цибуля маринована, сир тостерний, льон, соус вершковий, соус з журавлини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВІЙСЬКОВІ ПІЦИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> IQ П'ятірка</p>
-                <p><strong>Опис:</strong> Гавайська, Сирне курча, Карбонара, Курка гриби, Салямi White (30 см)</p>
-                <p><strong>Ціна:</strong> 715.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> IQ П'ятірка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гавайська, Сирне курча, Карбонара, Курка гриби, Салямi White (30 см)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 715.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> IQ Квартет</p>
-                <p><strong>Опис:</strong> 4 м`яса, Курка BBQ, Сирна салямi, Пеперонi (30 см)</p>
-                <p><strong>Ціна:</strong> 599.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> IQ Квартет</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 4 м`яса, Курка BBQ, Сирна салямi, Пеперонi (30 см)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 599.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> IQ Тріо</p>
-                <p><strong>Опис:</strong> 4 Сири, М`ясна BBQ, White chicken (30 см)</p>
-                <p><strong>Ціна:</strong> 455.0</p>
-                <p><strong>Тип:</strong> КОМБО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> IQ Тріо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 4 Сири, М`ясна BBQ, White chicken (30 см)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 455.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО</p>
                 <hr>
-                <p><strong>Позиція:</strong> IQ Ланч (450г)</p>
-                <p><strong>Опис:</strong> Шматочки курячого філе в хрумкій паніровці (6 шт), печена картопля та соус на вибір</p>
-                <p><strong>Ціна:</strong> 188.9</p>
-                <p><strong>Тип:</strong> BOX MENU</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> IQ Ланч (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курячого філе в хрумкій паніровці (6 шт), печена картопля та соус на вибір</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 188.9</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> BOX MENU</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля печена з мʼясом (310г)</p>
-                <p><strong>Опис:</strong> Картопля печена, свинина маринована, соус Карі, соус Цезар, цибуля маринована, часникова олія</p>
-                <p><strong>Ціна:</strong> 139.0</p>
-                <p><strong>Тип:</strong> BOX MENU</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля печена з мʼясом (310г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля печена, свинина маринована, соус Карі, соус Цезар, цибуля маринована, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 139.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> BOX MENU</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля печена по-домашньому (280г)</p>
-                <p><strong>Опис:</strong> Картопля печена, баварські ковбаски, соус BBQ, соус Цезар, часникова олія</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> BOX MENU</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля печена по-домашньому (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля печена, баварські ковбаски, соус BBQ, соус Цезар, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> BOX MENU</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піта (290г)</p>
-                <p><strong>Опис:</strong> Піта, курка маринована, бекон, помідор, салат Айсберг, соус Цезар</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> BOX MENU</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піта (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Піта, курка маринована, бекон, помідор, салат Айсберг, соус Цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> BOX MENU</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси (6шт)</p>
-                <p><strong>Опис:</strong> Шматочки курячого філе в хрумкій паніровці</p>
-                <p><strong>Ціна:</strong> 96.0</p>
-                <p><strong>Тип:</strong> BOX MENU</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси (6шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курячого філе в хрумкій паніровці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 96.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> BOX MENU</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля печена (240г)</p>
-                <p><strong>Опис:</strong> Картопля печена,  соус BBQ, соус Цезар, часникова олія</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> BOX MENU</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля печена (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля печена,  соус BBQ, соус Цезар, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> BOX MENU</p>
                 <hr>
-                <p><strong>Позиція:</strong> IQ соус Сирний</p>
-                <p><strong>Опис:</strong> соус класичний фірмовий</p>
-                <p><strong>Ціна:</strong> 19.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> IQ соус Сирний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> соус класичний фірмовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 19.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> IQ соус Солодкий Чилі</p>
-                <p><strong>Опис:</strong> соус класичний фірмовий</p>
-                <p><strong>Ціна:</strong> 19.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> IQ соус Солодкий Чилі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> соус класичний фірмовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 19.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> IQ соус Карі</p>
-                <p><strong>Опис:</strong> соус класичний фірмовий</p>
-                <p><strong>Ціна:</strong> 19.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> IQ соус Карі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> соус класичний фірмовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 19.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> IQ соус Кетчуп</p>
-                <p><strong>Опис:</strong> соус класичний фірмовий</p>
-                <p><strong>Ціна:</strong> 19.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> IQ соус Кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> соус класичний фірмовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 19.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> IQ соус BBQ</p>
-                <p><strong>Опис:</strong> соус класичний фірмовий</p>
-                <p><strong>Ціна:</strong> 19.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> IQ соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> соус класичний фірмовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 19.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус з журавлини</p>
-                <p><strong>Опис:</strong> 40 мл</p>
-                <p><strong>Ціна:</strong> 19.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус з журавлини</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 40 мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 19.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KFC</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/36.png" alt="Restaurant Image">
         <h1>KFC</h1>
@@ -63,498 +116,519 @@
         <p><strong>Неділя:</strong> 09:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Соус гірчичний спешл</p>
-                <p><strong>Опис:</strong> Пікантний соус гірчичний</p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус барбекю спешл</p>
-                <p><strong>Опис:</strong> Яскравий соус барбекю</p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус кисло-солодкий спешл</p>
-                <p><strong>Опис:</strong> Яскравий соус кисло-солодкий</p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус Кетчуп спешл</p>
-                <p><strong>Опис:</strong> Насичений кетчуп томатний</p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус майонезний спешл</p>
-                <p><strong>Опис:</strong> Ніжний майонез Провансаль</p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус Манго-чилі</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус карі спешл</p>
-                <p><strong>Опис:</strong> Пікантний соус карі</p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Соус сирний спешл</p>
-                <p><strong>Опис:</strong> Ніжний соус сирний</p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> Соуси</p>
-                <hr>
-                <p><strong>Позиція:</strong> Боксмайстер фреш OR</p>
-                <p><strong>Опис:</strong> Куряче філе в оригінальній хрусткій паніровці, картопляник, скибочка сиру, томати та листя салату, майонез, загорнутi у гарячу тортілью</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Боксмайстер фреш HS</p>
-                <p><strong>Опис:</strong> Куряче філе в гострій хрусткій паніровці, картопляник, скибочка сиру, томати та листя салату, майонез, загорнутi у гарячу тортілью</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл чікен</p>
-                <p><strong>Опис:</strong> Два соковитих курячих філе, мариновані огірки, сир, соус барбекю та майонез</p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл чікен гострий</p>
-                <p><strong>Опис:</strong> Два гострих соковитих курячих філе, мариновані огірки, сир, соус барбекю та майонез</p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тауер Бургер OR</p>
-                <p><strong>Опис:</strong> Філе в оригінальній паніровці, салат Айсберг з майонезом та кетчупом, ніжний сир та картопляник на пшеничній булочці з чорно-білим кунжутом.</p>
-                <p><strong>Ціна:</strong> 143.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тауер Бургер НS</p>
-                <p><strong>Опис:</strong> Філе в гострій паніровці, салат Айсберг з майонезом та кетчупом, ніжний сир та картопляник на пшеничній булочці з чорно-білим кунжутом.</p>
-                <p><strong>Ціна:</strong> 143.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кентуккi бургер</p>
-                <p><strong>Опис:</strong> Гірчичний соус, кетчуп, філе в оригінальній паніровці,  сир Чеддер, огірки на пшеничній булочці з кукурудзяною посипкою,  салат і скибочки помідора.</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Твістер НS</p>
-                <p><strong>Опис:</strong> Шматочки курячого філе в гострiй паніровці із листям салату, томатами та соусом загорнуті в гарячу тортілью</p>
-                <p><strong>Ціна:</strong> 116.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Твістер OR</p>
-                <p><strong>Опис:</strong> Шматочки курячого філе в оригінальній паніровці разом із листям салату, томатами та майонезом  загорнуті в гарячу тортілью</p>
-                <p><strong>Ціна:</strong> 116.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шефбургер гострий</p>
-                <p><strong>Опис:</strong> Соус «Гамбургер»,  філе в гострій паніровці, салат Айсберг і помідори з кукурудзяною булочкою</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сандерс Зінгер</p>
-                <p><strong>Опис:</strong> Філе в гострій паніровці, салат Айсберг з майонезом на пшеничній булочці з чорно-білим кунжутом.</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шефбургер оригінальний</p>
-                <p><strong>Опис:</strong> Соус «Гамбургер»,  філе в оригінальній паніровці, салат Айсберг і помідори з кукурудзяною булочкою</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сандерс Класік</p>
-                <p><strong>Опис:</strong> Філе в оригінальній паніровці, салат Айсберг з майонезом на пшеничній булочці з чорно-білим кунжутом.</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кесаділья з томатами</p>
-                <p><strong>Опис:</strong> Тортілья, гострі байтси з сирним соусом,сиром та шматочками томатів.</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чізбургер</p>
-                <p><strong>Опис:</strong> Пряний гірч. соус, кетчуп, стріпси [OR], сир Чеддер, огірки на пшеничній булочці з кукурудзяної посипкою.</p>
-                <p><strong>Ціна:</strong> 83.0</p>
-                <p><strong>Тип:</strong> Бургери</p>
-                <hr>
-                <p><strong>Позиція:</strong> 20 нагетсів</p>
-                <p><strong>Опис:</strong> Нагетси із соковитої курки в оригінальній паніровці.</p>
-                <p><strong>Ціна:</strong> 264.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 8 гострих крилець</p>
-                <p><strong>Опис:</strong> 8 гострих крилець в паніровці Hot&Spicy</p>
-                <p><strong>Ціна:</strong> 193.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 8 стріпс оригінальних</p>
-                <p><strong>Опис:</strong> 8 стріпсів в оригінальній паніровці</p>
-                <p><strong>Ціна:</strong> 193.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 8 стріпс гострих</p>
-                <p><strong>Опис:</strong> 8 стріпсів в гострій паніровці</p>
-                <p><strong>Ціна:</strong> 193.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> Байтс Бакет</p>
-                <p><strong>Опис:</strong> Бакет гострих шматочків курочки у хрусткій паніровці.</p>
-                <p><strong>Ціна:</strong> 182.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 4 ніжки гострих</p>
-                <p><strong>Опис:</strong> 4 ніжки обсмажені в хрусткій гострій паніровці.</p>
-                <p><strong>Ціна:</strong> 176.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 4 ніжки</p>
-                <p><strong>Опис:</strong> 4 ніжки обсмажені в хрусткій паніровці.</p>
-                <p><strong>Ціна:</strong> 176.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 3 ніжки</p>
-                <p><strong>Опис:</strong> 3 ніжки обсмажені в хрусткій паніровці.</p>
-                <p><strong>Ціна:</strong> 138.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 3 ніжки гострих</p>
-                <p><strong>Опис:</strong> 3 ніжки обсмажені в хрусткій гострій паніровці.</p>
-                <p><strong>Ціна:</strong> 138.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 5 стріпс оригінальних</p>
-                <p><strong>Опис:</strong> 5 стріпсів в оригінальній паніровці</p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 5 стріпс гострих</p>
-                <p><strong>Опис:</strong> 5 стріпсів в гострій паніровці</p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> Байтс Теріякі</p>
-                <p><strong>Опис:</strong> Шматочки курячого гострого філе з кунжутом, в соусі Теріякі.</p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> Байтс Барбекю</p>
-                <p><strong>Опис:</strong> Соковиті шматочки курочки у гострій хрусткій паніровці з соусом барбекю</p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 5 гострих крилець</p>
-                <p><strong>Опис:</strong> 5 гострих крилець в паніровці Hot&Spicy</p>
-                <p><strong>Ціна:</strong> 127.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> 9 нагетсів</p>
-                <p><strong>Опис:</strong> Нагетси із соковитої курки в оригінальній паніровці.</p>
-                <p><strong>Ціна:</strong> 127.0</p>
-                <p><strong>Тип:</strong> Соковита курка</p>
-                <hr>
-                <p><strong>Позиція:</strong> Френдс Комбо оригінальний</p>
-                <p><strong>Опис:</strong> 12 гострих крил, 4 оригінальні ніжки, 8 оригінальних стріпсів, бакет картоплі фрі, 4 напої 0,5 (пляшка)</p>
-                <p><strong>Ціна:</strong> 770.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Френдс Комбо гострий</p>
-                <p><strong>Опис:</strong> 12 гострих крил, 4 гострі ніжки, 8 гострих стріпсів, бакет картоплі фрі, 4 напої 0,5 (пляшка)</p>
-                <p><strong>Ціна:</strong> 770.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Френдс Бакет</p>
-                <p><strong>Опис:</strong> ДЛЯ 4 ОСІБ: 12 гострих крил, 4  ніжки OR/HS, 8  стріпсів OR/HS, бакет картоплі фрі</p>
-                <p><strong>Ціна:</strong> 649.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хот Бакет 26</p>
-                <p><strong>Опис:</strong> 26 гострих крилець</p>
-                <p><strong>Ціна:</strong> 473.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хот Бакет 18</p>
-                <p><strong>Опис:</strong> 18 гострих крилець</p>
-                <p><strong>Ціна:</strong> 363.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бакет 8 ніжок</p>
-                <p><strong>Опис:</strong> 8 ніжок обсмажених в хрусткій оригінальній паніровці.</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бакет 8 ніжок гострий</p>
-                <p><strong>Опис:</strong> 8 ніжок обсмажених в хрусткій гострій паніровці.</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дует Бакет ориг.</p>
-                <p><strong>Опис:</strong> 2 ніжки та 4 стріпси оригінальні, 4 гострих крильця, 1 картопля фрі стандартна.</p>
-                <p><strong>Ціна:</strong> 303.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дует Бакет гострий *</p>
-                <p><strong>Опис:</strong> 2 ніжки та 4 стріпси гострі, 4 гострих крильця, 1 картопля фрі стандартна.</p>
-                <p><strong>Ціна:</strong> 303.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хот Бакет 12</p>
-                <p><strong>Опис:</strong> 12 гострих крилець</p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сандерс Бакет</p>
-                <p><strong>Опис:</strong> Оригінальна ніжка, 2 гострих крила, 2 оригінальні стріпси, байтси</p>
-                <p><strong>Ціна:</strong> 182.0</p>
-                <p><strong>Тип:</strong> Бакети</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бакет Картоплі фрі</p>
-                <p><strong>Опис:</strong> Енергетична цінність однієї порції - 662 ккал.</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> Гарніри</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля по-домашньому</p>
-                <p><strong>Опис:</strong> Енергетична цінність однієї порції - 357 ккал.</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Гарніри</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля фрі Стандарт</p>
-                <p><strong>Опис:</strong> Енергетична цінність однієї порції - 331 ккал.</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Гарніри</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля фрі Мала</p>
-                <p><strong>Опис:</strong> Енергетична цінність однієї порції - 193 ккал.</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Гарніри</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопляник</p>
-                <p><strong>Опис:</strong> Хрумкий картопляник iз добірної картоплi</p>
-                <p><strong>Ціна:</strong> 28.0</p>
-                <p><strong>Тип:</strong> Гарніри</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пепсі Блек 0,5 л (пляшка)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пепсі 0,5 (пляшка)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мірінда 0,5 л (пляшка)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Севен Ап 0,5 л (пляшка)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода негаз. Карпатська Джерельна 0,5 л</p>
-                <p><strong>Опис:</strong> Вода негаз. Карпатська Джерельна 0,5 л</p>
-                <p><strong>Ціна:</strong> 33.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода газ. Карпатська Джерельна 0,5 л</p>
-                <p><strong>Опис:</strong> Вода газ. Карпатська Джерельна 0,5 л</p>
-                <p><strong>Ціна:</strong> 33.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пепсі Блек в з/б 0,33 л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 33.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пепсі в з/б 0,33 л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 33.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сік "Сандора" апельсин 0,2л</p>
-                <p><strong>Опис:</strong> Сік "Сандора" апельсин 0,2л</p>
-                <p><strong>Ціна:</strong> 27.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сік Сандора вишня 0,2 л</p>
-                <p><strong>Опис:</strong> Сік "Сандора" зі смаком вишні 0,2л</p>
-                <p><strong>Ціна:</strong> 27.0</p>
-                <p><strong>Тип:</strong> Холодні напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пряне лате 0.4 л</p>
-                <p><strong>Опис:</strong> Ароматне Лате з сиропом "Пряний гарбуз"</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пряне капучино 0.4 л</p>
-                <p><strong>Опис:</strong> Ароматне Капучино з сиропом "Пряний гарбуз"</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Капучино 0.4л</p>
-                <p><strong>Опис:</strong> Кава Капучино зернова 0.4л. Енергетична цінність напою - 260 ккал.</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пряне капучино 0.3 л</p>
-                <p><strong>Опис:</strong> Ароматне Капучино з сиропом "Пряний гарбуз"</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пряне лате  0.3 л</p>
-                <p><strong>Опис:</strong> Ароматне Лате з сиропом "Пряний гарбуз"</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лате 0.4л</p>
-                <p><strong>Опис:</strong> Кава Лате зернова  0.4л.  Енергетична цінність напою - 256 ккал.</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай апельсин-мята 0.3 л</p>
-                <p><strong>Опис:</strong> Чай зі смаком апельсину та м'яти. До складу напою входить мед!</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пунш смородина-базилік 0.3 л</p>
-                <p><strong>Опис:</strong> Пунш зі смаком смородини та базиліку. До складу напою входить мед!</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Капучино 0.3л</p>
-                <p><strong>Опис:</strong> Кава Капучино зернова 0.3л. Енергетична цінність напою - 195 ккал.</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лате 0.3л</p>
-                <p><strong>Опис:</strong> Кава Лате зернова  0.3л.  Енергетична цінність напою - 192 ккал.</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо з молоком 0.28 л</p>
-                <p><strong>Опис:</strong> Кава Американо з молоком 0.28 л.</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо 0,3л</p>
-                <p><strong>Опис:</strong> Кава Американо зернова 0.3л. Енергетична цінність напою - 81 ккал.</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай чорний з бергамотом</p>
-                <p><strong>Опис:</strong> Чай чорний з бергамотом 0.3</p>
-                <p><strong>Ціна:</strong> 39.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай чорний</p>
-                <p><strong>Опис:</strong> Чай чорний  0.3</p>
-                <p><strong>Ціна:</strong> 39.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай зелений з манго</p>
-                <p><strong>Опис:</strong> Чай зелений з манго 0.3</p>
-                <p><strong>Ціна:</strong> 39.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай зелений</p>
-                <p><strong>Опис:</strong> Чай зелений  0.3</p>
-                <p><strong>Ціна:</strong> 39.0</p>
-                <p><strong>Тип:</strong> Гарячі напої</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат полуничний</p>
-                <p><strong>Опис:</strong> Ніжний полуничний донат</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат маракуйя</p>
-                <p><strong>Опис:</strong> Екзотичний донат з начинкою із маракуйї та шматочками чорного шоколаду</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
-                <hr>
-                <p><strong>Позиція:</strong> Донат солона карамель</p>
-                <p><strong>Опис:</strong> Дивовижний донат солона кармель</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пиріжок із вишнею</p>
-                <p><strong>Опис:</strong> Гарячий пиріжок в ніжному тісті з вишневою начинкою</p>
-                <p><strong>Ціна:</strong> 44.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
-                <hr>
-                <p><strong>Позиція:</strong> Боксмайстер фреш меню</p>
-                <p><strong>Опис:</strong> Боксмайстер фреш + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> Меню</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тауер меню</p>
-                <p><strong>Опис:</strong> ТАУЕР БУРГЕР OR/HS+ КАРТОПЛЯ ФРІ стандартна + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л або КАПУЧИНО/ЛАТЕ/АМЕРИКАНО 300мл</p>
-                <p><strong>Ціна:</strong> 231.0</p>
-                <p><strong>Тип:</strong> Меню</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дабл чікен меню</p>
-                <p><strong>Опис:</strong> Дабл Чікен, ФРІ стандарт, газ напій 0,5л ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> Меню</p>
-                <hr>
-                <p><strong>Позиція:</strong> Твістер меню</p>
-                <p><strong>Опис:</strong> Твістер + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> Меню</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шефбургер меню</p>
-                <p><strong>Опис:</strong> Шефбургер + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> Меню</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сандерс Класік меню</p>
-                <p><strong>Опис:</strong> Класік + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> Меню</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сандерс Зінгер меню</p>
-                <p><strong>Опис:</strong> Зінгер + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> Меню</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кентуккi бургер меню</p>
-                <p><strong>Опис:</strong> Кентуккi бургер + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> Меню</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чізбургер меню</p>
-                <p><strong>Опис:</strong> Чізбургер, Фрі стандартна, газ. напій 0.5л (пепсі/мірінда/севен-ап)</p>
-                <p><strong>Ціна:</strong> 182.0</p>
-                <p><strong>Тип:</strong> Меню</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пакет</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 6.0</p>
-                <p><strong>Тип:</strong> Iнше</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шейк Шоколад-Горіх. 0.44л</p>
-                <p><strong>Опис:</strong> Молочний коктейль 0.44л Шоколадно-горіховий.</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Мілкшейк</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шейк Полуниця 0.44л</p>
-                <p><strong>Опис:</strong> Молочний коктейль 0.44л зі смаком полуниці.</p>
-                <p><strong>Ціна:</strong> 72.0</p>
-                <p><strong>Тип:</strong> Мілкшейк</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шейк Полуниця 0.33л</p>
-                <p><strong>Опис:</strong> Молочний коктейль 0.33л зі смаком полуниці.</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> Мілкшейк</p>
-                <hr>
-                <p><strong>Позиція:</strong> Шейк Шоколад-Горіх. 0.33л</p>
-                <p><strong>Опис:</strong> Молочний коктейль 0.33л Шоколадно-горіховий.</p>
-                <p><strong>Ціна:</strong> 66.0</p>
-                <p><strong>Тип:</strong> Мілкшейк</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус гірчичний спешл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пікантний соус гірчичний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус барбекю спешл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яскравий соус барбекю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус кисло-солодкий спешл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яскравий соус кисло-солодкий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Кетчуп спешл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Насичений кетчуп томатний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус майонезний спешл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний майонез Провансаль</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Манго-чилі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус карі спешл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пікантний соус карі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус сирний спешл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний соус сирний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соуси</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боксмайстер фреш OR</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе в оригінальній хрусткій паніровці, картопляник, скибочка сиру, томати та листя салату, майонез, загорнутi у гарячу тортілью</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боксмайстер фреш HS</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе в гострій хрусткій паніровці, картопляник, скибочка сиру, томати та листя салату, майонез, загорнутi у гарячу тортілью</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл чікен</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Два соковитих курячих філе, мариновані огірки, сир, соус барбекю та майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл чікен гострий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Два гострих соковитих курячих філе, мариновані огірки, сир, соус барбекю та майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тауер Бургер OR</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе в оригінальній паніровці, салат Айсберг з майонезом та кетчупом, ніжний сир та картопляник на пшеничній булочці з чорно-білим кунжутом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 143.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тауер Бургер НS</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе в гострій паніровці, салат Айсберг з майонезом та кетчупом, ніжний сир та картопляник на пшеничній булочці з чорно-білим кунжутом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 143.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кентуккi бургер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гірчичний соус, кетчуп, філе в оригінальній паніровці,  сир Чеддер, огірки на пшеничній булочці з кукурудзяною посипкою,  салат і скибочки помідора.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Твістер НS</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курячого філе в гострiй паніровці із листям салату, томатами та соусом загорнуті в гарячу тортілью</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 116.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Твістер OR</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курячого філе в оригінальній паніровці разом із листям салату, томатами та майонезом  загорнуті в гарячу тортілью</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 116.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шефбургер гострий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус «Гамбургер»,  філе в гострій паніровці, салат Айсберг і помідори з кукурудзяною булочкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандерс Зінгер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе в гострій паніровці, салат Айсберг з майонезом на пшеничній булочці з чорно-білим кунжутом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шефбургер оригінальний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус «Гамбургер»,  філе в оригінальній паніровці, салат Айсберг і помідори з кукурудзяною булочкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандерс Класік</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе в оригінальній паніровці, салат Айсберг з майонезом на пшеничній булочці з чорно-білим кунжутом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кесаділья з томатами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тортілья, гострі байтси з сирним соусом,сиром та шматочками томатів.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пряний гірч. соус, кетчуп, стріпси [OR], сир Чеддер, огірки на пшеничній булочці з кукурудзяної посипкою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 83.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бургери</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 20 нагетсів</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Нагетси із соковитої курки в оригінальній паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 264.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 8 гострих крилець</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 8 гострих крилець в паніровці Hot&Spicy</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 193.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 8 стріпс оригінальних</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 8 стріпсів в оригінальній паніровці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 193.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 8 стріпс гострих</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 8 стріпсів в гострій паніровці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 193.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Байтс Бакет</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бакет гострих шматочків курочки у хрусткій паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 182.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 4 ніжки гострих</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 4 ніжки обсмажені в хрусткій гострій паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 176.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 4 ніжки</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 4 ніжки обсмажені в хрусткій паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 176.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 3 ніжки</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 3 ніжки обсмажені в хрусткій паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 138.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 3 ніжки гострих</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 3 ніжки обсмажені в хрусткій гострій паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 138.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 5 стріпс оригінальних</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 5 стріпсів в оригінальній паніровці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 5 стріпс гострих</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 5 стріпсів в гострій паніровці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Байтс Теріякі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки курячого гострого філе з кунжутом, в соусі Теріякі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Байтс Барбекю</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковиті шматочки курочки у гострій хрусткій паніровці з соусом барбекю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 5 гострих крилець</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 5 гострих крилець в паніровці Hot&Spicy</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 127.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> 9 нагетсів</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Нагетси із соковитої курки в оригінальній паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 127.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Соковита курка</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Френдс Комбо оригінальний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 12 гострих крил, 4 оригінальні ніжки, 8 оригінальних стріпсів, бакет картоплі фрі, 4 напої 0,5 (пляшка)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 770.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Френдс Комбо гострий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 12 гострих крил, 4 гострі ніжки, 8 гострих стріпсів, бакет картоплі фрі, 4 напої 0,5 (пляшка)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 770.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Френдс Бакет</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ДЛЯ 4 ОСІБ: 12 гострих крил, 4  ніжки OR/HS, 8  стріпсів OR/HS, бакет картоплі фрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 649.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот Бакет 26</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 26 гострих крилець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 473.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот Бакет 18</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 18 гострих крилець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 363.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бакет 8 ніжок</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 8 ніжок обсмажених в хрусткій оригінальній паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бакет 8 ніжок гострий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 8 ніжок обсмажених в хрусткій гострій паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дует Бакет ориг.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 2 ніжки та 4 стріпси оригінальні, 4 гострих крильця, 1 картопля фрі стандартна.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 303.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дует Бакет гострий *</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 2 ніжки та 4 стріпси гострі, 4 гострих крильця, 1 картопля фрі стандартна.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 303.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот Бакет 12</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 12 гострих крилець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандерс Бакет</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Оригінальна ніжка, 2 гострих крила, 2 оригінальні стріпси, байтси</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 182.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Бакети</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бакет Картоплі фрі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Енергетична цінність однієї порції - 662 ккал.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля по-домашньому</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Енергетична цінність однієї порції - 357 ккал.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі Стандарт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Енергетична цінність однієї порції - 331 ккал.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі Мала</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Енергетична цінність однієї порції - 193 ккал.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопляник</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрумкий картопляник iз добірної картоплi</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 28.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарніри</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пепсі Блек 0,5 л (пляшка)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пепсі 0,5 (пляшка)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мірінда 0,5 л (пляшка)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Севен Ап 0,5 л (пляшка)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода негаз. Карпатська Джерельна 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вода негаз. Карпатська Джерельна 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 33.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода газ. Карпатська Джерельна 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вода газ. Карпатська Джерельна 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 33.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пепсі Блек в з/б 0,33 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 33.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пепсі в з/б 0,33 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 33.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік "Сандора" апельсин 0,2л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сік "Сандора" апельсин 0,2л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 27.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Сандора вишня 0,2 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сік "Сандора" зі смаком вишні 0,2л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 27.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Холодні напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пряне лате 0.4 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматне Лате з сиропом "Пряний гарбуз"</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пряне капучино 0.4 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматне Капучино з сиропом "Пряний гарбуз"</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино 0.4л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава Капучино зернова 0.4л. Енергетична цінність напою - 260 ккал.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пряне капучино 0.3 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматне Капучино з сиропом "Пряний гарбуз"</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пряне лате  0.3 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматне Лате з сиропом "Пряний гарбуз"</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате 0.4л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава Лате зернова  0.4л.  Енергетична цінність напою - 256 ккал.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай апельсин-мята 0.3 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чай зі смаком апельсину та м'яти. До складу напою входить мед!</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пунш смородина-базилік 0.3 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пунш зі смаком смородини та базиліку. До складу напою входить мед!</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино 0.3л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава Капучино зернова 0.3л. Енергетична цінність напою - 195 ккал.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате 0.3л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава Лате зернова  0.3л.  Енергетична цінність напою - 192 ккал.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо з молоком 0.28 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава Американо з молоком 0.28 л.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо 0,3л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кава Американо зернова 0.3л. Енергетична цінність напою - 81 ккал.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай чорний з бергамотом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чай чорний з бергамотом 0.3</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 39.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай чорний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чай чорний  0.3</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 39.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай зелений з манго</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чай зелений з манго 0.3</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 39.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай зелений</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чай зелений  0.3</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 39.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Гарячі напої</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат полуничний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний полуничний донат</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат маракуйя</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Екзотичний донат з начинкою із маракуйї та шматочками чорного шоколаду</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Донат солона карамель</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дивовижний донат солона кармель</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиріжок із вишнею</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гарячий пиріжок в ніжному тісті з вишневою начинкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 44.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боксмайстер фреш меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Боксмайстер фреш + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Меню</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тауер меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ТАУЕР БУРГЕР OR/HS+ КАРТОПЛЯ ФРІ стандартна + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л або КАПУЧИНО/ЛАТЕ/АМЕРИКАНО 300мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 231.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Меню</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дабл чікен меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дабл Чікен, ФРІ стандарт, газ напій 0,5л ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Меню</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Твістер меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Твістер + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Меню</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шефбургер меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шефбургер + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Меню</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандерс Класік меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класік + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Меню</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сандерс Зінгер меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зінгер + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Меню</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кентуккi бургер меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кентуккi бургер + картопля фрі стандарт + ПЕПСІ/ПЕПСІ МАКС/МІРІНДА/ СЕВЕН АП СТАНДАРТ 0,5 л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Меню</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чізбургер, Фрі стандартна, газ. напій 0.5л (пепсі/мірінда/севен-ап)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 182.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Меню</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пакет</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 6.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Iнше</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шейк Шоколад-Горіх. 0.44л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Молочний коктейль 0.44л Шоколадно-горіховий.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейк</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шейк Полуниця 0.44л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Молочний коктейль 0.44л зі смаком полуниці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 72.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейк</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шейк Полуниця 0.33л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Молочний коктейль 0.33л зі смаком полуниці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейк</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шейк Шоколад-Горіх. 0.33л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Молочний коктейль 0.33л Шоколадно-горіховий.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 66.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Мілкшейк</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

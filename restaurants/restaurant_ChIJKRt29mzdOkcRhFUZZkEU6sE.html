@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lviv Pancakes / Львівські млинці</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/105.png" alt="Restaurant Image">
         <h1>Lviv Pancakes / Львівські млинці</h1>
@@ -63,76 +116,74 @@
         <p><strong>Неділя:</strong> 09:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Шашлик із свинної шиї 400г</p>
-                <p><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
-                <p><strong>Ціна:</strong> 500.0</p>
-                <p><strong>Тип:</strong> ШАШЛИК</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик із свинної шиї 400г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 500.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШАШЛИК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик із свинної вирізки 400г</p>
-                <p><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
-                <p><strong>Ціна:</strong> 500.0</p>
-                <p><strong>Тип:</strong> ШАШЛИК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик із свинної вирізки 400г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 500.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШАШЛИК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра cвинні 400г</p>
-                <p><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
-                <p><strong>Ціна:</strong> 400.0</p>
-                <p><strong>Тип:</strong> ШАШЛИК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра cвинні 400г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 400.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШАШЛИК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик курячий</p>
-                <p><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
-                <p><strong>Ціна:</strong> 360.0</p>
-                <p><strong>Тип:</strong> ШАШЛИК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик курячий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 360.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШАШЛИК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра медові 400г</p>
-                <p><strong>Опис:</strong> Додатково йде лаваш</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> ШАШЛИК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра медові 400г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШАШЛИК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Медові крильця 400г</p>
-                <p><strong>Опис:</strong> Додатково йде лаваш</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ШАШЛИК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Медові крильця 400г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШАШЛИК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячі ковбаски 400г</p>
-                <p><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ШАШЛИК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі ковбаски 400г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШАШЛИК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячі крильця 400г</p>
-                <p><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ШАШЛИК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі крильця 400г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде маринована цибулька та лаваш</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ШАШЛИК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк з лосося 250г</p>
-                <p><strong>Опис:</strong> Додатково йде лимон</p>
-                <p><strong>Ціна:</strong> 850.0</p>
-                <p><strong>Тип:</strong> РИБА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк з лосося 250г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде лимон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 850.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Форель 400г</p>
-                <p><strong>Опис:</strong> Додатково йде лимон</p>
-                <p><strong>Ціна:</strong> 670.0</p>
-                <p><strong>Тип:</strong> РИБА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Форель 400г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде лимон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 670.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дорадо 350г</p>
-                <p><strong>Опис:</strong> Додатково йде лимон</p>
-                <p><strong>Ціна:</strong> 590.0</p>
-                <p><strong>Тип:</strong> РИБА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дорадо 350г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде лимон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 590.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Короп 600г</p>
-                <p><strong>Опис:</strong> Додатково йде лимон</p>
-                <p><strong>Ціна:</strong> 510.0</p>
-                <p><strong>Тип:</strong> РИБА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Короп 600г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде лимон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 510.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Скумбрія 400г</p>
-                <p><strong>Опис:</strong> Додатково йде лимон</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> РИБА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Скумбрія 400г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додатково йде лимон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Company Mix</p>
-                <p><strong>Опис:</strong> Шашлик з шиї - 1.5 кг
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Company Mix</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шашлик з шиї - 1.5 кг
 Шашлик курячий - 1 кг
 Кукурудза - 600г
 Картопля по-селянськи - 1 кг
@@ -144,11 +195,11 @@
 Соус Барбекю - 2шт
 Соус Тузлук - 2 шт
 Аджика - 2 шт</p>
-                <p><strong>Ціна:</strong> 3900.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 3900.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сет Company</p>
-                <p><strong>Опис:</strong> Шашлик з шиї - 2000г
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Company</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шашлик з шиї - 2000г
 Кукурудза - 600г
 Картопля по-селянськи - 1000г
 Овочі гриль - 600г
@@ -160,11 +211,11 @@
 Соус Тузлук - 2 шт
 
 На 10-15 осіб</p>
-                <p><strong>Ціна:</strong> 3300.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 3300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сет MIX</p>
-                <p><strong>Опис:</strong> Шашлик із шиї - 500г
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет MIX</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шашлик із шиї - 500г
 Ребра свинні - 500г
 Шашлик курячий - 500г
 Курячі крильця - 500г
@@ -176,11 +227,11 @@
 Соус тузлук 
 
 На 4-6 осіб</p>
-                <p><strong>Ціна:</strong> 2300.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 2300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сет Shash</p>
-                <p><strong>Опис:</strong> Шашлик з шиї - 500 г
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Shash</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шашлик з шиї - 500 г
 Медові ребра - 500 г
 Шашлик курячий - 500 г
 Медові крильця - 500 г
@@ -192,11 +243,11 @@
 Соус Медово-гірчичний - 2 шт
 
 На 2-4 осіб</p>
-                <p><strong>Ціна:</strong> 2200.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 2200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сет Friendly 1800г</p>
-                <p><strong>Опис:</strong> Шашлик з шиї - 500г
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Friendly 1800г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шашлик з шиї - 500г
 Ребра свинні - 500г
 Картопля з мангалу - 400г
 Цибуля маринована
@@ -204,11 +255,11 @@
 Соус Барбекю - 2шт
 
 На 2-3 осіб</p>
-                <p><strong>Ціна:</strong> 1500.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1500.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сет Like</p>
-                <p><strong>Опис:</strong> Шашлик з шиї - 500г
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Like</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шашлик з шиї - 500г
 Картопля по-селянськи - 400г
 Кукурудза - 300г
 Цибуля маринована
@@ -216,140 +267,163 @@
 Соус Барбекю
 
 На 1-2 осіб</p>
-                <p><strong>Ціна:</strong> 1100.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сет Chicken</p>
-                <p><strong>Опис:</strong> Шашлик курячий - 400г
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Chicken</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шашлик курячий - 400г
 Курячі крильця - 400г
 Картопля фрі - 300г
 Соус Барбекю
 Кетчуп лагідний
 
 На 2- 3 людей</p>
-                <p><strong>Ціна:</strong> 1000.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1000.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля Фрі 300г</p>
-                <p><strong>Опис:</strong> Картопелька поливається олією з часничком та посипається сіллю</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля Фрі 300г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопелька поливається олією з часничком та посипається сіллю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля з мангалу 300г</p>
-                <p><strong>Опис:</strong> Готується у маринаді та смажиться на деревному вугіллі</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля з мангалу 300г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Готується у маринаді та смажиться на деревному вугіллі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля по-селянськи 300г</p>
-                <p><strong>Опис:</strong> Обсмажена картопля зі скоринкою у фритюрі. Розрізана на четвертинки. Поливається олією з часничком та посипається сіллю</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля по-селянськи 300г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Обсмажена картопля зі скоринкою у фритюрі. Розрізана на четвертинки. Поливається олією з часничком та посипається сіллю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Овочі гриль 300г</p>
-                <p><strong>Опис:</strong> Кабачок,помідор,перець,печериці</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Овочі гриль 300г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кабачок,помідор,перець,печериці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Печериці гриль 300г</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печериці гриль 300г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кукурудза 300г</p>
-                <p><strong>Опис:</strong> Один качан,розділений на 3 шматочки</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ОВОЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кукурудза 300г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Один качан,розділений на 3 шматочки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОВОЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крильця Crispy 300г</p>
-                <p><strong>Опис:</strong> ЛІктьова частина крила і маринаді і панірована в сухарях PANCO та обсмажений у фритюрі</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крильця Crispy 300г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ЛІктьова частина крила і маринаді і панірована в сухарях PANCO та обсмажений у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячі нагетси 100г</p>
-                <p><strong>Опис:</strong> Куряче філе паніроване в сухарях PANCO та обсмажений у фритюрі</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі нагетси 100г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе паніроване в сухарях PANCO та обсмажений у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сир фрі 100г</p>
-                <p><strong>Опис:</strong> Сир Моцарелла панірований в сухарях PANCO та обсмажений у фритюрі</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сир фрі 100г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир Моцарелла панірований в сухарях PANCO та обсмажений у фритюрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Грецький 250г</p>
-                <p><strong>Опис:</strong> Огірок,перець,помідор,оливки,сир фетта,цибулька,трави та оливкова олія</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Грецький 250г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Огірок,перець,помідор,оливки,сир фетта,цибулька,трави та оливкова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Морква по-корейськи 300г</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Морква по-корейськи 300г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з капусти 300г</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з капусти 300г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Аджика 50мг</p>
-                <p><strong>Опис:</strong> Гостра
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Аджика 50мг</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гостра
 Власне приготування. Ідеально поєднується із мясом</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кетчуп Лагідний 50мг</p>
-                <p><strong>Опис:</strong> Ідеально поєднується із картоплею фрі та мясом</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кетчуп Лагідний 50мг</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ідеально поєднується із картоплею фрі та мясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Медово-гірчичний 50мг</p>
-                <p><strong>Опис:</strong> На основі меду та французької гірчиці із додаванням спецій. Солодкуватий смак із кислинкою.Ідеально поєднується із медовими крильцями та ребрами</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Медово-гірчичний 50мг</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> На основі меду та французької гірчиці із додаванням спецій. Солодкуватий смак із кислинкою.Ідеально поєднується із медовими крильцями та ребрами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Барбекю 50мг</p>
-                <p><strong>Опис:</strong> Має пікантний смак. ідеально поєднується з мясом</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Барбекю 50мг</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Має пікантний смак. ідеально поєднується з мясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Тартар 50мг</p>
-                <p><strong>Опис:</strong> На основі йогурту із додаванням маринованих огірків та спецій. Ідеально поєднується з рибою</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Тартар 50мг</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> На основі йогурту із додаванням маринованих огірків та спецій. Ідеально поєднується з рибою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Тузлук 50мг</p>
-                <p><strong>Опис:</strong> На основі сметани із додаванням часнику та спецій. Ідеально поєднується із картоплею</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Тузлук 50мг</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> На основі сметани із додаванням часнику та спецій. Ідеально поєднується із картоплею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Брусничний соус 30г</p>
-                <p><strong>Опис:</strong> Соус ідеально поєднується з свининою,птицею та сиром фрі</p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Брусничний соус 30г</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус ідеально поєднується з свининою,птицею та сиром фрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca Cola 750мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca Cola 750мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fanta 750мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fanta 750мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Sprite 750мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Sprite 750мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода BonAqua газована 500мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода BonAqua газована 500мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода BonAqua негазована 500мл</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода BonAqua негазована 500мл</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

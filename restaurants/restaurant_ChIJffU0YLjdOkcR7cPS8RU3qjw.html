@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee lab Шевченка</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/136.png" alt="Restaurant Image">
         <h1>Coffee lab Шевченка</h1>
@@ -63,189 +116,210 @@
         <p><strong>Неділя:</strong> 08:00:00 - 21:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Тунець waffle</p>
-                <p><strong>Опис:</strong> Гофра, тунець татакі, яйце пашот, соус сирний чеддер, м'ята, кінза, фурікаке, чилі, лимон, авокадо</p>
-                <p><strong>Ціна:</strong> 443.0</p>
-                <p><strong>Тип:</strong> ГОФРИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тунець waffle</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гофра, тунець татакі, яйце пашот, соус сирний чеддер, м'ята, кінза, фурікаке, чилі, лимон, авокадо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 443.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОФРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Авокадо & Лосось Waffle</p>
-                <p><strong>Опис:</strong> Авокадо, лосось гравлакс, яйце пашот, соус з горгондзоли та рукола</p>
-                <p><strong>Ціна:</strong> 442.0</p>
-                <p><strong>Тип:</strong> ГОФРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Авокадо & Лосось Waffle</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Авокадо, лосось гравлакс, яйце пашот, соус з горгондзоли та рукола</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 442.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОФРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салямі Waffle</p>
-                <p><strong>Опис:</strong> Салямі, соус сирний з чеддеру, барбекю, моцарелла, базилік, гострий мед, пластівці чилі</p>
-                <p><strong>Ціна:</strong> 385.0</p>
-                <p><strong>Тип:</strong> ГОФРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салямі Waffle</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салямі, соус сирний з чеддеру, барбекю, моцарелла, базилік, гострий мед, пластівці чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 385.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОФРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> "Рома Знає"</p>
-                <p><strong>Опис:</strong> Хрустка гофра, солена карамель, заварний крем</p>
-                <p><strong>Ціна:</strong> 291.55</p>
-                <p><strong>Тип:</strong> ГОФРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "Рома Знає"</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрустка гофра, солена карамель, заварний крем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 291.55</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОФРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Christmas Waffle</p>
-                <p><strong>Опис:</strong> Гофра з корицею, заварний крем, вафельні кріспі та кулька чізкейку, яка прикидується морозивом</p>
-                <p><strong>Ціна:</strong> 247.0</p>
-                <p><strong>Тип:</strong> ГОФРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Christmas Waffle</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гофра з корицею, заварний крем, вафельні кріспі та кулька чізкейку, яка прикидується морозивом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 247.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОФРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бенедикти з обпаленим в унагі лососем</p>
-                <p><strong>Опис:</strong> Гофри, маскарпоне-каліфорнія соус, яйця пашот, обпалений з унагі лосось, рукола, фурікаке, тогараші, оливкова олія</p>
-                <p><strong>Ціна:</strong> 443.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бенедикти з обпаленим в унагі лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гофри, маскарпоне-каліфорнія соус, яйця пашот, обпалений з унагі лосось, рукола, фурікаке, тогараші, оливкова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 443.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бенедикти з лососем та руколою</p>
-                <p><strong>Опис:</strong> Слабосолений лосось, соус голландез, яйця пашот, рукола, спеція фурікаке, подається на гофрі</p>
-                <p><strong>Ціна:</strong> 431.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бенедикти з лососем та руколою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Слабосолений лосось, соус голландез, яйця пашот, рукола, спеція фурікаке, подається на гофрі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 431.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Панкейки з гарбуза , яйцем пашот та лососем</p>
-                <p><strong>Опис:</strong> Панкейки з гарбуза, грецьким йогуртом, лососем гравлакс, листям салату, свіжим огірком, фурікаке та руколою</p>
-                <p><strong>Ціна:</strong> 431.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Панкейки з гарбуза , яйцем пашот та лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Панкейки з гарбуза, грецьким йогуртом, лососем гравлакс, листям салату, свіжим огірком, фурікаке та руколою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 431.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> American Slam  V2.0</p>
-                <p><strong>Опис:</strong> Яєчня, квасоля в томаті, кровянка, сосиска з чедером, томат, бекон, шинка, картопляна вафля, сирний мелт, печериці в унагі</p>
-                <p><strong>Ціна:</strong> 431.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> American Slam  V2.0</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яєчня, квасоля в томаті, кровянка, сосиска з чедером, томат, бекон, шинка, картопляна вафля, сирний мелт, печериці в унагі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 431.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сніданок Mother with son</p>
-                <p><strong>Опис:</strong> М'ясо курчати в гостро-солодкому соусі, гофри зі смородиновим джемом, томати чері гриль, яєчня скрембл, листя салату, пармезан</p>
-                <p><strong>Ціна:</strong> 397.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сніданок Mother with son</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> М'ясо курчати в гостро-солодкому соусі, гофри зі смородиновим джемом, томати чері гриль, яєчня скрембл, листя салату, пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 397.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дуже беконові бенедикти</p>
-                <p><strong>Опис:</strong> Беконовий джем, соус голландез, бекон, яйця пашот, беконова пудра, гофра, пармезан</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дуже беконові бенедикти</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Беконовий джем, соус голландез, бекон, яйця пашот, беконова пудра, гофра, пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тост Мадам Крок v3.0</p>
-                <p><strong>Опис:</strong> Вершковий хліб, шинка, чеддер, глазунья, пармезан, моцарела, пластівці чилі, беконовий джем, беконова пудра</p>
-                <p><strong>Ціна:</strong> 368.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тост Мадам Крок v3.0</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершковий хліб, шинка, чеддер, глазунья, пармезан, моцарела, пластівці чилі, беконовий джем, беконова пудра</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 368.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Bikini Breakfast</p>
-                <p><strong>Опис:</strong> Potato waffle, скрембл, трюфельна олія, авокадо, грецький йогурт, пармезан</p>
-                <p><strong>Ціна:</strong> 239.7</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Bikini Breakfast</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Potato waffle, скрембл, трюфельна олія, авокадо, грецький йогурт, пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 239.7</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Butterfly avocado</p>
-                <p><strong>Опис:</strong> Супер Хелсі хліб на заквасці з Тедді, багато авокадо, спеція мічелада</p>
-                <p><strong>Ціна:</strong> 227.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Butterfly avocado</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Супер Хелсі хліб на заквасці з Тедді, багато авокадо, спеція мічелада</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 227.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Цільнозернова вівсянка</p>
-                <p><strong>Опис:</strong> Цільнозернова вівсянка, смородинове варення, насіння соняшника</p>
-                <p><strong>Ціна:</strong> 219.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цільнозернова вівсянка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цільнозернова вівсянка, смородинове варення, насіння соняшника</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 219.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Солені сирники з горгондзолою, ікрою та лососем гравлакс</p>
-                <p><strong>Опис:</strong> Подаються з горгондзолою, ікрою, соусом з горгондзоли та зеленою цибулею</p>
-                <p><strong>Ціна:</strong> 339.0</p>
-                <p><strong>Тип:</strong> СИРНИЧКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солені сирники з горгондзолою, ікрою та лососем гравлакс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаються з горгондзолою, ікрою, соусом з горгондзоли та зеленою цибулею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 339.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРНИЧКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Солодкі сирнички, дуже багато чорниці та грецький йогурт</p>
-                <p><strong>Опис:</strong> Грецький йогурт, багато чорниці, кокосове згущене молоко</p>
-                <p><strong>Ціна:</strong> 229.5</p>
-                <p><strong>Тип:</strong> СИРНИЧКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солодкі сирнички, дуже багато чорниці та грецький йогурт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грецький йогурт, багато чорниці, кокосове згущене молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.5</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРНИЧКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Солені сирники із трюфельним маслом, сирним соусом та цибулею</p>
-                <p><strong>Опис:</strong> Сирники з горгондзолою, сирний соус, яйце, зелена цибуля</p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> СИРНИЧКИ БЛЕК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солені сирники із трюфельним маслом, сирним соусом та цибулею</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сирники з горгондзолою, сирний соус, яйце, зелена цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРНИЧКИ БЛЕК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Chicken Black salat</p>
-                <p><strong>Опис:</strong> Айсберг, ромен, айолі, курка в гостро-солодкому соусі, беконова пудра, анчоуси, пармезан</p>
-                <p><strong>Ціна:</strong> 305.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Chicken Black salat</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Айсберг, ромен, айолі, курка в гостро-солодкому соусі, беконова пудра, анчоуси, пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 305.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Зелений салат</p>
-                <p><strong>Опис:</strong> Айсберг, соус з авокадо, оливкова олія, лимонний сік, голландес, багато хрусткої цибулі, томати з травами та пласцівці чилі</p>
-                <p><strong>Ціна:</strong> 227.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зелений салат</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Айсберг, соус з авокадо, оливкова олія, лимонний сік, голландес, багато хрусткої цибулі, томати з травами та пласцівці чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 227.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Баскський чізкейк 1 шт</p>
-                <p><strong>Опис:</strong> Ніжний прохолодний чізкейк</p>
-                <p><strong>Ціна:</strong> 1035.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Баскський чізкейк 1 шт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний прохолодний чізкейк</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1035.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Баскський чізкейк</p>
-                <p><strong>Опис:</strong> Ніжний прохолодний чізкейк з солоною карамеллю</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Баскський чізкейк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний прохолодний чізкейк з солоною карамеллю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дріп-кава Cukor & Foundation Coffee Roasters (1уп/7шт)</p>
-                <p><strong>Опис:</strong> Наявні сорти:
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дріп-кава Cukor & Foundation Coffee Roasters (1уп/7шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Наявні сорти:
 Costa Rica San Juanillo
 Ethiopia Chelbesa
 Kenya Thangaini</p>
-                <p><strong>Ціна:</strong> 450.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 450.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фреш апельсиновий (0.25мл)</p>
-                <p><strong>Опис:</strong> Свіжовичавлений сік</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш апельсиновий (0.25мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свіжовичавлений сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fritz-kola 0.33</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 152.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fritz-kola 0.33</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 152.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбуча True Drinks імбир</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбуча True Drinks імбир</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік вишнево-яблучний Galicia 0.3л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік вишнево-яблучний Galicia 0.3л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік томатний Galicia 0.3л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік томатний Galicia 0.3л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік яблучний Galicia 0.3л</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік яблучний Galicia 0.3л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Моршинська негазована 0,33</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 97.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинська негазована 0,33</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 97.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Моршинська слабогазована 0,33</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 97.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинська слабогазована 0,33</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 97.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-cola 0.25</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 82.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-cola 0.25</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-cola zero 0.25</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 82.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-cola zero 0.25</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Швепс (330мл)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 77.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Швепс (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 77.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Дріп-кава Cukor & Foundation Coffee Roasters (1 шт)</p>
-                <p><strong>Опис:</strong> Наявні сорти:
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дріп-кава Cukor & Foundation Coffee Roasters (1 шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Наявні сорти:
 Costa Rica San Juanillo
 Ethiopia Chelbesa
 Kenya Thangaini</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

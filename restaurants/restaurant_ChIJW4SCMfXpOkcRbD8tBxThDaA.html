@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P. Sykhiv / П. Сихів</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/365.png" alt="Restaurant Image">
         <h1>P. Sykhiv / П. Сихів</h1>
@@ -63,113 +116,134 @@
         <p><strong>Неділя:</strong> 11:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Піца Пріма Вера (650г)</p>
-                <p><strong>Опис:</strong> Соус фірмовий, сир Моцарела, фарш курячий, томат в'ялений, мікс салату, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 305.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Пріма Вера (650г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус фірмовий, сир Моцарела, фарш курячий, томат в'ялений, мікс салату, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 305.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Кальцоне (600г)</p>
-                <p><strong>Опис:</strong> сир Моцарела, соус BBQ, шинка, томат свіжий, рукола, сир Камамбер, томат в’ялений</p>
-                <p><strong>Ціна:</strong> 295.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Кальцоне (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> сир Моцарела, соус BBQ, шинка, томат свіжий, рукола, сир Камамбер, томат в’ялений</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 295.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Б'янко (600г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, шинка, сир  Дор Блю, груша, томат Чері, базилік, мікс салату, сир Пармезан, соус фірмовий медово-гірчичний</p>
-                <p><strong>Ціна:</strong> 295.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Б'янко (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, шинка, сир  Дор Блю, груша, томат Чері, базилік, мікс салату, сир Пармезан, соус фірмовий медово-гірчичний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 295.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Тонно (550г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, гірчиця американська, сир Моцарела, тунець, соус Тар-Тар, рукола, томат Чері, базилік</p>
-                <p><strong>Ціна:</strong> 295.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Тонно (550г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, гірчиця американська, сир Моцарела, тунець, соус Тар-Тар, рукола, томат Чері, базилік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 295.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Перра Б'янко (650г)</p>
-                <p><strong>Опис:</strong> сир Моцарела, соус кисло-солодкий, шинка, груша, томат Чері, рукола, крем-сир</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Перра Б'янко (650г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> сир Моцарела, соус кисло-солодкий, шинка, груша, томат Чері, рукола, крем-сир</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Кватро Маяле (550г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, печериці свіжі, салямі мілано, шинка, бекон, салямі Піканте, базилік свіжий, сир Пармезан, томат Чері</p>
-                <p><strong>Ціна:</strong> 285.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Кватро Маяле (550г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, печериці свіжі, салямі мілано, шинка, бекон, салямі Піканте, базилік свіжий, сир Пармезан, томат Чері</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 285.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Цезаре (630г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, філе куряче копчене, яйце куряче, мікс салату, томат Чері, соус цезар, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Цезаре (630г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, філе куряче копчене, яйце куряче, мікс салату, томат Чері, соус цезар, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Сheesy cheese (500г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела,  сир  Дор Блю, сир  Брі, сир  Пармезан, базилік, груша, кунжут білий</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Сheesy cheese (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, сир Моцарела,  сир  Дор Блю, сир  Брі, сир  Пармезан, базилік, груша, кунжут білий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Прошуто (500г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, базилік, прошуто Крудо, рукола, томат Чері, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Прошуто (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, базилік, прошуто Крудо, рукола, томат Чері, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Салямі кон Помодоро (500г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі мілано, томат Чері, рукола, сир Пармезан, соус фірмовий медово-гірчичний</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Салямі кон Помодоро (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі мілано, томат Чері, рукола, сир Пармезан, соус фірмовий медово-гірчичний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Б'янко Верде (530г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела, філе куряче, томат Чері, сир Пармезан, рукола, соус кисло-солодкий</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Б'янко Верде (530г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, сир Моцарела, філе куряче, томат Чері, сир Пармезан, рукола, соус кисло-солодкий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Eat me edition (550г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі мілано, шинка, перець Болгарський, соус BBQ, сир чеддер, базилік свіжий</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Eat me edition (550г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі мілано, шинка, перець Болгарський, соус BBQ, сир чеддер, базилік свіжий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Карбонара (460г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела, бекон, яйце перепелине, базилік, соус Sweet Chili, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Карбонара (460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, сир Моцарела, бекон, яйце перепелине, базилік, соус Sweet Chili, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Поло (550г)</p>
-                <p><strong>Опис:</strong> сир Моцарела, філе куряч, томат, перець Болгарський, гірчиця американська, сир Пармезан, соус Sweet Chili</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Поло (550г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> сир Моцарела, філе куряч, томат, перець Болгарський, гірчиця американська, сир Пармезан, соус Sweet Chili</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Папероні (500г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі Піканте, базилік, цибуля зелена, соус Sweet Chili, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Папероні (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі Піканте, базилік, цибуля зелена, соус Sweet Chili, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Капрічоза (520г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, печериці свіжі, оливки зелені, шинка, томат Чері, рукола, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Капрічоза (520г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, печериці свіжі, оливки зелені, шинка, томат Чері, рукола, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Гавайська (470г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, куряче філе копчене, ананас, соус Sweet Chili, сир Пармезан, базилік</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Гавайська (470г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, куряче філе копчене, ананас, соус Sweet Chili, сир Пармезан, базилік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца Маргарита (385г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, базилік</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Маргарита (385г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, базилік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Монопіца Поло (350г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела,  філе куряче, сир Пармезан, рукола, томат Чері, соус кисло-солодкий</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> МОНОПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Монопіца Поло (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, сир Моцарела,  філе куряче, сир Пармезан, рукола, томат Чері, соус кисло-солодкий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОНОПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Монопіца Салямі (350г)</p>
-                <p><strong>Опис:</strong> Соус вершковий, сир Моцарела, салямі Мілано, рукола, соус сирний, томат в'ялений, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> МОНОПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Монопіца Салямі (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус вершковий, сир Моцарела, салямі Мілано, рукола, соус сирний, томат в'ялений, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОНОПІЦА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Монопіца Пепероні (350г)</p>
-                <p><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі Піканте, рукола, перець гострий Халапеньйо, томат Чері, сир Пармезан, соус Sweet Chili</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> МОНОПІЦА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Монопіца Пепероні (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус томатний, сир Моцарела, салямі Піканте, рукола, перець гострий Халапеньйо, томат Чері, сир Пармезан, соус Sweet Chili</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МОНОПІЦА</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

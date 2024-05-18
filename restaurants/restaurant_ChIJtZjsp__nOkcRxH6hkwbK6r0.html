@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TUTTA PIZZA</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/420.png" alt="Restaurant Image">
         <h1>TUTTA PIZZA</h1>
@@ -63,260 +116,281 @@
         <p><strong>Неділя:</strong> 11:00:00 - 21:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Грузинська закуска (600 г)</p>
-                <p><strong>Опис:</strong> Холодна закуска на компанію в яку входять: рулетики з баклажана, сало в грузинських спеціях,  маринований кабачок, чіпси з лаваша, сирна намазанка з в'яленими томатами, маринована слива, капуста по-грузинськи.</p>
-                <p><strong>Ціна:</strong> 343.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грузинська закуска (600 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Холодна закуска на компанію в яку входять: рулетики з баклажана, сало в грузинських спеціях,  маринований кабачок, чіпси з лаваша, сирна намазанка з в'яленими томатами, маринована слива, капуста по-грузинськи.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 343.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тарілка крафтових сирів (300г)</p>
-                <p><strong>Опис:</strong> П'ять видів сиру - королівський, брі, дор-блю та пармезан. Подаємо з медом та грецькими</p>
-                <p><strong>Ціна:</strong> 303.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тарілка крафтових сирів (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> П'ять видів сиру - королівський, брі, дор-блю та пармезан. Подаємо з медом та грецькими</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 303.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Асорті закусок до пива (150г)</p>
-                <p><strong>Опис:</strong> Асорті сиров'яленого м'яса з чіпсами із лаваша та пряними грузинськими соусами.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Асорті закусок до пива (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Асорті сиров'яленого м'яса з чіпсами із лаваша та пряними грузинськими соусами.
 Beer cold cuts</p>
-                <p><strong>Ціна:</strong> 246.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 246.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Асорті овочеве (300г)</p>
-                <p><strong>Опис:</strong> Овочі та сир Сулугуні</p>
-                <p><strong>Ціна:</strong> 188.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Асорті овочеве (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Овочі та сир Сулугуні</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 188.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рулетики з баклажана з трюфельною пастою (170г)</p>
-                <p><strong>Опис:</strong> Рулетики з баклажанів з традиційною грузинською горіховою начинкою та трюфельною пастою.</p>
-                <p><strong>Ціна:</strong> 187.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рулетики з баклажана з трюфельною пастою (170г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рулетики з баклажанів з традиційною грузинською горіховою начинкою та трюфельною пастою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 187.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грінки з шоті з зеленню та сирною намазанкою (150г)</p>
-                <p><strong>Опис:</strong> Хруски грінки з Грузинського шоті з пучком свіжої ароматної зелені та намазанкою з Рікоти з в'яленими томатами та печеним часником.</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грінки з шоті з зеленню та сирною намазанкою (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хруски грінки з Грузинського шоті з пучком свіжої ароматної зелені та намазанкою з Рікоти з в'яленими томатами та печеним часником.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат "Шемодгома" з білими грибами та молодим сиром (330г)</p>
-                <p><strong>Опис:</strong> Салат із запечених овочів з білими грибами та м'яким сиром в горіховій паніровці.</p>
-                <p><strong>Ціна:</strong> 286.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат "Шемодгома" з білими грибами та молодим сиром (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат із запечених овочів з білими грибами та м'яким сиром в горіховій паніровці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 286.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з телятиною</p>
-                <p><strong>Опис:</strong> Ніжний ростбіф з телячої вирізки з соковитим листям салату на хрусткому чіпсі з лаваша заправлений соусом з тунця та анчоусів з дованням в'ялених томатів та зерен гранату.</p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з телятиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний ростбіф з телячої вирізки з соковитим листям салату на хрусткому чіпсі з лаваша заправлений соусом з тунця та анчоусів з дованням в'ялених томатів та зерен гранату.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з лососем та гранатом (293г)</p>
-                <p><strong>Опис:</strong> Мікс салату з скибочками слабосоленого лосося, помідорами чері, зернами гранату та з тертим Пармезаном. Заправляємо авторським соусом Цезар на основі тунця.</p>
-                <p><strong>Ціна:</strong> 268.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з лососем та гранатом (293г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату з скибочками слабосоленого лосося, помідорами чері, зернами гранату та з тертим Пармезаном. Заправляємо авторським соусом Цезар на основі тунця.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 268.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з куркою та гранатом (250г)</p>
-                <p><strong>Опис:</strong> Мікс салату з хрусткою курятиною, помідорами чері, зернами гранату та з тертим Пармезаном. Заправляємо авторським соусом Цезар на основі тунця.</p>
-                <p><strong>Ціна:</strong> 228.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з куркою та гранатом (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату з хрусткою курятиною, помідорами чері, зернами гранату та з тертим Пармезаном. Заправляємо авторським соусом Цезар на основі тунця.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 228.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Грузинський (250г)</p>
-                <p><strong>Опис:</strong> Традиційний салат зі свіжих овочів (огірок, помідор, цибуля) з горіховою пастою та грузинськими спеціями</p>
-                <p><strong>Ціна:</strong> 168.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Грузинський (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційний салат зі свіжих овочів (огірок, помідор, цибуля) з горіховою пастою та грузинськими спеціями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 168.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Борщ по-грузинськи з паляницею (400г)</p>
-                <p><strong>Опис:</strong> Насичений пряний борщ з грунськими спеціями, подаємо з великим шматком підкопченого ребра та з грузинською паляницею</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Борщ по-грузинськи з паляницею (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Насичений пряний борщ з грунськими спеціями, подаємо з великим шматком підкопченого ребра та з грузинською паляницею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Суп Харчо (300г)</p>
-                <p><strong>Опис:</strong> Традиційний грузинський томатний суп з яловичиною та прямо-гострими спеціями</p>
-                <p><strong>Ціна:</strong> 193.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суп Харчо (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційний грузинський томатний суп з яловичиною та прямо-гострими спеціями</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 193.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бульйон з міні хінкалі (300г)</p>
-                <p><strong>Опис:</strong> Насичений курячий бульйон з ароматом спецій та мускатного горіху з міні хікалі з м'ясом</p>
-                <p><strong>Ціна:</strong> 143.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бульйон з міні хінкалі (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Насичений курячий бульйон з ароматом спецій та мускатного горіху з міні хікалі з м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 143.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Овочі гриль (200г)</p>
-                <p><strong>Опис:</strong> Грильовані овочі - печериці, цукіні, баклажани, болгарський перець, цибуля</p>
-                <p><strong>Ціна:</strong> 139.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Овочі гриль (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Грильовані овочі - печериці, цукіні, баклажани, болгарський перець, цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 139.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля  в соусі "Чкмерулі" (150г)</p>
-                <p><strong>Опис:</strong> Відварна картопля з зеленню в соусі Чкмерулі</p>
-                <p><strong>Ціна:</strong> 118.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля  в соусі "Чкмерулі" (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відварна картопля з зеленню в соусі Чкмерулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 118.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі з сванською сіллю (120г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 83.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі з сванською сіллю (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 83.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грузинське застілля на 4 особи (2750г)</p>
-                <p><strong>Опис:</strong> В сет входить: Грузинський салат, Гострі перчики з пряним сиром, Рулетики з баклажанів з горіхами та трюфельною пастою, Свинний шашлик, Курячі крильця в соусі Чкмерулі, Люля-кебаб, Ткемалі, Аджика, Шоті та Пляшка фірмового вина</p>
-                <p><strong>Ціна:</strong> 1873.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грузинське застілля на 4 особи (2750г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> В сет входить: Грузинський салат, Гострі перчики з пряним сиром, Рулетики з баклажанів з горіхами та трюфельною пастою, Свинний шашлик, Курячі крильця в соусі Чкмерулі, Люля-кебаб, Ткемалі, Аджика, Шоті та Пляшка фірмового вина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1873.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сет грильового м'яса (1350г)</p>
-                <p><strong>Опис:</strong> Великий сет м'яса до якого входять традиційний грузинський Люля-кебаб, соковиті Запечені ребра та Шашлик, Курячі крильця з хрумкою скоринко , Соуси власного виробництва аджика, ткемалі та карамелізований ананас-чилі з гриля.</p>
-                <p><strong>Ціна:</strong> 1233.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет грильового м'яса (1350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Великий сет м'яса до якого входять традиційний грузинський Люля-кебаб, соковиті Запечені ребра та Шашлик, Курячі крильця з хрумкою скоринко , Соуси власного виробництва аджика, ткемалі та карамелізований ананас-чилі з гриля.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1233.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Свинний шашлик з соусом сацебелі (200/50г)</p>
-                <p><strong>Опис:</strong> Свиний шашлик</p>
-                <p><strong>Ціна:</strong> 318.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Свинний шашлик з соусом сацебелі (200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свиний шашлик</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 318.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Запечені свинні ребра з соусом аджика (300/50г)</p>
-                <p><strong>Опис:</strong> Свині ребра, запечені на грилі</p>
-                <p><strong>Ціна:</strong> 318.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечені свинні ребра з соусом аджика (300/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свині ребра, запечені на грилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 318.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чкмерулі (300г)</p>
-                <p><strong>Опис:</strong> Курятина у вершковому соусі з пряними травами</p>
-                <p><strong>Ціна:</strong> 283.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чкмерулі (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курятина у вершковому соусі з пряними травами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 283.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Оджахурі з шашликом (350г)</p>
-                <p><strong>Опис:</strong> Смажена кртопля з печерицями та соковитим шашликом, подаємо на грузинських кеці</p>
-                <p><strong>Ціна:</strong> 273.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Оджахурі з шашликом (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажена кртопля з печерицями та соковитим шашликом, подаємо на грузинських кеці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 273.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Люля-кебаб з соусом сацебелі (200/50г)</p>
-                <p><strong>Опис:</strong> Суміш фаршу з яловичини та свинини з гриля</p>
-                <p><strong>Ціна:</strong> 263.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Люля-кебаб з соусом сацебелі (200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Суміш фаршу з яловичини та свинини з гриля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 263.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Люля-кебаб з курятини, з сиром та соусом Ткемалі (250/50г)</p>
-                <p><strong>Опис:</strong> Люля-кебаб з курячого філе, з сиром Сулугуні та соусом Ткемалі</p>
-                <p><strong>Ціна:</strong> 263.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Люля-кебаб з курятини, з сиром та соусом Ткемалі (250/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Люля-кебаб з курячого філе, з сиром Сулугуні та соусом Ткемалі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 263.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Смажені баклажани з соусом з болгарського перцю з пармезаном (250г)</p>
-                <p><strong>Опис:</strong> Кубики баклажану посмажені до хрусткої скоринки з насиченим соусом з болгарського перцю з пармезаном.</p>
-                <p><strong>Ціна:</strong> 193.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смажені баклажани з соусом з болгарського перцю з пармезаном (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кубики баклажану посмажені до хрусткої скоринки з насиченим соусом з болгарського перцю з пармезаном.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 193.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячі крильця гриль з крафтовою аджикою (250/50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі крильця гриль з крафтовою аджикою (250/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Смажені хінкалі з мацоні (330г)</p>
-                <p><strong>Опис:</strong> 5 шт Смажених хінкалі з хрумкою золотою скоринкою. Яловичий та свиний фарш, кінза, перець чилі, грузинські спеції.</p>
-                <p><strong>Ціна:</strong> 238.0</p>
-                <p><strong>Тип:</strong> ХІНКАЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Смажені хінкалі з мацоні (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 5 шт Смажених хінкалі з хрумкою золотою скоринкою. Яловичий та свиний фарш, кінза, перець чилі, грузинські спеції.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 238.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХІНКАЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хінкалі з сиром (80г)</p>
-                <p><strong>Опис:</strong> Традиційні грузинські хінкалі з сиром</p>
-                <p><strong>Ціна:</strong> 44.0</p>
-                <p><strong>Тип:</strong> ХІНКАЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хінкалі з сиром (80г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційні грузинські хінкалі з сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 44.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХІНКАЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хінкалі з м'ясом (80г)</p>
-                <p><strong>Опис:</strong> Традиційні грузинські хінкалі з м'ясом</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ХІНКАЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хінкалі з м'ясом (80г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційні грузинські хінкалі з м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХІНКАЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хінкалі з бараниною (80 г)</p>
-                <p><strong>Опис:</strong> Хінкалі з м'ясом молодого ягняти заправленим грузинськими спеціями, з додаванням часнику, кінзи і чілі.</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> ХІНКАЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хінкалі з бараниною (80 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хінкалі з м'ясом молодого ягняти заправленим грузинськими спеціями, з додаванням часнику, кінзи і чілі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХІНКАЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хачапурі з лисичками та беконом (400г)</p>
-                <p><strong>Опис:</strong> Хачапурі з лисичками, печерицями, беконом та сиром Сулугуні</p>
-                <p><strong>Ціна:</strong> 293.0</p>
-                <p><strong>Тип:</strong> ХАЧАПУРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хачапурі з лисичками та беконом (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хачапурі з лисичками, печерицями, беконом та сиром Сулугуні</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 293.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХАЧАПУРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хачапурі Чураско (500г)</p>
-                <p><strong>Опис:</strong> Хачапурі з дріжджового тіста із яловичим фаршем та сиром сулугуні</p>
-                <p><strong>Ціна:</strong> 273.0</p>
-                <p><strong>Тип:</strong> ХАЧАПУРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хачапурі Чураско (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хачапурі з дріжджового тіста із яловичим фаршем та сиром сулугуні</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 273.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХАЧАПУРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хачапурі "Чотири сири" (450г)</p>
-                <p><strong>Опис:</strong> Хачапурі з чотирма видами сиру — сулугуні, імеритинський, дор-блю, ементаль.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хачапурі "Чотири сири" (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хачапурі з чотирма видами сиру — сулугуні, імеритинський, дор-блю, ементаль.
 Four cheeses Khachapuri</p>
-                <p><strong>Ціна:</strong> 268.0</p>
-                <p><strong>Тип:</strong> ХАЧАПУРІ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 268.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХАЧАПУРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хачапурі по-мегрельськи (400г)</p>
-                <p><strong>Опис:</strong> Хачапурі з дріжджового тіста зі сулугуні та імеритинським сиром</p>
-                <p><strong>Ціна:</strong> 231.0</p>
-                <p><strong>Тип:</strong> ХАЧАПУРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хачапурі по-мегрельськи (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хачапурі з дріжджового тіста зі сулугуні та імеритинським сиром</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 231.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХАЧАПУРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шоті (150г)</p>
-                <p><strong>Опис:</strong> Традиційний грузинський хліб</p>
-                <p><strong>Ціна:</strong> 38.0</p>
-                <p><strong>Тип:</strong> ХАЧАПУРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шоті (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційний грузинський хліб</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 38.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХАЧАПУРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пармезан до хачапурі (30г)</p>
-                <p><strong>Опис:</strong> Пармезан до хачапурі</p>
-                <p><strong>Ціна:</strong> 33.0</p>
-                <p><strong>Тип:</strong> ХАЧАПУРІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пармезан до хачапурі (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пармезан до хачапурі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 33.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХАЧАПУРІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад цитрусовий (500мл)</p>
-                <p><strong>Опис:</strong> Лимонад цитрусовий</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ЛИМОНАДИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад цитрусовий (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лимонад цитрусовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИМОНАДИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад Смородиновий (500мл)</p>
-                <p><strong>Опис:</strong> Лимонад Смородиновий</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ЛИМОНАДИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Смородиновий (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лимонад Смородиновий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИМОНАДИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад Обліпиховий (500мл)</p>
-                <p><strong>Опис:</strong> Лимонад Обліпиховий</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ЛИМОНАДИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Обліпиховий (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лимонад Обліпиховий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИМОНАДИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад імбирний (500мл)</p>
-                <p><strong>Опис:</strong> Лимонад імбирний</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ЛИМОНАДИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад імбирний (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лимонад імбирний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЛИМОНАДИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боржомі (500мл)</p>
-                <p><strong>Опис:</strong> Вода газована</p>
-                <p><strong>Ціна:</strong> 98.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боржомі (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вода газована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 98.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад Натахтарі (500мл)</p>
-                <p><strong>Опис:</strong> Лимонад Натахтарі</p>
-                <p><strong>Ціна:</strong> 97.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад Натахтарі (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лимонад Натахтарі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 97.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сoca-Cola Zero (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 59.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сoca-Cola Zero (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 59.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> fanta (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 59.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> fanta (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 59.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фантастичний Наполеон (150г)</p>
-                <p><strong>Опис:</strong> Найніжніше листове тісто приготовлене по технології Фуетаж з класичним заварним кремом та свіжими ягодами.</p>
-                <p><strong>Ціна:</strong> 173.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фантастичний Наполеон (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Найніжніше листове тісто приготовлене по технології Фуетаж з класичним заварним кремом та свіжими ягодами.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 173.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бумбулі з лаймом (150г)</p>
-                <p><strong>Опис:</strong> Корж з пісочного печива з ніжним вершково-сирним кремом з ароматом топленого масла та лайму.</p>
-                <p><strong>Ціна:</strong> 128.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бумбулі з лаймом (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Корж з пісочного печива з ніжним вершково-сирним кремом з ароматом топленого масла та лайму.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 128.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ткемалі (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ткемалі (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Аджика (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Аджика (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Томатний барбекю (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Томатний барбекю (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

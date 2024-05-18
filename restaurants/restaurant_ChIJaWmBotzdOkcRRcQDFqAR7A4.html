@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miso / МісО</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/426.png" alt="Restaurant Image">
         <h1>Miso / МісО</h1>
@@ -63,328 +116,349 @@
         <p><strong>Неділя:</strong> 12:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Тост з Тунцем, Авокадо та Страчателлою 330g</p>
-                <p><strong>Опис:</strong> Житній Хліб, Тунець, Страчателла, Джем Томатний, Авокадо, Мікс Салатів, Огірок</p>
-                <p><strong>Ціна:</strong> 396.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тост з Тунцем, Авокадо та Страчателлою 330g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Житній Хліб, Тунець, Страчателла, Джем Томатний, Авокадо, Мікс Салатів, Огірок</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 396.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тост з Авокадо та Лососем 270g</p>
-                <p><strong>Опис:</strong> Житній Хліб, Солось Слабосолений, Рікота, Авокадо, Яйце Пашот</p>
-                <p><strong>Ціна:</strong> 385.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тост з Авокадо та Лососем 270g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Житній Хліб, Солось Слабосолений, Рікота, Авокадо, Яйце Пашот</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 385.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Яйця «Бенедикт» з Лососем та Шпинатом на булочках Бріош 340g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 352.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яйця «Бенедикт» з Лососем та Шпинатом на булочках Бріош 340g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 352.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплексний з Лососем 330g</p>
-                <p><strong>Опис:</strong> Яйця в круту, Лосось Слабосолений, Рікота, Мікс Салатів, Огірок, Помідор, Бріош</p>
-                <p><strong>Ціна:</strong> 341.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплексний з Лососем 330g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яйця в круту, Лосось Слабосолений, Рікота, Мікс Салатів, Огірок, Помідор, Бріош</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 341.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплексний з Мортаделлою 330g</p>
-                <p><strong>Опис:</strong> Скрамбл з Двох Яєць, Мортаделла, Рікота, Мікс Салатів, Огірок, Помідор, Бріош</p>
-                <p><strong>Ціна:</strong> 319.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплексний з Мортаделлою 330g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Скрамбл з Двох Яєць, Мортаделла, Рікота, Мікс Салатів, Огірок, Помідор, Бріош</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 319.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з Мортаделлою 280g</p>
-                <p><strong>Опис:</strong> Круасан, мортаделла, скрамбл, сир страчателла, сир чеддер, конфітюр з цибулі</p>
-                <p><strong>Ціна:</strong> 319.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з Мортаделлою 280g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Круасан, мортаделла, скрамбл, сир страчателла, сир чеддер, конфітюр з цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 319.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з Шинкою та Яйцем Пашот 250g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 303.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з Шинкою та Яйцем Пашот 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 303.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Яйця «Бенедикт» з Авокадо та Креветками на булочках Бріош 350g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 297.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яйця «Бенедикт» з Авокадо та Креветками на булочках Бріош 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 297.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Зелений сніданок з Халумі 325g</p>
-                <p><strong>Опис:</strong> Яйця в круту, Сир Халумі, Мікс Салатів, Броколі, Авокадо, Бріош</p>
-                <p><strong>Ціна:</strong> 297.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зелений сніданок з Халумі 325g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яйця в круту, Сир Халумі, Мікс Салатів, Броколі, Авокадо, Бріош</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 297.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирнички з Фундучною пастою, Крем-чізом та Хрусткими пластівцями 260g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирнички з Фундучною пастою, Крем-чізом та Хрусткими пластівцями 260g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кабачкові Оладки з Лососем 295g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 253.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кабачкові Оладки з Лососем 295g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 253.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирнички з Сметаною та Ягідним кулі 200g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирнички з Сметаною та Ягідним кулі 200g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Млинці з Яблуком 250g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Млинці з Яблуком 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Панкейки з Ягідним кюлі та Крем-чізом 350g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Панкейки з Ягідним кюлі та Крем-чізом 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Льняна Каша 250g</p>
-                <p><strong>Опис:</strong> з Сезонними Ягодами, Мигдалевими пластівцями та сухофруктами на кокосовому або коров'ячому молоці</p>
-                <p><strong>Ціна:</strong> 242.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Льняна Каша 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> з Сезонними Ягодами, Мигдалевими пластівцями та сухофруктами на кокосовому або коров'ячому молоці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 242.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вівсяна Каша 250g</p>
-                <p><strong>Опис:</strong> з Сезонними Ягодами, Медом та Мигдалевими пластівцями на кокосовому або коров'ячому молоці</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> Сніданки</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вівсяна Каша 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> з Сезонними Ягодами, Медом та Мигдалевими пластівцями на кокосовому або коров'ячому молоці</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданки</p>
                 <hr>
-                <p><strong>Позиція:</strong> Попкорн з Креветок 220g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 374.0</p>
-                <p><strong>Тип:</strong> Закуски</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Попкорн з Креветок 220g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 374.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Закуски</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирна Тарілка 150g</p>
-                <p><strong>Опис:</strong> Камамбер, Пармезан, Рокфор, Шевре, Соус Ягідний, Мед</p>
-                <p><strong>Ціна:</strong> 341.0</p>
-                <p><strong>Тип:</strong> Закуски</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирна Тарілка 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Камамбер, Пармезан, Рокфор, Шевре, Соус Ягідний, Мед</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 341.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Закуски</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тартар з Лосося 190g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 341.0</p>
-                <p><strong>Тип:</strong> Закуски</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тартар з Лосося 190g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 341.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Закуски</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паштет Курячий 180g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 286.0</p>
-                <p><strong>Тип:</strong> Закуски</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паштет Курячий 180g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 286.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Закуски</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сендвіч з Шинкою 280g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 286.0</p>
-                <p><strong>Тип:</strong> Закуски</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сендвіч з Шинкою 280g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 286.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Закуски</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бріош з Мортаделлою та Страчателлою 240g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 264.0</p>
-                <p><strong>Тип:</strong> Закуски</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бріош з Мортаделлою та Страчателлою 240g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 264.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Закуски</p>
                 <hr>
-                <p><strong>Позиція:</strong> Брускетта зі Страчателлою та Печеними Перцями 200g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 264.0</p>
-                <p><strong>Тип:</strong> Закуски</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Брускетта зі Страчателлою та Печеними Перцями 200g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 264.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Закуски</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гуакамоле 210g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 231.0</p>
-                <p><strong>Тип:</strong> Закуски</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гуакамоле 210g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 231.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Закуски</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Тунцем 300g</p>
-                <p><strong>Опис:</strong> в оливковій олії</p>
-                <p><strong>Ціна:</strong> 385.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Тунцем 300g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> в оливковій олії</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 385.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Броколі та Креветками 290g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 385.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Броколі та Креветками 290g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 385.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Телятиною та Стручковою Квасолею 250g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 385.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Телятиною та Стручковою Квасолею 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 385.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Курячою Печінкою та Карамелізованими Яблуками 280g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 286.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Курячою Печінкою та Карамелізованими Яблуками 280g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 286.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грецький 230g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 231.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грецький 230g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 231.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> Цезар 200g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> Салати</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цезар 200g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Салати</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирний з Куркою 250g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> Супи</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний з Куркою 250g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Супи</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гарбузовий 300g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 231.0</p>
-                <p><strong>Тип:</strong> Супи</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гарбузовий 300g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 231.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Супи</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грибна Юшка 300g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 209.0</p>
-                <p><strong>Тип:</strong> Супи</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грибна Юшка 300g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 209.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Супи</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячий Бульйон 350g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 154.0</p>
-                <p><strong>Тип:</strong> Супи</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий Бульйон 350g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 154.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Супи</p>
                 <hr>
-                <p><strong>Позиція:</strong> Філе Лосося 160/50g</p>
-                <p><strong>Опис:</strong> Соус Сирний з Пармезаном</p>
-                <p><strong>Ціна:</strong> 418.0</p>
-                <p><strong>Тип:</strong> Основні Страви</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Філе Лосося 160/50g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соус Сирний з Пармезаном</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 418.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Основні Страви</p>
                 <hr>
-                <p><strong>Позиція:</strong> Котлетки з Індички та Картопляним Пюре 320g</p>
-                <p><strong>Опис:</strong> Індичі котлетки, картопляне пюре, мариновані огірки, синя цибуля</p>
-                <p><strong>Ціна:</strong> 396.0</p>
-                <p><strong>Тип:</strong> Основні Страви</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлетки з Індички та Картопляним Пюре 320g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Індичі котлетки, картопляне пюре, мариновані огірки, синя цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 396.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Основні Страви</p>
                 <hr>
-                <p><strong>Позиція:</strong> Котлетки з Судака з Птітімом та Шпинатом  230g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 396.0</p>
-                <p><strong>Тип:</strong> Основні Страви</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлетки з Судака з Птітімом та Шпинатом  230g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 396.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Основні Страви</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Креветками 300g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 319.0</p>
-                <p><strong>Тип:</strong> Паста</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Креветками 300g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 319.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Паста</p>
                 <hr>
-                <p><strong>Позиція:</strong> Болоньєзе 300g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 286.0</p>
-                <p><strong>Тип:</strong> Паста</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Болоньєзе 300g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 286.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Паста</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Горіховим Праліне 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Горіховим Праліне 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Нутеллою 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Нутеллою 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Заварним Кремом 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Заварним Кремом 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Полуницею 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Полуницею 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Шоколадом 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Шоколадом 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Малиною 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Малиною 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Вишнею 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Вишнею 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Сиром Маскарпоне та Малиною 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Сиром Маскарпоне та Малиною 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Сиром Маскарпоне та Полуницею 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Сиром Маскарпоне та Полуницею 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> з Сиром Маскарпоне та Вишнею 150g</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> з Сиром Маскарпоне та Вишнею 150g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> Класичний 100g</p>
-                <p><strong>Опис:</strong> без начинки</p>
-                <p><strong>Ціна:</strong> 77.0</p>
-                <p><strong>Тип:</strong> Круасани</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Класичний 100g</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> без начинки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 77.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Круасани</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тістечко Хемінгуей (120g)</p>
-                <p><strong>Опис:</strong> фундучне муальо, хрусткий шоколадний прошарок, м’яка карамель, арахіс, мус на основі грецьких горіхів та білого шоколаду</p>
-                <p><strong>Ціна:</strong> 203.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тістечко Хемінгуей (120g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> фундучне муальо, хрусткий шоколадний прошарок, м’яка карамель, арахіс, мус на основі грецьких горіхів та білого шоколаду</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 203.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тістечко Рафаело (120g)</p>
-                <p><strong>Опис:</strong> кокосовий ганаш, кокосове кремьо, карамелізований мигдаль, хрусткий прошарок на основі мигдалю</p>
-                <p><strong>Ціна:</strong> 192.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тістечко Рафаело (120g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> кокосовий ганаш, кокосове кремьо, карамелізований мигдаль, хрусткий прошарок на основі мигдалю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 192.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тістечко Бальзак (115g)</p>
-                <p><strong>Опис:</strong> екзотичний кюлі зі шматочками банану та м’яти, мус маракуя, мигдалевий дакуаз</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тістечко Бальзак (115g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> екзотичний кюлі зі шматочками банану та м’яти, мус маракуя, мигдалевий дакуаз</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тістечко Вольтер (75g)</p>
-                <p><strong>Опис:</strong> бананове кремьо, шоколадне кремьо, кавовий мус на молочному шоколаді</p>
-                <p><strong>Ціна:</strong> 148.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тістечко Вольтер (75g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> бананове кремьо, шоколадне кремьо, кавовий мус на молочному шоколаді</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 148.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тістечко Ніцше (90g)</p>
-                <p><strong>Опис:</strong> фундучне муальо, полуничне кулі, шоколадний мус, бісквіт джаконда з хрустким прошарком</p>
-                <p><strong>Ціна:</strong> 148.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тістечко Ніцше (90g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> фундучне муальо, полуничне кулі, шоколадний мус, бісквіт джаконда з хрустким прошарком</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 148.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тістечко Бредбері (110g)</p>
-                <p><strong>Опис:</strong> вишнево-коньячне конфі, шоколадне кремьо, мус на білому шоколаді з вишневим кюлі, шоколадний дакуаз та хрусткий шоколадний прошарок</p>
-                <p><strong>Ціна:</strong> 148.0</p>
-                <p><strong>Тип:</strong> Десерти</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тістечко Бредбері (110g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> вишнево-коньячне конфі, шоколадне кремьо, мус на білому шоколаді з вишневим кюлі, шоколадний дакуаз та хрусткий шоколадний прошарок</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 148.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Десерти</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боржомі 0,5</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боржомі 0,5</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грейпфрутовий Фреш</p>
-                <p><strong>Опис:</strong> 250мл</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грейпфрутовий Фреш</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 250мл</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Моршинська 0,33 негазована</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 83.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинська 0,33 негазована</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 83.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Моршинська 0,33 слабогазована</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 83.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Моршинська 0,33 слабогазована</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 83.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-Cola 0,25</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 82.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-Cola 0,25</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca-Cola Zero 0,25</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 82.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca-Cola Zero 0,25</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> fanta orange 0,25</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 82.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> fanta orange 0,25</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr>
-                <p><strong>Позиція:</strong> sprite 0,25</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 82.0</p>
-                <p><strong>Тип:</strong> Напої</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> sprite 0,25</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Напої</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

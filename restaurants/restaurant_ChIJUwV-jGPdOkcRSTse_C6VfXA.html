@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tut zhyve pyvo / Тут живе пиво</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/222.png" alt="Restaurant Image">
         <h1>Tut zhyve pyvo / Тут живе пиво</h1>
@@ -63,408 +116,429 @@
         <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Стейк T-bone Dry Aged</p>
-                <p><strong>Опис:</strong> T-Bone об'єднує в собі відразу два види м'яса: найніжніший в світі Тендерлойн (Філе міньйон) і яскравий, насичений Стріплойн (Нью-Йорк).
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк T-bone Dry Aged</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> T-Bone об'єднує в собі відразу два види м'яса: найніжніший в світі Тендерлойн (Філе міньйон) і яскравий, насичений Стріплойн (Нью-Йорк).
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 1836.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1836.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Далас стейк Dry Aged</p>
-                <p><strong>Опис:</strong> Стейк Даллас – це Рібай, що подається на короткому, зачищеному ребрі. Кістка при смаженні надає стейку приємного горіхового аромату. Даллас ще називають Ковбой стейком.</p>
-                <p><strong>Ціна:</strong> 1836.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Далас стейк Dry Aged</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Стейк Даллас – це Рібай, що подається на короткому, зачищеному ребрі. Кістка при смаженні надає стейку приємного горіхового аромату. Даллас ще називають Ковбой стейком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1836.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рібай стейк Dry Aged</p>
-                <p><strong>Опис:</strong> Один з найбільш відомих стейків в світі. Беззаперечна класика
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рібай стейк Dry Aged</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Один з найбільш відомих стейків в світі. Беззаперечна класика
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 1428.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1428.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Антрекот стейк</p>
-                <p><strong>Опис:</strong> Найбільш мармуровий та соковитий стейк. Витриманий за технологією вологої витримки
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Антрекот стейк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Найбільш мармуровий та соковитий стейк. Витриманий за технологією вологої витримки
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 1382.5</p>
-                <p><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1382.5</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Філе-Міньйон</p>
-                <p><strong>Опис:</strong> Ідеально підходить для вечері на двох з пляшкою хорошого червоного вина
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Філе-Міньйон</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ідеально підходить для вечері на двох з пляшкою хорошого червоного вина
 
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 1224.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1224.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Каре телятини</p>
-                <p><strong>Опис:</strong> Це м'ясо на ребрі ніжно-рожевого кольору з приємною, м'якою текстурою
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Каре телятини</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Це м'ясо на ребрі ніжно-рожевого кольору з приємною, м'якою текстурою
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 918.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 918.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Телятина Кошлеме</p>
-                <p><strong>Опис:</strong> Ніжна теляча вирізка відрізняється соковитим смаком і м'якою текстурою, має дієтичні властивості
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Телятина Кошлеме</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжна теляча вирізка відрізняється соковитим смаком і м'якою текстурою, має дієтичні властивості
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 815.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 815.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Локум стейк</p>
-                <p><strong>Опис:</strong> Ніжний та соковитий стейк з яловичої вирізки
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локум стейк</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний та соковитий стейк з яловичої вирізки
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 776.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 776.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик з яловичини</p>
-                <p><strong>Опис:</strong> М'ясо, смажене на деревному вугіллі, одна з найдавніших страв у світі
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик з яловичини</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> М'ясо, смажене на деревному вугіллі, одна з найдавніших страв у світі
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 720.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 720.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ З ПРЕМІАЛЬНОЇ ЯЛОВИЧИНИ DRY AGED (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк зі свинини</p>
-                <p><strong>Опис:</strong> Соковите, з дивовижною скоринкою м’ясо – це і є справжній стейк
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк зі свинини</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковите, з дивовижною скоринкою м’ясо – це і є справжній стейк
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 560.0</p>
-                <p><strong>Тип:</strong> СТРАВИ ЗІ СВИНИНИ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 560.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ ЗІ СВИНИНИ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик зі свинини</p>
-                <p><strong>Опис:</strong> Це одна з найпоширеніших страв кавказької кухні. Особливої популярності він набув завдяки своїй соковитості і ніжності
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик зі свинини</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Це одна з найпоширеніших страв кавказької кухні. Особливої популярності він набув завдяки своїй соковитості і ніжності
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 436.0</p>
-                <p><strong>Тип:</strong> СТРАВИ ЗІ СВИНИНИ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 436.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ ЗІ СВИНИНИ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик з курятини</p>
-                <p><strong>Опис:</strong> Надзвичайно м`який та соковитий смак - знайомий всім
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик з курятини</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайно м`який та соковитий смак - знайомий всім
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 286.0</p>
-                <p><strong>Тип:</strong> СТРАВИ З ПТИЦІ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 286.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ З ПТИЦІ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячі бедра</p>
-                <p><strong>Опис:</strong> Курячі стегна вважаються однією з найбільш соковитих і ніжних частин м’яса.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі бедра</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячі стегна вважаються однією з найбільш соковитих і ніжних частин м’яса.
 Приготовлені на мангалі стегна мають неповторний аромат та завдяки особливому маринаду –  насичений смак
 
 Ціна вказана за вагу сирого м'яса. The price is for raw meat.</p>
-                <p><strong>Ціна:</strong> 153.0</p>
-                <p><strong>Тип:</strong> СТРАВИ З ПТИЦІ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 153.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ З ПТИЦІ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Котлети з сиром (300г)</p>
-                <p><strong>Опис:</strong> Для приготування фаршу ми використовуємо 50% м’яса свіжої яловичини та 50% яловичини Dry aged витримки. Завдяки сиру котлетки надзвичайно соковиті та ароматні.</p>
-                <p><strong>Ціна:</strong> 345.0</p>
-                <p><strong>Тип:</strong> ФІРМОВІ КОТЛЕТИ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлети з сиром (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Для приготування фаршу ми використовуємо 50% м’яса свіжої яловичини та 50% яловичини Dry aged витримки. Завдяки сиру котлетки надзвичайно соковиті та ароматні.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 345.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФІРМОВІ КОТЛЕТИ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Котлети з сиром</p>
-                <p><strong>Опис:</strong> Для приготування фаршу ми використовуємо 50% м’яса свіжої яловичини та 50% яловичини Dry aged витримки.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Котлети з сиром</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Для приготування фаршу ми використовуємо 50% м’яса свіжої яловичини та 50% яловичини Dry aged витримки.
 Завдяки сиру котлетки надзвичайно соковиті та ароматні</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ФІРМОВІ КОТЛЕТИ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФІРМОВІ КОТЛЕТИ (ЦІНА ВКАЗАНА ЗА ВАГУ СИРОГО М'ЯСА)</p>
                 <hr>
-                <p><strong>Позиція:</strong> Shrimp - Beef</p>
-                <p><strong>Опис:</strong> Спокуслива комбінація surf and turf познайомить Вас з новим світом. Надзвичайно соковита яловича котлета з хрумкими креветками та ніжним сиром чедер, ідеально доповнить та збалансує все морська “чука” та поєднання пікатно-часникового соусу.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Shrimp - Beef</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спокуслива комбінація surf and turf познайомить Вас з новим світом. Надзвичайно соковита яловича котлета з хрумкими креветками та ніжним сиром чедер, ідеально доповнить та збалансує все морська “чука” та поєднання пікатно-часникового соусу.
 (400g/75g)</p>
-                <p><strong>Ціна:</strong> 433.5</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 433.5</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> "На Мангал" бургер</p>
-                <p><strong>Опис:</strong> Ніжна телятина медіум просмажки, соковите куряче бедро та хрумкий бекон, подається з карамелізованою в пікантному соусі кримською цибулею, солодковатий консервований та водночас  грильований ананас, куряче яйце, айсберг. Довершіть страву трішки розіг...</p>
-                <p><strong>Ціна:</strong> 378.25</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> "На Мангал" бургер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжна телятина медіум просмажки, соковите куряче бедро та хрумкий бекон, подається з карамелізованою в пікантному соусі кримською цибулею, солодковатий консервований та водночас  грильований ананас, куряче яйце, айсберг. Довершіть страву трішки розіг...</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 378.25</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізбургер</p>
-                <p><strong>Опис:</strong> Духмяна булочка з нашої пекарні, обсмажена на мангалі, сирний соус,  соковитий яловичий біфштекс, салат айсберг, сир чедер, грильований болгарський перець, маринований огірок та карамелізована кисло-солодка кримська цибуля.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Духмяна булочка з нашої пекарні, обсмажена на мангалі, сирний соус,  соковитий яловичий біфштекс, салат айсберг, сир чедер, грильований болгарський перець, маринований огірок та карамелізована кисло-солодка кримська цибуля.
  (540г)</p>
-                <p><strong>Ціна:</strong> 369.75</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 369.75</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер "Fat Boy"</p>
-                <p><strong>Опис:</strong> Булочка бріош в поєднанні з котлетою з яловини та сиром ементаль,свіжий айсберг з помідором, кінзою, цибулею довершує цей шедевр. Звичайно ж куди без унікального соусу на основі грецького йогурту та паприки,що пощіпує ваші смакові рецептори. 
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер "Fat Boy"</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка бріош в поєднанні з котлетою з яловини та сиром ементаль,свіжий айсберг з помідором, кінзою, цибулею довершує цей шедевр. Звичайно ж куди без унікального соусу на основі грецького йогурту та паприки,що пощіпує ваші смакові рецептори. 
 (510г)</p>
-                <p><strong>Ціна:</strong> 340.85</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.85</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат На Мангал (270г)</p>
-                <p><strong>Опис:</strong> Мікс салату, морква, яловичина, помідори чері, огірок, червона цибуля, кунжут, соус з устриць</p>
-                <p><strong>Ціна:</strong> 435.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат На Мангал (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, морква, яловичина, помідори чері, огірок, червона цибуля, кунжут, соус з устриць</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 435.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з грильованим лососем (245г)</p>
-                <p><strong>Опис:</strong> Мікс салату ромен та айсберг, помідори чері, зі шматочками грильованого філе лосося, заправляється салат соусом цезар власного приготування та посипається тертим сиром пармезан, доповнюється палочками грисіні.</p>
-                <p><strong>Ціна:</strong> 425.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з грильованим лососем (245г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату ромен та айсберг, помідори чері, зі шматочками грильованого філе лосося, заправляється салат соусом цезар власного приготування та посипається тертим сиром пармезан, доповнюється палочками грисіні.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 425.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Теплий салат з печеними овочами (280г)</p>
-                <p><strong>Опис:</strong> Баклажан, печериці, болгарський перець та помідор спершу запікають на мангалі до скоринки, а після цього тушкують у вершковому маслі з додаванням часнику та перцю чилі, що надає пікантності. Подається з сиром бринза, кримською цибулею з перцем чилі,</p>
-                <p><strong>Ціна:</strong> 375.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з печеними овочами (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Баклажан, печериці, болгарський перець та помідор спершу запікають на мангалі до скоринки, а після цього тушкують у вершковому маслі з додаванням часнику та перцю чилі, що надає пікантності. Подається з сиром бринза, кримською цибулею з перцем чилі,</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 375.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з фермерським курчам (220г)</p>
-                <p><strong>Опис:</strong> Ніжне запечене куряче стегно під м’ятно-імбирним соусом, подається зі свіжою руколою, горіхами кеш’ю, зрілим авокадо, огірком, а також свіжими печерицями та кримською цибулею, заправляється м’ятно-імбирним соусом з гарбузовим насінням</p>
-                <p><strong>Ціна:</strong> 345.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з фермерським курчам (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжне запечене куряче стегно під м’ятно-імбирним соусом, подається зі свіжою руколою, горіхами кеш’ю, зрілим авокадо, огірком, а також свіжими печерицями та кримською цибулею, заправляється м’ятно-імбирним соусом з гарбузовим насінням</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 345.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з курячим філе (245г)</p>
-                <p><strong>Опис:</strong> Мікс салату ромен та айсберг, помідори чері, зі шматочками грильованого курячого філе, заправляється салат соусом цезар власного приготування та посипається тертим сиром пармезан, доповнюється палочками грисіні.</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з курячим філе (245г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату ромен та айсберг, помідори чері, зі шматочками грильованого курячого філе, заправляється салат соусом цезар власного приготування та посипається тертим сиром пармезан, доповнюється палочками грисіні.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Грецький (280г)</p>
-                <p><strong>Опис:</strong> Помідори, огірок, болгарський перець, сир фета, оливки, маслини, цибуля, оливкова олія</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Грецький (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Помідори, огірок, болгарський перець, сир фета, оливки, маслини, цибуля, оливкова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Гранатовий з горіхом (225г)</p>
-                <p><strong>Опис:</strong> Мікс салатів, гранат, помідори чері, грецькі горіхи, соус Гранатовий</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Гранатовий з горіхом (225г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салатів, гранат, помідори чері, грецькі горіхи, соус Гранатовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Чобан (270г)</p>
-                <p><strong>Опис:</strong> Помідор, огірок, болгарський перець, цибуля, зелень, оливкова олія</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Чобан (270г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Помідор, огірок, болгарський перець, цибуля, зелень, оливкова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Реберця BBQ (300г)</p>
-                <p><strong>Опис:</strong> Ароматні свинячі ребра, карамелізовані в соусі BBQ.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Реберця BBQ (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматні свинячі ребра, карамелізовані в соусі BBQ.
 Спочатку ребра грилюють на мангалі до скоринки, завдяки цьому відчутно неймовірний аромат, а сам смак відтіняє кисло-солодкий соус BBQ, що надає ребрам привабливого глянцю.
 Декорується свіжим перц</p>
-                <p><strong>Ціна:</strong> 430.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 430.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Запечений сир Камамбер (190г)</p>
-                <p><strong>Опис:</strong> Ніжний камамбер, який просто тане в роті,  запечений з медом, духмяним часником та відбірними спеціями. Подається з домашньою булочкою броьош та невеличким салатом</p>
-                <p><strong>Ціна:</strong> 320.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечений сир Камамбер (190г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний камамбер, який просто тане в роті,  запечений з медом, духмяним часником та відбірними спеціями. Подається з домашньою булочкою броьош та невеличким салатом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 320.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Запечений баклажан з сиром дорблю (290г)</p>
-                <p><strong>Опис:</strong> Ніжний баклажан запікається з помірно-гострим та насиченим сиром Дор Блю, декорується гарбузовим насінням та руколою.</p>
-                <p><strong>Ціна:</strong> 315.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Запечений баклажан з сиром дорблю (290г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний баклажан запікається з помірно-гострим та насиченим сиром Дор Блю, декорується гарбузовим насінням та руколою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 315.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крильця Баффало (350г)</p>
-                <p><strong>Опис:</strong> Апетитні крильця у гостро-солодкому соусі.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крильця Баффало (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Апетитні крильця у гостро-солодкому соусі.
 Чудово поєднується з різними соусами: аджикою, дорблю, медово-гірчичним</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирне плато (220г)</p>
-                <p><strong>Опис:</strong> Плато з чотирьох видів сиру: пармезан, камамбер, дорблю та бебі моцарела зі в’яленими томатами. Декорується помідорами чері, маслинами та грецькими горіхами. Подається з ягідним соусом та медом, а також ароматними грінками з томатного багета.</p>
-                <p><strong>Ціна:</strong> 485.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирне плато (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Плато з чотирьох видів сиру: пармезан, камамбер, дорблю та бебі моцарела зі в’яленими томатами. Декорується помідорами чері, маслинами та грецькими горіхами. Подається з ягідним соусом та медом, а також ароматними грінками з томатного багета.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 485.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тартар з яловичини (200г)</p>
-                <p><strong>Опис:</strong> Дрібнорублена свіжа яловичина, каперси та кримська цибуля у поєднанні з аргентинським соусом Чімічуррі, що надає яловичині освіжаючого смаку та приємного трав’яного аромату.  Декорується перепелиним жовтком, помідорами чері, кінзою та перцем чилі,</p>
-                <p><strong>Ціна:</strong> 401.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тартар з яловичини (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дрібнорублена свіжа яловичина, каперси та кримська цибуля у поєднанні з аргентинським соусом Чімічуррі, що надає яловичині освіжаючого смаку та приємного трав’яного аромату.  Декорується перепелиним жовтком, помідорами чері, кінзою та перцем чилі,</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 401.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Карпачо (200г)</p>
-                <p><strong>Опис:</strong> Тонкі слайси свіжої яловичини під кисло-солодким  соусом карпаччо. Рукола, помідори чері та тертий пармезан доповнюють страву своєрідним смаком. Подається з ароматними грінками з томатного багету та долькою лимона,</p>
-                <p><strong>Ціна:</strong> 401.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Карпачо (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тонкі слайси свіжої яловичини під кисло-солодким  соусом карпаччо. Рукола, помідори чері та тертий пармезан доповнюють страву своєрідним смаком. Подається з ароматними грінками з томатного багету та долькою лимона,</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 401.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Українське плато (420г)</p>
-                <p><strong>Опис:</strong> Плато з двох видів сала: червоне та чорне.
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Українське плато (420г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Плато з двох видів сала: червоне та чорне.
 
 Квашена капуста, мариновані огірки та помідори чері з часничком, доповнюють все ароматні чорні грінки. Декорується свіжою зеленню, часником та кримською цибулею. Подається з козацькою гострою гірчицею</p>
-                <p><strong>Ціна:</strong> 313.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 313.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ ЗАКУСКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Борщ з свинним реберцем / Borsch with pork ribs (280/50/30g)</p>
-                <p><strong>Опис:</strong> Традиційний український борщ, подається з ароматним свинячим реберцем, пухкою часниковою булочкою Бріош, зеленою цибулею та сметаною.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Борщ з свинним реберцем / Borsch with pork ribs (280/50/30g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Традиційний український борщ, подається з ароматним свинячим реберцем, пухкою часниковою булочкою Бріош, зеленою цибулею та сметаною.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грибний крем-суп / Mushroom cream soup (250g)</p>
-                <p><strong>Опис:</strong> Вершкова структура грибного крем-супу, яку доповнюють грильовані печериці та свіжа зелень.</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грибний крем-суп / Mushroom cream soup (250g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова структура грибного крем-супу, яку доповнюють грильовані печериці та свіжа зелень.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем-суп з шпинату / Spinach cream soup (250g)</p>
-                <p><strong>Опис:</strong> Ніжний вершковий шпинатний крем-суп чудово поєднується зі в’яленими томатами та палочками грисіні.</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем-суп з шпинату / Spinach cream soup (250g)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний вершковий шпинатний крем-суп чудово поєднується зі в’яленими томатами та палочками грисіні.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фермерська зелена спаржа (180г)</p>
-                <p><strong>Опис:</strong> Спаржа – справжня розрада для очей, бо поява цих зелених пучечків сигналізує нам про те, що скоро буде літо. Тому не варто втрачати унікальну можливість та поєднати її з нашими фірмовими стейками.</p>
-                <p><strong>Ціна:</strong> 374.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фермерська зелена спаржа (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спаржа – справжня розрада для очей, бо поява цих зелених пучечків сигналізує нам про те, що скоро буде літо. Тому не варто втрачати унікальну можливість та поєднати її з нашими фірмовими стейками.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 374.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Овочі гриль на мангалу (250г)</p>
-                <p><strong>Опис:</strong> Кукурудза, цукіні, болгарський перець, печериці, броколі та кримська цибуля у поєднанні з кисло-солодким соусом чудово імпонують до кожної страви з мангалу.</p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Овочі гриль на мангалу (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кукурудза, цукіні, болгарський перець, печериці, броколі та кримська цибуля у поєднанні з кисло-солодким соусом чудово імпонують до кожної страви з мангалу.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля фрі з соусом (210г)</p>
-                <p><strong>Опис:</strong> Обсмажена до золотої скоринки картопля фрі подається з соусом тар-тар.</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі з соусом (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Обсмажена до золотої скоринки картопля фрі подається з соусом тар-тар.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шпинат тушкований (220г)</p>
-                <p><strong>Опис:</strong> Соковитий шпинат тушкований у вершках з додаванням часнику</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шпинат тушкований (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковитий шпинат тушкований у вершках з додаванням часнику</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кус-кус з овочами (230г)</p>
-                <p><strong>Опис:</strong> Однорідна розсипчаста структура кускусу чудово поєднується зі свіжими дрібно нарізаними овочами.</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кус-кус з овочами (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Однорідна розсипчаста структура кускусу чудово поєднується зі свіжими дрібно нарізаними овочами.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля з розмарином (230г)</p>
-                <p><strong>Опис:</strong> Хрустка картопля зі свіжим розмарином та часником</p>
-                <p><strong>Ціна:</strong> 102.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля з розмарином (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хрустка картопля зі свіжим розмарином та часником</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 102.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Яблучний штрудель з ванільним соусом (190г)</p>
-                <p><strong>Опис:</strong> Тонке хрустке тісто, соковита пропечена начинка, пікантний аромат кориці та родзинок, карамелізованих з ромом та ніжний ванільний соус</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яблучний штрудель з ванільним соусом (190г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тонке хрустке тісто, соковита пропечена начинка, пікантний аромат кориці та родзинок, карамелізованих з ромом та ніжний ванільний соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Сандора (1л)</p>
-                <p><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
-                <p><strong>Ціна:</strong> 234.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Сандора (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Напій, виготовлений з ягід, фруктів, овочів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 234.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вода Боржомі (0.5л)</p>
-                <p><strong>Опис:</strong> Мінеральна вода газована</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Боржомі (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мінеральна вода газована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Pepsi Cola (0.33 мл)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Pepsi Cola (0.33 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тонік Евервесс - 0,25 л</p>
-                <p><strong>Опис:</strong> Напій солодкий, сильногазований</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тонік Евервесс - 0,25 л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Напій солодкий, сильногазований</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Дор Блю (50г)</p>
-                <p><strong>Опис:</strong> Вершкова основа з невеличкою кількістю майонезу, часнику та благородного витриманого сиру “Дор-блю”</p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Дор Блю (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова основа з невеличкою кількістю майонезу, часнику та благородного витриманого сиру “Дор-блю”</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Чімічурі(50г)</p>
-                <p><strong>Опис:</strong> Класичний аргентинський соус – поєднання суміші різних трав, часнику та перцю чілі для пікантності</p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Чімічурі(50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний аргентинський соус – поєднання суміші різних трав, часнику та перцю чілі для пікантності</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Аджика (50г)</p>
-                <p><strong>Опис:</strong> На основі томатів, копченого перцю з додаванням гострого чілі та часнику.</p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Аджика (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> На основі томатів, копченого перцю з додаванням гострого чілі та часнику.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус BBQ (50г)</p>
-                <p><strong>Опис:</strong> Класичний соус з копченою сливою, стиглих томатів, що пахне димком. Солодкий та одночасно гострий соус незамінний для будь-якого м’яса.</p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус BBQ (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний соус з копченою сливою, стиглих томатів, що пахне димком. Солодкий та одночасно гострий соус незамінний для будь-якого м’яса.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Тартар (50г)</p>
-                <p><strong>Опис:</strong> Тар-тар — соус, приготований із майонезу, гірчиці діджонської та маринованого огірка із додаванням невеликої кількості часнику.</p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Тартар (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тар-тар — соус, приготований із майонезу, гірчиці діджонської та маринованого огірка із додаванням невеликої кількості часнику.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Айолі (50г)</p>
-                <p><strong>Опис:</strong> Відомий соус, який потрапив до нас з каталонської кухні. Дослівно назва перекладається як «часник та оливкова олія». Натуральність та насиченість цього соусу ідеально підходить для будь-якої м’ясної та рибної страви.</p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Айолі (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відомий соус, який потрапив до нас з каталонської кухні. Дослівно назва перекладається як «часник та оливкова олія». Натуральність та насиченість цього соусу ідеально підходить для будь-якої м’ясної та рибної страви.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Ягідний (50г)</p>
-                <p><strong>Опис:</strong> Цікаве поєднання вишні, журавлини, смородини з червоним вином, свіжості додає м’ята та цедра апельсина.</p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Ягідний (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цікаве поєднання вишні, журавлини, смородини з червоним вином, свіжості додає м’ята та цедра апельсина.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Медово гірчичний (50г)</p>
-                <p><strong>Опис:</strong> Поєднання меду та різномаїття міцної та діджонської гірчиці, кислинку додасть лимонний фреш. Гармонійно об’єднує гострий, кислий, солодкий і пекучий</p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Медово гірчичний (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поєднання меду та різномаїття міцної та діджонської гірчиці, кислинку додасть лимонний фреш. Гармонійно об’єднує гострий, кислий, солодкий і пекучий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус Гострий (50г)</p>
-                <p><strong>Опис:</strong> Поєднання солодкого чілі перцю, устричного соусу, пекучого табаско трішки меду та часника.</p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус Гострий (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поєднання солодкого чілі перцю, устричного соусу, пекучого табаско трішки меду та часника.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк Даллас Dry Aged сирий</p>
-                <p><strong>Опис:</strong> Поєднання мармурового м'яса стейку Рібай на короткій реберній кістці. Вона стає природним провідником тепла і наповнює м'ясо тонкими нотками горіха в післясмаку. Це один з найбільш соковитих і смачних стейків</p>
-                <p><strong>Ціна:</strong> 1101.6</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк Даллас Dry Aged сирий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Поєднання мармурового м'яса стейку Рібай на короткій реберній кістці. Вона стає природним провідником тепла і наповнює м'ясо тонкими нотками горіха в післясмаку. Це один з найбільш соковитих і смачних стейків</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1101.6</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк Т-боун Dry Aged сирий</p>
-                <p><strong>Опис:</strong> T-Bonе об'єднує в собі відразу два види м'яса: найніжніший в світі Тендерлойн (Філе міньйон) і яскравий, насичений Стріплойн (Нью-Йорк)</p>
-                <p><strong>Ціна:</strong> 1101.6</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк Т-боун Dry Aged сирий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> T-Bonе об'єднує в собі відразу два види м'яса: найніжніший в світі Тендерлойн (Філе міньйон) і яскравий, насичений Стріплойн (Нью-Йорк)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1101.6</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк Рібай Dry Aged сирий</p>
-                <p><strong>Опис:</strong> Один з найбільш відомих стейків в світі. Беззаперечна класика</p>
-                <p><strong>Ціна:</strong> 738.0</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк Рібай Dry Aged сирий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Один з найбільш відомих стейків в світі. Беззаперечна класика</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 738.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк Філе Міньйон сирий (волога витримка)</p>
-                <p><strong>Опис:</strong> Ідеально підходить для вечері на двох з пляшкою хорошого червоного вина</p>
-                <p><strong>Ціна:</strong> 673.2</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк Філе Міньйон сирий (волога витримка)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ідеально підходить для вечері на двох з пляшкою хорошого червоного вина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 673.2</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк Локум сирий</p>
-                <p><strong>Опис:</strong> Ніжний та соковитий стейк з центральної частини вирізки яловичини. (Медальйони)</p>
-                <p><strong>Ціна:</strong> 435.2</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк Локум сирий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний та соковитий стейк з центральної частини вирізки яловичини. (Медальйони)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 435.2</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик з яловичини сирий</p>
-                <p><strong>Опис:</strong> М'ясо, смажене на деревному вугіллі, одна з найдавніших страв у світі. Нарізаний з вирізки яловичини</p>
-                <p><strong>Ціна:</strong> 421.6</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик з яловичини сирий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> М'ясо, смажене на деревному вугіллі, одна з найдавніших страв у світі. Нарізаний з вирізки яловичини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 421.6</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Телятина Кошлеме сира</p>
-                <p><strong>Опис:</strong> Ніжна теляча вирізка відрізняється соковитим смаком і м'якою текстурою, має дієтичні властивості</p>
-                <p><strong>Ціна:</strong> 374.0</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Телятина Кошлеме сира</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжна теляча вирізка відрізняється соковитим смаком і м'якою текстурою, має дієтичні властивості</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 374.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Каре Баранини сире</p>
-                <p><strong>Опис:</strong> Каре ягня - це першосортна частина тушки, з якої виходять дуже апетитні, смачні і дуже ніжні страви</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Каре Баранини сире</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Каре ягня - це першосортна частина тушки, з якої виходять дуже апетитні, смачні і дуже ніжні страви</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Каре Телятини сире</p>
-                <p><strong>Опис:</strong> Це м'ясо на ребрі ніжно-рожевого кольору з приємною, м'якою текстурою</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Каре Телятини сире</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Це м'ясо на ребрі ніжно-рожевого кольору з приємною, м'якою текстурою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк зі свинини сирий</p>
-                <p><strong>Опис:</strong> Соковите, з дивовижною скоринкою м’ясо – це і є справжній стейк</p>
-                <p><strong>Ціна:</strong> 163.25</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк зі свинини сирий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Соковите, з дивовижною скоринкою м’ясо – це і є справжній стейк</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 163.25</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик зі свинини сирий</p>
-                <p><strong>Опис:</strong> Це одна з найпоширеніших страв кавказької кухні. Особливої популярності він набув завдяки своїй соковитості і ніжності</p>
-                <p><strong>Ціна:</strong> 122.4</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик зі свинини сирий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Це одна з найпоширеніших страв кавказької кухні. Особливої популярності він набув завдяки своїй соковитості і ніжності</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 122.4</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Шашлик з курятини сирий</p>
-                <p><strong>Опис:</strong> Надзвичайно м`який та соковитий смак - знайомий всім</p>
-                <p><strong>Ціна:</strong> 114.2</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Шашлик з курятини сирий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Надзвичайно м`який та соковитий смак - знайомий всім</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 114.2</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фірмові котлети з сиром сирі</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 91.0</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фірмові котлети з сиром сирі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 91.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фірмові котлети сирі</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 78.0</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фірмові котлети сирі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 78.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячі бедра сирі</p>
-                <p><strong>Опис:</strong> Ціле мариноване куряче бедро</p>
-                <p><strong>Ціна:</strong> 51.0</p>
-                <p><strong>Тип:</strong> СИРЕ М'ЯСО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі бедра сирі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ціле мариноване куряче бедро</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 51.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СИРЕ М'ЯСО</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

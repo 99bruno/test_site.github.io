@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gusto d'Italia</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/293.png" alt="Restaurant Image">
         <h1>Gusto d'Italia</h1>
@@ -63,168 +116,189 @@
         <p><strong>Неділя:</strong> 09:00:00 - 21:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Вафля з креветками та яйцем пашот (410 г)</p>
-                <p><strong>Опис:</strong> Основа з бельгійської вафлі під соусом з авокадо і в'ялених томатів, креветки, яйце пашот, мікс листя салату.</p>
-                <p><strong>Ціна:</strong> 395.0</p>
-                <p><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вафля з креветками та яйцем пашот (410 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа з бельгійської вафлі під соусом з авокадо і в'ялених томатів, креветки, яйце пашот, мікс листя салату.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 395.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вафля з авокадо і консервованим тунцем (330 г)</p>
-                <p><strong>Опис:</strong> Бельгійська вафля під соусом Гуакамоле на основі авокадо, червоної цибулі і соку лимона, консервований тунець, мікс листя салату, мікрогрін, суміш насіння</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вафля з авокадо і консервованим тунцем (330 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бельгійська вафля під соусом Гуакамоле на основі авокадо, червоної цибулі і соку лимона, консервований тунець, мікс листя салату, мікрогрін, суміш насіння</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вафля з лососем (340 г)</p>
-                <p><strong>Опис:</strong> Основа з бельгійської вафлі під ніжним крем-сиром, лосось, свіжий огірок, мікс листя салату, суміш нисіння, соус бальзамік.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вафля з лососем (340 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа з бельгійської вафлі під ніжним крем-сиром, лосось, свіжий огірок, мікс листя салату, суміш нисіння, соус бальзамік.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вафля з прошуто (320 г)</p>
-                <p><strong>Опис:</strong> Основа з бельгійської вафлі під ніжним крем-сиром, прошуто, помідори чері, мікс листя салату, суміш насіння.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вафля з прошуто (320 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа з бельгійської вафлі під ніжним крем-сиром, прошуто, помідори чері, мікс листя салату, суміш насіння.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вафля з моцарелою та соусом песто (290 г)</p>
-                <p><strong>Опис:</strong> Основа з бельгійської вафлі, мікс листя салату, помідори чері, моцарела, соус песто, волоські горіхи, суміш насіння.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вафля з моцарелою та соусом песто (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа з бельгійської вафлі, мікс листя салату, помідори чері, моцарела, соус песто, волоські горіхи, суміш насіння.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вафля з персиком і кремом чіз (360 г)</p>
-                <p><strong>Опис:</strong> Основа з бельгійської вафлі під вершково-сирним кремом, консервований персик, подається з ванільним морозивом та м'ятою.</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вафля з персиком і кремом чіз (360 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа з бельгійської вафлі під вершково-сирним кремом, консервований персик, подається з ванільним морозивом та м'ятою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вафля з шоколадною пастою та бананом (350 г)</p>
-                <p><strong>Опис:</strong> Основа з бельгійської вафлі під шоколадною пастою та бананом, подається з ванільним морозивом та шоколадними кульками.</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вафля з шоколадною пастою та бананом (350 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа з бельгійської вафлі під шоколадною пастою та бананом, подається з ванільним морозивом та шоколадними кульками.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вафля з карамелізованими яблуками (300 г)</p>
-                <p><strong>Опис:</strong> Основа з бельгійської вафлі, карамелізовані яблука, карамель, подається з ванільним морозивом.</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вафля з карамелізованими яблуками (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Основа з бельгійської вафлі, карамелізовані яблука, карамель, подається з ванільним морозивом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЛЬГІЙСЬКІ ВАФЛІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбінований сніданок (350 г)</p>
-                <p><strong>Опис:</strong> Хліб цільнозерновий, лосось, яйце пашот під соусом Голландез, листя салату, намазка з в'ялених томатів, кунжут, мікрогрін.</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбінований сніданок (350 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб цільнозерновий, лосось, яйце пашот під соусом Голландез, листя салату, намазка з в'ялених томатів, кунжут, мікрогрін.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Англійський сніданок (350 г )</p>
-                <p><strong>Опис:</strong> Хліб цільнозерновий, яєчня, сосиска, бекон, гриби печериці, помідори чері, червона квасоля, мікрогрін.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Англійський сніданок (350 г )</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб цільнозерновий, яєчня, сосиска, бекон, гриби печериці, помідори чері, червона квасоля, мікрогрін.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тост з беконом і яйцем пашот (310 г)</p>
-                <p><strong>Опис:</strong> Хліб цільнозерновий, рукола, бекон, помідори чері, яйце пашот під соусом Голандез, синя цибуля, кунжут, мікрогрін.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тост з беконом і яйцем пашот (310 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб цільнозерновий, рукола, бекон, помідори чері, яйце пашот під соусом Голандез, синя цибуля, кунжут, мікрогрін.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тости з гуакамоле і яйцем пашот (315 г)</p>
-                <p><strong>Опис:</strong> Чіабата, Гуакамоле з авокадо та зелених яблук, 2 яйця пашот, листя салату, насіння, мікрогрін, соус Бальзамік</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тости з гуакамоле і яйцем пашот (315 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чіабата, Гуакамоле з авокадо та зелених яблук, 2 яйця пашот, листя салату, насіння, мікрогрін, соус Бальзамік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з скремблом і листям салату  (240 г)</p>
-                <p><strong>Опис:</strong> Круасан, скрембл, листя салату, помідори чері, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з скремблом і листям салату  (240 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Круасан, скрембл, листя салату, помідори чері, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Міні панкейки з кремом чіз та сезонними ягодами (230 г)</p>
-                <p><strong>Опис:</strong> Міні панкейки з вершково-сирним кремом, сезонними ягодами та кленовим сиропом.</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Міні панкейки з кремом чіз та сезонними ягодами (230 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Міні панкейки з вершково-сирним кремом, сезонними ягодами та кленовим сиропом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники зі сметаною та джемом (210 г)</p>
-                <p><strong>Опис:</strong> Ніжні сирники (3 шт) з сметаною та чорничним джемом</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники зі сметаною та джемом (210 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні сирники (3 шт) з сметаною та чорничним джемом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники з шоколадом та арахісовою пастою (210 г)</p>
-                <p><strong>Опис:</strong> Ніжні сирники (3 шт) з шоколадною та арахісовою пастою, посипані пелюстками мигдалю</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники з шоколадом та арахісовою пастою (210 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжні сирники (3 шт) з шоколадною та арахісовою пастою, посипані пелюстками мигдалю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
                 <hr>
-                <p><strong>Позиція:</strong> Горішки з тоффі та горіхами (3 шт)</p>
-                <p><strong>Опис:</strong> Пісочне печиво, крем з вершкового масла та згущеного молока, шматочки волоських горіхів.</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> ПЕЧИВО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Горішки з тоффі та горіхами (3 шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пісочне печиво, крем з вершкового масла та згущеного молока, шматочки волоських горіхів.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕЧИВО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Печиво брауні (1шт)</p>
-                <p><strong>Опис:</strong> Шоколане печиво, мигдаль.</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> ПЕЧИВО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печиво брауні (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколане печиво, мигдаль.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕЧИВО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Брауні з фундуком і карамеллю (1шт)</p>
-                <p><strong>Опис:</strong> Шоколадне брауні, фундук, карамель.</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Брауні з фундуком і карамеллю (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколадне брауні, фундук, карамель.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан мигдалевим франжипаном (1шт)</p>
-                <p><strong>Опис:</strong> Масляний круасан, мигдалевий франжипан.</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан мигдалевим франжипаном (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Масляний круасан, мигдалевий франжипан.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Круасан з абрикосовим джемом і фісташкою (1шт)</p>
-                <p><strong>Опис:</strong> Масляний круасан, абрикосовий джем, фісташкова посипка.</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> ВИПІЧКА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Круасан з абрикосовим джемом і фісташкою (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Масляний круасан, абрикосовий джем, фісташкова посипка.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИПІЧКА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лате велике (480 мл)</p>
-                <p><strong>Опис:</strong> Допіо, спінене молоко</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате велике (480 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Допіо, спінене молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Теплий бамбл (240 мл)</p>
-                <p><strong>Опис:</strong> Допіо, спінений апельсиновий сік, карамельний сироп</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий бамбл (240 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Допіо, спінений апельсиновий сік, карамельний сироп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Капучино велике (350 мл)</p>
-                <p><strong>Опис:</strong> Допіо, спінене молоко</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино велике (350 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Допіо, спінене молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Раф (190 мл)</p>
-                <p><strong>Опис:</strong> Еспресо, вершки, ванільний сироп</p>
-                <p><strong>Ціна:</strong> 88.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Раф (190 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Еспресо, вершки, ванільний сироп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 88.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фільтр кава (200 мл)</p>
-                <p><strong>Опис:</strong> Арабіка спешелті</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фільтр кава (200 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Арабіка спешелті</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Флет Вайт (240 мл)</p>
-                <p><strong>Опис:</strong> Допіо, спінене молоко</p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Флет Вайт (240 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Допіо, спінене молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лате стандартне (240 мл)</p>
-                <p><strong>Опис:</strong> Еспресо, спінене молоко</p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате стандартне (240 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Еспресо, спінене молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Капучино стандартне (180 мл)</p>
-                <p><strong>Опис:</strong> Еспресо, спінене молоко</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино стандартне (180 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Еспресо, спінене молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао велике (350 мл)</p>
-                <p><strong>Опис:</strong> Какао, молоко</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> КАКАО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао велике (350 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Какао, молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАКАО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Какао маленьке (240 мл)</p>
-                <p><strong>Опис:</strong> Какао, молоко</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> КАКАО</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао маленьке (240 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Какао, молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАКАО</p>
                 <hr>
-                <p><strong>Позиція:</strong> Матча Лате (300 мл)</p>
-                <p><strong>Опис:</strong> Зелена або блакитна матча, вода, спінене молоко</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> МАТЧА ЛАТЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Матча Лате (300 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Зелена або блакитна матча, вода, спінене молоко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАТЧА ЛАТЕ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AYDA/АЙДА</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/126.png" alt="Restaurant Image">
         <h1>AYDA/АЙДА</h1>
@@ -63,248 +116,269 @@
         <p><strong>Неділя:</strong> 11:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Яйце пашот з брускетами</p>
-                <p><strong>Опис:</strong> Яйцем пашот, лососем, авокадо, мікс салат, помідор, чіабата</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яйце пашот з брускетами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яйцем пашот, лососем, авокадо, мікс салат, помідор, чіабата</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ситний сніданок</p>
-                <p><strong>Опис:</strong> Круасан з яйцем скрембл, мікс салат, помідор, авокадо, пармезан</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ситний сніданок</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Круасан з яйцем скрембл, мікс салат, помідор, авокадо, пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фрітата з овочами та шпондером</p>
-                <p><strong>Опис:</strong> Мікс салат, помідор, авокадо, пармезан, тостовий хліб</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> СНІДАНКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фрітата з овочами та шпондером</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салат, помідор, авокадо, пармезан, тостовий хліб</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з лососем слабосоленим та гречкою (450г)</p>
-                <p><strong>Опис:</strong> Лосось філе слабосолений, крупа гречана, печериці, броколі, рукола, морква бебі, лимон, помідор, горіховий соус, цибуля зелена, журавлина</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з лососем слабосоленим та гречкою (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лосось філе слабосолений, крупа гречана, печериці, броколі, рукола, морква бебі, лимон, помідор, горіховий соус, цибуля зелена, журавлина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з паровим лососем та авокадо (450г)</p>
-                <p><strong>Опис:</strong> Паровий лосось, рис по-китайськи, помідор, мікс салату, броколі, морква, авокадо, кунжут, лимон, капуста, сир Фета, соус Бальзамік, соус Песто</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з паровим лососем та авокадо (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паровий лосось, рис по-китайськи, помідор, мікс салату, броколі, морква, авокадо, кунжут, лимон, капуста, сир Фета, соус Бальзамік, соус Песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з Прошуто, сиром Моцарела бебі, рисом по-китайськи (450г)</p>
-                <p><strong>Опис:</strong> Прошуто, рис по-китайськи, броколі, морква бебі, помідори, Пармезан, перець Чилі, кунжут</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з Прошуто, сиром Моцарела бебі, рисом по-китайськи (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прошуто, рис по-китайськи, броколі, морква бебі, помідори, Пармезан, перець Чилі, кунжут</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з рибною котлетою, картопляними кульками та овочами (450г)</p>
-                <p><strong>Опис:</strong> Рибні котлети смажені в сухарях Панко, огірок, помідор, Айсберг, соус Тар-тар</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з рибною котлетою, картопляними кульками та овочами (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рибні котлети смажені в сухарях Панко, огірок, помідор, Айсберг, соус Тар-тар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з рибною котлетою, рисом по-китайськи та броколі (450г)</p>
-                <p><strong>Опис:</strong> Рибні котлети смажені в сухарях Панко, рис по-китайськи, броколі, кукурудза, мікс салату, помідори, оливки, яйце, соєвий соус, кунжут, соус Бальзамік</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з рибною котлетою, рисом по-китайськи та броколі (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рибні котлети смажені в сухарях Панко, рис по-китайськи, броколі, кукурудза, мікс салату, помідори, оливки, яйце, соєвий соус, кунжут, соус Бальзамік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з тунцем, кус-кусом та стручковою квасолею (450г)</p>
-                <p><strong>Опис:</strong> Тунець консервований, кус-кус, стручкова квасоля, кукурудза, Айсберг, помідори, оливки, перець Чилі, яйце, соєвий соус, кунжут, соус Бальзамік</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з тунцем, кус-кусом та стручковою квасолею (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тунець консервований, кус-кус, стручкова квасоля, кукурудза, Айсберг, помідори, оливки, перець Чилі, яйце, соєвий соус, кунжут, соус Бальзамік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з філе хека у соусі Теріякі та булгуром (450г)</p>
-                <p><strong>Опис:</strong> Філе хека, імбир, соєвий соус, мікс салату, соус Песто, крупа булгур, помідор огірок, кунжут, морква</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з філе хека у соусі Теріякі та булгуром (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філе хека, імбир, соєвий соус, мікс салату, соус Песто, крупа булгур, помідор огірок, кунжут, морква</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Локшина Удон по-японськи (450г)</p>
-                <p><strong>Опис:</strong> Удон, куряче філе, Айсберг, цибуля, морква, кабачки, перець, часник, печериці, соєвий соус</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина Удон по-японськи (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Удон, куряче філе, Айсберг, цибуля, морква, кабачки, перець, часник, печериці, соєвий соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з куркою печеною та кус-кусом (450г)</p>
-                <p><strong>Опис:</strong> Куряче філе, кус-кус,помідор, огірок, перець, цибуля синя, соус зелений Песто, Айсберг</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з куркою печеною та кус-кусом (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе, кус-кус,помідор, огірок, перець, цибуля синя, соус зелений Песто, Айсберг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул з сирниками та фруктами з соусом ягідним (400г)</p>
-                <p><strong>Опис:</strong> Сирники, сезонні фрукти, сметана, соус ягідний</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул з сирниками та фруктами з соусом ягідним (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сирники, сезонні фрукти, сметана, соус ягідний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул Вегетаріанський з кус-кусом, нутом та сиром Фета (450г)</p>
-                <p><strong>Опис:</strong> Кус-кус, огірок, помідор, сир Фета, морква, нут карамелізований, чорний кунжут, яйце, мікс салату, соус Бальзамік, соус Песто</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул Вегетаріанський з кус-кусом, нутом та сиром Фета (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кус-кус, огірок, помідор, сир Фета, морква, нут карамелізований, чорний кунжут, яйце, мікс салату, соус Бальзамік, соус Песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул Веганський з фалафелем (450г)</p>
-                <p><strong>Опис:</strong> Кус-кус, кульки з нута, фалафель, кунжут, насіння гарбуза, Айсберг, огірки, помідори, соус Песто</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул Веганський з фалафелем (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кус-кус, кульки з нута, фалафель, кунжут, насіння гарбуза, Айсберг, огірки, помідори, соус Песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул Вегетаріанський з булгуром, печеними овочами, Моцарелою (450г)</p>
-                <p><strong>Опис:</strong> Булгур, печериці гриль, перець гриль, стручкова квасоля в соусі соєвому, морква бебі, перець Чилі, Айсберг, сир Моцарела бебі, насіння соняшника, соус Песто, грінки</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> БОУЛИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул Вегетаріанський з булгуром, печеними овочами, Моцарелою (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булгур, печериці гриль, перець гриль, стручкова квасоля в соусі соєвому, морква бебі, перець Чилі, Айсберг, сир Моцарела бебі, насіння соняшника, соус Песто, грінки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 6 М</p>
-                <p><strong>Опис:</strong> Котлета куряча по-київськи в сухарях Панко (100г), каша кус-кус з кукурудзою, стручкововою квасолею та морквою (200г), нарізка зі свіжих овочів - помідор, огірок, зелена цибуля</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 6 М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Котлета куряча по-київськи в сухарях Панко (100г), каша кус-кус з кукурудзою, стручкововою квасолею та морквою (200г), нарізка зі свіжих овочів - помідор, огірок, зелена цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 1 М</p>
-                <p><strong>Опис:</strong> Шніцель свиний ( 100 гр) картопля по селянськи ( 150 гр) салат з айсбергом, томатом,огірком ( 150 гр) лимон</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 1 М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шніцель свиний ( 100 гр) картопля по селянськи ( 150 гр) салат з айсбергом, томатом,огірком ( 150 гр) лимон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 2 М</p>
-                <p><strong>Опис:</strong> Котлета куряча смажена в яйці(100 гр)каша булгур ( 200 гр) салат бурячок з фетою (130/20)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 2 М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Котлета куряча смажена в яйці(100 гр)каша булгур ( 200 гр) салат бурячок з фетою (130/20)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 3 М</p>
-                <p><strong>Опис:</strong> Відбивна куряча ( 100гр) каша гречана з маслом ( 200 гр) салат з капуста та моркви (150 гр)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 3 М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Відбивна куряча ( 100гр) каша гречана з маслом ( 200 гр) салат з капуста та моркви (150 гр)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 4 М</p>
-                <p><strong>Опис:</strong> Биток свиний з яйцем (100/40) картопляне пюре з маслом(200 гр) салат з квашеної капусти  заправлений запашною олією(150 гр)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 4 М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Биток свиний з яйцем (100/40) картопляне пюре з маслом(200 гр) салат з квашеної капусти  заправлений запашною олією(150 гр)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 5 М</p>
-                <p><strong>Опис:</strong> Котлета індича ( 100 гр) каша перлова з грибами та морквою ( 200 гр) морква по корейські ( 150 гр)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 5 М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Котлета індича ( 100 гр) каша перлова з грибами та морквою ( 200 гр) морква по корейські ( 150 гр)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 1 Р</p>
-                <p><strong>Опис:</strong> Риба смажена в яйці Хек філе (100г), Каша кус кус з кукурудзою, стручковою квасолею та морквою (200г), Салат з капустою, огірком та помідором, олією (150г)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> РИБНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 1 Р</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Риба смажена в яйці Хек філе (100г), Каша кус кус з кукурудзою, стручковою квасолею та морквою (200г), Салат з капустою, огірком та помідором, олією (150г)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 4 Р</p>
-                <p><strong>Опис:</strong> Рибні палички в сухарях панко 2 шт, соус Тар-тар (100г), картопля по-селянськи печена (200г), салат з огірком, помідором, олією (150г)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> РИБНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 4 Р</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рибні палички в сухарях панко 2 шт, соус Тар-тар (100г), картопля по-селянськи печена (200г), салат з огірком, помідором, олією (150г)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 2 Р</p>
-                <p><strong>Опис:</strong> Рибні боли у вершковому соусі (100 гр) картопляне пюре (200 гр) салат з бурячка та сира фета ( 150 гр)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> РИБНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 2 Р</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рибні боли у вершковому соусі (100 гр) картопляне пюре (200 гр) салат з бурячка та сира фета ( 150 гр)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 3 Р</p>
-                <p><strong>Опис:</strong> Котлета рибна смажена в сухарях Панко (100г), рис по-китайськи - рис, соєвий соус, кунжут (200г), салат овочевий - салат з бурячка з сиром фета (150г)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> РИБНІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 3 Р</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Котлета рибна смажена в сухарях Панко (100г), рис по-китайськи - рис, соєвий соус, кунжут (200г), салат овочевий - салат з бурячка з сиром фета (150г)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБНІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 2 В</p>
-                <p><strong>Опис:</strong> Деруни картопляні 4шт (300г), Жульєн з печериць - вершки, печериці, соєвий соус (150г)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 2 В</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Деруни картопляні 4шт (300г), Жульєн з печериць - вершки, печериці, соєвий соус (150г)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 3 В</p>
-                <p><strong>Опис:</strong> Вареники з картоплею і сиром (200г), жульєн з печериць - вершки, печериці, соєвий соус (150г), котлета соєва в сухарях 2шт (150г)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 3 В</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вареники з картоплею і сиром (200г), жульєн з печериць - вершки, печериці, соєвий соус (150г), котлета соєва в сухарях 2шт (150г)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комплекс 4 В</p>
-                <p><strong>Опис:</strong> Вареники з картоплею і сиром, жульєн з печериць - вершки, печериці, соєвий соус (400/50г)</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТАРІАНСЬКІ КОМПЛЕКСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комплекс 4 В</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вареники з картоплею і сиром, жульєн з печериць - вершки, печериці, соєвий соус (400/50г)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТАРІАНСЬКІ КОМПЛЕКСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк індичий з кус-кусом (100/150/150г)</p>
-                <p><strong>Опис:</strong> Кус-кус, салат з помідор, огірком, листям салату, Моцарелою бебі</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк індичий з кус-кусом (100/150/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кус-кус, салат з помідор, огірком, листям салату, Моцарелою бебі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк індичий з булгуром (100/150/150г)</p>
-                <p><strong>Опис:</strong> Булгур, салат Грецький</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк індичий з булгуром (100/150/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булгур, салат Грецький</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк курячий з рисом (100/150/150г)</p>
-                <p><strong>Опис:</strong> З пряним рисом, стручкова квасоля з кунжутом</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк курячий з рисом (100/150/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З пряним рисом, стручкова квасоля з кунжутом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк курячий з сочевицею (100/150/150г)</p>
-                <p><strong>Опис:</strong> Сочевиця, салат з помідор, огірком, листям салату, Моцарелою</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк курячий з сочевицею (100/150/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сочевиця, салат з помідор, огірком, листям салату, Моцарелою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк свинний (100/150/150г)</p>
-                <p><strong>Опис:</strong> Картопля печена, помідор з Фетою, соус Песто</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк свинний (100/150/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля печена, помідор з Фетою, соус Песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Рибні палички в сухарях Панко (100/150/150г)</p>
-                <p><strong>Опис:</strong> Картопля фрі, соус Тар-тар, салат Грецький</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> СТЕЙКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рибні палички в сухарях Панко (100/150/150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Картопля фрі, соус Тар-тар, салат Грецький</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТЕЙКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з лососем та Айсбергом (250г)</p>
-                <p><strong>Опис:</strong> Лосось слабосолений, мікс салат, оливки, соус Бальзамік, помідори, сир Фета, кунжут</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з лососем та Айсбергом (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лосось слабосолений, мікс салат, оливки, соус Бальзамік, помідори, сир Фета, кунжут</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат з Моцарелою (250г)</p>
-                <p><strong>Опис:</strong> З Прошуто, Айсбергом, руколою, листям салату, помідором, соусом Песто</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з Моцарелою (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> З Прошуто, Айсбергом, руколою, листям салату, помідором, соусом Песто</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Нісуаз (250г)</p>
-                <p><strong>Опис:</strong> Тунець, оливки, листя салату, авокадо, яйце, цибуля синя, олія оливкова</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Нісуаз (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тунець, оливки, листя салату, авокадо, яйце, цибуля синя, олія оливкова</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з куркою (250г)</p>
-                <p><strong>Опис:</strong> Айсберг, куряче філе, сир Пармезан, бекон, яйце перепелине, помідор, соус Бальзамік, соус Цезар</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з куркою (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Айсберг, куряче філе, сир Пармезан, бекон, яйце перепелине, помідор, соус Бальзамік, соус Цезар</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Болоньєзе (300г)</p>
-                <p><strong>Опис:</strong> Спагетті італійські, фарш свинний,томатний соус, сир Пармезан, цибуля</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Болоньєзе (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спагетті італійські, фарш свинний,томатний соус, сир Пармезан, цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста з Міт Болами (300г)</p>
-                <p><strong>Опис:</strong> Спагетті, м'ясні свинні кульки, помідор, цибуля, сир Пармезан, часник, вершки</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з Міт Болами (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спагетті, м'ясні свинні кульки, помідор, цибуля, сир Пармезан, часник, вершки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста Карбонара (300г)</p>
-                <p><strong>Опис:</strong> Спагетті італійські, сир Пармезан, бекон, вершки</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста Карбонара (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спагетті італійські, сир Пармезан, бекон, вершки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Паста з сиром Фета та помідорами (300г)</p>
-                <p><strong>Опис:</strong> Спагетті італійські, сир Фета, вершки, помідори, часник, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> ПАСТА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з сиром Фета та помідорами (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спагетті італійські, сир Фета, вершки, помідори, часник, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Борщ український на ребрі</p>
-                <p><strong>Опис:</strong> м'ясний бульйон,ребро свине,буряк,картопля,капуста,морква,сметана,зелень</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Борщ український на ребрі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> м'ясний бульйон,ребро свине,буряк,картопля,капуста,морква,сметана,зелень</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курячий бульйон з яйцем перепілки</p>
-                <p><strong>Опис:</strong> Курка, морква, перепелині яйця</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий бульйон з яйцем перепілки</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, морква, перепелині яйця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Крем суп з цвітної капусти з сухариками</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем суп з цвітної капусти з сухариками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Компот фруктовий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Компот фруктовий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Узвар</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Узвар</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

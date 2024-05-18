@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crema Caffe Coffeeshop</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/444.png" alt="Restaurant Image">
         <h1>Crema Caffe Coffeeshop</h1>
@@ -63,583 +116,604 @@
         <p><strong>Неділя:</strong> 08:00:00 - 21:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Рол Золотий дракон (305 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, вугор, соус унагі, лосось, крем сир, авокадо, масаго, кунжут.</p>
-                <p><strong>Ціна:</strong> 349.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Дракон з тунцем (315 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, сир віола, манго, тунець, спайсі майонез, креветка, авокадо</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Канада (275 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, тунець, крем сир, огірок, соус унагі, кунжут, вугор.</p>
-                <p><strong>Ціна:</strong> 305.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Червоний дракон (305 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, манго, ікра лососева, лосось, креветка, авокадо.</p>
-                <p><strong>Ціна:</strong> 289.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Хокайдо (315 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, креветка, крем сир, груша, ікра лососева, соус унагі, масаго, вугор, кунжут.</p>
-                <p><strong>Ціна:</strong> 278.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Футомакі з вугрем (320 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, вугор, крем сир, авокадо, соус унагі, лист салату, масаго, огірок, кунжут.</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Чорний Футомакі (300 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось копчений, крем сир, авокадо, огірок, лист салату, масаго, зелена цибулька, чорнило каракатиці.</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Білий дракон (305 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, сир віола, огірок, масляна, спайсі майонез, тунець, авокадо, цибулька зелена.</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Зелений дракон (295 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, огірок, соус унагі, тунець, крем сир, авокадо, масаго, кунжут.</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Сендай (280 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось смажений, фета, крем-сир, салат, масаго, авокадо.</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Тигровий (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, креветки, крем сир, авокадо, лосось копчений.</p>
-                <p><strong>Ціна:</strong> 239.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія з вугрем (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, вугор, огірок, авокадо, кунжут, майонез, соус унагі.</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фелікс зі смаженим лососем (280 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось смажений, чука, манго, крем-сир, горіховий соус, кунжут.</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Філадельфія з копченим лососем (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось копчений, крем сир, огірок, авокадо.</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол з креветкою та манго (310 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, креветка, крем сир, авокадо, манго, мигдальні пластівці, соус унагі.</p>
-                <p><strong>Ціна:</strong> 229.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Осака (270 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, сніжний краб, спайсі майонез, огірок, масляна, лосось копчений.</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Джодзі (300 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, креветка, крем сир, хіяші вакаме, авокадо, соус унагі, кунжут, горіховий соус.</p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Футо з креветкою Темпура (240 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, креветка, майонез спайсі, авокадо, манго, масаго, кляр, зелена цибулька</p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія з копченим лососем (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось копчений, огірок, авокадо, кунжут, майонез.</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Спайсі (295 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, тунець, крем сир, огірок, майонез спайсі, цибулька зелена.</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Філадельфія з лососем (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, крем сир, огірок, авокадо</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол з обпаленим лососем та грушею (285 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, крем сир, груша, соус унагі, мигдальні пластівці.</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Масаго (240 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, майонез, огірок, сніжний краб, масаго.</p>
-                <p><strong>Ціна:</strong> 199.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Окінава (235 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, манго, креветка, мигдальні пластівці. Вага 235 грам.</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія з креветками (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, креветки, огірок, авокадо, кунжут, майонез.</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Футомакі з креветкою (285 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, креветка, майонез, авокадо, груша, лист салату, масаго.</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий рол з вугрем (205 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, вугор, тостовий сир, масаго, огірок, лист салату, зелена цибулька, соус унагі, кляр.</p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Макі з вугрем  (135 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, вугор, соус унагі, кунжут.</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Футомакі з лососем (275 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, майонез, авокадо, огірок.</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія з лососем (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, огірок, авокадо, кунжут, майонез.</p>
-                <p><strong>Ціна:</strong> 182.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Каліфорнія зі смаженим лососем (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось смажений, огірок, авокадо, кунжут, майонез японський.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія з копченою масляною (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, масляна копчена, огірок, авокадо, кунжут, майонез.</p>
-                <p><strong>Ціна:</strong> 178.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Філадельфія Грін  (275 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, крем сир, огірок, авокадо, кунжут.</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чіз рол зі смаженим лососем (275 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, крем-сир, фета, тостовий сир, цибуля кріспі, лосось смажений.</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія з тунцем (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, тунець, огірок, авокадо, кунжут, майонез.</p>
-                <p><strong>Ціна:</strong> 174.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий рол з лососем (205 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, тостовий сир, масаго, манго, лист салату, зелена цибулька, соус унагі, кляр.</p>
-                <p><strong>Ціна:</strong> 152.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий рол з креветкою (205 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, креветка, тостовий сир, масаго, груша, лист салату, зелена цибулька, соус унагі, кляр.</p>
-                <p><strong>Ціна:</strong> 148.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чіз рол з грушею (300 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, майонез, сир фета, крем сир, сир віола, груша, тостовий сир, соус унагі, мигдальні пластівці.</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Макі з копченим лососем (120 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось копчений.</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Макі з лососем (120 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось.</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Чіз рол (240 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, майонез, сир фета, крем сир, сир віола, кунжут.</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Макі з тунцем (120 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, тунець.</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Макі з авокадо (135 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, авокадо, соус унагі, кунжут.</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гункани з червоною ікрою (85 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, червона ікра, зелена цибулька.</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гункани з лососем (90 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, японський майонез.</p>
-                <p><strong>Ціна:</strong> 99.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Нігірі з вугрем (48 г)</p>
-                <p><strong>Опис:</strong> Рис, вугор, соус унагі, норі.</p>
-                <p><strong>Ціна:</strong> 90.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гункани зі спайсі тунцем (90 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, тунець, спайсі.</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гункани з креветками (90 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, креветка, манго, японський майонез.</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Нігірі з креветкою  (40 г)</p>
-                <p><strong>Опис:</strong> Рис, креветка.</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Нігірі з копченим лососем (40 г)</p>
-                <p><strong>Опис:</strong> Рис, копчений лосось.</p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Нігірі з тунцем  (40 г)</p>
-                <p><strong>Опис:</strong> Рис, тунець.</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гункани з авокадо (90 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, авокадо, унагі.</p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Нігірі з лососем (40 г)</p>
-                <p><strong>Опис:</strong> Рис, лосось.</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> СУШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Місо</p>
-                <p><strong>Опис:</strong> Рол Хокайдо - 315 г, Рол Чорний дракон - 305 г , Фіш донат - 200 г, Рол Хот рол - 253 г, Рол з обпаленим лососем та грушею - 285 г.</p>
-                <p><strong>Ціна:</strong> 1279.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Драконів</p>
-                <p><strong>Опис:</strong> Рол Дракон з тунцем - 305 г, Баскетто з лососем та ікрою - 120 г, Рол Філадельфія Грін - 275 г, Рол Каліфорнія з копченим лососем - 290 г , Рол Окінава - 235 г.</p>
-                <p><strong>Ціна:</strong> 1119.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет №6</p>
-                <p><strong>Опис:</strong> Рол Дракон з тунцем - 305 г, Баскетто з лососем та ікрою - 120 г, Рол Філадельфія Грін - 275 г, Рол Каліфорнія з копченим лососем - 290 г , Рол Окінава - 235 г.</p>
-                <p><strong>Ціна:</strong> 1107.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Нігірі</p>
-                <p><strong>Опис:</strong> Нігірі з креветкою - 160 г, Нігірі з лососем - 160 г, Нігірі з тунцем - 160 г, Нігірі з вугрем - 192 г.</p>
-                <p><strong>Ціна:</strong> 979.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет №3</p>
-                <p><strong>Опис:</strong> Рол білий дракон - 305 г , Рол чорний футомакі - 300 г, Рол Джодзі - 300 г , Рол Макі з авокадо - 135 г, Рол Макі з лососем - 120 г.</p>
-                <p><strong>Ціна:</strong> 899.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет №5</p>
-                <p><strong>Опис:</strong> Рол Спайсі - 295 г, Рол Філадельфія з лососем - 290 г, Рол Футо з креветкою Темпура - 240 г, Рол Осака - 270 г.</p>
-                <p><strong>Ціна:</strong> 849.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет №2</p>
-                <p><strong>Опис:</strong> Рол Футомакі з вугрем ‐ 320 г, Рол Тигровий - 290 г, Рол Каліфорнія з лососем - 290 г, Рол Фелікс з тунцем - 235 г.</p>
-                <p><strong>Ціна:</strong> 839.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> СЕТ №4</p>
-                <p><strong>Опис:</strong> Рол Окінава - 235 г, Рол Каліфорнія з тунцем - 290 г, Сирний Фелікс з лососем - 290 г.</p>
-                <p><strong>Ціна:</strong> 599.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет №1</p>
-                <p><strong>Опис:</strong> Рол Філадельфія грін - 275 г, Рол Філадельфія з лососем - 290 г, Нігірі з тунцем - 80 г, Рол Макі з авокадо - 135 г.</p>
-                <p><strong>Ціна:</strong> 559.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Гурман</p>
-                <p><strong>Опис:</strong> Гункани з авокадо – 90 г, Гункани з креветками – 90 г, Гунками з лососем – 90 г, Гункани зі спайсі тунцем – 90 г, Нігірі з тунцем – 40 г, Рол Макі з лососем – 120 г.</p>
-                <p><strong>Ціна:</strong> 485.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо Рамен з телятиною (470 г)</p>
-                <p><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, норі, кунжут, зелена цибулька, вирізка теляча, яйце, локшина удон, кукурудза.</p>
-                <p><strong>Ціна:</strong> 196.0</p>
-                <p><strong>Тип:</strong> МІСО СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо Суп з креветкою (300 г)</p>
-                <p><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, вакаме, кунжут, зелена цибулька, креветки.</p>
-                <p><strong>Ціна:</strong> 179.0</p>
-                <p><strong>Тип:</strong> МІСО СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо Рамен з куркою (510 г)</p>
-                <p><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, норі, кунжут, зелена цибулька, курка, яйце, локшина удон, кукурудза.</p>
-                <p><strong>Ціна:</strong> 159.0</p>
-                <p><strong>Тип:</strong> МІСО СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо Суп з лососем (300 г)</p>
-                <p><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, вакаме, кунжут, зелена цибулька, лосось.</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> МІСО СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо Суп (300 г)</p>
-                <p><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, вакаме, кунжут, зелена цибулька. Вага 300 грам.</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МІСО СУПИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Креветка в Панко (205 г)</p>
-                <p><strong>Опис:</strong> Креветка тигрова, гриб шиітаке, перець болгарський, цибуля, яйце, сухарі панко, соус тункацу.</p>
-                <p><strong>Ціна:</strong> 299.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лосось в Панко (265 г)</p>
-                <p><strong>Опис:</strong> Лосось, гриб шиітаке, перець болгарський, цибуля, яйце, сухарі панко, соус тункацу.</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Локшина Удон з креветкою (345 г)</p>
-                <p><strong>Опис:</strong> Локшина удон, креветка тигрова, гриб шиітаке, перець болгарський, морква, зелена цибулька, горошок, кримська цибуля, пікінська капуста, соус теріякі, соус тункацу, цибуля фрі.</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Локшина Удон з яловичиною (345 г)</p>
-                <p><strong>Опис:</strong> Локшина удон, яловича вирізка, гриб шиітаке, перець болгарський, морква, зелена цибулька, горошок, кримська цибуля, пекінська капуста, соус теріякі, соус тункацу, цибуля фрі.</p>
-                <p><strong>Ціна:</strong> 183.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Локшина Удон з лососем (345 г)</p>
-                <p><strong>Опис:</strong> Локшина удон, лосось, гриб шиітаке, перець болгарський, морква, зелена цибулька, горошок, кримська цибуля, пікінська капуста, соус теріякі, соус тункацу, цибуля фрі.</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курка в Панко (225 г)</p>
-                <p><strong>Опис:</strong> Курка, гриб шиітаке, перець болгарський, цибуля, яйце, сухарі панко, соус тункацу.</p>
-                <p><strong>Ціна:</strong> 151.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Локшина Удон з куркою (345 г)</p>
-                <p><strong>Опис:</strong> Локшина удон, курка, гриб шиітаке, перець болгарський, морква, зелена цибулька, горошок, кримська цибуля, пікінська капуста, соус теріякі, соус тункацу, цибуля фрі.</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі крильця в медовому соусі</p>
-                <p><strong>Опис:</strong> Крильця, перець, мед, соєвий соус, соус тункацу, васабі, шрирача</p>
-                <p><strong>Ціна:</strong> 119.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Чорний дракон (305 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, тунець, соус унагі, креветка, крем сир, манго, масаго, чорнило каракатиці.</p>
-                <p><strong>Ціна:</strong> 331.0</p>
-                <p><strong>Тип:</strong> НОВИНКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фіш донат з вугрем та креветкою (220 г)</p>
-                <p><strong>Опис:</strong> Рис, крем сир, креветка, вугор, масаго, авокадо, ікра лососева, кунжут, соус унагі.</p>
-                <p><strong>Ціна:</strong> 289.0</p>
-                <p><strong>Тип:</strong> НОВИНКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фіш донат з лососем та тунцем (200 г)</p>
-                <p><strong>Опис:</strong> Рис, крем сир, лосось, тунець, огірок, авокадо, ікра лососева, кунжут.</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> НОВИНКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирний Фелікс з лососем (290 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, авокадо, огірок, лосось, соус унагі, крем сир.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> НОВИНКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Вулкан (235 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, огірок, вугор, зелена цибулька, масаго, майонез, кунжут.</p>
-                <p><strong>Ціна:</strong> 227.0</p>
-                <p><strong>Тип:</strong> НОВИНКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Хот рол (253 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, сир тостовий, тунець, зелена цибулька, соус шрірача, сніжний краб, кунжут.</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> НОВИНКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фелікс з тунцем (235 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, авокадо, огірок, тунець, спайсі майонез, масаго, зелена цибулька.</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> НОВИНКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Баскетто з лососем та ікрою (60 г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, ікра лососева, крем сир, манго</p>
-                <p><strong>Ціна:</strong> 97.0</p>
-                <p><strong>Тип:</strong> НОВИНКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий салат з лососем</p>
-                <p><strong>Опис:</strong> Смажений лосось, лист салату, авокадо, манго, соус васабі, соєвий соус, помідор черрі, кунжут, оливкова олія, майонез</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий салат з креветками</p>
-                <p><strong>Опис:</strong> Креветки, лист салату, авокадо, манго, соус васабі, соєвий соус, помідор черрі, кунжут, оливкова олія, майонез</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий салат з телятиною</p>
-                <p><strong>Опис:</strong> Телятина, лист салату, авокадо, манго, соус васабі, соєвий соус, помідор черрі, кунжут, оливкова олія, майонез</p>
-                <p><strong>Ціна:</strong> 167.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий салат з куркою</p>
-                <p><strong>Опис:</strong> Куряче філе, лист салату, авокадо, манго, соус васабі, соєвий соус, помідор черрі, кунжут, оливкова олія, майонез</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Хіяші Вакаме (140 г)</p>
-                <p><strong>Опис:</strong> Хіяші, горіховий соус</p>
-                <p><strong>Ціна:</strong> 117.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фісташки (50 г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чіпси CHIPSTERS (70 г)</p>
-                <p><strong>Опис:</strong> Бекон, краб, сметана зелень, сир.</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Арахіс в оболонці з васабі (50 г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Арахіс з сіллю (50 г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 18.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай травяний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай зелений</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай чорний листовий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай натуральний імбир</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай натуральний калина</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай натуральний журавлина</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кава Лате</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кава Капучино</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кава Американо з молоком</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кава Американо</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кава Еспресо</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 20.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода Лужанська (500 мл)</p>
-                <p><strong>Опис:</strong> Сильногазована, скло.</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода Поляна квасова (500 мл)</p>
-                <p><strong>Опис:</strong> Сильногазована, скло.</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кока Кола</p>
-                <p><strong>Опис:</strong> Об'єм 500 мл.</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Спрайт</p>
-                <p><strong>Опис:</strong> Об'єм 500 мл.</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фанта Апельсин</p>
-                <p><strong>Опис:</strong> Об'єм 500 мл.</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Яблучний сік (200 мл)</p>
-                <p><strong>Опис:</strong> Прямий віджим</p>
-                <p><strong>Ціна:</strong> 25.0</p>
-                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода Тонус (500 мл)</p>
-                <p><strong>Опис:</strong> Негазована</p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода Куяльник</p>
-                <p><strong>Опис:</strong> Сильногазована.</p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пиво Німецький пілс  (500 мл)</p>
-                <p><strong>Опис:</strong> Розливне пиво</p>
-                <p><strong>Ціна:</strong> 42.0</p>
-                <p><strong>Тип:</strong> АЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пиво світле нефільтроване (500мл.)</p>
-                <p><strong>Опис:</strong> Об'єм 500 мл.</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> АЛКОГОЛЬНІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пиво світле нефільтроване</p>
-                <p><strong>Опис:</strong> Об'єм 370 мл.</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> АЛКОГОЛЬНІ НАПОЇ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Золотий дракон (305 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, вугор, соус унагі, лосось, крем сир, авокадо, масаго, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 349.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Дракон з тунцем (315 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, сир віола, манго, тунець, спайсі майонез, креветка, авокадо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Канада (275 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, тунець, крем сир, огірок, соус унагі, кунжут, вугор.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 305.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Червоний дракон (305 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, манго, ікра лососева, лосось, креветка, авокадо.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 289.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Хокайдо (315 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, креветка, крем сир, груша, ікра лососева, соус унагі, масаго, вугор, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 278.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Футомакі з вугрем (320 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, вугор, крем сир, авокадо, соус унагі, лист салату, масаго, огірок, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Чорний Футомакі (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось копчений, крем сир, авокадо, огірок, лист салату, масаго, зелена цибулька, чорнило каракатиці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Білий дракон (305 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, сир віола, огірок, масляна, спайсі майонез, тунець, авокадо, цибулька зелена.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Зелений дракон (295 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, огірок, соус унагі, тунець, крем сир, авокадо, масаго, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Сендай (280 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось смажений, фета, крем-сир, салат, масаго, авокадо.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Тигровий (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, креветки, крем сир, авокадо, лосось копчений.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 239.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія з вугрем (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, вугор, огірок, авокадо, кунжут, майонез, соус унагі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фелікс зі смаженим лососем (280 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось смажений, чука, манго, крем-сир, горіховий соус, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Філадельфія з копченим лососем (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось копчений, крем сир, огірок, авокадо.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол з креветкою та манго (310 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, креветка, крем сир, авокадо, манго, мигдальні пластівці, соус унагі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 229.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Осака (270 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, сніжний краб, спайсі майонез, огірок, масляна, лосось копчений.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Джодзі (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, креветка, крем сир, хіяші вакаме, авокадо, соус унагі, кунжут, горіховий соус.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Футо з креветкою Темпура (240 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, креветка, майонез спайсі, авокадо, манго, масаго, кляр, зелена цибулька</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія з копченим лососем (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось копчений, огірок, авокадо, кунжут, майонез.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Спайсі (295 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, тунець, крем сир, огірок, майонез спайсі, цибулька зелена.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Філадельфія з лососем (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, крем сир, огірок, авокадо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол з обпаленим лососем та грушею (285 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, крем сир, груша, соус унагі, мигдальні пластівці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Масаго (240 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, майонез, огірок, сніжний краб, масаго.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 199.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Окінава (235 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, манго, креветка, мигдальні пластівці. Вага 235 грам.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія з креветками (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, креветки, огірок, авокадо, кунжут, майонез.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Футомакі з креветкою (285 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, креветка, майонез, авокадо, груша, лист салату, масаго.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий рол з вугрем (205 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, вугор, тостовий сир, масаго, огірок, лист салату, зелена цибулька, соус унагі, кляр.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Макі з вугрем  (135 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, вугор, соус унагі, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Футомакі з лососем (275 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, майонез, авокадо, огірок.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія з лососем (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, огірок, авокадо, кунжут, майонез.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 182.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Каліфорнія зі смаженим лососем (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось смажений, огірок, авокадо, кунжут, майонез японський.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія з копченою масляною (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, масляна копчена, огірок, авокадо, кунжут, майонез.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 178.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Філадельфія Грін  (275 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, крем сир, огірок, авокадо, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чіз рол зі смаженим лососем (275 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, крем-сир, фета, тостовий сир, цибуля кріспі, лосось смажений.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія з тунцем (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, тунець, огірок, авокадо, кунжут, майонез.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 174.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий рол з лососем (205 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, тостовий сир, масаго, манго, лист салату, зелена цибулька, соус унагі, кляр.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 152.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий рол з креветкою (205 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, креветка, тостовий сир, масаго, груша, лист салату, зелена цибулька, соус унагі, кляр.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 148.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чіз рол з грушею (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, майонез, сир фета, крем сир, сир віола, груша, тостовий сир, соус унагі, мигдальні пластівці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Макі з копченим лососем (120 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось копчений.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Макі з лососем (120 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Чіз рол (240 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, майонез, сир фета, крем сир, сир віола, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Макі з тунцем (120 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, тунець.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Макі з авокадо (135 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, авокадо, соус унагі, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гункани з червоною ікрою (85 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, червона ікра, зелена цибулька.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гункани з лососем (90 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, японський майонез.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 99.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нігірі з вугрем (48 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, вугор, соус унагі, норі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 90.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гункани зі спайсі тунцем (90 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, тунець, спайсі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гункани з креветками (90 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, креветка, манго, японський майонез.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нігірі з креветкою  (40 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, креветка.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нігірі з копченим лососем (40 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, копчений лосось.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нігірі з тунцем  (40 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, тунець.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гункани з авокадо (90 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, авокадо, унагі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нігірі з лососем (40 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, лосось.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СУШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Місо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол Хокайдо - 315 г, Рол Чорний дракон - 305 г , Фіш донат - 200 г, Рол Хот рол - 253 г, Рол з обпаленим лососем та грушею - 285 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1279.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Драконів</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол Дракон з тунцем - 305 г, Баскетто з лососем та ікрою - 120 г, Рол Філадельфія Грін - 275 г, Рол Каліфорнія з копченим лососем - 290 г , Рол Окінава - 235 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1119.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет №6</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол Дракон з тунцем - 305 г, Баскетто з лососем та ікрою - 120 г, Рол Філадельфія Грін - 275 г, Рол Каліфорнія з копченим лососем - 290 г , Рол Окінава - 235 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1107.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Нігірі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Нігірі з креветкою - 160 г, Нігірі з лососем - 160 г, Нігірі з тунцем - 160 г, Нігірі з вугрем - 192 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 979.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет №3</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол білий дракон - 305 г , Рол чорний футомакі - 300 г, Рол Джодзі - 300 г , Рол Макі з авокадо - 135 г, Рол Макі з лососем - 120 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 899.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет №5</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол Спайсі - 295 г, Рол Філадельфія з лососем - 290 г, Рол Футо з креветкою Темпура - 240 г, Рол Осака - 270 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 849.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет №2</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол Футомакі з вугрем ‐ 320 г, Рол Тигровий - 290 г, Рол Каліфорнія з лососем - 290 г, Рол Фелікс з тунцем - 235 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 839.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> СЕТ №4</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол Окінава - 235 г, Рол Каліфорнія з тунцем - 290 г, Сирний Фелікс з лососем - 290 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 599.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет №1</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рол Філадельфія грін - 275 г, Рол Філадельфія з лососем - 290 г, Нігірі з тунцем - 80 г, Рол Макі з авокадо - 135 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 559.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Гурман</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гункани з авокадо – 90 г, Гункани з креветками – 90 г, Гунками з лососем – 90 г, Гункани зі спайсі тунцем – 90 г, Нігірі з тунцем – 40 г, Рол Макі з лососем – 120 г.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 485.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо Рамен з телятиною (470 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, норі, кунжут, зелена цибулька, вирізка теляча, яйце, локшина удон, кукурудза.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 196.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІСО СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо Суп з креветкою (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, вакаме, кунжут, зелена цибулька, креветки.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 179.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІСО СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо Рамен з куркою (510 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, норі, кунжут, зелена цибулька, курка, яйце, локшина удон, кукурудза.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 159.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІСО СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо Суп з лососем (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, вакаме, кунжут, зелена цибулька, лосось.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІСО СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо Суп (300 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бульйон, тофу, гриб шиітаке, вакаме, кунжут, зелена цибулька. Вага 300 грам.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІСО СУПИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Креветка в Панко (205 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Креветка тигрова, гриб шиітаке, перець болгарський, цибуля, яйце, сухарі панко, соус тункацу.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 299.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лосось в Панко (265 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лосось, гриб шиітаке, перець болгарський, цибуля, яйце, сухарі панко, соус тункацу.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина Удон з креветкою (345 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина удон, креветка тигрова, гриб шиітаке, перець болгарський, морква, зелена цибулька, горошок, кримська цибуля, пікінська капуста, соус теріякі, соус тункацу, цибуля фрі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина Удон з яловичиною (345 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина удон, яловича вирізка, гриб шиітаке, перець болгарський, морква, зелена цибулька, горошок, кримська цибуля, пекінська капуста, соус теріякі, соус тункацу, цибуля фрі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 183.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина Удон з лососем (345 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина удон, лосось, гриб шиітаке, перець болгарський, морква, зелена цибулька, горошок, кримська цибуля, пікінська капуста, соус теріякі, соус тункацу, цибуля фрі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курка в Панко (225 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, гриб шиітаке, перець болгарський, цибуля, яйце, сухарі панко, соус тункацу.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 151.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Локшина Удон з куркою (345 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина удон, курка, гриб шиітаке, перець болгарський, морква, зелена цибулька, горошок, кримська цибуля, пікінська капуста, соус теріякі, соус тункацу, цибуля фрі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі крильця в медовому соусі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Крильця, перець, мед, соєвий соус, соус тункацу, васабі, шрирача</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 119.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Чорний дракон (305 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, тунець, соус унагі, креветка, крем сир, манго, масаго, чорнило каракатиці.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 331.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НОВИНКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фіш донат з вугрем та креветкою (220 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, крем сир, креветка, вугор, масаго, авокадо, ікра лососева, кунжут, соус унагі.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 289.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НОВИНКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фіш донат з лососем та тунцем (200 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, крем сир, лосось, тунець, огірок, авокадо, ікра лососева, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НОВИНКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний Фелікс з лососем (290 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, авокадо, огірок, лосось, соус унагі, крем сир.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НОВИНКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Вулкан (235 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, огірок, вугор, зелена цибулька, масаго, майонез, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 227.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НОВИНКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Хот рол (253 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, сир тостовий, тунець, зелена цибулька, соус шрірача, сніжний краб, кунжут.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НОВИНКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фелікс з тунцем (235 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, авокадо, огірок, тунець, спайсі майонез, масаго, зелена цибулька.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НОВИНКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Баскетто з лососем та ікрою (60 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, ікра лососева, крем сир, манго</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 97.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НОВИНКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажений лосось, лист салату, авокадо, манго, соус васабі, соєвий соус, помідор черрі, кунжут, оливкова олія, майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з креветками</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Креветки, лист салату, авокадо, манго, соус васабі, соєвий соус, помідор черрі, кунжут, оливкова олія, майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з телятиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Телятина, лист салату, авокадо, манго, соус васабі, соєвий соус, помідор черрі, кунжут, оливкова олія, майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 167.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе, лист салату, авокадо, манго, соус васабі, соєвий соус, помідор черрі, кунжут, оливкова олія, майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Хіяші Вакаме (140 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хіяші, горіховий соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 117.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фісташки (50 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чіпси CHIPSTERS (70 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бекон, краб, сметана зелень, сир.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Арахіс в оболонці з васабі (50 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Арахіс з сіллю (50 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 18.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай травяний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай зелений</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай чорний листовий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай натуральний імбир</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай натуральний калина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай натуральний журавлина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Лате</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Капучино</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Американо з молоком</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Американо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кава Еспресо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 20.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Лужанська (500 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сильногазована, скло.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Поляна квасова (500 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сильногазована, скло.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кока Кола</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Об'єм 500 мл.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Спрайт</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Об'єм 500 мл.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фанта Апельсин</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Об'єм 500 мл.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яблучний сік (200 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Прямий віджим</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 25.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Тонус (500 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Негазована</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Куяльник</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сильногазована.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво Німецький пілс  (500 мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Розливне пиво</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 42.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> АЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво світле нефільтроване (500мл.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Об'єм 500 мл.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> АЛКОГОЛЬНІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво світле нефільтроване</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Об'єм 370 мл.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> АЛКОГОЛЬНІ НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

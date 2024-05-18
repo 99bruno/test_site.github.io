@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>King Kebab / Кінг Кебаб</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/173.png" alt="Restaurant Image">
         <h1>King Kebab / Кінг Кебаб</h1>
@@ -63,208 +116,229 @@
         <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Чізбургер з яловичою котлетою</p>
-                <p><strong>Опис:</strong> Велика булка, котлета яловича, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, сир тостовий</p>
-                <p><strong>Ціна:</strong> 138.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер з яловичою котлетою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Велика булка, котлета яловича, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, сир тостовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 138.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чізбургер з курячою котлетою</p>
-                <p><strong>Опис:</strong> Велика булка, куряча котлета, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, сир тостовий</p>
-                <p><strong>Ціна:</strong> 132.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чізбургер з курячою котлетою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Велика булка, куряча котлета, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, сир тостовий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 132.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гамбургер з яловичою котлетою</p>
-                <p><strong>Опис:</strong> Велика булка, котлета яловича, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, соус Бургер</p>
-                <p><strong>Ціна:</strong> 126.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гамбургер з яловичою котлетою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Велика булка, котлета яловича, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, соус Бургер</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 126.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гамбургер з курячою котлетою</p>
-                <p><strong>Опис:</strong> Велика булка, котлета куряча, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, соус Бургер</p>
-                <p><strong>Ціна:</strong> 121.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гамбургер з курячою котлетою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Велика булка, котлета куряча, огірок, помідор, салат Айсберг, соус часниковий, кетчуп, гірчиця, соус Бургер</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 121.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси XL (9шт)</p>
-                <p><strong>Опис:</strong> Шматочки із курятини</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси XL (9шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки із курятини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси (6шт)</p>
-                <p><strong>Опис:</strong> Шматочки із курятини</p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси (6шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки із курятини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля по-селянськи (100г)</p>
-                <p><strong>Опис:</strong> Шматочки картоплі, обсмажені у великій кількості розпеченої олії</p>
-                <p><strong>Ціна:</strong> 63.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля по-селянськи (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки картоплі, обсмажені у великій кількості розпеченої олії</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 63.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля Фрі (100г)</p>
-                <p><strong>Опис:</strong> Шматочки картоплі, обсмажені у великій кількості розпеченої олії</p>
-                <p><strong>Ціна:</strong> 52.0</p>
-                <p><strong>Тип:</strong> СНЕКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля Фрі (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шматочки картоплі, обсмажені у великій кількості розпеченої олії</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 52.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНЕКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Чізбургер яловича котлета/Картопля фрі/Pepsi</p>
-                <p><strong>Опис:</strong> Чізбургер яловича котлета
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Чізбургер яловича котлета/Картопля фрі/Pepsi</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чізбургер яловича котлета
 Картопля фрі
 Pepsi залізна банка 0,33-1шт</p>
-                <p><strong>Ціна:</strong> 276.0</p>
-                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 276.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Чізбургер куряча котлета/Картопля фрі/Pepsi</p>
-                <p><strong>Опис:</strong> Чізбургер куряча котлета -1 шт
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Чізбургер куряча котлета/Картопля фрі/Pepsi</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чізбургер куряча котлета -1 шт
 Картопля фрі -1 порція
 Pepsi залізна банка 0,33-1шт</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Нагетси 9шт/Картопля фрі/Pepsi</p>
-                <p><strong>Опис:</strong> Нагертси -9шт
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Нагетси 9шт/Картопля фрі/Pepsi</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Нагертси -9шт
  Картопля фрі -1 порція
 Pepsi залізна банка 0,33 -1 шт</p>
-                <p><strong>Ціна:</strong> 213.0</p>
-                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 213.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Гамбургер яловича котлета/Картопля фрі/Pepsi</p>
-                <p><strong>Опис:</strong> Гамбургер яловича котлета -1шт
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Гамбургер яловича котлета/Картопля фрі/Pepsi</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гамбургер яловича котлета -1шт
 Картопля фрі-1 порція
 Pepsi залізна банка 0,33-1шт</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Гамбургер куряча котлета/Картопля фрі/Pepsi</p>
-                <p><strong>Опис:</strong> Гамбургер куряча котлета- 1 шт
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Гамбургер куряча котлета/Картопля фрі/Pepsi</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гамбургер куряча котлета- 1 шт
 Картопля фрі- 1 порція
 Pepsi залізна банка 0,33 -1 шт</p>
-                <p><strong>Ціна:</strong> 184.0</p>
-                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 184.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Комбо Нагетси 6 шт/Картопля фрі/Pepsi</p>
-                <p><strong>Опис:</strong> Нагетси порція (6шт), картопля фрі порція (100г), Pepsi залізна банка (330мл)</p>
-                <p><strong>Ціна:</strong> 173.0</p>
-                <p><strong>Тип:</strong> КОМБО МЕНЮ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбо Нагетси 6 шт/Картопля фрі/Pepsi</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Нагетси порція (6шт), картопля фрі порція (100г), Pepsi залізна банка (330мл)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 173.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КОМБО МЕНЮ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог з куркою</p>
-                <p><strong>Опис:</strong> булка,курка печена, айсберг,помідори , огірок, сир чедер, соус часниковий ,соус томатний</p>
-                <p><strong>Ціна:</strong> 102.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> булка,курка печена, айсберг,помідори , огірок, сир чедер, соус часниковий ,соус томатний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 102.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог з шинкою</p>
-                <p><strong>Опис:</strong> булка,шинка, айсберг,помідори , огірок, сир чедер, соус часниковий ,соус томатний</p>
-                <p><strong>Ціна:</strong> 102.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог з шинкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> булка,шинка, айсберг,помідори , огірок, сир чедер, соус часниковий ,соус томатний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 102.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот дог Лаваш класичний</p>
-                <p><strong>Опис:</strong> Лаваш, соус часниковий, сосиска молочна, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп</p>
-                <p><strong>Ціна:</strong> 91.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот дог Лаваш класичний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш, соус часниковий, сосиска молочна, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 91.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог булка класичний</p>
-                <p><strong>Опис:</strong> Булка хот-дог, соус часниковий, сосиска молочна, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп, майонез</p>
-                <p><strong>Ціна:</strong> 91.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог булка класичний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка хот-дог, соус часниковий, сосиска молочна, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп, майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 91.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот дог Лаваш баварський</p>
-                <p><strong>Опис:</strong> Лаваш, соус часниковий, сосиска баварська, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп</p>
-                <p><strong>Ціна:</strong> 91.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот дог Лаваш баварський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш, соус часниковий, сосиска баварська, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 91.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот-дог булка баварський</p>
-                <p><strong>Опис:</strong> Булка хот-дог, соус часниковий, сосиска баварська, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп, майонез</p>
-                <p><strong>Ціна:</strong> 91.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот-дог булка баварський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка хот-дог, соус часниковий, сосиска баварська, огірок, помідор, мікс капусти та корейської моркви, кукурудза, кетчуп, майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 91.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот дог французький класичний</p>
-                <p><strong>Опис:</strong> Булка французька з отвором, сосиска молочна, кетчуп, майонез, гірчиця</p>
-                <p><strong>Ціна:</strong> 63.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот дог французький класичний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка французька з отвором, сосиска молочна, кетчуп, майонез, гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 63.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хот дог французький баварський</p>
-                <p><strong>Опис:</strong> Булка французька з отвором, сосиска баварська, кетчуп, майонез, гірчиця</p>
-                <p><strong>Ціна:</strong> 63.0</p>
-                <p><strong>Тип:</strong> ХОТ-ДОГИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хот дог французький баварський</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка французька з отвором, сосиска баварська, кетчуп, майонез, гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 63.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОТ-ДОГИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фреш Рол з куркою</p>
-                <p><strong>Опис:</strong> Лаваш, соус часниковий, курка печена, салат Айсберг, огірок, помідор, кетчуп</p>
-                <p><strong>Ціна:</strong> 91.0</p>
-                <p><strong>Тип:</strong> ФРЕШ РОЛ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш Рол з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш, соус часниковий, курка печена, салат Айсберг, огірок, помідор, кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 91.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШ РОЛ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус гострий</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 21.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус гострий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 21.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус кисло-солодкий (30г)</p>
-                <p><strong>Опис:</strong> 30г</p>
-                <p><strong>Ціна:</strong> 17.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус кисло-солодкий (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 17.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус тартар (30г)</p>
-                <p><strong>Опис:</strong> 30г</p>
-                <p><strong>Ціна:</strong> 17.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус тартар (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 17.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус сирний (30г)</p>
-                <p><strong>Опис:</strong> 30 г</p>
-                <p><strong>Ціна:</strong> 17.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус сирний (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30 г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 17.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус манго-чилі (30)</p>
-                <p><strong>Опис:</strong> 30 г</p>
-                <p><strong>Ціна:</strong> 17.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус манго-чилі (30)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30 г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 17.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус кетчуп (30г)</p>
-                <p><strong>Опис:</strong> 30 г</p>
-                <p><strong>Ціна:</strong> 17.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус кетчуп (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30 г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 17.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Соус часниковий (30г)</p>
-                <p><strong>Опис:</strong> 30 г</p>
-                <p><strong>Ціна:</strong> 17.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Соус часниковий (30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 30 г</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 17.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Mirinda (0.5л)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Mirinda (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Pepsi (0.5л)</p>
-                <p><strong>Опис:</strong> Солодкий газований напій</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Pepsi (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодкий газований напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Чай Lipton (0.5л)</p>
-                <p><strong>Опис:</strong> Холодний чай</p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай Lipton (0.5л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Холодний чай</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб Мікс</p>
-                <p><strong>Опис:</strong> Лаваш,яловичина кебаб, кебаб курка,листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
-                <p><strong>Ціна:</strong> 207.0</p>
-                <p><strong>Тип:</strong> Кебаби</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб Мікс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш,яловичина кебаб, кебаб курка,листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 207.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Кебаби</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб яловичина 120</p>
-                <p><strong>Опис:</strong> Лаваш,яловичина кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
-                <p><strong>Ціна:</strong> 171.0</p>
-                <p><strong>Тип:</strong> Кебаби</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб яловичина 120</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш,яловичина кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 171.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Кебаби</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб курка 120</p>
-                <p><strong>Опис:</strong> Лаваш,курка кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> Кебаби</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб курка 120</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш,курка кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Кебаби</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб яловичина 80</p>
-                <p><strong>Опис:</strong> Лаваш,яловичина кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
-                <p><strong>Ціна:</strong> 137.0</p>
-                <p><strong>Тип:</strong> Кебаби</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб яловичина 80</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш,яловичина кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 137.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Кебаби</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб курка 80</p>
-                <p><strong>Опис:</strong> Лаваш,курка кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> Кебаби</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб курка 80</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лаваш,курка кебаб, листя салату, помідори ,соус часниковий, огірок , цибуля хрумка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Кебаби</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sour</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/203.png" alt="Restaurant Image">
         <h1>Sour</h1>
@@ -63,398 +116,419 @@
         <p><strong>Неділя:</strong> 13:00:00 - 23:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Хемуль топ-паб в соєвому соусі</p>
-                <p><strong>Опис:</strong> Креветки, мідії, кальмари з овочами та рисом у соєвому соусі</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хемуль топ-паб в гострому соусі</p>
-                <p><strong>Опис:</strong> Креветки, мідії, кальмари з овочами та рисом у гострому соусі</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Токпоккі каре</p>
-                <p><strong>Опис:</strong> Рисові палички з капустою та яйцем на основі каре</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Токпоккі Тчаджан</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тчаджан паб</p>
-                <p><strong>Опис:</strong> Рис заправлений соусом Тчаджан з овочами та свининою</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тчаджанмьон</p>
-                <p><strong>Опис:</strong> Локшина заправлена соусом Тчаджан з овочами та свининою</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Токпоккі класичні</p>
-                <p><strong>Опис:</strong> Рисові палички з капустою та яйцем в гострому соусі</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тансуюк топ-паб з курятиною</p>
-                <p><strong>Опис:</strong> Куряче м'ясо в кисло-солодкому соусі з овочами та рисом</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тонкас свиний</p>
-                <p><strong>Опис:</strong> свинний шніцель з яйцем, овочами, рисом та салатом</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімчі чеюк покким паб</p>
-                <p><strong>Опис:</strong> Рис з кімчі чеюком та яйцем</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен майо топ-паб</p>
-                <p><strong>Опис:</strong> Куряче філе з майонезом яйцем цибулею та рисом</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Омурайс</p>
-                <p><strong>Опис:</strong> Смажений рис з фаршем, овочами та яйцем</p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чапче топ-паб</p>
-                <p><strong>Опис:</strong> Корейська крохмальна локшина з овочами, свининою та рисом</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімчі</p>
-                <p><strong>Опис:</strong> Гостра маринована пекінська капуска в корейському стилі</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рис відварний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хемуль Рамьон (L)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні, овочі, мідії, креветки та кальмари</p>
-                <p><strong>Ціна:</strong> 370.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Каре Рамьон (L)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, свинина та каре</p>
-                <p><strong>Ціна:</strong> 340.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чеюк Рамьон (L)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні, овочі та маринована гостра свинина</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімчі Рамьон (L)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, кімчі, та свинина</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Хемуль Рамьон (M)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні, овочі, мідії, креветки та кальмари</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рамьон класичний (L)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, та яйце</p>
-                <p><strong>Ціна:</strong> 270.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Каре Рамьон (M)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, свинина та каре</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чеюк Рамьон (M)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні, овочі та маринована гостра свинина</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімчі Рамьон (M)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, кімчі, та свинина</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рамьон класичний (M)</p>
-                <p><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, та яйце</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> РАМЬОН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чеюк Кімпаб</p>
-                <p><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, гостра маринована сосиска</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> КІМПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пульгогі Кімпаб</p>
-                <p><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, маринована яловичина</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> КІМПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімпаб з Тунцем</p>
-                <p><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, тунець</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КІМПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Black Кімпаб</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> КІМПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімчі Кімпаб</p>
-                <p><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, кімчі</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> КІМПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімпаб з Сиром</p>
-                <p><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, сир плавлений</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> КІМПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Класичний Кімпаб</p>
-                <p><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, сосиска</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> КІМПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пульгогі Бекбан</p>
-                <p><strong>Опис:</strong> Маринована яловичина з овочами, рисом та додатками</p>
-                <p><strong>Ціна:</strong> 330.0</p>
-                <p><strong>Тип:</strong> БЕКБАН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чеюк Бекбан</p>
-                <p><strong>Опис:</strong> Гостра маринована свинина з овочами рисом та додатками</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> БЕКБАН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен Бекбан</p>
-                <p><strong>Опис:</strong> Маринована курочка з овочами, рисом та додатками</p>
-                <p><strong>Ціна:</strong> 310.0</p>
-                <p><strong>Тип:</strong> БЕКБАН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пібім паб з Пульгогі</p>
-                <p><strong>Опис:</strong> Пульгогі, Рис з яйцем, овочами, та гострим соусом Кочуджан</p>
-                <p><strong>Ціна:</strong> 300.0</p>
-                <p><strong>Тип:</strong> ПІБІМ ПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пібім паб з Чеюком</p>
-                <p><strong>Опис:</strong> Чеюк, Рис з яйцем, овочами, та гострим соусом Кочуджан</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ПІБІМ ПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пібім паб з Фаршем</p>
-                <p><strong>Опис:</strong> Фарш, Рис з яйцем, овочами, та гострим соусом Кочуджан</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> ПІБІМ ПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пібім паб овочевий</p>
-                <p><strong>Опис:</strong> Гриби, Рис з яйцем, овочами,  та гострим соусом Кочуджан</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> ПІБІМ ПАБ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Кімчі Чіге</p>
-                <p><strong>Опис:</strong> Корейський традиційний суп на основі кімчі з свининою, тофу та овочами</p>
-                <p><strong>Ціна:</strong> 325.0</p>
-                <p><strong>Тип:</strong> ЧІГЕ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Твенджан чіге</p>
-                <p><strong>Опис:</strong> Корейський традиційний суп на основі пасти "Твенджан"(соєві боби) з додаванням тофу, свинини, грибів, кабачків, картоплі та цибулі</p>
-                <p><strong>Ціна:</strong> 290.0</p>
-                <p><strong>Тип:</strong> ЧІГЕ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен в гострому соусі (20шт)</p>
-                <p><strong>Опис:</strong> Смажені курячі крильця в гострому соусі</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> К-ЧІКЕН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен в соєвому соусі (20шт)</p>
-                <p><strong>Опис:</strong> Смажені курячі крильця в соєвому соусі</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> К-ЧІКЕН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен в гострому соусі( 10шт)</p>
-                <p><strong>Опис:</strong> Смажені курячі крильця в гострому соусі</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> К-ЧІКЕН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен в соєвому соусі (10шт)</p>
-                <p><strong>Опис:</strong> Смажені курячі крильця в соєвому  соусі</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> К-ЧІКЕН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен в гострому соусі (5шт)</p>
-                <p><strong>Опис:</strong> Смажені курячі крильця в  гострому соусі</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> К-ЧІКЕН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен в соєвому соусі (5шт)</p>
-                <p><strong>Опис:</strong> Смажені курячі крильця в соєвому  соусі</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> К-ЧІКЕН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен поп-корн в гострому соусі</p>
-                <p><strong>Опис:</strong> Смажене куряче філе в гострому соусі</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ЧІКЕН ПОП-КОРН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен поп-корн в соєвому соусі</p>
-                <p><strong>Опис:</strong> Смажене куряче філе в соєвому соусі</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ЧІКЕН ПОП-КОРН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен поп-корн в вершково медовому соусі</p>
-                <p><strong>Опис:</strong> Смажене куряче філе в вершково медовому соусі</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ЧІКЕН ПОП-КОРН</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чапче топ паб</p>
-                <p><strong>Опис:</strong> 2 курячих крила у соєвому або гострому соусі, кімпаб classic 4шт,</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> ТОШИРОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чеюк топ паб</p>
-                <p><strong>Опис:</strong> 2 курячих крила у соєвому або гострому соусі, кімпаб classic 4шт</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> ТОШИРОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пульгогі топ паб</p>
-                <p><strong>Опис:</strong> 2 курячих крила у соєвому або гострому соусі, кімпаб classic 4шт</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> ТОШИРОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тансуюк топ паб</p>
-                <p><strong>Опис:</strong> 2 курячих крила у соєвому або гострому соусі, кімпаб classic 4шт</p>
-                <p><strong>Ціна:</strong> 380.0</p>
-                <p><strong>Тип:</strong> ТОШИРОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Боба чоко</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Боба ваніла</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Боба латте</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Дальгона кава</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місукару лате</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бамблбі</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Айс латте</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 55.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Айс американо</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Schweppes</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> fanta</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Fuze Tea</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сік Rich</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> BonAqua</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мінт латте</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Черрі латте</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо з молоком</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Капучіно</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Латте</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Латте макіато</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай з лимоном</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Еспресо</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чай</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хемуль топ-паб в соєвому соусі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Креветки, мідії, кальмари з овочами та рисом у соєвому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хемуль топ-паб в гострому соусі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Креветки, мідії, кальмари з овочами та рисом у гострому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Токпоккі каре</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рисові палички з капустою та яйцем на основі каре</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Токпоккі Тчаджан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тчаджан паб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис заправлений соусом Тчаджан з овочами та свининою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тчаджанмьон</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина заправлена соусом Тчаджан з овочами та свининою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Токпоккі класичні</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рисові палички з капустою та яйцем в гострому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тансуюк топ-паб з курятиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче м'ясо в кисло-солодкому соусі з овочами та рисом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тонкас свиний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> свинний шніцель з яйцем, овочами, рисом та салатом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімчі чеюк покким паб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис з кімчі чеюком та яйцем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен майо топ-паб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе з майонезом яйцем цибулею та рисом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Омурайс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажений рис з фаршем, овочами та яйцем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чапче топ-паб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Корейська крохмальна локшина з овочами, свининою та рисом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімчі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гостра маринована пекінська капуска в корейському стилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рис відварний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТРАДИЦІЙНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хемуль Рамьон (L)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні, овочі, мідії, креветки та кальмари</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 370.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Каре Рамьон (L)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, свинина та каре</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 340.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чеюк Рамьон (L)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні, овочі та маринована гостра свинина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімчі Рамьон (L)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, кімчі, та свинина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хемуль Рамьон (M)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні, овочі, мідії, креветки та кальмари</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рамьон класичний (L)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, та яйце</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 270.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Каре Рамьон (M)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, свинина та каре</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чеюк Рамьон (M)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні, овочі та маринована гостра свинина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімчі Рамьон (M)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, кімчі, та свинина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рамьон класичний (M)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Локшина, на гострому бульйоні овочі, та яйце</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РАМЬОН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чеюк Кімпаб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, гостра маринована сосиска</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КІМПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пульгогі Кімпаб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, маринована яловичина</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КІМПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімпаб з Тунцем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, тунець</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КІМПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Black Кімпаб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КІМПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімчі Кімпаб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, кімчі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КІМПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімпаб з Сиром</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, сир плавлений</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КІМПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Класичний Кімпаб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Норі, рис, морква, огірок, яйце, редиска дайкон, крабові палички, сосиска</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КІМПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пульгогі Бекбан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Маринована яловичина з овочами, рисом та додатками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 330.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕКБАН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чеюк Бекбан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гостра маринована свинина з овочами рисом та додатками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕКБАН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен Бекбан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Маринована курочка з овочами, рисом та додатками</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 310.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕКБАН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пібім паб з Пульгогі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пульгогі, Рис з яйцем, овочами, та гострим соусом Кочуджан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 300.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІБІМ ПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пібім паб з Чеюком</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Чеюк, Рис з яйцем, овочами, та гострим соусом Кочуджан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІБІМ ПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пібім паб з Фаршем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фарш, Рис з яйцем, овочами, та гострим соусом Кочуджан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІБІМ ПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пібім паб овочевий</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Гриби, Рис з яйцем, овочами,  та гострим соусом Кочуджан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІБІМ ПАБ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кімчі Чіге</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Корейський традиційний суп на основі кімчі з свининою, тофу та овочами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 325.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧІГЕ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Твенджан чіге</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Корейський традиційний суп на основі пасти "Твенджан"(соєві боби) з додаванням тофу, свинини, грибів, кабачків, картоплі та цибулі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 290.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧІГЕ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен в гострому соусі (20шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажені курячі крильця в гострому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> К-ЧІКЕН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен в соєвому соусі (20шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажені курячі крильця в соєвому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> К-ЧІКЕН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен в гострому соусі( 10шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажені курячі крильця в гострому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> К-ЧІКЕН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен в соєвому соусі (10шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажені курячі крильця в соєвому  соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> К-ЧІКЕН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен в гострому соусі (5шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажені курячі крильця в  гострому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> К-ЧІКЕН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен в соєвому соусі (5шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажені курячі крильця в соєвому  соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> К-ЧІКЕН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен поп-корн в гострому соусі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажене куряче філе в гострому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧІКЕН ПОП-КОРН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен поп-корн в соєвому соусі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажене куряче філе в соєвому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧІКЕН ПОП-КОРН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен поп-корн в вершково медовому соусі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Смажене куряче філе в вершково медовому соусі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЧІКЕН ПОП-КОРН</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чапче топ паб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 2 курячих крила у соєвому або гострому соусі, кімпаб classic 4шт,</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОШИРОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чеюк топ паб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 2 курячих крила у соєвому або гострому соусі, кімпаб classic 4шт</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОШИРОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пульгогі топ паб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 2 курячих крила у соєвому або гострому соусі, кімпаб classic 4шт</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОШИРОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тансуюк топ паб</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> 2 курячих крила у соєвому або гострому соусі, кімпаб classic 4шт</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 380.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТОШИРОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боба чоко</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боба ваніла</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боба латте</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Дальгона кава</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місукару лате</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бамблбі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Айс латте</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 55.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Айс американо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Schweppes</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> fanta</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fuze Tea</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Rich</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> BonAqua</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ ХОЛОДНІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мінт латте</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Черрі латте</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо з молоком</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучіно</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Латте</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Латте макіато</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай з лимоном</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Еспресо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чай</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

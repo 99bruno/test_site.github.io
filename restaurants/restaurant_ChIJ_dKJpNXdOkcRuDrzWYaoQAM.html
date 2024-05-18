@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WOOD Coffee bar</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/280.png" alt="Restaurant Image">
         <h1>WOOD Coffee bar</h1>
@@ -63,548 +116,569 @@
         <p><strong>Неділя:</strong> 10:00:00 - 20:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Піца Фрутті де Маре (545г)</p>
-                <p><strong>Опис:</strong> Вершкова основа, сир Моцарела, мідії, восьминжки бейбі, креветки коктейльні, оливки, слайси лимона, Пармезан</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца З телятиною (500г)</p>
-                <p><strong>Опис:</strong> Томатна основа, яловичина, в'ялені помідори, помідори чері, рукола, салатний мікс, соус теріякі, Пармезан, кунжут</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Puluj (500г)</p>
-                <p><strong>Опис:</strong> Вершкова основа, сир Моцарела, прошутто крудо, груша, Горгонзола, Пармезан</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Чотири сезони (570г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, печериці, прошутто крудо, салямі пепероні, маслини, Пармезан</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Прошутто крудо (500г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, прошуто крудо, рукола, помідори чері, Пармезан</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Цезаре (550г)</p>
-                <p><strong>Опис:</strong> Вершкова основа, сир Моцарела, бекон, куряче філе, салатний мікс, рукола, помгдори чері, соус цезар, Пармезан</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Карбонара (560г)</p>
-                <p><strong>Опис:</strong> Вершкова основа, сир Моцарела, шинка, бекон, салямі, помідори, кукурудза</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Чотири м'яса (520г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, куряче філе, салямі, бекон, мисливські ковбаски</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Чотири сири (460г)</p>
-                <p><strong>Опис:</strong> Вершкова основа, сир Моцарела, Мааздам, Горгонзола, Пармезан</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Туно (500г)</p>
-                <p><strong>Опис:</strong> Вершкова основа, сир Моцарела, тунець консервований, помідори, оливки, цибуля кримська</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Капрічіоза (570г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, шинка, печериці, салямі, помдори, маслини</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Сицилія (500г)</p>
-                <p><strong>Опис:</strong> Вершкова основа, салямі, томати в'ялені, сир Фета, рукола, сир Моцарела</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Неаполітано (530г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, шинка, салямі, печериці, кукурудза, маслини</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Салямі мікс (535г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, салямі пепероні, салямі, помдори, Пармезан</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Діабола (450г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, салямі пепероні, перець чилі, Пармезан, соус Гострий</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Від шефа (660г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, шпондер, салямі, курка, перець цибуля</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Болоньезе (650г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, помдори чері, соус болоньезе, Пармезан</p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца З куркою (540г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, куряче Філе, печериці, помідори, цибуля зелена, часникова олія</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Гавайська (500г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, куряче філе, ананас, кукурудза</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Баварія (505г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, печериці, мисливські та баварські ковбаски, французька гірчиця</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Грибна з сиром Камамбер (500г)</p>
-                <p><strong>Опис:</strong> Вершкова основа, печериці, Камамбер, сир Моцарела</p>
-                <p><strong>Ціна:</strong> 205.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Calzone (закрита піца) (500г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, печериці, шинка, перець болгарський</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Піца Маргарита (450г)</p>
-                <p><strong>Опис:</strong> Томатна основа, сир Моцарела, помідори чері, Моцарела бейбі</p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ПІЦА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста з морепродуктами (350г)</p>
-                <p><strong>Опис:</strong> Фетучіні, вершки, мідії, восьминіжки, креветки коктейльні, креветки тигрові, помідори чері, Пармезан,соус на основі песто, лимонний сік</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> ПАСТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста з лососем в вершково-часниковому соусі (220г)</p>
-                <p><strong>Опис:</strong> Спагеті, лосось, вершки, Пармезан, лимонний сік, часникова олія, спеції</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ПАСТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста з креветками коктейльними (280г)</p>
-                <p><strong>Опис:</strong> Спагеті, креветки коктейльні в томатно-вершковому соусі, Пармезан, оливкова олія, спеції</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> ПАСТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста з куркою і печерицями (370г)</p>
-                <p><strong>Опис:</strong> Пенне, вершки, куряче філе, печериці, чері, сир Пармезан</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ПАСТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста песто (230г)</p>
-                <p><strong>Опис:</strong> Спагеті, соус песто, масло, Пармезан, спеції</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> ПАСТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста карбонара (260г)</p>
-                <p><strong>Опис:</strong> Спагеті, бекон, вершки, яйце куряче, Пармезан, оливкова олія, спеції</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> ПАСТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста чотири сири (250г)</p>
-                <p><strong>Опис:</strong> Пенне, вершки, Пармезан, Брі, Горгонзола, Моцарела, масло, спеції</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> ПАСТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста болоньезе (330г)</p>
-                <p><strong>Опис:</strong> Пенне, соус болоньезе, Пармезан, спеції</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> ПАСТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з креветками (230г)</p>
-                <p><strong>Опис:</strong> Мікс салату, соус цезар, помідори чері, креветки коктейльні, перепелині яйця, Пармезан, сухарики</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з лососем (220г)</p>
-                <p><strong>Опис:</strong> Мікс салату, соус цезар, помідори чері, лосось, перепилині яйця, Пармезан, сухарики</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий салат з телятиною (260г)</p>
-                <p><strong>Опис:</strong> Телятина, мікс салату, помідори, печериці, перець болгарський, медово-гірчичний соус</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Теплий салат з куркою (280г.)</p>
-                <p><strong>Опис:</strong> Куряче філе,печериці,перець болгарський,сир фета,помідори,мікс салату,медово-гірчичний соус)</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з тунцем (230г)</p>
-                <p><strong>Опис:</strong> Тунець, помідори чері, перепелині яйця, оливки, мікс салату, синя цибуля, гірчичний соус</p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з куркою (240г)</p>
-                <p><strong>Опис:</strong> Мікс салату, соус цезар, помідори чері, куряче філе, бекон, перепилині яйця, Пармезан, сухарики</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Грецький (260г)</p>
-                <p><strong>Опис:</strong> Болгарський перець, сир Фета, помідори, маслини, синя цибуля, огірок, оливкова олія</p>
-                <p><strong>Ціна:</strong> 155.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бургер Техас (подається з картоплею фрі) (450/100/30г)</p>
-                <p><strong>Опис:</strong> Булочка, яловича, куряча котлета, бекон, соуса, сир, солений огірок, помідор, синя цибуля, айзберг</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Чікен бургер (300г)</p>
-                <p><strong>Опис:</strong> Булочка, куряча котлета, бекон, соуса, сир, солений огірок, помідор, синя цибуля, айзберг</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Біф бургер (300г)</p>
-                <p><strong>Опис:</strong> Булочка, яловича котлета, бекон, соуса, сир, солений огірок, помідор, синя цибуля, айзберг</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> БУРГЕРИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі криль в медово-пікантному соусі (320г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі крильця Баффало (320г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 190.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирні палички фрі з ягідним соусом (150/50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 170.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячі нагетси 3 сирним соусом (170/50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля по-селянськи (150г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Картопля фрі (150г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 80.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Пивна тареля (250г)</p>
-                <p><strong>Опис:</strong> Салямі піканте, суджук, сир Косичка, горішки, чіпси з лавашу, соус</p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> М'ясна вірменська закуска (100г)</p>
-                <p><strong>Опис:</strong> Бастурма, суджук, махан</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бастурма (40г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фокача (1шт)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Суджук (40г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Махан (40г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 70.0</p>
-                <p><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> М'ясне плато (200/50г)</p>
-                <p><strong>Опис:</strong> Салямі чорізо, неаполі, сировялена, прошутто, чіабатта</p>
-                <p><strong>Ціна:</strong> 265.0</p>
-                <p><strong>Тип:</strong> ТАРЕЛІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирна тареля (150/50г)</p>
-                <p><strong>Опис:</strong> Пармезан, сир Брі, Мааздам, сир Дорблю, грецькі горіхи, мед</p>
-                <p><strong>Ціна:</strong> 225.0</p>
-                <p><strong>Тип:</strong> ТАРЕЛІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Овочева тареля (350г)</p>
-                <p><strong>Опис:</strong> Помідори, огірки, болгарський перець, мікс салату, цибуля, заправка</p>
-                <p><strong>Ціна:</strong> 115.0</p>
-                <p><strong>Тип:</strong> ТАРЕЛІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо суп з лососем (345г)</p>
-                <p><strong>Опис:</strong> Лосось свіжий, кунжут, місо паста, рибний бульйон, водорості вакаме, гриби шіїтаке</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> МІСО СУПИ + 2 НІГІРІ В КУНЖУТІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо суп з вугрем (345г)</p>
-                <p><strong>Опис:</strong> Вугор, кунжут, місо паста, рибний бульйон, водорості вакаме, гриби шіїтакі</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> МІСО СУПИ + 2 НІГІРІ В КУНЖУТІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Місо суп з морепродуктами (345г)</p>
-                <p><strong>Опис:</strong> Морепродукти, кунжут, місо паста, рибний бульйон, водорості вакаме, гриби шіїтаке</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> МІСО СУПИ + 2 НІГІРІ В КУНЖУТІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Солянка м'ясна</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ЗУПКИ + 2 ГРІНКИ З ПЕЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Борщ з м'ясом</p>
-                <p><strong>Опис:</strong> Подається з пампушками,салом, сметаною та цибулькою.</p>
-                <p><strong>Ціна:</strong> 140.0</p>
-                <p><strong>Тип:</strong> ЗУПКИ + 2 ГРІНКИ З ПЕЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирна зупка</p>
-                <p><strong>Опис:</strong> Сирна крем зупка, подається з 2 грінками!</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> ЗУПКИ + 2 ГРІНКИ З ПЕЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Зупка Овочева з куркою</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ЗУПКИ + 2 ГРІНКИ З ПЕЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Драконів (1470г)</p>
-                <p><strong>Опис:</strong> Дракон з вугрем, зелений дракон, дракон батакон, дракон з крабом, білий дракон, червоний дракон, жовтий дракон</p>
-                <p><strong>Ціна:</strong> 1335.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Гейша (1170г)</p>
-                <p><strong>Опис:</strong> Боніто кунсей, макі ікура, тартар з тунцем, каліфорнія унагі, зелений дракон, дракон 3 крабом</p>
-                <p><strong>Ціна:</strong> 1035.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирний сет (1000г)</p>
-                <p><strong>Опис:</strong> Сирний рол сяке, сирний рол кунсей, сирний рол унагі, білий дракон, сирний рол</p>
-                <p><strong>Ціна:</strong> 960.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Сяке (595г)</p>
-                <p><strong>Опис:</strong> Філадельфія, каліфорнія сяке, тартар з лососем, макі сяке, нігірі сяке 2 штуки</p>
-                <p><strong>Ціна:</strong> 830.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Унагі (595г)</p>
-                <p><strong>Опис:</strong> Дракон з вугрем, каліфорнія унагі, макі унагі, нігірі унагі 2 штуки</p>
-                <p><strong>Ціна:</strong> 745.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Самурай (665г)</p>
-                <p><strong>Опис:</strong> Самурай рол, сирний рол, рол азійя, макі ікура</p>
-                <p><strong>Ціна:</strong> 730.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сет Класичне тріо (620г)</p>
-                <p><strong>Опис:</strong> Філадельфія з лососем, каліфорнія з крабом, сирний рол</p>
-                <p><strong>Ціна:</strong> 595.0</p>
-                <p><strong>Тип:</strong> СЕТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Токіо з вугрем (240г)</p>
-                <p><strong>Опис:</strong> Рис, норі, вугор, крем сир, ікра тобко, огірок, темпура, сухарі панко</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Панко (240г)</p>
-                <p><strong>Опис:</strong> Рис, норі, лосось, авокадо, крем сир, темпура, сухарі панко</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Гарячий краб (240г)</p>
-                <p><strong>Опис:</strong> Рис, норі, сніжний краб, крем сир, авокадо, кунжут, темпура, сухарі панкой</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> ГАРЯЧІ РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макі унагі (120г)</p>
-                <p><strong>Опис:</strong> Рис, вугор, кунжут білий, соус унагі</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> МАКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макі ікура (130г)</p>
-                <p><strong>Опис:</strong> Рис, огірок, плавлений сирок, ікра лосося</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> МАКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макі сяке (110г)</p>
-                <p><strong>Опис:</strong> Рис, лосось свіжий</p>
-                <p><strong>Ціна:</strong> 135.0</p>
-                <p><strong>Тип:</strong> МАКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макі кунсей (110г)</p>
-                <p><strong>Опис:</strong> Рис, лосось копчений</p>
-                <p><strong>Ціна:</strong> 118.0</p>
-                <p><strong>Тип:</strong> МАКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макі авокадо (120г)</p>
-                <p><strong>Опис:</strong> Рис, авокадо</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> МАКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макі капа (120г)</p>
-                <p><strong>Опис:</strong> Рис, огірок</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МАКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Дракон з вугрем (200г)</p>
-                <p><strong>Опис:</strong> Рис, вугор, Філадельфія, огірок, унагі соус, кунжут, ікра тобіко</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Дракон батакон (200г)</p>
-                <p><strong>Опис:</strong> Рис, огірок, лосось копчений, сир Філадельфія, авокадо, кунжут білий, соус унагі</p>
-                <p><strong>Ціна:</strong> 260.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тартар з креветкою (220г)</p>
-                <p><strong>Опис:</strong> Рис, креветка тигрова, сир Філадельфія, огірок, томаго, тобіко, соус кімчі, японський майонез</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Червоний дракон (200г)</p>
-                <p><strong>Опис:</strong> Рис, Філадельфія, лосось копчений, огірок, ікрв тобіко</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Філадельфія Ікура (220г)</p>
-                <p><strong>Опис:</strong> Рис, сир Філадельфія, лосось авокадо, ікра лосося</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тартар з лососем (220г)</p>
-                <p><strong>Опис:</strong> Рис, лосось, сир Філадельфія, огірок, томаго, ікра тобіко</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Зелений дракон (230г)</p>
-                <p><strong>Опис:</strong> Рис, томаго, вугор, огірок, сир Філадельфія, авокадо, кунжут білий, соус унагі</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирний рол унагі (200г)</p>
-                <p><strong>Опис:</strong> Рис, вугор, Моцарела, Філадельфія, кунжут чорно-білий, соус унагі</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія коі (185г)</p>
-                <p><strong>Опис:</strong> Рис, сир Філадельфія, креветка королівська, авокадо, кунжут чорний</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія унагі (185г)</p>
-                <p><strong>Опис:</strong> Рис, сир Філадельфія, вугор, огірок, соус унагі, кунжут білий</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Дракон з крабом (215г)</p>
-                <p><strong>Опис:</strong> Рис, сніжний краб, огірок, соус спайсі, лосось смажений, соус унагі, кунжут білий</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Філадельфія (210г)</p>
-                <p><strong>Опис:</strong> Рис, сир Філадельфія, лосось, авокадо</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія ебі (185г)</p>
-                <p><strong>Опис:</strong> Рис, сир Філадельфія, креветка тигрова, вершковий сир, огірок, кунжут чорно-білий</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирний рол сяке (200г)</p>
-                <p><strong>Опис:</strong> Рис, лосось, Моцарела, Філадельфія, кунжут чорно-білий</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Самурай рол (200г)</p>
-                <p><strong>Опис:</strong> Рис, лосось, ікра тобіко, Філадельфія, томаго</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія сяке тобіко (195г)</p>
-                <p><strong>Опис:</strong> Рис, сир Філаельфія, лосось, огірок, спайсі соус, ікра тобіко</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія сяке (185г)</p>
-                <p><strong>Опис:</strong> Рис, сир Філадельфія, лосось авокадо, кунжут білий</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирний рол кунсей (200г)</p>
-                <p><strong>Опис:</strong> Рис, лосось копчений, Моцірела, Філадельфія, кунжут чорно-білий</p>
-                <p><strong>Ціна:</strong> 203.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія кунскй тобіко (185г)</p>
-                <p><strong>Опис:</strong> Рис, сир Філадельфія, лосось копчений, огірок, спайсі соус, ікра тобіко</p>
-                <p><strong>Ціна:</strong> 203.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Каліфорнія з крабом (185г)</p>
-                <p><strong>Опис:</strong> Рис, сир Філадельфія, краб сніжний, огірок, кунжут білий</p>
-                <p><strong>Ціна:</strong> 200.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Рол Білий дракон (200г)</p>
-                <p><strong>Опис:</strong> Рис, вершковий сир, Моцарела, Філадельфія, кунжут чорно-білий, соус унагі</p>
-                <p><strong>Ціна:</strong> 195.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирний рол (200г)</p>
-                <p><strong>Опис:</strong> Рис, вершковий сир, Моцарела, Філадельфія, кунжут чорно-білий</p>
-                <p><strong>Ціна:</strong> 185.0</p>
-                <p><strong>Тип:</strong> РОЛИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Штрудель з яблуками (150г.)</p>
-                <p><strong>Опис:</strong> Подається з кулькою морозива</p>
-                <p><strong>Ціна:</strong> 95.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лимонад (1000мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Pepsi 1 л.</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Напій Пепсі-кола (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тонік Evervess (250мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Напій Пепсі-кола (скло) (300мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вода Аква мінерале (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Фрутті де Маре (545г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова основа, сир Моцарела, мідії, восьминжки бейбі, креветки коктейльні, оливки, слайси лимона, Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца З телятиною (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, яловичина, в'ялені помідори, помідори чері, рукола, салатний мікс, соус теріякі, Пармезан, кунжут</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Puluj (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова основа, сир Моцарела, прошутто крудо, груша, Горгонзола, Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Чотири сезони (570г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, печериці, прошутто крудо, салямі пепероні, маслини, Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Прошутто крудо (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, прошуто крудо, рукола, помідори чері, Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Цезаре (550г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова основа, сир Моцарела, бекон, куряче філе, салатний мікс, рукола, помгдори чері, соус цезар, Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Карбонара (560г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова основа, сир Моцарела, шинка, бекон, салямі, помідори, кукурудза</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Чотири м'яса (520г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, куряче філе, салямі, бекон, мисливські ковбаски</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Чотири сири (460г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова основа, сир Моцарела, Мааздам, Горгонзола, Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Туно (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова основа, сир Моцарела, тунець консервований, помідори, оливки, цибуля кримська</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Капрічіоза (570г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, шинка, печериці, салямі, помдори, маслини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Сицилія (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова основа, салямі, томати в'ялені, сир Фета, рукола, сир Моцарела</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Неаполітано (530г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, шинка, салямі, печериці, кукурудза, маслини</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Салямі мікс (535г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, салямі пепероні, салямі, помдори, Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Діабола (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, салямі пепероні, перець чилі, Пармезан, соус Гострий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Від шефа (660г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, шпондер, салямі, курка, перець цибуля</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Болоньезе (650г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, помдори чері, соус болоньезе, Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца З куркою (540г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, куряче Філе, печериці, помідори, цибуля зелена, часникова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Гавайська (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, куряче філе, ананас, кукурудза</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Баварія (505г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, печериці, мисливські та баварські ковбаски, французька гірчиця</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Грибна з сиром Камамбер (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вершкова основа, печериці, Камамбер, сир Моцарела</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 205.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Calzone (закрита піца) (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, печериці, шинка, перець болгарський</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца Маргарита (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Томатна основа, сир Моцарела, помідори чері, Моцарела бейбі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПІЦА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з морепродуктами (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фетучіні, вершки, мідії, восьминіжки, креветки коктейльні, креветки тигрові, помідори чері, Пармезан,соус на основі песто, лимонний сік</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з лососем в вершково-часниковому соусі (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спагеті, лосось, вершки, Пармезан, лимонний сік, часникова олія, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з креветками коктейльними (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спагеті, креветки коктейльні в томатно-вершковому соусі, Пармезан, оливкова олія, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з куркою і печерицями (370г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пенне, вершки, куряче філе, печериці, чері, сир Пармезан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста песто (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спагеті, соус песто, масло, Пармезан, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста карбонара (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Спагеті, бекон, вершки, яйце куряче, Пармезан, оливкова олія, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста чотири сири (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пенне, вершки, Пармезан, Брі, Горгонзола, Моцарела, масло, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста болоньезе (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пенне, соус болоньезе, Пармезан, спеції</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПАСТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з креветками (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, соус цезар, помідори чері, креветки коктейльні, перепелині яйця, Пармезан, сухарики</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з лососем (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, соус цезар, помідори чері, лосось, перепилині яйця, Пармезан, сухарики</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з телятиною (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Телятина, мікс салату, помідори, печериці, перець болгарський, медово-гірчичний соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Теплий салат з куркою (280г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Куряче філе,печериці,перець болгарський,сир фета,помідори,мікс салату,медово-гірчичний соус)</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з тунцем (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Тунець, помідори чері, перепелині яйця, оливки, мікс салату, синя цибуля, гірчичний соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з куркою (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс салату, соус цезар, помідори чері, куряче філе, бекон, перепилині яйця, Пармезан, сухарики</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Грецький (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Болгарський перець, сир Фета, помідори, маслини, синя цибуля, огірок, оливкова олія</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 155.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Техас (подається з картоплею фрі) (450/100/30г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, яловича, куряча котлета, бекон, соуса, сир, солений огірок, помідор, синя цибуля, айзберг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Чікен бургер (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, куряча котлета, бекон, соуса, сир, солений огірок, помідор, синя цибуля, айзберг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Біф бургер (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булочка, яловича котлета, бекон, соуса, сир, солений огірок, помідор, синя цибуля, айзберг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БУРГЕРИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі криль в медово-пікантному соусі (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі крильця Баффало (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 190.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирні палички фрі з ягідним соусом (150/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 170.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячі нагетси 3 сирним соусом (170/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля по-селянськи (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля фрі (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 80.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ ЗАКУСКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пивна тареля (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салямі піканте, суджук, сир Косичка, горішки, чіпси з лавашу, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> М'ясна вірменська закуска (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Бастурма, суджук, махан</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бастурма (40г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фокача (1шт)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Суджук (40г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Махан (40г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 70.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СМАКУЄМО ДО ПИВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> М'ясне плато (200/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салямі чорізо, неаполі, сировялена, прошутто, чіабатта</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 265.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТАРЕЛІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирна тареля (150/50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пармезан, сир Брі, Мааздам, сир Дорблю, грецькі горіхи, мед</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 225.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТАРЕЛІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Овочева тареля (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Помідори, огірки, болгарський перець, мікс салату, цибуля, заправка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 115.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ТАРЕЛІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо суп з лососем (345г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лосось свіжий, кунжут, місо паста, рибний бульйон, водорості вакаме, гриби шіїтаке</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІСО СУПИ + 2 НІГІРІ В КУНЖУТІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо суп з вугрем (345г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вугор, кунжут, місо паста, рибний бульйон, водорості вакаме, гриби шіїтакі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІСО СУПИ + 2 НІГІРІ В КУНЖУТІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Місо суп з морепродуктами (345г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Морепродукти, кунжут, місо паста, рибний бульйон, водорості вакаме, гриби шіїтаке</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МІСО СУПИ + 2 НІГІРІ В КУНЖУТІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солянка м'ясна</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗУПКИ + 2 ГРІНКИ З ПЕЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Борщ з м'ясом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подається з пампушками,салом, сметаною та цибулькою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 140.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗУПКИ + 2 ГРІНКИ З ПЕЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирна зупка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сирна крем зупка, подається з 2 грінками!</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗУПКИ + 2 ГРІНКИ З ПЕЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Зупка Овочева з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗУПКИ + 2 ГРІНКИ З ПЕЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Драконів (1470г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дракон з вугрем, зелений дракон, дракон батакон, дракон з крабом, білий дракон, червоний дракон, жовтий дракон</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1335.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Гейша (1170г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Боніто кунсей, макі ікура, тартар з тунцем, каліфорнія унагі, зелений дракон, дракон 3 крабом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 1035.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний сет (1000г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сирний рол сяке, сирний рол кунсей, сирний рол унагі, білий дракон, сирний рол</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 960.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Сяке (595г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філадельфія, каліфорнія сяке, тартар з лососем, макі сяке, нігірі сяке 2 штуки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 830.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Унагі (595г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дракон з вугрем, каліфорнія унагі, макі унагі, нігірі унагі 2 штуки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 745.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Самурай (665г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Самурай рол, сирний рол, рол азійя, макі ікура</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 730.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сет Класичне тріо (620г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Філадельфія з лососем, каліфорнія з крабом, сирний рол</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 595.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Токіо з вугрем (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, вугор, крем сир, ікра тобко, огірок, темпура, сухарі панко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Панко (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, лосось, авокадо, крем сир, темпура, сухарі панко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Гарячий краб (240г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, норі, сніжний краб, крем сир, авокадо, кунжут, темпура, сухарі панкой</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРЯЧІ РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макі унагі (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, вугор, кунжут білий, соус унагі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макі ікура (130г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, огірок, плавлений сирок, ікра лосося</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макі сяке (110г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, лосось свіжий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 135.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макі кунсей (110г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, лосось копчений</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 118.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макі авокадо (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, авокадо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макі капа (120г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, огірок</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Дракон з вугрем (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, вугор, Філадельфія, огірок, унагі соус, кунжут, ікра тобіко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Дракон батакон (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, огірок, лосось копчений, сир Філадельфія, авокадо, кунжут білий, соус унагі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 260.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тартар з креветкою (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, креветка тигрова, сир Філадельфія, огірок, томаго, тобіко, соус кімчі, японський майонез</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Червоний дракон (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, Філадельфія, лосось копчений, огірок, ікрв тобіко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Філадельфія Ікура (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сир Філадельфія, лосось авокадо, ікра лосося</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тартар з лососем (220г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, лосось, сир Філадельфія, огірок, томаго, ікра тобіко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Зелений дракон (230г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, томаго, вугор, огірок, сир Філадельфія, авокадо, кунжут білий, соус унагі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний рол унагі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, вугор, Моцарела, Філадельфія, кунжут чорно-білий, соус унагі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія коі (185г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сир Філадельфія, креветка королівська, авокадо, кунжут чорний</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія унагі (185г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сир Філадельфія, вугор, огірок, соус унагі, кунжут білий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Дракон з крабом (215г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сніжний краб, огірок, соус спайсі, лосось смажений, соус унагі, кунжут білий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Філадельфія (210г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сир Філадельфія, лосось, авокадо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія ебі (185г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сир Філадельфія, креветка тигрова, вершковий сир, огірок, кунжут чорно-білий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний рол сяке (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, лосось, Моцарела, Філадельфія, кунжут чорно-білий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Самурай рол (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, лосось, ікра тобіко, Філадельфія, томаго</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія сяке тобіко (195г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сир Філаельфія, лосось, огірок, спайсі соус, ікра тобіко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія сяке (185г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сир Філадельфія, лосось авокадо, кунжут білий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний рол кунсей (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, лосось копчений, Моцірела, Філадельфія, кунжут чорно-білий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 203.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія кунскй тобіко (185г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сир Філадельфія, лосось копчений, огірок, спайсі соус, ікра тобіко</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 203.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Каліфорнія з крабом (185г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, сир Філадельфія, краб сніжний, огірок, кунжут білий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 200.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Рол Білий дракон (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, вершковий сир, Моцарела, Філадельфія, кунжут чорно-білий, соус унагі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 195.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний рол (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рис, вершковий сир, Моцарела, Філадельфія, кунжут чорно-білий</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 185.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РОЛИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Штрудель з яблуками (150г.)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подається з кулькою морозива</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 95.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Pepsi 1 л.</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій Пепсі-кола (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тонік Evervess (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Напій Пепсі-кола (скло) (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вода Аква мінерале (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

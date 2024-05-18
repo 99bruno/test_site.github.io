@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bistro Nectarine/ Бістро Nectarine</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/160.png" alt="Restaurant Image">
         <h1>Bistro Nectarine/ Бістро Nectarine</h1>
@@ -63,143 +116,164 @@
         <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Кебаб з свининою розмір XL (470 г)</p>
-                <p><strong>Опис:</strong> Свинина, лаваш, айсберг, помідор, маринований огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб з свининою розмір XL (470 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина, лаваш, айсберг, помідор, маринований огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Квадрат меню</p>
-                <p><strong>Опис:</strong> Кебаб з яловичиною розмір M, картопля фрі, напій</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Квадрат меню</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кебаб з яловичиною розмір M, картопля фрі, напій</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб з куркою розмір XL (470г)</p>
-                <p><strong>Опис:</strong> Курятина, лаваш, помідор, айсберг, мариновий огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб з куркою розмір XL (470г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курятина, лаваш, помідор, айсберг, мариновий огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб мікс розмір XL</p>
-                <p><strong>Опис:</strong> свинина, курятина, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб мікс розмір XL</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> свинина, курятина, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб з свининою розмір L (380 г)</p>
-                <p><strong>Опис:</strong> свинина, лаваш, айсберг, помідор, маринований огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб з свининою розмір L (380 г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> свинина, лаваш, айсберг, помідор, маринований огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб з куркою розмір L (380г)</p>
-                <p><strong>Опис:</strong> Курятина, лаваш, помідор, айсберг, мариновий огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб з куркою розмір L (380г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курятина, лаваш, помідор, айсберг, мариновий огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб мікс  розмір L</p>
-                <p><strong>Опис:</strong> свинина, курятина, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб мікс  розмір L</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> свинина, курятина, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб з свининою розмір М (320г)</p>
-                <p><strong>Опис:</strong> Свинина, лаваш, айсберг, помідор, маринований огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб з свининою розмір М (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Свинина, лаваш, айсберг, помідор, маринований огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб з куркою розмір М (320г)</p>
-                <p><strong>Опис:</strong> Курятина, лаваш, помідор, айсберг, мариновий огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб з куркою розмір М (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курятина, лаваш, помідор, айсберг, мариновий огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб мікс розмір М</p>
-                <p><strong>Опис:</strong> свинина, курятина, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб мікс розмір М</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> свинина, курятина, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб бокс з свининою</p>
-                <p><strong>Опис:</strong> свинина, картопля фрі,  айсберг, помідор, маринований огірок, синя цибуля, соус</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб бокс з свининою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> свинина, картопля фрі,  айсберг, помідор, маринований огірок, синя цибуля, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб бокс  з куркою</p>
-                <p><strong>Опис:</strong> курятина, картопля фрі, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб бокс  з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> курятина, картопля фрі, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб фрі з свининою</p>
-                <p><strong>Опис:</strong> свинина, картопля фрі, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб фрі з свининою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> свинина, картопля фрі, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб фрі з куркою</p>
-                <p><strong>Опис:</strong> курятина, картопля фрі, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб фрі з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> курятина, картопля фрі, лаваш, айсберг, помідор, маринований огірок, синя цибуля, соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирні палички</p>
-                <p><strong>Опис:</strong> ягідний соус</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирні палички</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> ягідний соус</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси</p>
-                <p><strong>Опис:</strong> кетчуп</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопля Фрі</p>
-                <p><strong>Опис:</strong> кетчуп</p>
-                <p><strong>Ціна:</strong> 50.0</p>
-                <p><strong>Тип:</strong> КЕБАБ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопля Фрі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 50.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КЕБАБ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кебаб з фалафелем (320г)</p>
-                <p><strong>Опис:</strong> Фалафель, лаваш, айсберг, помідор, маринований огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ВЕГЕТЕРІАНСЬКЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кебаб з фалафелем (320г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Фалафель, лаваш, айсберг, помідор, маринований огірок, цибуля кримська, йогуртовий соус, соус BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВЕГЕТЕРІАНСЬКЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сік Rich в асортименті (1л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 60.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сік Rich в асортименті (1л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 60.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Coca Cola (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Coca Cola (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Fanta (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Fanta (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Sprite (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 40.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Sprite (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 40.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Bonaqua н/г (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Bonaqua н/г (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Bonaqua с/г (500мл)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Bonaqua с/г (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сир Чеддер</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сир Чеддер</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кетчуп</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кетчуп</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Майонез</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 15.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Майонез</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 15.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MORERYBY / МОРЕРИБИ</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/235.png" alt="Restaurant Image">
         <h1>MORERYBY / МОРЕРИБИ</h1>
@@ -63,158 +116,179 @@
         <p><strong>Неділя:</strong> 12:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Пиво Burgomistr Pilsner (1000мл)</p>
-                <p><strong>Опис:</strong> Світле пиво зварене за класичним німецьким рецептом, має насичений солодовий смак з ароматом жатецького хмелю. Склад: вода, пивоварний солод, хміль. Вміст спирту: не менше 4,5%. Густина: 12%</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво Burgomistr Pilsner (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Світле пиво зварене за класичним німецьким рецептом, має насичений солодовий смак з ароматом жатецького хмелю. Склад: вода, пивоварний солод, хміль. Вміст спирту: не менше 4,5%. Густина: 12%</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиво Рівень Бергшлос світлий (1000мл)</p>
-                <p><strong>Опис:</strong> Солод, рис, цукор білий, мед натуральний, хміль, вода.</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво Рівень Бергшлос світлий (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солод, рис, цукор білий, мед натуральний, хміль, вода.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиво Burgomistr IPA (1000мл)</p>
-                <p><strong>Опис:</strong> Пиво верхового бродіння та холодного охмелення, світло бурштинового кольору, британський вид світлого елю з сухим після смаком. Склад: вода, пивоварний солод, хміль. Вміст спирту: не менше 4,0%. Густина: 11%</p>
-                <p><strong>Ціна:</strong> 105.0</p>
-                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво Burgomistr IPA (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пиво верхового бродіння та холодного охмелення, світло бурштинового кольору, британський вид світлого елю з сухим після смаком. Склад: вода, пивоварний солод, хміль. Вміст спирту: не менше 4,0%. Густина: 11%</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 105.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиво Опілля Корифей (1000мл)</p>
-                <p><strong>Опис:</strong> Класичне живе пиво старої Європи зварене за традиційною рецептурою. Склад: вода, пивоварний солод, хміль. Вміст спирту: не менше 3,7%. Густина: 11%</p>
-                <p><strong>Ціна:</strong> 84.0</p>
-                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво Опілля Корифей (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичне живе пиво старої Європи зварене за традиційною рецептурою. Склад: вода, пивоварний солод, хміль. Вміст спирту: не менше 3,7%. Густина: 11%</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 84.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Пиво Земан Душа Пивна (1000мл)</p>
-                <p><strong>Опис:</strong> Насичений смак і чистий хмільний аромат. Виготовлено із світлого ячмінного солоду та рисової крупи. Має легкий солодовий смак і легку хмелеву гірчинку. Вміст спирту: не менше 4,7%. Густина: 13%</p>
-                <p><strong>Ціна:</strong> 84.0</p>
-                <p><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Пиво Земан Душа Пивна (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Насичений смак і чистий хмільний аромат. Виготовлено із світлого ячмінного солоду та рисової крупи. Має легкий солодовий смак і легку хмелеву гірчинку. Вміст спирту: не менше 4,7%. Густина: 13%</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 84.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПИВО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сидр Фраголіно біле(1000мл)</p>
-                <p><strong>Опис:</strong> Має приємний яблучно-суничний аромат, фруктово ягідний смак і післясмак з яблучно суничними тонами</p>
-                <p><strong>Ціна:</strong> 77.0</p>
-                <p><strong>Тип:</strong> СЛАБОАЛКОГОЛЬНІ НАПОЇ РОЗЛИВНІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сидр Фраголіно біле(1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Має приємний яблучно-суничний аромат, фруктово ягідний смак і післясмак з яблучно суничними тонами</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 77.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЛАБОАЛКОГОЛЬНІ НАПОЇ РОЗЛИВНІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вино Кохання (1000мл)</p>
-                <p><strong>Опис:</strong> Вино виноградне столове напівсолодке червоне, виготовлене з європейських червоних сортів винограду. Вино має приємний аромат. Рекомендується подавати до десертів, фруктів,</p>
-                <p><strong>Ціна:</strong> 160.0</p>
-                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вино Кохання (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вино виноградне столове напівсолодке червоне, виготовлене з європейських червоних сортів винограду. Вино має приємний аромат. Рекомендується подавати до десертів, фруктів,</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 160.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вино Шардоне (1000мл)</p>
-                <p><strong>Опис:</strong> Вино виноградне натуральнее ординарне сортове столове сухе біле, виготовляється з винограду сорту Шардоне. Вміст спирту 9,5-13,0% об</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вино Шардоне (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вино виноградне натуральнее ординарне сортове столове сухе біле, виготовляється з винограду сорту Шардоне. Вміст спирту 9,5-13,0% об</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вино Ізабелла (1000мл)</p>
-                <p><strong>Опис:</strong> Вино виноградне ординарне столове напівсолодке рожеве виготовляється з винограду сортів Ізабелла та суміші винограду виду Vitis labrusca. Вміст спирту 9,0-13,0% об., вміст цукру 4,0-8,0% мас</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вино Ізабелла (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вино виноградне ординарне столове напівсолодке рожеве виготовляється з винограду сортів Ізабелла та суміші винограду виду Vitis labrusca. Вміст спирту 9,0-13,0% об., вміст цукру 4,0-8,0% мас</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вино Каберне (1000мл)</p>
-                <p><strong>Опис:</strong> Вино виноградне натуральне червоне сортове сухе, виготовляється за традиційною технологією з винограду сорту Каберне. Вино має шляхетний темно-рубіновий колір з яскравим сортовим ароматом і повним гармонійним смаком.</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вино Каберне (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вино виноградне натуральне червоне сортове сухе, виготовляється за традиційною технологією з винограду сорту Каберне. Вино має шляхетний темно-рубіновий колір з яскравим сортовим ароматом і повним гармонійним смаком.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вино Біла Орхідея (1000мл)</p>
-                <p><strong>Опис:</strong> Вино столове напівсолодке біле, виготовляється з суміші білих європейських сортів винограду Аліготе, Ркацителі. Має приємний, легкий, з квітковими тонами аромат. Колір від світло - золотистого до темно-золотистого.</p>
-                <p><strong>Ціна:</strong> 125.0</p>
-                <p><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вино Біла Орхідея (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вино столове напівсолодке біле, виготовляється з суміші білих європейських сортів винограду Аліготе, Ркацителі. Має приємний, легкий, з квітковими тонами аромат. Колір від світло - золотистого до темно-золотистого.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 125.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ВИНО РОЗЛИВНЕ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Лимонад яблучний (1000мл)</p>
-                <p><strong>Опис:</strong> Класичний натуральний яблучний лимонад</p>
-                <p><strong>Ціна:</strong> 45.0</p>
-                <p><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лимонад яблучний (1000мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний натуральний яблучний лимонад</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 45.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БЕЗАЛКОГОЛЬНІ НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кільця кальмарів (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 68.0</p>
-                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кільця кальмарів (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 68.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Полосатик (50гр)</p>
-                <p><strong>Опис:</strong> Жовтосмугий селар, цукор, сіль</p>
-                <p><strong>Ціна:</strong> 68.0</p>
-                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Полосатик (50гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Жовтосмугий селар, цукор, сіль</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 68.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стружка краба (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 68.0</p>
-                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стружка краба (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 68.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Янтарна з перцем (50гр)</p>
-                <p><strong>Опис:</strong> Янтарна з перцем</p>
-                <p><strong>Ціна:</strong> 68.0</p>
-                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Янтарна з перцем (50гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Янтарна з перцем</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 68.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Анчоус (50гр)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 68.0</p>
-                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Анчоус (50гр)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 68.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ікряники (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 61.0</p>
-                <p><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ікряники (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 61.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> РИБА, ІКРА, МОРЕПРОДУКТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фісташки (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 69.0</p>
-                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фісташки (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 69.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Арахіс з сиром (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 21.0</p>
-                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Арахіс з сиром (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 21.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Арахіс смажений солоний (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 21.0</p>
-                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Арахіс смажений солоний (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 21.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кукурудза зi смаком меду та гірчиці (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 21.0</p>
-                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кукурудза зi смаком меду та гірчиці (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 21.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Кукурудза Барбекю (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 21.0</p>
-                <p><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Кукурудза Барбекю (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 21.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГОРІХИ, КУКУРУДЗА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Курча гриль (1шт/1000г)</p>
-                <p><strong>Опис:</strong> Маленьке курча табака вагою 1кг</p>
-                <p><strong>Ціна:</strong> 344.0</p>
-                <p><strong>Тип:</strong> М'ЯСНІ ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курча гриль (1шт/1000г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Маленьке курча табака вагою 1кг</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 344.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> М'ЯСНІ ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Нагетси курячі з соусом (200г)</p>
-                <p><strong>Опис:</strong> Нагетси курячі з соусом</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Нагетси курячі з соусом (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Нагетси курячі з соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Вареники з картоплею (300г)</p>
-                <p><strong>Опис:</strong> Вареники з картоплею</p>
-                <p><strong>Ціна:</strong> 82.0</p>
-                <p><strong>Тип:</strong> ГАРНІРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вареники з картоплею (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вареники з картоплею</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ГАРНІРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> БО Медовуха 0,5л</p>
-                <p><strong>Опис:</strong> Класична натуральна Медовуха 35оборотів</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> БО НАЛИВКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> БО Медовуха 0,5л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична натуральна Медовуха 35оборотів</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БО НАЛИВКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> БО Зубрівка 0,5л</p>
-                <p><strong>Опис:</strong> Класична натуральна Зубрівка</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> БО НАЛИВКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> БО Зубрівка 0,5л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична натуральна Зубрівка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БО НАЛИВКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> БО Вишнівка 0,5л</p>
-                <p><strong>Опис:</strong> Класична, неймовірно смачна і натуральна Вишнівка</p>
-                <p><strong>Ціна:</strong> 280.0</p>
-                <p><strong>Тип:</strong> БО НАЛИВКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> БО Вишнівка 0,5л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класична, неймовірно смачна і натуральна Вишнівка</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 280.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БО НАЛИВКИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> БО Біла горілка 0,5л</p>
-                <p><strong>Опис:</strong> Просто біла горілка 0,5л</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> БО НАЛИВКИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> БО Біла горілка 0,5л</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Просто біла горілка 0,5л</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БО НАЛИВКИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

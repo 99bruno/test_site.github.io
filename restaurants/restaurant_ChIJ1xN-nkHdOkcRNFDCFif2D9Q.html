@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>еНка / eNkа Cafe</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/164.png" alt="Restaurant Image">
         <h1>еНка / eNkа Cafe</h1>
@@ -63,393 +116,414 @@
         <p><strong>Неділя:</strong> 00:00:00 - 23:59:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Яйця пашот з лососем</p>
-                <p><strong>Опис:</strong> Яйця які подаються на скибці бріош з ніжним крем-сиром, слабосоленим лососем, соусом, руколою, оливковою олією, шпинатом, гарбузовим насінням  та томатами чері.</p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Скрембл з лососем</p>
-                <p><strong>Опис:</strong> Хліб пшеничний, скрембл, лосось, крем-сир з італійськими травами, шпинат, рукола, гарбузове насіння, фета, томати чері, авокадо та копчена паприка.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Солоні сирнички з лососем</p>
-                <p><strong>Опис:</strong> Солоні сирнички з зеленню подаються з крем-сиром з травами, слабосоленим лососем, свіжими слайсами огірка та сметаною.</p>
-                <p><strong>Ціна:</strong> 245.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Англійський сніданок</p>
-                <p><strong>Опис:</strong> Підсмажені яйця які подаються з скибою пшеничного  хліба з ніжним крем-сиром, квасолею в томаті, ковбаcками, беконом, шпинатом, руколою, оливковою олією, гарбузовим насінням та томатами чері</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Яйця пашот з беконом</p>
-                <p><strong>Опис:</strong> Яйця пашот які подаються на скибці бріош з ніжним крем-сиром, беконом, соусом Цезар та томатами чері, руколою, шпинатом, оливковою олією, та гарбузовим насінням.</p>
-                <p><strong>Ціна:</strong> 235.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Авокадо-тост</p>
-                <p><strong>Опис:</strong> Солодовий хліб з гуакамоле, двома яйцями,  вершками, пармезаном, руколою, шпинатом, томатами чері та соусом  песто.</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Скрембл з куркою</p>
-                <p><strong>Опис:</strong> Хліб пшеничний, скрембл, курка, крем-сир з італійськими травами, шпинат, рукола, гарбузове насіння, фета, томати чері, авокадо та копчена паприка.</p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Вівсянка з фетою та в'яленими томатами</p>
-                <p><strong>Опис:</strong> Вівсянка, вершки, фета, в'ялені томати, яйце пашот, томати чері, мікрогрін, пармезан.</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Солодка вівсянка на кокосовому</p>
-                <p><strong>Опис:</strong> Вівсянка, кокосове молоко, вершки, мед, волоські горіхи, лохина, пластівці мигдалеві та сублімована малина.</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирнички</p>
-                <p><strong>Опис:</strong> Сирники з соусом англес та соусом манго-маракуя  і цукровою пудрою.</p>
-                <p><strong>Ціна:</strong> 163.0</p>
-                <p><strong>Тип:</strong> СНІДАНОК</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста з лососем то моцарелою</p>
-                <p><strong>Опис:</strong> Паста лінгвіні у вершковому соусі з неймовірно ніжним лососем слабосоленим, томленими томатами чері, моцарелою та пармезаном.</p>
-                <p><strong>Ціна:</strong> 275.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста з куркою та шпинатом</p>
-                <p><strong>Опис:</strong> Паста лінгвіні у вершковому соусі з ніжною курочкою, тушкованим шпинатом, томатами чері та пармезаном.</p>
-                <p><strong>Ціна:</strong> 230.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Паста з куркою та в'яленими томатами</p>
-                <p><strong>Опис:</strong> Паста лінгвіні, приготована на курячому бульйоні з соусом песто, в'яленими томатами, ніжною курочкою та пармезаном.</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Крем-суп</p>
-                <p><strong>Опис:</strong> Броколі чи грибний? Що обрати?</p>
-                <p><strong>Ціна:</strong> 145.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Курячий бульйон</p>
-                <p><strong>Опис:</strong> Курячий бульйон з локшиною, курячим філе, перепелиним яйцем та зеленню, подається зі скибкою пшеничного хліба.</p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат цезар з лососем</p>
-                <p><strong>Опис:</strong> Лосось, томати чері, шпинат, айсберг, пармезан, перепелині яйця, соус цезар, грісіні.</p>
-                <p><strong>Ціна:</strong> 255.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат лосось Філадельфія</p>
-                <p><strong>Опис:</strong> Слабосолений лосось, сир Філадельфія, авокадо, томати Чері, крем сир з італійськими травами, шпинат, айсберг, медовий соус.</p>
-                <p><strong>Ціна:</strong> 240.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат курка авокадо</p>
-                <p><strong>Опис:</strong> Курка, авокадо, помідор, фета, журавлина, соус медовий, айсберг, шпинат.</p>
-                <p><strong>Ціна:</strong> 215.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Цезар з куркою</p>
-                <p><strong>Опис:</strong> Усім відомий салат у склад якого входить: листя салату, куряче філе, томати Чері, перепелинні яйця, хрусткі грінки, Пармезан та соус Цезар.</p>
-                <p><strong>Ціна:</strong> 210.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат з теплим  тофу</p>
-                <p><strong>Опис:</strong> Сир тофу, листя салату, соус теріякі, авокадо, хумус, чері.</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Салат Грецький</p>
-                <p><strong>Опис:</strong> Такий свіжий овочевий салатик. Саме те у літню пору!</p>
-                <p><strong>Ціна:</strong> 165.0</p>
-                <p><strong>Тип:</strong> САЛАТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сендвіч з шинкою та в'яленими томатами</p>
-                <p><strong>Опис:</strong> Дві скибки хліба із шинкою, сиром чедер, в'яленими томатами, соус рукола, томатами чері, мікрогрін.</p>
-                <p><strong>Ціна:</strong> 250.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сендвіч з лососем</p>
-                <p><strong>Опис:</strong> Хліб солодовий, лосось, крем-сир, італійські трави, огірок, помідор, вершки, соус цезар, томати чері, мікрогрін.</p>
-                <p><strong>Ціна:</strong> 220.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Гарячий сендвіч з індичкою та сиром</p>
-                <p><strong>Опис:</strong> Підсмажений хліб з індичкою, маринованими огірочками, сиром маасдам, помідорами чері, мікрогріном та соусом Цезар.</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сендвіч курка песто</p>
-                <p><strong>Опис:</strong> Пшеничний хліб, моцарелла, куряче філе, вершки, сир чедр, песто, в'ялені томати, сушений тим'ян, мікрогрін, чтомати чері.</p>
-                <p><strong>Ціна:</strong> 198.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мелт з салямі</p>
-                <p><strong>Опис:</strong> Хліб бріош, соус цезар, салямі, моцарела, помідор.</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мелт з шинкою</p>
-                <p><strong>Опис:</strong> Хліб бріош, соус цезар, моцарела, шинка, кукурудза.</p>
-                <p><strong>Ціна:</strong> 150.0</p>
-                <p><strong>Тип:</strong> СЕНДВІЧІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Три молока</p>
-                <p><strong>Опис:</strong> Ніжний бісквіт, пропитаний трьома видами молока і вершками.</p>
-                <p><strong>Ціна:</strong> 120.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Тірамісу</p>
-                <p><strong>Опис:</strong> Десерт на основі сиру маскарпоне, як наповнювач додається печиво «савоярді», кава та какао.</p>
-                <p><strong>Ціна:</strong> 103.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бите скло</p>
-                <p><strong>Опис:</strong> Десерт як з дитинства додасть солодких барв у цю буденність.</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сирне печиво</p>
-                <p><strong>Опис:</strong> Власного виробництва сирне печиво, яке так смакує до кави.</p>
-                <p><strong>Ціна:</strong> 96.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Горішки із згущеним молоком</p>
-                <p><strong>Опис:</strong> Усім звичні і такі смачні горішки зі згущеним молоком нашого виробництва.</p>
-                <p><strong>Ціна:</strong> 89.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Арахісове печиво</p>
-                <p><strong>Опис:</strong> Власного виробництва арахісове печиво, яке так смакує до кави.</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Печиво з шоколадом та журавлиною</p>
-                <p><strong>Опис:</strong> Власного виробництва печиво з шоколадом та журавлиною, яке так смакує до кави.</p>
-                <p><strong>Ціна:</strong> 85.0</p>
-                <p><strong>Тип:</strong> ДЕСЕРТИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Цукерки корисні асорті</p>
-                <p><strong>Опис:</strong> Мигдаль, гарбуз, капучіно, кунжут, арахіс, кокос.</p>
-                <p><strong>Ціна:</strong> 130.0</p>
-                <p><strong>Тип:</strong> Корисні</p>
-                <hr>
-                <p><strong>Позиція:</strong> Корисні шоколадки</p>
-                <p><strong>Опис:</strong> Шоколад без цукру</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> Корисні</p>
-                <hr>
-                <p><strong>Позиція:</strong> Корисні цукерки</p>
-                <p><strong>Опис:</strong> Цукерки без цукру</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> Корисні</p>
-                <hr>
-                <p><strong>Позиція:</strong> Мокачино (400мл)</p>
-                <p><strong>Опис:</strong> Кавово шоколадний напій який готується на основі капучино з додаванням какао.</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Раф (400мл)</p>
-                <p><strong>Опис:</strong> Ніжний напій з додаванням нагрітих вершків , невеликої кількості піни в одну порцію еспресо</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Какао (500мл)</p>
-                <p><strong>Опис:</strong> Улюблене какао для любителів солоденьких напоїв.</p>
-                <p><strong>Ціна:</strong> 100.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Лате (500мл)</p>
-                <p><strong>Опис:</strong> Класичний напій, який складається з добре збитого молока яке додають у дві порції еспресо.</p>
-                <p><strong>Ціна:</strong> 94.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Капучино (500мл)</p>
-                <p><strong>Опис:</strong> Класичний напій, який складається з двох порцій еспресо до яких додають добре збите молоко.</p>
-                <p><strong>Ціна:</strong> 94.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Флет вайт (250мл)</p>
-                <p><strong>Опис:</strong> Додавання спіненого молока з мінімальною кількістю піни в подвійну порцію еспресо.</p>
-                <p><strong>Ціна:</strong> 82.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо з молоком (400мл)</p>
-                <p><strong>Опис:</strong> Ароматний напій з двома порціями еспресо, з додаванням окропу і молока.</p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо (400мл)</p>
-                <p><strong>Опис:</strong> Міцний, ароматний напій з двома порціями еспресо із додаванням окропу.</p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо з молоком (250мл)</p>
-                <p><strong>Опис:</strong> Ароматний напій з однією порцією еспресо, з додаванням окропу і молока.</p>
-                <p><strong>Ціна:</strong> 57.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Американо (250мл)</p>
-                <p><strong>Опис:</strong> Міцний, ароматний напій з однією еспресо із додаванням окропу.</p>
-                <p><strong>Ціна:</strong> 48.0</p>
-                <p><strong>Тип:</strong> КАВА</p>
-                <hr>
-                <p><strong>Позиція:</strong> Комбуча гранат</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ  НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Комбуча яблуко та груша</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ  НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Комбуча класична</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 110.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ  НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Бонаква негазована</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 33.0</p>
-                <p><strong>Тип:</strong> ХОЛОДНІ  НАПОЇ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Фреш апельсин-грейпфрут (300мл)</p>
-                <p><strong>Опис:</strong> Корисний фреш із свіжих фруктів.</p>
-                <p><strong>Ціна:</strong> 180.0</p>
-                <p><strong>Тип:</strong> ФРЕШІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун малина (25г)</p>
-                <p><strong>Опис:</strong> Ніжний десерт, який принесе задоволення на весь день.</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ МАЛІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун бабл-гам (25г)</p>
-                <p><strong>Опис:</strong> Ніжний десерт, який принесе задоволення на весь день.</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ МАЛІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун м'ята (25г)</p>
-                <p><strong>Опис:</strong> Ніжний десерт, який принесе задоволення на весь день.</p>
-                <p><strong>Ціна:</strong> 35.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ МАЛІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун орео</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун снікерс</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун фісташка</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун малина</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун вишня</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун солена карамель</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун диня</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 65.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун банан</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун диня</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун фісташка</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун м'ята</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун лісова ягода</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун ваніль</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Макарун шоколад</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 75.0</p>
-                <p><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
-                <hr>
-                <p><strong>Позиція:</strong> На мигдальному молоці</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 27.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> На кокосовому молоці</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 27.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> На соєвому молоці</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 27.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> на безлактозному молоці</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 21.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сироп з карамеллю</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 10.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сироп ванільний</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 10.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сироп солена карамель</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 10.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
-                <hr>
-                <p><strong>Позиція:</strong> Сироп лісовий горіх</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 10.0</p>
-                <p><strong>Тип:</strong> ДОДАТКИ</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яйця пашот з лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яйця які подаються на скибці бріош з ніжним крем-сиром, слабосоленим лососем, соусом, руколою, оливковою олією, шпинатом, гарбузовим насінням  та томатами чері.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Скрембл з лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб пшеничний, скрембл, лосось, крем-сир з італійськими травами, шпинат, рукола, гарбузове насіння, фета, томати чері, авокадо та копчена паприка.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солоні сирнички з лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солоні сирнички з зеленню подаються з крем-сиром з травами, слабосоленим лососем, свіжими слайсами огірка та сметаною.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 245.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Англійський сніданок</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Підсмажені яйця які подаються з скибою пшеничного  хліба з ніжним крем-сиром, квасолею в томаті, ковбаcками, беконом, шпинатом, руколою, оливковою олією, гарбузовим насінням та томатами чері</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Яйця пашот з беконом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яйця пашот які подаються на скибці бріош з ніжним крем-сиром, беконом, соусом Цезар та томатами чері, руколою, шпинатом, оливковою олією, та гарбузовим насінням.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 235.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Авокадо-тост</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Солодовий хліб з гуакамоле, двома яйцями,  вершками, пармезаном, руколою, шпинатом, томатами чері та соусом  песто.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Скрембл з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб пшеничний, скрембл, курка, крем-сир з італійськими травами, шпинат, рукола, гарбузове насіння, фета, томати чері, авокадо та копчена паприка.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Вівсянка з фетою та в'яленими томатами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вівсянка, вершки, фета, в'ялені томати, яйце пашот, томати чері, мікрогрін, пармезан.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Солодка вівсянка на кокосовому</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Вівсянка, кокосове молоко, вершки, мед, волоські горіхи, лохина, пластівці мигдалеві та сублімована малина.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирнички</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сирники з соусом англес та соусом манго-маракуя  і цукровою пудрою.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 163.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СНІДАНОК</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з лососем то моцарелою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста лінгвіні у вершковому соусі з неймовірно ніжним лососем слабосоленим, томленими томатами чері, моцарелою та пармезаном.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 275.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з куркою та шпинатом</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста лінгвіні у вершковому соусі з ніжною курочкою, тушкованим шпинатом, томатами чері та пармезаном.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 230.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Паста з куркою та в'яленими томатами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Паста лінгвіні, приготована на курячому бульйоні з соусом песто, в'яленими томатами, ніжною курочкою та пармезаном.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Крем-суп</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Броколі чи грибний? Що обрати?</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 145.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Курячий бульйон</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячий бульйон з локшиною, курячим філе, перепелиним яйцем та зеленню, подається зі скибкою пшеничного хліба.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ОСНОВНІ СТРАВИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат цезар з лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Лосось, томати чері, шпинат, айсберг, пармезан, перепелині яйця, соус цезар, грісіні.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 255.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат лосось Філадельфія</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Слабосолений лосось, сир Філадельфія, авокадо, томати Чері, крем сир з італійськими травами, шпинат, айсберг, медовий соус.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 240.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат курка авокадо</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курка, авокадо, помідор, фета, журавлина, соус медовий, айсберг, шпинат.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 215.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Цезар з куркою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Усім відомий салат у склад якого входить: листя салату, куряче філе, томати Чері, перепелинні яйця, хрусткі грінки, Пармезан та соус Цезар.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 210.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат з теплим  тофу</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир тофу, листя салату, соус теріякі, авокадо, хумус, чері.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Грецький</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Такий свіжий овочевий салатик. Саме те у літню пору!</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 165.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> САЛАТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сендвіч з шинкою та в'яленими томатами</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Дві скибки хліба із шинкою, сиром чедер, в'яленими томатами, соус рукола, томатами чері, мікрогрін.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 250.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сендвіч з лососем</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб солодовий, лосось, крем-сир, італійські трави, огірок, помідор, вершки, соус цезар, томати чері, мікрогрін.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 220.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гарячий сендвіч з індичкою та сиром</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Підсмажений хліб з індичкою, маринованими огірочками, сиром маасдам, помідорами чері, мікрогріном та соусом Цезар.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сендвіч курка песто</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пшеничний хліб, моцарелла, куряче філе, вершки, сир чедр, песто, в'ялені томати, сушений тим'ян, мікрогрін, чтомати чері.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 198.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мелт з салямі</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб бріош, соус цезар, салямі, моцарела, помідор.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мелт з шинкою</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Хліб бріош, соус цезар, моцарела, шинка, кукурудза.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 150.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СЕНДВІЧІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Три молока</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний бісквіт, пропитаний трьома видами молока і вершками.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 120.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тірамісу</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Десерт на основі сиру маскарпоне, як наповнювач додається печиво «савоярді», кава та какао.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 103.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бите скло</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Десерт як з дитинства додасть солодких барв у цю буденність.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирне печиво</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Власного виробництва сирне печиво, яке так смакує до кави.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 96.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Горішки із згущеним молоком</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Усім звичні і такі смачні горішки зі згущеним молоком нашого виробництва.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 89.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Арахісове печиво</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Власного виробництва арахісове печиво, яке так смакує до кави.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Печиво з шоколадом та журавлиною</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Власного виробництва печиво з шоколадом та журавлиною, яке так смакує до кави.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 85.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДЕСЕРТИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Цукерки корисні асорті</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мигдаль, гарбуз, капучіно, кунжут, арахіс, кокос.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 130.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Корисні</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Корисні шоколадки</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Шоколад без цукру</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Корисні</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Корисні цукерки</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Цукерки без цукру</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Корисні</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Мокачино (400мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Кавово шоколадний напій який готується на основі капучино з додаванням какао.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Раф (400мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний напій з додаванням нагрітих вершків , невеликої кількості піни в одну порцію еспресо</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Какао (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Улюблене какао для любителів солоденьких напоїв.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 100.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Лате (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний напій, який складається з добре збитого молока яке додають у дві порції еспресо.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 94.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Капучино (500мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Класичний напій, який складається з двох порцій еспресо до яких додають добре збите молоко.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 94.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Флет вайт (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Додавання спіненого молока з мінімальною кількістю піни в подвійну порцію еспресо.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 82.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо з молоком (400мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний напій з двома порціями еспресо, з додаванням окропу і молока.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо (400мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Міцний, ароматний напій з двома порціями еспресо із додаванням окропу.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо з молоком (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ароматний напій з однією порцією еспресо, з додаванням окропу і молока.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 57.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Американо (250мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Міцний, ароматний напій з однією еспресо із додаванням окропу.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 48.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> КАВА</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбуча гранат</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ  НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбуча яблуко та груша</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ  НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Комбуча класична</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 110.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ  НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бонаква негазована</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 33.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ХОЛОДНІ  НАПОЇ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фреш апельсин-грейпфрут (300мл)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Корисний фреш із свіжих фруктів.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 180.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ФРЕШІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун малина (25г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний десерт, який принесе задоволення на весь день.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ МАЛІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун бабл-гам (25г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний десерт, який принесе задоволення на весь день.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ МАЛІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун м'ята (25г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Ніжний десерт, який принесе задоволення на весь день.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 35.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ МАЛІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун орео</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун снікерс</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун фісташка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун малина</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун вишня</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун солена карамель</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун диня</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 65.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ПРЕМІУМ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун банан</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун диня</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун фісташка</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун м'ята</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун лісова ягода</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун ваніль</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Макарун шоколад</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 75.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> МАКАРУНИ ВЕЛИКІ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> На мигдальному молоці</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 27.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> На кокосовому молоці</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 27.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> На соєвому молоці</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 27.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> на безлактозному молоці</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 21.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сироп з карамеллю</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 10.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сироп ванільний</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 10.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сироп солена карамель</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 10.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
+                <hr>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сироп лісовий горіх</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 10.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ДОДАТКИ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

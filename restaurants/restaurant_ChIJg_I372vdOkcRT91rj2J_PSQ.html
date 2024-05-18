@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6TYGBB8VV');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kumpel / Кумпель на Митній</title>
@@ -8,10 +31,9 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
             background-color: #f8f8f8;
         }
-        .container {
+        .container_ {
             max-width: 800px;
             margin: 0 auto;
             background: #fff;
@@ -41,8 +63,39 @@
         }
     </style>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <a class="navbar-brand" href="index.html" style="font-family: Montserrat; color: black">
+            <img src="../Photo/Logo_var5.png" alt="Logo"  id="logo">
+            Hozu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Montserrat;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../design.html">Дизайн застосунку</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../map.html">Карта Закладів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../restaurants.html">Заклади</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../events.html">Події</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 </head>
 <body>
+<main class="container_" style="font-family: Montserrat">
+    <section class="py-5">
     <div class="container">
         <a href="../restaurants.html" class="back-link">← Повернутись до ресторанів</a><img src="../Photos/364.png" alt="Restaurant Image">
         <h1>Kumpel / Кумпель на Митній</h1>
@@ -63,223 +116,244 @@
         <p><strong>Неділя:</strong> 10:00:00 - 22:00:00</p>
 
 
-        <!-- Додано блок для виведення інформації про меню -->
-
-    <h2>Меню</h2>
-                <p><strong>Позиція:</strong> Серця у кленовому сиропі з чилі (200г)</p>
-                <p><strong>Опис:</strong> Курячі серця в кленовому сиропі з перцем чилі</p>
-                <p><strong>Ціна:</strong> 179.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+        <h2 style="font-family: Montserrat">Меню</h2>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Серця у кленовому сиропі з чилі (200г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Курячі серця в кленовому сиропі з перцем чилі</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 179.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гострі курячі крила  (400г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 179.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гострі курячі крила  (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 179.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хрумкі курячі крильця (400г)</p>
-                <p><strong>Опис:</strong> Подаються з соусом BBQ</p>
-                <p><strong>Ціна:</strong> 179.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хрумкі курячі крильця (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаються з соусом BBQ</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 179.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Фісташки  (100г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Фісташки  (100г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сало власного приготування (330г)</p>
-                <p><strong>Опис:</strong> Cало гарячого засолювання, квасні огірки, гірчиця, грінки</p>
-                <p><strong>Ціна:</strong> 139.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сало власного приготування (330г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Cало гарячого засолювання, квасні огірки, гірчиця, грінки</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 139.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Картопляні діпи з соусом чеддер (250г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 134.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Картопляні діпи з соусом чеддер (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 134.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирні бомбочки (260г)</p>
-                <p><strong>Опис:</strong> Подаються з ягідним соусом</p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирні бомбочки (260г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаються з ягідним соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Оселедець з печеною картоплею (280г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Оселедець з печеною картоплею (280г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сир фрі з ягідним соусом ( 250г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 129.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сир фрі з ягідним соусом ( 250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 129.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Грінки до крафтового (150г)</p>
-                <p><strong>Опис:</strong> Житні грінки з часниковим соусом</p>
-                <p><strong>Ціна:</strong> 59.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Грінки до крафтового (150г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Житні грінки з часниковим соусом</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 59.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирна радіація (50г)</p>
-                <p><strong>Опис:</strong> Пшеничні снеки з сирною посипкою</p>
-                <p><strong>Ціна:</strong> 59.0</p>
-                <p><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирна радіація (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Пшеничні снеки з сирною посипкою</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 59.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ЗАКУСКИ ДО ПИВА</p>
                 <hr>
-                <p><strong>Позиція:</strong> Боул Шаварма (390г)</p>
-                <p><strong>Опис:</strong> Рвана яловичина на подушці із пекінської капусти та картоплі фрі, з часниковим та гострими соусами з табаско, грецьким йогуртом, сиром фета, хрумкою цибулею, зеленню</p>
-                <p><strong>Ціна:</strong> 219.0</p>
-                <p><strong>Тип:</strong> БОУЛИ ТА САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Боул Шаварма (390г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рвана яловичина на подушці із пекінської капусти та картоплі фрі, з часниковим та гострими соусами з табаско, грецьким йогуртом, сиром фета, хрумкою цибулею, зеленню</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 219.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ ТА САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Нецезар з куркою (300г)</p>
-                <p><strong>Опис:</strong> Салат айсберг, салат ромен, куряче філе, томати черрі,сир пармезан, заправка Нецезар, хлібні чіпси</p>
-                <p><strong>Ціна:</strong> 175.0</p>
-                <p><strong>Тип:</strong> БОУЛИ ТА САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Нецезар з куркою (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Салат айсберг, салат ромен, куряче філе, томати черрі,сир пармезан, заправка Нецезар, хлібні чіпси</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 175.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ ТА САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат зелений з Фетою (250г)</p>
-                <p><strong>Опис:</strong> Рукола, салат Айсберг, Фета, томати черрі, маслини, оливки, насіння соняшника, гарбуза та льону, заправка вінегрет</p>
-                <p><strong>Ціна:</strong> 166.0</p>
-                <p><strong>Тип:</strong> БОУЛИ ТА САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат зелений з Фетою (250г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Рукола, салат Айсберг, Фета, томати черрі, маслини, оливки, насіння соняшника, гарбуза та льону, заправка вінегрет</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 166.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ ТА САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Салат Норвезький (300г)</p>
-                <p><strong>Опис:</strong> Оселедець, салат ромен, картопля варена, карамелізовані яблука, перепелині яйця, цибуля червона, кріп, зелена цибуля, соус гірчично-сметанковий з додаванням теріякі, майонез власного приготування, грінки з чорного хліба</p>
-                <p><strong>Ціна:</strong> 161.0</p>
-                <p><strong>Тип:</strong> БОУЛИ ТА САЛАТИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Салат Норвезький (300г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Оселедець, салат ромен, картопля варена, карамелізовані яблука, перепелині яйця, цибуля червона, кріп, зелена цибуля, соус гірчично-сметанковий з додаванням теріякі, майонез власного приготування, грінки з чорного хліба</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 161.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> БОУЛИ ТА САЛАТИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Борщ червоний (350г)</p>
-                <p><strong>Опис:</strong> Подається зі сметаною та зеленю</p>
-                <p><strong>Ціна:</strong> 149.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Борщ червоний (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подається зі сметаною та зеленю</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 149.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бульйон курячий  з тальятелле (350г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 109.0</p>
-                <p><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бульйон курячий  з тальятелле (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 109.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> ПЕРШІ СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Дабл Котлетос (610г)</p>
-                <p><strong>Опис:</strong> Булка крафтова, дві котлети з яловичини, сир чеддер, цибуля фрі, томат, огірок квашений, соусо до бургера, картопля фрі, соус BBQ.</p>
-                <p><strong>Ціна:</strong> 269.0</p>
-                <p><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Дабл Котлетос (610г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка крафтова, дві котлети з яловичини, сир чеддер, цибуля фрі, томат, огірок квашений, соусо до бургера, картопля фрі, соус BBQ.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 269.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Sweet Chilli  (550г)</p>
-                <p><strong>Опис:</strong> Булка крафтова, яловича котлета, сир чеддер, перець чилі, томат, рукола, чипси з бекону, соус солодкий чилі, картопля фрі, соус BBQ.</p>
-                <p><strong>Ціна:</strong> 259.0</p>
-                <p><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Sweet Chilli  (550г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка крафтова, яловича котлета, сир чеддер, перець чилі, томат, рукола, чипси з бекону, соус солодкий чилі, картопля фрі, соус BBQ.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 259.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Рвань (550г)</p>
-                <p><strong>Опис:</strong> Булка крафтова, рвана яловичина, соус чеддер, маринована цибуля, листя айсбергу, огірок квашений, томат, соус до бургера, картопля фрі, соус BBQ.</p>
-                <p><strong>Ціна:</strong> 259.0</p>
-                <p><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Рвань (550г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка крафтова, рвана яловичина, соус чеддер, маринована цибуля, листя айсбергу, огірок квашений, томат, соус до бургера, картопля фрі, соус BBQ.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 259.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Pulled pork (540г)</p>
-                <p><strong>Опис:</strong> Булка крафтова, рвана свинина приготована в американському стилі BBQ, перець халапеньйо, сир чеддер, беконовий джем, вишневий соус, томат, огірок квашений, хрумка цибуля, соус до бургера, картопля фрі, соус BBQ.</p>
-                <p><strong>Ціна:</strong> 254.0</p>
-                <p><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Pulled pork (540г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка крафтова, рвана свинина приготована в американському стилі BBQ, перець халапеньйо, сир чеддер, беконовий джем, вишневий соус, томат, огірок квашений, хрумка цибуля, соус до бургера, картопля фрі, соус BBQ.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 254.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер СМС (450г)</p>
-                <p><strong>Опис:</strong> Булка крафтова, куряче філе, сир чеддер, айсберг, соус сирний, соус грибний з трюфельною олією, картопля фрі, соус BBQ.</p>
-                <p><strong>Ціна:</strong> 249.0</p>
-                <p><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер СМС (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка крафтова, куряче філе, сир чеддер, айсберг, соус сирний, соус грибний з трюфельною олією, картопля фрі, соус BBQ.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 249.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Бургер Cheeesee (480г)</p>
-                <p><strong>Опис:</strong> Булка крафтова, сир моцарела фрі, сир чеддер, печериці фрі, томат, рукола, соус песто, соус грибний з трюфельною олією, картопля фрі, соус чеддер.</p>
-                <p><strong>Ціна:</strong> 239.0</p>
-                <p><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Бургер Cheeesee (480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Булка крафтова, сир моцарела фрі, сир чеддер, печериці фрі, томат, рукола, соус песто, соус грибний з трюфельною олією, картопля фрі, соус чеддер.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 239.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO БУРГЕРИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра свинячі у соусі BBQ (650г)</p>
-                <p><strong>Опис:</strong> Подаються з запеченою картоплею та соусом BBQ.</p>
-                <p><strong>Ціна:</strong> 419.0</p>
-                <p><strong>Тип:</strong> RE:BRO СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра свинячі у соусі BBQ (650г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаються з запеченою картоплею та соусом BBQ.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 419.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра свинячі у гірчично-медовому соусі (600г)</p>
-                <p><strong>Опис:</strong> Подаються з запеченою картоплею.</p>
-                <p><strong>Ціна:</strong> 419.0</p>
-                <p><strong>Тип:</strong> RE:BRO СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра свинячі у гірчично-медовому соусі (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаються з запеченою картоплею.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 419.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра свинячі  у гостро-солодкому соусі (600г)</p>
-                <p><strong>Опис:</strong> Подаются з салатом хіяші вакаме.</p>
-                <p><strong>Ціна:</strong> 419.0</p>
-                <p><strong>Тип:</strong> RE:BRO СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра свинячі  у гостро-солодкому соусі (600г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаются з салатом хіяші вакаме.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 419.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра свинячі у вишневому соусі (650г)</p>
-                <p><strong>Опис:</strong> Подаються з запеченою картоплею та соусом.</p>
-                <p><strong>Ціна:</strong> 419.0</p>
-                <p><strong>Тип:</strong> RE:BRO СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра свинячі у вишневому соусі (650г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаються з запеченою картоплею та соусом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 419.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Стейк яловичий Особуко (480г)</p>
-                <p><strong>Опис:</strong> Яловичий стейк Особуко з картоплею по-селянськи, рукола, томати черрі, грінки.</p>
-                <p><strong>Ціна:</strong> 299.0</p>
-                <p><strong>Тип:</strong> RE:BRO СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Стейк яловичий Особуко (480г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Яловичий стейк Особуко з картоплею по-селянськи, рукола, томати черрі, грінки.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 299.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра свинячі у соусі BBQ (400г)</p>
-                <p><strong>Опис:</strong> Подаются з запеченою картоплею та соусом BBQ.</p>
-                <p><strong>Ціна:</strong> 249.0</p>
-                <p><strong>Тип:</strong> RE:BRO СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра свинячі у соусі BBQ (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаются з запеченою картоплею та соусом BBQ.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 249.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра свинячі у гірчично-медовому соусі (350г)</p>
-                <p><strong>Опис:</strong> Подаються з запеченою картоплею.</p>
-                <p><strong>Ціна:</strong> 249.0</p>
-                <p><strong>Тип:</strong> RE:BRO СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра свинячі у гірчично-медовому соусі (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаються з запеченою картоплею.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 249.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра свинячі  у гостро-солодкому соусі (350г)</p>
-                <p><strong>Опис:</strong> Подаються з салатом хіяші вакаме.</p>
-                <p><strong>Ціна:</strong> 249.0</p>
-                <p><strong>Тип:</strong> RE:BRO СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра свинячі  у гостро-солодкому соусі (350г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаються з салатом хіяші вакаме.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 249.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Ребра свинячі у вишневому соусі (400г)</p>
-                <p><strong>Опис:</strong> Подаються з запеченою кратоплею та соусом.</p>
-                <p><strong>Ціна:</strong> 249.0</p>
-                <p><strong>Тип:</strong> RE:BRO СТРАВИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Ребра свинячі у вишневому соусі (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Подаються з запеченою кратоплею та соусом.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 249.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> RE:BRO СТРАВИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Хачапурі з м'ясом від шефа (500г)</p>
-                <p><strong>Опис:</strong> Мікс сирів, гриль соус, рвана яловичина.</p>
-                <p><strong>Ціна:</strong> 259.0</p>
-                <p><strong>Тип:</strong> СТРАВИ З ПОДОВОЇ ПЕЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Хачапурі з м'ясом від шефа (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мікс сирів, гриль соус, рвана яловичина.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 259.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ З ПОДОВОЇ ПЕЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца сирна (400г)</p>
-                <p><strong>Опис:</strong> Сир пармезан, моцарела, дорблю, фета, вершковий соус.</p>
-                <p><strong>Ціна:</strong> 194.0</p>
-                <p><strong>Тип:</strong> СТРАВИ З ПОДОВОЇ ПЕЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца сирна (400г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир пармезан, моцарела, дорблю, фета, вершковий соус.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 194.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ З ПОДОВОЇ ПЕЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца зелена з фетою (450г)</p>
-                <p><strong>Опис:</strong> Сир фета, оливки, маслини, рукола, томати черрі, соус песто.</p>
-                <p><strong>Ціна:</strong> 189.0</p>
-                <p><strong>Тип:</strong> СТРАВИ З ПОДОВОЇ ПЕЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца зелена з фетою (450г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Сир фета, оливки, маслини, рукола, томати черрі, соус песто.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 189.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ З ПОДОВОЇ ПЕЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Піца мисливська з перцем чилі (500г)</p>
-                <p><strong>Опис:</strong> Мисливські ковбаски, перець чилі, сир моцарела, соус гриль.</p>
-                <p><strong>Ціна:</strong> 184.0</p>
-                <p><strong>Тип:</strong> СТРАВИ З ПОДОВОЇ ПЕЧІ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Піца мисливська з перцем чилі (500г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> Мисливські ковбаски, перець чилі, сир моцарела, соус гриль.</p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 184.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СТРАВИ З ПОДОВОЇ ПЕЧІ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирники з солоною карамеллю (180г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 119.0</p>
-                <p><strong>Тип:</strong> Сніданок</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирники з солоною карамеллю (180г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 119.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> Сніданок</p>
                 <hr>
-                <p><strong>Позиція:</strong> BBQ соус (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> BBQ соус (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Гострий гриль соус (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Гострий гриль соус (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Сирний соус (50г)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 30.0</p>
-                <p><strong>Тип:</strong> СОУСИ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Сирний соус (50г)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 30.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> СОУСИ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Тонік (0,25л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 49.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Тонік (0,25л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 49.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Pepsi (0,33л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 39.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Pepsi (0,33л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 39.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr>
-                <p><strong>Позиція:</strong> Mirinda  (0,33л)</p>
-                <p><strong>Опис:</strong> </p>
-                <p><strong>Ціна:</strong> 39.0</p>
-                <p><strong>Тип:</strong> НАПОЇ</p>
+                <p style="font-family: Montserrat"><strong>Позиція:</strong> Mirinda  (0,33л)</p>
+                <p style="font-family: Montserrat"><strong>Опис:</strong> </p>
+                <p style="font-family: Montserrat"><strong>Ціна:</strong> 39.0</p>
+                <p style="font-family: Montserrat"><strong>Тип:</strong> НАПОЇ</p>
                 <hr></div>
+    </section>
+</main>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <p style="font-family: Montserrat;">&copy; 2024 Hozu. Усі права захищені.</p>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://t.me/pashashev" target="_blank" class="text-white">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/99bruno" target="_blank" class="text-white">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
