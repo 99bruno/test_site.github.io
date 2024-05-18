@@ -164,6 +164,11 @@ nav {
     height: 3px;
     background-color: white;
     margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-active {
+    display: flex;
 }
 
 @media (max-width: 768px) {
@@ -171,6 +176,10 @@ nav {
         display: none;
         flex-direction: column;
         width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
     }
 
     .nav-links li {
@@ -184,4 +193,14 @@ nav {
     }
 }
 
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
 
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
