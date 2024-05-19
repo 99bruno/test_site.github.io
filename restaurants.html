@@ -45,9 +45,9 @@
                     restaurantItem.className = 'restaurant-item';
                     restaurantItem.innerHTML = `
                         <h2 style="font-family: Montserrat"><a href="restaurants/restaurant_${restaurant.Google_ID}.html">${restaurant.Name}</a></h2>
-                        <p style="font-family: Montserrat">Address: ${restaurant.Address}</p>
-                        <p style="font-family: Montserrat">Open time: ${restaurant['Monday Open time']}</p>
-                        <p style="font-family: Montserrat">Overall price level: ${restaurant['Overall price level']}</p>
+                        <p style="font-family: Montserrat">Адреса: ${restaurant.Address}</p>
+                        <p style="font-family: Montserrat">Години роботи: ${restaurant['Monday Open time'] ? restaurant['Monday Open time'].slice(0, -3) : 'Немає даних'} - ${restaurant['Monday Close time'] ? restaurant['Monday Close time'].slice(0, -3) : 'Немає даних'}</p>
+                        <p style="font-family: Montserrat">Цінова політика: ${restaurant['Overall price level']}</p>
                     `;
                     restaurantList.appendChild(restaurantItem);
                 });
@@ -233,10 +233,10 @@
                     <a class="nav-link" href="index.html">Про нас</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="design.html">Дизайн застосунку</a>
+                    <a class="nav-link" target="_blank" href="https://www.figma.com/proto/ta99Ii6xkr7PUQIp7py6PW/hozu?node-id=929-17370&t=gysTiXC1riIX2y52-1&scaling=scale-down&page-id=929%3A10205&starting-point-node-id=929%3A17370&show-proto-sidebar=1">Дизайн застосунку</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="map.html">Карта Закладів</a>
+                    <a class="nav-link" href="map.html">Карта закладів</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="restaurants.html">Заклади</a>
@@ -255,7 +255,7 @@
     <section class="py-5">
         <div class="rest_cont">
             <div class="header">
-                <h1 style="font-family: Montserrat">Перелік Ресторанів</h1><br>
+                <h1 style="font-family: Montserrat">Перелік ресторанів</h1><br>
             </div>
 
             <div class="search-container">
