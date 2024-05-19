@@ -3,14 +3,14 @@
 <head>
     <link rel="icon" sizes="16x16" href="Photo/Logo_var5.png" style="border-radius: 20px;">
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6TYGBB8VV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-T6TYGBB8VV');
-</script>
+        gtag('config', 'G-T6TYGBB8VV');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Події</title>
@@ -31,13 +31,13 @@
                     events = results.data;
                     console.log('CSV parsing complete.', events);
                     populateFilters(events);
-                    displayRestaurants(events);
+                    displayEvents(events);
                     addSearchFunctionality(events);
                     addFilterFunctionality(events);
                 }
             });
 
-            function displayRestaurants(events) {
+            function displayEvents(events) {
                 const EventsList = document.getElementById('restaurant-list');
                 EventsList.innerHTML = ''; // Clear existing list
                 events.forEach(event => {
@@ -45,20 +45,21 @@
                     EventsItem.className = 'event-item';
                     EventsItem.innerHTML = `
                         <h2 style="font-family: Montserrat"><a href="events/event_${event.Name}.html">${event.Name}</a></h2>
-                        <p style="font-family: Montserrat">Адереса: ${event.Place}</p>
+                        <p style="font-family: Montserrat">Адреса: ${event.Place}</p>
                         <p style="font-family: Montserrat">Дата: ${event['Start time'] ? event['Start time'].slice(0, -3) : 'Немає даних'}</p>
                         <p style="font-family: Montserrat">Ціна: ${event['Prices lower']} - ${event['Prices upper']}</p>`;
+                    EventsItem.setAttribute('data-date', event['Start time'] ? event['Start time'].split(' ')[0] : '');
                     EventsList.appendChild(EventsItem);
-                })};
-
+                });
+            }
 
             function addSearchFunctionality(events) {
                 const searchInput = document.getElementById('search');
                 searchInput.addEventListener('input', function () {
                     const query = searchInput.value.toLowerCase();
-                    const filteredEvents = filterRestaurants(events, query, getFilterValues());
-                    console.log('Filtered restaurants:', filteredEvents);
-                    displayRestaurants(filteredEvents);
+                    const filteredEvents = filterEvents(events, query, getFilterValues());
+                    console.log('Filtered events:', filteredEvents);
+                    displayEvents(filteredEvents);
                 });
             }
 
@@ -73,18 +74,29 @@
                 filterInputs.forEach(input => {
                     input.addEventListener('change', function () {
                         const query = document.getElementById('search').value.toLowerCase();
-                        const filteredEvents = filterRestaurants(events, query, getFilterValues());
-                        console.log('Filtered restaurants:', filteredEvents);
-                        displayRestaurants(filteredEvents);
+                        const filteredEvents = filterEvents(events, query, getFilterValues());
+                        console.log('Filtered events:', filteredEvents);
+                        displayEvents(filteredEvents);
                     });
                 });
             }
 
+            document.getElementById('eventDateFilter').addEventListener('change', function() {
+                const filterDate = new Date(this.value);
+                const events = document.querySelectorAll('.event-item');
+
+                events.forEach(event => {
+                    const eventDate = new Date(event.getAttribute('data-date'));
+                    if (eventDate.toDateString() === filterDate.toDateString()) {
+                        event.style.display = 'block';
+                    } else {
+                        event.style.display = 'none';
+                    }
+                });
+            });
+
             function populateFilters(events) {
-
                 const places = [...new Set(events.map(r => r.Place))].sort();
-
-
                 const areaSelect = document.getElementById('filter-area');
                 places.forEach(area => {
                     const option = document.createElement('option');
@@ -97,70 +109,19 @@
             function getFilterValues() {
                 return {
                     area: document.getElementById('filter-area').value,
-                    hours: document.getElementById('filter-hours').value
+                    date: document.getElementById('eventDateFilter').value
                 };
             }
 
-            function filterRestaurants(events, query, filters) {
+            function filterEvents(events, query, filters) {
                 return events.filter(event => {
                     const matchesSearch = (event.Name && event.Name.toLowerCase().includes(query)) ||
                                           (event.Place && event.Place.toLowerCase().includes(query));
                     const matchesArea = !filters.area || event.Place === filters.area;
-                    const matchesHours = !filters.hours || compareHours(event, filters.hours);
+                    const matchesDate = !filters.date || new Date(event['Start time'].split(' ')[0]).toDateString() === new Date(filters.date).toDateString();
 
-                    return matchesSearch && matchesArea && matchesHours;
+                    return matchesSearch && matchesArea && matchesDate;
                 });
-            }
-
-            function timeToMinutes_parser(dateTimeString) {
-                console.log(typeof dateTimeString)
-                if (typeof dateTimeString !== 'string') {
-        console.error('Invalid input: dateTimeString is not a string');
-        return 0;
-    }
-
-    // Розділяємо дату та час
-    const dateTimeParts = dateTimeString.split(' ');
-    if (dateTimeParts.length !== 2) {
-        console.error('Invalid dateTimeString format', dateTimeString);
-        return 0;
-    }
-
-    // Витягуємо частину часу
-    const timePart = dateTimeParts[1];
-    // Розділяємо час на години та хвилини
-    const timeParts = timePart.split(':');
-    if (timeParts.length < 2) {
-        console.error('Invalid time format', timePart);
-        return 0;
-    }
-
-    const hours = parseInt(timeParts[0], 10);
-    const minutes = parseInt(timeParts[1], 10);
-
-    // Перевіряємо, чи години та хвилини є коректними числами
-    if (isNaN(hours) || isNaN(minutes)) {
-        console.error('Invalid time values', timePart);
-        return 0;
-    }
-
-    // Перетворюємо години на хвилини та додаємо хвилини
-    return (hours * 60) + minutes;
-}
-
-
-            function compareHours(event, hours) {
-                const minOpenTime = timeToMinutes_parser(event[`Start time`]);
-                const minCloseTime = timeToMinutes_parser(event[`End time`]);
-
-                const filterTime = timeToMinutes(hours);
-                return minOpenTime <= filterTime <= minCloseTime;
-            }
-
-            function timeToMinutes(time) {
-                if (!time) return Infinity;
-                const [hour, minute] = time.split(':').map(Number);
-                return hour * 60 + minute;
             }
         });
     </script>
@@ -178,9 +139,7 @@
             padding-right: 15%;
             padding-left: 15%;
             background-color: #f8f8f8;
-
         }
-
         .header {
             text-align: center;
             margin-bottom: 0px;
@@ -221,7 +180,6 @@
         .filter-button-container {
             text-align: center;
             margin-bottom: 20px;
-
         }
         .filter-button-container button {
             padding: 10px 30px;
@@ -262,12 +220,9 @@
             </ul>
         </div>
     </nav>
-
 </head>
 <body>
-
 <main class="container">
-
     <div class="rest_cont" style="font-family: Montserrat">
         <section class="py-5">
             <div class="header">
@@ -276,7 +231,6 @@
             <div class="search-container">
                 <input type="text" id="search" placeholder="Пошук за подіями...">
             </div>
-
             <div class="filter-button-container">
                 <button id="filter-button">Фільтр</button>
             </div>
@@ -284,12 +238,11 @@
                 <select id="filter-area">
                     <option value="">Місце</option>
                 </select>
-                <input type="time" id="filter-hours" placeholder="Open Hours">
+                <input type="date" id="eventDateFilter" placeholder="Фільтр за датою">
             </div>
             <div id="restaurant-list"></div>
         </section>
     </div>
-
 </main>
 
 <div class="support-icon">
